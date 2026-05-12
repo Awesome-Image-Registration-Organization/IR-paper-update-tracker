@@ -81,7 +81,7 @@ def main():
         "OR 2.0/CARE/CLIP/ISIC@MICCAI": "MICCAI",
     }
 
-    # Display name -> category
+    # Display name -> category (used only for filtering unknown venues)
     CATEGORY_MAP = {
         "IJCAI": "Artificial Intelligence",
         "AAAI": "Artificial Intelligence",
@@ -169,8 +169,17 @@ def main():
         "Others": ["ICSE", "FOCS", "STOC"],
     }
 
-    # Aggregate: category -> year -> venue -> [papers]
-    aggregated = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
+    # Flatten venue order into a single global list for sorting
+    ALL_VENUE_ORDER = []
+    seen_venues = set()
+    for cat in CATEGORY_ORDER:
+        for v in VENUE_ORDER.get(cat, []):
+            if v not in seen_venues:
+                ALL_VENUE_ORDER.append(v)
+                seen_venues.add(v)
+
+    # Aggregate: year -> venue -> [papers]
+    aggregated = defaultdict(lambda: defaultdict(list))
     unknown_venues = set()
 
     for topic, papers in data.items():
@@ -197,7 +206,7 @@ def main():
             except (ValueError, TypeError):
                 continue
 
-            aggregated[category][year][venue].append(paper)
+            aggregated[year][venue].append(paper)
 
     if unknown_venues:
         print("[WARN] Unknown venues (skipped):")
@@ -213,39 +222,36 @@ def main():
         has_keywords = any(kw in t.lower() for kw in ['abstract', 'poster'])
         return has_brackets or has_keywords
 
+    venue_order_map = {v: i for i, v in enumerate(ALL_VENUE_ORDER)}
+
     # Build Markdown
     lines = []
     lines.append("# IR Papers\n")
 
-    for category in CATEGORY_ORDER:
-        if category not in aggregated:
-            continue
-        lines.append(f"## {category}\n")
-        years = sorted(aggregated[category].keys(), reverse=True)
-        for year in years:
-            lines.append(f"### {year}\n")
-            venue_order_map = {v: i for i, v in enumerate(VENUE_ORDER.get(category, []))}
-            venues = sorted(
-                aggregated[category][year].keys(),
-                key=lambda v: (venue_order_map.get(v, 999), v)
+    years = sorted(aggregated.keys(), reverse=True)
+    for year in years:
+        lines.append(f"## {year}\n")
+        venues = sorted(
+            aggregated[year].keys(),
+            key=lambda v: (venue_order_map.get(v, 999), v)
+        )
+        for venue in venues:
+            lines.append(f"### {venue}\n")
+            papers = aggregated[year][venue]
+            papers_sorted = sorted(
+                papers,
+                key=lambda p: (1 if is_low_priority(p.get("title", "")) else 0, p.get("title", "").lower())
             )
-            for venue in venues:
-                lines.append(f"#### {venue}\n")
-                papers = aggregated[category][year][venue]
-                papers_sorted = sorted(
-                    papers,
-                    key=lambda p: (1 if is_low_priority(p.get("title", "")) else 0, p.get("title", "").lower())
-                )
-                for paper in papers_sorted:
-                    title = paper.get("title", "").strip()
-                    ee = paper.get("ee", "").strip()
-                    # Avoid double periods if title already ends with a dot
-                    suffix = "" if title.endswith(".") else "."
-                    if ee:
-                        lines.append(f"- {title}{suffix} [[PUB]({ee})]")
-                    else:
-                        lines.append(f"- {title}{suffix}")
-                lines.append("")
+            for paper in papers_sorted:
+                title = paper.get("title", "").strip()
+                ee = paper.get("ee", "").strip()
+                # Avoid double periods if title already ends with a dot
+                suffix = "" if title.endswith(".") else "."
+                if ee:
+                    lines.append(f"- {title}{suffix} [[PUB]({ee})]")
+                else:
+                    lines.append(f"- {title}{suffix}")
+            lines.append("")
 
     # Write output
     with open(output_path, "w", encoding="utf-8") as f:
