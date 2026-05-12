@@ -1,4 +1,4 @@
-# Agent Guidance for FL-paper-update-tracker
+# Agent Guidance for IR-paper-update-tracker
 
 > This file is intended for automated coding agents (and human maintainers) who need to understand, modify, or extend the project. Keep it up-to-date whenever architecture, logic, or conventions change.
 
@@ -95,15 +95,17 @@
 ```yaml
 dblp:
   url: https://dblp.org/search/publ/api?q={}&format=json&h=1000
-  topics:
-    - "registra%20venue%3AIJCAI%3A"
+  keyword: registra
+  queries:
+    - "venue:IJCAI:"
     - ...
   mails:
     - "im.young@foxmail.com"
 ```
-- `topics`: Each topic is a URL-encoded DBLP search query. The first word (`registra`) is the keyword; the rest restricts the venue.
+- `keyword`: Search keyword prepended to every DBLP query.
+- `queries`: Plain (not URL-encoded) DBLP venue restrictions; `src/main.py` combines `keyword + query` and URL-encodes at runtime.
 - `mails`: The first email address (`mails[0]`) is used as the `contact_email` for the Crossref API User-Agent (`mailto:...`), which is recommended for polite API access. Additional addresses are reserved for future mail-notification features.
-- **Agent Note**: When adding a new venue, find its DBLP query syntax (venue code or stream ID) and URL-encode it.
+- **Agent Note**: When adding a new venue, find its DBLP query syntax (venue code or stream ID) and append it to `dblp.queries` in plain form.
 
 ## Maintenance Notes
 

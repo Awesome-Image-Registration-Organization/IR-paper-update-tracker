@@ -350,7 +350,7 @@ def is_title_match(api_title: str, paper_title: str, threshold: float = 0.70) ->
 def _fetch_crossref_abstract(doi: str, last_request_time: float, min_interval: float = 1.0, max_retries: int = 3, contact_email: str = ""):
     """通过 Crossref 获取 abstract，返回 (abstract_or_None, api_title_or_None, last_request_time)。"""
     url = f"https://api.crossref.org/works/{doi}"
-    agent = f"FL-paper-update-tracker/1.0 (mailto:{contact_email})" if contact_email else "FL-paper-update-tracker/1.0"
+    agent = f"IR-paper-update-tracker/1.0 (mailto:{contact_email})" if contact_email else "IR-paper-update-tracker/1.0"
     headers = {"User-Agent": agent}
     for attempt in range(1, max_retries + 1):
         try:
@@ -659,7 +659,7 @@ def _fetch_crossref_doi(title: str, last_request_time: float, min_interval: floa
     """通过 Crossref 搜索 API 用标题查找 DOI，返回 (doi_or_None, api_title_or_None, last_request_time)。"""
     encoded_title = urllib.parse.quote(title)
     url = f"https://api.crossref.org/works?query.title={encoded_title}&rows=1"
-    agent = f"FL-paper-update-tracker/1.0 (mailto:{contact_email})" if contact_email else "FL-paper-update-tracker/1.0"
+    agent = f"IR-paper-update-tracker/1.0 (mailto:{contact_email})" if contact_email else "IR-paper-update-tracker/1.0"
     headers = {"User-Agent": agent}
     for attempt in range(1, max_retries + 1):
         try:
