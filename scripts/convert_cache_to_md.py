@@ -4,7 +4,7 @@ Convert cached/dblp.yaml into a structured Markdown file.
 
 NOTE ON DOMAIN SWITCHING ──────────────────────────────────────────────
 The mappings below (VENUE_MAP, CATEGORY_MAP, CATEGORY_ORDER, VENUE_ORDER)
-are tailored to the current research domain (Federated Learning) and the
+are tailored to the current research domain (Image Registration) and the
 venue list in config.yaml. If you change the ``keyword`` in config.yaml
 to track a different domain (e.g. diffusion, LLM), you MUST review and
 update these mappings to match the new venue set and desired categories.
@@ -26,7 +26,7 @@ from collections import defaultdict
 def main():
     repo_root = Path(__file__).resolve().parent.parent
     cache_path = repo_root / "cached" / "dblp.yaml"
-    output_path = repo_root / "FL-Papers.md"
+    output_path = repo_root / "IR-Papers.md"
 
     # Load cache
     with open(cache_path, "r", encoding="utf-8") as f:
@@ -201,7 +201,7 @@ def main():
 
     # Build Markdown
     lines = []
-    lines.append("# FL Papers\n")
+    lines.append("# IR Papers\n")
 
     for category in CATEGORY_ORDER:
         if category not in aggregated:

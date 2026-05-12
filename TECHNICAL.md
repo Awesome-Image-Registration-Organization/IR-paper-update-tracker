@@ -22,8 +22,8 @@
 ### Installation
 
 ```bash
-git clone https://github.com/youngfish42/FL-paper-update-tracker.git
-cd FL-paper-update-tracker
+git clone https://github.com/Awesome-Image-Registration-Organization/IR-paper-update-tracker.git
+cd IR-paper-update-tracker
 pip install -r requirements.txt
 ```
 
@@ -51,7 +51,7 @@ All behavior is controlled by `config.yaml` in the project root.
 ```yaml
 dblp:
   url: https://dblp.org/search/publ/api?q={}&format=json&h=1000
-  keyword: federate
+  keyword: registra
   queries:
     - "venue:IJCAI:"
     - "venue:NeurIPS:"
@@ -65,7 +65,7 @@ dblp:
 | Field | Description |
 |-------|-------------|
 | `dblp.url` | DBLP search API endpoint. `{}` is replaced by the fully-encoded topic query. `h=1000` requests up to 1000 hits. |
-| `dblp.keyword` | The research-domain keyword (e.g. `federate`). This is the **only** field you need to change when switching to a different domain. |
+| `dblp.keyword` | The research-domain keyword (e.g. `registra`). This is the **only** field you need to change when switching to a different domain. |
 | `dblp.queries` | List of plain-text DBLP venue restrictions. The runner automatically URL-encodes each query and prepends `keyword%20` before calling the API. |
 | `dblp.mails` | Reserved for future mail-notification features. Currently unused. |
 
@@ -75,7 +75,7 @@ dblp:
 2. Append the plain query string to `dblp.queries`. For example:
    - `venue:ICML:`
    - `streamid:journals/pami:`
-3. Update `scripts/convert_cache_to_md.py` if you want the new venue to appear under a specific category in `FL-Papers.md`.
+3. Update `scripts/convert_cache_to_md.py` if you want the new venue to appear under a specific category in `IR-Papers.md`.
 4. Update `README.md` (both English and Chinese sections) to list the new venue.
 
 ---
@@ -98,9 +98,9 @@ This repository uses [GitHub Actions](.github/workflows/watch.yml) to run the tr
 2. **Setup Python** – Installs Python 3.8.
 3. **Install Dependencies** – Runs `pip install -r requirements.txt`.
 4. **Run Tracker** – Executes `src/main.py` with `--env=prod`. It assembles each API query from `keyword` + `queries`, fetches results, filters by year, deduplicates by `ee` and by `title`, and updates `cached/dblp.yaml`.
-5. **Update FL-Papers.md** – Runs `scripts/convert_cache_to_md.py` to regenerate the categorized Markdown paper list from the updated cache.
+5. **Update IR-Papers.md** – Runs `scripts/convert_cache_to_md.py` to regenerate the categorized Markdown paper list from the updated cache.
 6. **Setup Var** – Escapes the generated Markdown message for GitHub Actions.
-7. **Push Done Work** – Commits `cached/dblp.yaml` and `FL-Papers.md` back to the `main` branch.
+7. **Push Done Work** – Commits `cached/dblp.yaml` and `IR-Papers.md` back to the `main` branch.
 8. **Create Issue** – If new papers were found, opens a GitHub Issue using `.github/issue-template.md`.
 
 ### Issue Format

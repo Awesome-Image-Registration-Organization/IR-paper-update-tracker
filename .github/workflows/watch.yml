@@ -48,7 +48,7 @@ jobs:
           python scripts/fetch_abstracts.py
         continue-on-error: true
 
-      - name: Update FL-Papers.md
+      - name: Update IR-Papers.md
         run: |
           python scripts/convert_cache_to_md.py
 
