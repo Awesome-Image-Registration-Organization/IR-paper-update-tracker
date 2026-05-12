@@ -16,7 +16,7 @@
 
 ### Prerequisites
 
-- Python 3.8+
+- Python 3.10+
 - pip
 
 ### Installation
@@ -95,7 +95,7 @@ This repository uses [GitHub Actions](.github/workflows/watch.yml) to run the tr
 ### Execution Steps
 
 1. **Checkout** – Clones the repository.
-2. **Setup Python** – Installs Python 3.8.
+2. **Setup Python** – Installs Python 3.10.
 3. **Install Dependencies** – Runs `pip install -r requirements.txt`.
 4. **Run Tracker** – Executes `src/main.py` with `--env=prod`. It assembles each API query from `keyword` + `queries`, fetches results, filters by year, deduplicates by `ee` and by `title`, and updates `cached/dblp.yaml`.
 5. **Update IR-Papers.md** – Runs `scripts/convert_cache_to_md.py` to regenerate the categorized Markdown paper list from the updated cache.
