@@ -40,6 +40,7 @@ def init_log():
 
 
 def init_path(cfg, cfg_path: str):
+    """Initialize paths based on config location (cache dir is sibling of config file)."""
     cfg["cache_path"] = Path(cfg_path).resolve().parent / "cached"
     cfg["cache_path"].mkdir(parents=True, exist_ok=True)
 
