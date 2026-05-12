@@ -41,6 +41,8 @@ No other code changes are required.
 
 **Computer Vision & Multimedia** — CVPR, ICCV, ECCV, ACM MM, IJCV
 
+**Medical Imaging** — MICCAI, Medical Image Analysis (MIA)
+
 **Natural Language Processing** — ACL, NAACL-HLT, EMNLP, COLING
 
 **Security & Privacy** — IEEE S&P, CCS, USENIX Security, NDSS
@@ -115,6 +117,8 @@ dblp:
 **数据挖掘、信息检索与网络** — KDD、WSDM、SIGIR、WWW
 
 **计算机视觉与多媒体** — CVPR、ICCV、ECCV、ACM MM、IJCV
+
+**医学图像** — MICCAI、Medical Image Analysis (MIA)
 
 **自然语言处理** — ACL、NAACL-HLT、EMNLP、COLING
 

@@ -72,6 +72,13 @@ def main():
         "SVM@ICSE": "ICSE",
         "SP": "S&P",
         "SP Workshops": "S&P",
+        # Medical Imaging
+        "Medical Image Anal.": "MIA",
+        "CLIP@MICCAI": "MICCAI",
+        "MIDOG/MOOD/Learn2Reg@MICCAI": "MICCAI",
+        "ML-CDS@MICCAI": "MICCAI",
+        "ASMUS@MICCAI": "MICCAI",
+        "OR 2.0/CARE/CLIP/ISIC@MICCAI": "MICCAI",
     }
 
     # Display name -> category
@@ -127,6 +134,8 @@ def main():
         "ICSE": "Others",
         "FOCS": "Others",
         "STOC": "Others",
+        "MICCAI": "Medical Imaging",
+        "MIA": "Medical Imaging",
     }
 
     CATEGORY_ORDER = [
@@ -135,6 +144,7 @@ def main():
         "Data Mining",
         "Secure",
         "Computer Vision",
+        "Medical Imaging",
         "Natural Language Processing",
         "Information Retrieval",
         "Database",
@@ -150,6 +160,7 @@ def main():
         "Data Mining": ["KDD", "WSDM"],
         "Secure": ["S&P", "CCS", "USENIX Security", "NDSS"],
         "Computer Vision": ["ICCV", "CVPR", "ECCV", "MM", "IJCV"],
+        "Medical Imaging": ["MICCAI", "MIA"],
         "Natural Language Processing": ["ACL", "EMNLP", "NAACL", "COLING"],
         "Information Retrieval": ["SIGIR"],
         "Database": ["SIGMOD", "ICDE", "VLDB"],
@@ -166,7 +177,10 @@ def main():
         if not isinstance(papers, list):
             continue
         for paper in papers:
-            raw_venue = paper.get("venue", "").strip()
+            raw_venue = paper.get("venue", "")
+            if isinstance(raw_venue, list):
+                raw_venue = raw_venue[0] if raw_venue else ""
+            raw_venue = str(raw_venue).strip()
             if not raw_venue:
                 continue
 
