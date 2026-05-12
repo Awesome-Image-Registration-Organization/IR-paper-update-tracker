@@ -9,7 +9,7 @@
 ### High-Level Workflow
 1. GitHub Actions runs the tracker once per day (cron: `0 0 * * *`) and on every push to `main`.
 2. `src/main.py` reads `config.yaml` → takes `dblp.keyword` (e.g. `registra`) and `dblp.queries` (plain venue restrictions), assembles fully URL-encoded DBLP search topics, and queries the DBLP search API.
-3. Extracted paper metadata is **filtered by year** (last 3 years + next 1 year) and **deduplicated by `ee` field**.
+3. Extracted paper metadata is **filtered by year** (last 3 years + next 1 year), **deduplicated by both `ee` and `title`**, and **globally deduplicated across topics** via seen `ee`/`title` sets.
 4. New papers (not yet in `cached/dblp.yaml`) are collected, formatted as Markdown, and written to the `GITHUB_ENV` variable `MSG`.
 5. `scripts/convert_cache_to_md.py` regenerates `IR-Papers.md` from the updated cache.
 6. If new papers exist, the action `JasonEtco/create-an-issue@v2` creates a GitHub Issue using `.github/issue-template.md`.
