@@ -1,6 +1,6 @@
 dblp:
   url: https://dblp.org/search/publ/api?q={}&format=json&h=1000
-  keyword: federate
+  keyword: registra
   queries:
     - "venue:IJCAI:"
     - "venue:AAAI:"
@@ -53,5 +53,7 @@ dblp:
     - "streamid:conf/icse:"
     - "streamid:journals/focs:"
     - "streamid:conf/stoc:"
+    - "venue:MICCAI:"
+    - "venue:Medical_Image_Anal.:"
   mails:
     - "im.young@foxmail.com"
