@@ -11,6 +11,7 @@ import yaml
 import datetime
 import urllib.parse
 import os
+from pathlib import Path
 
 # 本地开发时从 .env 加载环境变量
 try:
@@ -25,7 +26,7 @@ class Scaffold:
     def __init__(self):
         pass
 
-    def run(self, env: str = "dev", cfg: str = "./../config.yaml"):
+    def run(self, env: str = "dev", cfg: str = str(Path(__file__).resolve().parent.parent / "config.yaml")):
         cfg = init(cfg_path=cfg)
 
         logger.info(f"running with env: {env} and cfg: {cfg}")

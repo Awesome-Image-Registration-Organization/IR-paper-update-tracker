@@ -39,8 +39,8 @@ def init_log():
     return logger
 
 
-def init_path(cfg):
-    cfg["cache_path"] = Path("./../cached")
+def init_path(cfg, cfg_path: str):
+    cfg["cache_path"] = Path(cfg_path).resolve().parent / "cached"
     cfg["cache_path"].mkdir(parents=True, exist_ok=True)
 
     return cfg
@@ -48,7 +48,7 @@ def init_path(cfg):
 
 def init(cfg_path: str):
     cfg = ez.Config().load(cfg_path)
-    cfg = init_path(cfg)
+    cfg = init_path(cfg, cfg_path=cfg_path)
     init_log()
     return cfg
 
