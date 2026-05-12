@@ -1,4 +1,6 @@
 # IR-paper-update-tracker
+This project is a part of [Awesome Image Registration]([[https://github.com/youngfish42/Awesome-FL](https://github.com/Awesome-Image-Registration-Organization/awesome-image-registration)](https://github.com/Awesome-Image-Registration-Organization/awesome-image-registration)).  ![Stars](https://img.shields.io/github/stars/Awesome-Image-Registration-Organization/awesome-image-registration.svg?color=orange)
+
 
 An automated paper tracking bot for **Image Registration** research. It periodically queries the [DBLP API](https://dblp.org/faq/How+to+use+the+dblp+search+API.html) for new publications across 40+ top-tier conferences and journals, deduplicates entries by their electronic edition (`ee`) field **and by title**, and automatically opens GitHub Issues to notify subscribers.
 
