@@ -26,7 +26,9 @@ class Scaffold:
     def __init__(self):
         pass
 
-    def run(self, env: str = "dev", cfg: str = str(Path(__file__).resolve().parent.parent / "config.yaml")):
+    def run(self, env: str = "dev", cfg: str | None = None):
+        if cfg is None:
+            cfg = str(Path(__file__).resolve().parent.parent / "config.yaml")
         cfg = init(cfg_path=cfg)
 
         logger.info(f"running with env: {env} and cfg: {cfg}")
