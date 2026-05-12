@@ -145,8 +145,6 @@ class Scaffold:
         yaml.safe_dump(dblp_cache, open(cache_path, "w"), sort_keys=False, indent=2)
 
         if env == "prod":
-            import os
-
             env_file = os.getenv("GITHUB_ENV")
 
             # check if msg is too long
