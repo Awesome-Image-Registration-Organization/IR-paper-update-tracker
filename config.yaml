@@ -53,5 +53,7 @@ dblp:
     - "streamid:conf/icse:"
     - "streamid:journals/focs:"
     - "streamid:conf/stoc:"
+    - "venue:MICCAI:"
+    - "venue:Medical_Image_Anal.:"
   mails:
     - "im.young@foxmail.com"
