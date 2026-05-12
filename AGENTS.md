@@ -4,16 +4,16 @@
 
 ## Project Overview
 
-**FL-paper-update-tracker** is an automated bot that tracks new Federated Learning (FL) papers published in 40+ top-tier computer-science conferences and journals. It is a satellite project of [Awesome-FL](https://github.com/youngfish42/Awesome-FL).
+**IR-paper-update-tracker** is an automated bot that tracks new Image Registration (IR) papers published in 40+ top-tier computer-science conferences and journals. It is a satellite project of [awesome-image-registration](https://github.com/Awesome-Image-Registration-Organization/awesome-image-registration).
 
 ### High-Level Workflow
 1. GitHub Actions runs the tracker once per day (cron: `0 0 * * *`) and on every push to `main`.
-2. `src/main.py` reads `config.yaml` → takes `dblp.keyword` (e.g. `federate`) and `dblp.queries` (plain venue restrictions), assembles fully URL-encoded DBLP search topics, and queries the DBLP search API.
+2. `src/main.py` reads `config.yaml` → takes `dblp.keyword` (e.g. `registra`) and `dblp.queries` (plain venue restrictions), assembles fully URL-encoded DBLP search topics, and queries the DBLP search API.
 3. Extracted paper metadata is **filtered by year** (last 3 years + next 1 year) and **deduplicated by `ee` field**.
 4. New papers (not yet in `cached/dblp.yaml`) are collected, formatted as Markdown, and written to the `GITHUB_ENV` variable `MSG`.
-5. `scripts/convert_cache_to_md.py` regenerates `FL-Papers.md` from the updated cache.
+5. `scripts/convert_cache_to_md.py` regenerates `IR-Papers.md` from the updated cache.
 6. If new papers exist, the action `JasonEtco/create-an-issue@v2` creates a GitHub Issue using `.github/issue-template.md`.
-7. Both `cached/dblp.yaml` and `FL-Papers.md` are committed back to the repo so that subsequent runs know what has already been reported.
+7. Both `cached/dblp.yaml` and `IR-Papers.md` are committed back to the repo so that subsequent runs know what has already been reported.
 
 ## Tech Stack
 
@@ -46,7 +46,7 @@
 │   ├── main.py                      # Entry point: assembles topics from keyword+queries, orchestrates API calls
 │   └── utils.py                     # Helper functions: API call, parsing, formatting, dedup
 ├── config.yaml                      # keyword, plain queries (venues), and mail targets
-├── FL-Papers.md                     # Structured Markdown output of all tracked papers
+├── IR-Papers.md                     # Structured Markdown output of all tracked papers
 ├── requirements.txt                 # Python dependencies
 ├── README.md                        # Human-facing documentation (EN + CN)
 ├── TECHNICAL.md                     # Deployment and configuration guide
@@ -70,7 +70,7 @@
 - **Agent Note**: Do **not** switch back to full-dict comparison (`item not in cached_items`) unless you also normalize author names.
 
 ### 3. Cache Format (`cached/dblp.yaml`)
-- Top-level keys: URL-encoded DBLP search topics (e.g., `federate%20venue%3ADAC%3A:`).
+- Top-level keys: URL-encoded DBLP search topics (e.g., `registra%20venue%3ADAC%3A:`).
 - Each key maps to a list of paper dicts with fields: `author`, `title`, `venue`, `year`, `type`, `access`, `key`, `doi`, `ee`, `url`, `abstract`.
   - `abstract`  may be empty for legacy entries; use `scripts/fetch_abstracts.py` to backfill it.
 - The file is overwritten after every successful run.
@@ -96,12 +96,12 @@
 dblp:
   url: https://dblp.org/search/publ/api?q={}&format=json&h=1000
   topics:
-    - "federate%20venue%3AIJCAI%3A"
+    - "registra%20venue%3AIJCAI%3A"
     - ...
   mails:
     - "im.young@foxmail.com"
 ```
-- `topics`: Each topic is a URL-encoded DBLP search query. The first word (`federate`) is the keyword; the rest restricts the venue.
+- `topics`: Each topic is a URL-encoded DBLP search query. The first word (`registra`) is the keyword; the rest restricts the venue.
 - `mails`: The first email address (`mails[0]`) is used as the `contact_email` for the Crossref API User-Agent (`mailto:...`), which is recommended for polite API access. Additional addresses are reserved for future mail-notification features.
 - **Agent Note**: When adding a new venue, find its DBLP query syntax (venue code or stream ID) and URL-encode it.
 
@@ -110,7 +110,7 @@ dblp:
 ### Adding a New Venue
 1. Find the DBLP venue code (e.g., `venue:ICML` or `streamid:journals/pami`).
 2. Append the **plain** query string to `config.yaml` under `dblp.queries` (e.g., `venue:ICML:`). The runner handles URL encoding automatically.
-3. Update `scripts/convert_cache_to_md.py` if you want the new venue mapped to a specific category in `FL-Papers.md`.
+3. Update `scripts/convert_cache_to_md.py` if you want the new venue mapped to a specific category in `IR-Papers.md`.
 4. Update `README.md` (both EN and CN sections) to list the new venue.
 5. Update this `AGENTS.md` if the change affects architecture or conventions.
 
@@ -154,7 +154,7 @@ dblp:
 - A GitHub Actions workflow `.github/workflows/backfill-dois.yml` allows manual triggering from the repository UI.
 
 ### Switching to a Different Research Domain
-The tracker is domain-agnostic. To pivot from Federated Learning to any other field (e.g., diffusion models, LLMs, reinforcement learning):
+The tracker is domain-agnostic. To pivot from Image Registration to any other field (e.g., diffusion models, LLMs, reinforcement learning):
 
 1. **Change the keyword** in `config.yaml`:
    ```yaml
@@ -216,6 +216,6 @@ You can inspect `aggregated_msg` and `msg` in the logs to preview the issue cont
 
 ## Contact & References
 
-- Parent project: [Awesome-FL](https://github.com/youngfish42/Awesome-FL)
+- Parent project: [awesome-image-registration](https://github.com/Awesome-Image-Registration-Organization/awesome-image-registration)
 - Upstream inspiration: [dblp-watcher](https://github.com/beiyuouo/dblp-watcher/)
 - DBLP API docs: https://dblp.org/faq/How+to+use+the+dblp+search+API.html

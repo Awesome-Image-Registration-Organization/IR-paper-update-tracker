@@ -1,8 +1,6 @@
-# FL-paper-update-tracker
+# IR-paper-update-tracker
 
-This project is a part of [Awesome-FL](https://github.com/youngfish42/Awesome-FL).  ![Stars](https://img.shields.io/github/stars/youngfish42/Awesome-FL.svg?color=orange)
-
-An automated paper tracking bot for **Federated Learning** research. It periodically queries the [DBLP API](https://dblp.org/faq/How+to+use+the+dblp+search+API.html) for new publications across 40+ top-tier conferences and journals, deduplicates entries by their electronic edition (`ee`) field **and by title**, and automatically opens GitHub Issues to notify subscribers.
+An automated paper tracking bot for **Image Registration** research. It periodically queries the [DBLP API](https://dblp.org/faq/How+to+use+the+dblp+search+API.html) for new publications across 40+ top-tier conferences and journals, deduplicates entries by their electronic edition (`ee`) field **and by title**, and automatically opens GitHub Issues to notify subscribers.
 
 ## Features
 
@@ -15,11 +13,11 @@ An automated paper tracking bot for **Federated Learning** research. It periodic
 
 ## Extending to Other Research Domains
 
-This tracker is not limited to Federated Learning. The domain keyword is controlled by a single field in `config.yaml`:
+This tracker is not limited to Image Registration. The domain keyword is controlled by a single field in `config.yaml`:
 
 ```yaml
 dblp:
-  keyword: federate          # <-- change this to any research term
+  keyword: registra          # <-- change this to any research term
   queries:
     - "venue:IJCAI:"
     - "venue:ICML:"
@@ -58,7 +56,7 @@ No other code changes are required.
 ## How to Get Notifications
 
 ### Watch the Main Repository 🚀
-Click **Watch** on [Awesome-FL](https://github.com/youngfish42/Awesome-FL) to receive updates on new papers and major changes.
+Click **Watch** on this repository to receive updates on new papers and major changes.
 
 ### Track Individual Issues (Optional)
 Watch this repository if you want real-time alerts on paper submissions.
@@ -71,15 +69,13 @@ For installation, configuration, workflow mechanics, and local development, plea
 
 ## Thanks
 
-This repository is based on [dblp-watcher](https://github.com/beiyuouo/dblp-watcher/). We use [DBLP API](https://dblp.org/faq/How+to+use+the+dblp+search+API.html) to search papers and construct a paper update tracker for federated learning.
+This repository is based on [dblp-watcher](https://github.com/beiyuouo/dblp-watcher/). We use [DBLP API](https://dblp.org/faq/How+to+use+the+dblp+search+API.html) to search papers and construct a paper update tracker for image registration.
 
 ---
 
-# FL-paper-update-tracker（中文版）
+# IR-paper-update-tracker（中文版）
 
-本项目是 [Awesome-FL](https://github.com/youngfish42/Awesome-FL) 的配套子项目。
-
-一个面向 **联邦学习** 研究的自动化论文追踪机器人。它定期通过 [DBLP API](https://dblp.org/faq/How+to+use+the+dblp+search+API.html) 查询 40 余个顶级会议与期刊的新发表论文，通过 `ee`（电子版链接）和 `title`（标题）字段智能去重，并自动创建 GitHub Issue 通知订阅者。
+一个面向 **图像配准** 研究的自动化论文追踪机器人。它定期通过 [DBLP API](https://dblp.org/faq/How+to+use+the+dblp+search+API.html) 查询 40 余个顶级会议与期刊的新发表论文，通过 `ee`（电子版链接）和 `title`（标题）字段智能去重，并自动创建 GitHub Issue 通知订阅者。
 
 ## 功能特性
 
@@ -92,11 +88,11 @@ This repository is based on [dblp-watcher](https://github.com/beiyuouo/dblp-watc
 
 ## 扩展到其他研究领域
 
-本追踪器不限于联邦学习。领域关键词由 `config.yaml` 中的单个字段控制：
+本追踪器不限于图像配准。领域关键词由 `config.yaml` 中的单个字段控制：
 
 ```yaml
 dblp:
-  keyword: federate          # <-- 修改此字段即可切换研究领域
+  keyword: registra          # <-- 修改此字段即可切换研究领域
   queries:
     - "venue:IJCAI:"
     - "venue:ICML:"
@@ -135,7 +131,7 @@ dblp:
 ## 如何获取通知
 
 ### 关注主仓库 🚀
-点击 [Awesome-FL](https://github.com/youngfish42/Awesome-FL) 的 **Watch** 按钮，以接收新论文和重要更新的通知。
+点击本仓库的 **Watch** 按钮，以接收新论文和重要更新的通知。
 
 ### 关注本仓库的 Issue（可选）
 如果你希望获得论文提交的实时提醒，可以 Watch 本仓库。
@@ -148,4 +144,4 @@ dblp:
 
 ## 致谢
 
-本仓库基于 [dblp-watcher](https://github.com/beiyuouo/dblp-watcher/) 构建。我们使用 [DBLP API](https://dblp.org/faq/How+to+use+the+dblp+search+API.html) 检索论文，并构建了面向联邦学习的论文更新追踪器。
+本仓库基于 [dblp-watcher](https://github.com/beiyuouo/dblp-watcher/) 构建。我们使用 [DBLP API](https://dblp.org/faq/How+to+use+the+dblp+search+API.html) 检索论文，并构建了面向图像配准的论文更新追踪器。
