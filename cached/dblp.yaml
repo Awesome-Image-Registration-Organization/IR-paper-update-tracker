@@ -63,7 +63,7 @@ registra%20venue%3AIJCAI%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/ijcai/00030LW24
-  doi: ''
+  doi: 10.1109/tgrs.2024.3496198
   ee: https://www.ijcai.org/proceedings/2024/759
   url: https://dblp.org/rec/conf/ijcai/00030LW24
   abstract: ''
@@ -711,7 +711,7 @@ registra%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/HuangTCL24
-  doi: ''
+  doi: 10.52202/079017-2245
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/821a6e5681b072351fd3c21fac44739a-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/HuangTCL24
   abstract: Deep learning-based feature matching has shown great superiority for point
@@ -736,7 +736,7 @@ registra%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/JenaSCG24
-  doi: ''
+  doi: 10.52202/079017-3439
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/c3fe2a07ec47b89c50e89706d2e23358-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/JenaSCG24
   abstract: ''
@@ -748,7 +748,7 @@ registra%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/JiangTCY24
-  doi: ''
+  doi: 10.52202/079017-2016
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/735c847a07bf6dd4486ca1ace242a88c-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/JiangTCY24
   abstract: ''
@@ -761,7 +761,7 @@ registra%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/RenFZZG24
-  doi: ''
+  doi: 10.52202/079017-2913
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/a70ee7ea485e4fd36abbfc4adf591c28-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/RenFZZG24
   abstract: ''
@@ -774,7 +774,7 @@ registra%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/XiongXXWSLW24
-  doi: ''
+  doi: 10.52202/079017-1118
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/3e9034dd5420660d86c8c360c35a895e-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/XiongXXWSLW24
   abstract: ''
@@ -785,7 +785,7 @@ registra%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ZhangH0LD24
-  doi: ''
+  doi: 10.52202/079017-3575
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/cc52950239c3129464b0a6e379e2a9b0-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ZhangH0LD24
   abstract: Multi-instance point cloud registration aims to estimate the pose of all
@@ -815,7 +815,7 @@ registra%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/FaltaGHBH23
-  doi: ''
+  doi: 10.52202/075280-2392
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/abf37695a4562ac4c05194d717d47eec-Abstract-Datasets_and_Benchmarks.html
   url: https://dblp.org/rec/conf/nips/FaltaGHBH23
   abstract: ''
@@ -827,7 +827,7 @@ registra%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/JiangSDXY23
-  doi: ''
+  doi: 10.52202/075280-0931
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/43069caa6776eac8bca4bfd74d4a476d-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/JiangSDXY23
   abstract: ''
@@ -838,7 +838,7 @@ registra%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/JiangSH23
-  doi: ''
+  doi: 10.52202/075280-2545
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/b654d6150630a5ba5df7a55621390daf-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/JiangSH23
   abstract: In this paper, we propose a learning-based framework for non-rigid shape
@@ -871,7 +871,7 @@ registra%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LinQCSZLB0023
-  doi: ''
+  doi: 10.52202/075280-0794
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/3a2d1bf9bc0a9794cf82c1341a7a75e6-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LinQCSZLB0023
   abstract: ''
@@ -884,7 +884,7 @@ registra%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ZhouMZFLH23
-  doi: ''
+  doi: 10.52202/075280-2227
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/a0a53fefef4c2ad72d5ab79703ba70cb-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ZhouMZFLH23
   abstract: Cross-modality registration between 2D images from cameras and 3D point
@@ -1017,7 +1017,7 @@ registra%20venue%3AICLR%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/000400S0WY24
-  doi: ''
+  doi: 10.48550/arXiv.2310.03420
   ee: https://openreview.net/forum?id=BPb5AhT2Vf
   url: https://dblp.org/rec/conf/iclr/000400S0WY24
   abstract: Matching cross-modality features between images and point clouds is a
@@ -2067,7 +2067,7 @@ registra%20venue%3ANDSS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/ndss/AdjibiAABM25
-  doi: ''
+  doi: 10.14722/ndss.2025.241202
   ee: https://www.ndss-symposium.org/ndss-paper/the-guardians-of-name-street-studying-the-defensive-registration-practices-of-the-fortune-500/
   url: https://dblp.org/rec/conf/ndss/AdjibiAABM25
   abstract: ''
