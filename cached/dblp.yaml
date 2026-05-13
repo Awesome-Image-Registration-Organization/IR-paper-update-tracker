@@ -66,7 +66,20 @@ registra%20venue%3AIJCAI%3A:
   doi: 10.1109/tgrs.2024.3496198
   ee: https://www.ijcai.org/proceedings/2024/759
   url: https://dblp.org/rec/conf/ijcai/00030LW24
-  abstract: ''
+  abstract: 'Point cloud registration is a crucial challenge in photogrammetry and
+    computer vision, aimed at aligning adjacent point clouds optimally. In this article,
+    we present a novel registration approach based on plane constraints for large-scale
+    LiDAR point clouds, called PCGOR, effectively decoupling rotation estimation and
+    translation estimation. The point cloud registration challenge is then bifurcated
+    into two distinct parts: rotation estimation and translation estimation. For rotation
+    estimation, we develop an outlier removal method combining coarse filtering with
+    rotation-invariant constraints (RICs) and refined filtering based on computational
+    geometric consistency checks, effectively pruning outliers and robustly estimating
+    accurate relative rotations from plane normals. In translation estimation, we
+    design a componentwise approach based on translation component constraints (TCCs)
+    to efficiently estimate relative translations. Experimental findings validate
+    the robustness and efficacy of our proposed approach on three popular LiDAR point
+    cloud datasets, yielding state-of-the-art performance.'
 - author: Yu-Xin Zhang 0004, Jie Gui, Xiaofeng Cong, Xin Gong 0001, Wenbing Tao
   title: A Comprehensive Survey and Taxonomy on Point Cloud Registration Based on
     Deep Learning.
@@ -751,7 +764,24 @@ registra%20venue%3ANeurIPS%3A:
   doi: 10.52202/079017-2016
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/735c847a07bf6dd4486ca1ace242a88c-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/JiangTCY24
-  abstract: ''
+  abstract: Correspondences in point cloud registration are prone to outliers, significantly
+    reducing registration accuracy and highlighting the need for precise inlier identification.
+    In this paper, we propose a robust inlier identification algorithm for point cloud
+    registration by reformulating the conventional registration problem as an alignment
+    error ℓ 0 -minimization problem. The ℓ 0 -minimization problem is formulated for
+    each local set, where those local sets are built on a compatibility graph of input
+    correspondences. To resolve the ℓ 0 -minimization, we develop a novel two-stage
+    decoupling strategy, which first decouples the alignment error into a rotation
+    fitting error and a translation fitting error. Second, null-space matrices are
+    employed to decouple inlier identification from the estimation of rotation and
+    translation respectively, thereby applying Bayes Theorem to ℓ 0 -minimization
+    problems and solving for fitting errors. Correspondences with the smallest errors
+    are identified as inliers to generate a transformation hypothesis for each local
+    set. The best hypothesis is selected to perform registration. We demonstrate that
+    the proposed inlier identification algorithm is robust under high outlier ratios
+    and noise through experiments. Extensive results on the KITTI, 3DMatch, and 3DLoMatch
+    datasets demonstrate that our method achieves state-of-the-art performance compared
+    to both traditional and learning-based methods in various indoor and outdoor scenes.
 - author: Chengwei Ren, Yifan Feng 0001, Weixiang Zhang, Xiao-Ping (Steven) Zhang,
     Yue Gao 0002
   title: Multi-scale Consistency for Robust 3D Registration via Hierarchical Sinkhorn
@@ -764,7 +794,22 @@ registra%20venue%3ANeurIPS%3A:
   doi: 10.52202/079017-2913
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/a70ee7ea485e4fd36abbfc4adf591c28-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/RenFZZG24
-  abstract: ''
+  abstract: We study the problem of retrieving accurate correspondence through multi-scale
+    consistency (MSC) for robust point cloud registration. Existing works in a coarse-to-fine
+    manner either suffer from severe noisy correspondences caused by unreliable coarse
+    matching or struggle to form outlier-free coarse-level correspondence sets. To
+    tackle this, we present H ierarchical S inkhorn T ree (HST), a pruned tree structure
+    designed to hierarchically measure the local consistency of each coarse correspondence
+    across multiple feature scales, thereby filtering out the local dissimilar ones.
+    In this way, we convert the modeling of MSC for each correspondence into a BFS
+    traversal with pruning of a K-ary tree rooted at the superpoint, with its K nearest
+    neighbors in the feature pyramid serving as child nodes. To achieve efficient
+    pruning and accurate vicinity characterization, we further propose a novel overlap-aware
+    Sinkhorn Distance, which retains only the most likely overlapping points for local
+    measurement and next level exploration. The modeling process essentially involves
+    traversing a pair of HSTs synchronously and aggregating the consistency measures
+    of corresponding tree nodes. Extensive experiments demonstrate HST consistently
+    outperforms the state-of-the-art methods on both indoor and outdoor benchmarks.
 - author: Kezheng Xiong, Haoen Xiang, Qingshan Xu, Chenglu Wen, Siqi Shen, Jonathan
     Jun Li, Cheng Wang 0003
   title: Mining and Transferring Feature-Geometry Coherence for Unsupervised Point
@@ -818,7 +863,26 @@ registra%20venue%3ANeurIPS%3A:
   doi: 10.52202/075280-2392
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/abf37695a4562ac4c05194d717d47eec-Abstract-Datasets_and_Benchmarks.html
   url: https://dblp.org/rec/conf/nips/FaltaGHBH23
-  abstract: ''
+  abstract: A popular benchmark for intra-patient lung registration is provided by
+    the DIR-LAB COPDgene dataset consisting of large-motion in-and expiratory breath-hold
+    CT pairs. This dataset alone, however, does not provide enough samples to properly
+    train state-of-the-art deep learning methods. Other public datasets often also
+    provide only small sample sizes or include primarily small motions between scans
+    that do not translate well to larger deformations. For point-based geometric registration,
+    the PVT1010 dataset provides a large number of vessel point clouds without any
+    correspondences and a labeled test set corresponding to the COPDgene cases. However,
+    the absence of correspondences for supervision complicates training, and a fair
+    comparison with image-based algorithms is infeasible, since CT scans for the training
+    data are not publicly available. We here provide a combined benchmark for image-and
+    point-based registration approaches. We curated a total of 248 public multi-centric
+    in-and expiratory lung CT scans from 124 patients, which show large motion between
+    scans, processed them to ensure sufficient homogeneity between the data and generated
+    vessel point clouds that are well distributed even deeper inside the lungs. For
+    supervised training, we provide vein and artery segmentations of the vessels and
+    thousands of image-derived keypoint correspondences for each pair. For validation,
+    we provide multiple scan pairs with manual landmark annotations. Finally, as baselines
+    on our new benchmark, we evaluate several image and point cloud registration methods
+    on the dataset.
 - author: Haobo Jiang, Mathieu Salzmann, Zheng Dang, Jin Xie 0001, Jian Yang 0003
   title: SE(3) Diffusion Model-based Point Cloud Registration for Robust 6D Object
     Pose Estimation.
