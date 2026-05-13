@@ -26,12 +26,12 @@ class Scaffold:
     def __init__(self):
         pass
 
-    def run(self, env: str = "dev", cfg: str | None = None):
+    def run(self, env: str = "dev", cfg: str | None = None, all_years: bool = False):
         if cfg is None:
             cfg = str(Path(__file__).resolve().parent.parent / "config.yaml")
         cfg = init(cfg_path=cfg)
 
-        logger.info(f"running with env: {env} and cfg: {cfg}")
+        logger.info(f"running with env: {env}, cfg: {cfg}, all_years: {all_years}")
 
         # dblp
 
@@ -82,8 +82,9 @@ class Scaffold:
             # logger.info(f"items: {items}")
 
             # 按年份过滤，仅保留近三年及未来一年的论文（如 2026 年则保留 2023-2027）
-            current_year = datetime.datetime.now().year
-            items = filter_items_by_year(items, current_year)
+            if not all_years:
+                current_year = datetime.datetime.now().year
+                items = filter_items_by_year(items, current_year)
 
             # 对当前 topic 获取的论文列表先按 ee 去重，再按 title 去重
             items = deduplicate_items_by_ee(items)

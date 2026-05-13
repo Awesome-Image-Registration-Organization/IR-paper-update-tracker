@@ -7,7 +7,7 @@
 **IR-paper-update-tracker** is an automated bot that tracks new Image Registration (IR) papers published in 40+ top-tier computer-science conferences and journals. It is a satellite project of [awesome-image-registration](https://github.com/Awesome-Image-Registration-Organization/awesome-image-registration).
 
 ### High-Level Workflow
-1. GitHub Actions runs the tracker once per day (cron: `0 0 * * *`) and on every push to `main`.
+1. GitHub Actions runs the tracker once per day (cron: `0 0 * * *`) and on every push to `main`. A separate manually-triggered workflow (`.github/workflows/fetch-all-years.yml`) is also available to collect papers from **all years** without the default 3-year window.
 2. `src/main.py` reads `config.yaml` → takes `dblp.keyword` (e.g. `registra`) and `dblp.queries` (plain venue restrictions), assembles fully URL-encoded DBLP search topics, and queries the DBLP search API.
 3. Extracted paper metadata is **filtered by year** (last 3 years + next 1 year), **deduplicated by both `ee` and `title`**, and **globally deduplicated across topics** via seen `ee`/`title` sets.
 4. New papers (not yet in `cached/dblp.yaml`) are collected, formatted as Markdown, and written to the `GITHUB_ENV` variable `MSG`.
@@ -190,6 +190,11 @@ No changes to `src/main.py` or the GitHub Actions workflow are required.
 - Edit `.github/workflows/watch.yml` → `schedule.cron`.
 - Default is daily at 00:00 UTC+8 (`0 0 * * *`).
 
+### Fetching Papers from All Years
+- A dedicated workflow `.github/workflows/fetch-all-years.yml` can be triggered manually via `workflow_dispatch`.
+- It runs `python main.py run --env=prod --all_years`, which **skips the year filter** and collects every paper returned by DBLP for the configured venues.
+- By default it does **not** create a GitHub issue; you can opt-in via the `create_issue` input when triggering the workflow.
+
 ### Cache Corruption / Manual Reset
 - Simply delete `cached/dblp.yaml` (or remove specific topic keys).
 - The next run will treat all papers as "new" and recreate the cache.
@@ -199,6 +204,9 @@ No changes to `src/main.py` or the GitHub Actions workflow are required.
 ```bash
 cd src
 python main.py run --env=dev
+
+# Collect papers from all years (skip the 3-year window filter)
+python main.py run --env=dev --all_years
 ```
 
 In `dev` mode the script will:
