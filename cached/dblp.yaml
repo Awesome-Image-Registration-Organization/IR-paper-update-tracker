@@ -88,7 +88,7 @@ registra%20venue%3AIJCAI%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/ijcai/ZhangGCGT24
-  doi: ''
+  doi: 10.48550/arXiv.2404.13830
   ee: https://www.ijcai.org/proceedings/2024/922
   url: https://dblp.org/rec/conf/ijcai/ZhangGCGT24
   abstract: ''
@@ -1248,7 +1248,7 @@ registra%20venue%3AAISTATS%3A:
   type: Conference and Workshop Papers
   access: open
   key: journals/jmlr/Collier12
-  doi: ''
+  doi: 10.1214/12-ejs706
   ee: http://proceedings.mlr.press/v22/collier12.html
   url: https://dblp.org/rec/journals/jmlr/Collier12
   abstract: ''
@@ -1554,7 +1554,7 @@ registra%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/0143H22
-  doi: ''
+  doi: 10.52202/068431-2013
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/b2077e6d66da612fcb701589efa9ce88-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/0143H22
   abstract: ''
@@ -1566,7 +1566,7 @@ registra%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/YangGCT22
-  doi: ''
+  doi: 10.52202/068431-0506
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/2e163450c1ae3167832971e6da29f38d-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YangGCT22
   abstract: ''
@@ -1601,7 +1601,7 @@ registra%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/YuLSBI21
-  doi: ''
+  doi: 10.1109/lra.2024.3466068
   ee: https://proceedings.neurips.cc/paper/2021/hash/c85b2ea9a678e74fdc8bafe5d0707c31-Abstract.html
   url: https://dblp.org/rec/conf/nips/YuLSBI21
   abstract: ''
@@ -1727,7 +1727,7 @@ registra%20venue%3AICLR%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/0001M025
-  doi: ''
+  doi: 10.48550/arXiv.2502.10704
   ee: https://openreview.net/forum?id=cjJqU40nYS
   url: https://dblp.org/rec/conf/iclr/0001M025
   abstract: Non-rigid alignment of point clouds is crucial for scene understanding,
@@ -1845,7 +1845,7 @@ registra%20venue%3AICLR%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/Wang0LX22
-  doi: ''
+  doi: 10.1109/csde53843.2021.9718461
   ee: https://openreview.net/forum?id=2ggNjUisGyr
   url: https://dblp.org/rec/conf/iclr/Wang0LX22
   abstract: Given two point sets, the problem of registration is to recover a transformation
@@ -4456,7 +4456,7 @@ registra%20venue%3ANDSS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/ndss/LuL00ZD0CLZH021
-  doi: ''
+  doi: 10.14722/ndss.2021.23134
   ee: https://www.ndss-symposium.org/ndss-paper/from-whois-to-whowas-a-large-scale-measurement-study-of-domain-registration-privacy-under-the-gdpr/
   url: https://dblp.org/rec/conf/ndss/LuL00ZD0CLZH021
   abstract: ''
