@@ -1,4 +1,4 @@
-name: Run DBLP Watch
+name: Run DBLP Watch 
 
 on:
   workflow_dispatch:
