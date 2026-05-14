@@ -84,6 +84,24 @@
 
 - The Guardians of Name Street: Studying the Defensive Registration Practices of the Fortune 500. [[PUB](https://www.ndss-symposium.org/ndss-paper/the-guardians-of-name-street-studying-the-defensive-registration-practices-of-the-fortune-500/)]
 
+### ICCV
+
+- Buffer-X: Towards Zero-Shot Point Cloud Registration in Diverse Scenes. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00367)]
+- CA-I2P: Channel-Adaptive Registration Network with Global Optimal Selection. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02575)]
+- Correspondence-Free Fast and Robust Spherical Point Pattern Registration. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02614)]
+- Diff2I2P: Differentiable Image-to-Point Cloud Registration with Diffusion Prior. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02391)]
+- EDFFDNet: Towards Accurate and Efficient Unsupervised Multi-Grid Image Registration. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00485)]
+- ERNet: Efficient Non-Rigid Registration Network for Point Sequences. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02521)]
+- Fine-Grained 3D Gaussian Head Avatars Modeling from Static Captures Via Joint Reconstruction and Registration. [[PUB](https://doi.org/10.1109/ICCV51701.2025.01326)]
+- GaussianReg: Rapid 2D/3D Registration for Emergency Surgery Via Explicit 3D Modeling with Gaussian Primitives. [[PUB](https://doi.org/10.1109/ICCV51701.2025.01995)]
+- HyperGCT: A Dynamic Hyper-GNN-Learned Geometric Constraint for 3D Registration. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02295)]
+- RARE: Refine Any Registration of Pairwise Point Clouds via Zero-Shot Learning. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02464)]
+- RegGS: Unposed Sparse Views Gaussian Splatting with 3DGS Registration. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00759)]
+- Registration beyond Points: General Affine Subspace Alignment via Geodesic Distance on Grassmann Manifold. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00359)]
+- Turboreg: Turboclique for Robust and Efficient Point Cloud Registration. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02447)]
+- U-ViLAR: Uncertainty-Aware Visual Localization for Autonomous Driving via Differentiable Association and Registration. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02308)]
+- Unsupervised Rgb-D Point Cloud Registration for Scenes With Low Overlap and Photometric Inconsistency. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02306)]
+
 ### CVPR
 
 - AutoURDF: Unsupervised Robot Modeling from Point Cloud Frames Using Cluster Registration. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Lin_AutoURDF_Unsupervised_Robot_Modeling_from_Point_Cloud_Frames_Using_Cluster_CVPR_2025_paper.html)]
