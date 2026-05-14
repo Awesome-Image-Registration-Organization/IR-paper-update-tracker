@@ -91,7 +91,17 @@ registra%20venue%3AIJCAI%3A:
   doi: 10.48550/arXiv.2404.13830
   ee: https://www.ijcai.org/proceedings/2024/922
   url: https://dblp.org/rec/conf/ijcai/ZhangGCGT24
-  abstract: ''
+  abstract: 'Point cloud registration (PCR) involves determining a rigid transformation
+    that aligns one point cloud to another. Despite the plethora of outstanding deep
+    learning (DL)-based registration methods proposed, comprehensive and systematic
+    studies on DL-based PCR techniques are still lacking. In this paper, we present
+    a comprehensive survey and taxonomy of recently proposed PCR methods. Firstly,
+    we conduct a taxonomy of commonly utilized datasets and evaluation metrics. Secondly,
+    we classify the existing research into two main categories: supervised and unsupervised
+    registration, providing insights into the core concepts of various influential
+    PCR models. Finally, we highlight open challenges and potential directions for
+    future research. A curated collection of valuable resources is made available
+    at https://github.com/yxzhang15/PCR.'
 - author: Zan Li, Wencheng Wang, Fei Hou
   title: Image Composition with Depth Registration.
   venue: IJCAI
@@ -1251,7 +1261,16 @@ registra%20venue%3AAISTATS%3A:
   doi: 10.1214/12-ejs706
   ee: http://proceedings.mlr.press/v22/collier12.html
   url: https://dblp.org/rec/journals/jmlr/Collier12
-  abstract: ''
+  abstract: This paper is concerned with the problem of goodness-of-fit for curve
+    registration, and more precisely for the shifted curve model, whose application
+    field reaches from computer vision and road traffic prediction to medicine. We
+    give bounds for the asymptotic minimax separation rate, when the functions in
+    the alternative lie in Sobolev balls and the separation from the null hypothesis
+    is measured by the l2-norm. We use the generalized likelihood ratio to build a
+    nonadaptive procedure depending on a tuning parameter, which we choose in an optimal
+    way according to the smoothness of the ambient space. Then, a Bonferroni procedure
+    is applied to give an adaptive test over a range of Sobolev balls. Both achieve
+    the asymptotic minimax separation rates, up to possible logarithmic factors.
 - author: Arnak S. Dalalyan, Olivier Collier
   title: Wilks&apos; phenomenon and penalized likelihood-ratio test for nonparametric
     curve registration.
@@ -1569,7 +1588,21 @@ registra%20venue%3ANeurIPS%3A:
   doi: 10.52202/068431-0506
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/2e163450c1ae3167832971e6da29f38d-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YangGCT22
-  abstract: ''
+  abstract: Transformer architecture has shown great potential for many visual tasks,
+    including point cloud registration. As an order-aware module, position encoding
+    plays an important role in Transformer architecture applied to point cloud registration
+    task. In this paper, we propose OIF-PCR, a one-inlier based position encoding
+    method for point cloud registration network. Speciﬁcally, we ﬁrst ﬁnd one correspondence
+    by a differentiable optimal transport layer, and use it to normalize each point
+    for position encoding. It can eliminate the challenges brought by the different
+    reference frames of two point clouds, and mitigate the feature ambiguity by learning
+    the spatial consistency. Then, we propose a joint approach for establishing correspondence
+    and position encoding, presenting an iterative optimization process. Finally,
+    we design a progressive way for point cloud alignment and feature learning to
+    gradually optimize the rigid transformation. The proposed position encoding is
+    very efﬁcient, requiring only a small addition of memory and computing overhead.
+    Extensive experiments demonstrate the proposed method can achieve competitive
+    performance with the state-of-the-art methods in both indoor and outdoor scenes.
 - author: Zhengyang Shen, Jean Feydy, Peirong Liu, Ariel Hernán Curiale, Rubén San
     José Estépar, Raúl San José Estépar, Marc Niethammer
   title: Accurate Point Cloud Registration with Robust Optimal Transport.
@@ -1604,7 +1637,29 @@ registra%20venue%3ANeurIPS%3A:
   doi: 10.1109/lra.2024.3466068
   ee: https://proceedings.neurips.cc/paper/2021/hash/c85b2ea9a678e74fdc8bafe5d0707c31-Abstract.html
   url: https://dblp.org/rec/conf/nips/YuLSBI21
-  abstract: ''
+  abstract: Image-to-point cloud (I2P) registration is a fundamental task for robots
+    and autonomous vehicles to achieve cross-modality data fusion and localization.
+    Current I2P registration methods primarily focus on estimating correspondences
+    at the point or pixel level, often neglecting global alignment. As a result, I2P
+    matching can easily converge to a local optimum if it lacks high-level guidance
+    from global constraints. To improve the success rate and general robustness, this
+    letter introduces CoFiI2P, a novel I2P registration network that extracts correspondences
+    in a coarse-to-fine manner. First, the image and point cloud data are processed
+    through a two-stream encoder-decoder network for hierarchical feature extraction.
+    Second, a coarse-to-fine matching module is designed to leverage these features
+    and establish robust feature correspondences. Specifically, in the coarse matching
+    phase, a novel I2P transformer module is employed to capture both homogeneous
+    and heterogeneous global information from the image and point cloud data. This
+    enables the estimation of coarse super-point/super-pixel matching pairs with discriminative
+    descriptors. In the fine matching module, point/pixel pairs are established with
+    the guidance of super-point/super-pixel correspondences. Finally, based on matching
+    pairs, the transformation matrix is estimated with the EPnP-RANSAC algorithm.
+    Experiments conducted on the KITTI Odometry dataset demonstrate that CoFiI2P achieves
+    impressive results, with a relative rotation error (RRE) of 1.14 degrees and a
+    relative translation error (RTE) of 0.29 meters, while maintaining real-time speed.
+    These results represent a significant improvement of 84% in RRE and 89% in RTE
+    compared to the current state-of-the-art (SOTA) method. Additional experiments
+    on the Nuscenes dataset confirm our method's generalizability.
 - author: Bharat Lal Bhatnagar, Cristian Sminchisescu, Christian Theobalt, Gerard
     Pons-Moll
   title: 'LoopReg: Self-supervised Learning of Implicit Surface Correspondences, Pose
@@ -4459,7 +4514,20 @@ registra%20venue%3ANDSS%3A:
   doi: 10.14722/ndss.2021.23134
   ee: https://www.ndss-symposium.org/ndss-paper/from-whois-to-whowas-a-large-scale-measurement-study-of-domain-registration-privacy-under-the-gdpr/
   url: https://dblp.org/rec/conf/ndss/LuL00ZD0CLZH021
-  abstract: ''
+  abstract: —When a domain is registered, information about the registrants and other
+    related personnel is recorded by WHOIS databases owned by registrars or registries
+    (called WHOIS providers jointly), which are open to public inquiries. However,
+    due to the enforcement of the European Union’s General Data Protection Regulation
+    (GDPR), certain WHOIS data (i.e., the records about EEA, or the European Economic
+    Area, registrants) needs to be redacted before being released to the public. Anec-dotally,
+    it was reported that actions have been taken by some WHOIS providers. Yet, so
+    far there is no systematic study to quantify the changes made by the WHOIS providers
+    in response to the GDPR, their strategies for data redaction and impact on other
+    applications relying on WHOIS data. In this study, we report the ﬁrst large-scale
+    measurement study to answer these questions, in hopes of guiding the enforcement
+    of the GDPR and identifying pitfalls during compliance. This study is made possible
+    by analyzing a collection of 1.2 billion WHOIS records spanning two years. To
+    automate
 registra%20venue%3ACVPR%3A:
 - author: Lin Bie, Shouan Pan, Siqi Li 0001, Yining Zhao, Yue Gao 0002
   title: 'GraphI2P: Image-to-Point Cloud Registration with Exploring Pattern of Correspondence
