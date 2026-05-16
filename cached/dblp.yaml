@@ -30168,3 +30168,54 @@ registra%20venue%3AMedical_Image_Anal.%3A:
   ee: https://doi.org/10.1016/S1361-8415(01)80004-9
   url: https://dblp.org/rec/journals/mia/WellsVANK96
   abstract: ''
+- author: Bramsh Qamar Chandio, Emanuele Olivetti, David Romero-Bascones, Sophia I.
+    Thomopoulos, Julio E. Villalon-Reina, Talia M. Nir, Jaroslaw Harezlak, Paul M.
+    Thompson, Eleftherios Garyfallidis
+  title: 'BundleWarp: Enhancing white matter tractometry and morphometry with precise
+    neuronal mapping using streamline-based nonlinear registration.'
+  venue: Medical Image Anal.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/mia/ChandioORTVNHTG26
+  doi: 10.1016/J.MEDIA.2026.104114
+  ee: https://doi.org/10.1016/j.media.2026.104114
+  url: https://dblp.org/rec/journals/mia/ChandioORTVNHTG26
+  abstract: ''
+- author: Xingwen Fu, Yuqing Yang, Ruonan Wang, Yidi Cao, Yujie Ma, Xiaolin Ning
+  title: 'ISDR-Net: Interpretable Self-Supervised Differentiable Rendering Network
+    for monocular dynamic sensor-head pose tracking and registration.'
+  venue: Medical Image Anal.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/mia/FuYWCMN26
+  doi: 10.1016/J.MEDIA.2026.104084
+  ee: https://doi.org/10.1016/j.media.2026.104084
+  url: https://dblp.org/rec/journals/mia/FuYWCMN26
+  abstract: ''
+- author: Jia Mi, Caiwen Jiang, Xiaosong Xiong, Yulin Wang, Kaicong Sun, Xiaohuan
+    Cao, Dinggang Shen
+  title: Learning dual-scale context with overlap awareness for keypoint-driven partial-overlap
+    medical image registration.
+  venue: Medical Image Anal.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/mia/MiJXWSCS26
+  doi: 10.1016/J.MEDIA.2026.104100
+  ee: https://doi.org/10.1016/j.media.2026.104100
+  url: https://dblp.org/rec/journals/mia/MiJXWSCS26
+  abstract: ''
+- author: Wenyao Xia, Wes Hodges, Muhan Liu, Jonathan C. Lau, Terry M. Peters, Elvis
+    C. S. Chen
+  title: Calibration-free 3D-2D surface registration for image guided intervention.
+  venue: Medical Image Anal.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/mia/XiaHLLPC26
+  doi: 10.1016/J.MEDIA.2026.104092
+  ee: https://doi.org/10.1016/j.media.2026.104092
+  url: https://dblp.org/rec/journals/mia/XiaHLLPC26
+  abstract: ''
