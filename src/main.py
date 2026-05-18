@@ -26,12 +26,12 @@ class Scaffold:
     def __init__(self):
         pass
 
-    def run(self, env: str = "dev", cfg: str | None = None, all_years: bool = False):
+    def run(self, env: str = "dev", cfg: str | None = None, all_years: bool = False, primary_only: bool = False):
         if cfg is None:
             cfg = str(Path(__file__).resolve().parent.parent / "config.yaml")
         cfg = init(cfg_path=cfg)
 
-        logger.info(f"running with env: {env}, cfg: {cfg}, all_years: {all_years}")
+        logger.info(f"running with env: {env}, cfg: {cfg}, all_years: {all_years}, primary_only: {primary_only}")
 
         # dblp
 
@@ -42,16 +42,23 @@ class Scaffold:
         dblp_new_cache = {}
 
         dblp_url = cfg["dblp"]["url"]
-        keyword = cfg["dblp"]["keyword"]
         queries = cfg["dblp"]["queries"]
         mails = cfg["dblp"].get("mails", [])
         contact_email = mails[0] if mails else ""
+
+        # 读取关键词列表，兼容旧版单 keyword 字符串配置
+        keywords = cfg["dblp"].get("keywords", [])
+        if not keywords:
+            old_keyword = cfg["dblp"].get("keyword", "")
+            if old_keyword:
+                keywords = [old_keyword]
+
         aggregated_msg = ""
         msg = ""
         flag = False
         active_topics = []  # 收集本次有新增论文的 topic 简称
 
-        logger.info(f"keyword: {keyword}, queries: {queries}")
+        logger.info(f"keywords: {keywords}, queries: {queries}, primary_only: {primary_only}")
 
         # 全局去重集合：跨所有 topic 跟踪已见过的 ee 和 title，防止同一论文被缓存到多个 topic 下
         global_seen_ee = set()
@@ -65,21 +72,20 @@ class Scaffold:
                 if title:
                     global_seen_title.add(title)
 
-        for query in queries:
-            topic = f"{keyword}%20{urllib.parse.quote(query, safe='')}"
+        def _process_topic(keyword: str, query: str) -> int:
+            """处理单个 keyword + query 组合，返回新论文数量。"""
+            nonlocal aggregated_msg, msg, flag
+            encoded_keyword = urllib.parse.quote(keyword, safe='')
+            topic = f"{encoded_keyword}%20{urllib.parse.quote(query, safe='')}"
             # random sleep to avoid being blocked
             dblp_data = request_data(dblp_url.format(topic))
 
             if dblp_data is None:
                 logger.error(f"dblp_data is None, topic: {topic}")
-                continue
-        
-            # 如果没有异常，则执行这里的代码
-            # logger.info(f"dblp_data: {dblp_data}")
+                return 0
 
             # 解析 DBLP 返回的原始数据，提取需要的字段
             items = get_dblp_items(dblp_data)
-            # logger.info(f"items: {items}")
 
             # 按年份过滤，仅保留近三年及未来一年的论文（如 2026 年则保留 2023-2027）
             if not all_years:
@@ -138,9 +144,31 @@ class Scaffold:
                 aggregated_msg += get_msg(new_items, topic, aggregated=True)
                 msg += get_msg(new_items, topic)
                 # 收集该 topic 的简称，用于后续 Issue 标题
-                active_topics.append(get_topic_short_name(topic))
+                short_name = get_topic_short_name(topic)
+                if short_name not in active_topics:
+                    active_topics.append(short_name)
             logger.info(f"aggregated_msg: {aggregated_msg}")
             logger.info(f"msg: {msg}")
+
+            return len(new_items)
+
+        if primary_only and keywords:
+            # 优先级模式：先用 primary keyword 搜所有 queries，记录有新增论文的 venue
+            active_queries = []
+            primary_kw = keywords[0]
+            for query in queries:
+                n_new = _process_topic(primary_kw, query)
+                if n_new > 0:
+                    active_queries.append(query)
+            # 再用其余 keywords 只搜有新增论文的 venue
+            for keyword in keywords[1:]:
+                for query in active_queries:
+                    _process_topic(keyword, query)
+        else:
+            # 全量模式：所有 keywords × 所有 queries
+            for keyword in keywords:
+                for query in queries:
+                    _process_topic(keyword, query)
 
         # save cache
         yaml.safe_dump(dblp_cache, open(cache_path, "w", encoding="utf-8"), sort_keys=False, indent=2, allow_unicode=True)

@@ -1,6 +1,16 @@
 dblp:
   url: https://dblp.org/search/publ/api?q={}&format=json&h=1000
-  keyword: registra
+  keywords:
+    - "registra"
+    - "image match|feature match|keypoint match|graph match|stereo match"
+    - "optical flow|scene flow"
+    - "stitch|panorama|mosaic"
+    - "ICP"
+    - "iterative closest"
+    - "correspond|align"
+    - "atlas construction"
+    - "motion correction"
+    - "deformation field"
   queries:
     - "venue:IJCAI:"
     - "venue:AAAI:"
