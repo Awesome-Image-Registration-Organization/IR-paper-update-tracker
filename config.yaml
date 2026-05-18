@@ -7,7 +7,6 @@ dblp:
     - "stitch|panorama|mosaic"
     - "ICP"
     - "iterative closest"
-    - "correspond|align"
     - "atlas construction"
     - "motion correction"
     - "deformation field"
