@@ -51,7 +51,9 @@ All behavior is controlled by `config.yaml` in the project root.
 ```yaml
 dblp:
   url: https://dblp.org/search/publ/api?q={}&format=json&h=1000
-  keyword: registra
+  keywords:
+    - "registra"
+    # ... add more keywords here
   queries:
     - "venue:IJCAI:"
     - "venue:NeurIPS:"
@@ -65,8 +67,8 @@ dblp:
 | Field | Description |
 |-------|-------------|
 | `dblp.url` | DBLP search API endpoint. `{}` is replaced by the fully-encoded topic query. `h=1000` requests up to 1000 hits. |
-| `dblp.keyword` | The research-domain keyword (e.g. `registra`). This is the **only** field you need to change when switching to a different domain. |
-| `dblp.queries` | List of plain-text DBLP venue restrictions. The runner automatically URL-encodes each query and prepends `keyword%20` before calling the API. |
+| `dblp.keywords` | List of research-domain keyword groups (e.g. `registra`, `image match|feature match`). The runner iterates over all `keywords × queries` combinations, automatically URL-encoding each keyword and prepending it before calling the API. Backward-compatible with legacy single `keyword` string. |
+| `dblp.queries` | List of plain-text DBLP venue restrictions. The runner automatically URL-encodes each query and prepends the encoded keyword before calling the API. |
 | `dblp.mails` | Reserved for future mail-notification features. Currently unused. |
 
 ### Adding a New Venue
@@ -97,7 +99,7 @@ This repository uses [GitHub Actions](.github/workflows/watch.yml) to run the tr
 1. **Checkout** – Clones the repository.
 2. **Setup Python** – Installs Python 3.10.
 3. **Install Dependencies** – Runs `pip install -r requirements.txt`.
-4. **Run Tracker** – Executes `src/main.py` with `--env=prod`. It assembles each API query from `keyword` + `queries`, fetches results, filters by year, deduplicates by `ee` and by `title`, and updates `cached/dblp.yaml`.
+4. **Run Tracker** – Executes `src/main.py` with `--env=prod` (plus `--primary_only` for automatic runs). It assembles API queries from `keywords` + `queries`, fetches results, filters by year, deduplicates by `ee` and by `title`, and updates `cached/dblp.yaml`. In `--primary_only` mode, only the first keyword scans all venues; venues with new papers are then rescanned with the remaining keywords, reducing API calls.
 5. **Update IR-Papers.md** – Runs `scripts/convert_cache_to_md.py` to regenerate the categorized Markdown paper list from the updated cache.
 6. **Setup Var** – Escapes the generated Markdown message for GitHub Actions.
 7. **Push Done Work** – Commits `cached/dblp.yaml` and `IR-Papers.md` back to the `main` branch.

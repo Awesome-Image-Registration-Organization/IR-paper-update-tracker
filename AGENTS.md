@@ -8,7 +8,7 @@
 
 ### High-Level Workflow
 1. GitHub Actions runs the tracker once per day (cron: `0 0 * * *`) and on every push to `main`. A separate manually-triggered workflow (`.github/workflows/fetch-all-years.yml`) is also available to collect papers from **all years** without the default 3-year window.
-2. `src/main.py` reads `config.yaml` → takes `dblp.keyword` (e.g. `registra`) and `dblp.queries` (plain venue restrictions), assembles fully URL-encoded DBLP search topics, and queries the DBLP search API.
+2. `src/main.py` reads `config.yaml` → takes `dblp.keywords` (a list of search keyword groups) and `dblp.queries` (plain venue restrictions), assembles fully URL-encoded DBLP search topics, and queries the DBLP search API. In **automatic runs** (`schedule` / `push`), the `--primary_only` flag is active: only the first keyword (`registra`) is used to scan all venues; venues where `registra` discovers **new papers** are then re-scanned with the remaining keywords. This reduces API calls. **Manual runs** (`workflow_dispatch`) use all keywords for all venues.
 3. Extracted paper metadata is **filtered by year** (last 3 years + next 1 year), **deduplicated by both `ee` and `title`**, and **globally deduplicated across topics** via seen `ee`/`title` sets.
 4. New papers (not yet in `cached/dblp.yaml`) are collected, formatted as Markdown, and written to the `GITHUB_ENV` variable `MSG`.
 5. `scripts/convert_cache_to_md.py` regenerates `IR-Papers.md` from the updated cache.
@@ -95,17 +95,27 @@
 ```yaml
 dblp:
   url: https://dblp.org/search/publ/api?q={}&format=json&h=1000
-  keyword: registra
+  keywords:
+    - "registra"
+    - "image match|feature match|keypoint match|graph match|stereo match"
+    - "optical flow|scene flow"
+    - "stitch|panorama|mosaic"
+    - "ICP"
+    - "iterative closest"
+    - "correspond|align"
+    - "atlas construction"
+    - "motion correction"
+    - "deformation field"
   queries:
     - "venue:IJCAI:"
     - ...
   mails:
     - "im.young@foxmail.com"
 ```
-- `keyword`: Search keyword prepended to every DBLP query.
-- `queries`: Plain (not URL-encoded) DBLP venue restrictions; `src/main.py` combines `keyword + query` and URL-encodes at runtime.
+- `keywords`: List of search keyword groups. Each keyword is prepended to every DBLP query. The runner iterates over all `keywords × queries` combinations. `src/main.py` is backward-compatible: if `keywords` is absent, it falls back to the legacy single `keyword` string.
+- `queries`: Plain (not URL-encoded) DBLP venue restrictions; `src/main.py` combines each `keyword + query` and URL-encodes at runtime.
 - `mails`: The first email address (`mails[0]`) is used as the `contact_email` for the Crossref API User-Agent (`mailto:...`), which is recommended for polite API access. Additional addresses are reserved for future mail-notification features.
-- **Agent Note**: When adding a new venue, find its DBLP query syntax (venue code or stream ID) and append it to `dblp.queries` in plain form.
+- **Agent Note**: When adding a new venue, find its DBLP query syntax (venue code or stream ID) and append it to `dblp.queries` in plain form. When adding a new keyword group, prefer independent keywords over `|` joining multiple low-frequency two-word phrases, because DBLP can incorrectly return zero results for such combinations (see `dblp-search-keywords.md`).
 
 ## Maintenance Notes
 
@@ -158,10 +168,11 @@ dblp:
 ### Switching to a Different Research Domain
 The tracker is domain-agnostic. To pivot from Image Registration to any other field (e.g., diffusion models, LLMs, reinforcement learning):
 
-1. **Change the keyword** in `config.yaml`:
+1. **Change the keywords** in `config.yaml`:
    ```yaml
    dblp:
-     keyword: diffusion   # or LLM, "reinforcement learning", etc.
+     keywords:
+       - "diffusion"   # or LLM, "reinforcement learning", etc.
    ```
 2. **Adjust the venue list** under `dblp.queries` to match the venues relevant to the new domain.
 3. **Update `scripts/convert_cache_to_md.py`**:
@@ -207,6 +218,9 @@ python main.py run --env=dev
 
 # Collect papers from all years (skip the 3-year window filter)
 python main.py run --env=dev --all_years
+
+# Simulate automatic run with primary-only mode (scans secondary keywords only on venues where registra finds new papers)
+python main.py run --env=dev --primary_only
 ```
 
 In `dev` mode the script will:
