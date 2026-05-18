@@ -9,6 +9,20 @@
 - DFMN: A Dual-feet Matching Network with Hybrid Transformer-based Feature Extractor for Unsupervised Deformable Medical Image Registration. [[PUB](https://doi.org/10.1609/aaai.v40i8.37559)]
 - MCI-Net: A Robust Multi-Domain Context Integration Network for Point Cloud Registration. [[PUB](https://doi.org/10.1609/aaai.v40i28.39531)]
 - SOMA: Feature Gradient Enhanced Affine-Flow Matching for SAR-Optical Registration. [[PUB](https://doi.org/10.1609/aaai.v40i12.37939)]
+- Ambiguity-aware Truncated Flow Matching for Ambiguous Medical Image Segmentation. [[PUB](https://doi.org/10.1609/aaai.v40i8.37532)]
+- BAT: Learning Event-based Optical Flow with Bidirectional Adaptive Temporal Correlation. [[PUB](https://doi.org/10.1609/aaai.v40i13.38100)]
+- FlowAnyTime: Efficient Fine-tuning with Intra-Inter Frame Distillation for All-Weather Optical Flow Estimation. [[PUB](https://doi.org/10.1609/aaai.v40i13.38019)]
+- Graph Flow Matching: Enhancing Image Generation with Neighbor-Aware Flow Fields. [[PUB](https://doi.org/10.1609/aaai.v40i30.39741)]
+- Intra-Image Mining and Symmetric Maximum Concept Matching for Few Shot Out-of-Distribution Detection. [[PUB](https://doi.org/10.1609/aaai.v40i4.37280)]
+- Mosaic Pruning: A Hierarchical Framework for Generalizable Pruning of Mixture-of-Experts Models. [[PUB](https://doi.org/10.1609/aaai.v40i26.39341)]
+- MosaicDoc: A Large-Scale Bilingual Benchmark for Visually Rich Document Understanding. [[PUB](https://doi.org/10.1609/aaai.v40i4.37282)]
+- PMPGuard: Catching Pseudo-Matched Pairs in Remote Sensing Image-Text Retrieval. [[PUB](https://doi.org/10.1609/aaai.v40i10.37767)]
+- RAW-Flow: Advancing RGB-to-RAW Image Reconstruction with Deterministic Latent Flow Matching. [[PUB](https://doi.org/10.1609/aaai.v40i9.37682)]
+- SE360: Semantic Edit in 360° Panoramas via Hierarchical Data Construction. [[PUB](https://doi.org/10.1609/aaai.v40i16.38356)]
+- SGPFeat: Semantic and Geometric Priors for Multi-modal Image Matching. [[PUB](https://doi.org/10.1609/aaai.v40i5.37355)]
+- SphereDiff: Tuning-free 360° Static and Dynamic Panorama Generation via Spherical Latent Representation. [[PUB](https://doi.org/10.1609/aaai.v40i10.37779)]
+- Symmetrical Flow Matching: Unified Image Generation, Segmentation, and Classification with Score-Based Generative Models. [[PUB](https://doi.org/10.1609/aaai.v40i4.37236)]
+- Treatment Stitching with Schrödinger Bridge for Enhancing Offline Reinforcement Learning in Adaptive Treatment Strategies. [[PUB](https://doi.org/10.1609/aaai.v40i21.38826)]
 
 ### TPAMI
 
@@ -19,12 +33,16 @@
 - PAVM: Progressive and Adaptive Variance Minimization Algorithm for Robust Registration. [[PUB](https://doi.org/10.1109/TPAMI.2025.3625992)]
 - Single Voter Spreading for Efficient Correspondence Grouping and 3D Registration. [[PUB](https://doi.org/10.1109/TPAMI.2025.3609474)]
 - Iterative Differential Entropy Minimization (IDEM) Method for Fine Rigid Pairwise 3D Point Cloud Registration: A Focus on the Metric. [[PUB](https://doi.org/10.1109/TPAMI.2025.3647835)]
+- Joint Sparse Optical Flow Estimation and Keypoint Detection via Dual-task Imperative Learning. [[PUB](https://doi.org/10.1109/TPAMI.2025.3627192)]
+- Learning Efficient Meshflow and Optical Flow From Event Cameras. [[PUB](https://doi.org/10.1109/TPAMI.2025.3615144)]
+- Spike Camera Optical Flow Estimation Based on Continuous Spike Streams. [[PUB](https://doi.org/10.1109/TPAMI.2025.3649050)]
 
 ### IJCV
 
 - CylindFormer: Image-to-Point Cloud Registration with Cylindrical Transformer. [[PUB](https://doi.org/10.1007/s11263-026-02747-w)]
 - Deep Learning-Based Point Cloud Registration: A Comprehensive Survey and Taxonomy. [[PUB](https://doi.org/10.1007/s11263-025-02723-w)]
 - Robust Partial-to-Partial Point Cloud Registration with Overlapping Mask Learning. [[PUB](https://doi.org/10.1007/s11263-026-02772-9)]
+- DiffPano++: Scalable and Consistent Multi-View Panorama Generation with Spherical Epipolar-Aware Diffusion. [[PUB](https://doi.org/10.1007/s11263-026-02758-7)]
 
 ### MIA
 
@@ -43,6 +61,13 @@
 - Unsupervised multimodal surface registration with geometric deep learning. [[PUB](https://doi.org/10.1016/j.media.2025.103821)]
 - UTMorph: A hybrid CNN-transformer network for weakly-supervised multimodal image registration in biopsy puncture. [[PUB](https://doi.org/10.1016/j.media.2026.103938)]
 - Vision foundation model for 3D magnetic resonance imaging segmentation, classification, and registration. [[PUB](https://doi.org/10.1016/j.media.2026.103992)]
+- GAGM: Geometry-aware graph matching framework for weakly supervised gyral hinge correspondence. [[PUB](https://doi.org/10.1016/j.media.2025.103820)]
+- Iterative learning for joint image denoising and motion artifact correction of 3D brain MRI. [[PUB](https://doi.org/10.1016/j.media.2025.103872)]
+- OphMatcher: Uncertainty-aware self-training on ophthalmic surgical videos for anatomy-constrained matching and intraoprative navigation. [[PUB](https://doi.org/10.1016/j.media.2026.104057)]
+
+### EuroSys
+
+- CSnake: Detecting Self-Sustaining Cascading Failure via Causal Stitching of Fault Propagations. [[PUB](https://doi.org/10.1145/3767295.3769373)]
 
 ## 2025
 
@@ -50,6 +75,9 @@
 
 - GPI-Net: Gestalt-Guided Parallel Interaction Network via Orthogonal Geometric Consistency for Robust Point Cloud Registration. [[PUB](https://doi.org/10.24963/ijcai.2025/118)]
 - Top-I2P: Explore Open-Domain Image-to-Point Cloud Registration Using Topology Relationship. [[PUB](https://doi.org/10.24963/ijcai.2025/76)]
+- Boosting Zero-shot Stereo Matching Using Large-Scale Mixed Images Sources in the Real World. [[PUB](https://doi.org/10.24963/ijcai.2025/226)]
+- Multimodal Image Matching Based on Cross-Modality Completion Pre-training. [[PUB](https://doi.org/10.24963/ijcai.2025/246)]
+- Optical Flow Estimation for Tiny Objects: New Problem, Specialized Benchmark, and Bioinspired Scheme. [[PUB](https://doi.org/10.24963/ijcai.2025/136)]
 
 ### AAAI
 
@@ -61,20 +89,52 @@
 - Partial Point Cloud Registration with Multi-view 2D Image Learning. [[PUB](https://doi.org/10.1609/aaai.v39i10.33121)]
 - PSReg: Prior-guided Sparse Mixture of Experts for Point Cloud Registration. [[PUB](https://doi.org/10.1609/aaai.v39i4.32395)]
 - Where Precision Meets Efficiency: Transformation Diffusion Model for Point Cloud Registration. [[PUB](https://doi.org/10.1609/aaai.v39i9.33055)]
+- Achieving Ensemble-Like Performance in a Single Model: A Feature Diversification Framework for Image-Text Matching. [[PUB](https://doi.org/10.1609/aaai.v39i10.33182)]
+- Expanding the Scope of Negatives: Boosting Image-Text Matching with Negatives Distribution Guided Learning. [[PUB](https://doi.org/10.1609/aaai.v39i10.33183)]
+- FAMNet: Frequency-aware Matching Network for Cross-domain Few-shot Medical Image Segmentation. [[PUB](https://doi.org/10.1609/aaai.v39i2.32184)]
+- How Not to Stitch Representations to Measure Similarity: Task Loss Matching Versus Direct Matching. [[PUB](https://doi.org/10.1609/aaai.v39i15.33698)]
+- M2Flow: A Motion Information Fusion Framework for Enhanced Unsupervised Optical Flow Estimation in Autonomous Driving. [[PUB](https://doi.org/10.1609/aaai.v39i7.32767)]
+- MASS: Overcoming Language Bias in Image-Text Matching. [[PUB](https://doi.org/10.1609/aaai.v39i3.32262)]
+- Matching While Perceiving: Enhance Image Feature Matching with Applicable Semantic Amalgamation. [[PUB](https://doi.org/10.1609/aaai.v39i10.33095)]
+- Object-level Geometric Structure Preserving for Natural Image Stitching. [[PUB](https://doi.org/10.1609/aaai.v39i2.32188)]
+- Stitch, Contrast, and Segment: Learning a Human Action Segmentation Model Using Trimmed Skeleton Videos. [[PUB](https://doi.org/10.1609/aaai.v39i7.32792)]
 
 ### ICML
 
 - Generative Point Cloud Registration. [[PUB](https://proceedings.mlr.press/v267/jiang25k.html)]
+- FlowAR: Scale-wise Autoregressive Image Generation Meets Flow Matching. [[PUB](https://proceedings.mlr.press/v267/ren25e.html)]
+- FlowDrag: 3D-aware Drag-based Image Editing with Mesh-guided Deformation Vector Flow Fields. [[PUB](https://proceedings.mlr.press/v267/koo25a.html)]
+- Functional Alignment Can Mislead: Examining Model Stitching. [[PUB](https://proceedings.mlr.press/v267/smith25a.html)]
+- Graph-Assisted Stitching for Offline Hierarchical Reinforcement Learning. [[PUB](https://proceedings.mlr.press/v267/baek25a.html)]
+- Scalable Generation of Spatial Transcriptomics from Histology Images via Whole-Slide Flow Matching. [[PUB](https://proceedings.mlr.press/v267/huang25t.html)]
 
 ### ICLR
 
 - Hierarchical Uncertainty Estimation for Learning-based Registration in Neuroimaging. [[PUB](https://openreview.net/forum?id=w8LMtFY97b)]
 - Occlusion-aware Non-Rigid Point Cloud Registration via Unsupervised Neural Deformation Correntropy. [[PUB](https://openreview.net/forum?id=cjJqU40nYS)]
+- CubeDiff: Repurposing Diffusion-Based Image Models for Panorama Generation. [[PUB](https://openreview.net/forum?id=M2SsqpxGtc)]
+- Discovering Clone Negatives via Adaptive Contrastive Learning for Image-Text Matching. [[PUB](https://openreview.net/forum?id=My9MBsO41H)]
+- Distilled Decoding 1: One-step Sampling of Image Auto-regressive Models with Flow Matching. [[PUB](https://openreview.net/forum?id=zKlFXV87Pp)]
+- Efficient Multi-agent Offline Coordination via Diffusion-based Trajectory Stitching. [[PUB](https://openreview.net/forum?id=EpnZEzYDUT)]
+- Implicit Neural Surface Deformation with Explicit Velocity Fields. [[PUB](https://openreview.net/forum?id=sYAFiHP6qr)]
+- InstaRevive: One-Step Image Enhancement via Dynamic Score Matching. [[PUB](https://openreview.net/forum?id=G1CN7R5qwE)]
+- Memory Mosaics. [[PUB](https://openreview.net/forum?id=IiagjrJNwF)]
+- Moner: Motion Correction in Undersampled Radial MRI with Unsupervised Neural Representation. [[PUB](https://openreview.net/forum?id=OdnqG1fYpo)]
+- PnP-Flow: Plug-and-Play Image Restoration with Flow Matching. [[PUB](https://openreview.net/forum?id=5AtHrq3B5R)]
+- T-Stitch: Accelerating Sampling in Pre-Trained Diffusion Models with Trajectory Stitching. [[PUB](https://openreview.net/forum?id=2mqb8bPHeb)]
 
 ### TPAMI
 
 - Non-Rigid Point Cloud Registration via Anisotropic Hybrid Field Harmonization. [[PUB](https://doi.org/10.1109/TPAMI.2025.3572584)]
 - SPARE: Symmetrized Point-to-Plane Distance for Robust Non-Rigid 3D Registration. [[PUB](https://doi.org/10.1109/TPAMI.2025.3598630)]
+- Adverse Weather Optical Flow: Cumulative Homogeneous-Heterogeneous Adaptation. [[PUB](https://doi.org/10.1109/TPAMI.2024.3466241)]
+- Event-Enhanced Snapshot Mosaic Hyperspectral Frame Deblurring. [[PUB](https://doi.org/10.1109/TPAMI.2024.3465455)]
+- Flow-Anything: Learning Real-World Optical Flow Estimation From Large-Scale Single-View Images. [[PUB](https://doi.org/10.1109/TPAMI.2025.3576851)]
+- Investigating Synthetic-to-Real Transfer Robustness for Stereo Matching and Optical Flow Estimation. [[PUB](https://doi.org/10.1109/TPAMI.2025.3584847)]
+- MOL: Joint Estimation of Micro-Expression, Optical Flow, and Landmark via Transformer-Graph-Style Convolution. [[PUB](https://doi.org/10.1109/TPAMI.2025.3581162)]
+- Self-Supervised High-Order Information Bottleneck Learning of Spiking Neural Network for Robust Event-Based Optical Flow Estimation. [[PUB](https://doi.org/10.1109/TPAMI.2024.3510627)]
+- StabStitch++: Unsupervised Online Video Stitching With Spatiotemporal Bidirectional Warps. [[PUB](https://doi.org/10.1109/TPAMI.2025.3568829)]
+- Unpaired Image-Text Matching via Multimodal Aligned Conceptual Knowledge. [[PUB](https://doi.org/10.1109/TPAMI.2024.3432552)]
 
 ### KDD
 
@@ -105,6 +165,38 @@
 - Turboreg: Turboclique for Robust and Efficient Point Cloud Registration. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02447)]
 - U-ViLAR: Uncertainty-Aware Visual Localization for Autonomous Driving via Differentiable Association and Registration. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02308)]
 - Unsupervised Rgb-D Point Cloud Registration for Scenes With Low Overlap and Photometric Inconsistency. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02306)]
+- Adversarial Distribution Matching for Diffusion Distillation Towards Efficient Image and Video Synthesis. [[PUB](https://doi.org/10.1109/ICCV51701.2025.01562)]
+- Aligning Information Capacity Between Vision and Language via Dense-to-Sparse Feature Distillation for Image-Text Matching. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02013)]
+- AM-Adapter: Appearance Matching Adapter for Exemplar-Based Semantic Image Synthesis In-the-Wild. [[PUB](https://doi.org/10.1109/ICCV51701.2025.01586)]
+- Anchor Token Matching: Implicit Structure Locking for Training-Free AR Image Editing. [[PUB](https://doi.org/10.1109/ICCV51701.2025.01688)]
+- Balanced Image Stylization with Style Matching Score. [[PUB](https://doi.org/10.1109/ICCV51701.2025.01611)]
+- CoMatch: Dynamic Covisibility-Aware Transformer for Bilateral Subpixel-Level Semi-Dense Image Matching. [[PUB](https://doi.org/10.1109/ICCV51701.2025.01721)]
+- DreamCube: RGB-D Panorama Generation via Multi-Plane Synchronization. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02311)]
+- EMatch: A Unified Framework for Event-Based Optical Flow and Stereo Matching. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00553)]
+- Flow4Agent: Long-form Video Understanding via Motion Prior from Optical Flow. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02211)]
+- FlowSeek: Optical Flow Made Easier with Depth Foundation Models and Motion Bases. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00537)]
+- HOMO-Feature: Cross-Arbitrary-Modal Image Matching with Homomorphism of Organized Major Orientation. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00981)]
+- How Do Optical Flow and Textual Prompts Collaborate to Assist in Audio-Visual Semantic Segmentation?. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02167)]
+- LBM: Latent Bridge Matching for Fast Image-to-Image Translation. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02701)]
+- Learning Dense Feature Matching via Lifting Single 2D Image to 3D Space. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00624)]
+- Learning Large Motion Estimation from Intermediate Representations with a High-Resolution Optical Flow Dataset Featuring Long-Range Dynamic Motion. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00583)]
+- Leveraging Local Patch Alignment to Seam-Cutting for Large Parallax Image Stitching. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02531)]
+- LLM-Enhanced Action-Aware Multi-Modal Prompt Tuning for Image-Text Matching. [[PUB](https://doi.org/10.1109/ICCV51701.2025.01929)]
+- MEMFOF: High-Resolution Training for Memory-Efficient Multi-Frame Optical Flow Estimation. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00767)]
+- Mind the Gap: Aligning Vision Foundation Models to Image Feature Matching. [[PUB](https://doi.org/10.1109/ICCV51701.2025.01889)]
+- MOSAIC: Generating Consistent, Privacy-Preserving Scenes from Multiple Depth Views in Multi-Room Environments. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02549)]
+- MosaicDiff: Training-free Structural Pruning for Diffusion Model Acceleration Reflecting Pretraining Dynamics. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00162)]
+- PanoLlama: Generating Endless and Coherent Panoramas with Next-Token-Prediction LLMs. [[PUB](https://doi.org/10.1109/ICCV51701.2025.01423)]
+- PanoSplatt3R: Leveraging Perspective Pretraining for Generalized Unposed Wide-Baseline Panorama Reconstruction. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02689)]
+- PixelStitch: Structure-Preserving Pixel-Wise Bidirectional Warps for Unsupervised Image Stitching. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02611)]
+- PriOr-Flow: Enhancing Primitive Panoramic Optical Flow with Orthogonal View. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00506)]
+- Removing Cost Volumes from Optical Flow Estimators. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00015)]
+- ReTracker: Exploring Image Matching for Robust Online Any Point Tracking. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00410)]
+- Top2Pano: Learning to Generate Indoor Panoramas from Top-Down View. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02646)]
+- Towards Open-World Generation of Stereo Images and Unsupervised Matching. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02467)]
+- Unsupervised Joint Learning of Optical Flow and Intensity with Event Cameras. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00748)]
+- What Makes for Text to 360-Degree Panorama Generation with Stable Diffusion?. [[PUB](https://doi.org/10.1109/ICCV51701.2025.01537)]
+- ZeroStereo: Zero-Shot Stereo Matching from Single Images. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02616)]
 
 ### CVPR
 
@@ -122,6 +214,30 @@
 - Stable-SCore: A Stable Registration-based Framework for 3D Shape Correspondence. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Stable-SCore_A_Stable_Registration-based_Framework_for_3D_Shape_Correspondence_CVPR_2025_paper.html)]
 - Unlocking Generalization Power in LiDAR Point Cloud Registration. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Zeng_Unlocking_Generalization_Power_in_LiDAR_Point_Cloud_Registration_CVPR_2025_paper.html)]
 - Zero-shot RGB-D Point Cloud Registration with Pre-trained Large Vision Model. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Jiang_Zero-shot_RGB-D_Point_Cloud_Registration_with_Pre-trained_Large_Vision_Model_CVPR_2025_paper.html)]
+- A Stitch in Time Saves Nine: Small VLM is a Precise Guidance for Accelerating Large VLMs. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_A_Stitch_in_Time_Saves_Nine_Small_VLM_is_a_CVPR_2025_paper.html)]
+- Blood Flow Speed Estimation with Optical Coherence Tomography Angiography Images. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Cheng_Blood_Flow_Speed_Estimation_with_Optical_Coherence_Tomography_Angiography_Images_CVPR_2025_paper.html)]
+- Bridge Frame and Event: Common Spatiotemporal Fusion for High-Dynamic Scene Optical Flow. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_Bridge_Frame_and_Event_Common_Spatiotemporal_Fusion_for_High-Dynamic_Scene_CVPR_2025_paper.html)]
+- CamFreeDiff: Camera-free Image to Panorama Generation with Diffusion Model. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Yuan_CamFreeDiff_Camera-free_Image_to_Panorama_Generation_with_Diffusion_Model_CVPR_2025_paper.html)]
+- DPFlow: Adaptive Optical Flow Estimation with a Dual-Pyramid Framework. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Morimitsu_DPFlow_Adaptive_Optical_Flow_Estimation_with_a_Dual-Pyramid_Framework_CVPR_2025_paper.html)]
+- EDCFlow: Exploring Temporally Dense Difference Maps for Event-based Optical Flow Estimation. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Liu_EDCFlow_Exploring_Temporally_Dense_Difference_Maps_for_Event-based_Optical_Flow_CVPR_2025_paper.html)]
+- FloVD: Optical Flow Meets Video Diffusion Model for Enhanced Camera-Controlled Video Synthesis. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Jin_FloVD_Optical_Flow_Meets_Video_Diffusion_Model_for_Enhanced_Camera-Controlled_CVPR_2025_paper.html)]
+- ICP: Immediate Compensation Pruning for Mid-to-high Sparsity. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Luo_ICP_Immediate_Compensation_Pruning_for_Mid-to-high_Sparsity_CVPR_2025_paper.html)]
+- Image Over Text: Transforming Formula Recognition Evaluation with Character Detection Matching. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Image_Over_Text_Transforming_Formula_Recognition_Evaluation_with_Character_Detection_CVPR_2025_paper.html)]
+- MINIMA: Modality Invariant Image Matching. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Ren_MINIMA_Modality_Invariant_Image_Matching_CVPR_2025_paper.html)]
+- Mosaic of Modalities: A Comprehensive Benchmark for Multimodal Graph Learning. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Zhu_Mosaic_of_Modalities_A_Comprehensive_Benchmark_for_Multimodal_Graph_Learning_CVPR_2025_paper.html)]
+- Mosaic3D: Foundation Dataset and Model for Open-Vocabulary 3D Segmentation. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Lee_Mosaic3D_Foundation_Dataset_and_Model_for_Open-Vocabulary_3D_Segmentation_CVPR_2025_paper.html)]
+- Multi-Modal Synergistic Implicit Image Enhancement for Efficient Optical Flow Estimation. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Dai_Multi-Modal_Synergistic_Implicit_Image_Enhancement_for_Efficient_Optical_Flow_Estimation_CVPR_2025_paper.html)]
+- MultiMorph: On-demand Atlas Construction. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Abulnaga_MultiMorph_On-demand_Atlas_Construction_CVPR_2025_paper.html)]
+- Optical-Flow Guided Prompt Optimization for Coherent Video Generation. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Nam_Optical-Flow_Guided_Prompt_Optimization_for_Coherent_Video_Generation_CVPR_2025_paper.html)]
+- PanDA: Towards Panoramic Depth Anything with Unlabeled Panoramas and Mobius Spatial Augmentation. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Cao_PanDA_Towards_Panoramic_Depth_Anything_with_Unlabeled_Panoramas_and_Mobius_CVPR_2025_paper.html)]
+- Panorama Generation From NFoV Image Done Right. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Zheng_Panorama_Generation_From_NFoV_Image_Done_Right_CVPR_2025_paper.html)]
+- PanSplat: 4K Panorama Synthesis with Feed-Forward Gaussian Splatting. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_PanSplat_4K_Panorama_Synthesis_with_Feed-Forward_Gaussian_Splatting_CVPR_2025_paper.html)]
+- Phoenix: A Motion-based Self-Reflection Framework for Fine-grained Robotic Action Correction. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Xia_Phoenix_A_Motion-based_Self-Reflection_Framework_for_Fine-grained_Robotic_Action_Correction_CVPR_2025_paper.html)]
+- RUBIK: A Structured Benchmark for Image Matching across Geometric Challenges. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Loiseau_RUBIK_A_Structured_Benchmark_for_Image_Matching_across_Geometric_Challenges_CVPR_2025_paper.html)]
+- Shape and Texture: What Influences Reliable Optical Flow Estimation?. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Long_Shape_and_Texture_What_Influences_Reliable_Optical_Flow_Estimation_CVPR_2025_paper.html)]
+- Test-Time Domain Generalization via Universe Learning: A Multi-Graph Matching Approach for Medical Image Segmentation. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Lv_Test-Time_Domain_Generalization_via_Universe_Learning_A_Multi-Graph_Matching_Approach_CVPR_2025_paper.html)]
+- Thin-Shell-SfT: Fine-Grained Monocular Non-rigid 3D Surface Tracking with Neural Deformation Fields. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Kairanda_Thin-Shell-SfT_Fine-Grained_Monocular_Non-rigid_3D_Surface_Tracking_with_Neural_Deformation_CVPR_2025_paper.html)]
+- Towards Realistic Example-based Modeling via 3D Gaussian Stitching. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Gao_Towards_Realistic_Example-based_Modeling_via_3D_Gaussian_Stitching_CVPR_2025_paper.html)]
 
 ### MM
 
@@ -129,6 +245,10 @@
 - Domain Crossover Non-Rigid Registration for 3D Human Meshes. [[PUB](https://doi.org/10.1145/3746027.3754705)]
 - Regist3R: Incremental Registration with Stereo Foundation Model. [[PUB](https://doi.org/10.1145/3746027.3755466)]
 - Toward a Training-Free Plug-and-Play Refinement Framework for Infrared and Visible Image Registration and Fusion. [[PUB](https://doi.org/10.1145/3746027.3755087)]
+- Dual-Granularity Cross-Modal Identity Association for Weakly-Supervised Text-to-Person Image Matching. [[PUB](https://doi.org/10.1145/3746027.3755834)]
+- Look Beyond: Two-Stage Scene View Generation via Panorama and Video Diffusion. [[PUB](https://doi.org/10.1145/3746027.3754779)]
+- StitchFusion: Weaving Any Visual Modalities to Enhance Multimodal Semantic Segmentation. [[PUB](https://doi.org/10.1145/3746027.3755110)]
+- TiP4GEN: Text to Immersive Panorama 4D Scene Generation. [[PUB](https://doi.org/10.1145/3746027.3754704)]
 
 ### IJCV
 
@@ -136,6 +256,11 @@
 - C2RF: Bridging Multi-modal Image Registration and Fusion via Commonality Mining and Contrastive Learning. [[PUB](https://doi.org/10.1007/s11263-025-02427-1)]
 - Collective Migration-Inspired Large-Deformation Compensation for Nonrigid Image Registration. [[PUB](https://doi.org/10.1007/s11263-025-02538-9)]
 - Enhance Image-to-Point-Cloud Registration with Beltrami Flow. [[PUB](https://doi.org/10.1007/s11263-025-02575-4)]
+- Bi-VLGM: Bi-Level Class-Severity-Aware Vision-Language Graph Matching for Text Guided Medical Image Segmentation. [[PUB](https://doi.org/10.1007/s11263-024-02246-w)]
+- CEDFlow++: Latent Contour Enhancement for Dark Optical Flow Estimation. [[PUB](https://doi.org/10.1007/s11263-025-02528-x)]
+- CLIMS++: Cross Language Image Matching with Automatic Context Discovery for Weakly Supervised Semantic Segmentation. [[PUB](https://doi.org/10.1007/s11263-025-02442-2)]
+- FlowSDF: Flow Matching for Medical Image Segmentation Using Distance Transforms. [[PUB](https://doi.org/10.1007/s11263-025-02373-y)]
+- MosaicFusion: Diffusion Models as Data Augmenters for Large Vocabulary Instance Segmentation. [[PUB](https://doi.org/10.1007/s11263-024-02223-3)]
 
 ### MICCAI
 
@@ -165,6 +290,14 @@
 - Vascular Photoacoustic Volume Registration via 2D Feature Matching with Reverse Mapping Based on Maximum Intensity Projection. [[PUB](https://doi.org/10.1007/978-3-032-05325-1_62)]
 - VoxelOpt: Voxel-Adaptive Message Passing for Discrete Optimization in Deformable Abdominal CT Registration. [[PUB](https://doi.org/10.1007/978-3-032-04965-0_63)]
 - Weakly-Supervised 2D/3D Image Registration via Differentiable X-ray Rendering and ROI Segmentation. [[PUB](https://doi.org/10.1007/978-3-032-04984-1_62)]
+- BiMSRec: A Progressive Image Reconstruction Framework for Medical Image Fusion Guided by Multi-scale Deformation Fields. [[PUB](https://doi.org/10.1007/978-3-032-04937-7_5)]
+- DEFUSE-MS: Deformation Field-Guided Spatiotemporal Graph-Based Framework for Multiple Sclerosis New Lesion Detection. [[PUB](https://doi.org/10.1007/978-3-032-05162-2_25)]
+- FedCLAM: Client Adaptive Momentum with Foreground Intensity Matching for Federated Medical Image Segmentation. [[PUB](https://doi.org/10.1007/978-3-032-04978-0_24)]
+- Flow Matching for Medical Image Synthesis: Bridging the Gap Between Speed and Quality. [[PUB](https://doi.org/10.1007/978-3-032-05325-1_21)]
+- High-Order Progressive Trajectory Matching for Medical Image Dataset Distillation. [[PUB](https://doi.org/10.1007/978-3-032-05185-1_27)]
+- Mask2Surface: Motion Correction and Super-Resolution for Cardiac Surface Reconstruction Using Latent Diffusion. [[PUB](https://doi.org/10.1007/978-3-032-04937-7_32)]
+- Motion-Boundary-Driven Unsupervised Surgical Instrument Segmentation in Low-Quality Optical Flow. [[PUB](https://doi.org/10.1007/978-3-032-05114-1_36)]
+- MRI Motion Artifact Correction via Frequency-Assisted Artifact Disentanglement and Confidence-Guided Knowledge Distillation. [[PUB](https://doi.org/10.1007/978-3-032-05169-1_38)]
 
 ### MIA
 
@@ -180,6 +313,41 @@
 - SynMSE: A multimodal similarity evaluator for complex distribution discrepancy in unsupervised deformable multimodal medical image registration. [[PUB](https://doi.org/10.1016/j.media.2025.103620)]
 - USLR: An open-source tool for unbiased and smooth longitudinal registration of brain MRI. [[PUB](https://doi.org/10.1016/j.media.2025.103662)]
 - MUsculo-Skeleton-Aware (MUSA) deep learning for anatomically guided head-and-neck CT deformable registration. [[PUB](https://doi.org/10.1016/j.media.2024.103351)]
+- An orchestration learning framework for ultrasound imaging: Prompt-Guided Hyper-Perception and Attention-Matching Downstream Synchronization. [[PUB](https://doi.org/10.1016/j.media.2025.103639)]
+- COLLATOR: Consistent spatial-temporal longitudinal atlas construction via implicit neural representation. [[PUB](https://doi.org/10.1016/j.media.2024.103396)]
+- HAGMN-UQ: Hyper association graph matching network with uncertainty quantification for coronary artery semantic labeling. [[PUB](https://doi.org/10.1016/j.media.2024.103374)]
+- Joint coil sensitivity and motion correction in parallel MRI with a self-calibrating score-based diffusion model. [[PUB](https://doi.org/10.1016/j.media.2025.103502)]
+- MBSS-T1: Model-based subject-specific self-supervised motion correction for robust cardiac T1 mapping. [[PUB](https://doi.org/10.1016/j.media.2025.103495)]
+
+### ACL
+
+- Mosaic-IT: Cost-Free Compositional Data Synthesis for Instruction Tuning. [[PUB](https://aclanthology.org/2025.findings-acl.1297/)]
+- MOSAIC: Multiple Observers Spotting AI Content. [[PUB](https://aclanthology.org/2025.findings-acl.1244/)]
+- StitchLLM: Serving LLMs, One Block at a Time. [[PUB](https://aclanthology.org/2025.acl-long.1305/)]
+
+### EMNLP
+
+- MOSAIC: Modeling Social AI for Content Dissemination and Regulation in Multi-Agent Simulations. [[PUB](https://doi.org/10.18653/v1/2025.emnlp-main.325)]
+- PoseStitch-SLT: Linguistically Inspired Pose-Stitching for End-to-End Sign Language Translation. [[PUB](https://doi.org/10.18653/v1/2025.emnlp-main.698)]
+- (Almost) Free Modality Stitching of Foundation Models. [[PUB](https://doi.org/10.18653/v1/2025.emnlp-main.1001)]
+
+### SIGIR
+
+- Beyond General Alignment: Fine-Grained Entity-Centric Image-Text Matching with Multimodal Attentive Experts. [[PUB](https://doi.org/10.1145/3726302.3729902)]
+- From Monolith to Mosaic: Uncovering Behavioral Differences for Choice Models in Recommender Systems Simulations. [[PUB](https://doi.org/10.1145/3726302.3730199)]
+- Stitching Inner Product and Euclidean Metrics for Topology-aware Maximum Inner Product Search. [[PUB](https://doi.org/10.1145/3726302.3730088)]
+
+### ICDE
+
+- CrossETR: A Semantic-Driven Framework for Entity Matching Across Images and Graph. [[PUB](https://doi.org/10.1109/ICDE65448.2025.00054)]
+
+### SIGCOMM
+
+- Mosaic: Breaking the Optics versus Copper Trade-off with a Wide-and-Slow Architecture and MicroLEDs. [[PUB](https://doi.org/10.1145/3718958.3750510)]
+
+### WWW
+
+- The DenseCap-Guided Attention Network For Image-Text Matching. [[PUB](https://doi.org/10.1145/3701716.3717564)]
 
 ### SOSP
 
@@ -198,6 +366,20 @@
 - SPEAL: Skeletal Prior Embedded Attention Learning for Cross-Source Point Cloud Registration. [[PUB](https://doi.org/10.1609/aaai.v38i6.28446)]
 - SuperJunction: Learning-Based Junction Detection for Retinal Image Registration. [[PUB](https://doi.org/10.1609/aaai.v38i1.27782)]
 - Test-Time Adaptation via Style and Structure Guidance for Histological Image Registration. [[PUB](https://doi.org/10.1609/aaai.v38i7.28601)]
+- CEDFlow: Latent Contour Enhancement for Dark Optical Flow Estimation. [[PUB](https://doi.org/10.1609/aaai.v38i7.28627)]
+- CLIM: Contrastive Language-Image Mosaic for Region Representation. [[PUB](https://doi.org/10.1609/aaai.v38i6.28428)]
+- Context-Aware Iteration Policy Network for Efficient Optical Flow Estimation. [[PUB](https://doi.org/10.1609/aaai.v38i2.27893)]
+- Correlation Matching Transformation Transformers for UHD Image Restoration. [[PUB](https://doi.org/10.1609/aaai.v38i6.28341)]
+- HORIZON: High-Resolution Semantically Controlled Panorama Synthesis. [[PUB](https://doi.org/10.1609/aaai.v38i6.28463)]
+- Identification of Necessary Semantic Undertakers in the Causal View for Image-Text Matching. [[PUB](https://doi.org/10.1609/aaai.v38i7.28538)]
+- MatchDet: A Collaborative Framework for Image Matching and Object Detection. [[PUB](https://doi.org/10.1609/aaai.v38i3.28066)]
+- Offline and Online Optical Flow Enhancement for Deep Video Compression. [[PUB](https://doi.org/10.1609/aaai.v38i6.28317)]
+- Optical Flow for Spike Camera with Hierarchical Spatial-Temporal Spike Fusion. [[PUB](https://doi.org/10.1609/aaai.v38i7.28581)]
+- Recurrent Partial Kernel Network for Efficient Optical Flow Estimation. [[PUB](https://doi.org/10.1609/aaai.v38i5.28224)]
+- SAMFlow: Eliminating Any Fragmentation in Optical Flow with Segment Anything Model. [[PUB](https://doi.org/10.1609/aaai.v38i7.28603)]
+- Stitching Segments and Sentences towards Generalization in Video-Text Pre-training. [[PUB](https://doi.org/10.1609/aaai.v38i5.28202)]
+- Stitching Sub-trajectories with Conditional Diffusion Model for Goal-Conditioned Offline RL. [[PUB](https://doi.org/10.1609/aaai.v38i12.29215)]
+- Towards Robust Image Stitching: An Adaptive Resistance Learning against Compatible Attacks. [[PUB](https://doi.org/10.1609/aaai.v38i3.28036)]
 
 ### NeurIPS
 
@@ -207,16 +389,36 @@
 - Deep Learning in Medical Image Registration: Magic or Mirage?. [[PUB](http://papers.nips.cc/paper_files/paper/2024/hash/c3fe2a07ec47b89c50e89706d2e23358-Abstract-Conference.html)]
 - Mining and Transferring Feature-Geometry Coherence for Unsupervised Point Cloud Registration. [[PUB](http://papers.nips.cc/paper_files/paper/2024/hash/3e9034dd5420660d86c8c360c35a895e-Abstract-Conference.html)]
 - Multi-scale Consistency for Robust 3D Registration via Hierarchical Sinkhorn Tree. [[PUB](http://papers.nips.cc/paper_files/paper/2024/hash/a70ee7ea485e4fd36abbfc4adf591c28-Abstract-Conference.html)]
+- An eye for an ear: zero-shot audio description leveraging an image captioner with audio-visual token distribution matching. [[PUB](http://papers.nips.cc/paper_files/paper/2024/hash/4426af45e987692abf1b80108951ff8a-Abstract-Conference.html)]
+- CoMat: Aligning Text-to-Image Diffusion Model with Image-to-Text Concept Matching. [[PUB](http://papers.nips.cc/paper_files/paper/2024/hash/8b54ecd9823fff6d37e61ece8f87e534-Abstract-Conference.html)]
+- DiffPano: Scalable and Consistent Text to Panorama Generation with Spherical Epipolar-Aware Diffusion. [[PUB](http://papers.nips.cc/paper_files/paper/2024/hash/02c1d1d33dbfbaf03b3971bb542e72e2-Abstract-Conference.html)]
+- Improved Distribution Matching Distillation for Fast Image Synthesis. [[PUB](http://papers.nips.cc/paper_files/paper/2024/hash/54dcf25318f9de5a7a01f0a4125c541e-Abstract-Conference.html)]
+- NeuralClothSim: Neural Deformation Fields Meet the Thin Shell Theory. [[PUB](http://papers.nips.cc/paper_files/paper/2024/hash/c7649eeb93d2fad0ced9a3b974260710-Abstract-Conference.html)]
+- NeuroGauss4D-PCI: 4D Neural Fields and Gaussian Deformation Fields for Point Cloud Interpolation. [[PUB](http://papers.nips.cc/paper_files/paper/2024/hash/aa9508b2577e0d9c824da9e2e27fe9d6-Abstract-Conference.html)]
+- Reconstructing the Image Stitching Pipeline: Integrating Fusion and Rectangling into a Unified Inpainting Model. [[PUB](http://papers.nips.cc/paper_files/paper/2024/hash/dfa1106ea7065899b13f2be9da04efb4-Abstract-Conference.html)]
+- Segment, Shuffle, and Stitch: A Simple Layer for Improving Time-Series Representations. [[PUB](http://papers.nips.cc/paper_files/paper/2024/hash/0898f05f6c1d247be3eab8da93d33da1-Abstract-Conference.html)]
+- StreamFlow: Streamlined Multi-Frame Optical Flow Estimation for Video Sequences. [[PUB](http://papers.nips.cc/paper_files/paper/2024/hash/116a952bc0a8cb03113408c1a215be7c-Abstract-Conference.html)]
 
 ### ICML
 
 - PointMC: Multi-instance Point Cloud Registration based on Maximal Cliques. [[PUB](https://proceedings.mlr.press/v235/wu24k.html)]
 - Sparse-to-dense Multimodal Image Registration via Multi-Task Learning. [[PUB](https://proceedings.mlr.press/v235/zhang24ar.html)]
+- DiffStitch: Boosting Offline Reinforcement Learning with Diffusion-based Trajectory Stitching. [[PUB](https://proceedings.mlr.press/v235/li24bf.html)]
+- Neuroexplicit Diffusion Models for Inpainting of Optical Flow Fields. [[PUB](https://proceedings.mlr.press/v235/fischer24b.html)]
 
 ### ICLR
 
 - A Plug-and-Play Image Registration Network. [[PUB](https://openreview.net/forum?id=DGez4B2a6Y)]
 - FreeReg: Image-to-Point Cloud Registration Leveraging Pretrained Diffusion Models and Monocular Depth Estimators. [[PUB](https://openreview.net/forum?id=BPb5AhT2Vf)]
+- Exploring the Common Appearance-Boundary Adaptation for Nighttime Optical Flow. [[PUB](https://openreview.net/forum?id=776lhoaulC)]
+- FLATTEN: optical FLow-guided ATTENtion for consistent text-to-video editing. [[PUB](https://openreview.net/forum?id=JgqftqZQZ7)]
+- Free from Bellman Completeness: Trajectory Stitching via Model-based Return-conditioned Supervised Learning. [[PUB](https://openreview.net/forum?id=7zY781bMDO)]
+- GIM: Learning Generalizable Image Matcher From Internet Videos. [[PUB](https://openreview.net/forum?id=NYN1b8GRGS)]
+- PanoDiffusion: 360-degree Panorama Outpainting via Diffusion. [[PUB](https://openreview.net/forum?id=ZNzDXDFZ0B)]
+
+### Machine Learning
+
+- Model-based trajectory stitching for improved behavioural cloning and its applications. [[PUB](https://doi.org/10.1007/s10994-023-06392-z)]
 
 ### TPAMI
 
@@ -225,6 +427,18 @@
 - Match Normalization: Learning-Based Point Cloud Registration for 6D Object Pose Estimation in the Real World. [[PUB](https://doi.org/10.1109/TPAMI.2024.3355198)]
 - RIGA: Rotation-Invariant and Globally-Aware Descriptors for Point Cloud Registration. [[PUB](https://doi.org/10.1109/TPAMI.2023.3349199)]
 - Transformation Decoupling Strategy Based on Screw Theory for Deterministic Point Cloud Registration With Gravity Prior. [[PUB](https://doi.org/10.1109/TPAMI.2024.3442234)]
+- Cost Function Unrolling in Unsupervised Optical Flow. [[PUB](https://doi.org/10.1109/TPAMI.2023.3327156)]
+- Dense Continuous-Time Optical Flow From Event Cameras. [[PUB](https://doi.org/10.1109/TPAMI.2024.3361671)]
+- Exploiting Optical Flow Guidance for Transformer-Based Video Inpainting. [[PUB](https://doi.org/10.1109/TPAMI.2024.3361010)]
+- Learning Optical Flow and Scene Flow With Bidirectional Camera-LiDAR Fusion. [[PUB](https://doi.org/10.1109/TPAMI.2023.3330866)]
+- Optical Flow as Spatial-Temporal Attention Learners. [[PUB](https://doi.org/10.1109/TPAMI.2024.3463648)]
+- PERF: Panoramic Neural Radiance Field From a Single Panorama. [[PUB](https://doi.org/10.1109/TPAMI.2024.3387307)]
+- Secrets of Event-Based Optical Flow, Depth and Ego-Motion Estimation by Contrast Maximization. [[PUB](https://doi.org/10.1109/TPAMI.2024.3396116)]
+- Self-Training Boosted Multi-Factor Matching Network for Composed Image Retrieval. [[PUB](https://doi.org/10.1109/TPAMI.2023.3346434)]
+
+### CCS
+
+- Membership Inference Attacks against Vision Transformers: Mosaic MixUp Training to the Defense. [[PUB](https://doi.org/10.1145/3658644.3690268)]
 
 ### CVPR
 
@@ -243,6 +457,32 @@
 - Learning Instance-Aware Correspondences for Robust Multi-Instance Point Cloud Registration in Cluttered Scenes. [[PUB](https://doi.org/10.1109/CVPR52733.2024.01854)]
 - Modality-Agnostic Structural Image Representation Learning for Deformable Multi-Modality Medical Image Registration. [[PUB](https://doi.org/10.1109/CVPR52733.2024.01066)]
 - Scalable 3D Registration via Truncated Entry-Wise Absolute Residuals. [[PUB](https://doi.org/10.1109/CVPR52733.2024.02594)]
+- 360DVD: Controllable Panorama Video Generation with 360-Degree Video Diffusion Model. [[PUB](https://doi.org/10.1109/CVPR52733.2024.00660)]
+- ADFactory: An Effective Framework for Generalizing Optical Flow With NeRF. [[PUB](https://doi.org/10.1109/CVPR52733.2024.01946)]
+- Characteristics Matching Based Hash Codes Generation for Efficient Fine-Grained Image Retrieval. [[PUB](https://doi.org/10.1109/CVPR52733.2024.01635)]
+- CoDeF: Content Deformation Fields for Temporally Consistent Video Processing. [[PUB](https://doi.org/10.1109/CVPR52733.2024.00773)]
+- Composing Object Relations and Attributes for Image-Text Matching. [[PUB](https://doi.org/10.1109/CVPR52733.2024.01361)]
+- DreamMatcher: Appearance Matching Self-Attention for Semantically-Consistent Text-to-Image Personalization. [[PUB](https://doi.org/10.1109/CVPR52733.2024.00774)]
+- Efficient Meshflow and Optical Flow Estimation from Event Cameras. [[PUB](https://doi.org/10.1109/CVPR52733.2024.01816)]
+- Efficient Stitchable Task Adaptation. [[PUB](https://doi.org/10.1109/CVPR52733.2024.02698)]
+- Exact Fusion via Feature Distribution Matching for Few-Shot Image Generation. [[PUB](https://doi.org/10.1109/CVPR52733.2024.00801)]
+- FlowDiffuser: Advancing Optical Flow Estimation with Diffusion Models. [[PUB](https://doi.org/10.1109/CVPR52733.2024.01813)]
+- FlowTrack: Revisiting Optical Flow for Long-Range Dense Tracking. [[PUB](https://doi.org/10.1109/CVPR52733.2024.01823)]
+- FlowVid: Taming Imperfect Optical Flows for Consistent Video-to-Video Synthesis. [[PUB](https://doi.org/10.1109/CVPR52733.2024.00784)]
+- ICP-Flow: LiDAR Scene Flow Estimation with ICP. [[PUB](https://doi.org/10.1109/CVPR52733.2024.01468)]
+- Image-to-Image Matching via Foundation Models: A New Perspective for Open-Vocabulary Semantic Segmentation. [[PUB](https://doi.org/10.1109/CVPR52733.2024.00379)]
+- Matching 2D Images in 3D: Metric Relative Pose from Metric Correspondences. [[PUB](https://doi.org/10.1109/CVPR52733.2024.00464)]
+- MatchU: Matching Unseen Objects for 6D Pose Estimation from RGB-D Images. [[PUB](https://doi.org/10.1109/CVPR52733.2024.00962)]
+- MemFlow: Optical Flow Estimation and Prediction with Memory. [[PUB](https://doi.org/10.1109/CVPR52733.2024.01804)]
+- Mosaic-SDF for 3D Generative Models. [[PUB](https://doi.org/10.1109/CVPR52733.2024.00443)]
+- Multiway Point Cloud Mosaicking with Diffusion and Global Optimization. [[PUB](https://doi.org/10.1109/CVPR52733.2024.01969)]
+- OCAI: Improving Optical Flow Estimation by Occlusion and Consistency Aware Interpolation. [[PUB](https://doi.org/10.1109/CVPR52733.2024.01831)]
+- On the Estimation of Image-Matching Uncertainty in Visual Place Recognition. [[PUB](https://doi.org/10.1109/CVPR52733.2024.01680)]
+- RecDiffusion: Rectangling for Image Stitching with Diffusion Models. [[PUB](https://doi.org/10.1109/CVPR52733.2024.00260)]
+- Taming Stable Diffusion for Text to 360° Panorama Image Generation. [[PUB](https://doi.org/10.1109/CVPR52733.2024.00607)]
+- Text-to-Image Diffusion Models are Great Sketch-Photo Matchmakers. [[PUB](https://doi.org/10.1109/CVPR52733.2024.01592)]
+- UnSAMFlow: Unsupervised Optical Flow Guided by Segment Anything Model. [[PUB](https://doi.org/10.1109/CVPR52733.2024.01800)]
+- XFeat: Accelerated Features for Lightweight Image Matching. [[PUB](https://doi.org/10.1109/CVPR52733.2024.00259)]
 
 ### ECCV
 
@@ -262,17 +502,50 @@
 - Weakly-Supervised Camera Localization by Ground-to-Satellite Image Registration. [[PUB](https://doi.org/10.1007/978-3-031-72673-6_3)]
 - Correspondence-Free SE(3) Point Cloud Registration in RKHS via Unsupervised Equivariant Learning. [[PUB](https://doi.org/10.1007/978-3-031-73223-2_5)]
 - Equi-GSPR: Equivariant SE(3) Graph Network Model for Sparse Point Cloud Registration. [[PUB](https://doi.org/10.1007/978-3-031-73235-5_9)]
+- BlinkVision: A Benchmark for Optical Flow, Scene Flow and Point Tracking Estimation Using RGB Frames and Events. [[PUB](https://doi.org/10.1007/978-3-031-72855-6_2)]
+- BurstM: Deep Burst Multi-scale SR Using Fourier Space with Optical Flow. [[PUB](https://doi.org/10.1007/978-3-031-72946-1_26)]
+- Cross-View Image Geo-Localization with Panorama-BEV Co-retrieval Network. [[PUB](https://doi.org/10.1007/978-3-031-72913-3_5)]
+- EcoMatcher: Efficient Clustering Oriented Matcher for Detector-Free Image Matching. [[PUB](https://doi.org/10.1007/978-3-031-73113-6_20)]
+- Eliminating Warping Shakes for Unsupervised Online Video Stitching. [[PUB](https://doi.org/10.1007/978-3-031-73235-5_22)]
+- Event-Based Mosaicing Bundle Adjustment. [[PUB](https://doi.org/10.1007/978-3-031-72624-8_27)]
+- Finding NeMo: Negative-Mined Mosaic Augmentation for Referring Image Segmentation. [[PUB](https://doi.org/10.1007/978-3-031-72890-7_8)]
+- Grounding Image Matching in 3D with MASt3R. [[PUB](https://doi.org/10.1007/978-3-031-73220-1_5)]
+- LayeredFlow: A Real-World Benchmark for Non-Lambertian Multi-layer Optical Flow. [[PUB](https://doi.org/10.1007/978-3-031-72627-9_27)]
+- MaRINeR: Enhancing Novel Views by Matching Rendered Images with Nearby References. [[PUB](https://doi.org/10.1007/978-3-031-72673-6_5)]
+- Merging and Splitting Diffusion Paths for Semantically Coherent Panoramas. [[PUB](https://doi.org/10.1007/978-3-031-72986-7_14)]
+- PairingNet: A Learning-Based Pair-Searching and -Matching Network for Image Fragments. [[PUB](https://doi.org/10.1007/978-3-031-73202-7_14)]
+- Real-Data-Driven 2000 FPS Color Video from Mosaicked Chromatic Spikes. [[PUB](https://doi.org/10.1007/978-3-031-73254-6_18)]
+- Retargeting Visual Data with Deformation Fields. [[PUB](https://doi.org/10.1007/978-3-031-72949-2_16)]
+- RGBD GS-ICP SLAM. [[PUB](https://doi.org/10.1007/978-3-031-72764-1_11)]
+- SEA-RAFT: Simple, Efficient, Accurate RAFT for Optical Flow. [[PUB](https://doi.org/10.1007/978-3-031-72667-5_3)]
+- Stitched ViTs are Flexible Vision Backbones. [[PUB](https://doi.org/10.1007/978-3-031-72940-9_15)]
 
 ### MM
 
 - 3DPCP-Net: A Lightweight Progressive 3D Correspondence Pruning Network for Accurate and Efficient Point Cloud Registration. [[PUB](https://doi.org/10.1145/3664647.3681320)]
 - Document Registration: Towards Automated Labeling of Pixel-Level Alignment Between Warped-Flat Documents. [[PUB](https://doi.org/10.1145/3664647.3681548)]
 - ShiftMorph: A Fast and Robust Convolutional Neural Network for 3D Deformable Medical Image Registration. [[PUB](https://doi.org/10.1145/3664647.3680828)]
+- A Multi-scale Feature Learning Network with Optical Flow Correction for Micro- and Macro-expression Spotting. [[PUB](https://doi.org/10.1145/3664647.3689143)]
+- Bridging the Modality Gap: Dimension Information Alignment and Sparse Spatial Constraint for Image-Text Matching. [[PUB](https://doi.org/10.1145/3664647.3681424)]
+- DiffGlue: Diffusion-Aided Image Feature Matching. [[PUB](https://doi.org/10.1145/3664647.3681069)]
+- FacialFlowNet: Advancing Facial Optical Flow Estimation with a Diverse Dataset and a Decomposed Model. [[PUB](https://doi.org/10.1145/3664647.3680921)]
+- Hybrid Cost Volume for Memory-Efficient Optical Flow. [[PUB](https://doi.org/10.1145/3664647.3680643)]
+- Interpretable Matching of Optical-SAR Image via Dynamically Conditioned Diffusion Models. [[PUB](https://doi.org/10.1145/3664647.3681700)]
+- Micro-Expression Spotting Based on Optical Flow Feature with Boundary Calibration. [[PUB](https://doi.org/10.1145/3664647.3689142)]
+- OmniStitch: Depth-Aware Stitching Framework for Omnidirectional Vision with Multiple Cameras. [[PUB](https://doi.org/10.1145/3664647.3681208)]
+- Optical Flow-Guided 6DoF Object Pose Tracking with an Event Camera. [[PUB](https://doi.org/10.1145/3664647.3680992)]
+- PRISM: PRogressive dependency maxImization for Scale-invariant image Matching. [[PUB](https://doi.org/10.1145/3664647.3681209)]
+- Semantics-Aware Image Aesthetics Assessment using Tag Matching and Contrastive Ranking. [[PUB](https://doi.org/10.1145/3664647.3680972)]
+- Serial Section Microscopy Image Inpainting Guided by Axial Optical Flow. [[PUB](https://doi.org/10.1145/3664647.3681023)]
+- Text-Region Matching for Multi-Label Image Recognition with Missing Labels. [[PUB](https://doi.org/10.1145/3664647.3680815)]
 
 ### IJCV
 
 - A Deep Learning Framework for Infrared and Visible Image Fusion Without Strict Registration. [[PUB](https://doi.org/10.1007/s11263-023-01948-x)]
 - On Finite Difference Jacobian Computation in Deformable Image Registration. [[PUB](https://doi.org/10.1007/s11263-024-02047-1)]
+- FlowNAS: Neural Architecture Search for Optical Flow Estimation. [[PUB](https://doi.org/10.1007/s11263-023-01920-9)]
+- GyroFlow+: Gyroscope-Guided Unsupervised Deep Homography and Optical Flow Learning. [[PUB](https://doi.org/10.1007/s11263-023-01978-5)]
+- SplatFlow: Learning Multi-frame Optical Flow via Splatting. [[PUB](https://doi.org/10.1007/s11263-024-01993-0)]
 
 ### MICCAI
 
@@ -298,6 +571,9 @@
 - Toward Universal Medical Image Registration via Sharpness-Aware Meta-Continual Learning. [[PUB](https://doi.org/10.1007/978-3-031-72069-7_69)]
 - uniGradICON: A Foundation Model for Medical Image Registration. [[PUB](https://doi.org/10.1007/978-3-031-72069-7_70)]
 - WiNet: Wavelet-Based Incremental Learning for Efficient Medical Image Registration. [[PUB](https://doi.org/10.1007/978-3-031-72069-7_71)]
+- IM-MoCo: Self-supervised MRI Motion Correction Using Motion-Guided Implicit Neural Representations. [[PUB](https://doi.org/10.1007/978-3-031-72104-5_37)]
+- MoCo-Diff: Adaptive Conditional Prior on Diffusion Network for MRI Motion Correction. [[PUB](https://doi.org/10.1007/978-3-031-72089-5_39)]
+- Visual-Textual Matching Attention for Lesion Segmentation in Chest Images. [[PUB](https://doi.org/10.1007/978-3-031-72114-4_67)]
 
 ### MIA
 
@@ -315,10 +591,24 @@
 - SUGAR: Spherical ultrafast graph attention framework for cortical surface registration. [[PUB](https://doi.org/10.1016/j.media.2024.103122)]
 - The ACROBAT 2022 challenge: Automatic registration of breast cancer tissue. [[PUB](https://doi.org/10.1016/j.media.2024.103257)]
 - Residual Aligner-based Network (RAN): Motion-separable structure for coarse-to-fine discontinuous deformable registration. [[PUB](https://doi.org/10.1016/j.media.2023.103038)]
+- Fully automatic integration of dental CBCT images and full-arch intraoral impressions with stitching error correction via individual tooth segmentation and identification. [[PUB](https://doi.org/10.1016/j.media.2024.103096)]
+- Neural deformation fields for template-based reconstruction of cortical surfaces from MRI. [[PUB](https://doi.org/10.1016/j.media.2024.103093)]
+- TAI-GAN: A Temporally and Anatomically Informed Generative Adversarial Network for early-to-late frame conversion in dynamic cardiac PET inter-frame motion correction. [[PUB](https://doi.org/10.1016/j.media.2024.103190)]
+
+### NAACL
+
+- ComCLIP: Training-Free Compositional Image and Text Matching. [[PUB](https://doi.org/10.18653/v1/2024.naacl-long.370)]
+- DEMO: A Statistical Perspective for Efficient Image-Text Matching. [[PUB](https://doi.org/10.18653/v1/2024.naacl-long.21)]
+- MOSAICo: a Multilingual Open-text Semantically Annotated Interlinked Corpus. [[PUB](https://doi.org/10.18653/v1/2024.naacl-long.442)]
+
+### SIGIR
+
+- Mosaicing Prevention in Declassification. [[PUB](https://doi.org/10.1145/3626772.3657656)]
 
 ### INFOCOM
 
 - LoRaPCR: Long Range Point Cloud Registration through Multi-hop Relays in VANETs. [[PUB](https://doi.org/10.1109/INFOCOM52122.2024.10621158)]
+- Stitching the Spectrum: Semantic Spectrum Segmentation with Wideband Signal Stitching. [[PUB](https://doi.org/10.1109/INFOCOM52122.2024.10621332)]
 
 ### MOBICOM
 
@@ -334,12 +624,26 @@
 
 - APR: Online Distant Point Cloud Registration through Aggregated Point Cloud Reconstruction. [[PUB](https://doi.org/10.24963/ijcai.2023/134)]
 - Image Composition with Depth Registration. [[PUB](https://doi.org/10.24963/ijcai.2023/126)]
+- Spatially Constrained Adversarial Attack Detection and Localization in the Representation Space of Optical Flow Networks. [[PUB](https://doi.org/10.24963/ijcai.2023/107)]
+- SSML-QNet: Scale-Separative Metric Learning Quadruplet Network for Multi-modal Image Patch Matching. [[PUB](https://doi.org/10.24963/ijcai.2023/511)]
 
 ### AAAI
 
 - Fourier-Net: Fast Image Registration with Band-Limited Deformation. [[PUB](https://doi.org/10.1609/aaai.v37i1.25182)]
 - Rethinking Rotation Invariance with Point Cloud Registration. [[PUB](https://doi.org/10.1609/aaai.v37i3.25438)]
 - Stroke Extraction of Chinese Character Based on Deep Structure Deformable Image Registration. [[PUB](https://doi.org/10.1609/aaai.v37i1.25220)]
+- Bidirectional Optical Flow NeRF: High Accuracy and High Quality under Fewer Views. [[PUB](https://doi.org/10.1609/aaai.v37i1.25109)]
+- Exploit Domain-Robust Optical Flow in Domain Adaptive Video Semantic Segmentation. [[PUB](https://doi.org/10.1609/aaai.v37i1.25140)]
+- Learned Distributed Image Compression with Multi-Scale Patch Matching in Feature Domain. [[PUB](https://doi.org/10.1609/aaai.v37i4.25551)]
+- MIDMs: Matching Interleaved Diffusion Models for Exemplar-Based Image Translation. [[PUB](https://doi.org/10.1609/aaai.v37i2.25313)]
+- Pixel-Wise Warping for Deep Image Stitching. [[PUB](https://doi.org/10.1609/aaai.v37i1.25202)]
+- Self-Supervised Joint Dynamic Scene Reconstruction and Optical Flow Estimation for Spiking Camera. [[PUB](https://doi.org/10.1609/aaai.v37i1.25108)]
+- Unsupervised Hierarchical Domain Adaptation for Adverse Weather Optical Flow. [[PUB](https://doi.org/10.1609/aaai.v37i3.25490)]
+- Counting Knot Mosaics with ALLSAT (Student Abstract). [[PUB](https://doi.org/10.1609/aaai.v37i13.27002)]
+
+### AI
+
+- Risk-aware autonomous localization in harsh urban environments with mosaic zonotope shadow matching. [[PUB](https://doi.org/10.1016/j.artint.2023.104000)]
 
 ### NeurIPS
 
@@ -348,6 +652,21 @@
 - Lung250M-4B: A Combined 3D Dataset for CT- and Point Cloud-Based Intra-Patient Lung Registration. [[PUB](http://papers.nips.cc/paper_files/paper/2023/hash/abf37695a4562ac4c05194d717d47eec-Abstract-Datasets_and_Benchmarks.html)]
 - Non-Rigid Shape Registration via Deep Functional Maps Prior. [[PUB](http://papers.nips.cc/paper_files/paper/2023/hash/b654d6150630a5ba5df7a55621390daf-Abstract-Conference.html)]
 - SE(3) Diffusion Model-based Point Cloud Registration for Robust 6D Object Pose Estimation. [[PUB](http://papers.nips.cc/paper_files/paper/2023/hash/43069caa6776eac8bca4bfd74d4a476d-Abstract-Conference.html)]
+- Continuous Parametric Optical Flow. [[PUB](http://papers.nips.cc/paper_files/paper/2023/hash/49f42aafbcce59b2665640cb9f3d794f-Abstract-Conference.html)]
+- MosaicBERT: A Bidirectional Encoder Optimized for Fast Pretraining. [[PUB](http://papers.nips.cc/paper_files/paper/2023/hash/095a6917768712b7ccc61acbeecad1d8-Abstract-Conference.html)]
+- PanoGRF: Generalizable Spherical Radiance Fields for Wide-baseline Panoramas. [[PUB](http://papers.nips.cc/paper_files/paper/2023/hash/16049e0c3f47899091ac46f8b3afb178-Abstract-Conference.html)]
+- Self-Supervised Motion Magnification by Backpropagating Through Optical Flow. [[PUB](http://papers.nips.cc/paper_files/paper/2023/hash/00ed9ab006311be67879ecef8f80d7c5-Abstract-Conference.html)]
+- The Surprising Effectiveness of Diffusion Models for Optical Flow and Monocular Depth Estimation. [[PUB](http://papers.nips.cc/paper_files/paper/2023/hash/7c119415672ae2186e17d492e1d5da2f-Abstract-Conference.html)]
+- Unsupervised Optical Flow Estimation with Dynamic Timing Representation for Spike Camera. [[PUB](http://papers.nips.cc/paper_files/paper/2023/hash/96810b6d4752abe7bfb91f234c51e9e6-Abstract-Conference.html)]
+
+### ICML
+
+- Topologically Faithful Image Segmentation via Induced Matching of Persistence Barcodes. [[PUB](https://proceedings.mlr.press/v202/stucki23a.html)]
+
+### ICLR
+
+- DFlow: Learning to Synthesize Better Optical Flow Datasets via a Differentiable Pipeline. [[PUB](https://openreview.net/forum?id=5O2uzDusEN5)]
+- Mosaic Representation Learning for Self-supervised Visual Pre-training. [[PUB](https://openreview.net/forum?id=JAezPMehaUu)]
 
 ### TPAMI
 
@@ -368,6 +687,14 @@
 - SC${2}$2-PCR++: Rethinking the Generation and Selection for Efficient and Robust Point Cloud Registration. [[PUB](https://doi.org/10.1109/TPAMI.2023.3272557)]
 - Sparse-to-Dense Matching Network for Large-Scale LiDAR Point Cloud Registration. [[PUB](https://doi.org/10.1109/TPAMI.2023.3265531)]
 - STORM: Structure-Based Overlap Matching for Partial Point Cloud Registration. [[PUB](https://doi.org/10.1109/TPAMI.2022.3148308)]
+- Accurate 3-DoF Camera Geo-Localization via Ground-to-Satellite Image Matching. [[PUB](https://doi.org/10.1109/TPAMI.2022.3189702)]
+- An Approach to Robust ICP Initialization. [[PUB](https://doi.org/10.1109/TPAMI.2023.3287468)]
+- Dynamic Keypoint Detection Network for Image Matching. [[PUB](https://doi.org/10.1109/TPAMI.2023.3307889)]
+- Efficient Image and Sentence Matching. [[PUB](https://doi.org/10.1109/TPAMI.2022.3178485)]
+- Formulating Event-Based Image Reconstruction as a Linear Inverse Problem With Deep Regularization Using Optical Flow. [[PUB](https://doi.org/10.1109/TPAMI.2022.3230727)]
+- Optimization-Based Post-Training Quantization With Bit-Split and Stitching. [[PUB](https://doi.org/10.1109/TPAMI.2022.3159369)]
+- Reference-Based Image and Video Super-Resolution via $C{2}$-Matching. [[PUB](https://doi.org/10.1109/TPAMI.2022.3231089)]
+- Reformulating Optical Flow to Solve Image-Based Inverse Problems and Quantify Uncertainty. [[PUB](https://doi.org/10.1109/TPAMI.2022.3202855)]
 
 ### KDD
 
@@ -394,6 +721,26 @@
 - Rethinking Point Cloud Registration as Masking and Reconstruction. [[PUB](https://doi.org/10.1109/ICCV51070.2023.01624)]
 - SIRA-PCR: Sim-to-Real Adaptation for 3D Point Cloud Registration. [[PUB](https://doi.org/10.1109/ICCV51070.2023.01324)]
 - Towards Saner Deep Image Registration. [[PUB](https://doi.org/10.1109/ICCV51070.2023.01145)]
+- AccFlow: Backward Accumulation for Long-Range Optical Flow. [[PUB](https://doi.org/10.1109/ICCV51070.2023.01113)]
+- CroCo v2: Improved Cross-view Completion Pre-training for Stereo Matching and Optical Flow. [[PUB](https://doi.org/10.1109/ICCV51070.2023.01647)]
+- Event-based Temporally Dense Optical Flow Estimation with Sequential Learning. [[PUB](https://doi.org/10.1109/ICCV51070.2023.00901)]
+- Explicit Motion Disentangling for Efficient Optical Flow Estimation. [[PUB](https://doi.org/10.1109/ICCV51070.2023.00873)]
+- GAFlow: Incorporating Gaussian Attention into Optical Flow. [[PUB](https://doi.org/10.1109/ICCV51070.2023.00884)]
+- GlueStick: Robust Image Matching by Sticking Points and Lines Together. [[PUB](https://doi.org/10.1109/ICCV51070.2023.00890)]
+- Grounded Image Text Matching with Mismatched Relation Reasoning. [[PUB](https://doi.org/10.1109/ICCV51070.2023.00278)]
+- Improving Transformer-based Image Matching by Cascaded Capturing Spatially Informative Keypoints. [[PUB](https://doi.org/10.1109/ICCV51070.2023.01114)]
+- Learning Optical Flow from Event Camera with Rendered Dataset. [[PUB](https://doi.org/10.1109/ICCV51070.2023.00903)]
+- MOSAIC: Multi-Object Segmented Arbitrary Stylization Using CLIP. [[PUB](https://doi.org/10.1109/ICCVW60793.2023.00096)]
+- MPI-Flow: Learning Realistic Optical Flow with Multiplane Images. [[PUB](https://doi.org/10.1109/ICCV51070.2023.01274)]
+- Occ2Net: Robust Image Matching Based on 3D Occupancy Estimation for Occluded Regions. [[PUB](https://doi.org/10.1109/ICCV51070.2023.00885)]
+- Panoramas from Photons. [[PUB](https://doi.org/10.1109/ICCV51070.2023.00975)]
+- Parallax-Tolerant Unsupervised Deep Image Stitching. [[PUB](https://doi.org/10.1109/ICCV51070.2023.00680)]
+- RPEFlow: Multimodal Fusion of RGB-PointCloud-Event for Joint Optical Flow and Scene Flow Estimation. [[PUB](https://doi.org/10.1109/ICCV51070.2023.00920)]
+- SemARFlow: Injecting Semantics into Unsupervised Optical Flow Estimation for Autonomous Driving. [[PUB](https://doi.org/10.1109/ICCV51070.2023.00877)]
+- Taming Contrast Maximization for Learning Sequential, Low-latency, Event-based Optical Flow. [[PUB](https://doi.org/10.1109/ICCV51070.2023.00889)]
+- TMA: Temporal Motion Aggregation for Event-based Optical Flow. [[PUB](https://doi.org/10.1109/ICCV51070.2023.00888)]
+- Towards Nonlinear-Motion-Aware and Occlusion-Robust Rolling Shutter Correction. [[PUB](https://doi.org/10.1109/ICCV51070.2023.00980)]
+- VideoFlow: Exploiting Temporal Cues for Multi-frame Optical Flow Estimation. [[PUB](https://doi.org/10.1109/ICCV51070.2023.01146)]
 
 ### CVPR
 
@@ -407,11 +754,39 @@
 - Robust Multiview Point Cloud Registration with Reliable Pose Graph Initialization and History Reweighting. [[PUB](https://doi.org/10.1109/CVPR52729.2023.00917)]
 - Robust Outlier Rejection for 3D Registration with Variational Bayes. [[PUB](https://doi.org/10.1109/CVPR52729.2023.00117)]
 - Unsupervised Deep Probabilistic Approach for Partial Point Cloud Registration. [[PUB](https://doi.org/10.1109/CVPR52729.2023.01308)]
+- AnyFlow: Arbitrary Scale Optical Flow with Implicit Neural Representation. [[PUB](https://doi.org/10.1109/CVPR52729.2023.00528)]
+- Depth Estimation from Indoor Panoramas with Neural Scene Representation. [[PUB](https://doi.org/10.1109/CVPR52729.2023.00093)]
+- DistractFlow: Improving Optical Flow Estimation via Realistic Distractions and Pseudo-Labeling. [[PUB](https://doi.org/10.1109/CVPR52729.2023.01316)]
+- Fine-grained Image-text Matching by Cross-modal Hard Aligning Network. [[PUB](https://doi.org/10.1109/CVPR52729.2023.01847)]
+- FlowFormer++: Masked Cost Volume Autoencoding for Pretraining Optical Flow Estimation. [[PUB](https://doi.org/10.1109/CVPR52729.2023.00160)]
+- Implicit Neural Head Synthesis via Controllable Local Deformation Fields. [[PUB](https://doi.org/10.1109/CVPR52729.2023.00048)]
+- Joint Appearance and Motion Learning for Efficient Rolling Shutter Correction. [[PUB](https://doi.org/10.1109/CVPR52729.2023.00549)]
+- Learning Semantic Relationship among Instances for Image-Text Matching. [[PUB](https://doi.org/10.1109/CVPR52729.2023.01455)]
+- PanoSwin: a Pano-style Swin Transformer for Panorama Understanding. [[PUB](https://doi.org/10.1109/CVPR52729.2023.01703)]
+- PMatch: Paired Masked Image Modeling for Dense Geometric Matching. [[PUB](https://doi.org/10.1109/CVPR52729.2023.02098)]
+- Rethinking Optical Flow from Geometric Matching Consistent Perspective. [[PUB](https://doi.org/10.1109/CVPR52729.2023.00135)]
+- Spring: A High-Resolution High-Detail Dataset and Benchmark for Scene Flow, Optical Flow and Stereo. [[PUB](https://doi.org/10.1109/CVPR52729.2023.00482)]
+- Stitchable Neural Networks. [[PUB](https://doi.org/10.1109/CVPR52729.2023.01545)]
+- Tangentially Elongated Gaussian Belief Propagation for Event-Based Incremental Optical Flow Estimation. [[PUB](https://doi.org/10.1109/CVPR52729.2023.02101)]
+- Unsupervised Cumulative Domain Adaptation for Foggy Scene Optical Flow. [[PUB](https://doi.org/10.1109/CVPR52729.2023.00923)]
 
 ### MM
 
+- 360-Degree Panorama Generation from Few Unregistered NFoV Images. [[PUB](https://doi.org/10.1145/3581783.3612508)]
 - A Capture to Registration Framework for Realistic Image Super-Resolution in the Industry Environment. [[PUB](https://doi.org/10.1145/3581783.3611973)]
 - Deep Algorithm Unrolling with Registration Embedding for Pansharpening. [[PUB](https://doi.org/10.1145/3581783.3613754)]
+- Efficient Micro-Expression Spotting Based on Main Directional Mean Optical Flow Feature. [[PUB](https://doi.org/10.1145/3581783.3612861)]
+- FOLT: Fast Multiple Object Tracking from UAV-captured Videos Based on Optical Flow. [[PUB](https://doi.org/10.1145/3581783.3611868)]
+- Giving Text More Imagination Space for Image-text Matching. [[PUB](https://doi.org/10.1145/3581783.3612103)]
+- Integrating VideoMAE based model and Optical Flow for Micro- and Macro-expression Spotting. [[PUB](https://doi.org/10.1145/3581783.3612868)]
+- Learning Pixel-wise Alignment for Unsupervised Image Stitching. [[PUB](https://doi.org/10.1145/3581783.3612298)]
+- Micro-Expression Spotting with Face Alignment and Optical Flow. [[PUB](https://doi.org/10.1145/3581783.3612853)]
+- Multi-Spectral Image Stitching via Spatial Graph Reasoning. [[PUB](https://doi.org/10.1145/3581783.3612005)]
+- MVFlow: Deep Optical Flow Estimation of Compressed Videos with Motion Vector Prior. [[PUB](https://doi.org/10.1145/3581783.3611750)]
+- QA-CLIMS: Question-Answer Cross Language Image Matching for Weakly Supervised Semantic Segmentation. [[PUB](https://doi.org/10.1145/3581783.3612148)]
+- Towards Deconfounded Image-Text Matching with Causal Inference. [[PUB](https://doi.org/10.1145/3581783.3612472)]
+- Unlocking the Power of Cross-Dimensional Semantic Dependency for Image-Text Matching. [[PUB](https://doi.org/10.1145/3581783.3611703)]
+- Your Negative May not Be True Negative: Boosting Image-Text Matching with False Negative Elimination. [[PUB](https://doi.org/10.1145/3581783.3612101)]
 
 ### IJCV
 
@@ -447,6 +822,12 @@
 - Unsupervised 3D Registration Through Optimization-Guided Cyclical Self-training. [[PUB](https://doi.org/10.1007/978-3-031-43999-5_64)]
 - WarpEM: Dynamic Time Warping for Accurate Catheter Registration in EM-Guided Procedures. [[PUB](https://doi.org/10.1007/978-3-031-43990-2_75)]
 - X-Ray to CT Rigid Registration Using Scene Coordinate Regression. [[PUB](https://doi.org/10.1007/978-3-031-43999-5_74)]
+- A General Stitching Solution for Whole-Brain 3D Nuclei Instance Segmentation from Microscopy Images. [[PUB](https://doi.org/10.1007/978-3-031-43901-8_5)]
+- AngioMoCo: Learning-Based Motion Correction in Cerebral Digital Subtraction Angiography. [[PUB](https://doi.org/10.1007/978-3-031-43990-2_72)]
+- Dual Domain Motion Artifacts Correction for MR Imaging Under Guidance of K-space Uncertainty. [[PUB](https://doi.org/10.1007/978-3-031-43999-5_28)]
+- Fast Reconstruction for Deep Learning PET Head Motion Correction. [[PUB](https://doi.org/10.1007/978-3-031-43999-5_67)]
+- MoCoSR: Respiratory Motion Correction and Super-Resolution for 3D Abdominal MRI. [[PUB](https://doi.org/10.1007/978-3-031-43999-5_12)]
+- PCMC-T1: Free-Breathing Myocardial T1 Mapping with Physically-Constrained Motion Correction. [[PUB](https://doi.org/10.1007/978-3-031-43990-2_22)]
 
 ### MIA
 
@@ -464,10 +845,30 @@
 - SpineRegNet: Spine Registration Network for volumetric MR and CT image by the joint estimation of an affine-elastic deformation field. [[PUB](https://doi.org/10.1016/j.media.2023.102786)]
 - Strain estimation in aortic roots from 4D echocardiographic images using medial modeling and deformable registration. [[PUB](https://doi.org/10.1016/j.media.2023.102804)]
 - WarpPINN: Cine-MR image registration with physics-informed neural networks. [[PUB](https://doi.org/10.1016/j.media.2023.102925)]
+- Contrastive domain adaptation with consistency match for automated pneumonia diagnosis. [[PUB](https://doi.org/10.1016/j.media.2022.102664)]
+- Robust endoscopic image mosaicking via fusion of multimodal estimation. [[PUB](https://doi.org/10.1016/j.media.2022.102709)]
+
+### ICDE
+
+- A Stitch in Time Saves Nine: Enabling Early Anomaly Detection with Correlation Analysis. [[PUB](https://doi.org/10.1109/ICDE55515.2023.00143)]
+
+### VLDB
+
+- FastMosaic in Action: A New Mosaic Operator for Array DBMSs. [[PUB](https://www.vldb.org/pvldb/vol16/p3938-zalipynis.pdf)]
+- Transactional Panorama: A Conceptual Framework for User Perception in Analytical Visual Interfaces. [[PUB](https://www.vldb.org/pvldb/vol16/p1494-tang.pdf)]
+
+### WWW
+
+- Dual-grained Text-Image Olfactory Matching Model with Mutual Promotion Stages. [[PUB](https://doi.org/10.1145/3543873.3587649)]
 
 ### TPDS
 
 - Faber: A Hardware/SoftWare Toolchain for Image Registration. [[PUB](https://doi.org/10.1109/TPDS.2022.3218898)]
+
+### TCAD
+
+- A Highly Compressed Accelerator With Temporal Optical Flow Feature Fusion and Tensorized LSTM for Video Action Recognition on Terminal Device. [[PUB](https://doi.org/10.1109/TCAD.2023.3241113)]
+- Mosaic-3C1S: A Low Overhead Crosstalk Suppression Scheme for Rectangular TSV Array. [[PUB](https://doi.org/10.1109/TCAD.2021.3103823)]
 
 ### ICSE
 
@@ -479,6 +880,7 @@
 
 - Unsupervised Misaligned Infrared and Visible Image Fusion via Cross-Modality Image Generation and Registration. [[PUB](https://doi.org/10.24963/ijcai.2022/487)]
 - Unsupervised Multi-Modal Medical Image Registration via Discriminator-Free Image-to-Image Translation. [[PUB](https://doi.org/10.24963/ijcai.2022/117)]
+- Targeted Multimodal Sentiment Classification based on Coarse-to-Fine Grained Image-Target Matching. [[PUB](https://doi.org/10.24963/ijcai.2022/622)]
 
 ### AAAI
 
@@ -488,11 +890,26 @@
 - FINet: Dual Branches Feature Interaction for Partial-to-Partial Point Cloud Registration. [[PUB](https://doi.org/10.1609/aaai.v36i3.20189)]
 - Reliable Inlier Evaluation for Unsupervised Point Cloud Registration. [[PUB](https://doi.org/10.1609/aaai.v36i2.20117)]
 - Stochastic Planner-Actor-Critic for Unsupervised Deformable Image Registration. [[PUB](https://doi.org/10.1609/aaai.v36i2.20086)]
+- ACDNet: Adaptively Combined Dilated Convolution for Monocular Panorama Depth Estimation. [[PUB](https://doi.org/10.1609/aaai.v36i3.20278)]
+- Joint Deep Multi-Graph Matching and 3D Geometry Learning from Inhomogeneous 2D Image Collections. [[PUB](https://doi.org/10.1609/aaai.v36i3.20220)]
+- Learning Optical Flow with Adaptive Graph Reasoning. [[PUB](https://doi.org/10.1609/aaai.v36i2.20083)]
+- Learning Temporally and Semantically Consistent Unpaired Video-to-Video Translation through Pseudo-Supervision from Synthetic Optical Flow. [[PUB](https://doi.org/10.1609/aaai.v36i3.20148)]
+- Promoting Single-Modal Optical Flow Network for Diverse Cross-Modal Flow Estimation. [[PUB](https://doi.org/10.1609/aaai.v36i3.20268)]
+- Show Your Faith: Cross-Modal Confidence-Aware Network for Image-Text Matching. [[PUB](https://doi.org/10.1609/aaai.v36i3.20235)]
+- Spatio-Temporal Recurrent Networks for Event-Based Optical Flow Estimation. [[PUB](https://doi.org/10.1609/aaai.v36i1.19931)]
+- Enumerating Nontrivial Knot Mosaics with SAT (Student Abstract). [[PUB](https://doi.org/10.1609/aaai.v36i11.21645)]
 
 ### NeurIPS
 
 - Non-rigid Point Cloud Registration with Neural Deformation Pyramid. [[PUB](http://papers.nips.cc/paper_files/paper/2022/hash/b2077e6d66da612fcb701589efa9ce88-Abstract-Conference.html)]
 - One-Inlier is First: Towards Efficient Position Encoding for Point Cloud Registration. [[PUB](http://papers.nips.cc/paper_files/paper/2022/hash/2e163450c1ae3167832971e6da29f38d-Abstract-Conference.html)]
+- CageNeRF: Cage-based Neural Radiance Field for Generalized 3D Deformation and Animation. [[PUB](http://papers.nips.cc/paper_files/paper/2022/hash/cb78e6b5246b03e0b82b4acc8b11cc21-Abstract-Conference.html)]
+- Efficient coding, channel capacity, and the emergence of retinal mosaics. [[PUB](http://papers.nips.cc/paper_files/paper/2022/hash/d0866def6f52ebe8b8e32130a4d2c963-Abstract-Conference.html)]
+- FlyView: a bio-informed optical flow truth dataset for visual navigation using panoramic stereo vision. [[PUB](http://papers.nips.cc/paper_files/paper/2022/hash/b4005da5affc3ba527dcb992495ecd20-Abstract-Datasets_and_Benchmarks.html)]
+- Learning Optical Flow from Continuous Spike Streams. [[PUB](http://papers.nips.cc/paper_files/paper/2022/hash/33951c28630e48c441cb59db356f2037-Abstract-Conference.html)]
+- MACK: Multimodal Aligned Conceptual Knowledge for Unpaired Image-text Matching. [[PUB](http://papers.nips.cc/paper_files/paper/2022/hash/3379ce104189b72d5f7baaa03ae81329-Abstract-Conference.html)]
+- Reduced Representation of Deformation Fields for Effective Non-rigid Shape Matching. [[PUB](http://papers.nips.cc/paper_files/paper/2022/hash/43d1d3bdd92204c96fa4ac3c578f6a33-Abstract-Conference.html)]
+- SKFlow: Learning Optical Flow with Super Kernels. [[PUB](http://papers.nips.cc/paper_files/paper/2022/hash/4990dad2c1696224de42573d0222554a-Abstract-Conference.html)]
 
 ### ICLR
 
@@ -504,11 +921,19 @@
 - SymReg-GAN: Symmetric Image Registration With Generative Adversarial Networks. [[PUB](https://doi.org/10.1109/TPAMI.2021.3083543)]
 - A Practical $O(N2)$O(N2) Outlier Removal Method for Correspondence-Based Point Cloud Registration. [[PUB](https://doi.org/10.1109/TPAMI.2021.3065021)]
 - Enhancement-Registration-Homogenization (ERH): A Comprehensive Underwater Visual Reconstruction Paradigm. [[PUB](https://doi.org/10.1109/TPAMI.2021.3097804)]
+- Fast and Robust Iterative Closest Point. [[PUB](https://doi.org/10.1109/TPAMI.2021.3054619)]
+- Few-Shot Image and Sentence Matching via Aligned Cross-Modal Memory. [[PUB](https://doi.org/10.1109/TPAMI.2021.3052490)]
+- Geometry-Guided Street-View Panorama Synthesis From Satellite Imagery. [[PUB](https://doi.org/10.1109/TPAMI.2022.3140750)]
+- How Do Neural Networks Estimate Optical Flow? A Neuropsychology-Inspired Study. [[PUB](https://doi.org/10.1109/TPAMI.2021.3083538)]
+- Joint Detection and Matching of Feature Points in Multimodal Images. [[PUB](https://doi.org/10.1109/TPAMI.2021.3092289)]
+- Learning by Distillation: A Self-Supervised Learning Framework for Optical Flow Estimation. [[PUB](https://doi.org/10.1109/TPAMI.2021.3085525)]
+- Optical Flow in the Dark. [[PUB](https://doi.org/10.1109/TPAMI.2021.3130302)]
 
 ### KDD
 
 - ERNet: Unsupervised Collective Extraction and Registration in Neuroimaging Data. [[PUB](https://doi.org/10.1145/3534678.3539227)]
 - Quantifying and Reducing Registration Uncertainty of Spatial Vector Labels on Earth Imagery. [[PUB](https://doi.org/10.1145/3534678.3539410)]
+- Dense Feature Tracking of Atmospheric Winds with Deep Optical Flow. [[PUB](https://doi.org/10.1145/3534678.3539345)]
 
 ### CVPR
 
@@ -524,6 +949,26 @@
 - RFNet: Unsupervised Network for Mutually Reinforcing Multi-modal Image Registration and Fusion. [[PUB](https://doi.org/10.1109/CVPR52688.2022.01906)]
 - SC2-PCR: A Second Order Spatial Compatibility for Efficient and Robust Point Cloud Registration. [[PUB](https://doi.org/10.1109/CVPR52688.2022.01287)]
 - Topology-Preserving Shape Reconstruction and Registration via Neural Diffeomorphic Flow. [[PUB](https://doi.org/10.1109/CVPR52688.2022.02018)]
+- A Stitch in Time Saves Nine: A Train-Time Regularizing Loss for Improved Neural Network Calibration. [[PUB](https://doi.org/10.1109/CVPR52688.2022.01561)]
+- Automatic Color Image Stitching Using Quaternion Rank-1 Alignment. [[PUB](https://doi.org/10.1109/CVPR52688.2022.01910)]
+- CamLiFlow: Bidirectional Camera-LiDAR Fusion for Joint Optical Flow and Scene Flow Estimation. [[PUB](https://doi.org/10.1109/CVPR52688.2022.00570)]
+- CLIMS: Cross Language Image Matching for Weakly Supervised Semantic Segmentation. [[PUB](https://doi.org/10.1109/CVPR52688.2022.00444)]
+- CRAFT: Cross-Attentional Flow Transformer for Robust Optical Flow. [[PUB](https://doi.org/10.1109/CVPR52688.2022.01708)]
+- Deep Equilibrium Optical Flow Estimation. [[PUB](https://doi.org/10.1109/CVPR52688.2022.00070)]
+- Deep Rectangling for Image Stitching: A Learning Baseline. [[PUB](https://doi.org/10.1109/CVPR52688.2022.00565)]
+- DIP: Deep Inverse Patchmatch for High-Resolution Optical Flow. [[PUB](https://doi.org/10.1109/CVPR52688.2022.00872)]
+- Geometric Structure Preserving Warp for Natural Image Stitching. [[PUB](https://doi.org/10.1109/CVPR52688.2022.00367)]
+- Global Matching with Overlapping Attention for Optical Flow Estimation. [[PUB](https://doi.org/10.1109/CVPR52688.2022.01707)]
+- GMFlow: Learning Optical Flow via Global Matching. [[PUB](https://doi.org/10.1109/CVPR52688.2022.00795)]
+- Imposing Consistency for Optical Flow Estimation. [[PUB](https://doi.org/10.1109/CVPR52688.2022.00318)]
+- Learning Optical Flow with Kernel Patch Attention. [[PUB](https://doi.org/10.1109/CVPR52688.2022.00870)]
+- Matching Feature Sets for Few-Shot Image Classification. [[PUB](https://doi.org/10.1109/CVPR52688.2022.00881)]
+- MotionAug: Augmentation with Physical Correction for Human Motion Prediction. [[PUB](https://doi.org/10.1109/CVPR52688.2022.00632)]
+- Negative-Aware Attention Framework for Image-Text Matching. [[PUB](https://doi.org/10.1109/CVPR52688.2022.01521)]
+- Noise Distribution Adaptive Self-Supervised Image Denoising using Tweedie Distribution and Score Matching. [[PUB](https://doi.org/10.1109/CVPR52688.2022.00205)]
+- Optical Flow Estimation for Spiking Camera. [[PUB](https://doi.org/10.1109/CVPR52688.2022.01732)]
+- Topologically-Aware Deformation Fields for Single-View 3D Reconstruction. [[PUB](https://doi.org/10.1109/CVPR52688.2022.00159)]
+- Towards Understanding Adversarial Robustness of Optical Flow Networks. [[PUB](https://doi.org/10.1109/CVPR52688.2022.00871)]
 
 ### ECCV
 
@@ -534,11 +979,48 @@
 - PCR-CG: Point Cloud Registration via Deep Explicit Color and Geometry. [[PUB](https://doi.org/10.1007/978-3-031-20080-9_26)]
 - PointCLM: A Contrastive Learning-based Framework for Multi-instance Point Cloud Registration. [[PUB](https://doi.org/10.1007/978-3-031-20077-9_35)]
 - Registration Based Few-Shot Anomaly Detection. [[PUB](https://doi.org/10.1007/978-3-031-20053-3_18)]
+- 3D Room Layout Estimation from a Cubemap of Panorama Image via Deep Manhattan Hough Transform. [[PUB](https://doi.org/10.1007/978-3-031-19769-7_37)]
+- A Perturbation-Constrained Adversarial Attack for Evaluating the Robustness of Optical Flow. [[PUB](https://doi.org/10.1007/978-3-031-20047-2_11)]
+- ASpanFormer: Detector-Free Image Matching with Adaptive Span Transformer. [[PUB](https://doi.org/10.1007/978-3-031-19824-3_2)]
+- BIPS: Bi-modal Indoor Panorama Synthesis via Residual Depth-Aided Adversarial Learning. [[PUB](https://doi.org/10.1007/978-3-031-19787-1_20)]
+- Complementing Brightness Constancy with Deep Networks for Optical Flow Prediction. [[PUB](https://doi.org/10.1007/978-3-031-19803-8_8)]
+- CoVisPose: Co-visibility Pose Transformer for Wide-Baseline Relative Pose Estimation in 360$\circ $ Indoor Panoramas. [[PUB](https://doi.org/10.1007/978-3-031-19824-3_36)]
+- CPO: Change Robust Panorama to Point Cloud Localization. [[PUB](https://doi.org/10.1007/978-3-031-20077-9_11)]
+- Deep 360$\circ $ Optical Flow Estimation Based on Multi-projection Fusion. [[PUB](https://doi.org/10.1007/978-3-031-19833-5_20)]
+- Disentangling Architecture and Training for Optical Flow. [[PUB](https://doi.org/10.1007/978-3-031-20047-2_10)]
+- Explaining Deepfake Detection by Analysing Image Matching. [[PUB](https://doi.org/10.1007/978-3-031-19781-9_2)]
+- FlowFormer: A Transformer Architecture for Optical Flow. [[PUB](https://doi.org/10.1007/978-3-031-19790-1_40)]
+- Generating Natural Images with Direct Patch Distributions Matching. [[PUB](https://doi.org/10.1007/978-3-031-19790-1_33)]
+- Optical Flow Training Under Limited Label Budget via Active Learning. [[PUB](https://doi.org/10.1007/978-3-031-20047-2_24)]
+- PanoFormer: Panorama Transformer for Indoor 360${\circ }$ Depth Estimation. [[PUB](https://doi.org/10.1007/978-3-031-19769-7_12)]
+- RealFlow: EM-Based Realistic Optical Flow Dataset Generation from Videos. [[PUB](https://doi.org/10.1007/978-3-031-19800-7_17)]
+- SALVe: Semantic Alignment Verification for Floorplan Reconstruction from Sparse Panoramas. [[PUB](https://doi.org/10.1007/978-3-031-19821-2_37)]
+- Secrets of Event-Based Optical Flow. [[PUB](https://doi.org/10.1007/978-3-031-19797-0_36)]
+- Semi-supervised Keypoint Detector and Descriptor for Retinal Image Matching. [[PUB](https://doi.org/10.1007/978-3-031-19803-8_35)]
+- Semi-supervised Learning of Optical Flow by Flow Supervisor. [[PUB](https://doi.org/10.1007/978-3-031-19833-5_18)]
+- StyleLight: HDR Panorama Generation for Lighting Estimation and Editing. [[PUB](https://doi.org/10.1007/978-3-031-19784-0_28)]
+- Video Interpolation by Event-Driven Anisotropic Adjustment of Optical Flow. [[PUB](https://doi.org/10.1007/978-3-031-20071-7_16)]
+- Weakly-Supervised Stitching Network for Real-World Panoramic Image Generation. [[PUB](https://doi.org/10.1007/978-3-031-19787-1_4)]
 
 ### MM
 
 - Finding the Host from the Lesion by Iteratively Mining the Registration Graph. [[PUB](https://doi.org/10.1145/3503161.3548192)]
 - You Only Hypothesize Once: Point Cloud Registration with Rotation-equivariant Descriptors. [[PUB](https://doi.org/10.1145/3503161.3548023)]
+- Beyond Geo-localization: Fine-grained Orientation of Street-view Images by Cross-view Matching with Satellite Imagery. [[PUB](https://doi.org/10.1145/3503161.3548102)]
+- Facial Expression Spotting Based on Optical Flow Features. [[PUB](https://doi.org/10.1145/3503161.3551608)]
+- Image-Text Matching with Fine-Grained Relational Dependency and Bidirectional Attention-Based Generative Networks. [[PUB](https://doi.org/10.1145/3503161.3548058)]
+- Multi-Level Region Matching for Fine-Grained Sketch-Based Image Retrieval. [[PUB](https://doi.org/10.1145/3503161.3548147)]
+- MVLayoutNet: 3D Layout Reconstruction with Multi-view Panoramas. [[PUB](https://doi.org/10.1145/3503161.3548071)]
+- Point to Rectangle Matching for Image Text Retrieval. [[PUB](https://doi.org/10.1145/3503161.3548237)]
+- Rethinking Optical Flow Methods for Micro-Expression Spotting. [[PUB](https://doi.org/10.1145/3503161.3551602)]
+- Synthesizing Counterfactual Samples for Effective Image-Text Matching. [[PUB](https://doi.org/10.1145/3503161.3547814)]
+- Towards All Weather and Unobstructed Multi-Spectral Image Stitching: Algorithm and Benchmark. [[PUB](https://doi.org/10.1145/3503161.3547966)]
+
+### IJCV
+
+- Matching Visual Features to Hierarchical Semantic Topics for Image Paragraph Captioning. [[PUB](https://doi.org/10.1007/s11263-022-01624-6)]
+- Spatially-Consistent Feature Matching and Learning for Heritage Image Analysis. [[PUB](https://doi.org/10.1007/s11263-022-01576-x)]
+- Subspace-PnP: A Geometric Constraint Loss for Mutual Assistance of Depth and Optical Flow Estimation. [[PUB](https://doi.org/10.1007/s11263-022-01652-2)]
 
 ### MICCAI
 
@@ -568,6 +1050,14 @@
 - Vol2Flow: Segment 3D Volumes Using a Sequence of Registration Flows. [[PUB](https://doi.org/10.1007/978-3-031-16440-8_58)]
 - Weakly-Supervised Biomechanically-Constrained CT/MRI Registration of the Spine. [[PUB](https://doi.org/10.1007/978-3-031-16446-0_22)]
 - XMorpher: Full Transformer for Deformable Medical Image Registration via Cross Attention. [[PUB](https://doi.org/10.1007/978-3-031-16446-0_21)]
+- A Spatiotemporal Model for Precise and Efficient Fully-Automatic 3D Motion Correction in OCT. [[PUB](https://doi.org/10.1007/978-3-031-16434-7_50)]
+- AdaTriplet: Adaptive Gradient Triplet Loss with Automatic Margin Learning for Forensic Medical Image Matching. [[PUB](https://doi.org/10.1007/978-3-031-16452-1_69)]
+- Autofocusing+: Noise-Resilient Motion Correction in Magnetic Resonance Imaging. [[PUB](https://doi.org/10.1007/978-3-031-16446-0_35)]
+- DSP-Net: Deeply-Supervised Pseudo-Siamese Network for Dynamic Angiographic Image Matching. [[PUB](https://doi.org/10.1007/978-3-031-16449-1_5)]
+- FSE Compensated Motion Correction for MRI Using Data Driven Methods. [[PUB](https://doi.org/10.1007/978-3-031-16446-0_67)]
+- MCP-Net: Inter-frame Motion Correction with Patlak Regularization for Whole-body Dynamic PET. [[PUB](https://doi.org/10.1007/978-3-031-16440-8_16)]
+- Spatio-Temporal Motion Correction and Iterative Reconstruction of In-Utero Fetal fMRI. [[PUB](https://doi.org/10.1007/978-3-031-16446-0_57)]
+- Supervised Deep Learning for Head Motion Correction in PET. [[PUB](https://doi.org/10.1007/978-3-031-16440-8_19)]
 
 ### MIA
 
@@ -581,6 +1071,15 @@
 - Robust joint registration of multiple stains and MRI for multimodal 3D histology reconstruction: Application to the Allen human brain atlas. [[PUB](https://doi.org/10.1016/j.media.2021.102265)]
 - TransMorph: Transformer for unsupervised medical image registration. [[PUB](https://doi.org/10.1016/j.media.2022.102615)]
 - ⊥-loss: A symmetric loss function for magnetic resonance imaging reconstruction and image registration with deep learning. [[PUB](https://doi.org/10.1016/j.media.2022.102509)]
+- Automated anatomical labeling of a topologically variant abdominal arterial system via probabilistic hypergraph matching. [[PUB](https://doi.org/10.1016/j.media.2021.102249)]
+- Learning residual motion correction for fast and robust 3D multiparametric MRI. [[PUB](https://doi.org/10.1016/j.media.2022.102387)]
+- SAFRON: Stitching Across the Frontier Network for Generating Colorectal Cancer Histology Images. [[PUB](https://doi.org/10.1016/j.media.2021.102337)]
+- SCPM-Net: An anchor-free 3D lung nodule detection network using sphere representation and center points matching. [[PUB](https://doi.org/10.1016/j.media.2021.102287)]
+- Unsupervised inter-frame motion correction for whole-body dynamic PET using convolutional long short-term memory in a convolutional neural network. [[PUB](https://doi.org/10.1016/j.media.2022.102524)]
+
+### EMNLP
+
+- Cross-stitching Text and Knowledge Graph Encoders for Distantly Supervised Relation Extraction. [[PUB](https://doi.org/10.18653/v1/2022.emnlp-main.467)]
 
 ### COLING
 
@@ -590,26 +1089,51 @@
 
 - Mask does not matter: anti-spoofing face authentication using mmWave without on-site registration. [[PUB](https://doi.org/10.1145/3495243.3560515)]
 
+### ISCA
+
+- A synthesis framework for stitching surface code with superconducting quantum devices. [[PUB](https://doi.org/10.1145/3470496.3527381)]
+
 ### TPDS
 
 - Work-Stealing Prefix Scan: Addressing Load Imbalance in Large-Scale Image Registration. [[PUB](https://doi.org/10.1109/TPDS.2021.3095230)]
+
+### DAC
+
+- PANORAMA: divide-and-conquer approach for mapping complex loop kernels on CGRA. [[PUB](https://doi.org/10.1145/3489517.3530429)]
 
 ## 2021
 
 ### IJCAI
 
 - Planning with Learned Dynamic Model for Unsupervised Point Cloud Registration. [[PUB](https://doi.org/10.24963/ijcai.2021/107)]
+- Electrocardio Panorama: Synthesizing New ECG views with Self-supervision. [[PUB](https://doi.org/10.24963/ijcai.2021/495)]
+- GM-MLIC: Graph Matching based Multi-Label Image Classification. [[PUB](https://doi.org/10.24963/ijcai.2021/163)]
+- Step-Wise Hierarchical Alignment Network for Image-Text Matching. [[PUB](https://doi.org/10.24963/ijcai.2021/106)]
+- RAFT: Recurrent All-Pairs Field Transforms for Optical Flow (Extended Abstract). [[PUB](https://doi.org/10.24963/ijcai.2021/662)]
 
 ### AAAI
 
 - Low-Rank Registration Based Manifolds for Convection-Dominated PDEs. [[PUB](https://doi.org/10.1609/aaai.v35i1.16116)]
 - TAILOR: Teaching with Active and Incremental Learning for Object Registration. [[PUB](https://doi.org/10.1609/aaai.v35i18.18031)]
+- An Unsupervised Sampling Approach for Image-Sentence Matching Using Document-level Structural Information. [[PUB](https://doi.org/10.1609/aaai.v35i15.17573)]
+- Computational Visual Ceramicology: Matching Image Outlines to Catalog Sketches. [[PUB](https://doi.org/10.1609/aaai.v35i17.17740)]
+- Optical Flow Estimation from a Single Motion-blurred Image. [[PUB](https://doi.org/10.1609/aaai.v35i2.16172)]
+- Similarity Reasoning and Filtration for Image-Text Matching. [[PUB](https://doi.org/10.1609/aaai.v35i2.16209)]
 
 ### NeurIPS
 
 - Accurate Point Cloud Registration with Robust Optimal Transport. [[PUB](https://proceedings.neurips.cc/paper/2021/hash/2b0f658cbffd284984fb11d90254081f-Abstract.html)]
 - CoFiNet: Reliable Coarse-to-fine Correspondences for Robust PointCloud Registration. [[PUB](https://proceedings.neurips.cc/paper/2021/hash/c85b2ea9a678e74fdc8bafe5d0707c31-Abstract.html)]
 - Shape Registration in the Time of Transformers. [[PUB](https://proceedings.neurips.cc/paper/2021/hash/2d3d9d5373f378108cdbd30a3c52bd3e-Abstract.html)]
+- Mosaicking to Distill: Knowledge Distillation from Out-of-Domain Data. [[PUB](https://proceedings.neurips.cc/paper/2021/hash/63dc7ed1010d3c3b8269faf0ba7491d4-Abstract.html)]
+- Revisiting Model Stitching to Compare Neural Representations. [[PUB](https://proceedings.neurips.cc/paper/2021/hash/01ded4259d101feb739b06c399e9cd9c-Abstract.html)]
+- Self-Supervised Learning of Event-Based Optical Flow with Spiking Neural Networks. [[PUB](https://proceedings.neurips.cc/paper/2021/hash/39d4b545fb02556829aab1db805021c3-Abstract.html)]
+- Three-dimensional spike localization and improved motion correction for Neuropixels recordings. [[PUB](https://proceedings.neurips.cc/paper/2021/hash/b950ea26ca12daae142bd74dba4427c8-Abstract.html)]
+- TransMatcher: Deep Image Matching Through Transformers for Generalizable Person Re-identification. [[PUB](https://proceedings.neurips.cc/paper/2021/hash/0f49c89d1e7298bb9930789c8ed59d48-Abstract.html)]
+
+### ICLR
+
+- Adversarial score matching and improved sampling for image generation. [[PUB](https://openreview.net/forum?id=eLfqMl3z3lq)]
 
 ### JMLR
 
@@ -621,6 +1145,8 @@
 - Point Set Registration for 3D Range Scans Using Fuzzy Cluster-Based Metric and Efficient Global Optimization. [[PUB](https://doi.org/10.1109/TPAMI.2020.2978477)]
 - Supervision by Registration and Triangulation for Landmark Detection. [[PUB](https://doi.org/10.1109/TPAMI.2020.2983935)]
 - Topology-Aware Non-Rigid Point Cloud Registration. [[PUB](https://doi.org/10.1109/TPAMI.2019.2940655)]
+- A Lightweight Optical Flow CNN - Revisiting Data Fidelity and Regularization. [[PUB](https://doi.org/10.1109/TPAMI.2020.2976928)]
+- DENAO: Monocular Depth Estimation Network With Auxiliary Optical Flow. [[PUB](https://doi.org/10.1109/TPAMI.2020.2977021)]
 
 ### KDD
 
@@ -646,6 +1172,16 @@
 - Provably Approximated Point Cloud Registration. [[PUB](https://doi.org/10.1109/ICCV48922.2021.01302)]
 - Sampling Network Guided Cross-Entropy Method for Unsupervised Point Cloud Registration. [[PUB](https://doi.org/10.1109/ICCV48922.2021.00607)]
 - (Just) A Spoonful of Refinements Helps the Registration Error Go Down. [[PUB](https://doi.org/10.1109/ICCV48922.2021.00605)]
+- COTR: Correspondence Transformer for Matching Across Images. [[PUB](https://doi.org/10.1109/ICCV48922.2021.00615)]
+- Extreme Structure from Motion for Indoor Panoramas without Visual Overlaps. [[PUB](https://doi.org/10.1109/ICCV48922.2021.00565)]
+- GyroFlow: Gyroscope-Guided Unsupervised Optical Flow Learning. [[PUB](https://doi.org/10.1109/ICCV48922.2021.01263)]
+- High-Resolution Optical Flow from 1D Attention and Correlation. [[PUB](https://doi.org/10.1109/ICCV48922.2021.01033)]
+- Matching in the Dark: A Dataset for Matching Image Pairs of Low-light Scenes. [[PUB](https://doi.org/10.1109/ICCV48922.2021.00597)]
+- Minimal Solutions for Panoramic Stitching Given Gravity Prior. [[PUB](https://doi.org/10.1109/ICCV48922.2021.00553)]
+- MosaicOS: A Simple and Effective Use of Object-Centric Images for Long-Tailed Object Detection. [[PUB](https://doi.org/10.1109/ICCV48922.2021.00047)]
+- Sensor-Guided Optical Flow. [[PUB](https://doi.org/10.1109/ICCV48922.2021.00781)]
+- Separable Flow: Learning Motion Cost Volumes for Optical Flow Estimation. [[PUB](https://doi.org/10.1109/ICCV48922.2021.01063)]
+- Video Self-Stitching Graph Network for Temporal Action Localization. [[PUB](https://doi.org/10.1109/ICCV48922.2021.01340)]
 
 ### CVPR
 
@@ -661,10 +1197,34 @@
 - Spatiotemporal Registration for Event-Based Visual Odometry. [[PUB](https://openaccess.thecvf.com/content/CVPR2021/html/Liu_Spatiotemporal_Registration_for_Event-Based_Visual_Odometry_CVPR_2021_paper.html)]
 - SpinNet: Learning a General Surface Descriptor for 3D Point Cloud Registration. [[PUB](https://openaccess.thecvf.com/content/CVPR2021/html/Ao_SpinNet_Learning_a_General_Surface_Descriptor_for_3D_Point_Cloud_CVPR_2021_paper.html)]
 - UnsupervisedR&amp;R: Unsupervised Point Cloud Registration via Differentiable Rendering. [[PUB](https://openaccess.thecvf.com/content/CVPR2021/html/Banani_UnsupervisedRR_Unsupervised_Point_Cloud_Registration_via_Differentiable_Rendering_CVPR_2021_paper.html)]
+- AutoFlow: Learning a Better Training Set for Optical Flow. [[PUB](https://openaccess.thecvf.com/content/CVPR2021/html/Sun_AutoFlow_Learning_a_Better_Training_Set_for_Optical_Flow_CVPR_2021_paper.html)]
+- Co-Attention for Conditioned Image Matching. [[PUB](https://openaccess.thecvf.com/content/CVPR2021/html/Wiles_Co-Attention_for_Conditioned_Image_Matching_CVPR_2021_paper.html)]
+- Discrete-Continuous Action Space Policy Gradient-Based Attention for Image-Text Matching. [[PUB](https://openaccess.thecvf.com/content/CVPR2021/html/Yan_Discrete-Continuous_Action_Space_Policy_Gradient-Based_Attention_for_Image-Text_Matching_CVPR_2021_paper.html)]
+- EffiScene: Efficient Per-Pixel Rigidity Inference for Unsupervised Joint Learning of Optical Flow, Depth, Camera Pose and Motion Segmentation. [[PUB](https://openaccess.thecvf.com/content/CVPR2021/html/Jiao_EffiScene_Efficient_Per-Pixel_Rigidity_Inference_for_Unsupervised_Joint_Learning_of_CVPR_2021_paper.html)]
+- Feature-Level Collaboration: Joint Unsupervised Learning of Optical Flow, Stereo Depth and Camera Motion. [[PUB](https://openaccess.thecvf.com/content/CVPR2021/html/Chi_Feature-Level_Collaboration_Joint_Unsupervised_Learning_of_Optical_Flow_Stereo_Depth_CVPR_2021_paper.html)]
+- Indoor Panorama Planar 3D Reconstruction via Divide and Conquer. [[PUB](https://openaccess.thecvf.com/content/CVPR2021/html/Sun_Indoor_Panorama_Planar_3D_Reconstruction_via_Divide_and_Conquer_CVPR_2021_paper.html)]
+- Layout-Guided Novel View Synthesis From a Single Indoor Panorama. [[PUB](https://openaccess.thecvf.com/content/CVPR2021/html/Xu_Layout-Guided_Novel_View_Synthesis_From_a_Single_Indoor_Panorama_CVPR_2021_paper.html)]
+- Learning Optical Flow From a Few Matches. [[PUB](https://openaccess.thecvf.com/content/CVPR2021/html/Jiang_Learning_Optical_Flow_From_a_Few_Matches_CVPR_2021_paper.html)]
+- Learning Optical Flow From Still Images. [[PUB](https://openaccess.thecvf.com/content/CVPR2021/html/Aleotti_Learning_Optical_Flow_From_Still_Images_CVPR_2021_paper.html)]
+- Leveraging Line-Point Consistence To Preserve Structures for Wide Parallax Image Stitching. [[PUB](https://openaccess.thecvf.com/content/CVPR2021/html/Jia_Leveraging_Line-Point_Consistence_To_Preserve_Structures_for_Wide_Parallax_Image_CVPR_2021_paper.html)]
+- MASA-SR: Matching Acceleration and Spatial Adaptation for Reference-Based Image Super-Resolution. [[PUB](https://openaccess.thecvf.com/content/CVPR2021/html/Lu_MASA-SR_Matching_Acceleration_and_Spatial_Adaptation_for_Reference-Based_Image_Super-Resolution_CVPR_2021_paper.html)]
+- SliceNet: Deep Dense Depth Estimation From a Single Indoor Panorama Using a Slice-Based Representation. [[PUB](https://openaccess.thecvf.com/content/CVPR2021/html/Pintore_SliceNet_Deep_Dense_Depth_Estimation_From_a_Single_Indoor_Panorama_CVPR_2021_paper.html)]
+- SSLayout360: Semi-Supervised Indoor Layout Estimation From 360deg Panorama. [[PUB](https://openaccess.thecvf.com/content/CVPR2021/html/Tran_SSLayout360_Semi-Supervised_Indoor_Layout_Estimation_From_360deg_Panorama_CVPR_2021_paper.html)]
+- UPFlow: Upsampling Pyramid for Unsupervised Optical Flow Learning. [[PUB](https://openaccess.thecvf.com/content/CVPR2021/html/Luo_UPFlow_Upsampling_Pyramid_for_Unsupervised_Optical_Flow_Learning_CVPR_2021_paper.html)]
+- Zillow Indoor Dataset: Annotated Floor Plans With 360deg Panoramas and 3D Room Layouts. [[PUB](https://openaccess.thecvf.com/content/CVPR2021/html/Cruz_Zillow_Indoor_Dataset_Annotated_Floor_Plans_With_360deg_Panoramas_and_CVPR_2021_paper.html)]
+
+### MM
+
+- A Stepwise Matching Method for Multi-modal Image based on Cascaded Network. [[PUB](https://doi.org/10.1145/3474085.3475644)]
+- Conceptual and Syntactical Cross-modal Alignment with Cross-level Consistency for Image-Text Matching. [[PUB](https://doi.org/10.1145/3474085.3475380)]
+- Research on Micro-Expression Spotting Method Based on Optical Flow Features. [[PUB](https://doi.org/10.1145/3474085.3479225)]
 
 ### IJCV
 
 - Deformable Image Registration Based on Functions of Bounded Generalized Deformation. [[PUB](https://doi.org/10.1007/s11263-021-01439-x)]
+- Dual-view Snapshot Compressive Imaging via Optical Flow Aided Recurrent Neural Network. [[PUB](https://doi.org/10.1007/s11263-021-01532-1)]
+- Image Matching Across Wide Baselines: From Paper to Practice. [[PUB](https://doi.org/10.1007/s11263-020-01385-0)]
+- Image Matching from Handcrafted to Deep Features: A Survey. [[PUB](https://doi.org/10.1007/s11263-020-01359-2)]
 
 ### MICCAI
 
@@ -688,6 +1248,12 @@
 - Unsupervised Diffeomorphic Surface Registration and Non-linear Modelling. [[PUB](https://doi.org/10.1007/978-3-030-87202-1_12)]
 - Using Multiple Images and Contours for Deformable 3D-2D Registration of a Preoperative CT in Laparoscopic Liver Surgery. [[PUB](https://doi.org/10.1007/978-3-030-87202-1_63)]
 - Weakly Supervised Registration of Prostate MRI and Histopathology Images. [[PUB](https://doi.org/10.1007/978-3-030-87202-1_10)]
+- Construction of Longitudinally Consistent 4D Infant Cerebellum Atlases Based on Deep Learning. [[PUB](https://doi.org/10.1007/978-3-030-87202-1_14)]
+- Federated Semi-supervised Medical Image Classification via Inter-client Relation Matching. [[PUB](https://doi.org/10.1007/978-3-030-87199-4_31)]
+- GloFlow: Whole Slide Image Stitching from Video Using Optical Flow and Global Image Alignment. [[PUB](https://doi.org/10.1007/978-3-030-87237-3_50)]
+- Joint Motion Correction and Super Resolution for Cardiac Segmentation via Latent Optimisation. [[PUB](https://doi.org/10.1007/978-3-030-87199-4_2)]
+- Learning Neuron Stitching for Connectomics. [[PUB](https://doi.org/10.1007/978-3-030-87237-3_42)]
+- Motion Correction for Liver DCE-MRI with Time-Intensity Curve Constraint. [[PUB](https://doi.org/10.1007/978-3-030-87234-2_69)]
 
 ### MIA
 
@@ -712,6 +1278,10 @@
 - Shape registration with learned deformations for 3D shape reconstruction from sparse and incomplete point clouds. [[PUB](https://doi.org/10.1016/j.media.2021.102228)]
 - Variational multi-task MRI reconstruction: Joint reconstruction, registration and super-resolution. [[PUB](https://doi.org/10.1016/j.media.2020.101941)]
 - Weakly-supervised learning of multi-modal features for regularised iterative descent in 3D image registration. [[PUB](https://doi.org/10.1016/j.media.2020.101822)]
+- Modeling dynamic radial contrast enhanced MRI with linear time invariant systems for motion correction in quantitative assessment of kidney function. [[PUB](https://doi.org/10.1016/j.media.2020.101880)]
+- OF-UMRN: Uncertainty-guided multitask regression network aided by optical flow for fully automated comprehensive analysis of carotid artery. [[PUB](https://doi.org/10.1016/j.media.2021.101982)]
+- Towards improved breast mass detection using dual-view mammogram matching. [[PUB](https://doi.org/10.1016/j.media.2021.102083)]
+- Two-stage deep learning for accelerated 3D time-of-flight MRA without matched training data. [[PUB](https://doi.org/10.1016/j.media.2021.102047)]
 
 ### MOBICOM
 
@@ -723,14 +1293,40 @@
 
 - Bi-level Probabilistic Feature Learning for Deformable Image Registration. [[PUB](https://doi.org/10.24963/ijcai.2020/101)]
 
+### AAAI
+
+- Every Frame Counts: Joint Learning of Video Segmentation and Optical Flow. [[PUB](https://doi.org/10.1609/aaai.v34i07.6699)]
+- Expressing Objects Just Like Words: Recurrent Visual Embedding for Image-Text Matching. [[PUB](https://doi.org/10.1609/aaai.v34i07.6631)]
+- HAL: Improved Text-Image Matching by Mitigating Visual Semantic Hubs. [[PUB](https://doi.org/10.1609/aaai.v34i07.6823)]
+- OF-MSRN: Optical Flow-Auxiliary Multi-Task Regression Network for Direct Quantitative Measurement, Segmentation and Motion Estimation. [[PUB](https://doi.org/10.1609/aaai.v34i01.5475)]
+- Optical Flow in Deep Visual Tracking. [[PUB](https://doi.org/10.1609/aaai.v34i07.6890)]
+
+### AISTATS
+
+- Causal Mosaic: Cause-Effect Inference via Nonlinear ICA and Ensemble Method. [[PUB](http://proceedings.mlr.press/v108/wu20b.html)]
+
 ### NeurIPS
 
 - CoMIR: Contrastive Multimodal Image Representation for Registration. [[PUB](https://proceedings.neurips.cc/paper/2020/hash/d6428eecbe0f7dff83fc607c5044b2b9-Abstract.html)]
 - LoopReg: Self-supervised Learning of Implicit Surface Correspondences, Pose and Shape for 3D Human Mesh Registration. [[PUB](https://proceedings.neurips.cc/paper/2020/hash/970af30e481057c48f87e101b61e6994-Abstract.html)]
+- Displacement-Invariant Matching Cost Learning for Accurate Optical Flow Estimation. [[PUB](https://proceedings.neurips.cc/paper/2020/hash/add5aebfcb33a2206b6497d53bc4f309-Abstract.html)]
+- MosAIc: Finding Artistic Connections across Culture with Conditional Image Retrieval. [[PUB](http://proceedings.mlr.press/v133/hamilton21a.html)]
+
+### ICML
+
+- Towards Accurate Post-training Network Quantization via Bit-Split and Stitching. [[PUB](http://proceedings.mlr.press/v119/wang20c.html)]
+
+### ICLR
+
+- Deformable Kernels: Adapting Effective Receptive Fields for Object Deformation. [[PUB](https://openreview.net/forum?id=SkxSv6VFvS)]
 
 ### TPAMI
 
 - Aggregated Wasserstein Distance and State Registration for Hidden Markov Models. [[PUB](https://doi.org/10.1109/TPAMI.2019.2908635)]
+- Distance Surface for Event-Based Optical Flow. [[PUB](https://doi.org/10.1109/TPAMI.2020.2986748)]
+- Image and Sentence Matching via Semantic Concepts and Order Learning. [[PUB](https://doi.org/10.1109/TPAMI.2018.2883466)]
+- Models Matter, So Does Training: An Empirical Study of CNNs for Optical Flow Estimation. [[PUB](https://doi.org/10.1109/TPAMI.2019.2894353)]
+- Unsupervised Learning of a Hierarchical Spiking Neural Network for Optical Flow Estimation: From Events to Global Motion Perception. [[PUB](https://doi.org/10.1109/TPAMI.2019.2903179)]
 
 ### CVPR
 
@@ -744,6 +1340,23 @@
 - Quasi-Newton Solver for Robust Non-Rigid Registration. [[PUB](https://openaccess.thecvf.com/content_CVPR_2020/html/Yao_Quasi-Newton_Solver_for_Robust_Non-Rigid_Registration_CVPR_2020_paper.html)]
 - Smooth Shells: Multi-Scale Shape Registration With Functional Maps. [[PUB](https://openaccess.thecvf.com/content_CVPR_2020/html/Eisenberger_Smooth_Shells_Multi-Scale_Shape_Registration_With_Functional_Maps_CVPR_2020_paper.html)]
 - Unsupervised Multi-Modal Image Registration via Geometry Preserving Image-to-Image Translation. [[PUB](https://openaccess.thecvf.com/content_CVPR_2020/html/Arar_Unsupervised_Multi-Modal_Image_Registration_via_Geometry_Preserving_Image-to-Image_Translation_CVPR_2020_paper.html)]
+- An Adaptive Neural Network for Unsupervised Mosaic Consistency Analysis in Image Forensics. [[PUB](https://openaccess.thecvf.com/content_CVPR_2020/html/Bammey_An_Adaptive_Neural_Network_for_Unsupervised_Mosaic_Consistency_Analysis_in_CVPR_2020_paper.html)]
+- Efficient Dynamic Scene Deblurring Using Spatially Variant Deconvolution Network With Optical Flow Guided Training. [[PUB](https://openaccess.thecvf.com/content_CVPR_2020/html/Yuan_Efficient_Dynamic_Scene_Deblurring_Using_Spatially_Variant_Deconvolution_Network_With_CVPR_2020_paper.html)]
+- Flow2Stereo: Effective Self-Supervised Learning of Optical Flow and Stereo Matching. [[PUB](https://openaccess.thecvf.com/content_CVPR_2020/html/Liu_Flow2Stereo_Effective_Self-Supervised_Learning_of_Optical_Flow_and_Stereo_Matching_CVPR_2020_paper.html)]
+- Graph Structured Network for Image-Text Matching. [[PUB](https://openaccess.thecvf.com/content_CVPR_2020/html/Liu_Graph_Structured_Network_for_Image-Text_Matching_CVPR_2020_paper.html)]
+- Gum-Net: Unsupervised Geometric Matching for Fast and Accurate 3D Subtomogram Image Alignment and Averaging. [[PUB](https://openaccess.thecvf.com/content_CVPR_2020/html/Zeng_Gum-Net_Unsupervised_Geometric_Matching_for_Fast_and_Accurate_3D_Subtomogram_CVPR_2020_paper.html)]
+- IMRAM: Iterative Matching With Recurrent Attention Memory for Cross-Modal Image-Text Retrieval. [[PUB](https://openaccess.thecvf.com/content_CVPR_2020/html/Chen_IMRAM_Iterative_Matching_With_Recurrent_Attention_Memory_for_Cross-Modal_Image-Text_CVPR_2020_paper.html)]
+- Learning by Analogy: Reliable Supervision From Transformations for Unsupervised Optical Flow Estimation. [[PUB](https://openaccess.thecvf.com/content_CVPR_2020/html/Liu_Learning_by_Analogy_Reliable_Supervision_From_Transformations_for_Unsupervised_Optical_CVPR_2020_paper.html)]
+- Learning Video Stabilization Using Optical Flow. [[PUB](https://openaccess.thecvf.com/content_CVPR_2020/html/Yu_Learning_Video_Stabilization_Using_Optical_Flow_CVPR_2020_paper.html)]
+- More Grounded Image Captioning by Distilling Image-Text Matching Model. [[PUB](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhou_More_Grounded_Image_Captioning_by_Distilling_Image-Text_Matching_Model_CVPR_2020_paper.html)]
+- Multi-Modality Cross Attention Network for Image and Sentence Matching. [[PUB](https://openaccess.thecvf.com/content_CVPR_2020/html/Wei_Multi-Modality_Cross_Attention_Network_for_Image_and_Sentence_Matching_CVPR_2020_paper.html)]
+- Optical Flow in Dense Foggy Scenes Using Semi-Supervised Learning. [[PUB](https://openaccess.thecvf.com/content_CVPR_2020/html/Yan_Optical_Flow_in_Dense_Foggy_Scenes_Using_Semi-Supervised_Learning_CVPR_2020_paper.html)]
+- Scene Recomposition by Learning-Based ICP. [[PUB](https://openaccess.thecvf.com/content_CVPR_2020/html/Izadinia_Scene_Recomposition_by_Learning-Based_ICP_CVPR_2020_paper.html)]
+- ScopeFlow: Dynamic Scene Scoping for Optical Flow. [[PUB](https://openaccess.thecvf.com/content_CVPR_2020/html/Bar-Haim_ScopeFlow_Dynamic_Scene_Scoping_for_Optical_Flow_CVPR_2020_paper.html)]
+- Single Image Optical Flow Estimation With an Event Camera. [[PUB](https://openaccess.thecvf.com/content_CVPR_2020/html/Pan_Single_Image_Optical_Flow_Estimation_With_an_Event_Camera_CVPR_2020_paper.html)]
+- Upgrading Optical Flow to 3D Scene Flow Through Optical Expansion. [[PUB](https://openaccess.thecvf.com/content_CVPR_2020/html/Yang_Upgrading_Optical_Flow_to_3D_Scene_Flow_Through_Optical_Expansion_CVPR_2020_paper.html)]
+- VOLDOR: Visual Odometry From Log-Logistic Dense Optical Flow Residuals. [[PUB](https://openaccess.thecvf.com/content_CVPR_2020/html/Min_VOLDOR_Visual_Odometry_From_Log-Logistic_Dense_Optical_Flow_Residuals_CVPR_2020_paper.html)]
+- Warping Residual Based Image Stitching for Large Parallax. [[PUB](https://openaccess.thecvf.com/content_CVPR_2020/html/Lee_Warping_Residual_Based_Image_Stitching_for_Large_Parallax_CVPR_2020_paper.html)]
 
 ### ECCV
 
@@ -752,6 +1365,33 @@
 - DeepGMR: Learning Latent Gaussian Mixture Models for Registration. [[PUB](https://doi.org/10.1007/978-3-030-58558-7_43)]
 - Iterative Distance-Aware Similarity Matrix Convolution with Mutual-Supervised Point Elimination for Efficient Point Cloud Registration. [[PUB](https://doi.org/10.1007/978-3-030-58586-0_23)]
 - JSSR: A Joint Synthesis, Segmentation, and Registration System for 3D Multi-modal Image Alignment of Large-Scale Pathological CT Scans. [[PUB](https://doi.org/10.1007/978-3-030-58601-0_16)]
+- Adaptive Offline Quintuplet Loss for Image-Text Matching. [[PUB](https://doi.org/10.1007/978-3-030-58601-0_33)]
+- Consensus-Aware Visual-Semantic Embedding for Image-Text Matching. [[PUB](https://doi.org/10.1007/978-3-030-58586-0_2)]
+- Deep Multi Depth Panoramas for View Synthesis. [[PUB](https://doi.org/10.1007/978-3-030-58601-0_20)]
+- Image Stitching and Rectification for Hand-Held Cameras. [[PUB](https://doi.org/10.1007/978-3-030-58571-6_15)]
+- Improving Optical Flow on a Pyramid Level. [[PUB](https://doi.org/10.1007/978-3-030-58604-1_46)]
+- Joint 3D Layout and Depth Prediction from a Single Indoor Panorama Image. [[PUB](https://doi.org/10.1007/978-3-030-58517-4_39)]
+- LiteFlowNet3: Resolving Correspondence Ambiguity for More Accurate Optical Flow Estimation. [[PUB](https://doi.org/10.1007/978-3-030-58565-5_11)]
+- Optical Flow Distillation: Towards Efficient and Stable Video Style Transfer. [[PUB](https://doi.org/10.1007/978-3-030-58539-6_37)]
+- Polarized Optical-Flow Gyroscope. [[PUB](https://doi.org/10.1007/978-3-030-58517-4_22)]
+- RAFT: Recurrent All-Pairs Field Transforms for Optical Flow. [[PUB](https://doi.org/10.1007/978-3-030-58536-5_24)]
+- S2DNet: Learning Image Features for Accurate Sparse-to-Dense Matching. [[PUB](https://doi.org/10.1007/978-3-030-58580-8_37)]
+- Single-Image Depth Prediction Makes Feature Matching Easier. [[PUB](https://doi.org/10.1007/978-3-030-58517-4_28)]
+- Spike-FlowNet: Event-Based Optical Flow Estimation with Energy-Efficient Hybrid Neural Networks. [[PUB](https://doi.org/10.1007/978-3-030-58526-6_22)]
+- Unsupervised Learning of Optical Flow with Deep Feature Similarity. [[PUB](https://doi.org/10.1007/978-3-030-58586-0_11)]
+- What Matters in Unsupervised Optical Flow. [[PUB](https://doi.org/10.1007/978-3-030-58536-5_33)]
+- Why Do These Match? Explaining the Behavior of Image Similarity Models. [[PUB](https://doi.org/10.1007/978-3-030-58621-8_38)]
+
+### MM
+
+- A Smart-Site-Survey System using Image-based 3D Metric Reconstruction and Interactive Panorama Visualization. [[PUB](https://doi.org/10.1145/3394171.3414425)]
+- Context-Aware Multi-View Summarization Network for Image-Text Matching. [[PUB](https://doi.org/10.1145/3394171.3413961)]
+- Emotion-Based End-to-End Matching Between Image and Music in Valence-Arousal Space. [[PUB](https://doi.org/10.1145/3394171.3413776)]
+
+### IJCV
+
+- Learning Multi-human Optical Flow. [[PUB](https://doi.org/10.1007/s11263-019-01279-w)]
+- Mix and Match Networks: Cross-Modal Alignment for Zero-Pair Image-to-Image Translation. [[PUB](https://doi.org/10.1007/s11263-020-01340-z)]
 
 ### MICCAI
 
@@ -779,6 +1419,10 @@
 - Pair-Wise and Group-Wise Deformation Consistency in Deep Registration Network. [[PUB](https://doi.org/10.1007/978-3-030-59716-0_17)]
 - Semantic Hierarchy Guided Registration Networks for Intra-subject Pulmonary CT Image Alignment. [[PUB](https://doi.org/10.1007/978-3-030-59716-0_18)]
 - Unsupervised Learning Model for Registration of Multi-phase Ultra-Widefield Fluorescein Angiography. [[PUB](https://doi.org/10.1007/978-3-030-59716-0_20)]
+- Clinically Translatable Direct Patlak Reconstruction from Dynamic PET with Motion Correction Using Convolutional Neural Network. [[PUB](https://doi.org/10.1007/978-3-030-59728-3_77)]
+- Deep Placental Vessel Segmentation for Fetoscopic Mosaicking. [[PUB](https://doi.org/10.1007/978-3-030-59716-0_73)]
+- Interpretation of Disease Evidence for Medical Images Using Adversarial Deformation Fields. [[PUB](https://doi.org/10.1007/978-3-030-59713-9_71)]
+- Semi-supervised Training of Optical Flow Convolutional Neural Networks in Ultrasound Elastography. [[PUB](https://doi.org/10.1007/978-3-030-59716-0_48)]
 
 ### MIA
 
@@ -786,22 +1430,52 @@
 - Hubless keypoint-based 3D deformable groupwise registration. [[PUB](https://doi.org/10.1016/j.media.2019.101564)]
 - Multi-atlas image registration of clinical data with automated quality assessment using ventricle segmentation. [[PUB](https://doi.org/10.1016/j.media.2020.101698)]
 - SLIR: Synthesis, localization, inpainting, and registration for image-guided thermal ablation of liver tumors. [[PUB](https://doi.org/10.1016/j.media.2020.101763)]
+- Semi-supervised mp-MRI data synthesis with StitchLayer and auxiliary distance maximization. [[PUB](https://doi.org/10.1016/j.media.2019.101565)]
 
 ### EMNLP
 
 - NLP Service APIs and Models for Efficient Registration of New Clients. [[PUB](https://doi.org/10.18653/v1/2020.findings-emnlp.357)]
+- Make Templates Smarter: A Template Based Data2Text System Powered by Text Stitch Model. [[PUB](https://doi.org/10.18653/v1/2020.findings-emnlp.94)]
+
+### SIGIR
+
+- FashionBERT: Text and Image Matching with Adaptive Loss for Cross-modal Retrieval. [[PUB](https://doi.org/10.1145/3397271.3401430)]
+
+### VLDB
+
+- Mosaic: A Budget-Conscious Storage Engine for Relational Database Systems. [[PUB](http://www.vldb.org/pvldb/vol13/p2662-vogel.pdf)]
+
+### TCAD
+
+- Corner-Stitching-Based Multilayer Obstacle-Avoiding Component-to-Component Rectilinear Minimum Spanning Tree Construction. [[PUB](https://doi.org/10.1109/TCAD.2018.2890531)]
 
 ## 2019
+
+### IJCAI
+
+- Hallucinating Optical Flow Features for Video Classification. [[PUB](https://doi.org/10.24963/ijcai.2019/130)]
+- Knowledge Aware Semantic Concept Expansion for Image-Text Matching. [[PUB](https://doi.org/10.24963/ijcai.2019/720)]
+- Multi-Level Visual-Semantic Alignments with Relation-Wise Dual Attention Network for Image and Text Matching. [[PUB](https://doi.org/10.24963/ijcai.2019/111)]
+- Position Focused Attention Network for Image-Text Matching. [[PUB](https://doi.org/10.24963/ijcai.2019/526)]
+
+### AAAI
+
+- DDFlow: Learning Optical Flow with Unlabeled Data Distillation. [[PUB](https://doi.org/10.1609/aaai.v33i01.33018770)]
+- Few-Shot Image and Sentence Matching via Gated Visual-Semantic Embedding. [[PUB](https://doi.org/10.1609/aaai.v33i01.33018489)]
 
 ### NeurIPS
 
 - Arbicon-Net: Arbitrary Continuous Geometric Transformation Networks for Image Registration. [[PUB](https://proceedings.neurips.cc/paper/2019/hash/56f9f88906aebf4ad985aaec7fa01313-Abstract.html)]
 - PRNet: Self-Supervised Learning for Partial-to-Partial Registration. [[PUB](https://proceedings.neurips.cc/paper/2019/hash/ebad33b3c9fa1d10327bb55f9e79e2f3-Abstract.html)]
 - Recurrent Registration Neural Networks for Deformable Image Registration. [[PUB](https://proceedings.neurips.cc/paper/2019/hash/dd03de08bfdff4d8ab01117276564cc7-Abstract.html)]
+- Volumetric Correspondence Networks for Optical Flow. [[PUB](https://proceedings.neurips.cc/paper/2019/hash/bbf94b34eb32268ada57a3be5062fe7d-Abstract.html)]
 
 ### TPAMI
 
 - Efficient Registration of High-Resolution Feature Enhanced Point Clouds. [[PUB](https://doi.org/10.1109/TPAMI.2018.2831670)]
+- Depth from a Light Field Image with Learning-Based Matching Costs. [[PUB](https://doi.org/10.1109/TPAMI.2018.2794979)]
+- Flow Fields: Dense Correspondence Fields for Highly Accurate Large Displacement Optical Flow Estimation. [[PUB](https://doi.org/10.1109/TPAMI.2018.2859970)]
+- Learning Two-Branch Neural Networks for Image-Text Matching Tasks. [[PUB](https://doi.org/10.1109/TPAMI.2018.2797921)]
 
 ### S&P
 
@@ -821,6 +1495,16 @@
 - Linearly Converging Quasi Branch and Bound Algorithms for Global Rigid Registration. [[PUB](https://doi.org/10.1109/ICCV.2019.00171)]
 - Recursive Cascaded Networks for Unsupervised Medical Image Registration. [[PUB](https://doi.org/10.1109/ICCV.2019.01070)]
 - Robust Variational Bayesian Point Set Registration. [[PUB](https://doi.org/10.1109/ICCV.2019.01000)]
+- ACMM: Aligned Cross-Modal Memory for Few-Shot Image and Sentence Matching. [[PUB](https://doi.org/10.1109/ICCV.2019.00587)]
+- Adversarial Representation Learning for Text-to-Image Matching. [[PUB](https://doi.org/10.1109/ICCV.2019.00591)]
+- AFD-Net: Aggregated Feature Difference Learning for Cross-Spectral Image Patch Matching. [[PUB](https://doi.org/10.1109/ICCV.2019.00311)]
+- Attacking Optical Flow. [[PUB](https://doi.org/10.1109/ICCV.2019.00249)]
+- Better and Faster: Exponential Loss for Image Patch Matching. [[PUB](https://doi.org/10.1109/ICCV.2019.00491)]
+- Bridging the Domain Gap for Ground-to-Aerial Image Matching. [[PUB](https://doi.org/10.1109/ICCV.2019.00056)]
+- Hallucinating IDT Descriptors and I3D Optical Flow Features for Action Recognition With CNNs. [[PUB](https://doi.org/10.1109/ICCV.2019.00879)]
+- RainFlow: Optical Flow Under Rain Streaks and Rain Veiling Effect. [[PUB](https://doi.org/10.1109/ICCV.2019.00740)]
+- Saliency-Guided Attention Network for Image-Sentence Matching. [[PUB](https://doi.org/10.1109/ICCV.2019.00585)]
+- Visual Semantic Reasoning for Image-Text Matching. [[PUB](https://doi.org/10.1109/ICCV.2019.00475)]
 
 ### CVPR
 
@@ -831,11 +1515,31 @@
 - Networks for Joint Affine and Non-Parametric Image Registration. [[PUB](http://openaccess.thecvf.com/content_CVPR_2019/html/Shen_Networks_for_Joint_Affine_and_Non-Parametric_Image_Registration_CVPR_2019_paper.html)]
 - PointNetLK: Robust &amp; Efficient Point Cloud Registration Using PointNet. [[PUB](http://openaccess.thecvf.com/content_CVPR_2019/html/Aoki_PointNetLK_Robust__Efficient_Point_Cloud_Registration_Using_PointNet_CVPR_2019_paper.html)]
 - SDRSAC: Semidefinite-Based Randomized Approach for Robust Point Cloud Registration Without Correspondences. [[PUB](http://openaccess.thecvf.com/content_CVPR_2019/html/Le_SDRSAC_Semidefinite-Based_Randomized_Approach_for_Robust_Point_Cloud_Registration_Without_CVPR_2019_paper.html)]
+- Bridging Stereo Matching and Optical Flow via Spatiotemporal Correspondence. [[PUB](http://openaccess.thecvf.com/content_CVPR_2019/html/Lai_Bridging_Stereo_Matching_and_Optical_Flow_via_Spatiotemporal_Correspondence_CVPR_2019_paper.html)]
+- Competitive Collaboration: Joint Unsupervised Learning of Depth, Camera Motion, Optical Flow and Motion Segmentation. [[PUB](http://openaccess.thecvf.com/content_CVPR_2019/html/Ranjan_Competitive_Collaboration_Joint_Unsupervised_Learning_of_Depth_Camera_Motion_Optical_CVPR_2019_paper.html)]
+- DuLa-Net: A Dual-Projection Network for Estimating Room Layouts From a Single RGB Panorama. [[PUB](http://openaccess.thecvf.com/content_CVPR_2019/html/Yang_DuLa-Net_A_Dual-Projection_Network_for_Estimating_Room_Layouts_From_a_CVPR_2019_paper.html)]
+- Hierarchical Deep Stereo Matching on High-Resolution Images. [[PUB](http://openaccess.thecvf.com/content_CVPR_2019/html/Yang_Hierarchical_Deep_Stereo_Matching_on_High-Resolution_Images_CVPR_2019_paper.html)]
+- Iterative Residual Refinement for Joint Optical Flow and Occlusion Estimation. [[PUB](http://openaccess.thecvf.com/content_CVPR_2019/html/Hur_Iterative_Residual_Refinement_for_Joint_Optical_Flow_and_Occlusion_Estimation_CVPR_2019_paper.html)]
+- Learning Structure-And-Motion-Aware Rolling Shutter Correction. [[PUB](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhuang_Learning_Structure-And-Motion-Aware_Rolling_Shutter_Correction_CVPR_2019_paper.html)]
+- Privacy Protection in Street-View Panoramas Using Depth and Multi-View Imagery. [[PUB](http://openaccess.thecvf.com/content_CVPR_2019/html/Uittenbogaard_Privacy_Protection_in_Street-View_Panoramas_Using_Depth_and_Multi-View_Imagery_CVPR_2019_paper.html)]
+- RF-Net: An End-To-End Image Matching Network Based on Receptive Field. [[PUB](http://openaccess.thecvf.com/content_CVPR_2019/html/Shen_RF-Net_An_End-To-End_Image_Matching_Network_Based_on_Receptive_Field_CVPR_2019_paper.html)]
+- SelFlow: Self-Supervised Learning of Optical Flow. [[PUB](http://openaccess.thecvf.com/content_CVPR_2019/html/Liu_SelFlow_Self-Supervised_Learning_of_Optical_Flow_CVPR_2019_paper.html)]
+- UnOS: Unified Unsupervised Optical-Flow and Stereo-Depth Estimation by Watching Videos. [[PUB](http://openaccess.thecvf.com/content_CVPR_2019/html/Wang_UnOS_Unified_Unsupervised_Optical-Flow_and_Stereo-Depth_Estimation_by_Watching_Videos_CVPR_2019_paper.html)]
+- Unsupervised Event-Based Learning of Optical Flow, Depth, and Egomotion. [[PUB](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhu_Unsupervised_Event-Based_Learning_of_Optical_Flow_Depth_and_Egomotion_CVPR_2019_paper.html)]
+- Unsupervised Image Matching and Object Discovery as Optimization. [[PUB](http://openaccess.thecvf.com/content_CVPR_2019/html/Vo_Unsupervised_Image_Matching_and_Object_Discovery_as_Optimization_CVPR_2019_paper.html)]
+
+### MM
+
+- Cross-Reference Stitching Quality Assessment for 360° Omnidirectional Images. [[PUB](https://doi.org/10.1145/3343031.3350973)]
+- Focus Your Attention: A Bidirectional Focal Attention Network for Image-Text Matching. [[PUB](https://doi.org/10.1145/3343031.3350869)]
+- Learning Fragment Self-Attention Embeddings for Image-Text Matching. [[PUB](https://doi.org/10.1145/3343031.3350940)]
+- Matching Images and Text with Multi-modal Tensor Fusion and Re-ranking. [[PUB](https://doi.org/10.1145/3343031.3350875)]
 
 ### IJCV
 
 - Fast Diffeomorphic Image Registration via Fourier-Approximated Lie Algebras. [[PUB](https://doi.org/10.1007/s11263-018-1099-x)]
 - Robust and Optimal Registration of Image Sets and Structured Scenes via Sum-of-Squares Polynomials. [[PUB](https://doi.org/10.1007/s11263-018-1114-2)]
+- Cross-Domain Image Matching with Deep Feature Maps. [[PUB](https://doi.org/10.1007/s11263-018-01143-3)]
 
 ### MICCAI
 
@@ -862,6 +1566,11 @@
 - Towards Fully Automatic X-Ray to CT Registration. [[PUB](https://doi.org/10.1007/978-3-030-32226-7_70)]
 - U-ReSNet: Ultimate Coupling of Registration and Segmentation with Deep Nets. [[PUB](https://doi.org/10.1007/978-3-030-32248-9_35)]
 - Unsupervised Deformable Image Registration Using Cycle-Consistent CNN. [[PUB](https://doi.org/10.1007/978-3-030-32226-7_19)]
+- Deep Sequential Mosaicking of Fetoscopic Videos. [[PUB](https://doi.org/10.1007/978-3-030-32239-7_35)]
+- Detection and Correction of Cardiac MRI Motion Artefacts During Reconstruction from k-space. [[PUB](https://doi.org/10.1007/978-3-030-32251-9_76)]
+- Robust Non-negative Tensor Factorization, Diffeomorphic Motion Correction, and Functional Statistics to Understand Fixation in Fluorescence Microscopy. [[PUB](https://doi.org/10.1007/978-3-030-32239-7_73)]
+- Surface-Volume Consistent Construction of Longitudinal Atlases for the Early Developing Brain. [[PUB](https://doi.org/10.1007/978-3-030-32245-8_90)]
+- Linear Time Invariant Model Based Motion Correction (LiMo-MoCo) of Dynamic Radial Contrast Enhanced MRI. [[PUB](https://doi.org/10.1007/978-3-030-32245-8_48)]
 
 ### MIA
 
@@ -876,6 +1585,22 @@
 - Surface-constrained volumetric registration for the early developing brain. [[PUB](https://doi.org/10.1016/j.media.2019.101540)]
 - Universal atrial coordinates applied to visualisation, registration and construction of patient specific meshes. [[PUB](https://doi.org/10.1016/j.media.2019.04.004)]
 - Unsupervised learning of probabilistic diffeomorphic registration for images and surfaces. [[PUB](https://doi.org/10.1016/j.media.2019.07.006)]
+- A gradient-based optical-flow cardiac motion estimation method for cine and tagged MR images. [[PUB](https://doi.org/10.1016/j.media.2019.06.016)]
+- Flow network tracking for spatiotemporal and periodic point matching: Applied to cardiac motion analysis. [[PUB](https://doi.org/10.1016/j.media.2019.04.007)]
+- Robust motion correction for cardiac T1 and ECV mapping using a T1 relaxation model approach. [[PUB](https://doi.org/10.1016/j.media.2018.12.004)]
+- The effect of motion correction interpolation on quantitative T1 mapping with MRI. [[PUB](https://doi.org/10.1016/j.media.2018.11.012)]
+
+### ACL
+
+- A Strong and Robust Baseline for Text-Image Matching. [[PUB](https://doi.org/10.18653/v1/p19-2023)]
+
+### SIGIR
+
+- Simulacra and Selection: Clothing Set Recommendation at Stitch Fix. [[PUB](https://doi.org/10.1145/3331184.3331442)]
+
+### VLDB
+
+- Panorama: A Data System for Unbounded Vocabulary Querying over Video. [[PUB](http://www.vldb.org/pvldb/vol13/p477-zhang.pdf)]
 
 ### TPDS
 
@@ -886,10 +1611,14 @@
 ### IJCAI
 
 - Point Set Registration for Unsupervised Bilingual Lexicon Induction. [[PUB](https://doi.org/10.24963/ijcai.2018/555)]
+- H-Net: Neural Network for Cross-domain Image Patch Matching. [[PUB](https://doi.org/10.24963/ijcai.2018/119)]
+- Layered Optical Flow Estimation Using a Deep Neural Network with a Soft Mask. [[PUB](https://doi.org/10.24963/ijcai.2018/163)]
 
 ### AAAI
 
 - Dilated FCN for Multi-Agent 2D/3D Medical Image Registration. [[PUB](https://doi.org/10.1609/aaai.v32i1.11576)]
+- Hierarchical Video Generation From Orthogonal Information: Optical Flow and Texture. [[PUB](https://doi.org/10.1609/aaai.v32i1.11881)]
+- UnFlow: Unsupervised Learning of Optical Flow With a Bidirectional Census Loss. [[PUB](https://doi.org/10.1609/aaai.v32i1.12276)]
 
 ### TPAMI
 
@@ -906,6 +1635,18 @@
 - Density Adaptive Point Set Registration. [[PUB](http://openaccess.thecvf.com/content_cvpr_2018/html/Lawin_Density_Adaptive_Point_CVPR_2018_paper.html)]
 - Inverse Composition Discriminative Optimization for Point Cloud Registration. [[PUB](http://openaccess.thecvf.com/content_cvpr_2018/html/Vongkulbhisal_Inverse_Composition_Discriminative_CVPR_2018_paper.html)]
 - Supervision-by-Registration: An Unsupervised Approach to Improve the Precision of Facial Landmark Detectors. [[PUB](http://openaccess.thecvf.com/content_cvpr_2018/html/Dong_Supervision-by-Registration_An_Unsupervised_CVPR_2018_paper.html)]
+- A Unifying Contrast Maximization Framework for Event Cameras, With Applications to Motion, Depth, and Optical Flow Estimation. [[PUB](http://openaccess.thecvf.com/content_cvpr_2018/html/Gallego_A_Unifying_Contrast_CVPR_2018_paper.html)]
+- Automatic 3D Indoor Scene Modeling From Single Panorama. [[PUB](http://openaccess.thecvf.com/content_cvpr_2018/html/Yang_Automatic_3D_Indoor_CVPR_2018_paper.html)]
+- CVM-Net: Cross-View Matching Network for Image-Based Ground-to-Aerial Geo-Localization. [[PUB](http://openaccess.thecvf.com/content_cvpr_2018/html/Hu_CVM-Net_Cross-View_Matching_CVPR_2018_paper.html)]
+- GeoNet: Unsupervised Learning of Dense Depth, Optical Flow and Camera Pose. [[PUB](http://openaccess.thecvf.com/content_cvpr_2018/html/Yin_GeoNet_Unsupervised_Learning_CVPR_2018_paper.html)]
+- Learning Semantic Concepts and Order for Image and Sentence Matching. [[PUB](http://openaccess.thecvf.com/content_cvpr_2018/html/Huang_Learning_Semantic_Concepts_CVPR_2018_paper.html)]
+- LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation. [[PUB](http://openaccess.thecvf.com/content_cvpr_2018/html/Hui_LiteFlowNet_A_Lightweight_CVPR_2018_paper.html)]
+- Memory Matching Networks for One-Shot Image Recognition. [[PUB](http://openaccess.thecvf.com/content_cvpr_2018/html/Cai_Memory_Matching_Networks_CVPR_2018_paper.html)]
+- Mix and Match Networks: Encoder-Decoder Alignment for Zero-Pair Image Translation. [[PUB](http://openaccess.thecvf.com/content_cvpr_2018/html/Wang_Mix_and_Match_CVPR_2018_paper.html)]
+- Multi-Image Semantic Matching by Mining Consistent Features. [[PUB](http://openaccess.thecvf.com/content_cvpr_2018/html/Wang_Multi-Image_Semantic_Matching_CVPR_2018_paper.html)]
+- Occlusion Aware Unsupervised Learning of Optical Flow. [[PUB](http://openaccess.thecvf.com/content_cvpr_2018/html/Wang_Occlusion_Aware_Unsupervised_CVPR_2018_paper.html)]
+- Optical Flow Guided Feature: A Fast and Robust Motion Representation for Video Action Recognition. [[PUB](http://openaccess.thecvf.com/content_cvpr_2018/html/Sun_Optical_Flow_Guided_CVPR_2018_paper.html)]
+- PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume. [[PUB](http://openaccess.thecvf.com/content_cvpr_2018/html/Sun_PWC-Net_CNNs_for_CVPR_2018_paper.html)]
 
 ### ECCV
 
@@ -914,12 +1655,26 @@
 - HGMR: Hierarchical Gaussian Mixtures for Adaptive 3D Registration. [[PUB](https://doi.org/10.1007/978-3-030-01267-0_43)]
 - Learning and Matching Multi-View Descriptors for Registration of Point Clouds. [[PUB](https://doi.org/10.1007/978-3-030-01267-0_31)]
 - Robust Image Stitching with Multiple Registrations. [[PUB](https://doi.org/10.1007/978-3-030-01216-8_4)]
+- Conditional Prior Networks for Optical Flow. [[PUB](https://doi.org/10.1007/978-3-030-01267-0_17)]
+- Contextual-Based Image Inpainting: Infer, Match, and Translate. [[PUB](https://doi.org/10.1007/978-3-030-01216-8_1)]
+- Deep Cross-Modal Projection Learning for Image-Text Matching. [[PUB](https://doi.org/10.1007/978-3-030-01246-5_42)]
+- Efficient Dense Point Cloud Object Reconstruction Using Deformation Vector Fields. [[PUB](https://doi.org/10.1007/978-3-030-01258-8_31)]
+- Object-Centered Image Stitching. [[PUB](https://doi.org/10.1007/978-3-030-01219-9_50)]
+- Occlusions, Motion and Depth Boundaries with a Generic Network for Disparity, Optical Flow or Scene Flow Estimation. [[PUB](https://doi.org/10.1007/978-3-030-01258-8_38)]
+- OmniDepth: Dense Depth Estimation for Indoors Spherical Panoramas. [[PUB](https://doi.org/10.1007/978-3-030-01231-1_28)]
+- Robust Optical Flow in Rainy Scenes. [[PUB](https://doi.org/10.1007/978-3-030-01267-0_18)]
+- Snap Angle Prediction for 360 ∘ Panoramas. [[PUB](https://doi.org/10.1007/978-3-030-01228-1_1)]
+- Stacked Cross Attention for Image-Text Matching. [[PUB](https://doi.org/10.1007/978-3-030-01225-0_13)]
+- Structure-from-Motion-Aware PatchMatch for Adaptive Optical Flow Estimation. [[PUB](https://doi.org/10.1007/978-3-030-01237-3_35)]
+- Uncertainty Estimates and Multi-hypotheses Networks for Optical Flow. [[PUB](https://doi.org/10.1007/978-3-030-01234-2_40)]
+- Unsupervised Learning of Multi-Frame Optical Flow with Occlusions. [[PUB](https://doi.org/10.1007/978-3-030-01270-0_42)]
 
 ### IJCV
 
 - Graph-Based Slice-to-Volume Deformable Registration. [[PUB](https://doi.org/10.1007/s11263-017-1040-8)]
 - Scale-Free Registrations in 3D: 7 Degrees of Freedom with Fourier Mellin SOFT Transforms. [[PUB](https://doi.org/10.1007/s11263-018-1067-5)]
 - SDF-2-SDF Registration for Real-Time 3D Reconstruction from RGB-D Data. [[PUB](https://doi.org/10.1007/s11263-017-1057-z)]
+- What Makes Good Synthetic Training Data for Learning Disparity and Optical Flow Estimation?. [[PUB](https://doi.org/10.1007/s11263-018-1082-6)]
 
 ### MICCAI
 
@@ -939,6 +1694,9 @@
 - Soft-Body Registration of Pre-operative 3D Models to Intra-operative RGBD Partial Body Scans. [[PUB](https://doi.org/10.1007/978-3-030-00937-3_5)]
 - Towards Accurate and Complete Registration of Coronary Arteries in CTA Images. [[PUB](https://doi.org/10.1007/978-3-030-00934-2_47)]
 - Unsupervised Learning for Fast Probabilistic Diffeomorphic Registration. [[PUB](https://doi.org/10.1007/978-3-030-00928-1_82)]
+- A Comprehensive Approach for Learning-Based Fully-Automated Inter-slice Motion Correction for Short-Axis Cine Cardiac MR Image Stacks. [[PUB](https://doi.org/10.1007/978-3-030-00928-1_31)]
+- Distribution Matching Losses Can Hallucinate Features in Medical Image Translation. [[PUB](https://doi.org/10.1007/978-3-030-00928-1_60)]
+- Left Ventricle Segmentation via Optical-Flow-Net from Short-Axis Cine MRI: Preserving the Temporal Coherence of Cardiac Motion. [[PUB](https://doi.org/10.1007/978-3-030-00937-3_70)]
 
 ### MIA
 
@@ -951,23 +1709,57 @@
 - Joint registration and synthesis using a probabilistic model for alignment of MRI and histological sections. [[PUB](https://doi.org/10.1016/j.media.2018.09.002)]
 - SiSSR: Simultaneous subdivision surface registration for the quantification of cardiac function from computed tomography in canines. [[PUB](https://doi.org/10.1016/j.media.2018.03.009)]
 - Weakly-supervised convolutional neural networks for multimodal image registration. [[PUB](https://doi.org/10.1016/j.media.2018.07.002)]
+- A novel multi-atlas strategy with dense deformation field reconstruction for abdominal and thoracic multi-organ segmentation from computed tomography. [[PUB](https://doi.org/10.1016/j.media.2018.02.001)]
+- A scale-space curvature matching algorithm for the reconstruction of complex proximal humeral fractures. [[PUB](https://doi.org/10.1016/j.media.2017.10.006)]
+- Slice-level diffusion encoding for motion and distortion correction. [[PUB](https://doi.org/10.1016/j.media.2018.06.008)]
+
+### COLING
+
+- Incorporating Image Matching Into Knowledge Acquisition for Event-Oriented Relation Recognition. [[PUB](https://aclanthology.org/C18-1015/)]
+
+### VLDB
+
+- Plan Stitch: Harnessing the Best of Many Plans. [[PUB](http://www.vldb.org/pvldb/vol11/p1123-ding.pdf)]
+
+### MOBICOM
+
+- SWAN: Stitched Wi-Fi ANtennas. [[PUB](https://doi.org/10.1145/3241539.3241572)]
+
+### WWW
+
+- MemeSequencer: Sparse Matching for Embedding Image Macros. [[PUB](https://doi.org/10.1145/3178876.3186021)]
+
+### ISCA
+
+- Stitch: Fusible Heterogeneous Accelerators Enmeshed with Many-Core Architecture for Wearables. [[PUB](https://doi.org/10.1109/ISCA.2018.00054)]
 
 ## 2017
+
+### IJCAI
+
+- Deep Optical Flow Estimation Via Multi-Scale Correspondence Structure Learning. [[PUB](https://doi.org/10.24963/ijcai.2017/488)]
+- Image Matching via Loopy RNN. [[PUB](https://doi.org/10.24963/ijcai.2017/335)]
 
 ### AAAI
 
 - An Artificial Agent for Robust Image Registration. [[PUB](https://doi.org/10.1609/aaai.v31i1.11230)]
 - Non-Rigid Point Set Registration with Robust Transformation Estimation under Manifold Regularization. [[PUB](https://doi.org/10.1609/aaai.v31i1.11195)]
+- Unsupervised Deep Learning for Optical Flow Estimation. [[PUB](https://doi.org/10.1609/aaai.v31i1.10723)]
 
 ### TPAMI
 
 - Hyperbolic Harmonic Mapping for Surface Registration. [[PUB](https://doi.org/10.1109/TPAMI.2016.2567398)]
 - Image Registration and Change Detection under Rolling Shutter Motion Blur. [[PUB](https://doi.org/10.1109/TPAMI.2016.2630687)]
 - Randomly Perturbed B-Splines for Nonrigid Image Registration. [[PUB](https://doi.org/10.1109/TPAMI.2016.2598344)]
+- Efficient &amp; Effective Prioritized Matching for Large-Scale Image-Based Localization. [[PUB](https://doi.org/10.1109/TPAMI.2016.2611662)]
 
 ### KDD
 
 - Evaluating U.S. Electoral Representation with a Joint Statistical Model of Congressional Roll-Calls, Legislative Text, and Voter Registration Data. [[PUB](https://doi.org/10.1145/3097983.3098151)]
+
+### CCS
+
+- A Stitch in Time: Supporting Android Developers in WritingSecure Code. [[PUB](https://doi.org/10.1145/3133956.3133977)]
 
 ### USENIX Security
 
@@ -981,6 +1773,12 @@
 - Local-to-Global Point Cloud Registration Using a Dictionary of Viewpoint Descriptors. [[PUB](https://doi.org/10.1109/ICCV.2017.102)]
 - Point Set Registration with Global-Local Correspondence and Transformation Estimation. [[PUB](https://doi.org/10.1109/ICCV.2017.291)]
 - Surface Registration via Foliation. [[PUB](https://doi.org/10.1109/ICCV.2017.107)]
+- Fast Multi-image Matching via Density-Based Clustering. [[PUB](https://doi.ieeecomputersociety.org/10.1109/ICCV.2017.437)]
+- Learning High Dynamic Range from Outdoor Panoramas. [[PUB](https://doi.org/10.1109/ICCV.2017.484)]
+- MirrorFlow: Exploiting Symmetries in Joint Optical Flow and Occlusion Estimation. [[PUB](https://doi.org/10.1109/ICCV.2017.42)]
+- ProbFlow: Joint Optical Flow and Uncertainty Estimation. [[PUB](https://doi.org/10.1109/ICCV.2017.133)]
+- Progressive Large Scale-Invariant Image Matching in Scale Space. [[PUB](https://doi.org/10.1109/ICCV.2017.259)]
+- SegFlow: Joint Learning for Video Object Segmentation and Optical Flow. [[PUB](https://doi.org/10.1109/ICCV.2017.81)]
 
 ### CVPR
 
@@ -991,10 +1789,26 @@
 - Fine-to-Coarse Global Registration of RGB-D Scans. [[PUB](https://doi.org/10.1109/CVPR.2017.705)]
 - Group-Wise Point-Set Registration Based on Rényi&apos;s Second Order Entropy. [[PUB](https://doi.org/10.1109/CVPR.2017.263)]
 - Joint Registration and Representation Learning for Unconstrained Face Identification. [[PUB](https://doi.org/10.1109/CVPR.2017.169)]
+- A Combinatorial Solution to Non-Rigid 3D Shape-to-Image Matching. [[PUB](https://doi.org/10.1109/CVPR.2017.157)]
+- Accurate Optical Flow via Direct Cost Volume Processing. [[PUB](https://doi.org/10.1109/CVPR.2017.615)]
+- CNN-Based Patch Matching for Optical Flow with Thresholded Hinge Embedding Loss. [[PUB](https://doi.org/10.1109/CVPR.2017.290)]
+- Cross-View Image Matching for Geo-Localization in Urban Environments. [[PUB](https://doi.org/10.1109/CVPR.2017.216)]
+- Exploiting 2D Floorplan for Building-Scale Panorama RGBD Alignment. [[PUB](https://doi.org/10.1109/CVPR.2017.156)]
+- FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks. [[PUB](https://doi.org/10.1109/CVPR.2017.179)]
+- Instance-Aware Image and Sentence Matching with Selective Multimodal LSTM. [[PUB](https://doi.org/10.1109/CVPR.2017.767)]
+- InterpoNet, a Brain Inspired Neural Network for Optical Flow Dense Interpolation. [[PUB](https://doi.org/10.1109/CVPR.2017.674)]
+- Learning Deep Match Kernels for Image-Set Classification. [[PUB](https://doi.org/10.1109/CVPR.2017.661)]
+- Optical Flow Estimation Using a Spatial Pyramid Network. [[PUB](https://doi.org/10.1109/CVPR.2017.291)]
+- Optical Flow in Mostly Rigid Scenes. [[PUB](https://doi.org/10.1109/CVPR.2017.731)]
+- Robust Interpolation of Correspondences for Large Displacement Optical Flow. [[PUB](https://doi.org/10.1109/CVPR.2017.509)]
+- Slow Flow: Exploiting High-Speed Cameras for Accurate and Diverse Optical Flow Reference Data. [[PUB](https://doi.org/10.1109/CVPR.2017.154)]
+- Video2Shop: Exact Matching Clothes in Videos to Online Shopping Images. [[PUB](https://doi.ieeecomputersociety.org/10.1109/CVPR.2017.444)]
+- Optical Flow Requires Multiple Strategies (but Only One Network). [[PUB](https://doi.org/10.1109/CVPR.2017.732)]
 
 ### MM
 
 - An Experimental Study of Markerless Image Registration Methods on Varying Quality of Images for Augmented Reality Applications. [[PUB](https://doi.org/10.1145/3126686.3126759)]
+- Deep Matching and Validation Network: An End-to-End Solution to Constrained Image Splicing Localization and Detection. [[PUB](https://doi.org/10.1145/3123266.3123411)]
 
 ### IJCV
 
@@ -1022,6 +1836,12 @@
 - Selecting the Optimal Sequence for Deformable Registration of Microscopy Image Sequences Using Two-Stage MST-based Clustering Algorithm. [[PUB](https://doi.org/10.1007/978-3-319-66182-7_41)]
 - SVF-Net: Learning Deformable Image Registration Using Shape Matching. [[PUB](https://doi.org/10.1007/978-3-319-66182-7_31)]
 - Training CNNs for Image Registration from Few Samples with Model-based Data Augmentation. [[PUB](https://doi.org/10.1007/978-3-319-66182-7_26)]
+- 4D Infant Cortical Surface Atlas Construction Using Spherical Patch-Based Sparse Representation. [[PUB](https://doi.org/10.1007/978-3-319-66182-7_7)]
+- Accurate Correspondence of Cone Photoreceptor Neurons in the Human Eye Using Graph Matching Applied to Longitudinal Adaptive Optics Images. [[PUB](https://doi.org/10.1007/978-3-319-66185-8_18)]
+- Dynamic Field Mapping and Motion Correction Using Interleaved Double Spin-Echo Diffusion MRI. [[PUB](https://doi.org/10.1007/978-3-319-66182-7_60)]
+- Efficient Deformable Motion Correction for 3-D Abdominal MRI Using Manifold Regression. [[PUB](https://doi.org/10.1007/978-3-319-66185-8_31)]
+- Fully Automated Segmentation-Based Respiratory Motion Correction of Multiplanar Cardiac Magnetic Resonance Images for Large-Scale Datasets. [[PUB](https://doi.org/10.1007/978-3-319-66185-8_38)]
+- Graph-Constrained Sparse Construction of Longitudinal Diffusion-Weighted Infant Atlases. [[PUB](https://doi.org/10.1007/978-3-319-66182-7_6)]
 
 ### MIA
 
@@ -1040,12 +1860,41 @@
 - Stochastic optimization with randomized smoothing for image registration. [[PUB](https://doi.org/10.1016/j.media.2016.07.003)]
 - Vascular image registration techniques: A living review. [[PUB](https://doi.org/10.1016/j.media.2016.05.005)]
 - Multiresolution eXtended Free-Form Deformations (XFFD) for non-rigid registration with discontinuous transforms. [[PUB](https://doi.org/10.1016/j.media.2016.10.008)]
+- A tree-matching algorithm: Application to airways in CT images of subjects with the acute respiratory distress syndrome. [[PUB](https://doi.org/10.1016/j.media.2016.06.020)]
+- Involuntary eye motion correction in retinal optical coherence tomography: Hardware or software solution?. [[PUB](https://doi.org/10.1016/j.media.2017.02.002)]
+- MR-based respiratory and cardiac motion correction for PET imaging. [[PUB](https://doi.org/10.1016/j.media.2017.08.002)]
+
+### ICDE
+
+- Mosaics: Stratosphere, Flink and Beyond. [[PUB](https://doi.org/10.1109/ICDE.2017.8)]
+
+### VLDB
+
+- Stitching Web Tables for Improving Matching Quality. [[PUB](http://www.vldb.org/pvldb/vol10/p1502-lehmberg.pdf)]
+
+### WWW
+
+- Probabilistic Visitor Stitching on Cross-Device Web Logs. [[PUB](https://doi.org/10.1145/3038912.3052711)]
+
+### EuroSys
+
+- Mosaic: Processing a Trillion-Edge Graph on a Single Machine. [[PUB](https://doi.org/10.1145/3064176.3064191)]
 
 ## 2016
 
 ### IJCAI
 
 - Precision Instrument Targeting via Image Registration for the Mars 2020 Rover. [[PUB](http://www.ijcai.org/Abstract/16/474)]
+- A Novel Feature Matching Strategy for Large Scale Image Retrieval. [[PUB](http://www.ijcai.org/Abstract/16/293)]
+
+### AAAI
+
+- MUST-CNN: A Multilayer Shift-and-Stitch Deep Convolutional Architecture for Sequence-Based Protein Structure Prediction. [[PUB](https://doi.org/10.1609/aaai.v30i1.10007)]
+- Text Matching as Image Recognition. [[PUB](https://doi.org/10.1609/aaai.v30i1.10341)]
+
+### JMLR
+
+- Stereo Matching by Training a Convolutional Neural Network to Compare Image Patches. [[PUB](https://jmlr.org/papers/v17/15-535.html)]
 
 ### TPAMI
 
@@ -1053,6 +1902,7 @@
 - Fast Rotation Search with Stereographic Projections for 3D Registration. [[PUB](https://doi.org/10.1109/TPAMI.2016.2517636)]
 - Go-ICP: A Globally Optimal Solution to 3D ICP Point-Set Registration. [[PUB](https://doi.org/10.1109/TPAMI.2015.2513405)]
 - Higher-Order Graph Principles towards Non-Rigid Surface Registration. [[PUB](https://doi.org/10.1109/TPAMI.2016.2528240)]
+- Scalable Feature Matching by Dual Cascaded Scalar Quantization for Image Retrieval. [[PUB](https://doi.org/10.1109/TPAMI.2015.2430329)]
 
 ### S&P
 
@@ -1070,6 +1920,16 @@
 - Geospatial Correspondences for Multimodal Registration. [[PUB](https://doi.org/10.1109/CVPR.2016.550)]
 - Globally Optimal Rigid Intensity Based Registration: A Fast Fourier Domain Approach. [[PUB](https://doi.org/10.1109/CVPR.2016.639)]
 - Gravitational Approach for Point Set Registration. [[PUB](https://doi.org/10.1109/CVPR.2016.625)]
+- A Large Dataset to Train Convolutional Networks for Disparity, Optical Flow, and Scene Flow Estimation. [[PUB](https://doi.org/10.1109/CVPR.2016.438)]
+- Cross-Stitch Networks for Multi-task Learning. [[PUB](https://doi.org/10.1109/CVPR.2016.433)]
+- Efficient 3D Room Shape Recovery from a Single Panorama. [[PUB](https://doi.org/10.1109/CVPR.2016.585)]
+- Efficient Coarse-to-Fine Patch Match for Large Displacement Optical Flow. [[PUB](https://doi.org/10.1109/CVPR.2016.615)]
+- Full Flow: Optical Flow Estimation By Global Optimization over Regular Grids. [[PUB](https://doi.org/10.1109/CVPR.2016.509)]
+- Learning to Match Aerial Images with Deep Attentive Architectures. [[PUB](https://doi.org/10.1109/CVPR.2016.385)]
+- Optical Flow with Semantic Segmentation and Localized Layers. [[PUB](https://doi.org/10.1109/CVPR.2016.422)]
+- PatchBatch: A Batch Augmented Loss for Optical Flow. [[PUB](https://doi.org/10.1109/CVPR.2016.459)]
+- Robust Optical Flow Estimation of Double-Layer Images under Transparency or Reflection. [[PUB](https://doi.org/10.1109/CVPR.2016.157)]
+- Simultaneous Optical Flow and Intensity Estimation from an Event Camera. [[PUB](https://doi.org/10.1109/CVPR.2016.102)]
 
 ### ECCV
 
@@ -1079,6 +1939,25 @@
 - Resonant Deformable Matching: Simultaneous Registration and Reconstruction. [[PUB](https://doi.org/10.1007/978-3-319-46466-4_4)]
 - Shape Acquisition and Registration for 3D Endoscope Based on Grid Pattern Projection. [[PUB](https://doi.org/10.1007/978-3-319-46466-4_24)]
 - Similarity Registration Problems for 2D/3D Ultrasound Calibration. [[PUB](https://doi.org/10.1007/978-3-319-46466-4_11)]
+- Exploiting Semantic Information and Deep Matching for Optical Flow. [[PUB](https://doi.org/10.1007/978-3-319-46466-4_10)]
+- Fast Optical Flow Using Dense Inverse Search. [[PUB](https://doi.org/10.1007/978-3-319-46493-0_29)]
+- Guided Matching Based on Statistical Optical Flow for Fast and Robust Correspondence Analysis. [[PUB](https://doi.org/10.1007/978-3-319-46478-7_7)]
+- Image Co-segmentation Using Maximum Common Subgraph Matching and Region Co-growing. [[PUB](https://doi.org/10.1007/978-3-319-46466-4_44)]
+- Learning Image Matching by Simply Watching Video. [[PUB](https://doi.org/10.1007/978-3-319-46466-4_26)]
+- Matching Handwritten Document Images. [[PUB](https://doi.org/10.1007/978-3-319-46448-0_46)]
+- Natural Image Stitching with the Global Similarity Prior. [[PUB](https://doi.org/10.1007/978-3-319-46454-1_12)]
+- SEAGULL: Seam-Guided Local Alignment for Parallax-Tolerant Image Stitching. [[PUB](https://doi.org/10.1007/978-3-319-46487-9_23)]
+
+### MM
+
+- LSOD: Local Sparse Orthogonal Descriptor for Image Matching. [[PUB](https://doi.org/10.1145/2964284.2967217)]
+- MatchDR: Image Correspondence by Leveraging Distance Ratio Constraint. [[PUB](https://doi.org/10.1145/2964284.2967293)]
+
+### IJCV
+
+- Erratum to: Image Search with Selective Match Kernels: Aggregation Across Single and Multiple Images. [[PUB](https://doi.org/10.1007/s11263-015-0837-6)]
+- Image Search with Selective Match Kernels: Aggregation Across Single and Multiple Images. [[PUB](https://doi.org/10.1007/s11263-015-0810-4)]
+- ROML: A Robust Feature Correspondence Approach for Matching Objects in A Set of Images. [[PUB](https://doi.org/10.1007/s11263-015-0858-1)]
 
 ### MICCAI
 
@@ -1097,6 +1976,7 @@
 - Temporal Registration in In-Utero Volumetric MRI Time Series. [[PUB](https://doi.org/10.1007/978-3-319-46726-9_7)]
 - Towards Automated Ultrasound Transesophageal Echocardiography and X-Ray Fluoroscopy Fusion Using an Image-Based Co-registration Method. [[PUB](https://doi.org/10.1007/978-3-319-46720-7_46)]
 - Vascular Registration in Photoacoustic Imaging by Low-Rank Alignment via Foreground, Background and Complement Decomposition. [[PUB](https://doi.org/10.1007/978-3-319-46726-9_38)]
+- GPNLPerf: Robust 4d Non-rigid Motion Correction for Myocardial Perfusion Analysis. [[PUB](https://doi.org/10.1007/978-3-319-46726-9_30)]
 
 ### MIA
 
@@ -1106,6 +1986,16 @@
 - PCA-based groupwise image registration for quantitative MRI. [[PUB](https://doi.org/10.1016/j.media.2015.12.004)]
 - Real-time pose estimation of devices from x-ray images: Application to x-ray/echo registration for cardiac interventions. [[PUB](https://doi.org/10.1016/j.media.2016.04.008)]
 - Registration of dynamic multiview 2D ultrasound and late gadolinium enhanced images of the heart: Application to hypertrophic cardiomyopathy characterization. [[PUB](https://doi.org/10.1016/j.media.2015.10.010)]
+- A self-calibrating approach for the segmentation of retinal vessels by template matching and contour reconstruction. [[PUB](https://doi.org/10.1016/j.media.2015.12.003)]
+- Non Local Spatial and Angular Matching: Enabling higher spatial resolution diffusion MRI datasets through adaptive denoising. [[PUB](https://doi.org/10.1016/j.media.2016.02.010)]
+
+### INFOCOM
+
+- Mosaic: A low-cost mobile sensing system for urban air quality monitoring. [[PUB](https://doi.org/10.1109/INFOCOM.2016.7524478)]
+
+### DAC
+
+- StitchUp: automatic control flow protection for high level synthesis circuits. [[PUB](https://doi.org/10.1145/2897937.2898097)]
 
 ## 2015
 
@@ -1132,6 +2022,14 @@
 - Rendering of Eyes for Eye-Shape Registration and Gaze Estimation. [[PUB](https://doi.org/10.1109/ICCV.2015.428)]
 - Robust and Optimal Sum-of-Squares-Based Point-to-Plane Registration of Image Sets and Structured Scenes. [[PUB](https://doi.org/10.1109/ICCV.2015.237)]
 - Robust Nonrigid Registration by Convex Optimization. [[PUB](https://doi.org/10.1109/ICCV.2015.236)]
+- Beyond Gauss: Image-Set Matching on the Riemannian Manifold of PDFs. [[PUB](https://doi.org/10.1109/ICCV.2015.468)]
+- Dense Optical Flow Prediction from a Static Image. [[PUB](https://doi.org/10.1109/ICCV.2015.281)]
+- FlowNet: Learning Optical Flow with Convolutional Networks. [[PUB](https://doi.org/10.1109/ICCV.2015.316)]
+- Learning Parametric Distributions for Image Super-Resolution: Where Patch Matching Meets Sparse Coding. [[PUB](https://doi.org/10.1109/ICCV.2015.59)]
+- Merging the Unmatchable: Stitching Visually Disconnected SfM Models. [[PUB](https://doi.org/10.1109/ICCV.2015.246)]
+- Multi-image Matching via Fast Alternating Minimization. [[PUB](https://doi.org/10.1109/ICCV.2015.459)]
+- Multimodal Convolutional Neural Networks for Matching Image and Sentence. [[PUB](https://doi.org/10.1109/ICCV.2015.301)]
+- Synthesizing Illumination Mosaics from Internet Photo-Collections. [[PUB](https://doi.org/10.1109/ICCV.2015.454)]
 
 ### CVPR
 
@@ -1141,11 +2039,29 @@
 - Large-scale and drift-free surface reconstruction using online subvolume registration. [[PUB](https://doi.org/10.1109/CVPR.2015.7299077)]
 - LMI-based 2D-3D registration: From uncalibrated images to Euclidean scene. [[PUB](https://doi.org/10.1109/CVPR.2015.7299079)]
 - Non-rigid registration of images with geometric and photometric deformation by using local affine Fourier-moment matching. [[PUB](https://doi.org/10.1109/CVPR.2015.7298905)]
+- Adaptive as-natural-as-possible image stitching. [[PUB](https://doi.org/10.1109/CVPR.2015.7298719)]
+- BOLD - Binary online learned descriptor for efficient image matching. [[PUB](https://doi.org/10.1109/CVPR.2015.7298850)]
+- Casual stereoscopic panorama stitching. [[PUB](https://doi.org/10.1109/CVPR.2015.7298811)]
+- Deep correlation for matching images and text. [[PUB](https://doi.org/10.1109/CVPR.2015.7298966)]
+- Dense, accurate optical flow estimation with piecewise parametric model. [[PUB](https://doi.org/10.1109/CVPR.2015.7298704)]
+- Efficient sparse-to-dense optical flow estimation using a learned basis and layers. [[PUB](https://doi.org/10.1109/CVPR.2015.7298607)]
+- EpicFlow: Edge-preserving interpolation of correspondences for optical flow. [[PUB](https://doi.org/10.1109/CVPR.2015.7298720)]
+- Hierarchically-constrained optical flow. [[PUB](https://doi.org/10.1109/CVPR.2015.7298955)]
+- Matching bags of regions in RGBD images. [[PUB](https://doi.org/10.1109/CVPR.2015.7298957)]
+- Robust image alignment with multiple feature descriptors and matching-guided neighborhoods. [[PUB](https://doi.org/10.1109/CVPR.2015.7298802)]
+- The stitched puppet: A graphical model of 3D human shape and pose. [[PUB](https://doi.org/10.1109/CVPR.2015.7298976)]
+
+### MM
+
+- SkyStitch: A Cooperative Multi-UAV-based Real-time Video Surveillance System with Stitching. [[PUB](https://doi.org/10.1145/2733373.2806225)]
+- Pan360: INS Assisted 360-Degree Panorama (Demo Description). [[PUB](https://doi.org/10.1145/2733373.2807967)]
 
 ### IJCV
 
 - A 3D Scene Registration Method via Covariance Descriptors and an Evolutionary Stable Strategy Game Theory Solver - Fusing Photometric and Shape-Based Features. [[PUB](https://doi.org/10.1007/s11263-015-0820-2)]
 - Towards 3D Face Recognition in the Real: A Registration-Free Approach Using Fine-Grained Matching of 3D Keypoint Descriptors. [[PUB](https://doi.org/10.1007/s11263-014-0785-6)]
+- An Elastic Deformation Field Model for Object Detection and Tracking. [[PUB](https://doi.org/10.1007/s11263-014-0736-2)]
+- Shape Description and Matching Using Integral Invariants on Eccentricity Transformed Images. [[PUB](https://doi.org/10.1007/s11263-014-0773-x)]
 
 ### MICCAI
 
@@ -1165,6 +2081,13 @@
 - Topography-Based Registration of Developing Cortical Surfaces in Infants Using Multidirectional Varifold Representation. [[PUB](https://doi.org/10.1007/978-3-319-24571-3_28)]
 - Which Metrics Should Be Used in Non-linear Registration Evaluation?. [[PUB](https://doi.org/10.1007/978-3-319-24571-3_47)]
 - Motion Compensated Abdominal Diffusion Weighted MRI by Simultaneous Image Registration and Model Estimation (SIR-ME). [[PUB](https://doi.org/10.1007/978-3-319-24574-4_60)]
+- Flexible Reconstruction and Correction of Unpredictable Motion from Stacks of 2D Images. [[PUB](https://doi.org/10.1007/978-3-319-24571-3_66)]
+- Image Based Surgical Instrument Pose Estimation with Multi-class Labelling and Optical Flow. [[PUB](https://doi.org/10.1007/978-3-319-24553-9_41)]
+- Motion-Aware Mosaicing for Confocal Laser Endomicroscopy. [[PUB](https://doi.org/10.1007/978-3-319-24553-9_55)]
+- Robust PET Motion Correction Using Non-local Spatio-temporal Priors. [[PUB](https://doi.org/10.1007/978-3-319-24571-3_77)]
+- Scale Factor Point Spread Function Matching: Beyond Aliasing in Image Resampling. [[PUB](https://doi.org/10.1007/978-3-319-24571-3_81)]
+- Space-Frequency Detail-Preserving Construction of Neonatal Brain Atlases. [[PUB](https://doi.org/10.1007/978-3-319-24571-3_31)]
+- Vision-Based Intraoperative Cone-Beam CT Stitching for Non-overlapping Volumes. [[PUB](https://doi.org/10.1007/978-3-319-24553-9_48)]
 
 ### MIA
 
@@ -1183,6 +2106,11 @@
 - Quantification of local changes in myocardial motion by diffeomorphic registration via currents: Application to paced hypertrophic obstructive cardiomyopathy in 2D echocardiographic sequences. [[PUB](https://doi.org/10.1016/j.media.2014.10.005)]
 - Robust inverse-consistent affine CT-MR registration in MRI-assisted and MRI-alone prostate radiation therapy. [[PUB](https://doi.org/10.1016/j.media.2015.04.014)]
 - Skuller: A volumetric shape registration algorithm for modeling skull deformities. [[PUB](https://doi.org/10.1016/j.media.2015.03.005)]
+- Construction of 4D high-definition cortical surface atlases of infants: Methods and applications. [[PUB](https://doi.org/10.1016/j.media.2015.04.005)]
+
+### TCAD
+
+- Stitch-Aware Routing for Multiple E-Beam Lithography. [[PUB](https://doi.org/10.1109/TCAD.2014.2385761)]
 
 ## 2014
 
@@ -1190,6 +2118,12 @@
 
 - A Markov Random Field Groupwise Registration Framework for Face Recognition. [[PUB](https://doi.org/10.1109/TPAMI.2013.141)]
 - A Unified Approach for Registration and Depth in Depth from Defocus. [[PUB](https://doi.org/10.1109/TPAMI.2014.14)]
+- As-Projective-As-Possible Image Stitching with Moving DLT. [[PUB](https://doi.org/10.1109/TPAMI.2013.247)]
+- Image Geo-Localization Based on MultipleNearest Neighbor Feature Matching UsingGeneralized Graphs. [[PUB](https://doi.org/10.1109/TPAMI.2014.2299799)]
+
+### USENIX Security
+
+- Stitching the Gadgets: On the Ineffectiveness of Coarse-Grained Control-Flow Integrity Protection. [[PUB](https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/davi)]
 
 ### CVPR
 
@@ -1197,6 +2131,13 @@
 - Evaluation of Scan-Line Optimization for 3D Medical Image Registration. [[PUB](https://doi.org/10.1109/CVPR.2014.393)]
 - FAUST: Dataset and Evaluation for 3D Mesh Registration. [[PUB](https://doi.org/10.1109/CVPR.2014.491)]
 - Surface Registration by Optimization in Constrained Diffeomorphism Space. [[PUB](https://doi.org/10.1109/CVPR.2014.531)]
+- Discriminative Feature-to-Point Matching in Image-Based Localization. [[PUB](https://doi.org/10.1109/CVPR.2014.73)]
+- Fast and Accurate Image Matching with Cascade Hashing for 3D Reconstruction. [[PUB](https://doi.org/10.1109/CVPR.2014.8)]
+- Fast Edge-Preserving PatchMatch for Large Displacement Optical Flow. [[PUB](https://doi.org/10.1109/CVPR.2014.452)]
+- Parallax-Tolerant Image Stitching. [[PUB](https://doi.org/10.1109/CVPR.2014.423)]
+- Shape-Preserving Half-Projective Warps for Image Stitching. [[PUB](https://doi.org/10.1109/CVPR.2014.422)]
+- SteadyFlow: Spatially Smooth Optical Flow for Video Stabilization. [[PUB](https://doi.org/10.1109/CVPR.2014.536)]
+- Using a Deformation Field Model for Localizing Faces and Facial Points under Weak Supervision. [[PUB](https://doi.org/10.1109/CVPR.2014.472)]
 
 ### ECCV
 
@@ -1207,12 +2148,25 @@
 - Surface Matching and Registration by Landmark Curve-Driven Canonical Quasiconformal Mapping. [[PUB](https://doi.org/10.1007/978-3-319-10590-1_46)]
 - Tractable and Reliable Registration of 2D Point Sets. [[PUB](https://doi.org/10.1007/978-3-319-10590-1_26)]
 - Video Registration to SfM Models. [[PUB](https://doi.org/10.1007/978-3-319-10602-1_1)]
+- Highly Overparameterized Optical Flow Using PatchMatch Belief Propagation. [[PUB](https://doi.org/10.1007/978-3-319-10578-9_15)]
+- Learning Brightness Transfer Functions for the Joint Recovery of Illumination Changes and Optical Flow. [[PUB](https://doi.org/10.1007/978-3-319-10590-1_30)]
+- Local Estimation of High Velocity Optical Flow with Correlation Image Sensor. [[PUB](https://doi.org/10.1007/978-3-319-10578-9_16)]
+- Non-local Total Generalized Variation for Optical Flow Estimation. [[PUB](https://doi.org/10.1007/978-3-319-10590-1_29)]
+- Optical Flow Estimation with Channel Constancy. [[PUB](https://doi.org/10.1007/978-3-319-10590-1_28)]
+- Spatiotemporal Background Subtraction Using Minimum Spanning Tree and Optical Flow. [[PUB](https://doi.org/10.1007/978-3-319-10584-0_34)]
+
+### MM
+
+- Efficient Cross-Domain Image Retrieval by Multi-Level Matching and Spatial Verification for Structural Similarity. [[PUB](https://doi.org/10.1145/2647868.2655032)]
+- Real-Time HDR Panorama Video. [[PUB](https://doi.org/10.1145/2647868.2655049)]
 
 ### IJCV
 
 - Demisting the Hough Transform for 3D Shape Recognition and Registration. [[PUB](https://doi.org/10.1007/s11263-013-0623-2)]
 - Spectral Log-Demons: Diffeomorphic Image Registration with Very Large Deformations. [[PUB](https://doi.org/10.1007/s11263-013-0681-5)]
 - Spline-Based Hybrid Image Registration using Landmark and Intensity Information based on Matrix-Valued Non-radial Basis Functions. [[PUB](https://doi.org/10.1007/s11263-013-0642-z)]
+- A Quantitative Analysis of Current Practices in Optical Flow Estimation and the Principles Behind Them. [[PUB](https://doi.org/10.1007/s11263-013-0644-x)]
+- Hough Pyramid Matching: Speeded-Up Geometry Re-ranking for Large Scale Image Retrieval. [[PUB](https://doi.org/10.1007/s11263-013-0659-3)]
 
 ### MICCAI
 
@@ -1238,6 +2192,10 @@
 - Spatially-Varying Metric Learning for Diffeomorphic Image Registration: A Variational Framework. [[PUB](https://doi.org/10.1007/978-3-319-10404-1_29)]
 - Speckle Reduction in Optical Coherence Tomography by Image Registration and Matrix Completion. [[PUB](https://doi.org/10.1007/978-3-319-10404-1_21)]
 - Topology Preservation and Anatomical Feasibility in Random Walker Image Registration. [[PUB](https://doi.org/10.1007/978-3-319-10404-1_27)]
+- Construction of a Coronary Artery Atlas from CT Angiography. [[PUB](https://doi.org/10.1007/978-3-319-10470-6_64)]
+- Construction of a Deformable Spatiotemporal MRI Atlas of the Fetal Brain: Evaluation of Similarity Metrics and Deformation Models. [[PUB](https://doi.org/10.1007/978-3-319-10470-6_37)]
+- Joint Parametric Reconstruction and Motion Correction Framework for Dynamic PET Data. [[PUB](https://doi.org/10.1007/978-3-319-10404-1_15)]
+- Motion Artefact Correction in Retinal Optical Coherence Tomography Using Local Symmetry. [[PUB](https://doi.org/10.1007/978-3-319-10470-6_17)]
 
 ### MIA
 
@@ -1253,10 +2211,22 @@
 - Pose-independent surface matching for intra-operative soft-tissue marker-less registration. [[PUB](https://doi.org/10.1016/j.media.2014.06.002)]
 - Respiratory motion correction in dynamic MRI using robust data decomposition registration - Application to DCE-MRI. [[PUB](https://doi.org/10.1016/j.media.2013.10.016)]
 - Self-similarity weighted mutual information: A new nonrigid image registration metric. [[PUB](https://doi.org/10.1016/j.media.2013.12.003)]
+- High-resolution dynamic MR imaging of the thorax for respiratory motion correction of PET using groupwise manifold alignment. [[PUB](https://doi.org/10.1016/j.media.2014.05.010)]
+- Landmark matching based retinal image alignment by enforcing sparsity in correspondence matrix. [[PUB](https://doi.org/10.1016/j.media.2013.09.009)]
+- Statistical atlas construction via weighted functional boxplots. [[PUB](https://doi.org/10.1016/j.media.2014.03.001)]
+- Tumor sensitive matching flow: A variational method to detecting and segmenting perihepatic and perisplenic ovarian cancer metastases on contrast-enhanced abdominal CT. [[PUB](https://doi.org/10.1016/j.media.2014.04.001)]
 
 ### WWW
 
 - XXXtortion?: inferring registration intent in the .XXX TLD. [[PUB](https://doi.org/10.1145/2566486.2567995)]
+
+### TPDS
+
+- Task-Tree Based Large-Scale Mosaicking for Massive Remote Sensed Imageries with Dynamic DAG Scheduling. [[PUB](https://doi.org/10.1109/TPDS.2013.272)]
+
+### DAC
+
+- MOSAIC: Mask Optimizing Solution With Process Window Aware Inverse Correction. [[PUB](https://doi.org/10.1145/2593069.2593163)]
 
 ## 2013
 
@@ -1274,6 +2244,8 @@
 - Shape Representation and Registration in Vector Implicit Spaces: Adopting a Closed-Form Solution in the Optimization Process. [[PUB](https://doi.org/10.1109/TPAMI.2012.245)]
 - Simultaneous Registration of Multiple Images: Similarity Metrics and Efficient Optimization. [[PUB](https://doi.org/10.1109/TPAMI.2012.196)]
 - Spectral 6DOF Registration of Noisy 3D Range Data with Partial Overlap. [[PUB](https://doi.org/10.1109/TPAMI.2012.173)]
+- Iterative Closest Normal Point for 3D Face Recognition. [[PUB](https://doi.org/10.1109/TPAMI.2012.107)]
+- Learning a Confidence Measure for Optical Flow. [[PUB](https://doi.org/10.1109/TPAMI.2012.171)]
 
 ### ICCV
 
@@ -1285,6 +2257,13 @@
 - Go-ICP: Solving 3D Registration Efficiently and Globally Optimally. [[PUB](https://doi.org/10.1109/ICCV.2013.184)]
 - Multiple Non-rigid Surface Detection and Registration. [[PUB](https://doi.org/10.1109/ICCV.2013.249)]
 - Uncertainty-Driven Efficiently-Sampled Sparse Graphical Models for Concurrent Tumor Segmentation and Atlas Registration. [[PUB](https://doi.org/10.1109/ICCV.2013.85)]
+- A General Dense Image Matching Framework Combining Direct and Feature-Based Costs. [[PUB](https://doi.org/10.1109/ICCV.2013.30)]
+- A Novel Earth Mover&apos;s Distance Methodology for Image Matching with Gaussian Mixture Models. [[PUB](https://doi.org/10.1109/ICCV.2013.212)]
+- Coherent Motion Segmentation in Moving Camera Videos Using Optical Flow Orientations. [[PUB](https://doi.org/10.1109/ICCV.2013.199)]
+- DCSH - Matching Patches in RGBD Images. [[PUB](https://doi.org/10.1109/ICCV.2013.18)]
+- DeepFlow: Large Displacement Optical Flow with Deep Matching. [[PUB](https://doi.org/10.1109/ICCV.2013.175)]
+- Optical Flow via Locally Adaptive Fusion of Complementary Data Costs. [[PUB](https://doi.org/10.1109/ICCV.2013.415)]
+- To Aggregate or Not to aggregate: Selective Match Kernels for Image Search. [[PUB](https://doi.org/10.1109/ICCV.2013.177)]
 
 ### CVPR
 
@@ -1293,6 +2272,17 @@
 - Groupwise Registration via Graph Shrinkage on the Image Manifold. [[PUB](https://doi.org/10.1109/CVPR.2013.301)]
 - Hyperbolic Harmonic Mapping for Constrained Brain Surface Registration. [[PUB](https://doi.org/10.1109/CVPR.2013.327)]
 - Robust Estimation of Nonrigid Transformation for Point Set Registration. [[PUB](https://doi.org/10.1109/CVPR.2013.279)]
+- A Linear Approach to Matching Cuboids in RGBD Images. [[PUB](https://doi.org/10.1109/CVPR.2013.282)]
+- A Thousand Frames in Just a Few Words: Lingual Description of Videos through Latent Topics and Sparse Object Stitching. [[PUB](https://doi.org/10.1109/CVPR.2013.340)]
+- Joint Spectral Correspondence for Disparate Image Matching. [[PUB](https://doi.org/10.1109/CVPR.2013.361)]
+- Large Displacement Optical Flow from Nearest Neighbor Fields. [[PUB](https://doi.org/10.1109/CVPR.2013.316)]
+- Learning Class-to-Image Distance with Object Matchings. [[PUB](https://doi.org/10.1109/CVPR.2013.108)]
+- Megastereo: Constructing High-Resolution Stereo Panoramas. [[PUB](https://doi.org/10.1109/CVPR.2013.166)]
+- Optical Flow Estimation Using Laplacian Mesh Energy. [[PUB](https://doi.org/10.1109/CVPR.2013.315)]
+
+### MM
+
+- Sim-min-hash: an efficient matching technique for linking large image collections. [[PUB](https://doi.org/10.1145/2502081.2502152)]
 
 ### IJCV
 
@@ -1333,6 +2323,13 @@
 - Statistical Shape Model to 3D Ultrasound Registration for Spine Interventions Using Enhanced Local Phase Features. [[PUB](https://doi.org/10.1007/978-3-642-40763-5_45)]
 - System and Method for 3-D/3-D Registration between Non-contrast-enhanced CBCT and Contrast-Enhanced CT for Abdominal Aortic Aneurysm Stenting. [[PUB](https://doi.org/10.1007/978-3-642-40811-3_48)]
 - Unsupervised Deep Feature Learning for Deformable Registration of MR Brain Images. [[PUB](https://doi.org/10.1007/978-3-642-40763-5_80)]
+- A Viterbi Approach to Topology Inference for Large Scale Endomicroscopy Video Mosaicing. [[PUB](https://doi.org/10.1007/978-3-642-40811-3_51)]
+- Automatic Detection of Blue-White Veil by Discrete Colour Matching in Dermoscopy Images. [[PUB](https://doi.org/10.1007/978-3-642-40760-4_57)]
+- Complex Lung Motion Estimation via Adaptive Bilateral Filtering of the Deformation Field. [[PUB](https://doi.org/10.1007/978-3-642-40760-4_4)]
+- Respiratory Motion Correction in Dynamic-MRI: Application to Small Bowel Motility Quantification during Free Breathing. [[PUB](https://doi.org/10.1007/978-3-642-40763-5_17)]
+- Sparse Scale-Space Decomposition of Volume Changes in Deformations Fields. [[PUB](https://doi.org/10.1007/978-3-642-40763-5_41)]
+- Weighted Functional Boxplot with Application to Statistical Atlas Construction. [[PUB](https://doi.org/10.1007/978-3-642-40760-4_73)]
+- Atlas Construction for Dynamic (4D) PET Using Diffeomorphic Transformations. [[PUB](https://doi.org/10.1007/978-3-642-40763-5_5)]
 
 ### MIA
 
@@ -1347,6 +2344,16 @@
 - Registration of 3D fetal neurosonography and MRI. [[PUB](https://doi.org/10.1016/j.media.2013.07.004)]
 - Statistical coronary motion models for 2D + t/3D registration of X-ray coronary angiography and CTA. [[PUB](https://doi.org/10.1016/j.media.2013.03.003)]
 - The impact of registration accuracy on imaging validation study design: A novel statistical power calculation. [[PUB](https://doi.org/10.1016/j.media.2013.04.008)]
+- Evaluation of a Kalman-based block matching method to assess the bi-dimensional motion of the carotid artery wall in B-mode ultrasound sequences. [[PUB](https://doi.org/10.1016/j.media.2013.03.006)]
+- Left ventricle segmentation in MRI via convex relaxed distribution matching. [[PUB](https://doi.org/10.1016/j.media.2013.05.002)]
+
+### SIGCOMM
+
+- Mosaic: quantifying privacy leakage in mobile networks. [[PUB](https://doi.org/10.1145/2486001.2486008)]
+
+### DAC
+
+- Stitch-aware routing for multiple e-beam lithography. [[PUB](https://doi.org/10.1145/2463209.2488765)]
 
 ## 2012
 
@@ -1358,6 +2365,11 @@
 ### TPAMI
 
 - Nonlinear Shape Registration without Correspondences. [[PUB](https://doi.org/10.1109/TPAMI.2011.200)]
+- Convergent Iterative Closest-Point Algorithm to Accomodate Anisotropic and Inhomogenous Localization Error. [[PUB](https://doi.org/10.1109/TPAMI.2011.248)]
+- Image Restoration by Matching Gradient Distributions. [[PUB](https://doi.org/10.1109/TPAMI.2011.166)]
+- Motion Detail Preserving Optical Flow Estimation. [[PUB](https://doi.org/10.1109/TPAMI.2011.236)]
+- Multidimensional Scaling for Matching Low-Resolution Face Images. [[PUB](https://doi.org/10.1109/TPAMI.2011.278)]
+- Unsupervised Image Matching Based on Manifold Alignment. [[PUB](https://doi.org/10.1109/TPAMI.2011.229)]
 
 ### CVPR
 
@@ -1366,6 +2378,12 @@
 - Multi view registration for novelty/background separation. [[PUB](https://doi.org/10.1109/CVPR.2012.6247746)]
 - Robust non-rigid registration of 2D and 3D graphs. [[PUB](https://doi.org/10.1109/CVPR.2012.6247776)]
 - Structure and motion from scene registration. [[PUB](https://doi.org/10.1109/CVPR.2012.6247830)]
+- A learning based deformable template matching method for automatic rib centerline extraction and labeling in CT images. [[PUB](https://doi.org/10.1109/CVPR.2012.6247774)]
+- Hierarchical matching with side information for image classification. [[PUB](https://doi.org/10.1109/CVPR.2012.6248083)]
+- Image matching using local symmetry features. [[PUB](https://doi.org/10.1109/CVPR.2012.6247677)]
+- Layered segmentation and optical flow estimation over time. [[PUB](https://doi.org/10.1109/CVPR.2012.6247873)]
+- Optical flow in the presence of spatially-varying motion blur. [[PUB](https://doi.org/10.1109/CVPR.2012.6247871)]
+- Robust nonrigid ICP using outlier-sparsity regularization. [[PUB](https://doi.org/10.1109/CVPR.2012.6247673)]
 
 ### ECCV
 
@@ -1373,11 +2391,27 @@
 - In Defence of RANSAC for Outlier Rejection in Deformable Registration. [[PUB](https://doi.org/10.1007/978-3-642-33765-9_20)]
 - Non-rigid Shape Registration: A Single Linear Least Squares Framework. [[PUB](https://doi.org/10.1007/978-3-642-33786-4_20)]
 - Spectral Demons - Image Registration via Global Spectral Correspondence. [[PUB](https://doi.org/10.1007/978-3-642-33709-3_3)]
+- A Naturalistic Open Source Movie for Optical Flow Evaluation. [[PUB](https://doi.org/10.1007/978-3-642-33783-3_44)]
+- Efficient Nonlocal Regularization for Optical Flow. [[PUB](https://doi.org/10.1007/978-3-642-33718-5_26)]
+- Global Optimization of Object Pose and Motion from a Single Rolling Shutter Image with Automatic 2D-3D Matching. [[PUB](https://doi.org/10.1007/978-3-642-33718-5_33)]
+- Match Graph Construction for Large Image Databases. [[PUB](https://doi.org/10.1007/978-3-642-33718-5_20)]
+- MatchMiner: Efficient Spanning Structure Mining in Large Image Collections. [[PUB](https://doi.org/10.1007/978-3-642-33709-3_4)]
+- Morphable Displacement Field Based Image Matching for Face Recognition across Pose. [[PUB](https://doi.org/10.1007/978-3-642-33718-5_8)]
+- Scale Invariant Optical Flow. [[PUB](https://doi.org/10.1007/978-3-642-33709-3_28)]
+- Stixels Motion Estimation without Optical Flow Computation. [[PUB](https://doi.org/10.1007/978-3-642-33783-3_38)]
+
+### MM
+
+- A study on making camera trajectory from panorama watching manipulation. [[PUB](https://doi.org/10.1145/2393347.2396409)]
+- Automatic music video generation: cross matching of music and image. [[PUB](https://doi.org/10.1145/2393347.2396495)]
+- Cross matching of music and image. [[PUB](https://doi.org/10.1145/2393347.2396325)]
+- Scenario-driven interactive panorama video delivery: promptly watch and share enjoyable parts of an event. [[PUB](https://doi.org/10.1145/2393347.2396456)]
 
 ### IJCV
 
 - Diffeomorphic 3D Image Registration via Geodesic Shooting Using an Efficient Adjoint Calculation. [[PUB](https://doi.org/10.1007/s11263-011-0481-8)]
 - Physical Scale Keypoints: Matching and Registration for Combined Intensity/Range Images. [[PUB](https://doi.org/10.1007/s11263-011-0469-4)]
+- Sparse Occlusion Detection with Optical Flow. [[PUB](https://doi.org/10.1007/s11263-011-0490-7)]
 
 ### MICCAI
 
@@ -1408,6 +2442,11 @@
 - Self-similarity Weighted Mutual Information: A New Nonrigid Image Registration Metric. [[PUB](https://doi.org/10.1007/978-3-642-33454-2_12)]
 - Simultaneous Multiscale Polyaffine Registration by Incorporating Deformation Statistics. [[PUB](https://doi.org/10.1007/978-3-642-33418-4_17)]
 - Unbiased Groupwise Registration of White Matter Tractography. [[PUB](https://doi.org/10.1007/978-3-642-33454-2_16)]
+- Analytic Regularization of Uniform Cubic B-spline Deformation Fields. [[PUB](https://doi.org/10.1007/978-3-642-33418-4_16)]
+- Atlas Construction via Dictionary Learning and Group Sparsity. [[PUB](https://doi.org/10.1007/978-3-642-33415-3_31)]
+- Hybrid Tracking and Mosaicking for Information Augmentation in Retinal Surgery. [[PUB](https://doi.org/10.1007/978-3-642-33415-3_49)]
+- Robust Motion Correction in the Frequency Domain of Cardiac MR Stress Perfusion Sequences. [[PUB](https://doi.org/10.1007/978-3-642-33415-3_82)]
+- Topology Preserving Atlas Construction from Shape Data without Correspondence Using Sparse Parameters. [[PUB](https://doi.org/10.1007/978-3-642-33454-2_28)]
 
 ### MIA
 
@@ -1426,8 +2465,23 @@
 - Segmentation and quantification of the aortic arch using joint 3D model-based segmentation and elastic image registration. [[PUB](https://doi.org/10.1016/j.media.2012.05.010)]
 - Supervised quality assessment of medical image registration: Application to intra-patient CT lung registration. [[PUB](https://doi.org/10.1016/j.media.2012.06.010)]
 - Ultrasound-fluoroscopy registration for prostate brachytherapy dosimetry. [[PUB](https://doi.org/10.1016/j.media.2012.06.001)]
+- An atlas-based geometry pipeline for cardiac Hermite model construction and diffusion tensor reorientation. [[PUB](https://doi.org/10.1016/j.media.2012.06.005)]
+- Mitral annulus segmentation from four-dimensional ultrasound using a valve state predictor and constrained optical flow. [[PUB](https://doi.org/10.1016/j.media.2011.11.006)]
+- Reconstruction of fetal brain MRI with intensity matching and complete outlier removal. [[PUB](https://doi.org/10.1016/j.media.2012.07.004)]
+
+### TCAD
+
+- Native-Conflict and Stitch-Aware Wire Perturbation for Double Patterning Technology. [[PUB](https://doi.org/10.1109/TCAD.2011.2179039)]
+
+### TC
+
+- A Comparison of FPGA and GPU for Real-Time Phase-Based Optical Flow, Stereo, and Local Image Features. [[PUB](https://doi.org/10.1109/TC.2011.120)]
 
 ## 2011
+
+### AI
+
+- The expansion continues: Stitching together the breadth of disciplines impinging on Artificial Intelligence. [[PUB](https://doi.org/10.1016/j.artint.2011.01.004)]
 
 ### TPAMI
 
@@ -1437,6 +2491,9 @@
 - Rigid and Articulated Point Registration with Expectation Conditional Maximization. [[PUB](https://doi.org/10.1109/TPAMI.2010.94)]
 - Robust Point Set Registration Using Gaussian Mixture Models. [[PUB](https://doi.org/10.1109/TPAMI.2010.223)]
 - Video Registration Using Dynamic Textures. [[PUB](https://doi.org/10.1109/TPAMI.2010.61)]
+- Energy Normalization for Pose-Invariant Face Recognition Based on MRF Model Image Matching. [[PUB](https://doi.org/10.1109/TPAMI.2010.209)]
+- Large Displacement Optical Flow: Descriptor Matching in Variational Motion Estimation. [[PUB](https://doi.org/10.1109/TPAMI.2010.143)]
+- Robust Multiscale Stereo Matching from Fundus Images with Radiometric Differences. [[PUB](https://doi.org/10.1109/TPAMI.2011.69)]
 
 ### ICCV
 
@@ -1444,6 +2501,11 @@
 - A new distance for scale-invariant 3D shape recognition and registration. [[PUB](https://doi.org/10.1109/ICCV.2011.6126236)]
 - Correspondence free registration through a point-to-model distance minimization. [[PUB](https://doi.org/10.1109/ICCV.2011.6126491)]
 - Locally rigid globally non-rigid surface registration. [[PUB](https://doi.org/10.1109/ICCV.2011.6126411)]
+- Fast image-based localization using direct 2D-to-3D matching. [[PUB](https://doi.org/10.1109/ICCV.2011.6126302)]
+- Fast template matching in non-linear tone-mapped images. [[PUB](https://doi.org/10.1109/ICCV.2011.6126389)]
+- Modeling temporal coherence for optical flow. [[PUB](https://doi.org/10.1109/ICCV.2011.6126359)]
+- Optical flow estimation using learned sparse model. [[PUB](https://doi.org/10.1109/ICCV.2011.6126522)]
+- Robust topological features for deformation invariant image matching. [[PUB](https://doi.org/10.1109/ICCV.2011.6126538)]
 
 ### CVPR
 
@@ -1455,10 +2517,20 @@
 - Registration for 3D surfaces with large deformations using quasi-conformal curvature flow. [[PUB](https://doi.org/10.1109/CVPR.2011.5995410)]
 - Registration of camera captured documents under non-rigid deformation. [[PUB](https://doi.org/10.1109/CVPR.2011.5995625)]
 - Robust point set registration using EM-ICP with information-theoretically optimal outlier handling. [[PUB](https://doi.org/10.1109/CVPR.2011.5995744)]
+- A polar representation of motion and implications for optical flow. [[PUB](https://doi.org/10.1109/CVPR.2011.5995419)]
+- Constructing image panoramas using dual-homography warping. [[PUB](https://doi.org/10.1109/CVPR.2011.5995433)]
+- Feature- and depth-supported modified total variation optical flow for 3D motion field estimation in real scenes. [[PUB](https://doi.org/10.1109/CVPR.2011.5995633)]
+- Graph embedding discriminant analysis on Grassmannian manifolds for improved image set matching. [[PUB](https://doi.org/10.1109/CVPR.2011.5995564)]
+- Matching 2D image lines to 3D models: Two improvements and a new algorithm. [[PUB](https://doi.org/10.1109/CVPR.2011.5995557)]
+- Occlusion boundary detection and figure/ground assignment from optical flow. [[PUB](https://doi.org/10.1109/CVPR.2011.5995364)]
+- Predicting image matching using affine distortion models. [[PUB](https://doi.org/10.1109/CVPR.2011.5995389)]
+- Smoothly varying affine stitching. [[PUB](https://doi.org/10.1109/CVPR.2011.5995314)]
+- Where&apos;s Waldo: Matching people in images of crowds. [[PUB](https://doi.org/10.1109/CVPR.2011.5995546)]
 
 ### MM
 
 - Robust image registration and tampering localization exploiting bag of features based forensic signature. [[PUB](https://doi.org/10.1145/2072298.2071985)]
+- Social image tag recommendation by concept matching. [[PUB](https://doi.org/10.1145/2072298.2071969)]
 
 ### IJCV
 
@@ -1466,6 +2538,8 @@
 - Feature-Driven Direct Non-Rigid Image Registration. [[PUB](https://doi.org/10.1007/s11263-010-0407-x)]
 - iLogDemons: A Demons-Based Registration Algorithm for Tracking Incompressible Elastic Biological Tissues. [[PUB](https://doi.org/10.1007/s11263-010-0405-z)]
 - Model-Based Multiple Rigid Object Detection and Registration in Unstructured Range Data. [[PUB](https://doi.org/10.1007/s11263-010-0401-3)]
+- Geometric Latent Dirichlet Allocation on a Matching Graph for Large-scale Image Datasets. [[PUB](https://doi.org/10.1007/s11263-010-0363-5)]
+- Orientation-Matching Minimization for Image Denoising and Inpainting. [[PUB](https://doi.org/10.1007/s11263-010-0371-5)]
 
 ### MICCAI
 
@@ -1495,6 +2569,10 @@
 - Spatio-Temporal Registration of Multiple Trajectories. [[PUB](https://doi.org/10.1007/978-3-642-23623-5_19)]
 - Towards Intra-operative Prostate Brachytherapy Dosimetry Based on Partial Seed Localization in Ultrasound and Registration to C-arm Fluoroscopy. [[PUB](https://doi.org/10.1007/978-3-642-23623-5_37)]
 - Towards Real-Time 3D US to CT Bone Image Registration Using Phase and Curvature Feature Based GMM Matching. [[PUB](https://doi.org/10.1007/978-3-642-23623-5_30)]
+- Automated Planning of Computer Assisted Mosaic Arthroplasty. [[PUB](https://doi.org/10.1007/978-3-642-23623-5_34)]
+- Feasibility and Advantages of Diffusion Weighted Imaging Atlas Construction in Q-Space. [[PUB](https://doi.org/10.1007/978-3-642-23629-7_21)]
+- Motion Correction and Parameter Estimation in dceMRI Sequences: Application to Colorectal Cancer. [[PUB](https://doi.org/10.1007/978-3-642-23623-5_60)]
+- Real-Time 4D Ultrasound Mosaicing and Visualization. [[PUB](https://doi.org/10.1007/978-3-642-23623-5_14)]
 
 ### MIA
 
@@ -1509,6 +2587,8 @@
 - Pseudo ground truth based nonrigid registration of myocardial perfusion MRI. [[PUB](https://doi.org/10.1016/j.media.2011.02.001)]
 - Rigid-body point-based registration: The distribution of the target registration error when the fiducial registration errors are given. [[PUB](https://doi.org/10.1016/j.media.2011.01.001)]
 - Semi-automatic construction of reference standards for evaluation of image registration. [[PUB](https://doi.org/10.1016/j.media.2010.07.005)]
+- Active deformation fields: Dense deformation field estimation for atlas-based segmentation using the active contour framework. [[PUB](https://doi.org/10.1016/j.media.2011.05.008)]
+- Self-encoded marker for optical prospective head motion correction in MRI. [[PUB](https://doi.org/10.1016/j.media.2011.05.018)]
 
 ## 2010
 
@@ -1519,6 +2599,11 @@
 - Point Set Registration via Particle Filtering and Stochastic Dynamics. [[PUB](https://doi.org/10.1109/TPAMI.2009.142)]
 - Point Set Registration: Coherent Point Drift. [[PUB](https://doi.org/10.1109/TPAMI.2010.46)]
 - Robust FFT-Based Scale-Invariant Image Registration with Image Gradients. [[PUB](https://doi.org/10.1109/TPAMI.2010.107)]
+- Correction of Spatially Varying Image and Video Motion Blur Using a Hybrid Camera. [[PUB](https://doi.org/10.1109/TPAMI.2009.97)]
+
+### CCS
+
+- Input generation via decomposition and re-stitching: finding bugs in Malware. [[PUB](https://doi.org/10.1145/1866307.1866354)]
 
 ### CVPR
 
@@ -1531,18 +2616,39 @@
 - Masked FFT registration. [[PUB](https://doi.org/10.1109/CVPR.2010.5540032)]
 - Natural gradients for deformable registration. [[PUB](https://doi.org/10.1109/CVPR.2010.5540019)]
 - Point-based non-rigid surface registration with accuracy estimation. [[PUB](https://doi.org/10.1109/CVPR.2010.5540181)]
+- Asymmetric region-to-image matching for comparing images with generic object categories. [[PUB](https://doi.org/10.1109/CVPR.2010.5539923)]
+- Generating sharp panoramas from motion-blurred videos. [[PUB](https://doi.org/10.1109/CVPR.2010.5539938)]
+- Image atlas construction via intrinsic averaging on the manifold of images. [[PUB](https://doi.org/10.1109/CVPR.2010.5540035)]
+- Motion detail preserving optical flow estimation. [[PUB](https://doi.org/10.1109/CVPR.2010.5539820)]
+- Optical flow estimation with adaptive convolution kernel prior on discrete framework. [[PUB](https://doi.org/10.1109/CVPR.2010.5539953)]
+- Performance evaluation of color correction approaches for automatic multi-view image and video stitching. [[PUB](https://doi.org/10.1109/CVPR.2010.5540202)]
+- Secrets of optical flow estimation and their principles. [[PUB](https://doi.org/10.1109/CVPR.2010.5539939)]
+- Sparsity model for robust optical flow estimation at motion discontinuities. [[PUB](https://doi.org/10.1109/CVPR.2010.5539944)]
 
 ### ECCV
 
 - Adaptive Metric Registration of 3D Models to Non-rigid Image Trajectories. [[PUB](https://doi.org/10.1007/978-3-642-15558-1_7)]
 - Membrane Nonrigid Image Registration. [[PUB](https://doi.org/10.1007/978-3-642-15552-9_55)]
 - P2Pi: A Minimal Solution for Registration of 3D Points to 3D Planes. [[PUB](https://doi.org/10.1007/978-3-642-15555-0_32)]
+- Critical Nets and Beta-Stable Features for Image Matching. [[PUB](https://doi.org/10.1007/978-3-642-15558-1_48)]
+- Dense Point Trajectories by GPU-Accelerated Large Displacement Optical Flow. [[PUB](https://doi.org/10.1007/978-3-642-15549-9_32)]
+- Estimation of 3D Object Structure, Motion and Rotation Based on 4D Affine Optical Flow Using a Multi-camera Array. [[PUB](https://doi.org/10.1007/978-3-642-15561-1_43)]
+- Real-Time Spherical Mosaicing Using Whole Image Alignment. [[PUB](https://doi.org/10.1007/978-3-642-15558-1_6)]
+- TriangleFlow: Optical Flow with Triangulation-Based Higher-Order Likelihoods. [[PUB](https://doi.org/10.1007/978-3-642-15558-1_20)]
+
+### MM
+
+- 3D ancient mosaics. [[PUB](https://doi.org/10.1145/1873951.1874289)]
+- Color and luminance compensation for mobile panorama construction. [[PUB](https://doi.org/10.1145/1873951.1873989)]
 
 ### IJCV
 
 - Group-Wise Point-Set Registration Using a Novel CDF-Based Havrda-Charvát Divergence. [[PUB](https://doi.org/10.1007/s11263-009-0261-x)]
 - Hierarchical Shape Segmentation and Registration via Topological Features of Laplace-Beltrami Eigenfunctions. [[PUB](https://doi.org/10.1007/s11263-009-0278-1)]
 - Image Comparison by Compound Disjoint Information with Applications to Perceptual Visual Quality Assessment, Image Registration and Tracking. [[PUB](https://doi.org/10.1007/s11263-010-0316-z)]
+- Learning to Match: Deriving Optimal Template-Matching Algorithms from Probabilistic Image Models. [[PUB](https://doi.org/10.1007/s11263-009-0258-5)]
+- Markerless Motion Capture through Visual Hull, Articulated ICP and Subject Specific Model Generation. [[PUB](https://doi.org/10.1007/s11263-009-0284-3)]
+- PANORAMA: A 3D Shape Descriptor Based on Panoramic Views for Unsupervised 3D Object Retrieval. [[PUB](https://doi.org/10.1007/s11263-009-0281-6)]
 
 ### MICCAI
 
@@ -1576,6 +2682,14 @@
 - Simultaneous Fine and Coarse Diffeomorphic Registration: Application to Atrophy Measurement in Alzheimer&apos;s Disease. [[PUB](https://doi.org/10.1007/978-3-642-15745-5_75)]
 - Simultaneous Geometric - Iconic Registration. [[PUB](https://doi.org/10.1007/978-3-642-15745-5_83)]
 - Summarizing and Visualizing Uncertainty in Non-rigid Registration. [[PUB](https://doi.org/10.1007/978-3-642-15745-5_68)]
+- Construction of Neuroanatomical Shape Complex Atlas from 3D Brain MRI. [[PUB](https://doi.org/10.1007/978-3-642-15711-0_9)]
+- Construction of Patient Specific Atlases from Locally Most Similar Anatomical Pieces. [[PUB](https://doi.org/10.1007/978-3-642-15711-0_20)]
+- Cortical Sulcal Atlas Construction Using a Diffeomorphic Mapping Approach. [[PUB](https://doi.org/10.1007/978-3-642-15705-9_44)]
+- Model-Based Multi-view Fusion of Cinematic Flow and Optical Imaging. [[PUB](https://doi.org/10.1007/978-3-642-15745-5_82)]
+- Motion Artifact Correction of Multi-Photon Imaging of Awake Mice Models Using Speed Embedded HMM. [[PUB](https://doi.org/10.1007/978-3-642-15711-0_59)]
+- Real-Time Respiratory Motion Correction for Cardiac Electrophysiology Procedures Using Image-Based Coronary Sinus Catheter Tracking. [[PUB](https://doi.org/10.1007/978-3-642-15705-9_48)]
+- Segmentation Subject to Stitching Constraints: Finding Many Small Structures in a Large Image. [[PUB](https://doi.org/10.1007/978-3-642-15705-9_15)]
+- Self-encoded Marker for Optical Prospective Head Motion Correction in MRI. [[PUB](https://doi.org/10.1007/978-3-642-15705-9_32)]
 
 ### MIA
 
@@ -1587,10 +2701,22 @@
 - Objective and expert-independent validation of retinal image registration algorithms by a projective imaging distortion model. [[PUB](https://doi.org/10.1016/j.media.2010.04.001)]
 - Corrigendum to &quot;Constrained non-rigid registration for use in image-guided adaptive radiotherapy&quot; [Medical Image Analysis 13 (2009) 809-817]. [[PUB](https://doi.org/10.1016/j.media.2009.09.003)]
 - Location registration and recognition (LRR) for serial analysis of nodules in lung CT scans. [[PUB](https://doi.org/10.1016/j.media.2010.02.006)]
+- Parallax-free intra-operative X-ray image stitching. [[PUB](https://doi.org/10.1016/j.media.2010.05.007)]
+- Respiratory motion correction for image-guided cardiac interventions using 3-D echocardiography. [[PUB](https://doi.org/10.1016/j.media.2009.09.004)]
+
+### INFOCOM
+
+- Path Stitching: Internet-Wide Path and Delay Estimation from Existing Measurements. [[PUB](https://doi.org/10.1109/INFCOM.2010.5462243)]
 
 ### TPDS
 
 - An Analytical Approach to Optimizing Parallel Image Registration/Retrieval. [[PUB](https://doi.org/10.1109/TPDS.2009.164)]
+- Anchor-Free Localization through Flip-Error-Resistant Map Stitching in Wireless Sensor Network. [[PUB](https://doi.org/10.1109/TPDS.2010.42)]
+
+### TCAD
+
+- An Automatic Optical Simulation-Based Lithography Hotspot Fix Flow for Post-Route Optimization. [[PUB](https://doi.org/10.1109/TCAD.2010.2043756)]
+- Double Patterning Layout Decomposition for Simultaneous Conflict and Stitch Minimization. [[PUB](https://doi.org/10.1109/TCAD.2009.2035577)]
 
 ## 2009
 
@@ -1600,12 +2726,18 @@
 - Branch-and-Bound Methods for Euclidean Registration Problems. [[PUB](https://doi.org/10.1109/TPAMI.2008.131)]
 - Probability Density Estimation Using Isocontours and Isosurfaces: Applications to Information-Theoretic Image Registration. [[PUB](https://doi.org/10.1109/TPAMI.2008.97)]
 - Registration with Uncertainties and Statistical Modeling of Shapes with Variable Metric Kernels. [[PUB](https://doi.org/10.1109/TPAMI.2008.36)]
+- Evaluation of Stereo Matching Costs on Images with Radiometric Differences. [[PUB](https://doi.org/10.1109/TPAMI.2008.221)]
+- Signature Detection and Matching for Document Image Retrieval. [[PUB](https://doi.org/10.1109/TPAMI.2008.237)]
 
 ### ICCV
 
 - An algebraic approach to affine registration of point sets. [[PUB](https://doi.org/10.1109/ICCV.2009.5459309)]
 - Coarse registration of 3D surface triangulations based on moment invariants with applications to object alignment and identification. [[PUB](https://doi.org/10.1109/ICCV.2009.5459321)]
 - Robust dynamical model for simultaneous registration and segmentation in a variational framework: A Bayesian approach. [[PUB](https://doi.org/10.1109/ICCV.2009.5459170)]
+- Deformation invariant image matching by spectrally controlled diffeomorphic alignment. [[PUB](https://doi.org/10.1109/ICCV.2009.5459315)]
+- Large displacement optical flow computation withoutwarping. [[PUB](https://doi.org/10.1109/ICCV.2009.5459364)]
+- Optical flow estimation on coarse-to-fine region-trees using discrete optimization. [[PUB](https://doi.org/10.1109/ICCV.2009.5459253)]
+- Wide-baseline image matching using Line Signatures. [[PUB](https://doi.org/10.1109/ICCV.2009.5459316)]
 
 ### CVPR
 
@@ -1623,12 +2755,24 @@
 - Similarity metrics and efficient optimization for simultaneous registration. [[PUB](https://doi.org/10.1109/CVPR.2009.5206694)]
 - Towards a practical face recognition system: Robust registration and illumination by sparse representation. [[PUB](https://doi.org/10.1109/CVPR.2009.5206654)]
 - Wavelet energy map: A robust support for multi-modal registration of medical images. [[PUB](https://doi.org/10.1109/CVPR.2009.5206528)]
+- Flow mosaicking: Real-time pedestrian counting without scene-specific learning. [[PUB](https://doi.org/10.1109/CVPR.2009.5206648)]
+- Histograms of oriented optical flow and Binet-Cauchy kernels on nonlinear dynamical systems for the recognition of human actions. [[PUB](https://doi.org/10.1109/CVPR.2009.5206821)]
+- Large displacement optical flow. [[PUB](https://doi.org/10.1109/CVPR.2009.5206697)]
+- Learning general optical flow subspaces for egomotion estimation and detection of motion anomalies. [[PUB](https://doi.org/10.1109/CVPR.2009.5206538)]
+- Linear spatial pyramid matching using sparse coding for image classification. [[PUB](https://doi.org/10.1109/CVPR.2009.5206757)]
+
+### MM
+
+- Stitching videos streamed by mobile phones in real-time. [[PUB](https://doi.org/10.1145/1631272.1631493)]
 
 ### IJCV
 
 - Adaptive Stochastic Gradient Descent Optimisation for Image Registration. [[PUB](https://doi.org/10.1007/s11263-008-0168-y)]
 - Consistency Clustering: A Robust Algorithm for Group-wise Registration, Segmentation and Automatic Atlas Construction in Diffusion MRI. [[PUB](https://doi.org/10.1007/s11263-009-0217-1)]
 - Registration of Anatomical Images Using Paths of Diffeomorphisms Parameterized with Stationary Vector Field Flows. [[PUB](https://doi.org/10.1007/s11263-009-0219-z)]
+- Drift-Free Real-Time Sequential Mosaicing. [[PUB](https://doi.org/10.1007/s11263-008-0129-5)]
+- Foreground Focus: Unsupervised Learning from Partially Matching Images. [[PUB](https://doi.org/10.1007/s11263-009-0252-y)]
+- Replicator Dynamics in the Iterative Process for Accurate Range Image Matching. [[PUB](https://doi.org/10.1007/s11263-009-0210-8)]
 
 ### MICCAI
 
@@ -1675,6 +2819,8 @@
 - Statistically Deformable 2D/3D Registration for Accurate Determination of Post-operative Cup Orientation from Single Standard X-ray Radiograph. [[PUB](https://doi.org/10.1007/978-3-642-04268-3_101)]
 - Task-Optimal Registration Cost Functions. [[PUB](https://doi.org/10.1007/978-3-642-04268-3_74)]
 - A Combined Surface And VOlumetric Registration (SAVOR) Framework to Study Cortical Biomarkers and Volumetric Imaging Data. [[PUB](https://doi.org/10.1007/978-3-642-04268-3_88)]
+- Parallax-Free Long Bone X-ray Image Stitching. [[PUB](https://doi.org/10.1007/978-3-642-04268-3_22)]
+- Statistical Regularization of Deformation Fields for Atlas-Based Segmentation of Bone Scintigraphy Images. [[PUB](https://doi.org/10.1007/978-3-642-04268-3_82)]
 
 ### MIA
 
@@ -1685,6 +2831,15 @@
 - Depth potential function for folding pattern representation, registration and analysis. [[PUB](https://doi.org/10.1016/j.media.2008.09.001)]
 - Selective image similarity measure for bronchoscope tracking based on image registration. [[PUB](https://doi.org/10.1016/j.media.2009.06.001)]
 - Strain measurement in the left ventricle during systole with deformable image registration. [[PUB](https://doi.org/10.1016/j.media.2008.07.004)]
+- A subject-specific technique for respiratory motion correction in image-guided cardiac catheterisation procedures. [[PUB](https://doi.org/10.1016/j.media.2009.01.003)]
+
+### WWW
+
+- Detecting image spam using local invariant features and pyramid match kernel. [[PUB](https://doi.org/10.1145/1526709.1526921)]
+
+### TPDS
+
+- The Effects of Stitching Orders in Patch-and-Stitch WSN Localization Algorithms. [[PUB](https://doi.org/10.1109/TPDS.2008.226)]
 
 ## 2008
 
@@ -1694,6 +2849,14 @@
 - Groupwise Geometric and Photometric Direct Image Registration. [[PUB](https://doi.org/10.1109/TPAMI.2008.22)]
 - Maximum-Likelihood Registration of Range Images with Missing Data. [[PUB](https://doi.org/10.1109/TPAMI.2007.1130)]
 - Simultaneous Nonrigid Registration of Multiple Point Sets and Atlas Construction. [[PUB](https://doi.org/10.1109/TPAMI.2007.70829)]
+- An Effective Approach for Iris Recognition Using Phase-Based Image Matching. [[PUB](https://doi.org/10.1109/TPAMI.2007.70833)]
+- Correction to &quot;Gaussian Process Dynamical Models for Human Motion&quot;. [[PUB](https://doi.org/10.1109/TPAMI.2008.91)]
+- Image Stitching Using Structure Deformation. [[PUB](https://doi.org/10.1109/TPAMI.2007.70729)]
+- Optical Flow and Advection on 2-Riemannian Manifolds: A Common Framework. [[PUB](https://doi.org/10.1109/TPAMI.2008.51)]
+
+### KDD
+
+- Cut-and-stitch: efficient parallel learning of linear dynamical systems on smps. [[PUB](https://doi.org/10.1145/1401890.1401949)]
 
 ### CVPR
 
@@ -1713,6 +2876,18 @@
 - Probabilistic image registration and anomaly detection by nonlinear warping. [[PUB](https://doi.org/10.1109/CVPR.2008.4587743)]
 - Retinal image registration from 2D to 3D. [[PUB](https://doi.org/10.1109/CVPR.2008.4587705)]
 - SMRFI: Shape matching via registration of vector-valued feature images. [[PUB](https://doi.org/10.1109/CVPR.2008.4587789)]
+- A three-point minimal solution for panoramic stitching with lens distortion. [[PUB](https://doi.org/10.1109/CVPR.2008.4587686)]
+- Application and evaluation of spatiotemporal enhancement of live aerial video using temporally local mosaics. [[PUB](https://doi.org/10.1109/CVPR.2008.4587823)]
+- FusionFlow: Discrete-continuous optimization for optical flow estimation. [[PUB](https://doi.org/10.1109/CVPR.2008.4587751)]
+- Local grouping for optical flow. [[PUB](https://doi.org/10.1109/CVPR.2008.4587536)]
+- Matching images under unstable segmentations. [[PUB](https://doi.org/10.1109/CVPR.2008.4587759)]
+- Matching non-rigidly deformable shapes across images: A globally optimal solution. [[PUB](https://doi.org/10.1109/CVPR.2008.4587444)]
+- Near duplicate image identification with patially Aligned Pyramid Matching. [[PUB](https://doi.org/10.1109/CVPR.2008.4587720)]
+- On errors-in-variables regression with arbitrary covariance and its application to optical flow estimation. [[PUB](https://doi.org/10.1109/CVPR.2008.4587571)]
+- Optical flow estimation using Fourier Mellin Transform. [[PUB](https://doi.org/10.1109/CVPR.2008.4587553)]
+- Optical flow estimation with uncertainties through dynamic MRFs. [[PUB](https://doi.org/10.1109/CVPR.2008.4587562)]
+- Optimised KD-trees for fast image descriptor matching. [[PUB](https://doi.org/10.1109/CVPR.2008.4587638)]
+- Relaxed matching kernels for robust image comparison. [[PUB](https://doi.org/10.1109/CVPR.2008.4587619)]
 
 ### ECCV
 
@@ -1724,12 +2899,29 @@
 - Scale-Dependent/Invariant Local 3D Shape Descriptors for Fully Automatic Registration of Multiple Sets of Range Images. [[PUB](https://doi.org/10.1007/978-3-540-88690-7_33)]
 - Simultaneous Detection and Registration for Ileo-Cecal Valve Detection in 3D CT Colonography. [[PUB](https://doi.org/10.1007/978-3-540-88693-8_34)]
 - Solving Image Registration Problems Using Interior Point Methods. [[PUB](https://doi.org/10.1007/978-3-540-88693-8_47)]
+- A Segmentation Based Variational Model for Accurate Optical Flow Estimation. [[PUB](https://doi.org/10.1007/978-3-540-88682-2_51)]
+- A Statistical Confidence Measure for Optical Flows. [[PUB](https://doi.org/10.1007/978-3-540-88690-7_22)]
+- Efficient NCC-Based Image Matching in Walsh-Hadamard Domain. [[PUB](https://doi.org/10.1007/978-3-540-88690-7_35)]
+- Learning for Optical Flow Using Stochastic Optimization. [[PUB](https://doi.org/10.1007/978-3-540-88688-4_28)]
+- Learning Optical Flow. [[PUB](https://doi.org/10.1007/978-3-540-88690-7_7)]
+- Semi-automatic Motion Segmentation with Motion Layer Mosaics. [[PUB](https://doi.org/10.1007/978-3-540-88690-7_16)]
+
+### MM
+
+- Discovering panoramas in web videos. [[PUB](https://doi.org/10.1145/1459359.1459404)]
+- Near-duplicate keyframe retrieval by nonrigid image matching. [[PUB](https://doi.org/10.1145/1459359.1459366)]
+- Randomized sub-vectors hashing for high-dimensional image feature matching. [[PUB](https://doi.org/10.1145/1459359.1459465)]
 
 ### IJCV
 
 - Fast Non-Rigid Surface Detection, Registration and Realistic Augmentation. [[PUB](https://doi.org/10.1007/s11263-006-0017-9)]
 - FLIRT with Rigidity - Image Registration with a Local Non-rigidity Penalty. [[PUB](https://doi.org/10.1007/s11263-007-0079-3)]
 - Integrating Automated Range Registration with Multiview Geometry for the Photorealistic Modeling of Large-Scale Scenes. [[PUB](https://doi.org/10.1007/s11263-007-0089-1)]
+- Over-Parameterized Variational Optical Flow. [[PUB](https://doi.org/10.1007/s11263-007-0051-2)]
+- Region-Based Hierarchical Image Matching. [[PUB](https://doi.org/10.1007/s11263-007-0077-5)]
+- Scanning Depth of Route Panorama Based on Stationary Blur. [[PUB](https://doi.org/10.1007/s11263-007-0080-x)]
+- Shape from Specular Reflection and Optical Flow. [[PUB](https://doi.org/10.1007/s11263-007-0123-3)]
+- Minimal Aspect Distortion (MAD) Mosaicing of Long Scenes. [[PUB](https://doi.org/10.1007/s11263-007-0101-9)]
 
 ### MICCAI
 
@@ -1770,6 +2962,14 @@
 - Using Curve-Fitting of Curvilinear Features for Assessing Registration of Clinical Neuropathology with in Vivo MRI. [[PUB](https://doi.org/10.1007/978-3-540-85990-1_126)]
 - Weight Preserving Image Registration for Monitoring Disease Progression in Lung CT. [[PUB](https://doi.org/10.1007/978-3-540-85990-1_104)]
 - Location Registration and Recognition (LRR) for Longitudinal Evaluation of Corresponding Regions in CT Volumes. [[PUB](https://doi.org/10.1007/978-3-540-85990-1_119)]
+- A Global Approach for Automatic Fibroscopic Video Mosaicing in Minimally Invasive Diagnosis. [[PUB](https://doi.org/10.1007/978-3-540-85988-8_101)]
+- Construction of a Statistical Surgical Plan Atlas for Automated 3D Planning of Femoral Component in Total Hip Arthroplasty. [[PUB](https://doi.org/10.1007/978-3-540-85990-1_86)]
+- Construction of Hierarchical Multi-Organ Statistical Atlases and Their Application to Multi-Organ Segmentation from CT Images. [[PUB](https://doi.org/10.1007/978-3-540-85988-8_60)]
+- Deformable Mosaicing for Whole-Body MRI. [[PUB](https://doi.org/10.1007/978-3-540-85990-1_14)]
+- Long Bone X-Ray Image Stitching Using Camera Augmented Mobile C-Arm. [[PUB](https://doi.org/10.1007/978-3-540-85990-1_69)]
+- Motion Correction in Respiratory Gated Cardiac PET/CT Using Multi-scale Optical Flow. [[PUB](https://doi.org/10.1007/978-3-540-85990-1_19)]
+- Volume Reconstruction by Inverse Interpolation: Application to Interleaved MR Motion Correction. [[PUB](https://doi.org/10.1007/978-3-540-85988-8_95)]
+- Volumetric Ultrasound Panorama Based on 3D SIFT. [[PUB](https://doi.org/10.1007/978-3-540-85990-1_7)]
 
 ### MIA
 
@@ -1789,12 +2989,24 @@
 - Symmetric diffeomorphic image registration with cross-correlation: Evaluating automated labeling of elderly and neurodegenerative brain. [[PUB](https://doi.org/10.1016/j.media.2007.06.004)]
 - The Third International Workshop on Biomedical Image Registration - WBIR 2006. [[PUB](https://doi.org/10.1016/j.media.2007.07.006)]
 
+### SIGIR
+
+- AdImage: video advertising by image matching and ad scheduling optimization. [[PUB](https://doi.org/10.1145/1390334.1390494)]
+
 ### VLDB
 
 - Interactive source registration in community-oriented information integration. [[PUB](http://www.vldb.org/pvldb/vol1/1453887.pdf)]
 - RIDE: a tool for interactive source registration in community-oriented information integration. [[PUB](http://www.vldb.org/pvldb/vol1/1454202.pdf)]
 
+### TPDS
+
+- Localization through Map Stitching in Wireless Sensor Networks. [[PUB](https://doi.org/10.1109/TPDS.2007.70706)]
+
 ## 2007
+
+### IJCAI
+
+- Feature Mining and Neuro-Fuzzy Inference System for Steganalysis of LSB Matching Stegangoraphy in Grayscale Images. [[PUB](http://ijcai.org/Proceedings/07/Papers/451.pdf)]
 
 ### TPAMI
 
@@ -1803,6 +3015,13 @@
 - Multiscale Joint Segmentation and Registration of Image Morphology. [[PUB](https://doi.org/10.1109/TPAMI.2007.1120)]
 - Registration of Challenging Image Pairs: Initialization, Estimation, and Decision. [[PUB](https://doi.org/10.1109/TPAMI.2007.1116)]
 - The Asymmetry of Image Registration and Its Application to Face Tracking. [[PUB](https://doi.org/10.1109/TPAMI.2007.1054)]
+- A Bayesian Approach to Deformed Pattern Matching of Iris Images. [[PUB](https://doi.org/10.1109/TPAMI.2007.1006)]
+- Conformal Geometry and Its Applications on 3D Shape Matching, Recognition, and Stitching. [[PUB](https://doi.org/10.1109/TPAMI.2007.1050)]
+- Dynamosaicing: Mosaicing of Dynamic Scenes. [[PUB](https://doi.org/10.1109/TPAMI.2007.1091)]
+
+### CCS
+
+- Panorama: capturing system-wide information flow for malware detection and analysis. [[PUB](https://doi.org/10.1145/1315245.1315261)]
 
 ### ICCV
 
@@ -1826,6 +3045,16 @@
 - Semiautomatic registration between ground-level panoramas and an orthorectified aerial image for building modeling. [[PUB](https://doi.org/10.1109/ICCV.2007.4409213)]
 - The 3D-3D Registration Problem Revisited. [[PUB](https://doi.org/10.1109/ICCV.2007.4409077)]
 - USSR: A Unified Framework for Simultaneous Smoothing, Segmentation, and Registration of Multiple Images. [[PUB](https://doi.org/10.1109/ICCV.2007.4408969)]
+- 3D object recognition from range images using pyramid matching. [[PUB](https://doi.org/10.1109/ICCV.2007.4408829)]
+- A Database and Evaluation Methodology for Optical Flow. [[PUB](https://doi.org/10.1109/ICCV.2007.4408903)]
+- A Robust Algorithm for Fiber-Bundle Atlas Construction. [[PUB](https://doi.org/10.1109/ICCV.2007.4409143)]
+- A Robust Graph-Based Method for The General Correspondence Problem Demonstrated on Image Stitching. [[PUB](https://doi.org/10.1109/ICCV.2007.4408884)]
+- Deformable Image Mosaicing for Optical Biopsy. [[PUB](https://doi.org/10.1109/ICCV.2007.4409111)]
+- Dynamically consistent optical flow estimation. [[PUB](https://doi.org/10.1109/ICCV.2007.4408889)]
+- Estimation of the Epipole using Optical Flow at Antipodal Points. [[PUB](https://doi.org/10.1109/ICCV.2007.4409191)]
+- Interactive Search for Image Categories by Mental Matching. [[PUB](https://doi.org/10.1109/ICCV.2007.4409072)]
+- Orientation and Pose recovery from Spherical Panoramas. [[PUB](https://doi.org/10.1109/ICCV.2007.4409198)]
+- Rectified Surface Mosaics. [[PUB](https://doi.org/10.1109/ICCV.2007.4409128)]
 
 ### CVPR
 
@@ -1843,10 +3072,23 @@
 - Research issues in image registration for remote sensing. [[PUB](https://doi.org/10.1109/CVPR.2007.383423)]
 - Shape Representation and Registration using Vector Distance Functions. [[PUB](https://doi.org/10.1109/CVPR.2007.383189)]
 - Topology Preserving Log-Unbiased Nonlinear Image Registration: Theory and Implementation. [[PUB](https://doi.org/10.1109/CVPR.2007.383144)]
+- Accurately measuring human movement using articulated ICP with soft-joint constraints and a repository of articulated models. [[PUB](https://doi.org/10.1109/CVPR.2007.383302)]
+- Efficient MRF Deformation Model for Non-Rigid Image Matching. [[PUB](https://doi.org/10.1109/CVPR.2007.383205)]
+- High Distortion and Non-Structural Image Matching via Feature Co-occurrence. [[PUB](https://doi.org/10.1109/CVPR.2007.383127)]
+- Image Matching via Saliency Region Correspondences. [[PUB](https://doi.org/10.1109/CVPR.2007.382973)]
+- Keypoint Descriptors for Matching Across Multiple Image Modalities and Non-linear Intensity Variations. [[PUB](https://doi.org/10.1109/CVPR.2007.383426)]
+- Layered Depth Panoramas. [[PUB](https://doi.org/10.1109/CVPR.2007.383295)]
+- Matching Local Self-Similarities across Images and Videos. [[PUB](https://doi.org/10.1109/CVPR.2007.383198)]
+- Minimal Solutions for Panoramic Stitching. [[PUB](https://doi.org/10.1109/CVPR.2007.383082)]
+- Real-Time Image Matching Based on Multiple View Kernel Projection. [[PUB](https://doi.org/10.1109/CVPR.2007.383430)]
+- Recognizing Faces of Moving People by Hierarchical Image-Set Matching. [[PUB](https://doi.org/10.1109/CVPR.2007.383396)]
+- Seamless Mosaicing of Image-Based Texture Maps. [[PUB](https://doi.org/10.1109/CVPR.2007.383078)]
 
 ### MM
 
 - Large head movement tracking using sift-based registration. [[PUB](https://doi.org/10.1145/1291233.1291416)]
+- Adjusting route panoramas with condensed image slices. [[PUB](https://doi.org/10.1145/1291233.1291418)]
+- LogoSeeker: a system for detecting and matching logos in natural images. [[PUB](https://doi.org/10.1145/1291233.1291272)]
 
 ### IJCV
 
@@ -1856,6 +3098,10 @@
 - Non-Rigid Multi-Modal Image Registration Using Cross-Cumulative Residual Entropy. [[PUB](https://doi.org/10.1007/s11263-006-0011-2)]
 - Prior-based Segmentation and Shape Registration in the Presence of Perspective Distortion. [[PUB](https://doi.org/10.1007/s11263-006-9042-y)]
 - Registration of 3D Points Using Geometric Algebra and Tensor Voting. [[PUB](https://doi.org/10.1007/s11263-007-0038-z)]
+- Automatic Panoramic Image Stitching using Invariant Features. [[PUB](https://doi.org/10.1007/s11263-006-0002-3)]
+- Kernel Spectral Matched Filter for Hyperspectral Imagery. [[PUB](https://doi.org/10.1007/s11263-006-6689-3)]
+- Multi-View Stereo Reconstruction and Scene Flow Estimation with a Global Image-Based Matching Score. [[PUB](https://doi.org/10.1007/s11263-006-8671-5)]
+- Reverse Optical Flow for Self-Supervised Adaptive Autonomous Robot Navigation. [[PUB](https://doi.org/10.1007/s11263-006-0024-x)]
 
 ### MICCAI
 
@@ -1895,6 +3141,12 @@
 - Simulation and Fully Automatic Multimodal Registration of Medical Ultrasound. [[PUB](https://doi.org/10.1007/978-3-540-75757-3_17)]
 - Spatio-temporal Registration of Real Time 3D Ultrasound to Cardiovascular MR Sequences. [[PUB](https://doi.org/10.1007/978-3-540-75757-3_42)]
 - Thoracic CT-PET Registration Using a 3D Breathing Model. [[PUB](https://doi.org/10.1007/978-3-540-75757-3_76)]
+- A Point-Wise Quantification of Asymmetry Using Deformation Fields: Application to the Study of the Crouzon Mouse Model. [[PUB](https://doi.org/10.1007/978-3-540-75759-7_55)]
+- Motion and Positional Error Correction for Cone Beam 3D-Reconstruction with Mobile C-Arms. [[PUB](https://doi.org/10.1007/978-3-540-75757-3_22)]
+- New Motion Correction Models for Automatic Identification of Renal Transplant Rejection. [[PUB](https://doi.org/10.1007/978-3-540-75759-7_29)]
+- Statistical Atlases of Bone Anatomy: Construction, Iterative Improvement and Validation. [[PUB](https://doi.org/10.1007/978-3-540-75757-3_61)]
+- Three-Dimensional Ultrasound Mosaicing. [[PUB](https://doi.org/10.1007/978-3-540-75759-7_40)]
+- Unbiased White Matter Atlas Construction Using Diffusion Tensor Images. [[PUB](https://doi.org/10.1007/978-3-540-75759-7_26)]
 
 ### MIA
 
@@ -1912,6 +3164,8 @@
 
 - Multisensor Image Registration via Implicit Similarity. [[PUB](https://doi.org/10.1109/TPAMI.2006.100)]
 - Shape Registration in Implicit Spaces Using Information Theory and Free Form Deformations. [[PUB](https://doi.org/10.1109/TPAMI.2006.171)]
+- Error Analysis of Robust Optical Flow Estimation by Least Median of Squares Methods for the Varying Illumination Model. [[PUB](https://doi.org/10.1109/TPAMI.2006.185)]
+- Optical Flow 3D Segmentation and Interpretation: A Variational Method with Active Curve Evolution and Level Sets. [[PUB](https://doi.org/10.1109/TPAMI.2006.232)]
 
 ### CVPR
 
@@ -1925,17 +3179,34 @@
 - Scale-Driven Iterative Optimization for Brain Extraction and Registration. [[PUB](https://doi.org/10.1109/CVPR.2006.266)]
 - Simultaneous Registration and Modeling of Deformable Shapes. [[PUB](https://doi.org/10.1109/CVPR.2006.280)]
 - The Registration Problem Revisited: Optimal Solutions From Points, Lines and Planes. [[PUB](https://doi.org/10.1109/CVPR.2006.307)]
+- A General Framework and New Alignment Criterion for Dense Optical Flow. [[PUB](https://doi.org/10.1109/CVPR.2006.25)]
+- Cosegmentation of Image Pairs by Histogram Matching - Incorporating a Global Constraint into MRFs. [[PUB](https://doi.org/10.1109/CVPR.2006.91)]
+- Image Matching Using Photometric Information. [[PUB](https://doi.org/10.1109/CVPR.2006.144)]
+- Learning a manifold-constrained map between image sets: applications to matching and pose estimation. [[PUB](https://doi.org/10.1109/CVPR.2006.165)]
+- Seamless Image Stitching of Scenes with Large Motions and Exposure Differences. [[PUB](https://doi.org/10.1109/CVPR.2006.268)]
+- Shape Representation based on Integral Kernels: Application to Image Matching and Segmentation. [[PUB](https://doi.org/10.1109/CVPR.2006.277)]
+- Unsupervised Learning of Categories from Sets of Partially Matching Image Features. [[PUB](https://doi.org/10.1109/CVPR.2006.322)]
 
 ### ECCV
 
 - Algebraic Methods for Direct and Feature Based Registration of Diffusion Tensor Images. [[PUB](https://doi.org/10.1007/11744078_40)]
 - Kernel-Predictability: A New Information Measure and Its Application to Image Registration. [[PUB](https://doi.org/10.1007/11744078_39)]
 - Space-Time-Scale Registration of Dynamic Scene Reconstructions. [[PUB](https://doi.org/10.1007/11744085_14)]
+- Bilateral Filtering-Based Optical Flow Estimation with Occlusion Detection. [[PUB](https://doi.org/10.1007/11744023_17)]
+- High Accuracy Optical Flow Serves 3-D Pose Tracking: Exploiting Contour and Flow Based Constraints. [[PUB](https://doi.org/10.1007/11744047_8)]
+- Top-Points as Interest Points for Image Matching. [[PUB](https://doi.org/10.1007/11744023_33)]
+
+### MM
+
+- Browsing personal media archives with spatial context using panoramas. [[PUB](https://doi.org/10.1145/1180639.1180790)]
+- Interactive mosaic generation for video navigation. [[PUB](https://doi.org/10.1145/1180639.1180776)]
+- Remote rendering and streaming of progressive panoramas for mobile devices. [[PUB](https://doi.org/10.1145/1180639.1180785)]
 
 ### IJCV
 
 - A Novel Representation and Feature Matching Algorithm for Automatic Pairwise Registration of Range Images. [[PUB](https://doi.org/10.1007/s11263-005-3221-0)]
 - Geometry and Convergence Analysis of Algorithms for Registration of 3D Shapes. [[PUB](https://doi.org/10.1007/s11263-006-5167-2)]
+- Piecewise-Smooth Dense Optical Flow via Level Sets. [[PUB](https://doi.org/10.1007/s11263-005-6206-0)]
 
 ### MICCAI
 
@@ -1975,6 +3246,11 @@
 - Registration of Microscopic Iris Image Sequences Using Probabilistic Mesh. [[PUB](https://doi.org/10.1007/11866763_68)]
 - Simultaneous Multiple Image Registration Method for T1 Estimation in Breast MRI Images. [[PUB](https://doi.org/10.1007/11866565_106)]
 - Using Registration Uncertainty Visualization in a User Study of a Simple Surgical Task. [[PUB](https://doi.org/10.1007/11866763_49)]
+- Improved Map-Slice-to-Volume Motion Correction with B0 Inhomogeneity Correction: Validation of Activation Detection Algorithms Using ROC Curve Analyses. [[PUB](https://doi.org/10.1007/11866763_34)]
+- Preventing Signal Degradation During Elastic Matching of Noisy DCE-MR Eye Images. [[PUB](https://doi.org/10.1007/11866565_102)]
+- Real-Time Endoscopic Mosaicking. [[PUB](https://doi.org/10.1007/11866565_44)]
+- Retina Mosaicing Using Local Features. [[PUB](https://doi.org/10.1007/11866763_23)]
+- Transformation Model and Constraints Cause Bias in Statistics on Deformation Fields. [[PUB](https://doi.org/10.1007/11866565_26)]
 
 ### MIA
 
@@ -1992,6 +3268,8 @@
 - Piecewise affine registration of biological images for volume reconstruction. [[PUB](https://doi.org/10.1016/j.media.2005.03.008)]
 - Retrospective evaluation of a topology preserving non-rigid registration method. [[PUB](https://doi.org/10.1016/j.media.2006.01.001)]
 - Symmetric image registration. [[PUB](https://doi.org/10.1016/j.media.2005.03.003)]
+- Robust mosaicing with correction of motion distortions and tissue deformations for in vivo fibered microscopy. [[PUB](https://doi.org/10.1016/j.media.2006.06.006)]
+- Statistical representation of high-dimensional deformation fields with application to statistically constrained 3D warping. [[PUB](https://doi.org/10.1016/j.media.2006.06.007)]
 
 ## 2005
 
@@ -1999,12 +3277,24 @@
 
 - Precision Range Image Registration Using a Robust Surface Interpenetration Measure and Enhanced Genetic Algorithms. [[PUB](https://doi.org/10.1109/TPAMI.2005.108)]
 - The Angular Difference Function and Its Application to Image Registration. [[PUB](https://doi.org/10.1109/TPAMI.2005.128)]
+- Dynamic Trees for Unsupervised Segmentation and Matching of Image Regions. [[PUB](https://doi.org/10.1109/TPAMI.2005.219)]
+- Generalized Mosaicing: Polarization Panorama. [[PUB](https://doi.org/10.1109/TPAMI.2005.79)]
+- Guided-MLESAC: Faster Image Transform Estimation by Using Matching Priors. [[PUB](https://doi.org/10.1109/TPAMI.2005.199)]
+- Iconic Memory-Based Omnidirectional Route Panorama Navigation. [[PUB](https://doi.org/10.1109/TPAMI.2005.11)]
 
 ### ICCV
 
 - A Robust Algorithm for Point Set Registration Using Mixture of Gaussians. [[PUB](https://doi.org/10.1109/ICCV.2005.17)]
+- Efficiently Registering Video into Panoramic Mosaics. [[PUB](https://doi.org/10.1109/ICCV.2005.86)]
 - Prior-Based Segmentation by Projective Registration and Level Sets. [[PUB](https://doi.org/10.1109/ICCV.2005.192)]
 - Registration of Multimodal Fluorescein Images Sequence of the Retina. [[PUB](https://doi.org/10.1109/ICCV.2005.206)]
+- Consistent Segmentation for Optical Flow Estimation. [[PUB](https://doi.org/10.1109/ICCV.2005.61)]
+- Deformation Invariant Image Matching. [[PUB](https://doi.org/10.1109/ICCV.2005.67)]
+- Eliminating Structure and Intensity Misalignment in Image Stitching. [[PUB](https://doi.org/10.1109/ICCV.2005.87)]
+- Image Statistics Based on Diffeomorphic Matching. [[PUB](https://doi.org/10.1109/ICCV.2005.118)]
+- On the Spatial Statistics of Optical Flow. [[PUB](https://doi.org/10.1109/ICCV.2005.180)]
+- Squaring the Circles in Panoramas. [[PUB](https://doi.org/10.1109/ICCV.2005.231)]
+- The Pyramid Match Kernel: Discriminative Classification with Sets of Image Features. [[PUB](https://doi.org/10.1109/ICCV.2005.239)]
 
 ### CVPR
 
@@ -2012,6 +3302,17 @@
 - Automatic 3D to 2D Registration for the Photorealistic Rendering of Urban Scenes. [[PUB](https://doi.org/10.1109/CVPR.2005.80)]
 - Coupled PDEs for Non-Rigid Registration and Segmentation. [[PUB](https://doi.org/10.1109/CVPR.2005.115)]
 - Range Data Registration Using Photometric Features. [[PUB](https://doi.org/10.1109/CVPR.2005.289)]
+- A Flow-Based Approach to Vehicle Detection and Background Mosaicking in Airborne Video. [[PUB](https://doi.org/10.1109/CVPR.2005.29)]
+- A Slit Scanning Depth of Route Panorama from Stationary Blur. [[PUB](https://doi.org/10.1109/CVPR.2005.46)]
+- Dynamosaics: Video Mosaics with Non-Chronological Time. [[PUB](https://doi.org/10.1109/CVPR.2005.137)]
+- Efficient Image Matching with Distributions of Local Invariant Features. [[PUB](https://doi.org/10.1109/CVPR.2005.138)]
+- MosaicShape: Stochastic Region Grouping with Shape Prior. [[PUB](https://doi.org/10.1109/CVPR.2005.231)]
+- Multi-Image Matching Using Multi-Scale Oriented Patches. [[PUB](https://doi.org/10.1109/CVPR.2005.235)]
+- Optical Flow Estimation and Segmentation of Multiple Moving Dynamic Textures. [[PUB](https://doi.org/10.1109/CVPR.2005.263)]
+
+### IJCV
+
+- Adaptive Grid Refinement Procedures for Efficient Optical Flow Computation. [[PUB](https://doi.org/10.1023/B:VISI.0000042933.07192.26)]
 
 ### MICCAI
 
@@ -2062,6 +3363,11 @@
 - Unified Point Selection and Surface-Based Registration Using a Particle Filter. [[PUB](https://doi.org/10.1007/11566465_10)]
 - Iterative 3D Point-Set Registration Based on Hierarchical Vertex Signature (HVS). [[PUB](https://doi.org/10.1007/11566489_35)]
 - Maximum a Posteriori Local Histogram Estimation for Image Registration. [[PUB](https://doi.org/10.1007/11566489_21)]
+- Construction of a 4D Statistical Atlas of the Cardiac Anatomy and Its Use in Classification. [[PUB](https://doi.org/10.1007/11566489_50)]
+- Inter-frame Motion Correction for MR Thermometry. [[PUB](https://doi.org/10.1007/11566465_72)]
+- Least Biased Target Selection in Probabilistic Atlas Construction. [[PUB](https://doi.org/10.1007/11566489_52)]
+- Mosaicing of Confocal Microscopic In Vivo Soft Tissue Video Sequences. [[PUB](https://doi.org/10.1007/11566465_93)]
+- Respiratory Motion Correction in Emission Tomography Image Reconstruction. [[PUB](https://doi.org/10.1007/11566489_46)]
 
 ### MIA
 
@@ -2081,11 +3387,24 @@
 
 ## 2004
 
+### AAAI
+
+- Visual Odometry Using Commodity Optical Flow. [[PUB](http://www.aaai.org/Library/AAAI/2004/aaai04-152.php)]
+
+### TPAMI
+
+- Generalized Parallel-Perspective Stereo Mosaics from Airborne Video. [[PUB](https://doi.org/10.1109/TPAMI.2004.1262190)]
+- Point Matching under Large Image Deformations and Illumination Changes. [[PUB](https://doi.org/10.1109/TPAMI.2004.2)]
+- Stereo Reconstruction from Multiperspective Panoramas. [[PUB](http://doi.ieeecomputersociety.org/10.1109/TPAMI.2004.10002)]
+
 ### CVPR
 
 - Affine Image Registration Using a New Information Metric. [[PUB](https://doi.ieeecomputersociety.org/10.1109/CVPR.2004.27)]
 - Direct Super-Resolution and Registration Using Raw CFA Images. [[PUB](https://doi.ieeecomputersociety.org/10.1109/CVPR.2004.83)]
 - Registration of Diffusion Tensor Images. [[PUB](https://doi.ieeecomputersociety.org/10.1109/CVPR.2004.208)]
+- Covariance-Driven Mosaic Formation from Sparsely-Overlapping Image Sets with Application to Retinal Image Mosaicing. [[PUB](https://doi.ieeecomputersociety.org/10.1109/CVPR.2004.66)]
+- Error Analysis for a Navigation Algorithm Based on Optical-Flow and a Digital Terrain Map. [[PUB](https://doi.ieeecomputersociety.org/10.1109/CVPR.2004.94)]
+- High Resolution Video Mosaicing with Global Alignment. [[PUB](https://doi.ieeecomputersociety.org/10.1109/CVPR.2004.123)]
 
 ### ECCV
 
@@ -2093,10 +3412,21 @@
 - A Topology Preserving Non-rigid Registration Method Using a Symmetric Similarity Function-Application to 3-D Brain Images. [[PUB](https://doi.org/10.1007/978-3-540-24672-5_43)]
 - Groupwise Diffeomorphic Non-rigid Registration for Automatic Model Building. [[PUB](https://doi.org/10.1007/978-3-540-24673-2_26)]
 - Matching Tensors for Automatic Correspondence and Registration. [[PUB](https://doi.org/10.1007/978-3-540-24671-8_39)]
+- Generalized Histogram: Empirical Optimization of Low Dimensional Features for Image Matching. [[PUB](https://doi.org/10.1007/978-3-540-24672-5_17)]
+- High Accuracy Optical Flow Estimation Based on a Theory for Warping. [[PUB](https://doi.org/10.1007/978-3-540-24673-2_3)]
+- On Refractive Optical Flow. [[PUB](https://doi.org/10.1007/978-3-540-24671-8_38)]
+- Seamless Image Stitching in the Gradient Domain. [[PUB](https://doi.org/10.1007/978-3-540-24673-2_31)]
+- Stitching and Reconstruction of Linear-Pushbroom Panoramic Images for Planar Scenes. [[PUB](https://doi.org/10.1007/978-3-540-24671-8_15)]
+
+### MM
+
+- Detecting image near-duplicate by stochastic attributed relational graph matching with learning. [[PUB](https://doi.org/10.1145/1027527.1027730)]
 
 ### IJCV
 
 - Optimal Mass Transport for Registration and Warping. [[PUB](https://doi.org/10.1023/B:VISI.0000036836.66311.97)]
+- A Probabilistic Criterion to Detect Rigid Point Matches Between Two Images and Estimate the Fundamental Matrix. [[PUB](https://doi.org/10.1023/B:VISI.0000013094.38752.54)]
+- Constraint Based Region Matching for Image Retrieval. [[PUB](https://doi.org/10.1023/B:VISI.0000004831.53436.88)]
 
 ### MICCAI
 
@@ -2145,6 +3475,11 @@
 - Texture Based Mammogram Registration Using Geodesic Interpolating Splines. [[PUB](https://doi.org/10.1007/978-3-540-30136-3_138)]
 - Ventricle Registration for Inter-subject White Matter Lesion Analysis. [[PUB](https://doi.org/10.1007/978-3-540-30135-6_87)]
 - Volume Preserving Image Registration. [[PUB](https://doi.org/10.1007/978-3-540-30135-6_72)]
+- Control System for MR-Guided Cryotherapy - Short-Term Prediction of Therapy Boundary Using Automatic Segmentation and 3D Optical Flow. [[PUB](https://doi.org/10.1007/978-3-540-30136-3_67)]
+- Correction of Accidental Patient Motion for Online MR Thermometry. [[PUB](https://doi.org/10.1007/978-3-540-30136-3_78)]
+- Improved Motion Correction in fMRI by Joint Mapping of Slices into an Anatomical Volume. [[PUB](https://doi.org/10.1007/978-3-540-30136-3_91)]
+- Motion Correction in fMRI by Mapping Slice-to-Volume with Concurrent Field-Inhomogeneity Correction. [[PUB](https://doi.org/10.1007/978-3-540-30136-3_92)]
+- Profile Scale-Spaces for Multiscale Image Match. [[PUB](https://doi.org/10.1007/978-3-540-30135-6_22)]
 
 ### MIA
 
@@ -2156,27 +3491,45 @@
 
 ## 2003
 
+### IJCAI
+
+- An Extension of the ICP Algorithm for Modeling Nonrigid Objects with Mobile Robots. [[PUB](http://ijcai.org/Proceedings/03/Papers/132.pdf)]
+
 ### TPAMI
 
 - A Condition Number for Point Matching with Application to Registration and Postregistration Error Estimation. [[PUB](https://doi.org/10.1109/TPAMI.2003.1240118)]
 - Frame-Rate Spatial Referencing Based on Invariant Indexing and Alignment with Application to Online Retinal Image Registration. [[PUB](https://doi.org/10.1109/TPAMI.2003.1182101)]
+- Document Image Recognition Based on Template Matching of Component Block Projections. [[PUB](https://doi.org/10.1109/TPAMI.2003.1227996)]
+- Estimating Piecewise-Smooth Optical Flow with Global Matching and Graduated Optimization. [[PUB](https://doi.org/10.1109/TPAMI.2003.1251156)]
+- Mosaicing New Views: The Crossed-Slits Projection. [[PUB](https://doi.org/10.1109/TPAMI.2003.1201823)]
+- Outlier Modeling in Image Matching. [[PUB](https://doi.org/10.1109/TPAMI.2003.1182094)]
 
 ### ICCV
 
 - Assessing Accuracy Factors in Deformable 2D/3D Medical Image Registration Using a Statistical Pelvis Model. [[PUB](https://doi.org/10.1109/ICCV.2003.1238644)]
 - Fast Intensity-based 2D-3D Image Registration of Clinical Data Using Light Fields. [[PUB](https://doi.org/10.1109/ICCV.2003.1238376)]
 - Image Registration with Global and Local Luminance Alignment. [[PUB](https://doi.org/10.1109/ICCV.2003.1238331)]
+- Bayesian Clustering of Optical Flow Fields. [[PUB](https://doi.org/10.1109/ICCV.2003.1238470)]
+- Recognising Panoramas. [[PUB](https://doi.org/10.1109/ICCV.2003.1238630)]
+- Variable Bandwidth QMDPE and Its Application in Robust Optical Flow Estimation. [[PUB](https://doi.org/10.1109/ICCV.2003.1238337)]
 
 ### CVPR
 
 - Automated Feature-Based Range Registration of Urban Scenes of Large Scale. [[PUB](https://doi.org/10.1109/CVPR.2003.1211516)]
 - Implicit similarity: a new approach to multi-sensor image registration. [[PUB](https://doi.org/10.1109/CVPR.2003.1211514)]
 - Multi-modal image registration by minimizing Kullback-Leibler distance between expected and observed joint class histograms. [[PUB](https://doi.org/10.1109/CVPR.2003.1211518)]
+- Word Image Matching Using Dynamic Time Warping. [[PUB](https://doi.org/10.1109/CVPR.2003.1211511)]
+
+### MM
+
+- Route panoramas for city navigation. [[PUB](https://doi.org/10.1145/957013.957038)]
 
 ### IJCV
 
 - Deformotion: Deforming Motion, Shape Average and the Joint Registration and Approximation of Structures in Images. [[PUB](https://doi.org/10.1023/A:1023048024042)]
 - Registration and Analysis of Vascular Images. [[PUB](https://doi.org/10.1023/A:1026126900358)]
+- Generalized Mosaicing: High Dynamic Range in a Wide Field of View. [[PUB](https://doi.org/10.1023/A:1023082924255)]
+- Guest Editorial-Medial &amp; Medical: A Good Match for Image Analysis. [[PUB](https://doi.org/10.1023/A:1026198015379)]
 
 ### MICCAI
 
@@ -2217,6 +3570,7 @@
 - Temporal Lobe Epilepsy Lateralization Based on MR Image Intensity and Registration Features. [[PUB](https://doi.org/10.1007/978-3-540-39899-8_46)]
 - Tissue-Based Affine Registration of Brain Images to form a Vascular Density Atlas. [[PUB](https://doi.org/10.1007/978-3-540-39903-2_2)]
 - Vascular Atlas Formation Using a Vessel-to-Image Affine Registration Method. [[PUB](https://doi.org/10.1007/978-3-540-39899-8_42)]
+- Automated Segmentation of 3D US Prostate Images Using Statistical Texture-Based Matching Method. [[PUB](https://doi.org/10.1007/978-3-540-39899-8_84)]
 
 ### MIA
 
@@ -2234,6 +3588,10 @@
 
 - Paging and Registration in Cellular Networks: Jointly Optimal Policies an d an Iterative Algorithm. [[PUB](https://doi.org/10.1109/INFCOM.2003.1208703)]
 
+### TCAD
+
+- Bounds on the number of slicing, mosaic, and general floorplans. [[PUB](https://doi.org/10.1109/TCAD.2003.818136)]
+
 ## 2002
 
 ### TPAMI
@@ -2241,6 +3599,13 @@
 - A Frequency Domain Technique for Range Data Registration. [[PUB](https://doi.org/10.1109/TPAMI.2002.1046160)]
 - ICP Registration Using Invariant Features. [[PUB](https://doi.org/10.1109/34.982886)]
 - Surfacing Signatures: An Orientation Independent Free-Form Surface Representation Scheme for the Purpose of Objects Registration and Matching. [[PUB](https://doi.org/10.1109/TPAMI.2002.1023806)]
+- A Feature-Based Technique for Joint Linear Estimation of High-Order Image-to-Mosaic Transformations: Mosaicing the Curved Human Retina. [[PUB](https://doi.org/10.1109/34.990145)]
+- A Region-Based Fuzzy Feature Matching Approach to Content-Based Image Retrieval. [[PUB](https://doi.org/10.1109/TPAMI.2002.1033216)]
+- Adjusting Shape Parameters Using Model-Based Optical Flow Residuals. [[PUB](https://doi.org/10.1109/TPAMI.2002.1008387)]
+- Generalized Mosaicing: Wide Field of View Multispectral Imaging. [[PUB](https://doi.org/10.1109/TPAMI.2002.1039205)]
+- Match Propagation for Image-Based Modeling and Rendering. [[PUB](https://doi.org/10.1109/TPAMI.2002.1023810)]
+- Maximum-Likelihood Image Matching. [[PUB](https://doi.org/10.1109/TPAMI.2002.1008392)]
+- Optical Flow in Log-Mapped Image Plane-A New Approach. [[PUB](https://doi.org/10.1109/34.982889)]
 
 ### ECCV
 
@@ -2253,6 +3618,16 @@
 - Multi-scale EM-ICP: A Fast and Robust Approach for Surface Registration. [[PUB](https://doi.org/10.1007/3-540-47979-1_28)]
 - Multiview Registration of 3D Scenes by Minimizing Error between Coordinate Frames. [[PUB](https://doi.org/10.1007/3-540-47967-8_39)]
 - Registration Assisted Image Smoothing and Segmentation. [[PUB](https://doi.org/10.1007/3-540-47979-1_37)]
+- Is Super-Resolution with Optical Flow Feasible?. [[PUB](https://doi.org/10.1007/3-540-47969-4_40)]
+- Multi-view Matching for Unordered Image Sets, or &quot;How Do I Organize My Holiday Snaps?&quot;. [[PUB](https://doi.org/10.1007/3-540-47969-4_28)]
+- Symmetrical Dense Optical Flow Estimation with Occlusions Detection. [[PUB](https://doi.org/10.1007/3-540-47969-4_48)]
+- The Localized Consistency Principle for Image Matching under Non-uniform Illumination Variation and Affine Distortion. [[PUB](https://doi.org/10.1007/3-540-47969-4_14)]
+- Video Summaries through Mosaic-Based Shot and Scene Clustering. [[PUB](https://doi.org/10.1007/3-540-47979-1_26)]
+
+### IJCV
+
+- Correction to Construction of Panoramic Image Mosaics with Global and Local Alignment. [[PUB](https://doi.org/10.1023/A:1016051024520)]
+- Variational Methods for Multimodal Image Matching. [[PUB](https://doi.org/10.1023/A:1020830525823)]
 
 ### MICCAI
 
@@ -2284,6 +3659,7 @@
 - Specification Method of Surface Measurement for Surgical Navigation: Ridgeline Based Organ Registration. [[PUB](https://doi.org/10.1007/3-540-45787-9_14)]
 - Using Points and Surfaces to Improve Voxel-Based Non-rigid Registration. [[PUB](https://doi.org/10.1007/3-540-45787-9_71)]
 - Validation of Volume-Preserving Non-rigid Registration: Application to Contrast-Enhanced MR-Mammography. [[PUB](https://doi.org/10.1007/3-540-45786-0_38)]
+- Virtual Endoscopy Using Cubic QuickTime-VR Panorama Views. [[PUB](https://doi.org/10.1007/3-540-45787-9_24)]
 
 ### MIA
 
@@ -2291,17 +3667,39 @@
 - Serial registration of intraoperative MR images of the brain. [[PUB](https://doi.org/10.1016/S1361-8415(02)00060-9)]
 - Tracking of a bronchoscope using epipolar geometry analysis and intensity-based image registration of real and virtual endoscopic images. [[PUB](https://doi.org/10.1016/S1361-8415(02)00089-0)]
 
+### INFOCOM
+
+- Impact of Segments Aggregation on TCP Reno Flows in Optical Burst Switching Networks. [[PUB](https://doi.org/10.1109/INFCOM.2002.1019434)]
+
 ## 2001
+
+### IJCAI
+
+- Fuzzy Conceptual Graphs for Matching Images of Natural Scenes.
+
+### AISTATS
+
+- Learning mixtures of smooth, nonuniform deformation models for probabilistic image matching. [[PUB](https://proceedings.mlr.press/r3/jojic01a.html)]
 
 ### TPAMI
 
 - Robust Point Correspondence Applied to Two-and Three-Dimensional Image Registration. [[PUB](https://doi.org/10.1109/34.908967)]
+- Best-Match Retrieval for Structured Images. [[PUB](https://doi.org/10.1109/34.935845)]
+- Computing Optical Flow with Physical Models of Brightness Variation. [[PUB](https://doi.org/10.1109/34.927465)]
 
 ### ICCV
 
 - Automatic Registration of 2-D with 3-D Imagery in Urban Environments. [[PUB](https://doi.org/10.1109/ICCV.2001.937699)]
 - Stochastic Rigidity: Image Registration for Nowhere-Static Scenes. [[PUB](https://doi.ieeecomputersociety.org/10.1109/ICCV.2001.10086)]
 - Towards Real-Time Multi-Modality 3-D Medical Image Registration. [[PUB](https://doi.ieeecomputersociety.org/10.1109/ICCV.2001.10068)]
+- Accurate Optical Flow in Noisy Image Sequences. [[PUB](https://doi.ieeecomputersociety.org/10.1109/ICCV.2001.10088)]
+- Efficient Dense Depth Estimation from Dense Multiperspective Panoramas. [[PUB](https://doi.ieeecomputersociety.org/10.1109/ICCV.2001.10026)]
+- Estimation and Interpretation of Discontinuities in Optical Flow Fields. [[PUB](https://doi.ieeecomputersociety.org/10.1109/ICCV.2001.10014)]
+- Generalized Mosaicing. [[PUB](https://doi.ieeecomputersociety.org/10.1109/ICCV.2001.10018)]
+- Geometrical Fundamentals of Polycentric Panoramas. [[PUB](https://doi.ieeecomputersociety.org/10.1109/ICCV.2001.10101)]
+- Parallel-Perspective Stereo Mosaics. [[PUB](https://doi.ieeecomputersociety.org/10.1109/ICCV.2001.10015)]
+- Template Matching Approach to Content Based Image Indexing by Low Dimensional Euclidean Embedding. [[PUB](https://doi.org/10.1109/ICCV.2001.937676)]
+- Concentric Mosaic(s)Planar Motion and 1D Cameras. [[PUB](https://doi.org/10.1109/ICCV.2001.937624)]
 
 ### CVPR
 
@@ -2309,6 +3707,18 @@
 - Geocoded Terrestrial Mosaics Using Pose Sensors and Video Registration. [[PUB](https://doi.org/10.1109/CVPR.2001.990570)]
 - Image Registration by Aligning Entropies. [[PUB](https://doi.org/10.1109/CVPR.2001.990979)]
 - Registration via Direct Methods: A Statistical Approach. [[PUB](https://doi.org/10.1109/CVPR.2001.990637)]
+- 3D Reconstruction from 360 x 360 Mosaics. [[PUB](https://doi.org/10.1109/CVPR.2001.990927)]
+- Dense Image Matching with Global and Local Statistical Criteria: A Variational Approach. [[PUB](https://doi.org/10.1109/CVPR.2001.990458)]
+- Eliminating Ghosting and Exposure Artifacts in Image Mosaics. [[PUB](https://doi.org/10.1109/CVPR.2001.991005)]
+- Fast Focal Length Solution in Partial Panoramic Image Stitching. [[PUB](https://doi.org/10.1109/CVPR.2001.991031)]
+- Local Gradient, Global Matching, Piecewise-Smooth Optical Flow. [[PUB](https://doi.org/10.1109/CVPR.2001.991034)]
+- Matching of Double-Sided Document Images to Remove Interference. [[PUB](https://doi.org/10.1109/CVPR.2001.990651)]
+- Relief Mosaics by Joint View Triangulation. [[PUB](https://doi.org/10.1109/CVPR.2001.990557)]
+
+### MM
+
+- Automated basis-view and match-point selection for the ArchVision RPC image-based model. [[PUB](https://doi.org/10.1145/500141.500246)]
+- FIRM: fuzzily integrated region matching for content-based image retrieval. [[PUB](https://doi.org/10.1145/500141.500237)]
 
 ### MICCAI
 
@@ -2348,6 +3758,15 @@
 - The Continuous Tabu Search as an Optimizer for 2D-to-3D Biomedical Image Registration. [[PUB](https://doi.org/10.1007/3-540-45468-3_191)]
 - The Effect of Organ Motion and Image Artifacts on Monomodal Volume Registration. [[PUB](https://doi.org/10.1007/3-540-45468-3_194)]
 - Two-Step Registration of Subacute to Hyperacute Stroke MRIs. [[PUB](https://doi.org/10.1007/3-540-45468-3_193)]
+- Analysis of 3D Deformation Fields for Appearance-Based Segmentation. [[PUB](https://doi.org/10.1007/3-540-45468-3_157)]
+- Evaluation of Cost Functions for Gray Value Matching of 2D Images in Radiotherapy. [[PUB](https://doi.org/10.1007/3-540-45468-3_226)]
+- Full 3D Rigid Body Automatic Motion Correction of MRI Images. [[PUB](https://doi.org/10.1007/3-540-45468-3_215)]
+- Fusion of Histological Sections and MR Images: Towards the Construction of an Atlas of the Human Basal Ganglia. [[PUB](https://doi.org/10.1007/3-540-45468-3_89)]
+- Long Bone Panoramas from Fluoroscopic X-ray Images. [[PUB](https://doi.org/10.1007/3-540-45468-3_159)]
+- Motion Correction of MRI from Orthogonal k-Space Phase Difference. [[PUB](https://doi.org/10.1007/3-540-45468-3_212)]
+- Smart Alignment Tool for Knee MosaicPlasty Surgery. [[PUB](https://doi.org/10.1007/3-540-45468-3_72)]
+- Using Optical Flow Fields for Polyp Detection in Virtual Colonoscopy. [[PUB](https://doi.org/10.1007/3-540-45468-3_77)]
+- A Stochastic Iterative Closest Point Algorithm (stochastICP). [[PUB](https://doi.org/10.1007/3-540-45468-3_91)]
 
 ### MIA
 
@@ -2361,24 +3780,46 @@
 ### TPAMI
 
 - Fast, Reliable Head Tracking under Varying Illumination: An Approach Based on Registration of Texture-Mapped 3D Models. [[PUB](https://doi.org/10.1109/34.845375)]
+- An Orientation Reliability Matrix for the Iterative Closest Point Algorithm. [[PUB](https://doi.org/10.1109/34.879805)]
+- Mosaicing on Adaptive Manifolds. [[PUB](https://doi.org/10.1109/34.879794)]
+
+### KDD
+
+- Visualizing association rules with interactive mosaic plots. [[PUB](https://doi.org/10.1145/347090.347133)]
 
 ### CVPR
 
 - An Energy-Based Framework for Dense 3D Registration of Volumetric Brain Images. [[PUB](https://doi.org/10.1109/CVPR.2000.854805)]
 - Multi-Modality Model-Based Registration in the Cardiac Domain. [[PUB](https://doi.org/10.1109/CVPR.2000.854960)]
 - Multiscale Combination of Physically-Based Registration and Deformation Modeling. [[PUB](https://doi.org/10.1109/CVPR.2000.854870)]
+- 360 x 360 Mosaics. [[PUB](https://doi.org/10.1109/CVPR.2000.854857)]
+- A Feature-Based Technique for Joint, Linear Estimation of High-Order Image-to-Mosaic Transformations: Application to Mosaicing the Curved Human Retina. [[PUB](https://doi.org/10.1109/CVPR.2000.854924)]
+- A Generalized Optical Flow Constraint and its Physical Interpretation. [[PUB](https://doi.org/10.1109/CVPR.2000.854890)]
+- Matching Images with Different Resolutions. [[PUB](https://doi.org/10.1109/CVPR.2000.855876)]
+- Rectified Mosaicing: Mosaics without the Curl. [[PUB](https://doi.org/10.1109/CVPR.2000.854881)]
+- Two-Stage Robust Optical Flow Estimation. [[PUB](https://doi.org/10.1109/CVPR.2000.854930)]
 
 ### ECCV
 
 - Registration with a Moving Zoom Lens Camera for Augmented Reality Applications. [[PUB](https://doi.org/10.1007/3-540-45053-X_37)]
+- Geometric Driven Optical Flow Estimation and Segmentation for 3D Reconstruction. [[PUB](https://doi.org/10.1007/3-540-45053-X_54)]
+- Intrinsic Images for Dense Stereo Matching with Occlusions. [[PUB](https://doi.org/10.1007/3-540-45054-8_7)]
+- Multimodal Elastic Matching of Brain Images. [[PUB](https://doi.org/10.1007/3-540-45053-X_33)]
 
 ### MM
 
 - Model-based varying pose face detection and facial feature registration in video images. [[PUB](https://doi.org/10.1145/354384.354510)]
+- IRM: integrated region matching for image retrieval. [[PUB](https://doi.org/10.1145/354384.354452)]
+- Smart rebinning for compression of concentric mosaics. [[PUB](https://doi.org/10.1145/354384.354476)]
 
 ### IJCV
 
 - Image Registration Using Wavelet-Based Motion Model. [[PUB](https://doi.org/10.1023/A:1008101718719)]
+- Extracting Structure from Optical Flow Using the Fast Error Search Technique. [[PUB](https://doi.org/10.1023/A:1008111923880)]
+- Optical Flow Constraints on Deformable Models with Applications to Face Tracking. [[PUB](https://doi.org/10.1023/A:1008122917811)]
+- Reliable Estimation of Dense Optical Flow Fields with Large Displacements. [[PUB](https://doi.org/10.1023/A:1008170101536)]
+- Spherical Mosaics with Quaternions and Dense Correlation. [[PUB](https://doi.org/10.1023/A:1008184124789)]
+- Systems and Experiment Paper: Construction of Panoramic Image Mosaics with Global and Local Alignment. [[PUB](https://doi.org/10.1023/A:1008195814169)]
 
 ### MICCAI
 
@@ -2396,12 +3837,16 @@
 - Tetrahedral Mesh Modeling of Density Data for Anatomical Atlases and Intensity-Based Registration. [[PUB](https://doi.org/10.1007/978-3-540-40899-4_54)]
 - Toward a Common Validation Methodology for Segmentation and Registration Algorithms. [[PUB](https://doi.org/10.1007/978-3-540-40899-4_43)]
 - Volume and Shape Preservation of Enhancing Lesions when Applying Non-rigid Registration to a Time Series of Contrast Enhancing MR Breast Images. [[PUB](https://doi.org/10.1007/978-3-540-40899-4_33)]
+- Evaluation of an Automatic System for Simulator/Portal Image Matching. [[PUB](https://doi.org/10.1007/978-3-540-40899-4_45)]
+- MyoTrack: A 3D Deformation Field Method to Measure Cardiac Motion from Gated SPECT. [[PUB](https://doi.org/10.1007/978-3-540-40899-4_72)]
+- Robust 3D Deformation Field Estimation by Template Propagation. [[PUB](https://doi.org/10.1007/978-3-540-40899-4_53)]
 
 ### MIA
 
 - An algorithmic overview of surface registration techniques for medical imaging. [[PUB](https://doi.org/10.1016/S1361-8415(00)00014-1)]
 - Physical model-based non-rigid registration incorporating statistical shape information. [[PUB](https://doi.org/10.1016/S1361-8415(00)00004-9)]
 - Providing visual information to validate 2-D to 3-D registration. [[PUB](https://doi.org/10.1016/S1361-8415(00)00029-3)]
+- Two-dimensional spatial and temporal displacement and deformation field fitting from cardiac magnetic resonance tagging. [[PUB](https://doi.org/10.1016/S1361-8415(00)00018-9)]
 
 ## 1999
 
@@ -2414,6 +3859,9 @@
 - Cross-Weighted Moments and Affine Invariants for Image Registration and Matching. [[PUB](https://doi.org/10.1109/34.784312)]
 - RANSAC-Based DARCES: A New Approach to Fast Automatic Registration of Partially Overlapping Range Images. [[PUB](https://doi.org/10.1109/34.809117)]
 - The Translation Sensitivity of Wavelet-Based Registration. [[PUB](https://doi.org/10.1109/34.799911)]
+- Face Detection From Color Images Using a Fuzzy Pattern Matching Method. [[PUB](https://doi.org/10.1109/34.771326)]
+- Pattern Matching Image Compression: Algorithmic and Empirical Results. [[PUB](https://doi.org/10.1109/34.777372)]
+- True Multi-Image Alignment and Its Application to Mosaicing and Lens Distortion Correction. [[PUB](https://doi.org/10.1109/34.754589)]
 
 ### ICCV
 
@@ -2421,16 +3869,30 @@
 - Free-Form Surface Registration using Surface Signatures. [[PUB](https://doi.org/10.1109/ICCV.1999.790402)]
 - Invariant-based Registration of Surface Patches. [[PUB](https://doi.org/10.1109/ICCV.1999.791234)]
 - Registration of Multiple Point Sets using the EM Algorithm. [[PUB](https://doi.org/10.1109/ICCV.1999.790294)]
+- Accuracy Bounds and Optimal Computation of Homography for Image Mosaicing Applications. [[PUB](https://doi.org/10.1109/ICCV.1999.791200)]
+- Multi-Frame Optical Flow Estimation using Subspace Constraints. [[PUB](https://doi.org/10.1109/ICCV.1999.791283)]
 
 ### CVPR
 
 - Elastic Registration of Medical Images Using Radial Basis Functions with Compact Support. [[PUB](https://doi.org/10.1109/CVPR.1999.786970)]
 - Multiscale Image Registration Using Scale Trace Correlation. [[PUB](https://doi.org/10.1109/CVPR.1999.784630)]
 - Optimal Eigenfeature Selection by Optimal Image Registration. [[PUB](https://doi.org/10.1109/CVPR.1999.786942)]
+- 3D Deformable Image Matching Using Multiscale Minimization of Global Energy Functions. [[PUB](https://doi.org/10.1109/CVPR.1999.784724)]
+- A Volumetric Stereo Matching Method: Application to Image-Based Modeling. [[PUB](https://doi.org/10.1109/CVPR.1999.786913)]
+- Explaining Optical Flow Events with Parameterized Spatio-Temporal Models. [[PUB](https://doi.org/10.1109/CVPR.1999.786959)]
+- Robust Hierarchical Algorithm for Constructing a Mosaic from Images of the Curved Human Retina. [[PUB](https://doi.org/10.1109/CVPR.1999.784645)]
+- Stereo Panorama with a Single Camera. [[PUB](https://doi.org/10.1109/CVPR.1999.786969)]
+
+### MM
+
+- Building mosaics from video using MPEG motion vectors. [[PUB](https://doi.org/10.1145/319878.319886)]
 
 ### IJCV
 
 - Image Registration for Digital Subtraction Angiography. [[PUB](https://doi.org/10.1023/A:1008074100927)]
+- Combination of Edge Element and Optical Flow Estimates for 3D-Model-Based Vehicle Tracking in Traffic Image Sequences. [[PUB](https://doi.org/10.1023/A:1008112528134)]
+- Non Uniform Multiresolution Method for Optical Flow and Phase Portrait Models: Environmental Applications. [[PUB](https://doi.org/10.1023/A:1008161130332)]
+- Robust Optical Flow Computation Based on Least-Median-of-Squares Regression. [[PUB](https://doi.org/10.1023/A:1008046826441)]
 
 ### MICCAI
 
@@ -2453,6 +3915,11 @@
 - Surface Registration for Use in Interactive Image-Guided Liver Surgery. [[PUB](https://doi.org/10.1007/10704282_97)]
 - Towards a Better Comprehension of Similarity Measures Used in Medical Image Registration. [[PUB](https://doi.org/10.1007/10704282_60)]
 - Understanding the &quot;Demon&apos;s Algorithm&quot;: 3D Non-rigid Registration by Gradient Descent. [[PUB](https://doi.org/10.1007/10704282_64)]
+- 3D Image Matching Using a Finite Element Based Elastic Deformation Model. [[PUB](https://doi.org/10.1007/10704282_22)]
+- A Volumetric Optical Flow Method for Measurement of Brain Deformation from Intraoperative Magnetic Resonance Images. [[PUB](https://doi.org/10.1007/10704282_101)]
+- Probabilistic Brain Atlas Construction: Thin-Plate Spline Warping via Maximization of Mutual Information. [[PUB](https://doi.org/10.1007/10704282_68)]
+- Synthetic Image Modalities Generated from Matched CT and MRI Data: A New Approach for Using MRI in Brachytherapy. [[PUB](https://doi.org/10.1007/10704282_105)]
+- Tree Representation and Implicit Tree Matching for a Coarse to Fine Image Matching Algorithm. [[PUB](https://doi.org/10.1007/10704282_70)]
 
 ### MIA
 
@@ -2466,24 +3933,49 @@
 ### TPAMI
 
 - Registration and Integration of Multiple Object Views for 3D Model Construction. [[PUB](https://doi.org/10.1109/34.655652)]
+- Correction to: &quot;Reducing &apos;Structure From Motion&apos;: A General Framework for Dynamic Vision Part 2: Implementation and Experimental Assessment&quot;. [[PUB](http://doi.ieeecomputersociety.org/10.1109/TPAMI.1998.10001)]
+- Revised Definition of Optical Flow: Integration of Radiometric and Geometric Cues for Dynamic Scene Analysis. [[PUB](https://doi.org/10.1109/34.713362)]
+- Unconstrained Automatic Image Matching Using Multiresolutional Critical-Point Filters. [[PUB](https://doi.org/10.1109/34.713364)]
 
 ### ICCV
 
 - A Fast and Robust Approach for Registration of Partially Overlapping Range Images. [[PUB](https://doi.org/10.1109/ICCV.1998.710725)]
 - A Two-Stage Robust Statistical Method for Temporal Registration from Features of Various Type. [[PUB](https://doi.org/10.1109/ICCV.1998.710728)]
 - Automatic Registration of 3-D Ultrasound Images. [[PUB](https://doi.org/10.1109/ICCV.1998.710734)]
+- Bias-Corrected Optical Flow Estimation for Road Vehicle Tracking. [[PUB](https://doi.org/10.1109/ICCV.1998.710839)]
+- Construction and Refinement of Panoramic Mosaics with Global and Local Alignment. [[PUB](https://doi.org/10.1109/ICCV.1998.710831)]
+- Finding the Epipole from Uncalibrated Optical Flow. [[PUB](https://doi.org/10.1109/ICCV.1998.710836)]
+- Optical Flow Estimation Using Wavelet Motion Model. [[PUB](https://doi.org/10.1109/ICCV.1998.710837)]
+- Universal Mosaicing using Pipe Projection. [[PUB](https://doi.org/10.1109/ICCV.1998.710830)]
+- Utilization of Stereo Disparity and Optical Flow Information for Human Interaction. [[PUB](https://doi.org/10.1109/ICCV.1998.710855)]
 
 ### CVPR
 
 - Anomaly Detection through Registration. [[PUB](https://doi.org/10.1109/CVPR.1998.698624)]
 - Creaseness Measures for CT and MR Image Registration. [[PUB](https://doi.org/10.1109/CVPR.1998.698679)]
 - Head Tracking via Robust Registration in Texture Map Images. [[PUB](https://doi.org/10.1109/CVPR.1998.698653)]
+- A Statistical Framework for Long-Range Feature Matching in Uncalibrated Image Mosaicing. [[PUB](https://doi.org/10.1109/CVPR.1998.698643)]
+- Acquisition of a Large Pose-Mosaic Dataset. [[PUB](https://doi.org/10.1109/CVPR.1998.698707)]
+- Automatic Mosaicing with Super-Resolution Zoom. [[PUB](https://doi.org/10.1109/CVPR.1998.698709)]
+- Interactive Construction of 3D Models from Panoramic Mosaics. [[PUB](https://doi.org/10.1109/CVPR.1998.698641)]
+- Mosaics of Scenes with Moving Objects. [[PUB](https://doi.org/10.1109/CVPR.1998.698630)]
 
 ### ECCV
 
 - A Solution for the Registration of Multiple 3D Point Sets Using Unit Quaternions. [[PUB](https://doi.org/10.1007/BFb0054732)]
 - Finding Surface Correspondance for Object Recognition and Registration Using Pairwise Geometric Histograms. [[PUB](https://doi.org/10.1007/BFb0054772)]
 - Robust Registration of Dissimilar Single and Multimodal Images. [[PUB](https://doi.org/10.1007/BFb0054733)]
+- Decoupling Fourir Components of Dynamic Image Sequences: A Theory of Signal Separation, Image Segmentation, and Optical Flow Estimation. [[PUB](https://doi.org/10.1007/BFb0054734)]
+- Optical Flow Using Overlapped Basis Functions for Solving Global Motion Problems. [[PUB](https://doi.org/10.1007/BFb0054748)]
+- Robust Video Mosaicing through Topology Inference and Local to Global Alignment. [[PUB](https://doi.org/10.1007/BFb0054736)]
+
+### IJCV
+
+- Continuous Time Matching Constraints for Image Streams. [[PUB](https://doi.org/10.1023/A:1008006815607)]
+- Diffeomorphisms Groups and Pattern Matching in Image Analysis. [[PUB](https://doi.org/10.1023/A:1008001603737)]
+- Exploiting Discontinuities in Optical Flow. [[PUB](https://doi.org/10.1023/A:1008026031844)]
+- Quasi-Invariant Parameterisations and Matching of Curves in Images. [[PUB](https://doi.org/10.1023/A:1008011016516)]
+- Reliable and Efficient Computation of Optical Flow. [[PUB](https://doi.org/10.1023/A:1008005509994)]
 
 ### MICCAI
 
@@ -2502,27 +3994,60 @@
 - Real-Time Registration of 3D Cerebral Vessels to X-ray Angiograms. [[PUB](https://doi.org/10.1007/BFb0056302)]
 - The Correlation Ratio as a New Similarity Measure for Multimodal Image Registration. [[PUB](https://doi.org/10.1007/BFb0056301)]
 - Three-Dimensional Joint Kinematics Using Bone Surface Registration: A Computer Assisted Approach with an Application to the Wrist Joint in Vivo. [[PUB](https://doi.org/10.1007/BFb0056256)]
+- A Fast Technique for Motion Correction in DSA Using a Feature-Based, Irregular Grid. [[PUB](https://doi.org/10.1007/BFb0056244)]
+- Autofocusing of Clinical Shoulder MR Images for Correction of Motion Artifacts. [[PUB](https://doi.org/10.1007/BFb0056245)]
 
 ### MIA
 
 - A survey of medical image registration. [[PUB](https://doi.org/10.1016/S1361-8415(01)80026-8)]
 - An efficient motion estimator with application to medical image registration. [[PUB](https://doi.org/10.1016/S1361-8415(01)80029-3)]
+- Image matching as a diffusion process: an analogy with Maxwell&apos;s demons. [[PUB](https://doi.org/10.1016/S1361-8415(98)80022-4)]
+- The detection and significance of subtle changes in mixed-signal brain lesions by serial MRI scan matching and spatial normalization. [[PUB](https://doi.org/10.1016/S1361-8415(98)80021-2)]
 
 ## 1997
 
 ### TPAMI
 
 - Optimal Registration of Object Views Using Range Data. [[PUB](https://doi.org/10.1109/34.625115)]
+- Rigid Body Segmentation and Shape Description from Dense Optical Flow Under Weak Perspective. [[PUB](https://doi.org/10.1109/34.574794)]
+- The Illumination-Invariant Matching of Deterministic Local Structure in Color Images. [[PUB](https://doi.org/10.1109/34.625119)]
+- Visual Image Retrieval by Elastic Matching of User Sketches. [[PUB](https://doi.org/10.1109/34.574790)]
+
+### KDD
+
+- Image Feature Reduction through Spoiling: Its Application to Multiple Matched Filters for Focus of Attention. [[PUB](http://www.aaai.org/Library/KDD/1997/kdd97-053.php)]
 
 ### CVPR
 
 - A Hybrid Framework for Surface Registration and Deformable Models. [[PUB](https://doi.org/10.1109/CVPR.1997.609458)]
 - Projective registration with difference decomposition. [[PUB](https://doi.org/10.1109/CVPR.1997.609345)]
+- Deformable Multi Template Matching with Application to Portal Images. [[PUB](https://doi.org/10.1109/CVPR.1997.609352)]
+- Ego-Motion Estimation Using Optical Flow Fields Observed from Multiple Cameras. [[PUB](https://doi.org/10.1109/CVPR.1997.609365)]
+- Fast 3D Stabilization and Mosaic Construction. [[PUB](https://doi.org/10.1109/CVPR.1997.609396)]
+- Panoramic mosaics by manifold projection. [[PUB](https://doi.org/10.1109/CVPR.1997.609346)]
+- True Multi-Image Alignment and its Application to Mosaicing and Lens Distortion Correction. [[PUB](https://doi.org/10.1109/CVPR.1997.609364)]
+- Using geometric corners to build a 2D mosaic from a set of image. [[PUB](https://doi.org/10.1109/CVPR.1997.609359)]
+
+### MM
+
+- PanoramaExcerpts: Extracting and Packing Panoramas for Video Browsing. [[PUB](https://doi.org/10.1145/266180.266396)]
 
 ### IJCV
 
 - A Framework for Uncertainty and Validation of 3-D Registration Methods Based on Points and Frames. [[PUB](https://doi.org/10.1023/A:1007976002485)]
 - Spline-Based Image Registration. [[PUB](https://doi.org/10.1023/A:1007996332012)]
+- A General Motion Model and Spatio-Temporal Filters for Computing Optical Flow. [[PUB](https://doi.org/10.1023/A:1007988028861)]
+- Improved Accuracy in Gradient-Based Optical Flow Estimation. [[PUB](https://doi.org/10.1023/A:1007987001439)]
+- Matching 3-D Models to 2-D Images. [[PUB](https://doi.org/10.1023/A:1007927623619)]
+- Moment and Hypergeometric Filters for High Precision Computation of Focus, Stereo and Optical Flow. [[PUB](https://doi.org/10.1023/A:1007927810205)]
+
+### MIA
+
+- A robust point-matching algorithm for autoradiograph alignment. [[PUB](https://doi.org/10.1016/S1361-8415(97)85008-6)]
+
+### TCAD
+
+- Corner stitching for simple rectilinear shapes [VLSI layouts]. [[PUB](https://doi.org/10.1109/43.573833)]
 
 ## 1996
 
@@ -2531,16 +4056,35 @@
 - Graphical Templates for Model Registration. [[PUB](https://doi.org/10.1109/34.485529)]
 - Subpixel Precision of Straight-Edged Shapes for Registration and Measurement. [[PUB](https://doi.org/10.1109/34.506796)]
 - Towards a General Multi-View Registration Technique. [[PUB](https://doi.org/10.1109/34.494643)]
+- A Fast Scalable Algorithm for Discontinuous Optical Flow Estimation. [[PUB](https://doi.org/10.1109/34.481542)]
+- Estimating Optical Flow in Segmented Images Using Variable-Order Parametric Models With Local Deformations. [[PUB](https://doi.org/10.1109/34.541407)]
+- Evaluation of Ridge Seeking Operators for Multimodality Medical Image Matching. [[PUB](https://doi.org/10.1109/34.491617)]
+- Multiple Constraints to Compute Optical Flow. [[PUB](https://doi.org/10.1109/34.546260)]
+- Recognizing Human Facial Expressions From Long Image Sequences Using Optical Flow. [[PUB](https://doi.org/10.1109/34.506414)]
+- The Performance of Camera Translation Direction Estimators From Optical Flow: Analysis, Comparison, and Theoretical Limits. [[PUB](https://doi.org/10.1109/34.537346)]
 
 ### CVPR
 
 - Subpixel Image Registration by Estimating the Polyphase Decomposition of Cross Power Spectrum. [[PUB](https://doi.org/10.1109/CVPR.1996.517123)]
+- A Space-Sweep Approach to True Multi-Image Matching. [[PUB](https://doi.org/10.1109/CVPR.1996.517097)]
+- Skin and Bones: Multi-layer, Locally Affine, Optical Flow and Regularization with Transparency. [[PUB](https://doi.org/10.1109/CVPR.1996.517090)]
+- The Integration of Optical Flow and Deformable Models with Applications to Human Face Shape and Motion Estimation. [[PUB](https://doi.org/10.1109/CVPR.1996.517079)]
+
+### ECCV
+
+- Accuracy vs. Efficiency Trade-offs in Optical Flow Algorithms. [[PUB](https://doi.org/10.1007/3-540-61123-1_137)]
+- Generalized Image Matching: Statistical Learning of Physically-Based Deformations. [[PUB](https://doi.org/10.1007/BFb0015569)]
+- Image Retrieval Using Scale-Space Matching. [[PUB](https://doi.org/10.1007/BFb0015543)]
+- Matching Object Models to Segments from an Optical Flow Field. [[PUB](https://doi.org/10.1007/3-540-61123-1_155)]
+- Optical Flow and Phase Portrait Methods for Environmental Satellite Image Sequences. [[PUB](https://doi.org/10.1007/3-540-61123-1_134)]
+- Refinement of Optical Flow Estimation and Detection of Motion Edges. [[PUB](https://doi.org/10.1007/3-540-61123-1_135)]
 
 ### IJCV
 
 - 3D free-form surface registration and object recognition. [[PUB](https://doi.org/10.1007/BF00127819)]
 - New feature points based on geometric invariants for 3D image registration. [[PUB](https://doi.org/10.1007/BF00054999)]
 - Rigid, affine and locally affine registration of free-form surfaces. [[PUB](https://doi.org/10.1007/BF00054998)]
+- The use of optical flow for the analysis of non-rigid motions. [[PUB](https://doi.org/10.1007/BF00123144)]
 
 ### MIA
 
@@ -2550,10 +4094,44 @@
 
 ## 1995
 
+### AI
+
+- A Robust Technique for Matching two Uncalibrated Images Through the Recovery of the Unknown Epipolar Geometry. [[PUB](https://doi.org/10.1016/0004-3702(95)00022-4)]
+- Estimation of Optical Flow Based on Higher-Order Spatiotemporal Derivatives in Interlaced and Non-Interlaced Image Sequences. [[PUB](https://doi.org/10.1016/0004-3702(95)00033-X)]
+
+### TPAMI
+
+- A Correlation-Relaxation-Labeling Framework for Computing Optical Flow - Template Matching from a New Perspective. [[PUB](https://doi.org/10.1109/34.406650)]
+- Recursive Filters for Optical Flow. [[PUB](https://doi.org/10.1109/34.368151)]
+
+### NDSS
+
+- Panel: Security Issues for Mosaic and the World Wide Web. [[PUB](https://doi.ieeecomputersociety.org/10.1109/SNDSS.1995.10005)]
+
 ### ICCV
 
 - 3D-2D Projective Registration of Free-Form Curves and Surfaces. [[PUB](https://doi.org/10.1109/ICCV.1995.466891)]
 - Validation of 3D Registration Methods Based on Points and Frames. [[PUB](https://doi.org/10.1109/ICCV.1995.466890)]
+- Computation of Coherent Optical Flow by Using Multiple Constraints. [[PUB](https://doi.org/10.1109/ICCV.1995.466776)]
+- Hypergeometric Filters for Optical Flow and Affine Matching. [[PUB](https://doi.org/10.1109/ICCV.1995.466860)]
+- Matching Constraints and the Joint Image. [[PUB](https://doi.org/10.1109/ICCV.1995.466920)]
+- Model-Based 2D&amp;3D Dominant Motion Estimation for Mosaicing and Video Representation. [[PUB](https://doi.org/10.1109/ICCV.1995.466886)]
+- Mosaic Based Representations of Video Sequences and Their Applications. [[PUB](https://doi.org/10.1109/ICCV.1995.466883)]
+- Optical Flow and Deformable Objects. [[PUB](https://doi.org/10.1109/ICCV.1995.466869)]
+- Rigid Body Segmentation and Shape Description from Dense Optical Flow under Weak Perspective. [[PUB](https://doi.org/10.1109/ICCV.1995.466778)]
+
+### IJCV
+
+- Optical flow estimation and the interaction between measurement errors at adjacent pixel positions. [[PUB](https://doi.org/10.1007/BF01451744)]
+- Optical flow from 1-D correlation: Application to a simple time-to-crash detector. [[PUB](https://doi.org/10.1007/BF01418979)]
+
+### SIGMOD
+
+- Information Translation, Mediation, and Mosaic-Based Browsing in the TSIMMIS System. [[PUB](https://doi.org/10.1145/223784.223896)]
+
+### WWW
+
+- Multi-Head Multi-Tail Mosaic. [[PUB](https://doi.org/10.1145/3592626.3592661)]
 
 ## 1994
 
@@ -2561,6 +4139,9 @@
 
 - Subμm Registration of Fiducial Marks Using Machine Vision. [[PUB](https://doi.org/10.1109/34.308473)]
 - Symmetric Phase-Only Matched Filtering of Fourier-Mellin Transforms for Image Registration and Recognition. [[PUB](https://doi.org/10.1109/34.387491)]
+- Object Identification From Multiple Images Based on Point Matching Under a General Transformation. [[PUB](https://doi.org/10.1109/34.297958)]
+- On Poisson Solvers and Semi-Direct Methods for Computing Area Based Optical Flow. [[PUB](https://doi.org/10.1109/34.334395)]
+- Part II: 3-D Object Recognition and Shape Estimation from Image Contours Using B-splines, Shape Invariant Matching, and Neural Network. [[PUB](https://doi.org/10.1109/34.273720)]
 
 ### CVPR
 
@@ -2572,6 +4153,7 @@
 - Registration of multiple range views for automatic 3-D model building. [[PUB](https://doi.org/10.1109/CVPR.1994.323796)]
 - Registration without correspondences. [[PUB](https://doi.org/10.1109/CVPR.1994.323818)]
 - Three-dimensional image registration for spiral CT angiography. [[PUB](https://doi.org/10.1109/CVPR.1994.323861)]
+- Motion and structure from one dimensional optical flow. [[PUB](https://doi.org/10.1109/CVPR.1994.323934)]
 
 ### ECCV
 
@@ -2579,16 +4161,60 @@
 - Improving Registration of 3-D Medical Images Using a Mechanical Based Method. [[PUB](https://doi.org/10.1007/BFb0028342)]
 - Registration of a Curve on a Surface Using Differential Properties. [[PUB](https://doi.org/10.1007/BFb0028350)]
 - Rigid and Affine Registration of Smooth Surfaces using Differential Properties. [[PUB](https://doi.org/10.1007/BFb0028371)]
+- A Scalar Function Formulation for Optical Flow. [[PUB](https://doi.org/10.1007/3-540-57956-7_13)]
+- Association of Motion Verbs with Vehicle Movements Extracted from Dense Optical Flow Fields. [[PUB](https://doi.org/10.1007/BFb0028366)]
+- Determination of Optical Flow and its Discontinuities using Non-Linear Diffusion. [[PUB](https://doi.org/10.1007/BFb0028362)]
+- Multiple Constraints for Optical Flow. [[PUB](https://doi.org/10.1007/3-540-57956-7_6)]
+- Optical Flow Estimation: Advances and Comparisons. [[PUB](https://doi.org/10.1007/3-540-57956-7_5)]
+- The use of optical flow for the autonomous navigation. [[PUB](https://doi.org/10.1007/3-540-57956-7_16)]
+
+### MM
+
+- Video Mosaic: Laying Out Time in a Physical Space. [[PUB](https://doi.org/10.1145/192593.192646)]
 
 ### IJCV
 
 - Iterative point matching for registration of free-form curves and surfaces. [[PUB](https://doi.org/10.1007/BF01427149)]
 
+### SIGMOD
+
+- MOSAICO - A System for Conceptual Modeling and Rapid Prototyping of Object-Oriented Database Application. [[PUB](https://doi.org/10.1145/191839.191958)]
+
 ## 1993
+
+### AI
+
+- &quot;Determining optical flow&quot;: A Retrospective. [[PUB](https://doi.org/10.1016/0004-3702(93)90173-9)]
 
 ### TPAMI
 
 - Comments on &quot;Design of Fiducials for Accurate Registration Using Machine Vision&quot;. [[PUB](https://doi.org/10.1109/34.250850)]
+- Multimodal Estimation of Discontinuous Optical Flow using Markov Random Fields. [[PUB](https://doi.org/10.1109/34.250841)]
+- On Functionals with Greyvalue-Controlled Smoothness Terms for Determining Optical Flow. [[PUB](https://doi.org/10.1109/34.254064)]
+- On the Advantages of Polar and Log-Polar Mapping for Direct Estimation of Time-To-Impact from Optical Flow. [[PUB](https://doi.org/10.1109/34.206959)]
+- The Accuracy of the Computation of Optical Flow and of the Recovery of Motion Parameters. [[PUB](https://doi.org/10.1109/34.211464)]
+
+### ICCV
+
+- A framework for the robust estimation of optical flow. [[PUB](https://doi.org/10.1109/ICCV.1993.378214)]
+- A generalized brightness change model for computing optical flow. [[PUB](https://doi.org/10.1109/ICCV.1993.378241)]
+- Optical flow from 1D correlation: Application to a simple time-to-crash detector. [[PUB](https://doi.org/10.1109/ICCV.1993.378218)]
+- Robust computation of optical flow in a multi-scale differential framework. [[PUB](https://doi.org/10.1109/ICCV.1993.378240)]
+
+### CVPR
+
+- Mixture models for optical flow computation. [[PUB](https://doi.org/10.1109/CVPR.1993.341161)]
+- Obtaining optical flow with multi-orientation filters. [[PUB](https://doi.org/10.1109/CVPR.1993.341149)]
+- Using topological information of images to improve stereo matching. [[PUB](https://doi.org/10.1109/CVPR.1993.341043)]
+
+### IJCV
+
+- 3-D interpretation of optical flow by renormalization. [[PUB](https://doi.org/10.1007/BF01469345)]
+- Image matching using the windowed Fourier phase. [[PUB](https://doi.org/10.1007/BF01469343)]
+
+### TCAD
+
+- Corner-stitched tiles with curved boundaries [circuit layout]. [[PUB](https://doi.org/10.1109/43.184842)]
 
 ## 1992
 
@@ -2596,16 +4222,44 @@
 
 - A Method for Registration of 3-D Shapes. [[PUB](https://doi.org/10.1109/34.121791)]
 - Performance Evaluation of Scene Registration and Stereo Matching for Artographic Feature Extraction. [[PUB](https://doi.org/10.1109/34.121790)]
+- On the Detection of Motion and the Computation of Optical Flow. [[PUB](https://doi.org/10.1109/34.120329)]
+
+### CVPR
+
+- A MRF approach to optical flow estimation. [[PUB](https://doi.org/10.1109/CVPR.1992.223240)]
+- Matching complex images to multiple 3D objects using view description networks. [[PUB](https://doi.org/10.1109/CVPR.1992.223255)]
+- On Poisson solvers and semi-direct methods for computing area based optical flow. [[PUB](https://doi.org/10.1109/CVPR.1992.223239)]
+- Performance of optical flow techniques. [[PUB](https://doi.org/10.1109/CVPR.1992.223269)]
+
+### ECCV
+
+- A Fast Obstacle Detection Method based on Optical Flow. [[PUB](https://doi.org/10.1007/3-540-55426-2_30)]
+- Identifying multiple motions from optical flow. [[PUB](https://doi.org/10.1007/3-540-55426-2_29)]
+- Matching and Recognition of Road Networks from Aerial Images. [[PUB](https://doi.org/10.1007/3-540-55426-2_99)]
+
+### IJCV
+
+- Computation of discontinuous optical flow by domain decomposition and shape optimization. [[PUB](https://doi.org/10.1007/BF00127172)]
+- Motion recovery from image sequences using only first order optical flow information. [[PUB](https://doi.org/10.1007/BF00133700)]
 
 ## 1991
 
 ### TPAMI
 
 - Registration of Multiple Overlapping Range Images: Scenes Without Distinctive Features. [[PUB](https://doi.org/10.1109/34.93805)]
+- Multidimensional Orientation Estimation with Applications to Texture Analysis and Optical Flow. [[PUB](https://doi.org/10.1109/34.85668)]
+- On the Mathematical Foundations of Smoothness Constraints for the Determination of Optical Flow and for Surface Reconstruction. [[PUB](https://doi.org/10.1109/34.103272)]
 
 ### CVPR
 
 - Stereopsis and image registration from extended edge features in the absence of camera pose information. [[PUB](https://doi.org/10.1109/CVPR.1991.139664)]
+- Probability distributions of optical flow. [[PUB](https://doi.org/10.1109/CVPR.1991.139707)]
+- Region based stereo matching oriented image processing. [[PUB](https://doi.org/10.1109/CVPR.1991.139806)]
+
+### IJCV
+
+- Computing optical flow across multiple scales: An adaptive coarse-to-fine strategy. [[PUB](https://doi.org/10.1007/BF00128153)]
+- Determining optical flow for irregular domains by minimizing quadratic functionals of a certain class. [[PUB](https://doi.org/10.1007/BF00127124)]
 
 ## 1990
 
@@ -2613,18 +4267,89 @@
 
 - Design of Fiducials for Accurate Registration Using Machine Vision. [[PUB](https://doi.org/10.1109/34.62609)]
 - Predicting and Estimating the Accuracy of a Subpixel Registration Algorithm. [[PUB](https://doi.org/10.1109/34.57665)]
+- Matching Aerial Images to 3-D Terrain Maps. [[PUB](https://doi.org/10.1109/34.62603)]
+
+### ICCV
+
+- A theory of image matching. [[PUB](https://doi.org/10.1109/ICCV.1990.139520)]
+- Computing optical flow from an overconstrained system of linear algebraic equations. [[PUB](https://doi.org/10.1109/ICCV.1990.139485)]
+- Matching range images of human faces. [[PUB](https://doi.org/10.1109/ICCV.1990.139627)]
+- Multiple light source optical flow. [[PUB](https://doi.org/10.1109/ICCV.1990.139489)]
+- Multispectral constraints for optical flow computation. [[PUB](https://doi.org/10.1109/ICCV.1990.139488)]
+- Segmentation of optical flow and 3D data for the interpretation of mobile objects. [[PUB](https://doi.org/10.1109/ICCV.1990.139525)]
+- Terrain matching by analysis of aerial images. [[PUB](https://doi.org/10.1109/ICCV.1990.139617)]
+- Uniqueness, the minimum norm constraint, and analog networks for optical flow along contours. [[PUB](https://doi.org/10.1109/ICCV.1990.139499)]
+
+### ECCV
+
+- Extending the &apos;Oriented Smoothness Constraint&apos; into the Temporal Domain and the Estimation of Derivatives of Optical Flow. [[PUB](https://doi.org/10.1007/BFb0014860)]
+- Obstacle Detecion by Evaluation of Optical Flow Fields from Image Sequences. [[PUB](https://doi.org/10.1007/BFb0014859)]
+- On the motion of 3D curves and its relationship to optical flow. [[PUB](https://doi.org/10.1007/BFb0014856)]
+- Stereo Matching Based on a Combination of Simple Features Used for Matching in Temporal Image Sequences. [[PUB](https://doi.org/10.1007/BFb0014924)]
+
+### SIGIR
+
+- Machine Learning and Vectorial Matching for an Image Retrieval Model: EXPRIM and the System RIVAGE. [[PUB](https://doi.org/10.1145/96749.98011)]
+
+### TCAD
+
+- Tailor: a layout system based on trapezoidal corner stitching. [[PUB](https://doi.org/10.1109/43.45858)]
 
 ## 1989
+
+### TPAMI
+
+- Camera Geometries for Image Matching in 3-D Machine Vision. [[PUB](https://doi.org/10.1109/34.35494)]
+- Efficient Parallel Algorithms for Image Template Matching on Hypercube SIMD Machines. [[PUB](https://doi.org/10.1109/34.24802)]
+- Motion Field and Optical Flow: Qualitative Properties. [[PUB](https://doi.org/10.1109/34.24781)]
+- Optical Flow with an Intensity-Weighted Smoothing. [[PUB](https://doi.org/10.1109/34.24783)]
 
 ### CVPR
 
 - Registration of multiple overlapping range images: scenes without distinctive features. [[PUB](https://doi.org/10.1109/CVPR.1989.37862)]
+- Region-based optical flow estimation. [[PUB](https://doi.org/10.1109/CVPR.1989.37840)]
+
+## 1988
+
+### TPAMI
+
+- On Smoothness of a Vector Field-Application to Optical Flow. [[PUB](https://doi.org/10.1109/34.9116)]
+- Transformation of Optical Flow by Camera Rotation. [[PUB](https://doi.org/10.1109/34.3879)]
+
+### ICCV
+
+- Computational Aspects Of Determining Optical Flow. [[PUB](https://doi.org/10.1109/CCV.1988.590041)]
+- Matching Perspective Images Using Geometric Constraints And Perceptual Grouping. [[PUB](https://doi.org/10.1109/CCV.1988.590050)]
+- Optimal Morphological Approaches To Image Matching And Object Detection. [[PUB](https://doi.org/10.1109/CCV.1988.590053)]
+- Parallel Optical Flow Using Local Voting. [[PUB](https://doi.org/10.1109/CCV.1988.590023)]
+- Robust Depth Estimation From Optical Flow. [[PUB](https://doi.org/10.1109/CCV.1988.590045)]
+- Temporal Edges: The Detection Of Motion And The Computation Of Optical Flow. [[PUB](https://doi.org/10.1109/CCV.1988.590014)]
+- Translating Optical Flow Into Token Matches And Depth From Looming. [[PUB](https://doi.org/10.1109/CCV.1988.590021)]
+
+### CVPR
+
+- From depth and optical flow to rigid body motion. [[PUB](https://doi.org/10.1109/CVPR.1988.196265)]
+
+### IJCV
+
+- Optical flow using spatiotemporal filters. [[PUB](https://doi.org/10.1007/BF00133568)]
 
 ## 1987
+
+### IJCAI
+
+- Feature Selection in Colour Images for Token Matching. [[PUB](http://ijcai.org/Proceedings/87-2/Papers/033.pdf)]
+- Significant Feature Detection and Matching in Image Pairs. [[PUB](http://ijcai.org/Proceedings/87-2/Papers/055.pdf)]
+
+### AI
+
+- On the Estimation of Optical Flow: Relations between Different Approaches and Some New Results. [[PUB](https://doi.org/10.1016/0004-3702(87)90041-5)]
 
 ### TPAMI
 
 - Registration of Translated and Rotated Images Using Finite Fourier Transforms. [[PUB](https://doi.org/10.1109/TPAMI.1987.4767966)]
+- Optical Flow Estimation: An Error Analysis of Gradient-Based Methods with Local Optimization. [[PUB](https://doi.org/10.1109/TPAMI.1987.4767897)]
+- Parallel Algorithms for Image Template Matching on Hypercube SIMD Computers. [[PUB](https://doi.org/10.1109/TPAMI.1987.4767990)]
 
 ### IJCV
 
@@ -2632,31 +4357,59 @@
 
 ## 1986
 
+### AAAI
+
+- 3-D Motion Recovery From Time-Varying Optical Flows. [[PUB](http://www.aaai.org/Library/AAAI/1986/aaai86-113.php)]
+
 ### TPAMI
 
 - Digital Image Registration Using Projections. [[PUB](https://doi.org/10.1109/TPAMI.1986.4767775)]
+- An Image Understanding System Using Attributed Symbolic Representation and Inexact Graph-Matching. [[PUB](https://doi.org/10.1109/TPAMI.1986.4767835)]
 
 ## 1985
 
 ### TPAMI
 
 - Contour Map Registration Using Fourier Descriptors of Gradient Codes. [[PUB](https://doi.org/10.1109/TPAMI.1985.4767662)]
+- Determining Three-Dimensional Motion and Structure from Optical Flow Generated by Several Moving Objects. [[PUB](https://doi.org/10.1109/TPAMI.1985.4767678)]
+- Dynamic Occlusion Analysis in Optical Flow Fields. [[PUB](https://doi.org/10.1109/TPAMI.1985.4767677)]
+- Template Matching in Rotated Images. [[PUB](https://doi.org/10.1109/TPAMI.1985.4767663)]
 
 ### TC
 
 - Correlation of Adjacent Pixels for Multiple Image Registration. [[PUB](https://doi.org/10.1109/TC.1985.1676607)]
 
+## 1984
+
+### AAAI
+
+- Efficient Multiresolution Algorithms for Computing Lightness, Shape-From-Shading, and Optical Flow. [[PUB](http://www.aaai.org/Library/AAAI/1984/aaai84-064.php)]
+
+### TPAMI
+
+- Matching Images Using Linear Features. [[PUB](https://doi.org/10.1109/TPAMI.1984.4767592)]
+
+### TCAD
+
+- Corner Stitching: A Data-Structuring Technique for VLSI Layout Tools. [[PUB](https://doi.org/10.1109/TCAD.1984.1270061)]
+
 ## 1983
+
+### IJCAI
+
+- The 3D MOSAIC Scene Understanding System.
 
 ### TPAMI
 
 - Bounds on (Deterministic) Correlation Functions with Application to Registration. [[PUB](https://doi.org/10.1109/TPAMI.1983.4767373)]
+- Multiframe Image Point Matching and 3-D Surface Reconstruction. [[PUB](https://doi.org/10.1109/TPAMI.1983.4767368)]
 
 ## 1982
 
 ### AAAI
 
 - A Corner Finding Algorithm for Image Analysis and Registration. [[PUB](http://www.aaai.org/Library/AAAI/1982/aaai82-011.php)]
+- Edge Detection in Optical Flow Fields. [[PUB](http://www.aaai.org/Library/AAAI/1982/aaai82-007.php)]
 
 ### TPAMI
 
@@ -2670,14 +4423,46 @@
 
 - An Iterative Image Registration Technique with an Application to Stereo Vision.
 
+### AI
+
+- Determining Optical Flow. [[PUB](https://doi.org/10.1016/0004-3702(81)90024-2)]
+
+### TPAMI
+
+- Mosaic Models for Textures. [[PUB](https://doi.org/10.1109/TPAMI.1981.4767045)]
+
+## 1980
+
+### TPAMI
+
+- The Selection of Critical Subsets for Signal, Image, and Scene Matching. [[PUB](https://doi.org/10.1109/TPAMI.1980.4767030)]
+
+## 1979
+
+### IJCAI
+
+- Motion and Structure from Optical Flow.
+
+### TPAMI
+
+- Matching Segments of Images. [[PUB](https://doi.org/10.1109/TPAMI.1979.4766884)]
+
+## 1977
+
+### IJCAI
+
+- Parametric Correspondence and Chamfer Matching: Two New Techniques for Image Matching. [[PUB](http://ijcai.org/Proceedings/77-2/Papers/024.pdf)]
+
 ## 1975
 
 ### TC
 
 - Digital Image Registration Method Using Boundary Maps. [[PUB](https://doi.org/10.1109/T-C.1975.224341)]
+- Multiple Output Optimization with Mosaics of Boolean Functions. [[PUB](https://doi.org/10.1109/T-C.1975.224309)]
 
 ## 1972
 
 ### TC
 
 - A Class of Algorithms for Fast Digital Image Registration. [[PUB](https://doi.org/10.1109/TC.1972.5008923)]
+- Measuring Concavity on a Rectangular Mosaic. [[PUB](https://doi.org/10.1109/T-C.1972.223507)]
