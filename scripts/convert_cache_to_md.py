@@ -213,6 +213,11 @@ def main():
         for v in sorted(unknown_venues):
             print(f"  - {v}")
 
+    def is_registra_related(title: str) -> bool:
+        """Return True if title contains words related to 'registra' (registration, registering, etc.)."""
+        t = title.strip().lower()
+        return "regist" in t
+
     def is_low_priority(title: str) -> bool:
         """Return True if title contains brackets or keywords like Abstract/Poster."""
         t = title.strip()
@@ -240,7 +245,11 @@ def main():
             papers = aggregated[year][venue]
             papers_sorted = sorted(
                 papers,
-                key=lambda p: (1 if is_low_priority(p.get("title", "")) else 0, p.get("title", "").lower())
+                key=lambda p: (
+                    0 if is_registra_related(p.get("title", "")) else 1,  # registra 相关排前面
+                    1 if is_low_priority(p.get("title", "")) else 0,       # 低优先级排后面
+                    p.get("title", "").lower()
+                )
             )
             for paper in papers_sorted:
                 title = paper.get("title", "").strip()
