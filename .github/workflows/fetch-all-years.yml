@@ -17,7 +17,6 @@ jobs:
     env:
       TZ: "Asia/Shanghai"
       RUN_ENV: "prod"
-      DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -35,11 +34,6 @@ jobs:
       - name: Run dblp watcher (all years)
         run: |
           cd src && python main.py run --env=${{ env.RUN_ENV }} --all_years
-
-      - name: Fetch missing abstracts
-        run: |
-          python scripts/fetch_abstracts.py
-        continue-on-error: true
 
       - name: Update IR-Papers.md
         run: |

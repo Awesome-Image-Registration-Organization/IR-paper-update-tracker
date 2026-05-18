@@ -124,8 +124,8 @@ class Scaffold:
             if topic not in dblp_cache:
                 dblp_cache[topic] = []
 
-            # 为新增论文自动获取 abstract
-            if new_items:
+            # 为新增论文自动获取 abstract（all_years 模式下跳过以节约运行时间）
+            if new_items and not all_years:
                 fetch_abstract_for_papers(new_items, sleep_sec=2.0, max_retries=4, contact_email=contact_email)
                 api_key = os.getenv("DASHSCOPE_API_KEY", "")
                 translate_abstracts_for_papers(new_items, api_key=api_key, sleep_sec=0.5, max_retries=3)
