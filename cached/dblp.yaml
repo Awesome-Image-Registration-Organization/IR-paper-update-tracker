@@ -30168,61 +30168,54 @@ registra%20venue%3AMedical_Image_Anal.%3A:
   ee: https://doi.org/10.1016/S1361-8415(01)80004-9
   url: https://dblp.org/rec/journals/mia/WellsVANK96
   abstract: ''
-ICP%7Citerative%20closest%20venue%3ACVPR%3A: []
-ICP%20venue%3ACVPR%3A:
-- author: Yancong Lin, Holger Caesar
-  title: 'ICP-Flow: LiDAR Scene Flow Estimation with ICP.'
-  venue: CVPR
-  year: '2024'
-  type: Conference and Workshop Papers
+- author: Bramsh Qamar Chandio, Emanuele Olivetti, David Romero-Bascones, Sophia I.
+    Thomopoulos, Julio E. Villalon-Reina, Talia M. Nir, Jaroslaw Harezlak, Paul M.
+    Thompson, Eleftherios Garyfallidis
+  title: 'BundleWarp: Enhancing white matter tractometry and morphometry with precise
+    neuronal mapping using streamline-based nonlinear registration.'
+  venue: Medical Image Anal.
+  year: '2026'
+  type: Journal Articles
   access: closed
-  key: conf/cvpr/LinC24
-  doi: 10.1109/CVPR52733.2024.01468
-  ee: https://doi.org/10.1109/CVPR52733.2024.01468
-  url: https://dblp.org/rec/conf/cvpr/LinC24
-  abstract: Scene flow characterizes the 3D motion between two Li-DAR scans captured
-    by an autonomous vehicle at nearby timesteps. Prevalent methods consider scene
-    flow as point-wise unconstrained flow vectors that can be learned by either large-scale
-    training beforehand or time-consuming optimization at inference. However, these
-    methods do not take into account that objects in autonomous driving often move
-    rigidly. We incorporate this rigid-motion assumption into our design, where the
-    goal is to associate objects over scans and then estimate the locally rigid transformations.
-    We propose ICP-Flow, a learning-free flow estimator. The core of our design is
-    the conventional Iterative Closest Point (ICP) algorithm, which aligns the objects
-    over time and outputs the corresponding rigid transformations. Crucially, to aid
-    ICP, we propose a histogram-based initialization that discovers the most likely
-    translation, thus providing a good starting point for ICP. The complete scene
-    flow is then recovered from the rigid transformations. We outperform state-of-the-art
-    baselines, including supervised models, on the Waymo dataset and perform competitively
-    on Argoverse-v2 and nuScenes. Further, we train a feedforward neural network,
-    supervised by the pseudo labels from our model, and achieve top performance among
-    all models capable of real-time inference. We validate the advantage of our model
-    on scene flow estimation with longer temporal gaps, up to 0.4 seconds where other
-    models fail to deliver meaningful results.
-- author: Xin Luo, Xueming Fu, Zihang Jiang, S. Kevin Zhou
-  title: 'ICP: Immediate Compensation Pruning for Mid-to-high Sparsity.'
-  venue: CVPR
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/cvpr/LuoFJZ25
-  doi: 10.1109/CVPR52734.2025.00886
-  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Luo_ICP_Immediate_Compensation_Pruning_for_Mid-to-high_Sparsity_CVPR_2025_paper.html
-  url: https://dblp.org/rec/conf/cvpr/LuoFJZ25
-  abstract: The increasing adoption of large-scale models under 7 billion parameters
-    in both language and vision domains enables inference tasks on a single consumer-grade
-    GPU but makes fine-tuning models of this scale, especially 7B models, challenging.
-    This limits the applicability of pruning methods that require full fine-tuning.
-    Meanwhile, pruning methods that do not require fine-tuning perform well at low
-    sparsity levels (10%-50%) but struggle at mid-to-high sparsity levels (50%-70%),
-    where the error behaves equivalently to that of semi-structured pruning. To address
-    these issues, this paper introduces ICP, which finds a balance between full fine-tuning
-    and zero fine-tuning. First, Sparsity Rearrange is used to reorganize the predefined
-    sparsity levels, followed by Block-wise Compensate Pruning, which alternates pruning
-    and compensation on the model’s backbone, fully utilizing inference results while
-    avoiding full model fine-tuning. Experiments show that ICP improves performance
-    at mid-to-high sparsity levels compared to baselines, with only a slight increase
-    in pruning time and no additional peak memory overhead.
-ICP%20venue%3AMICCAI%3A: []
-iterative%20closest%20venue%3ACVPR%3A: []
-iterative%20closest%20venue%3AMICCAI%3A: []
+  key: journals/mia/ChandioORTVNHTG26
+  doi: 10.1016/J.MEDIA.2026.104114
+  ee: https://doi.org/10.1016/j.media.2026.104114
+  url: https://dblp.org/rec/journals/mia/ChandioORTVNHTG26
+  abstract: ''
+- author: Xingwen Fu, Yuqing Yang, Ruonan Wang, Yidi Cao, Yujie Ma, Xiaolin Ning
+  title: 'ISDR-Net: Interpretable Self-Supervised Differentiable Rendering Network
+    for monocular dynamic sensor-head pose tracking and registration.'
+  venue: Medical Image Anal.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/mia/FuYWCMN26
+  doi: 10.1016/J.MEDIA.2026.104084
+  ee: https://doi.org/10.1016/j.media.2026.104084
+  url: https://dblp.org/rec/journals/mia/FuYWCMN26
+  abstract: ''
+- author: Jia Mi, Caiwen Jiang, Xiaosong Xiong, Yulin Wang, Kaicong Sun, Xiaohuan
+    Cao, Dinggang Shen
+  title: Learning dual-scale context with overlap awareness for keypoint-driven partial-overlap
+    medical image registration.
+  venue: Medical Image Anal.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/mia/MiJXWSCS26
+  doi: 10.1016/J.MEDIA.2026.104100
+  ee: https://doi.org/10.1016/j.media.2026.104100
+  url: https://dblp.org/rec/journals/mia/MiJXWSCS26
+  abstract: ''
+- author: Wenyao Xia, Wes Hodges, Muhan Liu, Jonathan C. Lau, Terry M. Peters, Elvis
+    C. S. Chen
+  title: Calibration-free 3D-2D surface registration for image guided intervention.
+  venue: Medical Image Anal.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/mia/XiaHLLPC26
+  doi: 10.1016/J.MEDIA.2026.104092
+  ee: https://doi.org/10.1016/j.media.2026.104092
+  url: https://dblp.org/rec/journals/mia/XiaHLLPC26
+  abstract: ''

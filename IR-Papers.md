@@ -30,8 +30,12 @@
 
 - ARDMR: Adaptive recursive inference and representation disentanglement for multimodal large deformation registration. [[PUB](https://doi.org/10.1016/j.media.2025.103844)]
 - BIASNet: A bidirectional feature alignment and semantics-guided network for weakly-supervised medical image registration. [[PUB](https://doi.org/10.1016/j.media.2025.103913)]
+- BundleWarp: Enhancing white matter tractometry and morphometry with precise neuronal mapping using streamline-based nonlinear registration. [[PUB](https://doi.org/10.1016/j.media.2026.104114)]
+- Calibration-free 3D-2D surface registration for image guided intervention. [[PUB](https://doi.org/10.1016/j.media.2026.104092)]
 - DVAP-Reg: Dual-view anatomical prior-driven cross-dimensional registration for spinal surgery navigation. [[PUB](https://doi.org/10.1016/j.media.2025.103930)]
 - From model based to learned regularization in medical image registration: A comprehensive review. [[PUB](https://doi.org/10.1016/j.media.2025.103854)]
+- ISDR-Net: Interpretable Self-Supervised Differentiable Rendering Network for monocular dynamic sensor-head pose tracking and registration. [[PUB](https://doi.org/10.1016/j.media.2026.104084)]
+- Learning dual-scale context with overlap awareness for keypoint-driven partial-overlap medical image registration. [[PUB](https://doi.org/10.1016/j.media.2026.104100)]
 - ModeTv2: GPU-accelerated motion decomposition transformer for pairwise optimization in medical image registration. [[PUB](https://doi.org/10.1016/j.media.2025.103862)]
 - Robust non-rigid image-to-patient registration for contactless dynamic thoracic tumor localization using recursive deformable diffusion models. [[PUB](https://doi.org/10.1016/j.media.2026.103948)]
 - Spatio-temporal registration of multi-perspective 3D echocardiography for improved strain estimation. [[PUB](https://doi.org/10.1016/j.media.2025.103791)]
