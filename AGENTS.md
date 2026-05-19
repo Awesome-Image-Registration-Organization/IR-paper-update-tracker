@@ -85,11 +85,11 @@
 - `aggregated=True`: Returns only the topic heading with a `[+N]` count. Used to build the summary portion of the issue body.
 - `aggregated=False`: Returns the topic heading **plus** an unordered list of papers in the form:
   ```markdown
-  - {title}. [PUB]({ee})
+  - {title}. [[PUB]({ee})]
   ```
-  If `related_code` is present, a `[CODE]({related_code})` link is appended after `[PUB]` with a separating space:
+  If `related_code` is present, a `[[CODE]({related_code})]` link is appended after `[[PUB]({ee})]` with a separating space:
   ```markdown
-  - {title}. [PUB]({ee}) [CODE]({related_code})
+  - {title}. [[PUB]({ee})] [[CODE]({related_code})]
   ```
 - `get_topic_short_name` extracts the venue short name (the segment after the last `/`, or the whole name if no `/`) from a topic URL. Used for the Issue title.
 - `format_title_topics` joins short names with `, ` and truncates to ≤80 characters, appending `等N个` when truncated.
