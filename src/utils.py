@@ -114,6 +114,8 @@ GITHUB_URL_RE = re.compile(
     r"\bhttps?://github\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+(?:/[^\s)\]\"'<>]*)?",
     re.IGNORECASE,
 )
+HTTP_SUFFIX = "http"
+HTTPS_SUFFIX = "https"
 
 
 def extract_github_links(text: str) -> list[str]:
@@ -125,11 +127,11 @@ def extract_github_links(text: str) -> list[str]:
         link = match.group(0)
         # 当两个 URL 紧挨着（缺少分隔符）时，repo 末尾可能误拼接上后一个 URL 的 http/https 前缀
         # 例如: .../repohttps://github.com/...
-        if text[match.end() : match.end() + 3] == "://":
-            if link.endswith("https"):
-                link = link[:-5]
-            elif link.endswith("http"):
-                link = link[:-4]
+        if match.end() + 3 <= len(text) and text[match.end() : match.end() + 3] == "://":
+            if link.endswith(HTTPS_SUFFIX):
+                link = link[: -len(HTTPS_SUFFIX)]
+            elif link.endswith(HTTP_SUFFIX):
+                link = link[: -len(HTTP_SUFFIX)]
         raw_links.append(link)
     # 清理末尾常见标点；Markdown 闭合括号等尾部字符也由 rstrip() 一并处理
     cleaned = []
