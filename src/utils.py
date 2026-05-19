@@ -110,6 +110,80 @@ def deduplicate_items_by_title(items):
     return res
 
 
+GITHUB_URL_RE = re.compile(
+    r"\bhttps?://github\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+(?:/[^\s)\]\"'<>]*)?",
+    re.IGNORECASE,
+)
+HTTP_PROTOCOL = "http"
+HTTPS_PROTOCOL = "https"
+PROTOCOL_SEPARATOR = "://"
+
+
+def extract_github_links(text: str) -> list[str]:
+    """从文本中提取 GitHub 仓库链接，返回去重后的列表。"""
+    if not text:
+        return []
+    raw_links = []
+    for match in GITHUB_URL_RE.finditer(text):
+        link = match.group(0)
+        # If two URLs are adjacent without a separator, the regex may
+        # accidentally consume the next URL's scheme as part of the path.
+        # Example: .../repohttps://github.com/...
+        # Keep only the first URL by truncating at any embedded http/https
+        # scheme that appears after the initial scheme prefix.
+        embedded_scheme_starts = []
+        for protocol in (HTTPS_PROTOCOL, HTTP_PROTOCOL):
+            embedded_start = link.find(f"{protocol}{PROTOCOL_SEPARATOR}", 1)
+            if embedded_start != -1:
+                embedded_scheme_starts.append(embedded_start)
+        if embedded_scheme_starts:
+            link = link[: min(embedded_scheme_starts)]
+        raw_links.append(link)
+    # 清理末尾常见标点；Markdown 闭合括号等尾部字符也由 rstrip() 一并处理
+    cleaned = []
+    for link in raw_links:
+        link = link.rstrip(r".,;:!?')\]\"'<")
+        cleaned.append(link)
+    # 去重并保持顺序
+    seen = set()
+    result = []
+    for link in cleaned:
+        if link not in seen:
+            seen.add(link)
+            result.append(link)
+    return result
+
+
+def fetch_related_code_for_papers(papers):
+    """为论文列表批量提取 related_code（从 abstract 中检测 GitHub 链接）。
+
+    Args:
+        papers: 论文 dict 列表，每个 dict 应包含 abstract 字段。
+
+    Returns:
+        传入的 papers 列表（原地修改，为每个 dict 添加/更新 related_code 字段）。
+    """
+    changed = 0
+    skipped = 0
+    for paper in papers:
+        existing = (paper.get("related_code") or "").strip()
+        if existing:
+            skipped += 1
+            continue
+        abstract = (paper.get("abstract") or "").strip()
+        if not abstract:
+            paper["related_code"] = ""
+            continue
+        links = extract_github_links(abstract)
+        if links:
+            paper["related_code"] = links[0]
+            changed += 1
+        else:
+            paper["related_code"] = ""
+    logger.info(f"Related code extraction done. Changed: {changed}, Skipped: {skipped}")
+    return papers
+
+
 def filter_items_by_secondary_keywords(items, secondary_keywords):
     """根据二次关键词对论文列表进行过滤。
 
@@ -240,11 +314,18 @@ def get_msg(items, topic, aggregated=False):
     if aggregated == False:
         for item in items:
             ee = item.get("ee", "")
+            related_code = (item.get("related_code") or "").strip()
             if ee:
-                # 格式：- title. [PUB](ee超链接)
-                msg += f"- {item['title']}. [[PUB]({ee})]\\n"
+                if related_code:
+                    msg += f"- {item['title']}. [[PUB]({ee})] [[CODE]({related_code})]\\n"
+                else:
+                    # 格式：- title. [PUB](ee超链接)
+                    msg += f"- {item['title']}. [[PUB]({ee})]\\n"
             else:
-                msg += f"- {item['title']}.\\n"
+                if related_code:
+                    msg += f"- {item['title']}. [[CODE]({related_code})]\\n"
+                else:
+                    msg += f"- {item['title']}.\\n"
         msg += "\\n"
 
     msg = msg.replace("'", "")

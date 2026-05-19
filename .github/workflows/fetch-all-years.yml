@@ -35,6 +35,11 @@ jobs:
         run: |
           cd src && python main.py run --env=${{ env.RUN_ENV }} --all_years
 
+      - name: Fetch related code
+        run: |
+          python scripts/fetch_related_code.py
+        continue-on-error: true
+
       - name: Update IR-Papers.md
         run: |
           python scripts/convert_cache_to_md.py

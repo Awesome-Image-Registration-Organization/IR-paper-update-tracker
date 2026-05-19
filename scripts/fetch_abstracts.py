@@ -16,7 +16,7 @@ from pathlib import Path
 # 将 src 加入路径以便导入 utils
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
-from utils import fetch_abstract_for_papers, clean_abstract, translate_abstracts_for_papers
+from utils import fetch_abstract_for_papers, clean_abstract, translate_abstracts_for_papers, fetch_related_code_for_papers
 from loguru import logger
 import yaml
 import os
@@ -120,6 +120,7 @@ def run(year: str = None, retry_failed: bool = False, clean_only: bool = False) 
     fetch_abstract_for_papers(papers, sleep_sec=2.0, max_retries=4, contact_email=contact_email)
     api_key = os.getenv("DASHSCOPE_API_KEY", "")
     translate_abstracts_for_papers(papers, api_key=api_key, sleep_sec=0.5, max_retries=3)
+    fetch_related_code_for_papers(papers)
 
     # 写回缓存
     logger.info("Saving results...")
