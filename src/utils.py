@@ -470,6 +470,65 @@ def _fetch_semantic_scholar_abstract(doi: str, last_request_time: float, min_int
     return None, None, last_request_time
 
 
+def _fetch_openalex_abstract(doi: str, last_request_time: float, min_interval: float = 1.0, max_retries: int = 3, contact_email: str = ""):
+    """通过 OpenAlex API 获取 abstract，返回 (abstract_or_None, api_title_or_None, last_request_time)。"""
+    url = f"https://api.openalex.org/works/doi:{doi}"
+    # OpenAlex 推荐在 User-Agent 中包含 contact info 以进入 polite pool
+    agent = f"IR-paper-update-tracker/1.0 (mailto:{contact_email})" if contact_email else "IR-paper-update-tracker/1.0"
+    headers = {"User-Agent": agent, "Accept": "application/json"}
+
+    for attempt in range(1, max_retries + 1):
+        try:
+            resp, last_request_time = _rate_limited_request(
+                url, last_request_time, min_interval=min_interval, timeout=10, headers=headers
+            )
+            if resp.status_code in (404, 403):
+                return None, None, last_request_time
+            if resp.status_code == 429:
+                _sleep_for_retry("Rate limited (OpenAlex)", attempt, response=resp)
+                continue
+            resp.raise_for_status()
+            data = resp.json()
+
+            api_title = data.get("display_name")
+            if api_title:
+                api_title = str(api_title).strip() or None
+
+            abstract = None
+            raw_abstract = data.get("abstract")
+            if isinstance(raw_abstract, str) and raw_abstract.strip():
+                abstract = clean_abstract(raw_abstract)
+            elif isinstance(raw_abstract, dict) and "InvertedIndex" in raw_abstract:
+                # OpenAlex 返回的 abstract 可能是反转索引格式，需要重建为普通文本
+                inverted = raw_abstract["InvertedIndex"]
+                if inverted:
+                    max_pos = -1
+                    word_positions = {}
+                    for word, positions in inverted.items():
+                        for pos in positions:
+                            word_positions[pos] = word
+                            if pos > max_pos:
+                                max_pos = pos
+                    if max_pos >= 0:
+                        words = []
+                        for i in range(max_pos + 1):
+                            words.append(word_positions.get(i, ""))
+                        abstract = clean_abstract(" ".join(words))
+
+            if abstract:
+                return abstract, api_title, last_request_time
+            return None, api_title, last_request_time
+        except requests.exceptions.Timeout:
+            logger.warning(f"OpenAlex timeout for {doi}, attempt {attempt}")
+            if attempt < max_retries:
+                _sleep_for_retry("OpenAlex timeout", attempt)
+        except Exception as e:
+            logger.warning(f"OpenAlex attempt {attempt} failed for {doi}: {e}")
+            if attempt < max_retries:
+                _sleep_for_retry("OpenAlex failure", attempt)
+    return None, None, last_request_time
+
+
 def _fetch_arxiv_abstract(title: str, last_request_time: float, min_interval: float = 1.0, max_retries: int = 3):
     """通过 arXiv API 获取 abstract，返回 (abstract_or_None, api_title_or_None, last_request_time)。"""
     import xml.etree.ElementTree as ET
@@ -528,7 +587,7 @@ def fetch_abstract_for_papers(papers, sleep_sec=2.0, max_retries=4, contact_emai
         papers: 论文 dict 列表，每个 dict 应包含 doi、title 等字段。
         sleep_sec: 两次请求之间的最小间隔（秒），默认 2.0（从 1.0 提升以降低限速风险）。
         max_retries: 每个 API 的最大重试次数。
-        contact_email: 用于 Crossref User-Agent 的联系邮箱（可选）。
+        contact_email: 用于 Crossref / OpenAlex User-Agent 的联系邮箱（可选），填入后可进入 polite pool 降低被限速概率。
 
     Returns:
         传入的 papers 列表（原地修改，为每个 dict 添加/更新 abstract 字段）。
@@ -536,6 +595,7 @@ def fetch_abstract_for_papers(papers, sleep_sec=2.0, max_retries=4, contact_emai
     last_request_time = {
         "crossref": 0.0,
         "semanticscholar": 0.0,
+        "openalex": 0.0,
         "arxiv": 0.0,
     }
     success = 0
@@ -578,7 +638,20 @@ def fetch_abstract_for_papers(papers, sleep_sec=2.0, max_retries=4, contact_emai
                     )
                     abstract = None
 
-        # Crossref + SS 都失败，尝试 arXiv 作为最后补充
+            # Semantic Scholar 失败则尝试 OpenAlex
+            if not abstract:
+                abstract, api_title, last_request_time["openalex"] = _fetch_openalex_abstract(
+                    doi, last_request_time["openalex"], min_interval=sleep_sec, max_retries=max_retries,
+                    contact_email=contact_email
+                )
+                if abstract and api_title and not is_title_match(api_title, title):
+                    logger.warning(
+                        f"  -> OpenAlex title mismatch for DOI {doi}: "
+                        f"expected '{title[:80]}...', got '{api_title[:80]}...'"
+                    )
+                    abstract = None
+
+        # Crossref + SS + OpenAlex 都失败，尝试 arXiv 作为最后补充
         if not abstract and title:
             abstract, api_title, last_request_time["arxiv"] = _fetch_arxiv_abstract(
                 title, last_request_time["arxiv"], min_interval=max(sleep_sec, 3.0), max_retries=max_retries
