@@ -29,8 +29,10 @@ class Scaffold:
 
     def run(self, env: str = "dev", cfg: str | None = None, all_years: bool = False, primary_only: bool = False):
         if cfg is None:
-            cfg = str(Path(__file__).resolve().parent.parent / "config.yaml")
-        cfg = init(cfg_path=cfg)
+            cfg_path = str(Path(__file__).resolve().parent.parent / "config.yaml")
+        else:
+            cfg_path = cfg
+        cfg = init(cfg_path=cfg_path)
 
         logger.info(f"running with env: {env}, cfg: {cfg}, all_years: {all_years}, primary_only: {primary_only}")
 
@@ -56,10 +58,11 @@ class Scaffold:
 
         # 读取二次关键词配置（ezkfg 对嵌套 dict 支持不完善，直接用 PyYAML 读取）
         try:
-            with open(cfg, "r", encoding="utf-8") as f:
+            with open(cfg_path, "r", encoding="utf-8") as f:
                 raw_cfg = yaml.safe_load(f)
             secondary_keywords_map = raw_cfg.get("dblp", {}).get("secondary_keywords", {})
-        except Exception:
+        except Exception as e:
+            logger.warning(f"Failed to load secondary_keywords from config file {cfg_path}: {e}")
             secondary_keywords_map = {}
 
         aggregated_msg = ""
