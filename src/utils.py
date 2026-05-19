@@ -495,25 +495,29 @@ def _fetch_openalex_abstract(doi: str, last_request_time: float, min_interval: f
                 api_title = str(api_title).strip() or None
 
             abstract = None
-            raw_abstract = data.get("abstract")
-            if isinstance(raw_abstract, str) and raw_abstract.strip():
-                abstract = clean_abstract(raw_abstract)
-            elif isinstance(raw_abstract, dict) and "InvertedIndex" in raw_abstract:
-                # OpenAlex 返回的 abstract 可能是反转索引格式，需要重建为普通文本
-                inverted = raw_abstract["InvertedIndex"]
-                if inverted:
-                    max_pos = -1
-                    word_positions = {}
-                    for word, positions in inverted.items():
-                        for pos in positions:
-                            word_positions[pos] = word
-                            if pos > max_pos:
-                                max_pos = pos
-                    if max_pos >= 0:
-                        words = []
-                        for i in range(max_pos + 1):
-                            words.append(word_positions.get(i, ""))
-                        abstract = clean_abstract(" ".join(words))
+            inverted = data.get("abstract_inverted_index")
+            if not isinstance(inverted, dict):
+                raw_abstract = data.get("abstract")
+                if isinstance(raw_abstract, str) and raw_abstract.strip():
+                    abstract = clean_abstract(raw_abstract)
+                elif isinstance(raw_abstract, dict) and "InvertedIndex" in raw_abstract:
+                    # 兼容非标准/旧格式：abstract 中包含反转索引
+                    inverted = raw_abstract["InvertedIndex"]
+
+            if abstract is None and isinstance(inverted, dict) and inverted:
+                # OpenAlex work 记录通常在顶层 abstract_inverted_index 返回反转索引格式，需要重建为普通文本
+                max_pos = -1
+                word_positions = {}
+                for word, positions in inverted.items():
+                    for pos in positions:
+                        word_positions[pos] = word
+                        if pos > max_pos:
+                            max_pos = pos
+                if max_pos >= 0:
+                    words = []
+                    for i in range(max_pos + 1):
+                        words.append(word_positions.get(i, ""))
+                    abstract = clean_abstract(" ".join(words))
 
             if abstract:
                 return abstract, api_title, last_request_time
