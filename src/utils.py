@@ -127,14 +127,15 @@ def extract_github_links(text: str) -> list[str]:
     raw_links = []
     for match in GITHUB_URL_RE.finditer(text):
         link = match.group(0)
-        # 当两个 URL 紧挨着（缺少分隔符）时，repo 末尾可能误拼接上后一个 URL 的 http/https 前缀
-        # 例如: .../repohttps://github.com/...
+        # If two URLs are adjacent without a separator, the repo name may
+        # accidentally include the next URL's http/https prefix.
+        # Example: .../repohttps://github.com/...
         if (
             match.end() + PROTOCOL_SEPARATOR_LEN <= len(text)
             and text[match.end() : match.end() + PROTOCOL_SEPARATOR_LEN]
             == PROTOCOL_SEPARATOR
         ):
-            # 先判断 https，再判断 http，避免 https 被 http 分支误截断
+            # Check https before http to avoid trimming https as http.
             if link.endswith(HTTPS_PROTOCOL):
                 link = link[: -len(HTTPS_PROTOCOL)]
             elif link.endswith(HTTP_PROTOCOL):
