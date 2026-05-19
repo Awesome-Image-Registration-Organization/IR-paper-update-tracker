@@ -30307,7 +30307,7 @@ image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20ma
   type: Conference and Workshop Papers
   access: unavailable
   key: conf/ijcai/MulhemLL01
-  doi: ''
+  doi: 10.1007/978-3-642-14087-7_2
   ee: ''
   url: https://dblp.org/rec/conf/ijcai/MulhemLL01
   abstract: ''
@@ -30762,7 +30762,7 @@ image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20ma
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/JiangSWZSZL024
-  doi: ''
+  doi: 10.52202/079017-2425
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/8b54ecd9823fff6d37e61ece8f87e534-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/JiangSWZSZL024
   abstract: ''
@@ -30774,7 +30774,7 @@ image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20ma
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/MalardOLE24
-  doi: ''
+  doi: 10.52202/079017-1223
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/4426af45e987692abf1b80108951ff8a-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/MalardOLE24
   abstract: ''
@@ -30786,7 +30786,7 @@ image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20ma
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/YinGP0SDF24
-  doi: ''
+  doi: 10.52202/079017-1505
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/54dcf25318f9de5a7a01f0a4125c541e-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YinGP0SDF24
   abstract: ''
@@ -30797,7 +30797,7 @@ image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20ma
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/HuangWZW22
-  doi: ''
+  doi: 10.52202/068431-0573
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/3379ce104189b72d5f7baaa03ae81329-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/HuangWZW22
   abstract: ''
@@ -30822,7 +30822,7 @@ image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20ma
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/0001LBJY25
-  doi: ''
+  doi: 10.48550/arXiv.2506.05361
   ee: https://proceedings.mlr.press/v267/huang25t.html
   url: https://dblp.org/rec/conf/icml/0001LBJY25
   abstract: ''
@@ -30834,7 +30834,7 @@ image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20ma
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/RenYHSYC25
-  doi: ''
+  doi: 10.48550/arXiv.2412.15205
   ee: https://proceedings.mlr.press/v267/ren25e.html
   url: https://dblp.org/rec/conf/icml/RenYHSYC25
   abstract: ''
@@ -30883,7 +30883,7 @@ image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20ma
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/MartinGHS25
-  doi: ''
+  doi: 10.1109/wacv61042.2026.00480
   ee: https://openreview.net/forum?id=5AtHrq3B5R
   url: https://dblp.org/rec/conf/iclr/MartinGHS25
   abstract: ''
@@ -35203,7 +35203,7 @@ optical%20flow%7Cscene%20flow%20venue%3AIJCAI%3A:
   type: Conference and Workshop Papers
   access: unavailable
   key: conf/ijcai/Prazdny79
-  doi: ''
+  doi: 10.1109/cvpr.1994.323934
   ee: ''
   url: https://dblp.org/rec/conf/ijcai/Prazdny79
   abstract: ''
@@ -35607,7 +35607,7 @@ optical%20flow%7Cscene%20flow%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/SunLLLL024
-  doi: ''
+  doi: 10.52202/079017-0292
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/116a952bc0a8cb03113408c1a215be7c-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/SunLLLL024
   abstract: ''
@@ -35618,7 +35618,7 @@ optical%20flow%7Cscene%20flow%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LuoWMLD23
-  doi: ''
+  doi: 10.52202/075280-1020
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/49f42aafbcce59b2665640cb9f3d794f-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LuoWMLD23
   abstract: ''
@@ -35629,7 +35629,7 @@ optical%20flow%7Cscene%20flow%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/PanGO23
-  doi: ''
+  doi: 10.52202/075280-0013
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/00ed9ab006311be67879ecef8f80d7c5-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/PanGO23
   abstract: ''
@@ -35642,7 +35642,7 @@ optical%20flow%7Cscene%20flow%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/SaxenaHHK0SF23
-  doi: ''
+  doi: 10.52202/075280-1713
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/7c119415672ae2186e17d492e1d5da2f-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/SaxenaHHK0SF23
   abstract: ''
@@ -35655,7 +35655,7 @@ optical%20flow%7Cscene%20flow%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/XiaD0Z0Y0X23
-  doi: ''
+  doi: 10.52202/075280-2085
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/96810b6d4752abe7bfb91f234c51e9e6-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/XiaD0Z0Y0X23
   abstract: ''
@@ -35667,7 +35667,7 @@ optical%20flow%7Cscene%20flow%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/0010X0YF022
-  doi: ''
+  doi: 10.52202/068431-0574
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/33951c28630e48c441cb59db356f2037-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/0010X0YF022
   abstract: ''
@@ -35679,7 +35679,7 @@ optical%20flow%7Cscene%20flow%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LeroyT22
-  doi: ''
+  doi: 10.52202/068431-2038
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/b4005da5affc3ba527dcb992495ecd20-Abstract-Datasets_and_Benchmarks.html
   url: https://dblp.org/rec/conf/nips/LeroyT22
   abstract: ''
@@ -35690,7 +35690,7 @@ optical%20flow%7Cscene%20flow%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/SunCZGL22
-  doi: ''
+  doi: 10.52202/068431-0822
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/4990dad2c1696224de42573d0222554a-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/SunCZGL22
   abstract: ''
@@ -35702,7 +35702,7 @@ optical%20flow%7Cscene%20flow%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/HagenaarsPC21
-  doi: ''
+  doi: 10.1109/iros51168.2021.9635975
   ee: https://proceedings.neurips.cc/paper/2021/hash/39d4b545fb02556829aab1db805021c3-Abstract.html
   url: https://dblp.org/rec/conf/nips/HagenaarsPC21
   abstract: ''
@@ -35736,7 +35736,7 @@ optical%20flow%7Cscene%20flow%20venue%3AICML%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/FischerPWI24
-  doi: ''
+  doi: 10.48550/arXiv.2405.14599
   ee: https://proceedings.mlr.press/v235/fischer24b.html
   url: https://dblp.org/rec/conf/icml/FischerPWI24
   abstract: ''
@@ -40348,7 +40348,7 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AIJCAI%3A:
   type: Conference and Workshop Papers
   access: unavailable
   key: conf/ijcai/HermanKK83
-  doi: ''
+  doi: 10.1016/b978-0-08-051581-6.50048-9
   ee: ''
   url: https://dblp.org/rec/conf/ijcai/HermanKK83
   abstract: ''
@@ -40436,7 +40436,7 @@ stitch%7Cpanorama%7Cmosaic%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/XieZLZJ24
-  doi: ''
+  doi: 10.52202/079017-3935
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/dfa1106ea7065899b13f2be9da04efb4-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/XieZLZJ24
   abstract: ''
@@ -40462,7 +40462,7 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AICML%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/BaekPPO025
-  doi: ''
+  doi: 10.48550/arXiv.2506.07744
   ee: https://proceedings.mlr.press/v267/baek25a.html
   url: https://dblp.org/rec/conf/icml/BaekPPO025
   abstract: ''
@@ -40475,7 +40475,7 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AICLR%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/KalischekOMHST25
-  doi: ''
+  doi: 10.48550/arXiv.2501.17162
   ee: https://openreview.net/forum?id=M2SsqpxGtc
   url: https://dblp.org/rec/conf/iclr/KalischekOMHST25
   abstract: ''
@@ -42717,7 +42717,7 @@ motion%20correction%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/BoussardVLDP21
-  doi: ''
+  doi: 10.1101/2021.11.05.467503
   ee: https://proceedings.neurips.cc/paper/2021/hash/b950ea26ca12daae142bd74dba4427c8-Abstract.html
   url: https://dblp.org/rec/conf/nips/BoussardVLDP21
   abstract: ''
@@ -42732,7 +42732,7 @@ motion%20correction%20venue%3AICLR%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/WuDTYZW25
-  doi: ''
+  doi: 10.48550/arXiv.2409.16921
   ee: https://openreview.net/forum?id=OdnqG1fYpo
   url: https://dblp.org/rec/conf/iclr/WuDTYZW25
   abstract: ''
@@ -43706,7 +43706,7 @@ deformation%20field%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/JiangDLZLML024
-  doi: ''
+  doi: 10.52202/079017-2979
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/aa9508b2577e0d9c824da9e2e27fe9d6-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/JiangDLZLML024
   abstract: ''
@@ -43717,7 +43717,7 @@ deformation%20field%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/KairandaHTG24
-  doi: ''
+  doi: 10.52202/079017-3509
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/c7649eeb93d2fad0ced9a3b974260710-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/KairandaHTG24
   abstract: ''
@@ -43730,7 +43730,7 @@ deformation%20field%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/PengYLCGPZY22
-  doi: ''
+  doi: 10.52202/068431-2277
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/cb78e6b5246b03e0b82b4acc8b11cc21-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/PengYLCGPZY22
   abstract: ''
@@ -43742,7 +43742,7 @@ deformation%20field%20venue%3ANeurIPS%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/SundararamanMRO22
-  doi: ''
+  doi: 10.52202/068431-0756
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/43d1d3bdd92204c96fa4ac3c578f6a33-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/SundararamanMRO22
   abstract: ''
@@ -43755,7 +43755,7 @@ deformation%20field%20venue%3AICML%3A:
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/KooYLHY25
-  doi: ''
+  doi: 10.48550/arXiv.2507.08285
   ee: https://proceedings.mlr.press/v267/koo25a.html
   url: https://dblp.org/rec/conf/icml/KooYLHY25
   abstract: ''
