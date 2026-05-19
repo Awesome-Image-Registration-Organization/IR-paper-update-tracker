@@ -52,6 +52,11 @@ jobs:
           python scripts/fetch_abstracts.py
         continue-on-error: true
 
+      - name: Fetch related code
+        run: |
+          python scripts/fetch_related_code.py
+        continue-on-error: true
+
       - name: Update IR-Papers.md
         run: |
           python scripts/convert_cache_to_md.py

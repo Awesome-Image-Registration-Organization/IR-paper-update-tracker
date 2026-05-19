@@ -11,9 +11,11 @@
 2. `src/main.py` reads `config.yaml` → takes `dblp.keywords` (a list of search keyword groups) and `dblp.queries` (plain venue restrictions), assembles fully URL-encoded DBLP search topics, and queries the DBLP search API. In **automatic runs** (`schedule` / `push`), the `--primary_only` flag is active: only the first keyword (`registra`) is used to scan all venues; venues where `registra` discovers **new papers** are then re-scanned with the remaining keywords. This reduces API calls. **Manual runs** (`workflow_dispatch`) use all keywords for all venues.
 3. Extracted paper metadata is **filtered by year** (last 3 years + next 1 year), optionally **filtered by secondary keywords** (see `config.yaml`), **deduplicated by both `ee` and `title`**, and **globally deduplicated across topics** via seen `ee`/`title` sets.
 4. New papers (not yet in `cached/dblp.yaml`) are collected, formatted as Markdown, and written to the `GITHUB_ENV` variable `MSG`.
-5. `scripts/convert_cache_to_md.py` regenerates `IR-Papers.md` from the updated cache.
-6. If new papers exist, the action `JasonEtco/create-an-issue@v2` creates a GitHub Issue using `.github/issue-template.md`.
-7. Both `cached/dblp.yaml` and `IR-Papers.md` are committed back to the repo so that subsequent runs know what has already been reported.
+5. `scripts/fetch_abstracts.py` backfills missing abstracts and Chinese translations for current-year papers.
+6. `scripts/fetch_related_code.py` scans all papers and extracts GitHub repository links from abstracts into the `related_code` field.
+7. `scripts/convert_cache_to_md.py` regenerates `IR-Papers.md` from the updated cache.
+8. If new papers exist, the action `JasonEtco/create-an-issue@v2` creates a GitHub Issue using `.github/issue-template.md`.
+9. Both `cached/dblp.yaml` and `IR-Papers.md` are committed back to the repo so that subsequent runs know what has already been reported.
 
 ## Tech Stack
 
@@ -40,6 +42,7 @@
 │   ├── convert_cache_to_md.py       # Converts cache to structured Markdown (domain-specific maps)
 │   ├── fetch_abstracts.py           # Backfill/refresh paper abstracts via external APIs
 │   ├── fetch_dois.py                # Backfill missing DOIs via DBLP / Crossref / Semantic Scholar
+│   ├── fetch_related_code.py        # Extract GitHub repo links from abstracts into related_code
 │   ├── dedup_cache_by_title.py      # Deduplicate cache entries by title
 │   └── dedup_cache_global.py        # Global cross-topic deduplication for the cache
 ├── src/
@@ -71,8 +74,9 @@
 
 ### 3. Cache Format (`cached/dblp.yaml`)
 - Top-level keys: URL-encoded DBLP search topics (e.g., `registra%20venue%3ADAC%3A:`).
-- Each key maps to a list of paper dicts with fields: `author`, `title`, `venue`, `year`, `type`, `access`, `key`, `doi`, `ee`, `url`, `abstract`.
+- Each key maps to a list of paper dicts with fields: `author`, `title`, `venue`, `year`, `type`, `access`, `key`, `doi`, `ee`, `url`, `abstract`, `abstract_cn`, `related_code`.
   - `abstract`  may be empty for legacy entries; use `scripts/fetch_abstracts.py` to backfill it.
+  - `related_code` stores the first GitHub repository URL found in the abstract (empty string if none).
 - The file is overwritten after every successful run.
 - **Agent Note**: If you add new fields to the paper dict, ensure backward compatibility; old cache entries missing the new field should be handled gracefully.
 
@@ -82,6 +86,10 @@
 - `aggregated=False`: Returns the topic heading **plus** an unordered list of papers in the form:
   ```markdown
   - {title}. [PUB]({ee})
+  ```
+  If `related_code` is present, a `[CODE]({related_code})` link is appended after `[PUB]` with a separating space:
+  ```markdown
+  - {title}. [PUB]({ee}) [CODE]({related_code})
   ```
 - `get_topic_short_name` extracts the venue short name (the segment after the last `/`, or the whole name if no `/`) from a topic URL. Used for the Issue title.
 - `format_title_topics` joins short names with `, ` and truncates to ≤80 characters, appending `等N个` when truncated.
@@ -155,7 +163,21 @@ dblp:
   python scripts/fetch_abstracts.py --retry-failed
   ```
 - **Automatic abstract fetching**: `src/main.py` already calls `fetch_abstract_for_papers()` for every batch of new papers before saving the cache, so newly discovered papers get their abstracts filled automatically during the daily GitHub Actions run.
+- **Automatic related code extraction**: After a non-empty English `abstract` is obtained (either in `main.py` for new papers or in `fetch_abstracts.py` for backfilled ones), `fetch_related_code_for_papers()` scans the abstract for GitHub repository URLs using a regex and stores the first match in `related_code`.
 - **Automatic Chinese translation**: After a non-empty English `abstract` is obtained, `translate_abstracts_for_papers()` calls **Qwen-MT-plus** (via the Alibaba Cloud Bailian OpenAI-compatible API) to translate the abstract into Chinese, storing it as `abstract_cn`. Translation is skipped if the `DASHSCOPE_API_KEY` environment variable is missing, and individual translation failures do not block the pipeline.
+
+### Backfilling Related Code for Existing Papers
+- A standalone script `scripts/fetch_related_code.py` is provided to backfill missing `related_code` fields for papers already in `cached/dblp.yaml`.
+- It scans the `abstract` field of each paper using a regex (`\bhttps?://github\.com/...`) and stores the first matching GitHub URL in `related_code`. No external API calls are made, so the process is fast.
+- The cache is backed up to `cached/dblp.yaml.bak` before each overwrite; `*.bak` files are ignored by git (see `.gitignore`).
+- Usage:
+  ```bash
+  # Process all years (default)
+  python scripts/fetch_related_code.py
+  # Process only a specific year
+  python scripts/fetch_related_code.py --year 2025
+  ```
+- **Automatic related code extraction**: `src/main.py` and `scripts/fetch_abstracts.py` already call `fetch_related_code_for_papers()` for every batch of papers that receive new abstracts, so newly discovered or backfilled papers get their `related_code` filled automatically.
 
 ### Backfilling DOIs for Existing Papers
 - A standalone script `scripts/fetch_dois.py` is provided to backfill missing `doi` fields for papers already in `cached/dblp.yaml`.
@@ -232,6 +254,9 @@ python main.py run --env=dev --all_years
 
 # Simulate automatic run with primary-only mode (scans secondary keywords only on venues where registra finds new papers)
 python main.py run --env=dev --primary_only
+
+# Backfill related_code for all existing papers
+python scripts/fetch_related_code.py
 ```
 
 In `dev` mode the script will:

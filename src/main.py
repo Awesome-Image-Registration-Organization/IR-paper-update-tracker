@@ -7,6 +7,7 @@ from utils import (
     format_title_topics, fetch_abstract_for_papers,
     translate_abstracts_for_papers,
     filter_items_by_secondary_keywords,
+    fetch_related_code_for_papers,
 )
 import yaml
 import datetime
@@ -151,6 +152,7 @@ class Scaffold:
                 fetch_abstract_for_papers(new_items, sleep_sec=2.0, max_retries=4, contact_email=contact_email)
                 api_key = os.getenv("DASHSCOPE_API_KEY", "")
                 translate_abstracts_for_papers(new_items, api_key=api_key, sleep_sec=0.5, max_retries=3)
+                fetch_related_code_for_papers(new_items)
 
             # 将新论文追加到缓存中（已保证无 ee/title 重复）
             dblp_cache[topic].extend(new_items)
