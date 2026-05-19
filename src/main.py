@@ -28,10 +28,7 @@ class Scaffold:
         pass
 
     def run(self, env: str = "dev", cfg: str | None = None, all_years: bool = False, primary_only: bool = False):
-        if cfg is None:
-            cfg_path = str(Path(__file__).resolve().parent.parent / "config.yaml")
-        else:
-            cfg_path = cfg
+        cfg_path = cfg if cfg is not None else str(Path(__file__).resolve().parent.parent / "config.yaml")
         cfg = init(cfg_path=cfg_path)
 
         logger.info(f"running with env: {env}, cfg: {cfg}, all_years: {all_years}, primary_only: {primary_only}")
@@ -62,7 +59,10 @@ class Scaffold:
                 raw_cfg = yaml.safe_load(f)
             secondary_keywords_map = raw_cfg.get("dblp", {}).get("secondary_keywords", {})
         except Exception as e:
-            logger.warning(f"Failed to load secondary_keywords from config file {cfg_path}: {e}")
+            logger.warning(
+                f"Failed to load secondary_keywords from config file {cfg_path}: {e}. "
+                "Proceeding with empty secondary_keywords map."
+            )
             secondary_keywords_map = {}
 
         aggregated_msg = ""
