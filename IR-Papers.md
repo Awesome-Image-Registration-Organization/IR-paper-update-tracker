@@ -749,7 +749,7 @@
 - Anatomically constrained and attention-guided deep feature fusion for joint segmentation and deformable medical image registration. [[PUB](https://doi.org/10.1016/j.media.2023.102811)]
 - Colonoscopy 3D video dataset with paired depth from 2D-3D registration. [[PUB](https://doi.org/10.1016/j.media.2023.102956)]
 - DragNet: Learning-based deformable registration for realistic cardiac MR sequence generation from a single frame. [[PUB](https://doi.org/10.1016/j.media.2022.102678)]
-- DuSFE: Dual-Channel Squeeze-Fusion-Excitation co-attention for cross-modality registration of cardiac SPECT and CT. [[PUB](https://doi.org/10.1016/j.media.2023.102840)] [[CODE](https://github.com/XiongchaoChen/DuSFE_CrossRegistrationhttps)]
+- DuSFE: Dual-Channel Squeeze-Fusion-Excitation co-attention for cross-modality registration of cardiac SPECT and CT. [[PUB](https://doi.org/10.1016/j.media.2023.102840)] [[CODE](https://github.com/XiongchaoChen/DuSFE_CrossRegistration)]
 - PC-Reg: A pyramidal prediction-correction approach for large deformation image registration. [[PUB](https://doi.org/10.1016/j.media.2023.102978)]
 - Prototypical few-shot segmentation for cross-institution male pelvic structures with spatial registration. [[PUB](https://doi.org/10.1016/j.media.2023.102935)]
 - QACL: Quartet attention aware closed-loop learning for abdominal MR-to-CT synthesis via simultaneous registration. [[PUB](https://doi.org/10.1016/j.media.2022.102692)]
