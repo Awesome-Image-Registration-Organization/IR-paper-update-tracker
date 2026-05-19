@@ -126,14 +126,18 @@ def extract_github_links(text: str) -> list[str]:
     raw_links = []
     for match in GITHUB_URL_RE.finditer(text):
         link = match.group(0)
-        # If two URLs are adjacent without a separator, the repo name may
-        # accidentally include the next URL's http/https prefix.
+        # If two URLs are adjacent without a separator, the regex may
+        # accidentally consume the next URL's scheme as part of the path.
         # Example: .../repohttps://github.com/...
-        if match.end() < len(text) and text[match.end() :].startswith(PROTOCOL_SEPARATOR):
-            for protocol in (HTTPS_PROTOCOL, HTTP_PROTOCOL):
-                if link.endswith(protocol):
-                    link = link.removesuffix(protocol)
-                    break
+        # Keep only the first URL by truncating at any embedded http/https
+        # scheme that appears after the initial scheme prefix.
+        embedded_scheme_starts = []
+        for protocol in (HTTPS_PROTOCOL, HTTP_PROTOCOL):
+            embedded_start = link.find(f"{protocol}{PROTOCOL_SEPARATOR}", 1)
+            if embedded_start != -1:
+                embedded_scheme_starts.append(embedded_start)
+        if embedded_scheme_starts:
+            link = link[: min(embedded_scheme_starts)]
         raw_links.append(link)
     # 清理末尾常见标点；Markdown 闭合括号等尾部字符也由 rstrip() 一并处理
     cleaned = []
