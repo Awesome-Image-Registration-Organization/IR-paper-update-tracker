@@ -31,7 +31,9 @@ class Scaffold:
         cfg_path = cfg if cfg is not None else str(Path(__file__).resolve().parent.parent / "config.yaml")
         cfg = init(cfg_path=cfg_path)
 
-        logger.info(f"running with env: {env}, cfg: {cfg}, all_years: {all_years}, primary_only: {primary_only}")
+        logger.info(
+            f"running with env: {env}, cfg_path: {cfg_path}, all_years: {all_years}, primary_only: {primary_only}"
+        )
 
         # dblp
 
