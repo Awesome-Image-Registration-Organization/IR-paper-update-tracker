@@ -26323,7 +26323,7 @@ registra%20venue%3AMedical_Image_Anal.%3A:
     existing methods. We also showed that the DuSFE-embedded network did not over-correct
     or degrade the registration performance of motion-free cases. The source code
     of this work is available at https://github.com/XiongchaoChen/DuSFE_CrossRegistrationhttps://github.com/XiongchaoChen/DuSFE_CrossRegistration.
-  related_code: https://github.com/XiongchaoChen/DuSFE_CrossRegistrationhttps
+  related_code: https://github.com/XiongchaoChen/DuSFE_CrossRegistration
 - author: Steffen Czolbe, Paraskevas Pegios, Oswin Krause, Aasa Feragen
   title: Semantic similarity metrics for image registration.
   venue: Medical Image Anal.
