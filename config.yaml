@@ -10,6 +10,14 @@ dblp:
     - "atlas construction"
     - "motion correction"
     - "deformation field"
+  secondary_keywords:
+    "stitch|panorama|mosaic":
+      - "image"
+      - "video"
+      - "graph"
+      - "point"
+      - "camera"
+      - "3D"
   queries:
     - "venue:IJCAI:"
     - "venue:AAAI:"

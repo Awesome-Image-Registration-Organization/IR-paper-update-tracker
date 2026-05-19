@@ -9,7 +9,7 @@
 ### High-Level Workflow
 1. GitHub Actions runs the tracker once per day (cron: `0 0 * * *`) and on every push to `main`. A separate manually-triggered workflow (`.github/workflows/fetch-all-years.yml`) is also available to collect papers from **all years** without the default 3-year window.
 2. `src/main.py` reads `config.yaml` → takes `dblp.keywords` (a list of search keyword groups) and `dblp.queries` (plain venue restrictions), assembles fully URL-encoded DBLP search topics, and queries the DBLP search API. In **automatic runs** (`schedule` / `push`), the `--primary_only` flag is active: only the first keyword (`registra`) is used to scan all venues; venues where `registra` discovers **new papers** are then re-scanned with the remaining keywords. This reduces API calls. **Manual runs** (`workflow_dispatch`) use all keywords for all venues.
-3. Extracted paper metadata is **filtered by year** (last 3 years + next 1 year), **deduplicated by both `ee` and `title`**, and **globally deduplicated across topics** via seen `ee`/`title` sets.
+3. Extracted paper metadata is **filtered by year** (last 3 years + next 1 year), optionally **filtered by secondary keywords** (see `config.yaml`), **deduplicated by both `ee` and `title`**, and **globally deduplicated across topics** via seen `ee`/`title` sets.
 4. New papers (not yet in `cached/dblp.yaml`) are collected, formatted as Markdown, and written to the `GITHUB_ENV` variable `MSG`.
 5. `scripts/convert_cache_to_md.py` regenerates `IR-Papers.md` from the updated cache.
 6. If new papers exist, the action `JasonEtco/create-an-issue@v2` creates a GitHub Issue using `.github/issue-template.md`.
@@ -114,8 +114,18 @@ dblp:
 ```
 - `keywords`: List of search keyword groups. Each keyword is prepended to every DBLP query. The runner iterates over all `keywords × queries` combinations. `src/main.py` is backward-compatible: if `keywords` is absent, it falls back to the legacy single `keyword` string.
 - `queries`: Plain (not URL-encoded) DBLP venue restrictions; `src/main.py` combines each `keyword + query` and URL-encodes at runtime.
+- `secondary_keywords`: Optional per-keyword secondary verification. For keyword groups that are overly broad (e.g., `stitch|panorama|mosaic`), you can define a list of secondary keywords. After DBLP returns results, papers whose `title` + `abstract` do not contain at least one secondary keyword are discarded. This reduces noise from unrelated domains. Example:
+  ```yaml
+  secondary_keywords:
+    "stitch|panorama|mosaic":
+      - "image"
+      - "video"
+      - "graph"
+      - "point"
+  ```
+  Matching rules: `image`/`video`/`graph`/`camera` use word-boundary prefix (`\bimage` matches `image`, `images`, `imaging`…); other keywords use substring match (`point` matches `keypoint`, `viewpoint`…).
 - `mails`: The first email address (`mails[0]`) is used as the `contact_email` for the Crossref API User-Agent (`mailto:...`), which is recommended for polite API access. Additional addresses are reserved for future mail-notification features.
-- **Agent Note**: When adding a new venue, find its DBLP query syntax (venue code or stream ID) and append it to `dblp.queries` in plain form. When adding a new keyword group, prefer independent keywords over `|` joining multiple low-frequency two-word phrases, because DBLP can incorrectly return zero results for such combinations (see `dblp-search-keywords.md`).
+- **Agent Note**: When adding a new venue, find its DBLP query syntax (venue code or stream ID) and append it to `dblp.queries` in plain form. When adding a new keyword group, prefer independent keywords over `|` joining multiple low-frequency two-word phrases, because DBLP can incorrectly return zero results for such combinations (see `dblp-search-keywords.md`). If the new keyword group is broad and prone to noise, consider adding a corresponding `secondary_keywords` entry.
 
 ## Maintenance Notes
 

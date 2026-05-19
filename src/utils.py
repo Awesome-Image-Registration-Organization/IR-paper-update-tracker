@@ -110,6 +110,47 @@ def deduplicate_items_by_title(items):
     return res
 
 
+def filter_items_by_secondary_keywords(items, secondary_keywords):
+    """根据二次关键词对论文列表进行过滤。
+
+    保留 title 或 abstract 中包含任意一个 secondary_keywords 的论文。
+    匹配规则：
+      - image 系列：\bimage 匹配 image, images, imaging, imagery, image-based 等
+      - video 系列：\bvideo 匹配 video, videos, videography 等
+      - graph 系列：\bgraph 匹配 graph, graphics, graphical, graph-based 等
+      - camera 系列：\bcamera 匹配 camera, cameras 等
+      - 3D 系列：\b3D 匹配 3D, 3d, 3-D 等（不会误触 Mosaic3D、23D 等）
+      - point 系列：point 子串匹配 point, keypoint, viewpoint, pointcloud 等
+    Args:
+        items: 论文 dict 列表。
+        secondary_keywords: 二次关键词列表，如 ["image", "video", "graph", "point"]。
+    Returns:
+        过滤后的论文列表。
+    """
+    if not secondary_keywords:
+        return items
+
+    # 将关键词转换为正则模式：image/video/graph 用 \b 前缀，point 用子串匹配
+    pattern_parts = []
+    for kw in secondary_keywords:
+        kw_lower = kw.lower()
+        if kw_lower in ("image", "video", "graph"):
+            pattern_parts.append(r"\b" + re.escape(kw_lower))
+        else:
+            pattern_parts.append(re.escape(kw_lower))
+
+    pattern = re.compile("|".join(pattern_parts), re.IGNORECASE)
+
+    filtered = []
+    for item in items:
+        text = f"{item.get('title', '')} {item.get('abstract', '')}"
+        if pattern.search(text):
+            filtered.append(item)
+        else:
+            logger.debug(f"Secondary keyword filter removed: {item.get('title', '')}")
+    return filtered
+
+
 def get_dblp_items(dblp_data):
     try:
         items = dblp_data["result"]["hits"]["hit"]

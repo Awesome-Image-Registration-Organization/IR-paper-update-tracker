@@ -40341,17 +40341,6 @@ optical%20flow%7Cscene%20flow%20venue%3AMedical_Image_Anal.%3A:
   url: https://dblp.org/rec/journals/mia/SchneiderPVMNH12a
   abstract: ''
 stitch%7Cpanorama%7Cmosaic%20venue%3AIJCAI%3A:
-- author: Jintai Chen, Xiangshang Zheng, Hongyun Yu, Danny Z. Chen, Jian Wu 0001
-  title: 'Electrocardio Panorama: Synthesizing New ECG views with Self-supervision.'
-  venue: IJCAI
-  year: '2021'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/ijcai/ChenZYCW21
-  doi: 10.24963/IJCAI.2021/495
-  ee: https://doi.org/10.24963/ijcai.2021/495
-  url: https://dblp.org/rec/conf/ijcai/ChenZYCW21
-  abstract: ''
 - author: Martin Herman, Takeo Kanade, Shigeru Kuroe
   title: The 3D MOSAIC Scene Understanding System.
   venue: IJCAI
@@ -40364,78 +40353,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AIJCAI%3A:
   url: https://dblp.org/rec/conf/ijcai/HermanKK83
   abstract: ''
 stitch%7Cpanorama%7Cmosaic%20venue%3AAAAI%3A:
-- author: Ketong Chen, Yuhao Chen, Yang Xue
-  title: 'MosaicDoc: A Large-Scale Bilingual Benchmark for Visually Rich Document
-    Understanding.'
-  venue: AAAI
-  year: '2026'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/aaai/ChenCX26
-  doi: 10.1609/AAAI.V40I4.37282
-  ee: https://doi.org/10.1609/aaai.v40i4.37282
-  url: https://dblp.org/rec/conf/aaai/ChenCX26
-  abstract: ''
-- author: Wentao Hu, Mingkuan Zhao, Shuangyong Song, Xiaoyan Zhu 0003, Xin Lai 0003,
-    Jiayin Wang 0002
-  title: 'Mosaic Pruning: A Hierarchical Framework for Generalizable Pruning of Mixture-of-Experts
-    Models.'
-  venue: AAAI
-  year: '2026'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/aaai/HuZSZLW26
-  doi: 10.1609/AAAI.V40I26.39341
-  ee: https://doi.org/10.1609/aaai.v40i26.39341
-  url: https://dblp.org/rec/conf/aaai/HuZSZLW26
-  abstract: ''
-- author: Minho Park 0003, Taewoong Kang, Jooyeol Yun, Sungwon Hwang, Jaegul Choo
-  title: 'SphereDiff: Tuning-free 360° Static and Dynamic Panorama Generation via
-    Spherical Latent Representation.'
-  venue: AAAI
-  year: '2026'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/aaai/ParkKYHC26
-  doi: 10.1609/AAAI.V40I10.37779
-  ee: https://doi.org/10.1609/aaai.v40i10.37779
-  url: https://dblp.org/rec/conf/aaai/ParkKYHC26
-  abstract: ''
-- author: Dong-Hee Shin, Deok-Joong Lee, Young-Han Son, Tae-Eui Kam
-  title: Treatment Stitching with Schrödinger Bridge for Enhancing Offline Reinforcement
-    Learning in Adaptive Treatment Strategies.
-  venue: AAAI
-  year: '2026'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/aaai/ShinLSK26
-  doi: 10.1609/AAAI.V40I21.38826
-  ee: https://doi.org/10.1609/aaai.v40i21.38826
-  url: https://dblp.org/rec/conf/aaai/ShinLSK26
-  abstract: ''
-- author: Haoyi Zhong, Fang-Lue Zhang, Andrew Chalmers, Taehyun Rhee
-  title: 'SE360: Semantic Edit in 360° Panoramas via Hierarchical Data Construction.'
-  venue: AAAI
-  year: '2026'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/aaai/ZhongZCR26
-  doi: 10.1609/AAAI.V40I16.38356
-  ee: https://doi.org/10.1609/aaai.v40i16.38356
-  url: https://dblp.org/rec/conf/aaai/ZhongZCR26
-  abstract: ''
-- author: András Balogh, Márk Jelasity
-  title: 'How Not to Stitch Representations to Measure Similarity: Task Loss Matching
-    Versus Direct Matching.'
-  venue: AAAI
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/aaai/BaloghJ25
-  doi: 10.1609/AAAI.V39I15.33698
-  ee: https://doi.org/10.1609/aaai.v39i15.33698
-  url: https://dblp.org/rec/conf/aaai/BaloghJ25
-  abstract: ''
 - author: Wenxiao Cai, Wankou Yang
   title: Object-level Geometric Structure Preserving for Natural Image Stitching.
   venue: AAAI
@@ -40472,18 +40389,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AAAAI%3A:
   ee: https://doi.org/10.1609/aaai.v38i3.28036
   url: https://dblp.org/rec/conf/aaai/Jiang000L24
   abstract: ''
-- author: Sungyoon Kim, Yunseon Choi, Daiki E. Matsunaga, Kee-Eung Kim
-  title: Stitching Sub-trajectories with Conditional Diffusion Model for Goal-Conditioned
-    Offline RL.
-  venue: AAAI
-  year: '2024'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/aaai/KimCMK24
-  doi: 10.1609/AAAI.V38I12.29215
-  ee: https://doi.org/10.1609/aaai.v38i12.29215
-  url: https://dblp.org/rec/conf/aaai/KimCMK24
-  abstract: ''
 - author: Fan Ma, Xiaojie Jin, Heng Wang, Jingjia Huang, Linchao Zhu, Yi Yang 0001
   title: Stitching Segments and Sentences towards Generalization in Video-Text Pre-training.
   venue: AAAI
@@ -40507,18 +40412,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AAAAI%3A:
   ee: https://doi.org/10.1609/aaai.v38i6.28428
   url: https://dblp.org/rec/conf/aaai/WuZX00L24
   abstract: ''
-- author: Kun Yan 0004, Lei Ji 0001, Chenfei Wu, Jian Liang, Ming Zhou 0001, Nan Duan
-    0001, Shuai Ma 0001
-  title: 'HORIZON: High-Resolution Semantically Controlled Panorama Synthesis.'
-  venue: AAAI
-  year: '2024'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/aaai/Yan0WL0D024
-  doi: 10.1609/AAAI.V38I6.28463
-  ee: https://doi.org/10.1609/aaai.v38i6.28463
-  url: https://dblp.org/rec/conf/aaai/Yan0WL0D024
-  abstract: ''
 - author: Hyeokjun Kweon, Hyeonseong Kim, Yoonsu Kang, Youngho Yoon, Wooseong Jeong,
     Kuk-Jin Yoon
   title: Pixel-Wise Warping for Deep Image Stitching.
@@ -40531,103 +40424,10 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AAAAI%3A:
   ee: https://doi.org/10.1609/aaai.v37i1.25202
   url: https://dblp.org/rec/conf/aaai/KweonKKYJY23
   abstract: ''
-- author: Hannah Miller
-  title: Counting Knot Mosaics with ALLSAT (Student Abstract).
-  venue: AAAI
-  year: '2023'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/aaai/Miller23
-  doi: 10.1609/AAAI.V37I13.27002
-  ee: https://doi.org/10.1609/aaai.v37i13.27002
-  url: https://dblp.org/rec/conf/aaai/Miller23
-  abstract: ''
-- author: Hannah Miller
-  title: Enumerating Nontrivial Knot Mosaics with SAT (Student Abstract).
-  venue: AAAI
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/aaai/Miller22
-  doi: 10.1609/AAAI.V36I11.21645
-  ee: https://doi.org/10.1609/aaai.v36i11.21645
-  url: https://dblp.org/rec/conf/aaai/Miller22
-  abstract: ''
-- author: Chuanqing Zhuang, Zhengda Lu, Yiqun Wang 0001, Jun Xiao 0005, Ying Wang
-    0030
-  title: 'ACDNet: Adaptively Combined Dilated Convolution for Monocular Panorama Depth
-    Estimation.'
-  venue: AAAI
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/aaai/ZhuangLW0022
-  doi: 10.1609/AAAI.V36I3.20278
-  ee: https://doi.org/10.1609/aaai.v36i3.20278
-  url: https://dblp.org/rec/conf/aaai/ZhuangLW0022
-  abstract: ''
-- author: Zeming Lin, Jack Lanchantin, Yanjun Qi
-  title: 'MUST-CNN: A Multilayer Shift-and-Stitch Deep Convolutional Architecture
-    for Sequence-Based Protein Structure Prediction.'
-  venue: AAAI
-  year: '2016'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/aaai/LinLQ16
-  doi: 10.1609/AAAI.V30I1.10007
-  ee: https://doi.org/10.1609/aaai.v30i1.10007
-  url: https://dblp.org/rec/conf/aaai/LinLQ16
-  abstract: ''
-stitch%7Cpanorama%7Cmosaic%20venue%3AAISTATS%3A:
-- author: Pengzhou Wu, Kenji Fukumizu
-  title: 'Causal Mosaic: Cause-Effect Inference via Nonlinear ICA and Ensemble Method.'
-  venue: AISTATS
-  year: '2020'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/aistats/WuF20
-  doi: ''
-  ee: http://proceedings.mlr.press/v108/wu20b.html
-  url: https://dblp.org/rec/conf/aistats/WuF20
-  abstract: ''
+stitch%7Cpanorama%7Cmosaic%20venue%3AAISTATS%3A: []
 stitch%7Cpanorama%7Cmosaic%20streamid%3Aconf%2Falt%3A: []
-stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Fai%3A:
-- author: Daniel Neamati, Sriramya Bhamidipati, Grace Xingxin Gao
-  title: Risk-aware autonomous localization in harsh urban environments with mosaic
-    zonotope shadow matching.
-  venue: Artif. Intell.
-  year: '2023'
-  type: Journal Articles
-  access: closed
-  key: journals/ai/NeamatiBG23
-  doi: 10.1016/J.ARTINT.2023.104000
-  ee: https://doi.org/10.1016/j.artint.2023.104000
-  url: https://dblp.org/rec/journals/ai/NeamatiBG23
-  abstract: ''
-- author: Randy Goebel, Mary-Anne Williams
-  title: 'The expansion continues: Stitching together the breadth of disciplines impinging
-    on Artificial Intelligence.'
-  venue: Artif. Intell.
-  year: '2011'
-  type: Journal Articles
-  access: closed
-  key: journals/ai/GoebelW11
-  doi: 10.1016/J.ARTINT.2011.01.004
-  ee: https://doi.org/10.1016/j.artint.2011.01.004
-  url: https://dblp.org/rec/journals/ai/GoebelW11
-  abstract: ''
+stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Fai%3A: []
 stitch%7Cpanorama%7Cmosaic%20venue%3ANeurIPS%3A:
-- author: Shivam Grover, Amin Jalali 0003, Ali Etemad
-  title: 'Segment, Shuffle, and Stitch: A Simple Layer for Improving Time-Series Representations.'
-  venue: NeurIPS
-  year: '2024'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/nips/GroverJE24
-  doi: ''
-  ee: http://papers.nips.cc/paper_files/paper/2024/hash/0898f05f6c1d247be3eab8da93d33da1-Abstract-Conference.html
-  url: https://dblp.org/rec/conf/nips/GroverJE24
-  abstract: ''
 - author: Ziqi Xie, Weidong Zhao, Xianhui Liu, Jian Zhao, Ning Jia 0003
   title: 'Reconstructing the Image Stitching Pipeline: Integrating Fusion and Rectangling
     into a Unified Inpainting Model.'
@@ -40639,77 +40439,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/dfa1106ea7065899b13f2be9da04efb4-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/XieZLZJ24
-  abstract: ''
-- author: Weicai Ye, Chenhao Ji, Zheng Chen 0016, Junyao Gao 0002, Xiaoshui Huang,
-    Song-Hai Zhang, Wanli Ouyang, Tong He 0001, Cairong Zhao, Guofeng Zhang 0001
-  title: 'DiffPano: Scalable and Consistent Text to Panorama Generation with Spherical
-    Epipolar-Aware Diffusion.'
-  venue: NeurIPS
-  year: '2024'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/nips/YeJ00HZOHZ024
-  doi: ''
-  ee: http://papers.nips.cc/paper_files/paper/2024/hash/02c1d1d33dbfbaf03b3971bb542e72e2-Abstract-Conference.html
-  url: https://dblp.org/rec/conf/nips/YeJ00HZOHZ024
-  abstract: ''
-- author: Zheng Chen 0016, Yan-Pei Cao, Yuan-Chen Guo, Chen Wang 0049, Ying Shan,
-    Song-Hai Zhang
-  title: 'PanoGRF: Generalizable Spherical Radiance Fields for Wide-baseline Panoramas.'
-  venue: NeurIPS
-  year: '2023'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/nips/ChenCGWSZ23
-  doi: ''
-  ee: http://papers.nips.cc/paper_files/paper/2023/hash/16049e0c3f47899091ac46f8b3afb178-Abstract-Conference.html
-  url: https://dblp.org/rec/conf/nips/ChenCGWSZ23
-  abstract: ''
-- author: Jacob P. Portes, Alexander Trott, Sam Havens, Daniel King, Abhinav Venigalla,
-    Moin Nadeem, Nikhil Sardana, Daya Khudia, Jonathan Frankle
-  title: 'MosaicBERT: A Bidirectional Encoder Optimized for Fast Pretraining.'
-  venue: NeurIPS
-  year: '2023'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/nips/PortesTHKVNSKF23
-  doi: ''
-  ee: http://papers.nips.cc/paper_files/paper/2023/hash/095a6917768712b7ccc61acbeecad1d8-Abstract-Conference.html
-  url: https://dblp.org/rec/conf/nips/PortesTHKVNSKF23
-  abstract: ''
-- author: Na Young Jun, Greg Field, John M. Pearson
-  title: Efficient coding, channel capacity, and the emergence of retinal mosaics.
-  venue: NeurIPS
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/nips/JunFP22
-  doi: ''
-  ee: http://papers.nips.cc/paper_files/paper/2022/hash/d0866def6f52ebe8b8e32130a4d2c963-Abstract-Conference.html
-  url: https://dblp.org/rec/conf/nips/JunFP22
-  abstract: ''
-- author: Yamini Bansal, Preetum Nakkiran, Boaz Barak
-  title: Revisiting Model Stitching to Compare Neural Representations.
-  venue: NeurIPS
-  year: '2021'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/nips/BansalNB21
-  doi: ''
-  ee: https://proceedings.neurips.cc/paper/2021/hash/01ded4259d101feb739b06c399e9cd9c-Abstract.html
-  url: https://dblp.org/rec/conf/nips/BansalNB21
-  abstract: ''
-- author: Gongfan Fang, Yifan Bao, Jie Song 0011, Xinchao Wang, Donglin Xie, Chengchao
-    Shen, Mingli Song
-  title: 'Mosaicking to Distill: Knowledge Distillation from Out-of-Domain Data.'
-  venue: NeurIPS
-  year: '2021'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/nips/FangBSWXSS21
-  doi: ''
-  ee: https://proceedings.neurips.cc/paper/2021/hash/63dc7ed1010d3c3b8269faf0ba7491d4-Abstract.html
-  url: https://dblp.org/rec/conf/nips/FangBSWXSS21
   abstract: ''
 - author: Mark Hamilton, Stephanie Fu, Mindren Lu, Johnny Bui, Darius Bopp, Zhenbang
     Chen, Felix Tran, Margaret Wang, Marina Rogers, Lei Zhang 0001, Chris Hoder, William
@@ -40737,66 +40466,7 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AICML%3A:
   ee: https://proceedings.mlr.press/v267/baek25a.html
   url: https://dblp.org/rec/conf/icml/BaekPPO025
   abstract: ''
-- author: Damian Smith, Harvey Mannering, Antonia Marcu
-  title: 'Functional Alignment Can Mislead: Examining Model Stitching.'
-  venue: ICML
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/icml/SmithMM25
-  doi: ''
-  ee: https://proceedings.mlr.press/v267/smith25a.html
-  url: https://dblp.org/rec/conf/icml/SmithMM25
-  abstract: ''
-- author: Guanghe Li, Yixiang Shan, Zhengbang Zhu, Ting Long, Weinan Zhang 0001
-  title: 'DiffStitch: Boosting Offline Reinforcement Learning with Diffusion-based
-    Trajectory Stitching.'
-  venue: ICML
-  year: '2024'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/icml/LiSZL024
-  doi: ''
-  ee: https://proceedings.mlr.press/v235/li24bf.html
-  url: https://dblp.org/rec/conf/icml/LiSZL024
-  abstract: ''
-- author: Peisong Wang, Qiang Chen 0007, Xiangyu He, Jian Cheng 0001
-  title: Towards Accurate Post-training Network Quantization via Bit-Split and Stitching.
-  venue: ICML
-  year: '2020'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/icml/WangCHC20
-  doi: ''
-  ee: http://proceedings.mlr.press/v119/wang20c.html
-  url: https://dblp.org/rec/conf/icml/WangCHC20
-  abstract: ''
 stitch%7Cpanorama%7Cmosaic%20venue%3AICLR%3A:
-- author: Zizheng Pan, Bohan Zhuang, De-An Huang, Weili Nie, Zhiding Yu, Chaowei Xiao,
-    Jianfei Cai 0001, Anima Anandkumar
-  title: 'T-Stitch: Accelerating Sampling in Pre-Trained Diffusion Models with Trajectory
-    Stitching.'
-  venue: ICLR
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/iclr/PanZHNYX0A25
-  doi: ''
-  ee: https://openreview.net/forum?id=2mqb8bPHeb
-  url: https://dblp.org/rec/conf/iclr/PanZHNYX0A25
-  abstract: ''
-- author: Lei Yuan 0005, Yuqi Bian, Lihe Li, Ziqian Zhang, Cong Guan, Yang Yu 0001
-  title: Efficient Multi-agent Offline Coordination via Diffusion-based Trajectory
-    Stitching.
-  venue: ICLR
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/iclr/0001BLZG025
-  doi: ''
-  ee: https://openreview.net/forum?id=EpnZEzYDUT
-  url: https://dblp.org/rec/conf/iclr/0001BLZG025
-  abstract: ''
 - author: Nikolai Kalischek, Michael Oechsle, Fabian Manhardt, Philipp Henzler, Konrad
     Schindler, Federico Tombari
   title: 'CubeDiff: Repurposing Diffusion-Based Image Models for Panorama Generation.'
@@ -40809,81 +40479,11 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AICLR%3A:
   ee: https://openreview.net/forum?id=M2SsqpxGtc
   url: https://dblp.org/rec/conf/iclr/KalischekOMHST25
   abstract: ''
-- author: Jianyu Zhang, Niklas Nolte, Ranajoy Sadhukhan, Beidi Chen, Léon Bottou
-  title: Memory Mosaics.
-  venue: ICLR
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/iclr/ZhangNSCB25
-  doi: ''
-  ee: https://openreview.net/forum?id=IiagjrJNwF
-  url: https://dblp.org/rec/conf/iclr/ZhangNSCB25
-  abstract: ''
-- author: Tianhao Wu 0015, Chuanxia Zheng, Tat-Jen Cham
-  title: 'PanoDiffusion: 360-degree Panorama Outpainting via Diffusion.'
-  venue: ICLR
-  year: '2024'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/iclr/WuZC24
-  doi: ''
-  ee: https://openreview.net/forum?id=ZNzDXDFZ0B
-  url: https://dblp.org/rec/conf/iclr/WuZC24
-  abstract: ''
-- author: Zhaoyi Zhou, Chuning Zhu, Runlong Zhou, Qiwen Cui, Abhishek Gupta 0004,
-    Simon Shaolei Du
-  title: 'Free from Bellman Completeness: Trajectory Stitching via Model-based Return-conditioned
-    Supervised Learning.'
-  venue: ICLR
-  year: '2024'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/iclr/ZhouZZC0D24
-  doi: ''
-  ee: https://openreview.net/forum?id=7zY781bMDO
-  url: https://dblp.org/rec/conf/iclr/ZhouZZC0D24
-  abstract: ''
-- author: Zhaoqing Wang, Ziyu Chen, Yaqian Li, Yandong Guo, Jun Yu 0001, Mingming
-    Gong, Tongliang Liu
-  title: Mosaic Representation Learning for Self-supervised Visual Pre-training.
-  venue: ICLR
-  year: '2023'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/iclr/WangCLG0GL23
-  doi: ''
-  ee: https://openreview.net/forum?id=JAezPMehaUu
-  url: https://dblp.org/rec/conf/iclr/WangCLG0GL23
-  abstract: ''
 stitch%7Cpanorama%7Cmosaic%20venue%3ACOLT%3A: []
 stitch%7Cpanorama%7Cmosaic%20venue%3AUAI%3A: []
-stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Fml%3A:
-- author: Charles A. Hepburn, Giovanni Montana
-  title: Model-based trajectory stitching for improved behavioural cloning and its
-    applications.
-  venue: Mach. Learn.
-  year: '2024'
-  type: Journal Articles
-  access: open
-  key: journals/ml/HepburnM24
-  doi: 10.1007/S10994-023-06392-Z
-  ee: https://doi.org/10.1007/s10994-023-06392-z
-  url: https://dblp.org/rec/journals/ml/HepburnM24
-  abstract: ''
+stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Fml%3A: []
 stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Fjmlr%3A: []
 stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Fpami%3A:
-- author: Yoav Y. Schechner, Shree K. Nayar
-  title: 'Generalized Mosaicing: Polarization Panorama.'
-  venue: IEEE Trans. Pattern Anal. Mach. Intell.
-  year: '2005'
-  type: Journal Articles
-  access: closed
-  key: journals/pami/SchechnerN05
-  doi: 10.1109/TPAMI.2005.79
-  ee: https://doi.org/10.1109/TPAMI.2005.79
-  url: https://dblp.org/rec/journals/pami/SchechnerN05
-  abstract: ''
 - author: Ali Can, Charles V. Stewart, Badrinath Roysam, Howard L. Tanenbaum
   title: 'A Feature-Based Technique for Joint Linear Estimation of High-Order Image-to-Mosaic
     Transformations: Mosaicing the Curved Human Retina.'
@@ -40895,18 +40495,6 @@ stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/34.990145
   ee: https://doi.org/10.1109/34.990145
   url: https://dblp.org/rec/journals/pami/CanSRT02a
-  abstract: ''
-- author: Mengyue Geng, Lizhi Wang 0001, Lin Zhu 0012, Wei Zhang 0161, Ruiqin Xiong,
-    Yonghong Tian 0001
-  title: Event-Enhanced Snapshot Mosaic Hyperspectral Frame Deblurring.
-  venue: IEEE Trans. Pattern Anal. Mach. Intell.
-  year: '2025'
-  type: Journal Articles
-  access: closed
-  key: journals/pami/GengWZZXT25
-  doi: 10.1109/TPAMI.2024.3465455
-  ee: https://doi.org/10.1109/TPAMI.2024.3465455
-  url: https://dblp.org/rec/journals/pami/GengWZZXT25
   abstract: ''
 - author: Lang Nie, Chunyu Lin, Kang Liao, Yun Zhang 0024, Shuaicheng Liu, Yao Zhao
     0001
@@ -40920,30 +40508,6 @@ stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2025.3568829
   ee: https://doi.org/10.1109/TPAMI.2025.3568829
   url: https://dblp.org/rec/journals/pami/NieLLZLZ25
-  abstract: ''
-- author: Guangcong Wang, Peng Wang 0099, Zhaoxi Chen 0009, Wenping Wang 0001, Chen
-    Change Loy, Ziwei Liu 0002
-  title: 'PERF: Panoramic Neural Radiance Field From a Single Panorama.'
-  venue: IEEE Trans. Pattern Anal. Mach. Intell.
-  year: '2024'
-  type: Journal Articles
-  access: closed
-  key: journals/pami/WangWCWLL24
-  doi: 10.1109/TPAMI.2024.3387307
-  ee: https://doi.org/10.1109/TPAMI.2024.3387307
-  url: https://dblp.org/rec/journals/pami/WangWCWLL24
-  abstract: ''
-- author: Peisong Wang, Weihan Chen, Xiangyu He, Qiang Chen 0007, Qingshan Liu 0001,
-    Jian Cheng 0001
-  title: Optimization-Based Post-Training Quantization With Bit-Split and Stitching.
-  venue: IEEE Trans. Pattern Anal. Mach. Intell.
-  year: '2023'
-  type: Journal Articles
-  access: closed
-  key: journals/pami/WangCHCLC23
-  doi: 10.1109/TPAMI.2022.3159369
-  ee: https://doi.org/10.1109/TPAMI.2022.3159369
-  url: https://dblp.org/rec/journals/pami/WangCHCLC23
   abstract: ''
 - author: Yujiao Shi 0002, Dylan Campbell, Xin Yu 0002, Hongdong Li
   title: Geometry-Guided Street-View Panorama Synthesis From Satellite Imagery.
@@ -40978,17 +40542,6 @@ stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Fpami%3A:
   ee: https://doi.org/10.1109/TPAMI.2007.70729
   url: https://dblp.org/rec/journals/pami/JiaT08
   abstract: ''
-- author: Alex Rav-Acha, Yael Pritch, Dani Lischinski, Shmuel Peleg
-  title: 'Dynamosaicing: Mosaicing of Dynamic Scenes.'
-  venue: IEEE Trans. Pattern Anal. Mach. Intell.
-  year: '2007'
-  type: Journal Articles
-  access: closed
-  key: journals/pami/Rav-AchaPLP07
-  doi: 10.1109/TPAMI.2007.1091
-  ee: https://doi.org/10.1109/TPAMI.2007.1091
-  url: https://dblp.org/rec/journals/pami/Rav-AchaPLP07
-  abstract: ''
 - author: Sen Wang, Yang Wang 0001, Miao Jin, Xianfeng David Gu, Dimitris Samaras
   title: Conformal Geometry and Its Applications on 3D Shape Matching, Recognition,
     and Stitching.
@@ -41001,28 +40554,6 @@ stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Fpami%3A:
   ee: https://doi.org/10.1109/TPAMI.2007.1050
   url: https://dblp.org/rec/journals/pami/WangWJGS07
   abstract: ''
-- author: Yasushi Yagi, Kousuke Imai, Kentaro Tsuji, Masahiko Yachida
-  title: Iconic Memory-Based Omnidirectional Route Panorama Navigation.
-  venue: IEEE Trans. Pattern Anal. Mach. Intell.
-  year: '2005'
-  type: Journal Articles
-  access: closed
-  key: journals/pami/YagiITY05
-  doi: 10.1109/TPAMI.2005.11
-  ee: https://doi.org/10.1109/TPAMI.2005.11
-  url: https://dblp.org/rec/journals/pami/YagiITY05
-  abstract: ''
-- author: Yin Li 0003, Heung-Yeung Shum, Chi-Keung Tang, Richard Szeliski
-  title: Stereo Reconstruction from Multiperspective Panoramas.
-  venue: IEEE Trans. Pattern Anal. Mach. Intell.
-  year: '2004'
-  type: Journal Articles
-  access: closed
-  key: journals/pami/LiSTS04
-  doi: 10.1109/TPAMI.2004.10002
-  ee: http://doi.ieeecomputersociety.org/10.1109/TPAMI.2004.10002
-  url: https://dblp.org/rec/journals/pami/LiSTS04
-  abstract: ''
 - author: Zhigang Zhu 0001, Allen R. Hanson, Edward M. Riseman
   title: Generalized Parallel-Perspective Stereo Mosaics from Airborne Video.
   venue: IEEE Trans. Pattern Anal. Mach. Intell.
@@ -41033,39 +40564,6 @@ stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2004.1262190
   ee: https://doi.org/10.1109/TPAMI.2004.1262190
   url: https://dblp.org/rec/journals/pami/ZhuHR04
-  abstract: ''
-- author: Assaf Zomet, Doron Feldman, Shmuel Peleg, Daphna Weinshall
-  title: 'Mosaicing New Views: The Crossed-Slits Projection.'
-  venue: IEEE Trans. Pattern Anal. Mach. Intell.
-  year: '2003'
-  type: Journal Articles
-  access: closed
-  key: journals/pami/ZometFPW03
-  doi: 10.1109/TPAMI.2003.1201823
-  ee: https://doi.org/10.1109/TPAMI.2003.1201823
-  url: https://dblp.org/rec/journals/pami/ZometFPW03
-  abstract: ''
-- author: Yoav Y. Schechner, Shree K. Nayar
-  title: 'Generalized Mosaicing: Wide Field of View Multispectral Imaging.'
-  venue: IEEE Trans. Pattern Anal. Mach. Intell.
-  year: '2002'
-  type: Journal Articles
-  access: closed
-  key: journals/pami/SchechnerN02
-  doi: 10.1109/TPAMI.2002.1039205
-  ee: https://doi.org/10.1109/TPAMI.2002.1039205
-  url: https://dblp.org/rec/journals/pami/SchechnerN02
-  abstract: ''
-- author: Shmuel Peleg, Benny Rousso, Alex Rav-Acha, Assaf Zomet
-  title: Mosaicing on Adaptive Manifolds.
-  venue: IEEE Trans. Pattern Anal. Mach. Intell.
-  year: '2000'
-  type: Journal Articles
-  access: closed
-  key: journals/pami/PelegRRZ00
-  doi: 10.1109/34.879794
-  ee: https://doi.org/10.1109/34.879794
-  url: https://dblp.org/rec/journals/pami/PelegRRZ00
   abstract: ''
 - author: Harpreet S. Sawhney, Rakesh Kumar 0001
   title: True Multi-Image Alignment and Its Application to Mosaicing and Lens Distortion
@@ -41079,130 +40577,13 @@ stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Fpami%3A:
   ee: https://doi.org/10.1109/34.754589
   url: https://dblp.org/rec/journals/pami/SawhneyK99
   abstract: ''
-- author: Narendra Ahuja, Azriel Rosenfeld
-  title: Mosaic Models for Textures.
-  venue: IEEE Trans. Pattern Anal. Mach. Intell.
-  year: '1981'
-  type: Journal Articles
-  access: closed
-  key: journals/pami/AhujaR81
-  doi: 10.1109/TPAMI.1981.4767045
-  ee: https://doi.org/10.1109/TPAMI.1981.4767045
-  url: https://dblp.org/rec/journals/pami/AhujaR81
-  abstract: ''
-stitch%7Cpanorama%7Cmosaic%20venue%3AKDD%3A:
-- author: Lei Li 0005, Wenjie Fu 0002, Fan Guo 0006, Todd C. Mowry, Christos Faloutsos
-  title: 'Cut-and-stitch: efficient parallel learning of linear dynamical systems
-    on smps.'
-  venue: KDD
-  year: '2008'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/kdd/LiFGMF08
-  doi: 10.1145/1401890.1401949
-  ee: https://doi.org/10.1145/1401890.1401949
-  url: https://dblp.org/rec/conf/kdd/LiFGMF08
-  abstract: ''
-- author: Heike Hofmann, Arno Siebes, Adalbert F. X. Wilhelm
-  title: Visualizing association rules with interactive mosaic plots.
-  venue: KDD
-  year: '2000'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/kdd/HofmannSW00
-  doi: 10.1145/347090.347133
-  ee: https://doi.org/10.1145/347090.347133
-  url: https://dblp.org/rec/conf/kdd/HofmannSW00
-  abstract: ''
+stitch%7Cpanorama%7Cmosaic%20venue%3AKDD%3A: []
 stitch%7Cpanorama%7Cmosaic%20venue%3AWSDM%3A: []
 stitch%7Cpanorama%7Cmosaic%20streamid%3Aconf%2Fsp%3A: []
-stitch%7Cpanorama%7Cmosaic%20venue%3ACCS%3A:
-- author: Qiankun Zhang 0001, Di Yuan, Boyu Zhang, Bin Yuan, Bingqian Du
-  title: 'Membership Inference Attacks against Vision Transformers: Mosaic MixUp Training
-    to the Defense.'
-  venue: CCS
-  year: '2024'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/ccs/ZhangYZYD24
-  doi: 10.1145/3658644.3690268
-  ee: https://doi.org/10.1145/3658644.3690268
-  url: https://dblp.org/rec/conf/ccs/ZhangYZYD24
-  abstract: ''
-- author: Duc Cuong Nguyen 0001, Dominik Wermke, Yasemin Acar, Michael Backes 0001,
-    Charles Weir, Sascha Fahl
-  title: 'A Stitch in Time: Supporting Android Developers in WritingSecure Code.'
-  venue: CCS
-  year: '2017'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/ccs/NguyenWA0WF17
-  doi: 10.1145/3133956.3133977
-  ee: https://doi.org/10.1145/3133956.3133977
-  url: https://dblp.org/rec/conf/ccs/NguyenWA0WF17
-  abstract: ''
-- author: Juan Caballero, Pongsin Poosankam, Stephen McCamant, Domagoj Babic, Dawn
-    Song
-  title: 'Input generation via decomposition and re-stitching: finding bugs in Malware.'
-  venue: CCS
-  year: '2010'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/ccs/CaballeroPMBS10
-  doi: 10.1145/1866307.1866354
-  ee: https://doi.org/10.1145/1866307.1866354
-  url: https://dblp.org/rec/conf/ccs/CaballeroPMBS10
-  abstract: ''
-- author: Heng Yin 0001, Dawn Xiaodong Song, Manuel Egele, Christopher Kruegel, Engin
-    Kirda
-  title: 'Panorama: capturing system-wide information flow for malware detection and
-    analysis.'
-  venue: CCS
-  year: '2007'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/ccs/YinSEKK07
-  doi: 10.1145/1315245.1315261
-  ee: https://doi.org/10.1145/1315245.1315261
-  url: https://dblp.org/rec/conf/ccs/YinSEKK07
-  abstract: ''
-stitch%7Cpanorama%7Cmosaic%20streamid%3Aconf%2Fuss%3A:
-- author: Lucas Davi, Ahmad-Reza Sadeghi, Daniel Lehmann 0002, Fabian Monrose
-  title: 'Stitching the Gadgets: On the Ineffectiveness of Coarse-Grained Control-Flow
-    Integrity Protection.'
-  venue: USENIX Security Symposium
-  year: '2014'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/uss/DaviSLM14
-  doi: ''
-  ee: https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/davi
-  url: https://dblp.org/rec/conf/uss/DaviSLM14
-  abstract: ''
-stitch%7Cpanorama%7Cmosaic%20venue%3ANDSS%3A:
-- author: Frederick M. Avolio
-  title: 'Panel: Security Issues for Mosaic and the World Wide Web.'
-  venue: NDSS
-  year: '1995'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/ndss/Avolio95
-  doi: 10.1109/SNDSS.1995.10005
-  ee: https://doi.ieeecomputersociety.org/10.1109/SNDSS.1995.10005
-  url: https://dblp.org/rec/conf/ndss/Avolio95
-  abstract: ''
+stitch%7Cpanorama%7Cmosaic%20venue%3ACCS%3A: []
+stitch%7Cpanorama%7Cmosaic%20streamid%3Aconf%2Fuss%3A: []
+stitch%7Cpanorama%7Cmosaic%20venue%3ANDSS%3A: []
 stitch%7Cpanorama%7Cmosaic%20venue%3ACVPR%3A:
-- author: Fan Zhang, Feng Liu 0015
-  title: Casual stereoscopic panorama stitching.
-  venue: CVPR
-  year: '2015'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/ZhangL15
-  doi: 10.1109/CVPR.2015.7298811
-  ee: https://doi.org/10.1109/CVPR.2015.7298811
-  url: https://dblp.org/rec/conf/cvpr/ZhangL15
-  abstract: ''
 - author: Gehua Yang, Charles V. Stewart
   title: Covariance-Driven Mosaic Formation from Sparsely-Overlapping Image Sets with
     Application to Retinal Image Mosaicing.
@@ -41227,17 +40608,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3ACVPR%3A:
   ee: https://doi.org/10.1109/CVPR.2000.854924
   url: https://dblp.org/rec/conf/cvpr/CanSRT00
   abstract: ''
-- author: Shmuel Peleg, Assaf Zomet, Chetan Arora 0001
-  title: 'Rectified Mosaicing: Mosaics without the Curl.'
-  venue: CVPR
-  year: '2000'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/PelegZA00
-  doi: 10.1109/CVPR.2000.854881
-  ee: https://doi.org/10.1109/CVPR.2000.854881
-  url: https://dblp.org/rec/conf/cvpr/PelegZA00
-  abstract: ''
 - author: Jing Zhu 0005, Yuhang Zhou, Shengyi Qian 0001, Zhongmou He, Tong Zhao 0003,
     Neil Shah, Danai Koutra
   title: 'Mosaic of Modalities: A Comprehensive Benchmark for Multimodal Graph Learning.'
@@ -41249,19 +40619,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52734.2025.01326
   ee: https://openaccess.thecvf.com/content/CVPR2025/html/Zhu_Mosaic_of_Modalities_A_Comprehensive_Benchmark_for_Multimodal_Graph_Learning_CVPR_2025_paper.html
   url: https://dblp.org/rec/conf/cvpr/0005Z0H0SK25
-  abstract: ''
-- author: Zidong Cao, Jinjing Zhu, Weiming Zhang 0001, Hao Ai, Haotian Bai, Hengshuang
-    Zhao, Lin Wang 0025
-  title: 'PanDA: Towards Panoramic Depth Anything with Unlabeled Panoramas and Mobius
-    Spatial Augmentation.'
-  venue: CVPR
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/cvpr/CaoZ0ABZ025
-  doi: 10.1109/CVPR52734.2025.00100
-  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Cao_PanDA_Towards_Panoramic_Depth_Anything_with_Unlabeled_Panoramas_and_Mobius_CVPR_2025_paper.html
-  url: https://dblp.org/rec/conf/cvpr/CaoZ0ABZ025
   abstract: ''
 - author: Xinyu Gao, Ziyi Yang 0008, Bingchen Gong, Xiaoguang Han 0001, Sipeng Yang,
     Xiaogang Jin 0001
@@ -41298,31 +40655,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3ACVPR%3A:
   ee: https://openaccess.thecvf.com/content/CVPR2025/html/Yuan_CamFreeDiff_Camera-free_Image_to_Panorama_Generation_with_Diffusion_Model_CVPR_2025_paper.html
   url: https://dblp.org/rec/conf/cvpr/YuanTLW25
   abstract: ''
-- author: Cheng Zhang, Haofei Xu, Qianyi Wu, Camilo Cruz Gambardella, Dinh Q. Phung,
-    Jianfei Cai 0001
-  title: 'PanSplat: 4K Panorama Synthesis with Feed-Forward Gaussian Splatting.'
-  venue: CVPR
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/cvpr/ZhangXWGP025
-  doi: 10.1109/CVPR52734.2025.01068
-  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_PanSplat_4K_Panorama_Synthesis_with_Feed-Forward_Gaussian_Splatting_CVPR_2025_paper.html
-  url: https://dblp.org/rec/conf/cvpr/ZhangXWGP025
-  abstract: ''
-- author: Wangbo Zhao, Yizeng Han, Jiasheng Tang, Zhikai Li, Yibing Song, Kai Wang
-    0036, Zhangyang Wang, Yang You 0001
-  title: 'A Stitch in Time Saves Nine: Small VLM is a Precise Guidance for Accelerating
-    Large VLMs.'
-  venue: CVPR
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/cvpr/ZhaoHTLSWW025
-  doi: 10.1109/CVPR52734.2025.01845
-  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_A_Stitch_in_Time_Saves_Nine_Small_VLM_is_a_CVPR_2025_paper.html
-  url: https://dblp.org/rec/conf/cvpr/ZhaoHTLSWW025
-  abstract: ''
 - author: Dian Zheng, Cheng Zhang, Xiao-Ming Wu 0002, Cao Li, Chengfei Lv, Jian-Fang
     Hu, Wei-Shi Zheng 0001
   title: Panorama Generation From NFoV Image Done Right.
@@ -41334,17 +40666,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52734.2025.02013
   ee: https://openaccess.thecvf.com/content/CVPR2025/html/Zheng_Panorama_Generation_From_NFoV_Image_Done_Right_CVPR_2025_paper.html
   url: https://dblp.org/rec/conf/cvpr/ZhengZ0LLH025
-  abstract: ''
-- author: Haoyu He 0001, Zizheng Pan, Jing Liu 0048, Jianfei Cai 0001, Bohan Zhuang
-  title: Efficient Stitchable Task Adaptation.
-  venue: CVPR
-  year: '2024'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/HePL0Z24
-  doi: 10.1109/CVPR52733.2024.02698
-  ee: https://doi.org/10.1109/CVPR52733.2024.02698
-  url: https://dblp.org/rec/conf/cvpr/HePL0Z24
   abstract: ''
 - author: Shengze Jin, Iro Armeni, Marc Pollefeys, Dániel Baráth
   title: Multiway Point Cloud Mosaicking with Diffusion and Global Optimization.
@@ -41404,39 +40725,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3ACVPR%3A:
   ee: https://doi.org/10.1109/CVPR52733.2024.00260
   url: https://dblp.org/rec/conf/cvpr/ZhouLWLZLZL24
   abstract: ''
-- author: Wenjie Chang, Yueyi Zhang, Zhiwei Xiong
-  title: Depth Estimation from Indoor Panoramas with Neural Scene Representation.
-  venue: CVPR
-  year: '2023'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/ChangZX23
-  doi: 10.1109/CVPR52729.2023.00093
-  ee: https://doi.org/10.1109/CVPR52729.2023.00093
-  url: https://dblp.org/rec/conf/cvpr/ChangZX23
-  abstract: ''
-- author: Zhixin Ling, Zhen Xing, Xiangdong Zhou, Manliang Cao, Guichun Zhou
-  title: 'PanoSwin: a Pano-style Swin Transformer for Panorama Understanding.'
-  venue: CVPR
-  year: '2023'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/LingXZCZ23
-  doi: 10.1109/CVPR52729.2023.01703
-  ee: https://doi.org/10.1109/CVPR52729.2023.01703
-  url: https://dblp.org/rec/conf/cvpr/LingXZCZ23
-  abstract: ''
-- author: Zizheng Pan, Jianfei Cai 0001, Bohan Zhuang
-  title: Stitchable Neural Networks.
-  venue: CVPR
-  year: '2023'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/Pan0Z23
-  doi: 10.1109/CVPR52729.2023.01545
-  ee: https://doi.org/10.1109/CVPR52729.2023.01545
-  url: https://dblp.org/rec/conf/cvpr/Pan0Z23
-  abstract: ''
 - author: Peng Du, Jifeng Ning, Jiguang Cui, Shaoli Huang, Xinchao Wang, Jiaxin Wang
   title: Geometric Structure Preserving Warp for Natural Image Stitching.
   venue: CVPR
@@ -41447,18 +40735,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52688.2022.00367
   ee: https://doi.org/10.1109/CVPR52688.2022.00367
   url: https://dblp.org/rec/conf/cvpr/DuNCHWW22
-  abstract: ''
-- author: Ramya Hebbalaguppe, Jatin Prakash, Neelabh Madan, Chetan Arora 0001
-  title: 'A Stitch in Time Saves Nine: A Train-Time Regularizing Loss for Improved
-    Neural Network Calibration.'
-  venue: CVPR
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/HebbalaguppePM022
-  doi: 10.1109/CVPR52688.2022.01561
-  ee: https://doi.org/10.1109/CVPR52688.2022.01561
-  url: https://dblp.org/rec/conf/cvpr/HebbalaguppePM022
   abstract: ''
 - author: Jiaxue Li, Yicong Zhou
   title: Automatic Color Image Stitching Using Quaternion Rank-1 Alignment.
@@ -41520,40 +40796,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3ACVPR%3A:
   ee: https://openaccess.thecvf.com/content/CVPR2021/html/Cruz_Zillow_Indoor_Dataset_Annotated_Floor_Plans_With_360deg_Panoramas_and_CVPR_2021_paper.html
   url: https://dblp.org/rec/conf/cvpr/CruzHLKBK21
   abstract: ''
-- author: Giovanni Pintore, Marco Agus, Eva Almansa, Jens Schneider 0002, Enrico Gobbetti
-  title: 'SliceNet: Deep Dense Depth Estimation From a Single Indoor Panorama Using
-    a Slice-Based Representation.'
-  venue: CVPR
-  year: '2021'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/cvpr/PintoreAASG21
-  doi: 10.1109/CVPR46437.2021.01137
-  ee: https://openaccess.thecvf.com/content/CVPR2021/html/Pintore_SliceNet_Deep_Dense_Depth_Estimation_From_a_Single_Indoor_Panorama_CVPR_2021_paper.html
-  url: https://dblp.org/rec/conf/cvpr/PintoreAASG21
-  abstract: ''
-- author: Phi Vu Tran
-  title: 'SSLayout360: Semi-Supervised Indoor Layout Estimation From 360deg Panorama.'
-  venue: CVPR
-  year: '2021'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/cvpr/Tran21
-  doi: 10.1109/CVPR46437.2021.01510
-  ee: https://openaccess.thecvf.com/content/CVPR2021/html/Tran_SSLayout360_Semi-Supervised_Indoor_Layout_Estimation_From_360deg_Panorama_CVPR_2021_paper.html
-  url: https://dblp.org/rec/conf/cvpr/Tran21
-  abstract: ''
-- author: Jiale Xu, Jia Zheng 0002, Yanyu Xu 0001, Rui Tang 0015, Shenghua Gao
-  title: Layout-Guided Novel View Synthesis From a Single Indoor Panorama.
-  venue: CVPR
-  year: '2021'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/cvpr/XuZXTG21
-  doi: 10.1109/CVPR46437.2021.01617
-  ee: https://openaccess.thecvf.com/content/CVPR2021/html/Xu_Layout-Guided_Novel_View_Synthesis_From_a_Single_Indoor_Panorama_CVPR_2021_paper.html
-  url: https://dblp.org/rec/conf/cvpr/XuZXTG21
-  abstract: ''
 - author: Quentin Bammey, Rafael Grompone von Gioi, Jean-Michel Morel
   title: An Adaptive Neural Network for Unsupervised Mosaic Consistency Analysis in
     Image Forensics.
@@ -41589,19 +40831,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3ACVPR%3A:
   ee: http://openaccess.thecvf.com/content_CVPR_2019/html/Uittenbogaard_Privacy_Protection_in_Street-View_Panoramas_Using_Depth_and_Multi-View_Imagery_CVPR_2019_paper.html
   url: https://dblp.org/rec/conf/cvpr/UittenbogaardSV19
   abstract: ''
-- author: Shang-Ta Yang, Fu-En Wang, Chi-Han Peng, Peter Wonka, Min Sun 0001, Hung-Kuo
-    Chu
-  title: 'DuLa-Net: A Dual-Projection Network for Estimating Room Layouts From a Single
-    RGB Panorama.'
-  venue: CVPR
-  year: '2019'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/cvpr/YangWPWSC19
-  doi: 10.1109/CVPR.2019.00348
-  ee: http://openaccess.thecvf.com/content_CVPR_2019/html/Yang_DuLa-Net_A_Dual-Projection_Network_for_Estimating_Room_Layouts_From_a_CVPR_2019_paper.html
-  url: https://dblp.org/rec/conf/cvpr/YangWPWSC19
-  abstract: ''
 - author: Yang Yang, Shi Jin, Ruiyang Liu, Sing Bing Kang, Jingyi Yu 0001
   title: Automatic 3D Indoor Scene Modeling From Single Panorama.
   venue: CVPR
@@ -41612,28 +40841,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR.2018.00413
   ee: http://openaccess.thecvf.com/content_cvpr_2018/html/Yang_Automatic_3D_Indoor_CVPR_2018_paper.html
   url: https://dblp.org/rec/conf/cvpr/YangJLKY18
-  abstract: ''
-- author: Erik Wijmans, Yasutaka Furukawa
-  title: Exploiting 2D Floorplan for Building-Scale Panorama RGBD Alignment.
-  venue: CVPR
-  year: '2017'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/WijmansF17
-  doi: 10.1109/CVPR.2017.156
-  ee: https://doi.org/10.1109/CVPR.2017.156
-  url: https://dblp.org/rec/conf/cvpr/WijmansF17
-  abstract: ''
-- author: Ishan Misra, Abhinav Shrivastava, Abhinav Gupta 0001, Martial Hebert
-  title: Cross-Stitch Networks for Multi-task Learning.
-  venue: CVPR
-  year: '2016'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/MisraSGH16
-  doi: 10.1109/CVPR.2016.433
-  ee: https://doi.org/10.1109/CVPR.2016.433
-  url: https://dblp.org/rec/conf/cvpr/MisraSGH16
   abstract: ''
 - author: Hao Yang 0036, Hui Zhang 0013
   title: Efficient 3D Room Shape Recovery from a Single Panorama.
@@ -41703,17 +40910,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3ACVPR%3A:
   ee: https://doi.org/10.1109/CVPR.2013.340
   url: https://dblp.org/rec/conf/cvpr/DasXDC13
   abstract: ''
-- author: Christian Richardt, Yael Pritch, Henning Zimmer, Alexander Sorkine-Hornung
-  title: 'Megastereo: Constructing High-Resolution Stereo Panoramas.'
-  venue: CVPR
-  year: '2013'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/RichardtPZS13
-  doi: 10.1109/CVPR.2013.166
-  ee: https://doi.org/10.1109/CVPR.2013.166
-  url: https://dblp.org/rec/conf/cvpr/RichardtPZS13
-  abstract: ''
 - author: Junhong Gao, Seon Joo Kim, Michael S. Brown
   title: Constructing image panoramas using dual-homography warping.
   venue: CVPR
@@ -41724,17 +40920,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR.2011.5995433
   ee: https://doi.org/10.1109/CVPR.2011.5995433
   url: https://dblp.org/rec/conf/cvpr/GaoKB11
-  abstract: ''
-- author: Wen-Yan Lin, Siying Liu, Yasuyuki Matsushita, Tian-Tsong Ng, Loong Fah Cheong
-  title: Smoothly varying affine stitching.
-  venue: CVPR
-  year: '2011'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/LinLMNC11
-  doi: 10.1109/CVPR.2011.5995314
-  ee: https://doi.org/10.1109/CVPR.2011.5995314
-  url: https://dblp.org/rec/conf/cvpr/LinLMNC11
   abstract: ''
 - author: Yunpeng Li 0002, Sing Bing Kang, Neel Joshi, Steven M. Seitz, Daniel P.
     Huttenlocher
@@ -41760,17 +40945,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3ACVPR%3A:
   ee: https://doi.org/10.1109/CVPR.2010.5540202
   url: https://dblp.org/rec/conf/cvpr/XuM10
   abstract: ''
-- author: Yang Cong, Haifeng Gong, Song Chun Zhu, Yandong Tang
-  title: 'Flow mosaicking: Real-time pedestrian counting without scene-specific learning.'
-  venue: CVPR
-  year: '2009'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/CongGZT09
-  doi: 10.1109/CVPR.2009.5206648
-  ee: https://doi.org/10.1109/CVPR.2009.5206648
-  url: https://dblp.org/rec/conf/cvpr/CongGZT09
-  abstract: ''
 - author: Hailin Jin
   title: A three-point minimal solution for panoramic stitching with lens distortion.
   venue: CVPR
@@ -41795,17 +40969,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3ACVPR%3A:
   ee: https://doi.org/10.1109/CVPR.2008.4587823
   url: https://dblp.org/rec/conf/cvpr/MorseGEGRTE08
   abstract: ''
-- author: Matthew A. Brown, Richard I. Hartley, David Nistér
-  title: Minimal Solutions for Panoramic Stitching.
-  venue: CVPR
-  year: '2007'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/BrownHN07
-  doi: 10.1109/CVPR.2007.383082
-  ee: https://doi.org/10.1109/CVPR.2007.383082
-  url: https://dblp.org/rec/conf/cvpr/BrownHN07
-  abstract: ''
 - author: Victor S. Lempitsky, Denis V. Ivanov
   title: Seamless Mosaicing of Image-Based Texture Maps.
   venue: CVPR
@@ -41816,17 +40979,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR.2007.383078
   ee: https://doi.org/10.1109/CVPR.2007.383078
   url: https://dblp.org/rec/conf/cvpr/LempitskyI07
-  abstract: ''
-- author: Ke Colin Zheng, Sing Bing Kang, Michael F. Cohen, Richard Szeliski
-  title: Layered Depth Panoramas.
-  venue: CVPR
-  year: '2007'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/ZhengKCS07
-  doi: 10.1109/CVPR.2007.383295
-  ee: https://doi.org/10.1109/CVPR.2007.383295
-  url: https://dblp.org/rec/conf/cvpr/ZhengKCS07
   abstract: ''
 - author: Ashley Eden, Matthew Uyttendaele, Richard Szeliski
   title: Seamless Image Stitching of Scenes with Large Motions and Exposure Differences.
@@ -41849,28 +41001,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR.2005.137
   ee: https://doi.org/10.1109/CVPR.2005.137
   url: https://dblp.org/rec/conf/cvpr/Rav-AchaPLP05
-  abstract: ''
-- author: Min Shi 0003, Jiang Yu Zheng
-  title: A Slit Scanning Depth of Route Panorama from Stationary Blur.
-  venue: CVPR
-  year: '2005'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/ShiZ05
-  doi: 10.1109/CVPR.2005.46
-  ee: https://doi.org/10.1109/CVPR.2005.46
-  url: https://dblp.org/rec/conf/cvpr/ShiZ05
-  abstract: ''
-- author: Jingbin Wang, Erdan Gu, Margrit Betke
-  title: 'MosaicShape: Stochastic Region Grouping with Shape Prior.'
-  venue: CVPR
-  year: '2005'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/WangEB05
-  doi: 10.1109/CVPR.2005.231
-  ee: https://doi.org/10.1109/CVPR.2005.231
-  url: https://dblp.org/rec/conf/cvpr/WangEB05
   abstract: ''
 - author: Hulya Yalcin, Martial Hebert, Robert T. Collins, Michael J. Black
   title: A Flow-Based Approach to Vehicle Detection and Background Mosaicking in Airborne
@@ -41917,17 +41047,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3ACVPR%3A:
   ee: https://doi.org/10.1109/CVPR.2001.991031
   url: https://dblp.org/rec/conf/cvpr/DuffinB01
   abstract: ''
-- author: Maxime Lhuillier, Long Quan, Harry Shum, Hung-Tat Tsui
-  title: Relief Mosaics by Joint View Triangulation.
-  venue: CVPR
-  year: '2001'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/LhuillierQST01
-  doi: 10.1109/CVPR.2001.990557
-  ee: https://doi.org/10.1109/CVPR.2001.990557
-  url: https://dblp.org/rec/conf/cvpr/LhuillierQST01
-  abstract: ''
 - author: Matthew Uyttendaele, Ashley Eden, Richard Szeliski
   title: Eliminating Ghosting and Exposure Artifacts in Image Mosaics.
   venue: CVPR
@@ -41938,17 +41057,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR.2001.991005
   ee: https://doi.org/10.1109/CVPR.2001.991005
   url: https://dblp.org/rec/conf/cvpr/UyttendaeleES01
-  abstract: ''
-- author: Shree K. Nayar, Amruta Karmarkar
-  title: 360 x 360 Mosaics.
-  venue: CVPR
-  year: '2000'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/NayarK00
-  doi: 10.1109/CVPR.2000.854857
-  ee: https://doi.org/10.1109/CVPR.2000.854857
-  url: https://dblp.org/rec/conf/cvpr/NayarK00
   abstract: ''
 - author: Shmuel Peleg, Moshe Ben-Ezra
   title: Stereo Panorama with a Single Camera.
@@ -41973,39 +41081,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3ACVPR%3A:
   ee: https://doi.org/10.1109/CVPR.1999.784645
   url: https://dblp.org/rec/conf/cvpr/StewartRC99
   abstract: ''
-- author: David P. Capel, Andrew Zisserman
-  title: Automatic Mosaicing with Super-Resolution Zoom.
-  venue: CVPR
-  year: '1998'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/CapelZ98
-  doi: 10.1109/CVPR.1998.698709
-  ee: https://doi.org/10.1109/CVPR.1998.698709
-  url: https://dblp.org/rec/conf/cvpr/CapelZ98
-  abstract: ''
-- author: Satyan R. Coorg, Neel Master, Seth J. Teller
-  title: Acquisition of a Large Pose-Mosaic Dataset.
-  venue: CVPR
-  year: '1998'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/CoorgMT98
-  doi: 10.1109/CVPR.1998.698707
-  ee: https://doi.org/10.1109/CVPR.1998.698707
-  url: https://dblp.org/rec/conf/cvpr/CoorgMT98
-  abstract: ''
-- author: James Davis 0001
-  title: Mosaics of Scenes with Moving Objects.
-  venue: CVPR
-  year: '1998'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/Davis98
-  doi: 10.1109/CVPR.1998.698630
-  ee: https://doi.org/10.1109/CVPR.1998.698630
-  url: https://dblp.org/rec/conf/cvpr/Davis98
-  abstract: ''
 - author: Heung-Yeung Shum, Mei Han, Richard Szeliski
   title: Interactive Construction of 3D Models from Panoramic Mosaics.
   venue: CVPR
@@ -42027,17 +41102,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR.1997.609396
   ee: https://doi.org/10.1109/CVPR.1997.609396
   url: https://dblp.org/rec/conf/cvpr/MorimotoC97
-  abstract: ''
-- author: Shmuel Peleg, Joshua Herman
-  title: Panoramic mosaics by manifold projection.
-  venue: CVPR
-  year: '1997'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/PelegH97
-  doi: 10.1109/CVPR.1997.609346
-  ee: https://doi.org/10.1109/CVPR.1997.609346
-  url: https://dblp.org/rec/conf/cvpr/PelegH97
   abstract: ''
 - author: Harpreet S. Sawhney, Rakesh Kumar 0001
   title: True Multi-Image Alignment and its Application to Mosaicing and Lens Distortion
@@ -42063,29 +41127,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3ACVPR%3A:
   url: https://dblp.org/rec/conf/cvpr/ZoghlamiFD97
   abstract: ''
 stitch%7Cpanorama%7Cmosaic%20venue%3AICCV%3A:
-- author: Bowei Guo, Shengkun Tang, Cong Zeng, Zhiqiang Shen
-  title: 'MosaicDiff: Training-free Structural Pruning for Diffusion Model Acceleration
-    Reflecting Pretraining Dynamics.'
-  venue: ICCV
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/iccv/GuoTZS25
-  doi: 10.1109/ICCV51701.2025.00162
-  ee: https://doi.org/10.1109/ICCV51701.2025.00162
-  url: https://dblp.org/rec/conf/iccv/GuoTZS25
-  abstract: ''
-- author: Yukun Huang, Yanning Zhou 0003, Jianan Wang, Kaiyi Huang, Xihui Liu
-  title: 'DreamCube: RGB-D Panorama Generation via Multi-Plane Synchronization.'
-  venue: ICCV
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/iccv/HuangZWHL25
-  doi: 10.1109/ICCV51701.2025.02311
-  ee: https://doi.org/10.1109/ICCV51701.2025.02311
-  url: https://dblp.org/rec/conf/iccv/HuangZWHL25
-  abstract: ''
 - author: Hengzhe Jin, Lang Nie, Chunyu Lin, Xiaomei Feng, Yao Zhao 0001
   title: 'PixelStitch: Structure-Preserving Pixel-Wise Bidirectional Warps for Unsupervised
     Image Stitching.'
@@ -42110,76 +41151,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AICCV%3A:
   ee: https://doi.org/10.1109/ICCV51701.2025.02531
   url: https://dblp.org/rec/conf/iccv/LiaoZLC25
   abstract: ''
-- author: Zhixuan Liu, Haokun Zhu, Rui Chen, Jonathan Francis, Soonmin Hwang, Ji Zhang
-    0003, Jean Oh
-  title: 'MOSAIC: Generating Consistent, Privacy-Preserving Scenes from Multiple Depth
-    Views in Multi-Room Environments.'
-  venue: ICCV
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/iccv/LiuZCFHZO25
-  doi: 10.1109/ICCV51701.2025.02549
-  ee: https://doi.org/10.1109/ICCV51701.2025.02549
-  url: https://dblp.org/rec/conf/iccv/LiuZCFHZO25
-  abstract: ''
-- author: Jinhong Ni, Chang-Bin Zhang, Qiang Zhang, Jing Zhang
-  title: What Makes for Text to 360-Degree Panorama Generation with Stable Diffusion?
-  venue: ICCV
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/iccv/NiZZZ25
-  doi: 10.1109/ICCV51701.2025.01537
-  ee: https://doi.org/10.1109/ICCV51701.2025.01537
-  url: https://dblp.org/rec/conf/iccv/NiZZZ25
-  abstract: ''
-- author: Jiahui Ren, Mochu Xiang, Jiajun Zhu, Yuchao Dai
-  title: 'PanoSplatt3R: Leveraging Perspective Pretraining for Generalized Unposed
-    Wide-Baseline Panorama Reconstruction.'
-  venue: ICCV
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/iccv/RenXZD25
-  doi: 10.1109/ICCV51701.2025.02689
-  ee: https://doi.org/10.1109/ICCV51701.2025.02689
-  url: https://dblp.org/rec/conf/iccv/RenXZD25
-  abstract: ''
-- author: Zitong Zhang 0003, Suranjan Gautam, Rui Yu
-  title: 'Top2Pano: Learning to Generate Indoor Panoramas from Top-Down View.'
-  venue: ICCV
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/iccv/ZhangGY25
-  doi: 10.1109/ICCV51701.2025.02646
-  ee: https://doi.org/10.1109/ICCV51701.2025.02646
-  url: https://dblp.org/rec/conf/iccv/ZhangGY25
-  abstract: ''
-- author: Teng Zhou, Xiaoyu Zhang, Yongchuan Tang
-  title: 'PanoLlama: Generating Endless and Coherent Panoramas with Next-Token-Prediction
-    LLMs.'
-  venue: ICCV
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/iccv/ZhouZT25
-  doi: 10.1109/ICCV51701.2025.01423
-  ee: https://doi.org/10.1109/ICCV51701.2025.01423
-  url: https://dblp.org/rec/conf/iccv/ZhouZT25
-  abstract: ''
-- author: Sacha Jungerman, Atul Ingle, Mohit Gupta 0001
-  title: Panoramas from Photons.
-  venue: ICCV
-  year: '2023'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/iccv/JungermanI023
-  doi: 10.1109/ICCV51070.2023.00975
-  ee: https://doi.org/10.1109/ICCV51070.2023.00975
-  url: https://dblp.org/rec/conf/iccv/JungermanI023
-  abstract: ''
 - author: Lang Nie, Chunyu Lin, Kang Liao, Shuaicheng Liu, Yao Zhao 0001
   title: Parallax-Tolerant Unsupervised Deep Image Stitching.
   venue: ICCV
@@ -42190,41 +41161,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.00680
   ee: https://doi.org/10.1109/ICCV51070.2023.00680
   url: https://dblp.org/rec/conf/iccv/NieLLLZ23
-  abstract: ''
-- author: Prajwal Ganugula, Y. S. S. S. Santosh Kumar, N. K. Sagar Reddy, Prabhath
-    Chellingi, Avinash Thakur, Neeraj Kasera, C. Shyam Anand
-  title: 'MOSAIC: Multi-Object Segmented Arbitrary Stylization Using CLIP.'
-  venue: ICCV
-  year: '2023'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/iccvw/GanugulaKRCTKA23
-  doi: 10.1109/ICCVW60793.2023.00096
-  ee: https://doi.org/10.1109/ICCVW60793.2023.00096
-  url: https://dblp.org/rec/conf/iccvw/GanugulaKRCTKA23
-  abstract: ''
-- author: Yaqing Ding 0001, Daniel Barath, Zuzana Kukelova
-  title: Minimal Solutions for Panoramic Stitching Given Gravity Prior.
-  venue: ICCV
-  year: '2021'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/iccv/DingBK21
-  doi: 10.1109/ICCV48922.2021.00553
-  ee: https://doi.org/10.1109/ICCV48922.2021.00553
-  url: https://dblp.org/rec/conf/iccv/DingBK21
-  abstract: ''
-- author: Mohammad Amin Shabani, Weilian Song, Makoto Odamaki, Hirochika Fujiki, Yasutaka
-    Furukawa
-  title: Extreme Structure from Motion for Indoor Panoramas without Visual Overlaps.
-  venue: ICCV
-  year: '2021'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/iccv/ShabaniSOFF21
-  doi: 10.1109/ICCV48922.2021.00565
-  ee: https://doi.org/10.1109/ICCV48922.2021.00565
-  url: https://dblp.org/rec/conf/iccv/ShabaniSOFF21
   abstract: ''
 - author: Cheng Zhang 0014, Tai-Yu Pan, Yandong Li, Hexiang Hu, Dong Xuan, Soravit
     Changpinyo, Boqing Gong, Wei-Lun Chao
@@ -42250,39 +41186,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AICCV%3A:
   ee: https://doi.org/10.1109/ICCV48922.2021.01340
   url: https://dblp.org/rec/conf/iccv/ZhaoTG21
   abstract: ''
-- author: Jinsong Zhang, Jean-François Lalonde
-  title: Learning High Dynamic Range from Outdoor Panoramas.
-  venue: ICCV
-  year: '2017'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/iccv/ZhangL17
-  doi: 10.1109/ICCV.2017.484
-  ee: https://doi.org/10.1109/ICCV.2017.484
-  url: https://dblp.org/rec/conf/iccv/ZhangL17
-  abstract: ''
-- author: Andrea Cohen, Torsten Sattler, Marc Pollefeys
-  title: 'Merging the Unmatchable: Stitching Visually Disconnected SfM Models.'
-  venue: ICCV
-  year: '2015'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/iccv/CohenSP15
-  doi: 10.1109/ICCV.2015.246
-  ee: https://doi.org/10.1109/ICCV.2015.246
-  url: https://dblp.org/rec/conf/iccv/CohenSP15
-  abstract: ''
-- author: Dinghuang Ji, Enrique Dunn, Jan-Michael Frahm
-  title: Synthesizing Illumination Mosaics from Internet Photo-Collections.
-  venue: ICCV
-  year: '2015'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/iccv/JiDF15
-  doi: 10.1109/ICCV.2015.454
-  ee: https://doi.org/10.1109/ICCV.2015.454
-  url: https://dblp.org/rec/conf/iccv/JiDF15
-  abstract: ''
 - author: Martin Bujnak, Radim Sára
   title: A Robust Graph-Based Method for The General Correspondence Problem Demonstrated
     on Image Stitching.
@@ -42294,28 +41197,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AICCV%3A:
   doi: 10.1109/ICCV.2007.4408884
   ee: https://doi.org/10.1109/ICCV.2007.4408884
   url: https://dblp.org/rec/conf/iccv/BujnakS07
-  abstract: ''
-- author: Robert E. Carroll, Steven M. Seitz
-  title: Rectified Surface Mosaics.
-  venue: ICCV
-  year: '2007'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/iccv/CarrollS07
-  doi: 10.1109/ICCV.2007.4409128
-  ee: https://doi.org/10.1109/ICCV.2007.4409128
-  url: https://dblp.org/rec/conf/iccv/CarrollS07
-  abstract: ''
-- author: Florian Kangni, Robert Laganière
-  title: Orientation and Pose recovery from Spherical Panoramas.
-  venue: ICCV
-  year: '2007'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/iccv/KangniL07
-  doi: 10.1109/ICCV.2007.4409198
-  ee: https://doi.org/10.1109/ICCV.2007.4409198
-  url: https://dblp.org/rec/conf/iccv/KangniL07
   abstract: ''
 - author: Kevin E. Loewke, David B. Camarillo, Kenneth Salisbury, Sebastian Thrun
   title: Deformable Image Mosaicing for Optical Biopsy.
@@ -42350,50 +41231,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AICCV%3A:
   ee: https://doi.org/10.1109/ICCV.2005.86
   url: https://dblp.org/rec/conf/iccv/SteedlyPS05
   abstract: ''
-- author: Lihi Zelnik-Manor, Gabriele Peters, Pietro Perona
-  title: Squaring the Circles in Panoramas.
-  venue: ICCV
-  year: '2005'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/iccv/Zelnik-ManorPP05
-  doi: 10.1109/ICCV.2005.231
-  ee: https://doi.org/10.1109/ICCV.2005.231
-  url: https://dblp.org/rec/conf/iccv/Zelnik-ManorPP05
-  abstract: ''
-- author: Matthew Brown 0001, David G. Lowe
-  title: Recognising Panoramas.
-  venue: ICCV
-  year: '2003'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/iccv/BrownL03
-  doi: 10.1109/ICCV.2003.1238630
-  ee: https://doi.org/10.1109/ICCV.2003.1238630
-  url: https://dblp.org/rec/conf/iccv/BrownL03
-  abstract: ''
-- author: Fay Huang, Shou-Kang Wei, Reinhard Klette
-  title: Geometrical Fundamentals of Polycentric Panoramas.
-  venue: ICCV
-  year: '2001'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/iccv/HuangWK01
-  doi: 10.1109/ICCV.2001.10101
-  ee: https://doi.ieeecomputersociety.org/10.1109/ICCV.2001.10101
-  url: https://dblp.org/rec/conf/iccv/HuangWK01
-  abstract: ''
-- author: Yin Li 0003, Chi-Keung Tang, Heung-Yeung Shum
-  title: Efficient Dense Depth Estimation from Dense Multiperspective Panoramas.
-  venue: ICCV
-  year: '2001'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/iccv/LiTS01
-  doi: 10.1109/ICCV.2001.10026
-  ee: https://doi.ieeecomputersociety.org/10.1109/ICCV.2001.10026
-  url: https://dblp.org/rec/conf/iccv/LiTS01
-  abstract: ''
 - author: Long Quan, Le Lu 0001, Heung-Yeung Shum, Maxime Lhuillier
   title: Concentric Mosaic(s)Planar Motion and 1D Cameras.
   venue: ICCV
@@ -42404,28 +41241,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AICCV%3A:
   doi: 10.1109/ICCV.2001.937624
   ee: https://doi.org/10.1109/ICCV.2001.937624
   url: https://dblp.org/rec/conf/iccv/QuanLSL01
-  abstract: ''
-- author: Yoav Y. Schechner, Shree K. Nayar
-  title: Generalized Mosaicing.
-  venue: ICCV
-  year: '2001'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/iccv/SchechnerN01
-  doi: 10.1109/ICCV.2001.10018
-  ee: https://doi.ieeecomputersociety.org/10.1109/ICCV.2001.10018
-  url: https://dblp.org/rec/conf/iccv/SchechnerN01
-  abstract: ''
-- author: Zhigang Zhu 0001, Edward M. Riseman, Allen R. Hanson
-  title: Parallel-Perspective Stereo Mosaics.
-  venue: ICCV
-  year: '2001'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/iccv/ZhuRH01
-  doi: 10.1109/ICCV.2001.10015
-  ee: https://doi.ieeecomputersociety.org/10.1109/ICCV.2001.10015
-  url: https://dblp.org/rec/conf/iccv/ZhuRH01
   abstract: ''
 - author: Ken-ichi Kanatani, Naoya Ohta
   title: Accuracy Bounds and Optimal Computation of Homography for Image Mosaicing
@@ -42438,28 +41253,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AICCV%3A:
   doi: 10.1109/ICCV.1999.791200
   ee: https://doi.org/10.1109/ICCV.1999.791200
   url: https://dblp.org/rec/conf/iccv/KanataniO99
-  abstract: ''
-- author: Benny Rousso, Shmuel Peleg, Ilan Finci, Alex Rav-Acha
-  title: Universal Mosaicing using Pipe Projection.
-  venue: ICCV
-  year: '1998'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/iccv/RoussoPFR98
-  doi: 10.1109/ICCV.1998.710830
-  ee: https://doi.org/10.1109/ICCV.1998.710830
-  url: https://dblp.org/rec/conf/iccv/RoussoPFR98
-  abstract: ''
-- author: Heung-Yeung Shum, Richard Szeliski
-  title: Construction and Refinement of Panoramic Mosaics with Global and Local Alignment.
-  venue: ICCV
-  year: '1998'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/iccv/ShumS98
-  doi: 10.1109/ICCV.1998.710831
-  ee: https://doi.org/10.1109/ICCV.1998.710831
-  url: https://dblp.org/rec/conf/iccv/ShumS98
   abstract: ''
 - author: Michal Irani, P. Anandan 0001, Steven C. Hsu
   title: Mosaic Based Representations of Video Sequences and Their Applications.
@@ -42485,17 +41278,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AICCV%3A:
   url: https://dblp.org/rec/conf/iccv/SawhneyAG95
   abstract: ''
 stitch%7Cpanorama%7Cmosaic%20venue%3AECCV%3A:
-- author: Shuang Guo 0003, Guillermo Gallego 0002
-  title: Event-Based Mosaicing Bundle Adjustment.
-  venue: ECCV
-  year: '2024'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/eccv/GuoG24
-  doi: 10.1007/978-3-031-72624-8_27
-  ee: https://doi.org/10.1007/978-3-031-72624-8_27
-  url: https://dblp.org/rec/conf/eccv/GuoG24
-  abstract: ''
 - author: Seongsu Ha, Chaeyun Kim, Donghwa Kim, Junho Lee, Sangho Lee, Joonseok Lee
   title: 'Finding NeMo: Negative-Mined Mosaic Augmentation for Referring Image Segmentation.'
   venue: ECCV
@@ -42518,28 +41300,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AECCV%3A:
   doi: 10.1007/978-3-031-73235-5_22
   ee: https://doi.org/10.1007/978-3-031-73235-5_22
   url: https://dblp.org/rec/conf/eccv/NieLLZLAZ24
-  abstract: ''
-- author: Zizheng Pan, Jing Liu 0048, Haoyu He 0001, Jianfei Cai 0001, Bohan Zhuang
-  title: Stitched ViTs are Flexible Vision Backbones.
-  venue: ECCV
-  year: '2024'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/eccv/PanLHCZ24
-  doi: 10.1007/978-3-031-72940-9_15
-  ee: https://doi.org/10.1007/978-3-031-72940-9_15
-  url: https://dblp.org/rec/conf/eccv/PanLHCZ24
-  abstract: ''
-- author: Fabio Quattrini, Vittorio Pippi, Silvia Cascianelli, Rita Cucchiara
-  title: Merging and Splitting Diffusion Paths for Semantically Coherent Panoramas.
-  venue: ECCV
-  year: '2024'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/eccv/QuattriniPCC24
-  doi: 10.1007/978-3-031-72986-7_14
-  ee: https://doi.org/10.1007/978-3-031-72986-7_14
-  url: https://dblp.org/rec/conf/eccv/QuattriniPCC24
   abstract: ''
 - author: Siqi Yang, Zhaojun Huang, Yakun Chang, Bin Fan 0002, Zhaofei Yu, Boxin Shi
   title: Real-Data-Driven 2000 FPS Color Video from Mosaicked Chromatic Spikes.
@@ -42564,19 +41324,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AECCV%3A:
   ee: https://doi.org/10.1007/978-3-031-72913-3_5
   url: https://dblp.org/rec/conf/eccv/YeLLYYZH24
   abstract: ''
-- author: Will Hutchcroft, Yuguang Li, Ivaylo Boyadzhiev, Zhiqiang Wan, Haiyan Wang
-    0019, Sing Bing Kang
-  title: 'CoVisPose: Co-visibility Pose Transformer for Wide-Baseline Relative Pose
-    Estimation in 360$\circ $ Indoor Panoramas.'
-  venue: ECCV
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/eccv/HutchcroftLBWWK22
-  doi: 10.1007/978-3-031-19824-3_36
-  ee: https://doi.org/10.1007/978-3-031-19824-3_36
-  url: https://dblp.org/rec/conf/eccv/HutchcroftLBWWK22
-  abstract: ''
 - author: Junho Kim, Hojun Jang, Changwoon Choi, Young Min Kim 0001
   title: 'CPO: Change Robust Panorama to Point Cloud Localization.'
   venue: ECCV
@@ -42587,43 +41334,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AECCV%3A:
   doi: 10.1007/978-3-031-20077-9_11
   ee: https://doi.org/10.1007/978-3-031-20077-9_11
   url: https://dblp.org/rec/conf/eccv/KimJCK22
-  abstract: ''
-- author: John Lambert, Yuguang Li, Ivaylo Boyadzhiev, Lambert Wixson, Manjunath Narayana,
-    Will Hutchcroft, James Hays, Frank Dellaert, Sing Bing Kang
-  title: 'SALVe: Semantic Alignment Verification for Floorplan Reconstruction from
-    Sparse Panoramas.'
-  venue: ECCV
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/eccv/LambertLBWNHHDK22
-  doi: 10.1007/978-3-031-19821-2_37
-  ee: https://doi.org/10.1007/978-3-031-19821-2_37
-  url: https://dblp.org/rec/conf/eccv/LambertLBWNHHDK22
-  abstract: ''
-- author: Changgyoon Oh, Wonjune Cho, Yujeong Chae, Daehee Park 0001, Lin Wang 0025,
-    Kuk-Jin Yoon
-  title: 'BIPS: Bi-modal Indoor Panorama Synthesis via Residual Depth-Aided Adversarial
-    Learning.'
-  venue: ECCV
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/eccv/OhCCPWY22
-  doi: 10.1007/978-3-031-19787-1_20
-  ee: https://doi.org/10.1007/978-3-031-19787-1_20
-  url: https://dblp.org/rec/conf/eccv/OhCCPWY22
-  abstract: ''
-- author: Zhijie Shen, Chunyu Lin, Kang Liao, Lang Nie, Zishuo Zheng, Yao Zhao 0001
-  title: 'PanoFormer: Panorama Transformer for Indoor 360${\circ }$ Depth Estimation.'
-  venue: ECCV
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/eccv/ShenLLNZZ22
-  doi: 10.1007/978-3-031-19769-7_12
-  ee: https://doi.org/10.1007/978-3-031-19769-7_12
-  url: https://dblp.org/rec/conf/eccv/ShenLLNZZ22
   abstract: ''
 - author: Dae-Young Song, Geonsoo Lee, Heekyung Lee, Gi-Mun Um, Donghyeon Cho
   title: Weakly-Supervised Stitching Network for Real-World Panoramic Image Generation.
@@ -42636,17 +41346,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AECCV%3A:
   ee: https://doi.org/10.1007/978-3-031-19787-1_4
   url: https://dblp.org/rec/conf/eccv/SongLLUC22
   abstract: ''
-- author: Guangcong Wang, Yinuo Yang, Chen Change Loy, Ziwei Liu 0002
-  title: 'StyleLight: HDR Panorama Generation for Lighting Estimation and Editing.'
-  venue: ECCV
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/eccv/WangYL022
-  doi: 10.1007/978-3-031-19784-0_28
-  ee: https://doi.org/10.1007/978-3-031-19784-0_28
-  url: https://dblp.org/rec/conf/eccv/WangYL022
-  abstract: ''
 - author: Yining Zhao, Chao Wen 0001, Zhou Xue, Yue Gao 0002
   title: 3D Room Layout Estimation from a Cubemap of Panorama Image via Deep Manhattan
     Hough Transform.
@@ -42658,18 +41357,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AECCV%3A:
   doi: 10.1007/978-3-031-19769-7_37
   ee: https://doi.org/10.1007/978-3-031-19769-7_37
   url: https://dblp.org/rec/conf/eccv/ZhaoWXG22
-  abstract: ''
-- author: Kai-En Lin, Zexiang Xu, Ben Mildenhall, Pratul P. Srinivasan, Yannick Hold-Geoffroy,
-    Stephen DiVerdi, Qi Sun 0003, Kalyan Sunkavalli, Ravi Ramamoorthi
-  title: Deep Multi Depth Panoramas for View Synthesis.
-  venue: ECCV
-  year: '2020'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/eccv/LinXMSHDSSR20
-  doi: 10.1007/978-3-030-58601-0_20
-  ee: https://doi.org/10.1007/978-3-030-58601-0_20
-  url: https://dblp.org/rec/conf/eccv/LinXMSHDSSR20
   abstract: ''
 - author: Wei Zeng 0016, Sezer Karaoglu, Theo Gevers
   title: Joint 3D Layout and Depth Prediction from a Single Indoor Panorama Image.
@@ -42705,28 +41392,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AECCV%3A:
   ee: https://doi.org/10.1007/978-3-030-01219-9_50
   url: https://dblp.org/rec/conf/eccv/HerrmannWBKZ18
   abstract: ''
-- author: Bo Xiong, Kristen Grauman
-  title: Snap Angle Prediction for 360 ∘ Panoramas.
-  venue: ECCV
-  year: '2018'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/eccv/XiongG18
-  doi: 10.1007/978-3-030-01228-1_1
-  ee: https://doi.org/10.1007/978-3-030-01228-1_1
-  url: https://dblp.org/rec/conf/eccv/XiongG18
-  abstract: ''
-- author: Nikolaos Zioulis, Antonis Karakottas, Dimitrios Zarpalas, Petros Daras
-  title: 'OmniDepth: Dense Depth Estimation for Indoors Spherical Panoramas.'
-  venue: ECCV
-  year: '2018'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/eccv/ZioulisKZD18
-  doi: 10.1007/978-3-030-01231-1_28
-  ee: https://doi.org/10.1007/978-3-030-01231-1_28
-  url: https://dblp.org/rec/conf/eccv/ZioulisKZD18
-  abstract: ''
 - author: Yu-Sheng Chen, Yung-Yu Chuang
   title: Natural Image Stitching with the Global Similarity Prior.
   venue: ECCV
@@ -42759,17 +41424,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AECCV%3A:
   doi: 10.1007/978-3-642-15558-1_6
   ee: https://doi.org/10.1007/978-3-642-15558-1_6
   url: https://dblp.org/rec/conf/eccv/LovegroveD10
-  abstract: ''
-- author: Matthieu Fradet, Patrick Pérez, Philippe Robert
-  title: Semi-automatic Motion Segmentation with Motion Layer Mosaics.
-  venue: ECCV
-  year: '2008'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/eccv/FradetPR08
-  doi: 10.1007/978-3-540-88690-7_16
-  ee: https://doi.org/10.1007/978-3-540-88690-7_16
-  url: https://dblp.org/rec/conf/eccv/FradetPR08
   abstract: ''
 - author: Chu-Song Chen, Yu-Ting Chen, Fay Huang
   title: Stitching and Reconstruction of Linear-Pushbroom Panoramic Images for Planar
@@ -42838,31 +41492,6 @@ stitch%7Cpanorama%7Cmosaic%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3746027.3754779
   ee: https://doi.org/10.1145/3746027.3754779
   url: https://dblp.org/rec/conf/mm/KangXZK25
-  abstract: ''
-- author: Bingyu Li, Da Zhang 0010, Zhiyuan Zhao 0005, Junyu Gao 0001, Xuelong Li
-    0001
-  title: 'StitchFusion: Weaving Any Visual Modalities to Enhance Multimodal Semantic
-    Segmentation.'
-  venue: ACM Multimedia
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/mm/Li000025
-  doi: 10.1145/3746027.3755110
-  ee: https://doi.org/10.1145/3746027.3755110
-  url: https://dblp.org/rec/conf/mm/Li000025
-  abstract: ''
-- author: Ke Xing, Hanwen Liang, Dejia Xu, Yuyang Yin, Konstantinos N. Plataniotis,
-    Yao Zhao 0001, Yunchao Wei
-  title: 'TiP4GEN: Text to Immersive Panorama 4D Scene Generation.'
-  venue: ACM Multimedia
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/mm/XingLXYP0W25
-  doi: 10.1145/3746027.3754704
-  ee: https://doi.org/10.1145/3746027.3754704
-  url: https://dblp.org/rec/conf/mm/XingLXYP0W25
   abstract: ''
 - author: Sooho Kim, Soyeon Hong, Kyungsoo Park, Hyunsouk Cho, Kyung-Ah Sohn
   title: 'OmniStitch: Depth-Aware Stitching Framework for Omnidirectional Vision with
@@ -42955,18 +41584,6 @@ stitch%7Cpanorama%7Cmosaic%20streamid%3Aconf%2Fmm%3A:
   ee: https://doi.org/10.1145/3343031.3350973
   url: https://dblp.org/rec/conf/mm/LiYZZX19
   abstract: ''
-- author: Yu-Hsin Lin, Yu-Mei Chen, Lun-Cheng Chu, Andre Chen, Scott Chien-Hung Liao,
-    Edward Y. Chang
-  title: 'Pan360: INS Assisted 360-Degree Panorama (Demo Description).'
-  venue: ACM Multimedia
-  year: '2015'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/mm/LinCCCLC15
-  doi: 10.1145/2733373.2807967
-  ee: https://doi.org/10.1145/2733373.2807967
-  url: https://dblp.org/rec/conf/mm/LinCCCLC15
-  abstract: ''
 - author: Xiangyun Meng, Wei Wang 0102, Ben Leong
   title: 'SkyStitch: A Cooperative Multi-UAV-based Real-time Video Surveillance System
     with Stitching.'
@@ -43025,17 +41642,6 @@ stitch%7Cpanorama%7Cmosaic%20streamid%3Aconf%2Fmm%3A:
   ee: https://doi.org/10.1145/1873951.1874289
   url: https://dblp.org/rec/conf/mm/BattiatoP10
   abstract: ''
-- author: Yingen Xiong, Kari Pulli
-  title: Color and luminance compensation for mobile panorama construction.
-  venue: ACM Multimedia
-  year: '2010'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/mm/XiongP10
-  doi: 10.1145/1873951.1873989
-  ee: https://doi.org/10.1145/1873951.1873989
-  url: https://dblp.org/rec/conf/mm/XiongP10
-  abstract: ''
 - author: Motaz Ahmad El-Saban, Mahmoud Refaat, Ayman Kaheel, Ahmed Abdul-Hamid
   title: Stitching videos streamed by mobile phones in real-time.
   venue: ACM Multimedia
@@ -43069,28 +41675,6 @@ stitch%7Cpanorama%7Cmosaic%20streamid%3Aconf%2Fmm%3A:
   ee: https://doi.org/10.1145/1291233.1291418
   url: https://dblp.org/rec/conf/mm/FloraZ07
   abstract: ''
-- author: Brett Adams, Stewart Greenhill, Svetha Venkatesh
-  title: Browsing personal media archives with spatial context using panoramas.
-  venue: ACM Multimedia
-  year: '2006'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/mm/AdamsGV06
-  doi: 10.1145/1180639.1180790
-  ee: https://doi.org/10.1145/1180639.1180790
-  url: https://dblp.org/rec/conf/mm/AdamsGV06
-  abstract: ''
-- author: Azzedine Boukerche, Richard Werner Nelem Pazzi
-  title: Remote rendering and streaming of progressive panoramas for mobile devices.
-  venue: ACM Multimedia
-  year: '2006'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/mm/BoukercheP06
-  doi: 10.1145/1180639.1180785
-  ee: https://doi.org/10.1145/1180639.1180785
-  url: https://dblp.org/rec/conf/mm/BoukercheP06
-  abstract: ''
 - author: Kihwan Kim, Irfan A. Essa, Gregory D. Abowd
   title: Interactive mosaic generation for video navigation.
   venue: ACM Multimedia
@@ -43101,28 +41685,6 @@ stitch%7Cpanorama%7Cmosaic%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/1180639.1180776
   ee: https://doi.org/10.1145/1180639.1180776
   url: https://dblp.org/rec/conf/mm/KimEA06
-  abstract: ''
-- author: Jiang Yu Zheng, Min Shi 0003, Makoto Kato
-  title: Route panoramas for city navigation.
-  venue: ACM Multimedia
-  year: '2003'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/mm/ZhengSK03
-  doi: 10.1145/957013.957038
-  ee: https://doi.org/10.1145/957013.957038
-  url: https://dblp.org/rec/conf/mm/ZhengSK03
-  abstract: ''
-- author: Yunnan Wu, Cha Zhang, Jin Li 0001, Jizheng Xu
-  title: Smart rebinning for compression of concentric mosaics.
-  venue: ACM Multimedia
-  year: '2000'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/mm/WuZLX00
-  doi: 10.1145/354384.354476
-  ee: https://doi.org/10.1145/354384.354476
-  url: https://dblp.org/rec/conf/mm/WuZLX00
   abstract: ''
 - author: Ryan C. Jones, Daniel DeMenthon, David S. Doermann
   title: Building mosaics from video using MPEG motion vectors.
@@ -43147,33 +41709,6 @@ stitch%7Cpanorama%7Cmosaic%20streamid%3Aconf%2Fmm%3A:
   url: https://dblp.org/rec/conf/mm/MackayP94
   abstract: ''
 stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Fijcv%3A:
-- author: Chenhao Ji, Weicai Ye, Zheng Chen 0016, Junyao Gao 0002, Xiaoshui Huang,
-    Xuekuan Wang, Guofeng Zhang 0001, Song-Hai Zhang, Tong He 0001, Wanli Ouyang,
-    Cairong Zhao
-  title: 'DiffPano++: Scalable and Consistent Multi-View Panorama Generation with
-    Spherical Epipolar-Aware Diffusion.'
-  venue: Int. J. Comput. Vis.
-  year: '2026'
-  type: Journal Articles
-  access: closed
-  key: journals/ijcv/JiYCGHWZZHOZ26
-  doi: 10.1007/S11263-026-02758-7
-  ee: https://doi.org/10.1007/s11263-026-02758-7
-  url: https://dblp.org/rec/journals/ijcv/JiYCGHWZZHOZ26
-  abstract: ''
-- author: Jiahao Xie 0002, Wei Li 0319, Xiangtai Li, Ziwei Liu 0002, Yew Soon Ong,
-    Chen Change Loy
-  title: 'MosaicFusion: Diffusion Models as Data Augmenters for Large Vocabulary Instance
-    Segmentation.'
-  venue: Int. J. Comput. Vis.
-  year: '2025'
-  type: Journal Articles
-  access: closed
-  key: journals/ijcv/XieLLLOL25
-  doi: 10.1007/S11263-024-02223-3
-  ee: https://doi.org/10.1007/s11263-024-02223-3
-  url: https://dblp.org/rec/journals/ijcv/XieLLLOL25
-  abstract: ''
 - author: Panagiotis Papadakis, Ioannis Pratikakis, Theoharis Theoharis, Stavros J.
     Perantonis
   title: 'PANORAMA: A 3D Shape Descriptor Based on Panoramic Views for Unsupervised
@@ -43187,39 +41722,6 @@ stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Fijcv%3A:
   ee: https://doi.org/10.1007/s11263-009-0281-6
   url: https://dblp.org/rec/journals/ijcv/PapadakisPTP10
   abstract: ''
-- author: Javier Civera 0001, Andrew J. Davison, Juan A. Magallon, J. M. M. Montiel
-  title: Drift-Free Real-Time Sequential Mosaicing.
-  venue: Int. J. Comput. Vis.
-  year: '2009'
-  type: Journal Articles
-  access: closed
-  key: journals/ijcv/CiveraDMM09
-  doi: 10.1007/S11263-008-0129-5
-  ee: https://doi.org/10.1007/s11263-008-0129-5
-  url: https://dblp.org/rec/journals/ijcv/CiveraDMM09
-  abstract: ''
-- author: Alex Rav-Acha, Giora Engel, Shmuel Peleg
-  title: Minimal Aspect Distortion (MAD) Mosaicing of Long Scenes.
-  venue: Int. J. Comput. Vis.
-  year: '2008'
-  type: Journal Articles
-  access: closed
-  key: journals/ijcv/Rav-AchaEP08
-  doi: 10.1007/S11263-007-0101-9
-  ee: https://doi.org/10.1007/s11263-007-0101-9
-  url: https://dblp.org/rec/journals/ijcv/Rav-AchaEP08
-  abstract: ''
-- author: Jiang Yu Zheng, Min Shi 0003
-  title: Scanning Depth of Route Panorama Based on Stationary Blur.
-  venue: Int. J. Comput. Vis.
-  year: '2008'
-  type: Journal Articles
-  access: closed
-  key: journals/ijcv/ZhengS08
-  doi: 10.1007/S11263-007-0080-X
-  ee: https://doi.org/10.1007/s11263-007-0080-x
-  url: https://dblp.org/rec/journals/ijcv/ZhengS08
-  abstract: ''
 - author: Matthew Brown 0001, David G. Lowe
   title: Automatic Panoramic Image Stitching using Invariant Features.
   venue: Int. J. Comput. Vis.
@@ -43230,17 +41732,6 @@ stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Fijcv%3A:
   doi: 10.1007/S11263-006-0002-3
   ee: https://doi.org/10.1007/s11263-006-0002-3
   url: https://dblp.org/rec/journals/ijcv/BrownL07
-  abstract: ''
-- author: Yoav Y. Schechner, Shree K. Nayar
-  title: 'Generalized Mosaicing: High Dynamic Range in a Wide Field of View.'
-  venue: Int. J. Comput. Vis.
-  year: '2003'
-  type: Journal Articles
-  access: closed
-  key: journals/ijcv/SchechnerN03
-  doi: 10.1023/A:1023082924255
-  ee: https://doi.org/10.1023/A:1023082924255
-  url: https://dblp.org/rec/journals/ijcv/SchechnerN03
   abstract: ''
 - author: Heung-Yeung Shum, Richard Szeliski
   title: Correction to Construction of Panoramic Image Mosaics with Global and Local
@@ -43254,17 +41745,6 @@ stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Fijcv%3A:
   ee: https://doi.org/10.1023/A:1016051024520
   url: https://dblp.org/rec/journals/ijcv/ShumS02
   abstract: ''
-- author: Satyan R. Coorg, Seth J. Teller
-  title: Spherical Mosaics with Quaternions and Dense Correlation.
-  venue: Int. J. Comput. Vis.
-  year: '2000'
-  type: Journal Articles
-  access: closed
-  key: journals/ijcv/CoorgT00
-  doi: 10.1023/A:1008184124789
-  ee: https://doi.org/10.1023/A:1008184124789
-  url: https://dblp.org/rec/journals/ijcv/CoorgT00
-  abstract: ''
 - author: Heung-Yeung Shum, Richard Szeliski
   title: 'Systems and Experiment Paper: Construction of Panoramic Image Mosaics with
     Global and Local Alignment.'
@@ -43277,93 +41757,9 @@ stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Fijcv%3A:
   ee: https://doi.org/10.1023/A:1008195814169
   url: https://dblp.org/rec/journals/ijcv/ShumS00
   abstract: ''
-stitch%7Cpanorama%7Cmosaic%20venue%3AACL%3A:
-- author: Matthieu Dubois, François Yvon, Pablo Piantanida
-  title: 'MOSAIC: Multiple Observers Spotting AI Content.'
-  venue: ACL
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/acl/DuboisYP25
-  doi: ''
-  ee: https://aclanthology.org/2025.findings-acl.1244/
-  url: https://dblp.org/rec/conf/acl/DuboisYP25
-  abstract: ''
-- author: Bodun Hu, Shuozhe Li, Saurabh Agarwal, Myungjin Lee, Akshay Jajoo, Jiamin
-    Li 0002, Le Xu, Geon-Woo Kim, Donghyun Kim 0002, Hong Xu 0001, Amy Zhang 0001,
-    Aditya Akella
-  title: 'StitchLLM: Serving LLMs, One Block at a Time.'
-  venue: ACL
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/acl/HuLALJLXK000A25
-  doi: ''
-  ee: https://aclanthology.org/2025.acl-long.1305/
-  url: https://dblp.org/rec/conf/acl/HuLALJLXK000A25
-  abstract: ''
-- author: Ming Li, Pei Chen, Chenguang Wang, Hongyu Zhao, Yijun Liang, Yupeng Hou,
-    Fuxiao Liu, Tianyi Zhou 0001
-  title: 'Mosaic-IT: Cost-Free Compositional Data Synthesis for Instruction Tuning.'
-  venue: ACL
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/acl/LiCWZLHLZ25
-  doi: ''
-  ee: https://aclanthology.org/2025.findings-acl.1297/
-  url: https://dblp.org/rec/conf/acl/LiCWZLHLZ25
-  abstract: ''
-stitch%7Cpanorama%7Cmosaic%20venue%3ANAACL-HLT%3A:
-- author: Simone Conia, Edoardo Barba, Abelardo Carlos Martinez Lorenzo, Pere-Lluís
-    Huguet Cabot, Riccardo Orlando, Luigi Procopio, Roberto Navigli
-  title: 'MOSAICo: a Multilingual Open-text Semantically Annotated Interlinked Corpus.'
-  venue: NAACL-HLT
-  year: '2024'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/naacl/ConiaBLCOPN24
-  doi: 10.18653/V1/2024.NAACL-LONG.442
-  ee: https://doi.org/10.18653/v1/2024.naacl-long.442
-  url: https://dblp.org/rec/conf/naacl/ConiaBLCOPN24
-  abstract: ''
+stitch%7Cpanorama%7Cmosaic%20venue%3AACL%3A: []
+stitch%7Cpanorama%7Cmosaic%20venue%3ANAACL-HLT%3A: []
 stitch%7Cpanorama%7Cmosaic%20venue%3AEMNLP%3A:
-- author: Abhinav Joshi, Vaibhav Sharma, Sanjeet Singh, Ashutosh Modi
-  title: 'PoseStitch-SLT: Linguistically Inspired Pose-Stitching for End-to-End Sign
-    Language Translation.'
-  venue: EMNLP
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/emnlp/JoshiSSM25
-  doi: 10.18653/V1/2025.EMNLP-MAIN.698
-  ee: https://doi.org/10.18653/v1/2025.emnlp-main.698
-  url: https://dblp.org/rec/conf/emnlp/JoshiSSM25
-  abstract: ''
-- author: Genglin Liu, Vivian T. Le, Salman Rahman, Elisa Kreiss, Marzyeh Ghassemi,
-    Saadia Gabriel
-  title: 'MOSAIC: Modeling Social AI for Content Dissemination and Regulation in Multi-Agent
-    Simulations.'
-  venue: EMNLP
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/emnlp/LiuLRKGG25
-  doi: 10.18653/V1/2025.EMNLP-MAIN.325
-  ee: https://doi.org/10.18653/v1/2025.emnlp-main.325
-  url: https://dblp.org/rec/conf/emnlp/LiuLRKGG25
-  abstract: ''
-- author: Jaisidh Singh, Diganta Misra, Boris Knyazev, Antonio Orvieto
-  title: (Almost) Free Modality Stitching of Foundation Models.
-  venue: EMNLP
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/emnlp/SinghMKO25
-  doi: 10.18653/V1/2025.EMNLP-MAIN.1001
-  ee: https://doi.org/10.18653/v1/2025.emnlp-main.1001
-  url: https://dblp.org/rec/conf/emnlp/SinghMKO25
-  abstract: ''
 - author: Qin Dai, Benjamin Heinzerling, Kentaro Inui
   title: Cross-stitching Text and Knowledge Graph Encoders for Distantly Supervised
     Relation Extraction.
@@ -43376,163 +41772,11 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AEMNLP%3A:
   ee: https://doi.org/10.18653/v1/2022.emnlp-main.467
   url: https://dblp.org/rec/conf/emnlp/DaiHI22
   abstract: ''
-- author: Bingfeng Luo, Zuo Bai, Kunfeng Lai, Jianping Shen
-  title: 'Make Templates Smarter: A Template Based Data2Text System Powered by Text
-    Stitch Model.'
-  venue: EMNLP
-  year: '2020'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/emnlp/LuoBLS20
-  doi: 10.18653/V1/2020.FINDINGS-EMNLP.94
-  ee: https://doi.org/10.18653/v1/2020.findings-emnlp.94
-  url: https://dblp.org/rec/conf/emnlp/LuoBLS20
-  abstract: ''
 stitch%7Cpanorama%7Cmosaic%20venue%3ACOLING%3A: []
-stitch%7Cpanorama%7Cmosaic%20venue%3ASIGIR%3A:
-- author: Tingyang Chen, Cong Fu 0001, Xiangyu Ke, Yunjun Gao, Yabo Ni, Anxiang Zeng
-  title: Stitching Inner Product and Euclidean Metrics for Topology-aware Maximum
-    Inner Product Search.
-  venue: SIGIR
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/sigir/Chen0KGNZ25
-  doi: 10.1145/3726302.3730088
-  ee: https://doi.org/10.1145/3726302.3730088
-  url: https://dblp.org/rec/conf/sigir/Chen0KGNZ25
-  abstract: ''
-- author: Robin Ungruh, Alejandro Bellogín, Maria Soledad Pera
-  title: 'From Monolith to Mosaic: Uncovering Behavioral Differences for Choice Models
-    in Recommender Systems Simulations.'
-  venue: SIGIR
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/sigir/UngruhBP25
-  doi: 10.1145/3726302.3730199
-  ee: https://doi.org/10.1145/3726302.3730199
-  url: https://dblp.org/rec/conf/sigir/UngruhBP25
-  abstract: ''
-- author: Nathaniel W. Rollings
-  title: Mosaicing Prevention in Declassification.
-  venue: SIGIR
-  year: '2024'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/sigir/Rollings24
-  doi: 10.1145/3626772.3657656
-  ee: https://doi.org/10.1145/3626772.3657656
-  url: https://dblp.org/rec/conf/sigir/Rollings24
-  abstract: ''
-- author: Kevin Zielnicki
-  title: 'Simulacra and Selection: Clothing Set Recommendation at Stitch Fix.'
-  venue: SIGIR
-  year: '2019'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/sigir/Zielnicki19
-  doi: 10.1145/3331184.3331442
-  ee: https://doi.org/10.1145/3331184.3331442
-  url: https://dblp.org/rec/conf/sigir/Zielnicki19
-  abstract: ''
-stitch%7Cpanorama%7Cmosaic%20streamid%3Aconf%2Fsigmod%3A:
-- author: Jeffrey Heer, Dominik Moritz, Ron Pechunk
-  title: 'Mosaic: An Architecture for Linking Databases and Scalable Interactive Visualizations.'
-  venue: SIGMOD Conference Companion
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/sigmod/HeerMP25
-  doi: 10.1145/3722212.3725117
-  ee: https://doi.org/10.1145/3722212.3725117
-  url: https://dblp.org/rec/conf/sigmod/HeerMP25
-  abstract: ''
-- author: Joachim Hammer, Hector Garcia-Molina, Kelly Ireland, Yannis Papakonstantinou,
-    Jeffrey D. Ullman, Jennifer Widom
-  title: Information Translation, Mediation, and Mosaic-Based Browsing in the TSIMMIS
-    System.
-  venue: SIGMOD Conference
-  year: '1995'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/sigmod/HammerGIPUW95
-  doi: 10.1145/223784.223896
-  ee: https://doi.org/10.1145/223784.223896
-  url: https://dblp.org/rec/conf/sigmod/HammerGIPUW95
-  abstract: ''
-- author: Michele Missikoff, Marco Toiati
-  title: MOSAICO - A System for Conceptual Modeling and Rapid Prototyping of Object-Oriented
-    Database Application.
-  venue: SIGMOD Conference
-  year: '1994'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/sigmod/MissikoffT94
-  doi: 10.1145/191839.191958
-  ee: https://doi.org/10.1145/191839.191958
-  url: https://dblp.org/rec/conf/sigmod/MissikoffT94
-  abstract: ''
-stitch%7Cpanorama%7Cmosaic%20venue%3AICDE%3A:
-- author: Yihao Ang, Qiang Huang, Anthony K. H. Tung, Zhiyong Huang 0010
-  title: 'A Stitch in Time Saves Nine: Enabling Early Anomaly Detection with Correlation
-    Analysis.'
-  venue: ICDE
-  year: '2023'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/icde/AngHTH23
-  doi: 10.1109/ICDE55515.2023.00143
-  ee: https://doi.org/10.1109/ICDE55515.2023.00143
-  url: https://dblp.org/rec/conf/icde/AngHTH23
-  abstract: ''
-- author: Volker Markl
-  title: 'Mosaics: Stratosphere, Flink and Beyond.'
-  venue: ICDE
-  year: '2017'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/icde/Markl17
-  doi: 10.1109/ICDE.2017.8
-  ee: https://doi.org/10.1109/ICDE.2017.8
-  url: https://dblp.org/rec/conf/icde/Markl17
-  abstract: ''
+stitch%7Cpanorama%7Cmosaic%20venue%3ASIGIR%3A: []
+stitch%7Cpanorama%7Cmosaic%20streamid%3Aconf%2Fsigmod%3A: []
+stitch%7Cpanorama%7Cmosaic%20venue%3AICDE%3A: []
 stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Fpvldb%3A:
-- author: Dixin Tang, Alan D. Fekete, Indranil Gupta, Aditya G. Parameswaran
-  title: 'Transactional Panorama: A Conceptual Framework for User Perception in Analytical
-    Visual Interfaces.'
-  venue: Proc. VLDB Endow.
-  year: '2023'
-  type: Journal Articles
-  access: open
-  key: journals/pvldb/TangFGP23
-  doi: 10.14778/3583140.3583162
-  ee: https://www.vldb.org/pvldb/vol16/p1494-tang.pdf
-  url: https://dblp.org/rec/journals/pvldb/TangFGP23
-  abstract: ''
-- author: Ramon Antonio Rodriges Zalipynis
-  title: 'FastMosaic in Action: A New Mosaic Operator for Array DBMSs.'
-  venue: Proc. VLDB Endow.
-  year: '2023'
-  type: Journal Articles
-  access: open
-  key: journals/pvldb/Zalipynis23
-  doi: 10.14778/3611540.3611590
-  ee: https://www.vldb.org/pvldb/vol16/p3938-zalipynis.pdf
-  url: https://dblp.org/rec/journals/pvldb/Zalipynis23
-  abstract: ''
-- author: Lukas Vogel 0001, Alexander van Renen, Satoshi Imamura, Viktor Leis, Thomas
-    Neumann 0001, Alfons Kemper
-  title: 'Mosaic: A Budget-Conscious Storage Engine for Relational Database Systems.'
-  venue: Proc. VLDB Endow.
-  year: '2020'
-  type: Journal Articles
-  access: open
-  key: journals/pvldb/0001RIL0K20
-  doi: ''
-  ee: http://www.vldb.org/pvldb/vol13/p2662-vogel.pdf
-  url: https://dblp.org/rec/journals/pvldb/0001RIL0K20
-  abstract: ''
 - author: Yuhao Zhang, Arun Kumar 0001
   title: 'Panorama: A Data System for Unbounded Vocabulary Querying over Video.'
   venue: Proc. VLDB Endow.
@@ -43544,171 +41788,16 @@ stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Fpvldb%3A:
   ee: http://www.vldb.org/pvldb/vol13/p477-zhang.pdf
   url: https://dblp.org/rec/journals/pvldb/ZhangK19
   abstract: ''
-- author: Bailu Ding, Sudipto Das, Wentao Wu 0001, Surajit Chaudhuri, Vivek R. Narasayya
-  title: 'Plan Stitch: Harnessing the Best of Many Plans.'
-  venue: Proc. VLDB Endow.
-  year: '2018'
-  type: Journal Articles
-  access: open
-  key: journals/pvldb/DingDWCN18
-  doi: 10.14778/3231751.3231761
-  ee: http://www.vldb.org/pvldb/vol11/p1123-ding.pdf
-  url: https://dblp.org/rec/journals/pvldb/DingDWCN18
-  abstract: ''
-- author: Oliver Lehmberg, Christian Bizer
-  title: Stitching Web Tables for Improving Matching Quality.
-  venue: Proc. VLDB Endow.
-  year: '2017'
-  type: Journal Articles
-  access: open
-  key: journals/pvldb/LehmbergB17
-  doi: 10.14778/3137628.3137657
-  ee: http://www.vldb.org/pvldb/vol10/p1502-lehmberg.pdf
-  url: https://dblp.org/rec/journals/pvldb/LehmbergB17
-  abstract: ''
-stitch%7Cpanorama%7Cmosaic%20venue%3ASIGCOMM%3A:
-- author: Kaoutar Benyahya, Ariel Gomez Diaz, Junyi Liu, Vassily Lyutsarev, Marianna
-    Pantouvaki, Kai Shi 0003, Shawn Yohanes Siew, Hitesh Ballani, Thomas Burridge,
-    Daniel Cletheroe, Thomas Karagiannis, Brian Robertson, Antony I. T. Rowstron,
-    Mengyang Yang, Paolo Costa
-  title: 'Mosaic: Breaking the Optics versus Copper Trade-off with a Wide-and-Slow
-    Architecture and MicroLEDs.'
-  venue: SIGCOMM
-  year: '2025'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/sigcomm/BenyahyaDLLP0SB25
-  doi: 10.1145/3718958.3750510
-  ee: https://doi.org/10.1145/3718958.3750510
-  url: https://dblp.org/rec/conf/sigcomm/BenyahyaDLLP0SB25
-  abstract: ''
-- author: Ning Xia, Han Hee Song, Yong Liao, Marios Iliofotou, Antonio Nucci, Zhi-Li
-    Zhang, Aleksandar Kuzmanovic
-  title: 'Mosaic: quantifying privacy leakage in mobile networks.'
-  venue: SIGCOMM
-  year: '2013'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/sigcomm/XiaSLINZK13
-  doi: 10.1145/2486001.2486008
-  ee: https://doi.org/10.1145/2486001.2486008
-  url: https://dblp.org/rec/conf/sigcomm/XiaSLINZK13
-  abstract: ''
-stitch%7Cpanorama%7Cmosaic%20venue%3AINFOCOM%3A:
-- author: Daniel Uvaydov, Milin Zhang 0002, Clifton Paul Robinson, Salvatore D&apos;Oro,
-    Tommaso Melodia, Francesco Restuccia 0001
-  title: 'Stitching the Spectrum: Semantic Spectrum Segmentation with Wideband Signal
-    Stitching.'
-  venue: INFOCOM
-  year: '2024'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/infocom/Uvaydov0RDM024
-  doi: 10.1109/INFOCOM52122.2024.10621332
-  ee: https://doi.org/10.1109/INFOCOM52122.2024.10621332
-  url: https://dblp.org/rec/conf/infocom/Uvaydov0RDM024
-  abstract: ''
-- author: Yi Gao 0001, Wei Dong 0001, Kai Guo, Xue Liu 0001, Yuan Chen, Xiaojin Liu
-    0001, Jiajun Bu, Chun Chen 0001
-  title: 'Mosaic: A low-cost mobile sensing system for urban air quality monitoring.'
-  venue: INFOCOM
-  year: '2016'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/infocom/GaoDGLCLBC16
-  doi: 10.1109/INFOCOM.2016.7524478
-  ee: https://doi.org/10.1109/INFOCOM.2016.7524478
-  url: https://dblp.org/rec/conf/infocom/GaoDGLCLBC16
-  abstract: ''
-- author: D. K. Lee, Keon Jang, Changhyun Lee, Gianluca Iannaccone, Sue B. Moon
-  title: 'Path Stitching: Internet-Wide Path and Delay Estimation from Existing Measurements.'
-  venue: INFOCOM
-  year: '2010'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/infocom/LeeJLIM10
-  doi: 10.1109/INFCOM.2010.5462243
-  ee: https://doi.org/10.1109/INFCOM.2010.5462243
-  url: https://dblp.org/rec/conf/infocom/LeeJLIM10
-  abstract: ''
-stitch%7Cpanorama%7Cmosaic%20venue%3AMobiCom%3A:
-- author: Yaxiong Xie, Yanbo Zhang, Jansen Christian Liando, Mo Li 0001
-  title: 'SWAN: Stitched Wi-Fi ANtennas.'
-  venue: MobiCom
-  year: '2018'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/mobicom/XieZLL18
-  doi: 10.1145/3241539.3241572
-  ee: https://doi.org/10.1145/3241539.3241572
-  url: https://dblp.org/rec/conf/mobicom/XieZLL18
-  abstract: ''
+stitch%7Cpanorama%7Cmosaic%20venue%3ASIGCOMM%3A: []
+stitch%7Cpanorama%7Cmosaic%20venue%3AINFOCOM%3A: []
+stitch%7Cpanorama%7Cmosaic%20venue%3AMobiCom%3A: []
 stitch%7Cpanorama%7Cmosaic%20venue%3ANSDI%3A: []
-stitch%7Cpanorama%7Cmosaic%20venue%3AWWW%3A:
-- author: Sungchul Kim, Nikhil Kini, Jay Pujara, Eunyee Koh, Lise Getoor
-  title: Probabilistic Visitor Stitching on Cross-Device Web Logs.
-  venue: WWW
-  year: '2017'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/www/KimKPKG17
-  doi: 10.1145/3038912.3052711
-  ee: https://doi.org/10.1145/3038912.3052711
-  url: https://dblp.org/rec/conf/www/KimKPKG17
-  abstract: ''
-- author: Brian C. Ladd, Michael V. Capps, P. David Stotts, Rick Furuta
-  title: Multi-Head Multi-Tail Mosaic.
-  venue: WWW
-  year: '1995'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/www/LaddCSF95
-  doi: 10.1145/3592626.3592661
-  ee: https://doi.org/10.1145/3592626.3592661
-  url: https://dblp.org/rec/conf/www/LaddCSF95
-  abstract: ''
+stitch%7Cpanorama%7Cmosaic%20venue%3AWWW%3A: []
 stitch%7Cpanorama%7Cmosaic%20venue%3AOSDI%3A: []
 stitch%7Cpanorama%7Cmosaic%20venue%3ASOSP%3A: []
-stitch%7Cpanorama%7Cmosaic%20venue%3AISCA%3A:
-- author: Anbang Wu, Gushu Li, Hezi Zhang, Gian Giacomo Guerreschi, Yufei Ding 0001,
-    Yuan Xie 0001
-  title: A synthesis framework for stitching surface code with superconducting quantum
-    devices.
-  venue: ISCA
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/isca/WuLZGDX22
-  doi: 10.1145/3470496.3527381
-  ee: https://doi.org/10.1145/3470496.3527381
-  url: https://dblp.org/rec/conf/isca/WuLZGDX22
-  abstract: ''
-- author: Cheng Tan 0002, Manupa Karunaratne, Tulika Mitra, Li-Shiuan Peh
-  title: 'Stitch: Fusible Heterogeneous Accelerators Enmeshed with Many-Core Architecture
-    for Wearables.'
-  venue: ISCA
-  year: '2018'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/isca/TanKMP18
-  doi: 10.1109/ISCA.2018.00054
-  ee: https://doi.org/10.1109/ISCA.2018.00054
-  url: https://dblp.org/rec/conf/isca/TanKMP18
-  abstract: ''
+stitch%7Cpanorama%7Cmosaic%20venue%3AISCA%3A: []
 stitch%7Cpanorama%7Cmosaic%20venue%3AMLSys%3A: []
 stitch%7Cpanorama%7Cmosaic%20streamid%3Aconf%2Feurosys%3A:
-- author: Shangshu Qian, Lin Tan 0001, Yongle Zhang 0007
-  title: 'CSnake: Detecting Self-Sustaining Cascading Failure via Causal Stitching
-    of Fault Propagations.'
-  venue: EuroSys
-  year: '2026'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/eurosys/QianTZ26
-  doi: 10.1145/3767295.3769373
-  ee: https://doi.org/10.1145/3767295.3769373
-  url: https://dblp.org/rec/conf/eurosys/QianTZ26
-  abstract: ''
 - author: Steffen Maass, Changwoo Min, Sanidhya Kashyap, Woon-Hak Kang, Mohan Kumar,
     Taesoo Kim
   title: 'Mosaic: Processing a Trillion-Edge Graph on a Single Machine.'
@@ -43722,17 +41811,6 @@ stitch%7Cpanorama%7Cmosaic%20streamid%3Aconf%2Feurosys%3A:
   url: https://dblp.org/rec/conf/eurosys/MaassMKKKK17
   abstract: ''
 stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Ftpds%3A:
-- author: Oh-Heum Kwon, Ha-Joo Song, Sangjoon Park
-  title: The Effects of Stitching Orders in Patch-and-Stitch WSN Localization Algorithms.
-  venue: IEEE Trans. Parallel Distributed Syst.
-  year: '2009'
-  type: Journal Articles
-  access: closed
-  key: journals/tpds/KwonSP09
-  doi: 10.1109/TPDS.2008.226
-  ee: https://doi.org/10.1109/TPDS.2008.226
-  url: https://dblp.org/rec/journals/tpds/KwonSP09
-  abstract: ''
 - author: Yan Ma 0001, Lizhe Wang 0001, Albert Y. Zomaya, Dan Chen 0001, Rajiv Ranjan
     0001
   title: Task-Tree Based Large-Scale Mosaicking for Massive Remote Sensed Imageries
@@ -43746,216 +41824,11 @@ stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Ftpds%3A:
   ee: https://doi.org/10.1109/TPDS.2013.272
   url: https://dblp.org/rec/journals/tpds/MaWZCR14
   abstract: ''
-- author: Oh-Heum Kwon, Ha-Joo Song, Sangjoon Park
-  title: Anchor-Free Localization through Flip-Error-Resistant Map Stitching in Wireless
-    Sensor Network.
-  venue: IEEE Trans. Parallel Distributed Syst.
-  year: '2010'
-  type: Journal Articles
-  access: closed
-  key: journals/tpds/KwonSP10
-  doi: 10.1109/TPDS.2010.42
-  ee: https://doi.org/10.1109/TPDS.2010.42
-  url: https://dblp.org/rec/journals/tpds/KwonSP10
-  abstract: ''
-- author: Oh-Heum Kwon, Ha-Joo Song
-  title: Localization through Map Stitching in Wireless Sensor Networks.
-  venue: IEEE Trans. Parallel Distributed Syst.
-  year: '2008'
-  type: Journal Articles
-  access: closed
-  key: journals/tpds/KwonS08
-  doi: 10.1109/TPDS.2007.70706
-  ee: https://doi.org/10.1109/TPDS.2007.70706
-  url: https://dblp.org/rec/journals/tpds/KwonS08
-  abstract: ''
-stitch%7Cpanorama%7Cmosaic%20venue%3ADAC%3A:
-- author: Dhananjaya Wijerathne, Zhaoying Li 0004, Thilini Kaushalya Bandara, Tulika
-    Mitra
-  title: 'PANORAMA: divide-and-conquer approach for mapping complex loop kernels on
-    CGRA.'
-  venue: DAC
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/dac/WijerathneLBM22
-  doi: 10.1145/3489517.3530429
-  ee: https://doi.org/10.1145/3489517.3530429
-  url: https://dblp.org/rec/conf/dac/WijerathneLBM22
-  abstract: ''
-- author: Shane T. Fleming, David B. Thomas
-  title: 'StitchUp: automatic control flow protection for high level synthesis circuits.'
-  venue: DAC
-  year: '2016'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/dac/FlemingT16
-  doi: 10.1145/2897937.2898097
-  ee: https://doi.org/10.1145/2897937.2898097
-  url: https://dblp.org/rec/conf/dac/FlemingT16
-  abstract: ''
-- author: Jhih-Rong Gao, Xiaoqing Xu, Bei Yu 0001, David Z. Pan
-  title: 'MOSAIC: Mask Optimizing Solution With Process Window Aware Inverse Correction.'
-  venue: DAC
-  year: '2014'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/dac/GaoXYP14
-  doi: 10.1145/2593069.2593163
-  ee: https://doi.org/10.1145/2593069.2593163
-  url: https://dblp.org/rec/conf/dac/GaoXYP14
-  abstract: ''
-- author: Shao-Yun Fang, Iou-Jen Liu, Yao-Wen Chang
-  title: Stitch-aware routing for multiple e-beam lithography.
-  venue: DAC
-  year: '2013'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/dac/FangLC13
-  doi: 10.1145/2463209.2488765
-  ee: https://doi.org/10.1145/2463209.2488765
-  url: https://dblp.org/rec/conf/dac/FangLC13
-  abstract: ''
+stitch%7Cpanorama%7Cmosaic%20venue%3ADAC%3A: []
 stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Ftocs%3A: []
 stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Ftos%3A: []
-stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Ftcad%3A:
-- author: Xiaole Cui, Chen Wei, Xu Feng, Xiaoxin Cui
-  title: 'Mosaic-3C1S: A Low Overhead Crosstalk Suppression Scheme for Rectangular
-    TSV Array.'
-  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
-  year: '2023'
-  type: Journal Articles
-  access: closed
-  key: journals/tcad/CuiWFC23
-  doi: 10.1109/TCAD.2021.3103823
-  ee: https://doi.org/10.1109/TCAD.2021.3103823
-  url: https://dblp.org/rec/journals/tcad/CuiWFC23
-  abstract: ''
-- author: Yen-Yu Su, Shuo-Hui Wang, Wei-Liang Wu, Mark Po-Hung Lin
-  title: Corner-Stitching-Based Multilayer Obstacle-Avoiding Component-to-Component
-    Rectilinear Minimum Spanning Tree Construction.
-  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
-  year: '2020'
-  type: Journal Articles
-  access: closed
-  key: journals/tcad/SuWWL20
-  doi: 10.1109/TCAD.2018.2890531
-  ee: https://doi.org/10.1109/TCAD.2018.2890531
-  url: https://dblp.org/rec/journals/tcad/SuWWL20
-  abstract: ''
-- author: Iou-Jen Liu, Shao-Yun Fang, Yao-Wen Chang
-  title: Stitch-Aware Routing for Multiple E-Beam Lithography.
-  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
-  year: '2015'
-  type: Journal Articles
-  access: closed
-  key: journals/tcad/LiuFC15
-  doi: 10.1109/TCAD.2014.2385761
-  ee: https://doi.org/10.1109/TCAD.2014.2385761
-  url: https://dblp.org/rec/journals/tcad/LiuFC15
-  abstract: ''
-- author: Shao-Yun Fang, Szu-Yu Chen, Yao-Wen Chang
-  title: Native-Conflict and Stitch-Aware Wire Perturbation for Double Patterning
-    Technology.
-  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
-  year: '2012'
-  type: Journal Articles
-  access: closed
-  key: journals/tcad/FangCC12
-  doi: 10.1109/TCAD.2011.2179039
-  ee: https://doi.org/10.1109/TCAD.2011.2179039
-  url: https://dblp.org/rec/journals/tcad/FangCC12
-  abstract: ''
-- author: Kun Yuan 0002, Jae-Seok Yang, David Z. Pan
-  title: Double Patterning Layout Decomposition for Simultaneous Conflict and Stitch
-    Minimization.
-  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
-  year: '2010'
-  type: Journal Articles
-  access: closed
-  key: journals/tcad/YuanYP10
-  doi: 10.1109/TCAD.2009.2035577
-  ee: https://doi.org/10.1109/TCAD.2009.2035577
-  url: https://dblp.org/rec/journals/tcad/YuanYP10
-  abstract: ''
-- author: Zion Cien Shen, Chris C. N. Chu
-  title: Bounds on the number of slicing, mosaic, and general floorplans.
-  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
-  year: '2003'
-  type: Journal Articles
-  access: closed
-  key: journals/tcad/ShenC03
-  doi: 10.1109/TCAD.2003.818136
-  ee: https://doi.org/10.1109/TCAD.2003.818136
-  url: https://dblp.org/rec/journals/tcad/ShenC03
-  abstract: ''
-- author: Dinesh P. Mehta, George Blust
-  title: Corner stitching for simple rectilinear shapes [VLSI layouts].
-  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
-  year: '1997'
-  type: Journal Articles
-  access: closed
-  key: journals/tcad/MehtaB97
-  doi: 10.1109/43.573833
-  ee: https://doi.org/10.1109/43.573833
-  url: https://dblp.org/rec/journals/tcad/MehtaB97
-  abstract: ''
-- author: Carlo H. Séquin, Heloisa da Silva Facanha
-  title: Corner-stitched tiles with curved boundaries [circuit layout].
-  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
-  year: '1993'
-  type: Journal Articles
-  access: closed
-  key: journals/tcad/SequinF93
-  doi: 10.1109/43.184842
-  ee: https://doi.org/10.1109/43.184842
-  url: https://dblp.org/rec/journals/tcad/SequinF93
-  abstract: ''
-- author: David Marple, Michiel Smulders, Henk Hegen
-  title: 'Tailor: a layout system based on trapezoidal corner stitching.'
-  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
-  year: '1990'
-  type: Journal Articles
-  access: closed
-  key: journals/tcad/MarpleSH90
-  doi: 10.1109/43.45858
-  ee: https://doi.org/10.1109/43.45858
-  url: https://dblp.org/rec/journals/tcad/MarpleSH90
-  abstract: ''
-- author: John K. Ousterhout
-  title: 'Corner Stitching: A Data-Structuring Technique for VLSI Layout Tools.'
-  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
-  year: '1984'
-  type: Journal Articles
-  access: closed
-  key: journals/tcad/Ousterhout84
-  doi: 10.1109/TCAD.1984.1270061
-  ee: https://doi.org/10.1109/TCAD.1984.1270061
-  url: https://dblp.org/rec/journals/tcad/Ousterhout84
-  abstract: ''
-stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Ftc%3A:
-- author: Ronald C. de Vries, Antonín Svoboda
-  title: Multiple Output Optimization with Mosaics of Boolean Functions.
-  venue: IEEE Trans. Computers
-  year: '1975'
-  type: Journal Articles
-  access: closed
-  key: journals/tc/VriesS75
-  doi: 10.1109/T-C.1975.224309
-  ee: https://doi.org/10.1109/T-C.1975.224309
-  url: https://dblp.org/rec/journals/tc/VriesS75
-  abstract: ''
-- author: Jack Sklansky
-  title: Measuring Concavity on a Rectangular Mosaic.
-  venue: IEEE Trans. Computers
-  year: '1972'
-  type: Journal Articles
-  access: closed
-  key: journals/tc/Sklansky72
-  doi: 10.1109/T-C.1972.223507
-  ee: https://doi.org/10.1109/T-C.1972.223507
-  url: https://dblp.org/rec/journals/tc/Sklansky72
-  abstract: ''
+stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Ftcad%3A: []
+stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Ftc%3A: []
 stitch%7Cpanorama%7Cmosaic%20streamid%3Aconf%2Ficse%3A: []
 stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Ffocs%3A: []
 stitch%7Cpanorama%7Cmosaic%20streamid%3Aconf%2Fstoc%3A: []
@@ -43972,31 +41845,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AMICCAI%3A:
   ee: https://doi.org/10.1007/978-3-031-43901-8_5
   url: https://dblp.org/rec/conf/miccai/WeiDDDW23
   abstract: ''
-- author: Xiaoyu Liu 0006, Yueyi Zhang, Zhiwei Xiong, Chang Chen 0004, Wei Huang 0036,
-    Xuejin Chen, Feng Wu 0001
-  title: Learning Neuron Stitching for Connectomics.
-  venue: MICCAI
-  year: '2021'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/miccai/LiuZXCHCW21
-  doi: 10.1007/978-3-030-87237-3_42
-  ee: https://doi.org/10.1007/978-3-030-87237-3_42
-  url: https://dblp.org/rec/conf/miccai/LiuZXCHCW21
-  abstract: ''
-- author: Sophia Bano, Francisco Vasconcelos 0001, Luke M. Shepherd, Emmanuel B. Vander
-    Poorten, Tom Vercauteren, Sébastien Ourselin, Anna L. David, Jan Deprest, Danail
-    Stoyanov
-  title: Deep Placental Vessel Segmentation for Fetoscopic Mosaicking.
-  venue: MICCAI
-  year: '2020'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/miccai/BanoVSPVODDS20
-  doi: 10.1007/978-3-030-59716-0_73
-  ee: https://doi.org/10.1007/978-3-030-59716-0_73
-  url: https://dblp.org/rec/conf/miccai/BanoVSPVODDS20
-  abstract: ''
 - author: Sophia Bano, Francisco Vasconcelos 0001, Marcel Tella-Amo, George Dwyer,
     Caspar Gruijthuijsen, Jan Deprest, Sébastien Ourselin, Emmanuel B. Vander Poorten,
     Tom Vercauteren, Danail Stoyanov
@@ -44010,29 +41858,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AMICCAI%3A:
   ee: https://doi.org/10.1007/978-3-030-32239-7_35
   url: https://dblp.org/rec/conf/miccai/BanoVTDGDOPVS19
   abstract: ''
-- author: Bernhard Fuerst, Javad Fotouhi, Nassir Navab
-  title: Vision-Based Intraoperative Cone-Beam CT Stitching for Non-overlapping Volumes.
-  venue: MICCAI
-  year: '2015'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/miccai/FuerstFN15
-  doi: 10.1007/978-3-319-24553-9_48
-  ee: https://doi.org/10.1007/978-3-319-24553-9_48
-  url: https://dblp.org/rec/conf/miccai/FuerstFN15
-  abstract: ''
-- author: Jessie Mahé, Nicolas Linard, Marzieh Kohandani Tafreshi, Tom Vercauteren,
-    Nicholas Ayache, François Lacombe, Rémi Cuingnet
-  title: Motion-Aware Mosaicing for Confocal Laser Endomicroscopy.
-  venue: MICCAI
-  year: '2015'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/miccai/MaheLTVALC15
-  doi: 10.1007/978-3-319-24553-9_55
-  ee: https://doi.org/10.1007/978-3-319-24553-9_55
-  url: https://dblp.org/rec/conf/miccai/MaheLTVALC15
-  abstract: ''
 - author: Jessie Mahé, Tom Vercauteren, Benoit Rosa, Julien Dauguet
   title: A Viterbi Approach to Topology Inference for Large Scale Endomicroscopy Video
     Mosaicing.
@@ -44044,40 +41869,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AMICCAI%3A:
   doi: 10.1007/978-3-642-40811-3_51
   ee: https://doi.org/10.1007/978-3-642-40811-3_51
   url: https://dblp.org/rec/conf/miccai/MaheVRD13
-  abstract: ''
-- author: Rogério Richa, Balázs Vágvölgyi, Marcin Balicki, Gregory D. Hager, Russell
-    H. Taylor
-  title: Hybrid Tracking and Mosaicking for Information Augmentation in Retinal Surgery.
-  venue: MICCAI
-  year: '2012'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/miccai/RichaVBHT12
-  doi: 10.1007/978-3-642-33415-3_49
-  ee: https://doi.org/10.1007/978-3-642-33415-3_49
-  url: https://dblp.org/rec/conf/miccai/RichaVBHT12
-  abstract: ''
-- author: Laura J. Brattain, Robert D. Howe
-  title: Real-Time 4D Ultrasound Mosaicing and Visualization.
-  venue: MICCAI
-  year: '2011'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/miccai/BrattainH11
-  doi: 10.1007/978-3-642-23623-5_14
-  ee: https://doi.org/10.1007/978-3-642-23623-5_14
-  url: https://dblp.org/rec/conf/miccai/BrattainH11
-  abstract: ''
-- author: Jiro Inoue, Manuela Kunz, Mark B. Hurtig, Stephen D. Waldman, A. James Stewart
-  title: Automated Planning of Computer Assisted Mosaic Arthroplasty.
-  venue: MICCAI
-  year: '2011'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/miccai/InoueKHWS11
-  doi: 10.1007/978-3-642-23623-5_34
-  ee: https://doi.org/10.1007/978-3-642-23623-5_34
-  url: https://dblp.org/rec/conf/miccai/InoueKHWS11
   abstract: ''
 - author: Elena Bernardis, Stella X. Yu
   title: 'Segmentation Subject to Stitching Constraints: Finding Many Small Structures
@@ -44128,18 +41919,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AMICCAI%3A:
   ee: https://doi.org/10.1007/978-3-540-85990-1_7
   url: https://dblp.org/rec/conf/miccai/NiQYCWHH08
   abstract: ''
-- author: Christian Wachinger, Ben Glocker, Jochen Zeltner, Nikos Paragios, Nikos
-    Komodakis, Michael Sass Hansen, Nassir Navab
-  title: Deformable Mosaicing for Whole-Body MRI.
-  venue: MICCAI
-  year: '2008'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/miccai/WachingerGZPKHN08
-  doi: 10.1007/978-3-540-85990-1_14
-  ee: https://doi.org/10.1007/978-3-540-85990-1_14
-  url: https://dblp.org/rec/conf/miccai/WachingerGZPKHN08
-  abstract: ''
 - author: Lejing Wang, Jörg Traub, Sandro Michael Heining, Selim Benhimane, Ekkehard
     Euler, Rainer Graumann, Nassir Navab
   title: Long Bone X-Ray Image Stitching Using Camera Augmented Mobile C-Arm.
@@ -44152,39 +41931,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AMICCAI%3A:
   ee: https://doi.org/10.1007/978-3-540-85990-1_69
   url: https://dblp.org/rec/conf/miccai/WangTHBEGN08
   abstract: ''
-- author: Christian Wachinger, Wolfgang Wein, Nassir Navab
-  title: Three-Dimensional Ultrasound Mosaicing.
-  venue: MICCAI
-  year: '2007'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/miccai/WachingerWN07
-  doi: 10.1007/978-3-540-75759-7_40
-  ee: https://doi.org/10.1007/978-3-540-75759-7_40
-  url: https://dblp.org/rec/conf/miccai/WachingerWN07
-  abstract: ''
-- author: Philippe C. Cattin, Herbert Bay, Luc Van Gool, Gábor Székely
-  title: Retina Mosaicing Using Local Features.
-  venue: MICCAI
-  year: '2006'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/miccai/CattinBGS06
-  doi: 10.1007/11866763_23
-  ee: https://doi.org/10.1007/11866763_23
-  url: https://dblp.org/rec/conf/miccai/CattinBGS06
-  abstract: ''
-- author: Sharmishtaa Seshamani, William W. Lau, Gregory D. Hager
-  title: Real-Time Endoscopic Mosaicking.
-  venue: MICCAI
-  year: '2006'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/miccai/SeshamaniLH06
-  doi: 10.1007/11866565_44
-  ee: https://doi.org/10.1007/11866565_44
-  url: https://dblp.org/rec/conf/miccai/SeshamaniLH06
-  abstract: ''
 - author: Tom Vercauteren, Aymeric Perchant, Xavier Pennec, Nicholas Ayache
   title: Mosaicing of Confocal Microscopic In Vivo Soft Tissue Video Sequences.
   venue: MICCAI
@@ -44195,28 +41941,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AMICCAI%3A:
   doi: 10.1007/11566465_93
   ee: https://doi.org/10.1007/11566465_93
   url: https://dblp.org/rec/conf/miccai/VercauterenPPA05
-  abstract: ''
-- author: Ulf Tiede, Norman von Sternberg-Gospos, Paul Steiner, Karl Heinz Höhne
-  title: Virtual Endoscopy Using Cubic QuickTime-VR Panorama Views.
-  venue: MICCAI
-  year: '2002'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/miccai/TiedeSSH02
-  doi: 10.1007/3-540-45787-9_24
-  ee: https://doi.org/10.1007/3-540-45787-9_24
-  url: https://dblp.org/rec/conf/miccai/TiedeSSH02
-  abstract: ''
-- author: Albert W. Brzeczko, Randal P. Goldberg, Russell H. Taylor, Peter Evans
-  title: Smart Alignment Tool for Knee MosaicPlasty Surgery.
-  venue: MICCAI
-  year: '2001'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/miccai/BrzeczkoGTE01
-  doi: 10.1007/3-540-45468-3_72
-  ee: https://doi.org/10.1007/3-540-45468-3_72
-  url: https://dblp.org/rec/conf/miccai/BrzeczkoGTE01
   abstract: ''
 - author: Ziv Yaniv, Leo Joskowicz
   title: Long Bone Panoramas from Fluoroscopic X-ray Images.
@@ -44268,18 +41992,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AMedical_Image_Anal.%3A:
   ee: https://doi.org/10.1016/j.media.2021.102337
   url: https://dblp.org/rec/journals/mia/DeshpandeMGR22
   abstract: ''
-- author: Zhiwei Wang 0002, Yi Lin 0009, Kwang-Ting (Tim) Cheng, Xin Yang 0008
-  title: Semi-supervised mp-MRI data synthesis with StitchLayer and auxiliary distance
-    maximization.
-  venue: Medical Image Anal.
-  year: '2020'
-  type: Journal Articles
-  access: closed
-  key: journals/mia/WangLCY20
-  doi: 10.1016/J.MEDIA.2019.101565
-  ee: https://doi.org/10.1016/j.media.2019.101565
-  url: https://dblp.org/rec/journals/mia/WangLCY20
-  abstract: ''
 - author: Lejing Wang, Jörg Traub, Simon Weidert, Sandro Michael Heining, Ekkehard
     Euler, Nassir Navab
   title: Parallax-free intra-operative X-ray image stitching.
@@ -44291,19 +42003,6 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AMedical_Image_Anal.%3A:
   doi: 10.1016/J.MEDIA.2010.05.007
   ee: https://doi.org/10.1016/j.media.2010.05.007
   url: https://dblp.org/rec/journals/mia/WangTWHEN10
-  abstract: ''
-- author: Tom Vercauteren, Aymeric Perchant, Grégoire Malandain, Xavier Pennec, Nicholas
-    Ayache
-  title: Robust mosaicing with correction of motion distortions and tissue deformations
-    for in vivo fibered microscopy.
-  venue: Medical Image Anal.
-  year: '2006'
-  type: Journal Articles
-  access: closed
-  key: journals/mia/VercauterenPMPA06
-  doi: 10.1016/J.MEDIA.2006.06.006
-  ee: https://doi.org/10.1016/j.media.2006.06.006
-  url: https://dblp.org/rec/journals/mia/VercauterenPMPA06
   abstract: ''
 ICP%20venue%3AIJCAI%3A:
 - author: Dirk Hähnel, Sebastian Thrun, Wolfram Burgard
