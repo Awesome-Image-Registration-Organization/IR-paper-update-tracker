@@ -154,6 +154,7 @@ def fetch_related_code_for_papers(papers):
             continue
         abstract = (paper.get("abstract") or "").strip()
         if not abstract:
+            paper["related_code"] = ""
             continue
         links = extract_github_links(abstract)
         if links:
