@@ -121,13 +121,10 @@ def extract_github_links(text: str) -> list[str]:
     if not text:
         return []
     raw_links = GITHUB_URL_RE.findall(text)
-    # 清理末尾常见标点
+    # 清理末尾常见标点；Markdown 闭合括号等尾部字符也由 rstrip() 一并处理
     cleaned = []
     for link in raw_links:
         link = link.rstrip(r".,;:!?')\]\"'<")
-        # 去掉可能的 Markdown 闭合括号
-        if link.endswith(")") and "(" not in link:
-            link = link[:-1]
         cleaned.append(link)
     # 去重并保持顺序
     seen = set()
