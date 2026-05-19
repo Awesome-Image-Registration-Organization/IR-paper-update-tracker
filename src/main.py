@@ -6,6 +6,7 @@ from utils import (
     filter_items_by_year, get_topic_short_name,
     format_title_topics, fetch_abstract_for_papers,
     translate_abstracts_for_papers,
+    filter_items_by_secondary_keywords,
 )
 import yaml
 import datetime
@@ -27,11 +28,12 @@ class Scaffold:
         pass
 
     def run(self, env: str = "dev", cfg: str | None = None, all_years: bool = False, primary_only: bool = False):
-        if cfg is None:
-            cfg = str(Path(__file__).resolve().parent.parent / "config.yaml")
-        cfg = init(cfg_path=cfg)
+        cfg_path = cfg if cfg is not None else str(Path(__file__).resolve().parent.parent / "config.yaml")
+        cfg = init(cfg_path=cfg_path)
 
-        logger.info(f"running with env: {env}, cfg: {cfg}, all_years: {all_years}, primary_only: {primary_only}")
+        logger.info(
+            f"running with env: {env}, cfg_path: {cfg_path}, all_years: {all_years}, primary_only: {primary_only}"
+        )
 
         # dblp
 
@@ -52,6 +54,18 @@ class Scaffold:
             old_keyword = cfg["dblp"].get("keyword", "")
             if old_keyword:
                 keywords = [old_keyword]
+
+        # 读取二次关键词配置（ezkfg 对嵌套 dict 支持不完善，直接用 PyYAML 读取）
+        try:
+            with open(cfg_path, "r", encoding="utf-8") as f:
+                raw_cfg = yaml.safe_load(f)
+            secondary_keywords_map = raw_cfg.get("dblp", {}).get("secondary_keywords", {})
+        except Exception as e:
+            logger.warning(
+                f"Failed to load secondary_keywords from config file {cfg_path}: {e}. "
+                "Proceeding with empty secondary_keywords map."
+            )
+            secondary_keywords_map = {}
 
         aggregated_msg = ""
         msg = ""
@@ -91,6 +105,14 @@ class Scaffold:
             if not all_years:
                 current_year = datetime.datetime.now().year
                 items = filter_items_by_year(items, current_year)
+
+            # 二次关键词过滤：若该 keyword 配置了二次关键词，则过滤掉不匹配的结果
+            sec_keywords = secondary_keywords_map.get(keyword, [])
+            if sec_keywords:
+                original_count = len(items)
+                items = filter_items_by_secondary_keywords(items, sec_keywords)
+                if len(items) < original_count:
+                    logger.info(f"Secondary keyword filter for '{keyword}': {original_count} -> {len(items)}")
 
             # 对当前 topic 获取的论文列表先按 ee 去重，再按 title 去重
             items = deduplicate_items_by_ee(items)
