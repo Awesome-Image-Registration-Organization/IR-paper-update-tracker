@@ -117,7 +117,6 @@ GITHUB_URL_RE = re.compile(
 HTTP_PROTOCOL = "http"
 HTTPS_PROTOCOL = "https"
 PROTOCOL_SEPARATOR = "://"
-PROTOCOL_SEPARATOR_LEN = len(PROTOCOL_SEPARATOR)
 
 
 def extract_github_links(text: str) -> list[str]:
@@ -130,16 +129,12 @@ def extract_github_links(text: str) -> list[str]:
         # If two URLs are adjacent without a separator, the repo name may
         # accidentally include the next URL's http/https prefix.
         # Example: .../repohttps://github.com/...
-        if (
-            match.end() + PROTOCOL_SEPARATOR_LEN <= len(text)
-            and text[match.end() : match.end() + PROTOCOL_SEPARATOR_LEN]
-            == PROTOCOL_SEPARATOR
-        ):
+        if text[match.end() :].startswith(PROTOCOL_SEPARATOR):
             # Check https before http to avoid trimming https as http.
             if link.endswith(HTTPS_PROTOCOL):
-                link = link[: -len(HTTPS_PROTOCOL)]
+                link = link.removesuffix(HTTPS_PROTOCOL)
             elif link.endswith(HTTP_PROTOCOL):
-                link = link[: -len(HTTP_PROTOCOL)]
+                link = link.removesuffix(HTTP_PROTOCOL)
         raw_links.append(link)
     # 清理末尾常见标点；Markdown 闭合括号等尾部字符也由 rstrip() 一并处理
     cleaned = []
