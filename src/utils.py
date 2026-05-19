@@ -130,12 +130,16 @@ def filter_items_by_secondary_keywords(items, secondary_keywords):
     if not secondary_keywords:
         return items
 
-    # 将关键词转换为正则模式：image/video/graph 用 \b 前缀，point 用子串匹配
+    # 将关键词转换为正则模式：
+    # image/video/graph/camera 用 \b 前缀；3D 匹配 3D/3-D 且避免误触发 Mosaic3D、23D；
+    # 其他关键词（如 point）保持子串匹配
     pattern_parts = []
     for kw in secondary_keywords:
         kw_lower = kw.lower()
-        if kw_lower in ("image", "video", "graph"):
+        if kw_lower in ("image", "video", "graph", "camera"):
             pattern_parts.append(r"\b" + re.escape(kw_lower))
+        elif kw_lower == "3d":
+            pattern_parts.append(r"(?<![a-z0-9])3-?d(?![a-z0-9])")
         else:
             pattern_parts.append(re.escape(kw_lower))
 
