@@ -59,6 +59,19 @@
 - Iterative learning for joint image denoising and motion artifact correction of 3D brain MRI. [[PUB](https://doi.org/10.1016/j.media.2025.103872)]
 - OphMatcher: Uncertainty-aware self-training on ophthalmic surgical videos for anatomy-constrained matching and intraoprative navigation. [[PUB](https://doi.org/10.1016/j.media.2026.104057)]
 
+### TMI
+
+- CASHNet: Context-Aware Semantics-Driven Hierarchical Network for Hybrid Diffeomorphic CT-CBCT Image Registration. [[PUB](https://doi.org/10.1109/TMI.2025.3607700)]
+- Efficient Large-Deformation Medical Image Registration via Recurrent Dynamic Correlation. [[PUB](https://doi.org/10.1109/TMI.2025.3630584)]
+- MoE-Morph: Lightweight Pyramid Model With Heterogeneous Mixture of Experts for Deformable Medical Image Registration. [[PUB](https://doi.org/10.1109/TMI.2025.3620406)]
+- Overlap-Aware Online-Adaptive Non-Rigid Registration of Intraoperative Tissue in Minimally Invasive Surgery. [[PUB](https://doi.org/10.1109/TMI.2025.3620746)]
+- Diff-Def: Diffusion-Generated Deformation Fields for Conditional Atlases. [[PUB](https://doi.org/10.1109/TMI.2025.3595421)]
+
+### JBHI
+
+- Resolving the Ambiguity of Complete-to-Partial Point Cloud Registration for Image-Guided Liver Surgery With Patches-to-Partial Matching. [[PUB](https://doi.org/10.1109/JBHI.2025.3583875)]
+- Medical Image Privacy in Federated Learning: Segmentation-Reorganization and Sparsified Gradient Matching Attacks. [[PUB](https://doi.org/10.1109/JBHI.2025.3593631)]
+
 ## 2025
 
 ### IJCAI
@@ -289,6 +302,53 @@
 - HAGMN-UQ: Hyper association graph matching network with uncertainty quantification for coronary artery semantic labeling. [[PUB](https://doi.org/10.1016/j.media.2024.103374)]
 - Joint coil sensitivity and motion correction in parallel MRI with a self-calibrating score-based diffusion model. [[PUB](https://doi.org/10.1016/j.media.2025.103502)] [[CODE](https://github.com/MeijiTian/JSMoCo)]
 - MBSS-T1: Model-based subject-specific self-supervised motion correction for robust cardiac T1 mapping. [[PUB](https://doi.org/10.1016/j.media.2025.103495)] [[CODE](https://github.com/TechnionComputationalMRILab/MBSS-T1)]
+
+### TMI
+
+- A Novel Few-Shot Learning Framework for Supervised Diffeomorphic Image Registration Network. [[PUB](https://doi.org/10.1109/TMI.2025.3585199)]
+- CGNet: A Correlation-Guided Registration Network for Unsupervised Deformable Image Registration. [[PUB](https://doi.org/10.1109/TMI.2024.3505853)]
+- ConvexAdam: Self-Configuring Dual-Optimization-Based 3D Multitask Medical Image Registration. [[PUB](https://doi.org/10.1109/TMI.2024.3462248)]
+- Decoder-Only Image Registration. [[PUB](https://doi.org/10.1109/TMI.2025.3562056)]
+- DINO-Reg: Efficient Multimodal Image Registration With Distilled Features. [[PUB](https://doi.org/10.1109/TMI.2025.3567247)]
+- Feedback Attention to Enhance Unsupervised Deep Learning Image Registration in 3D Echocardiography. [[PUB](https://doi.org/10.1109/TMI.2025.3530501)]
+- GVM-Net: A GNN-Based Vessel Matching Network for 2D/3D Non-Rigid Coronary Artery Registration. [[PUB](https://doi.org/10.1109/TMI.2025.3540906)]
+- Joint Shape Reconstruction and Registration via a Shared Hybrid Diffeomorphic Flow. [[PUB](https://doi.org/10.1109/TMI.2025.3585560)]
+- Landmark-Free Preoperative-to-Intraoperative Registration in Laparoscopic Liver Resection. [[PUB](https://doi.org/10.1109/TMI.2025.3574198)]
+- Morphology-Based Non-Rigid Registration of Coronary Computed Tomography and Intravascular Images Through Virtual Catheter Path Optimization. [[PUB](https://doi.org/10.1109/TMI.2024.3474053)]
+- OTMorph: Unsupervised Multi-Domain Abdominal Medical Image Registration Using Neural Optimal Transport. [[PUB](https://doi.org/10.1109/TMI.2024.3437295)]
+- Point Cloud Registration in Laparoscopic Liver Surgery Using Keypoint Correspondence Registration Network. [[PUB](https://doi.org/10.1109/TMI.2024.3457228)]
+- Reliable 2D-3D Registration in Dynamic Stereo-Radiography With Energy Barrier Constraints. [[PUB](https://doi.org/10.1109/TMI.2024.3522200)]
+- SPHARM-Reg: Unsupervised Cortical Surface Registration Using Spherical Harmonics. [[PUB](https://doi.org/10.1109/TMI.2025.3581605)]
+- Toward Semantically-Consistent Deformable 2D-3D Registration for 3D Craniofacial Structure Estimation From a Single-View Lateral Cephalometric Radiograph. [[PUB](https://doi.org/10.1109/TMI.2024.3456251)]
+- Unsupervised Non-Rigid Histological Image Registration Guided by Keypoint Correspondences Based on Learnable Deep Features With Iterative Training. [[PUB](https://doi.org/10.1109/TMI.2024.3447214)]
+- UTSRMorph: A Unified Transformer and Superresolution Network for Unsupervised Medical Image Registration. [[PUB](https://doi.org/10.1109/TMI.2024.3467919)]
+- Estimation of Stiffness Maps in Deforming Cells Through Optical Flow With Bounded Curvature. [[PUB](https://doi.org/10.1109/TMI.2024.3494050)]
+- Freehand Ultrafast Doppler Ultrasound Imaging With Optical Tracking Allows for Detailed 3D Reconstruction of Blood Flow in the Human Brain. [[PUB](https://doi.org/10.1109/TMI.2025.3559576)]
+- MRI Motion Correction Through Disentangled CycleGAN Based on Multi-Mask K-Space Subsampling. [[PUB](https://doi.org/10.1109/TMI.2024.3523949)]
+- Optical Flow-Enhanced Mamba U-Net for Cardiac Phase Detection in Ultrasound Videos. [[PUB](https://doi.org/10.1109/TMI.2025.3550731)]
+- SISMIK for Brain MRI: Deep-Learning-Based Motion Estimation and Model-Based Motion Correction in k-Space. [[PUB](https://doi.org/10.1109/TMI.2024.3446450)]
+- Stitching, Fine-Tuning, and Re-Training: A SAM-Enabled Framework for Semi-Supervised 3D Medical Image Segmentation. [[PUB](https://doi.org/10.1109/TMI.2025.3532084)]
+- Streamed Optical Flow Adaptation From Synthetic to Real Dental Scenes. [[PUB](https://doi.org/10.1109/TMI.2025.3573265)]
+
+### IPMI
+
+- GSSD: A Self-distillation Paradigm with Gradient Surgery for End-to-End Deformable Image Registration. [[PUB](https://doi.org/10.1007/978-3-031-96628-6_5)]
+- Medical Image Registration Meets Vision Foundation Model: Prototype Learning and Contour Awareness. [[PUB](https://doi.org/10.1007/978-3-031-96628-6_6)]
+- Unsupervised Deformable Image Registration with Structural Nonparametric Smoothing. [[PUB](https://doi.org/10.1007/978-3-031-96628-6_8)]
+- Vascular-Topology-Aware Deep Structure Matching for 2D DSA and 3D CTA Rigid Registration. [[PUB](https://doi.org/10.1007/978-3-031-96628-6_7)]
+
+### JBHI
+
+- A Novel 3D Camera-Based ECG-Imaging System for Electrode Position Discovery and Heart-Torso Registration. [[PUB](https://doi.org/10.1109/JBHI.2024.3520486)]
+- CorrMorph: Unsupervised Deformable Brain MRI Registration Based on Correlation Mining. [[PUB](https://doi.org/10.1109/JBHI.2024.3508719)]
+- FE-DIC-Based Motion and Intensity Correction for Enhanced CEST-MRI Registration. [[PUB](https://doi.org/10.1109/jbhi.2025.3574356)]
+- FIND: A Framework for Iterative to Non-Iterative Distillation for Lightweight Deformable Registration. [[PUB](https://doi.org/10.1109/JBHI.2025.3556676)]
+- SFM-Net: Semantic Feature-Based Multi-Stage Network for Unsupervised Image Registration. [[PUB](https://doi.org/10.1109/JBHI.2024.3524361)]
+- Unified Model for Children&apos;s Brain Image Segmentation With Co-Registration Framework Guided by Longitudinal MRI. [[PUB](https://doi.org/10.1109/JBHI.2024.3393974)]
+- $\text{MR}{2}$-Net: Retinal OCTA Image Stitching via Multi-Scale Representation Learning and Dynamic Location Guidance. [[PUB](https://doi.org/10.1109/JBHI.2024.3467256)]
+- Evaluating Image Matching With Robust Estimators: Bridging Natural and Surgical Domains to Enhance Scene Understanding. [[PUB](https://doi.org/10.1109/JBHI.2025.3621335)]
+- MRRM: Advanced Biomarker Alignment in Multi-Staining Pathology Images via Multi-Scale Ring Rotation-Invariant Matching. [[PUB](https://doi.org/10.1109/JBHI.2024.3487630)]
+- Pathological Image Segmentation of Breast Cancer via Template Matching. [[PUB](https://doi.org/10.1109/JBHI.2025.3578303)]
 
 ### SIGIR
 
@@ -528,6 +588,34 @@
 - Neural deformation fields for template-based reconstruction of cortical surfaces from MRI. [[PUB](https://doi.org/10.1016/j.media.2024.103093)]
 - TAI-GAN: A Temporally and Anatomically Informed Generative Adversarial Network for early-to-late frame conversion in dynamic cardiac PET inter-frame motion correction. [[PUB](https://doi.org/10.1016/j.media.2024.103190)]
 
+### TMI
+
+- 3D/2D Vessel Registration Based on Monte Carlo Tree Search and Manifold Regularization. [[PUB](https://doi.org/10.1109/TMI.2023.3347896)]
+- A Fully Differentiable Framework for 2D/3D Registration and the Projective Spatial Transformers. [[PUB](https://doi.org/10.1109/TMI.2023.3299588)]
+- A Multi-Scale Fusion and Transformer Based Registration Guided Speckle Noise Reduction for OCT Images. [[PUB](https://doi.org/10.1109/TMI.2023.3309813)]
+- Attention-Aware Non-Rigid Image Registration for Accelerated MR Imaging. [[PUB](https://doi.org/10.1109/TMI.2024.3385024)]
+- GroupMorph: Medical Image Registration via Grouping Network With Contextual Fusion. [[PUB](https://doi.org/10.1109/TMI.2024.3400603)]
+- Multitask Weakly Supervised Generative Network for MR-US Registration. [[PUB](https://doi.org/10.1109/TMI.2024.3400899)]
+- OIF-Net: An Optical Flow Registration-Based PET/MR Cross-Modal Interactive Fusion Network for Low-Count Brain PET Image Denoising. [[PUB](https://doi.org/10.1109/TMI.2023.3342809)]
+- Recursive Deformable Pyramid Network for Unsupervised Medical Image Registration. [[PUB](https://doi.org/10.1109/TMI.2024.3362968)]
+- Robust Deformable Image Registration Using Cycle-Consistent Implicit Representations. [[PUB](https://doi.org/10.1109/TMI.2023.3321425)]
+- TransMatch: A Transformer-Based Multilevel Dual-Stream Feature Matching Network for Unsupervised Deformable Image Registration. [[PUB](https://doi.org/10.1109/TMI.2023.3288136)]
+- Unsupervised Fusion of Misaligned PAT and MRI Images via Mutually Reinforcing Cross-Modality Image Generation and Registration. [[PUB](https://doi.org/10.1109/TMI.2023.3347511)]
+- An Energy Matching Vessel Segmentation Framework in 3-D Medical Images. [[PUB](https://doi.org/10.1109/TMI.2023.3339204)]
+- Deep Learning for Retrospective Motion Correction in MRI: A Comprehensive Review. [[PUB](https://doi.org/10.1109/TMI.2023.3323215)]
+- Optical Flow-Guided Cine MRI Segmentation With Learned Corrections. [[PUB](https://doi.org/10.1109/TMI.2023.3325766)]
+- Prototype Correlation Matching and Class- Relation Reasoning for Few-Shot Medical Image Segmentation. [[PUB](https://doi.org/10.1109/TMI.2024.3412420)]
+
+### JBHI
+
+- Framework for Deep Learning Based Multi-Modality Image Registration of Snapshot and Pathology Images. [[PUB](https://doi.org/10.1109/JBHI.2024.3444908)]
+- Local Contractive Registration With Biomechanical Model: Assessing Microwave Ablation After Compensation for Tissue Shrinkage. [[PUB](https://doi.org/10.1109/JBHI.2023.3318893)]
+- RClaNet: An Explainable Alzheimer&apos;s Disease Diagnosis Framework by Joint Registration and Classification. [[PUB](https://doi.org/10.1109/JBHI.2023.3337942)]
+- RegFSC-Net: Medical Image Registration via Fourier Transform With Spatial Reorganization and Channel Refinement Network. [[PUB](https://doi.org/10.1109/JBHI.2024.3376334)]
+- Structure-Aware Registration Network for Liver DCE-CT Images. [[PUB](https://doi.org/10.1109/JBHI.2024.3350166)]
+- UWAFA-GAN: Ultra-Wide-Angle Fluorescein Angiography Transformation via Multi-Scale Generation and Registration Enhancement. [[PUB](https://doi.org/10.1109/JBHI.2024.3394597)]
+- MSGM: An Advanced Deep Multi-Size Guiding Matching Network for Whole Slide Histopathology Images Addressing Staining Variation and Low Visibility Challenges. [[PUB](https://doi.org/10.1109/JBHI.2024.3417937)]
+
 ### NAACL
 
 - ComCLIP: Training-Free Compositional Image and Text Matching. [[PUB](https://doi.org/10.18653/v1/2024.naacl-long.370)] [[CODE](https://github.com/eric-ai-lab/ComCLIP)]
@@ -761,6 +849,32 @@
 - Contrastive domain adaptation with consistency match for automated pneumonia diagnosis. [[PUB](https://doi.org/10.1016/j.media.2022.102664)]
 - Robust endoscopic image mosaicking via fusion of multimodal estimation. [[PUB](https://doi.org/10.1016/j.media.2022.102709)]
 
+### TMI
+
+- Deep Learning-Based Image Registration in Dynamic Myocardial Perfusion CT Imaging. [[PUB](https://doi.org/10.1109/TMI.2022.3214380)]
+- Fetal MRI by Robust Deep Generative Prior Reconstruction and Diffeomorphic Registration. [[PUB](https://doi.org/10.1109/TMI.2022.3217725)]
+- Learn2Reg: Comprehensive Multi-Task Medical Image Registration Challenge, Dataset and Evaluation in the Era of Deep Learning. [[PUB](https://doi.org/10.1109/TMI.2022.3213983)]
+- Meta-Learning Initializations for Interactive Medical Image Registration. [[PUB](https://doi.org/10.1109/TMI.2022.3218147)]
+- Optical Co-Registration Method of Triaxial OPM-MEG and MRI. [[PUB](https://doi.org/10.1109/TMI.2023.3263167)]
+- Self-Distilled Hierarchical Network for Unsupervised Deformable Image Registration. [[PUB](https://doi.org/10.1109/TMI.2023.3244333)]
+- Self-Supervised Learning for Non-Rigid Registration Between Near-Isometric 3D Surfaces in Medical Imaging. [[PUB](https://doi.org/10.1109/TMI.2022.3218662)]
+- X-Ray to DRR Images Translation for Efficient Multiple Objects Similarity Measures in Deformable Model 3D/2D Registration. [[PUB](https://doi.org/10.1109/TMI.2022.3218568)]
+- A Deep Learning Method for Motion Artifact Correction in Intravascular Photoacoustic Image Sequence. [[PUB](https://doi.org/10.1109/TMI.2022.3202910)]
+- AFFIRM: Affinity Fusion-Based Framework for Iteratively Random Motion Correction of Multi-Slice Fetal Brain MRI. [[PUB](https://doi.org/10.1109/TMI.2022.3208277)]
+- MCP-Net: Introducing Patlak Loss Optimization to Whole-Body Dynamic PET Inter-Frame Motion Correction. [[PUB](https://doi.org/10.1109/TMI.2023.3290003)]
+
+### IPMI
+
+- BInGo: Bayesian Intrinsic Groupwise Registration via Explicit Hierarchical Disentanglement. [[PUB](https://doi.org/10.1007/978-3-031-34048-2_25)]
+- Geometric Deep Learning for Unsupervised Registration of Diffusion Magnetic Resonance Images. [[PUB](https://doi.org/10.1007/978-3-031-34048-2_43)]
+- Non-rigid Medical Image Registration using Physics-informed Neural Networks. [[PUB](https://doi.org/10.1007/978-3-031-34048-2_46)]
+- POLAFFINI: Efficient Feature-Based Polyaffine Initialization for Improved Non-linear Image Registration. [[PUB](https://doi.org/10.1007/978-3-031-34048-2_47)]
+- Fast-MC-PET: A Novel Deep Learning-Aided Motion Correction and Reconstruction Framework for Accelerated PET. [[PUB](https://doi.org/10.1007/978-3-031-34048-2_40)]
+
+### JBHI
+
+- Geometry-Consistent Adversarial Registration Model for Unsupervised Multi-Modal Medical Image Registration. [[PUB](https://doi.org/10.1109/JBHI.2023.3270199)]
+
 ### WWW
 
 - Dual-grained Text-Image Olfactory Matching Model with Mutual Promotion Stages. [[PUB](https://doi.org/10.1145/3543873.3587649)]
@@ -971,6 +1085,34 @@
 - SCPM-Net: An anchor-free 3D lung nodule detection network using sphere representation and center points matching. [[PUB](https://doi.org/10.1016/j.media.2021.102287)] [[CODE](https://github.com/HiLab-git/SCPM-Net)]
 - Unsupervised inter-frame motion correction for whole-body dynamic PET using convolutional long short-term memory in a convolutional neural network. [[PUB](https://doi.org/10.1016/j.media.2022.102524)]
 
+### TMI
+
+- 3D Lightweight Network for Simultaneous Registration and Segmentation of Organs-at-Risk in CT Images of Head and Neck Cancer. [[PUB](https://doi.org/10.1109/TMI.2021.3128408)]
+- CAR-Net: A Deep Learning-Based Deformation Model for 3D/2D Coronary Artery Registration. [[PUB](https://doi.org/10.1109/TMI.2022.3168786)]
+- Cross-Modality Image Registration Using a Training-Time Privileged Third Modality. [[PUB](https://doi.org/10.1109/TMI.2022.3187873)]
+- Image-to-Graph Convolutional Network for 2D/3D Deformable Model Registration of Low-Contrast Organs. [[PUB](https://doi.org/10.1109/TMI.2022.3194517)]
+- Joint Progressive and Coarse-to-Fine Registration of Brain MRI via Deformation Field Integration and Non-Rigid Feature Fusion. [[PUB](https://doi.org/10.1109/TMI.2022.3170879)]
+- Learning a Model-Driven Variational Network for Deformable Image Registration. [[PUB](https://doi.org/10.1109/TMI.2021.3108881)]
+- Light-Weight Deformable Registration Using Adversarial Learning With Distilling Knowledge. [[PUB](https://doi.org/10.1109/TMI.2022.3141013)]
+- One Shot PACS: Patient Specific Anatomic Context and Shape Prior Aware Recurrent Registration-Segmentation of Longitudinal Thoracic Cone Beam CTs. [[PUB](https://doi.org/10.1109/TMI.2022.3154934)]
+- Recurrent Tissue-Aware Network for Deformable Registration of Infant Brain MR Images. [[PUB](https://doi.org/10.1109/TMI.2021.3137280)]
+- SynthMorph: Learning Contrast-Invariant Registration Without Acquired Images. [[PUB](https://doi.org/10.1109/TMI.2021.3116879)]
+- Unsupervised Histological Image Registration Using Structural Feature Guided Convolutional Neural Network. [[PUB](https://doi.org/10.1109/TMI.2022.3164088)]
+- Deep Diffusion MRI Registration (DDMReg): A Deep Learning Method for Diffusion MRI Registration. [[PUB](https://doi.org/10.1109/TMI.2021.3139507)]
+- A Robust Edge-Preserving Stereo Matching Method for Laparoscopic Images. [[PUB](https://doi.org/10.1109/TMI.2022.3147414)]
+- Correction of Motion Artifacts in Dark-Field Radiography of the Human Chest. [[PUB](https://doi.org/10.1109/TMI.2021.3126492)]
+- Radiomic Deformation and Textural Heterogeneity (R-DepTH) Descriptor to Characterize Tumor Field Effect: Application to Survival Prediction in Glioblastoma. [[PUB](https://doi.org/10.1109/TMI.2022.3148780)]
+
+### JBHI
+
+- Cross-Modality Multi-Atlas Segmentation via Deep Registration and Label Fusion. [[PUB](https://doi.org/10.1109/JBHI.2022.3149114)]
+- Few-Shot Learning for Deformable Medical Image Registration With Perception-Correspondence Decoupling and Reverse Teaching. [[PUB](https://doi.org/10.1109/JBHI.2021.3095409)]
+- Joint Deformable Image Registration and ADC Map Regularization: Application to DWI-Based Lymphoma Classification. [[PUB](https://doi.org/10.1109/JBHI.2022.3156009)]
+- Recursive Decomposition Network for Deformable Image Registration. [[PUB](https://doi.org/10.1109/JBHI.2022.3189696)]
+- Unsupervised Cross-Modality Domain Adaptation Network for X-Ray to CT Registration. [[PUB](https://doi.org/10.1109/JBHI.2021.3135890)]
+- Brain MR Atlas Construction Using Symmetric Deep Neural Inpainting. [[PUB](https://doi.org/10.1109/JBHI.2022.3149754)]
+- Improved Segmentation of Echocardiography With Orientation-Congruency of Optical Flow and Motion-Enhanced Segmentation. [[PUB](https://doi.org/10.1109/JBHI.2022.3221429)]
+
 ### EMNLP
 
 - Cross-stitching Text and Knowledge Graph Encoders for Distantly Supervised Relation Extraction. [[PUB](https://doi.org/10.18653/v1/2022.emnlp-main.467)]
@@ -1160,6 +1302,37 @@
 - Towards improved breast mass detection using dual-view mammogram matching. [[PUB](https://doi.org/10.1016/j.media.2021.102083)]
 - Two-stage deep learning for accelerated 3D time-of-flight MRA without matched training data. [[PUB](https://doi.org/10.1016/j.media.2021.102047)]
 
+### TMI
+
+- A Coarse-to-Fine Deformable Transformation Framework for Unsupervised Multi-Contrast MR Image Registration with Dual Consistency Constraint. [[PUB](https://doi.org/10.1109/TMI.2021.3059282)]
+- Adaptive Weighting Landmark-Based Group-Wise Registration on Lung DCE-MRI Images. [[PUB](https://doi.org/10.1109/TMI.2020.3035292)]
+- GraphRegNet: Deep Graph Regularisation Networks on Sparse Keypoints for Dense Registration of 3D Lung CTs. [[PUB](https://doi.org/10.1109/TMI.2021.3073986)]
+- LAPNet: Non-Rigid Registration Derived in k-Space for Magnetic Resonance Imaging. [[PUB](https://doi.org/10.1109/TMI.2021.3096131)]
+- Map3D: Registration-Based Multi-Object Tracking on 3D Serial Whole Slide Images. [[PUB](https://doi.org/10.1109/TMI.2021.3069154)]
+- Pose-Dependent Weights and Domain Randomization for Fully Automatic X-Ray to CT Registration. [[PUB](https://doi.org/10.1109/TMI.2021.3073815)]
+- Registration of Untracked 2D Laparoscopic Ultrasound to CT Images of the Liver Using Multi-Labelled Content-Based Image Retrieval. [[PUB](https://doi.org/10.1109/TMI.2020.3045348)]
+- S3Reg: Superfast Spherical Surface Registration Based on Deep Learning. [[PUB](https://doi.org/10.1109/TMI.2021.3069645)]
+- Strain Energy Decay Predicts Elastic Registration Accuracy From Intraoperative Data Constraints. [[PUB](https://doi.org/10.1109/TMI.2021.3052523)]
+- Uncertainty-Aware Annotation Protocol to Evaluate Deformable Registration Algorithms. [[PUB](https://doi.org/10.1109/TMI.2021.3070842)]
+- Weakly-Supervised Vessel Detection in Ultra-Widefield Fundus Photography via Iterative Multi-Modal Registration and Learning. [[PUB](https://doi.org/10.1109/TMI.2020.3027665)]
+- Automatic Inter-Frame Patient Motion Correction for Dynamic Cardiac PET Using Deep Learning. [[PUB](https://doi.org/10.1109/TMI.2021.3082578)]
+- MDPET: A Unified Motion Correction and Denoising Adversarial Network for Low-Dose Gated PET. [[PUB](https://doi.org/10.1109/TMI.2021.3076191)]
+- Real-Time Nonrigid Mosaicking of Laparoscopy Images. [[PUB](https://doi.org/10.1109/TMI.2021.3065030)]
+- Reconstruction of Orthographic Mosaics From Perspective X-Ray Images. [[PUB](https://doi.org/10.1109/TMI.2021.3093198)]
+
+### IPMI
+
+- Deep Learning Based Geometric Registration for Medical Images: How Accurate Can We Get Without Visual Features?. [[PUB](https://doi.org/10.1007/978-3-030-78191-0_2)]
+- Diffeomorphic Registration with Density Changes for the Analysis of Imbalanced Shapes. [[PUB](https://doi.org/10.1007/978-3-030-78191-0_3)]
+- HyperMorph: Amortized Hyperparameter Learning for Image Registration. [[PUB](https://doi.org/10.1007/978-3-030-78191-0_1)]
+- Structural Connectome Atlas Construction in the Space of Riemannian Metrics. [[PUB](https://doi.org/10.1007/978-3-030-78191-0_23)]
+
+### JBHI
+
+- 3D Image Segmentation With Sparse Annotation by Self-Training and Internal Registration. [[PUB](https://doi.org/10.1109/JBHI.2020.3038847)]
+- Lung Respiratory Motion Estimation Based on Fast Kalman Filtering and 4D CT Image Registration. [[PUB](https://doi.org/10.1109/JBHI.2020.3030071)]
+- Transfer Learning for Nonrigid 2D/3D Cardiovascular Images Registration. [[PUB](https://doi.org/10.1109/JBHI.2020.3045977)]
+
 ### MOBICOM
 
 - VI-eye: semantic-based 3D point cloud registration for infrastructure-assisted autonomous driving. [[PUB](https://doi.org/10.1145/3447993.3483276)]
@@ -1297,6 +1470,30 @@
 - Hubless keypoint-based 3D deformable groupwise registration. [[PUB](https://doi.org/10.1016/j.media.2019.101564)]
 - Multi-atlas image registration of clinical data with automated quality assessment using ventricle segmentation. [[PUB](https://doi.org/10.1016/j.media.2020.101698)]
 - SLIR: Synthesis, localization, inpainting, and registration for image-guided thermal ablation of liver tumors. [[PUB](https://doi.org/10.1016/j.media.2020.101763)]
+
+### TMI
+
+- ANHIR: Automatic Non-Rigid Histological Image Registration Challenge. [[PUB](https://doi.org/10.1109/TMI.2020.2986331)]
+- Automatic Registration Between Dental Cone-Beam CT and Scanned Surface via Deep Pose Regression Neural Networks and Clustered Similarities. [[PUB](https://doi.org/10.1109/TMI.2020.3007520)]
+- Breast Cancer: Model Reconstruction and Image Registration From Segmented Deformed Image Using Visual and Force Based Analysis. [[PUB](https://doi.org/10.1109/TMI.2019.2946629)]
+- Deformable Slice-to-Volume Registration for Motion Correction of Fetal Body and Placenta MRI. [[PUB](https://doi.org/10.1109/TMI.2020.2974844)]
+- Evaluation of MRI to Ultrasound Registration Methods for Brain Shift Correction: The CuRIOUS2018 Challenge. [[PUB](https://doi.org/10.1109/TMI.2019.2935060)]
+- Learning an Attention Model for Robust 2-D/3-D Registration Using Point-To-Plane Correspondences. [[PUB](https://doi.org/10.1109/TMI.2020.2988410)]
+- Lung 4D CT Image Registration Based on High-Order Markov Random Field. [[PUB](https://doi.org/10.1109/TMI.2019.2937458)]
+- One-Shot Learning for Deformable Medical Image Registration and Periodic Motion Tracking. [[PUB](https://doi.org/10.1109/TMI.2020.2972616)]
+- Progressively Trained Convolutional Neural Networks for Deformable Image Registration. [[PUB](https://doi.org/10.1109/TMI.2019.2953788)]
+- Robust Multi-View 2-D/3-D Registration Using Point-To-Plane Correspondence Model. [[PUB](https://doi.org/10.1109/TMI.2019.2922931)]
+- Deep Learning-Based Detection and Correction of Cardiac MR Motion Artefacts During Reconstruction for High-Quality Segmentation. [[PUB](https://doi.org/10.1109/TMI.2020.3008930)]
+- Head Motion Correction Based on Filtered Backprojection in Helical CT Scanning. [[PUB](https://doi.org/10.1109/TMI.2019.2953974)]
+- Motion Dependent and Spatially Variant Resolution Modeling for PET Rigid Motion Correction. [[PUB](https://doi.org/10.1109/TMI.2019.2962237)]
+- PSIGAN: Joint Probabilistic Segmentation and Image Distribution Matching for Unpaired Cross-Modality Adaptation-Based MRI Segmentation. [[PUB](https://doi.org/10.1109/TMI.2020.3011626)]
+- Simultaneous Morphological and Flow Imaging Enabled by Megahertz Intravascular Doppler Optical Coherence Tomography. [[PUB](https://doi.org/10.1109/TMI.2019.2948258)]
+- Software-Based Phase Control, Video-Rate Imaging, and Real-Time Mosaicing With a Lissajous-Scanned Confocal Microscope. [[PUB](https://doi.org/10.1109/TMI.2019.2942552)]
+
+### JBHI
+
+- REMPE: Registration of Retinal Images Through Eye Modelling and Pose Estimation. [[PUB](https://doi.org/10.1109/JBHI.2020.2984483)]
+- Unsupervised 3D End-to-End Medical Image Registration With Volume Tweening Network. [[PUB](https://doi.org/10.1109/JBHI.2019.2951024)]
 
 ### EMNLP
 
@@ -1446,6 +1643,41 @@
 - Robust motion correction for cardiac T1 and ECV mapping using a T1 relaxation model approach. [[PUB](https://doi.org/10.1016/j.media.2018.12.004)]
 - The effect of motion correction interpolation on quantitative T1 mapping with MRI. [[PUB](https://doi.org/10.1016/j.media.2018.11.012)]
 
+### TMI
+
+- A Global Method for Non-Rigid Registration of Cell Nuclei in Live Cell Time-Lapse Images. [[PUB](https://doi.org/10.1109/TMI.2019.2901918)]
+- A Statistical Model for Rigid Image Registration Performance: The Influence of Soft-Tissue Deformation as a Confounding Noise Source. [[PUB](https://doi.org/10.1109/TMI.2019.2907868)]
+- An Efficient Preconditioner for Stochastic Gradient Descent Optimization of Image Registration. [[PUB](https://doi.org/10.1109/TMI.2019.2897943)]
+- Correlation-Weighted Sparse Representation for Robust Liver DCE-MRI Decomposition Registration. [[PUB](https://doi.org/10.1109/TMI.2019.2906493)]
+- Deformable Image Registration Using Functions of Bounded Deformation. [[PUB](https://doi.org/10.1109/TMI.2019.2896170)]
+- Learning a Probabilistic Model for Diffeomorphic Registration. [[PUB](https://doi.org/10.1109/TMI.2019.2897112)]
+- Pulmonary CT Registration Through Supervised Learning With Convolutional Neural Networks. [[PUB](https://doi.org/10.1109/TMI.2018.2878316)]
+- Real-Time Deep Pose Estimation With Geodesic Loss for Image-to-Template Rigid Registration. [[PUB](https://doi.org/10.1109/TMI.2018.2866442)]
+- VoxelMorph: A Learning Framework for Deformable Medical Image Registration. [[PUB](https://doi.org/10.1109/TMI.2019.2897538)]
+- 3D Multi-Resolution Optical Flow Analysis of Cardiovascular Pulse Propagation in Human Brain. [[PUB](https://doi.org/10.1109/TMI.2019.2904762)]
+- Assessing Reliability of Myocardial Blood Flow After Motion Correction With Dynamic PET Using a Bayesian Framework. [[PUB](https://doi.org/10.1109/TMI.2018.2881992)]
+- Mosaic-Based Color-Transform Optimization for Lossy and Lossy-to-Lossless Compression of Pathology Whole-Slide Images. [[PUB](https://doi.org/10.1109/TMI.2018.2852685)]
+- Motion Correction in Optical Resolution Photoacoustic Microscopy. [[PUB](https://doi.org/10.1109/TMI.2019.2893021)]
+- Motion Quantification and Automated Correction in Clinical RSOM. [[PUB](https://doi.org/10.1109/TMI.2018.2883154)]
+- RetinaMatch: Efficient Template Matching of Retina Images for Teleophthalmology. [[PUB](https://doi.org/10.1109/TMI.2019.2923466)]
+- Robust Optical Flow Estimation in Cardiac Ultrasound Images Using a Sparse Representation. [[PUB](https://doi.org/10.1109/TMI.2018.2870947)]
+
+### IPMI
+
+- Data-Driven Model Order Reduction for Diffeomorphic Image Registration. [[PUB](https://doi.org/10.1007/978-3-030-20351-1_54)]
+- DGR-Net: Deep Groupwise Registration of Multispectral Images. [[PUB](https://doi.org/10.1007/978-3-030-20351-1_55)]
+- Real-Time 2D-3D Deformable Registration with Deep Learning and Application to Lung Radiotherapy Targeting. [[PUB](https://doi.org/10.1007/978-3-030-20351-1_20)]
+- Unsupervised Deformable Registration for Multi-modal Images via Disentangled Representations. [[PUB](https://doi.org/10.1007/978-3-030-20351-1_19)]
+
+### JBHI
+
+- Accurate Segmentation and Registration of Skin Lesion Images to Evaluate Lesion Change. [[PUB](https://doi.org/10.1109/JBHI.2018.2825251)]
+- Groupwise Multichannel Image Registration. [[PUB](https://doi.org/10.1109/JBHI.2018.2844361)]
+- Kidney Detection in 3-D Ultrasound Imagery via Shape-to-Volume Registration Based on Spatially Aligned Neural Network. [[PUB](https://doi.org/10.1109/JBHI.2018.2805777)]
+- Nonrigid Image Registration Using Spatially Region-Weighted Correlation Ratio and GPU-Acceleration. [[PUB](https://doi.org/10.1109/JBHI.2018.2836380)]
+- Weakly Supervised Learning of Metric Aggregations for Deformable Image Registration. [[PUB](https://doi.org/10.1109/JBHI.2018.2869700)]
+- Intra-Slice Motion Correction of Intravascular OCT Images Using Deep Features. [[PUB](https://doi.org/10.1109/JBHI.2018.2878914)]
+
 ### ACL
 
 - A Strong and Robust Baseline for Text-Image Matching. [[PUB](https://doi.org/10.18653/v1/p19-2023)]
@@ -1562,6 +1794,22 @@
 - A novel multi-atlas strategy with dense deformation field reconstruction for abdominal and thoracic multi-organ segmentation from computed tomography. [[PUB](https://doi.org/10.1016/j.media.2018.02.001)]
 - A scale-space curvature matching algorithm for the reconstruction of complex proximal humeral fractures. [[PUB](https://doi.org/10.1016/j.media.2017.10.006)]
 - Slice-level diffusion encoding for motion and distortion correction. [[PUB](https://doi.org/10.1016/j.media.2018.06.008)]
+
+### TMI
+
+- Assessment of Rigid Registration Quality Measures in Ultrasound-Guided Radiotherapy. [[PUB](https://doi.org/10.1109/TMI.2017.2755695)]
+- Automated Registration of 3-D Knee Implant Models to Fluoroscopic Images Using Lipschitzian Optimization. [[PUB](https://doi.org/10.1109/TMI.2017.2773398)]
+- Automatic Multiorgan Segmentation via Multiscale Registration and Graph Cut. [[PUB](https://doi.org/10.1109/TMI.2018.2851780)]
+- Distortion Correction in Fetal EPI Using Non-Rigid Registration With a Laplacian Constraint. [[PUB](https://doi.org/10.1109/TMI.2017.2667227)]
+- Estimating Maximum Target Registration Error Under Uniform Restriction of Fiducial Localization Error in Image Guided System. [[PUB](https://doi.org/10.1109/TMI.2017.2776404)]
+- Image Registration Based on Low Rank Matrix: Rank-Regularized SSD. [[PUB](https://doi.org/10.1109/TMI.2017.2744663)]
+- Locally Affine Diffeomorphic Surface Registration and Its Application to Surgical Planning of Fronto-Orbital Advancement. [[PUB](https://doi.org/10.1109/TMI.2018.2816402)]
+- Non-Rigid Contour-Based Registration of Cell Nuclei in 2-D Live Cell Microscopy Images Using a Dynamic Elasticity Model. [[PUB](https://doi.org/10.1109/TMI.2017.2734169)]
+- Online Robust Projective Dictionary Learning: Shape Modeling for MR-TRUS Registration. [[PUB](https://doi.org/10.1109/TMI.2017.2777870)]
+- Real-Time FEM-Based Registration of 3-D to 2.5-D Transrectal Ultrasound Images. [[PUB](https://doi.org/10.1109/TMI.2018.2810778)]
+- A Dual Tissue-Doppler Optical-Flow Method for Speckle Tracking Echocardiography at High Frame Rate. [[PUB](https://doi.org/10.1109/TMI.2018.2811483)]
+- Cardiac Motion Correction for Helical CT Scan With an Ordinary Pitch. [[PUB](https://doi.org/10.1109/TMI.2018.2817594)]
+- Predicting CT Image From MRI Data Through Feature Matching With Learned Nonlinear Local Descriptors. [[PUB](https://doi.org/10.1109/TMI.2018.2790962)]
 
 ### COLING
 
@@ -1696,6 +1944,36 @@
 - Involuntary eye motion correction in retinal optical coherence tomography: Hardware or software solution?. [[PUB](https://doi.org/10.1016/j.media.2017.02.002)]
 - MR-based respiratory and cardiac motion correction for PET imaging. [[PUB](https://doi.org/10.1016/j.media.2017.08.002)]
 
+### TMI
+
+- A Novel Method of Cone Beam CT Projection Binning Based on Image Registration. [[PUB](https://doi.org/10.1109/TMI.2017.2690260)]
+- Dynamic 2-D/3-D Rigid Registration Framework Using Point-To-Plane Correspondence Model. [[PUB](https://doi.org/10.1109/TMI.2017.2702100)]
+- Effects of Image Quality on the Fundamental Limits of Image Registration Accuracy. [[PUB](https://doi.org/10.1109/TMI.2017.2725644)]
+- Estimation of Large Motion in Lung CT by Integrating Regularized Keypoint Correspondences into Dense Deformable Registration. [[PUB](https://doi.org/10.1109/TMI.2017.2691259)]
+- Improving Registration Robustness for Image-Guided Liver Surgery in a Novel Human-to-Phantom Data Framework. [[PUB](https://doi.org/10.1109/TMI.2017.2668842)]
+- Isotropic Total Variation Regularization of Displacements in Parametric Image Registration. [[PUB](https://doi.org/10.1109/TMI.2016.2610583)]
+- Longitudinal Analysis of Pre-Term Neonatal Cerebral Ventricles From 3D Ultrasound Images Using Spatial-Temporal Deformable Registration. [[PUB](https://doi.org/10.1109/TMI.2016.2643635)]
+- Phase Vector Incompressible Registration Algorithm for Motion Estimation From Tagged Magnetic Resonance Images. [[PUB](https://doi.org/10.1109/TMI.2017.2723021)]
+- Quantifying Registration Uncertainty With Sparse Bayesian Modelling. [[PUB](https://doi.org/10.1109/TMI.2016.2623608)]
+- Robust 2-D-3-D Registration Optimization for Motion Compensation During 3-D TRUS-Guided Biopsy Using Learned Prostate Motion Data. [[PUB](https://doi.org/10.1109/TMI.2017.2703150)]
+- Sparse 3D Radon Space Rigid Registration of CT Scans: Method and Validation Study. [[PUB](https://doi.org/10.1109/TMI.2016.2615653)]
+- Block-Matching Distortion Correction of Echo-Planar Images With Opposite Phase Encoding Directions. [[PUB](https://doi.org/10.1109/TMI.2016.2646920)]
+- Cardiac Image Reconstruction via Nonlinear Motion Correction Based on Partial Angle Reconstructed Images. [[PUB](https://doi.org/10.1109/TMI.2017.2654508)]
+- Direct Parametric Reconstruction With Joint Motion Estimation/Correction for Dynamic Brain PET Data. [[PUB](https://doi.org/10.1109/TMI.2016.2594150)]
+- PET Image Reconstruction and Deformable Motion Correction Using Unorganized Point Clouds. [[PUB](https://doi.org/10.1109/TMI.2017.2675989)]
+- PVR: Patch-to-Volume Reconstruction for Large Area Motion Correction of Fetal MRI. [[PUB](https://doi.org/10.1109/TMI.2017.2737081)]
+
+### IPMI
+
+- Frequency Diffeomorphisms for Efficient Image Registration. [[PUB](https://doi.org/10.1007/978-3-319-59050-9_44)]
+- Orthotropic Thin Shell Elasticity Estimation for Surface Registration. [[PUB](https://doi.org/10.1007/978-3-319-59050-9_39)]
+
+### JBHI
+
+- Deformable Registration-Based Super-resolution for Isotropic Reconstruction of 4-D MRI Volumes. [[PUB](https://doi.org/10.1109/JBHI.2017.2681688)]
+- MRI to CT Prostate Registration for Improved Targeting in Cancer External Beam Radiotherapy. [[PUB](https://doi.org/10.1109/JBHI.2016.2581881)]
+- An Open Benchmark Challenge for Motion Correction of Myocardial Perfusion MRI. [[PUB](https://doi.org/10.1109/JBHI.2016.2597145)]
+
 ### EuroSys
 
 - Mosaic: Processing a Trillion-Edge Graph on a Single Machine. [[PUB](https://doi.org/10.1145/3064176.3064191)]
@@ -1807,6 +2085,35 @@
 - A self-calibrating approach for the segmentation of retinal vessels by template matching and contour reconstruction. [[PUB](https://doi.org/10.1016/j.media.2015.12.003)]
 - Non Local Spatial and Angular Matching: Enabling higher spatial resolution diffusion MRI datasets through adaptive denoising. [[PUB](https://doi.org/10.1016/j.media.2016.02.010)]
 
+### TMI
+
+- A CNN Regression Approach for Real-Time 2D/3D Registration. [[PUB](https://doi.org/10.1109/TMI.2016.2521800)]
+- A New Approach to Evaluate Drug Treatment Response of Ovarian Cancer Patients Based on Deformable Image Registration. [[PUB](https://doi.org/10.1109/TMI.2015.2473823)]
+- Abnormality Detection via Iterative Deformable Registration and Basis-Pursuit Decomposition. [[PUB](https://doi.org/10.1109/TMI.2016.2538998)]
+- Anatomical Image Registration Using Volume Conservation to Assess Cardiac Deformation From 3D Ultrasound Recordings. [[PUB](https://doi.org/10.1109/TMI.2015.2479556)]
+- Confidence Estimation for Medical Image Registration Based On Stereo Confidences. [[PUB](https://doi.org/10.1109/TMI.2015.2481609)]
+- Fast Automatic Step Size Estimation for Gradient Descent Optimization of Image Registration. [[PUB](https://doi.org/10.1109/TMI.2015.2476354)]
+- Image Registration Based on Autocorrelation of Local Structure. [[PUB](https://doi.org/10.1109/TMI.2015.2455416)]
+- Improving the Accuracy of Registration-Based Biomechanical Analysis: A Finite Element Approach to Lung Regional Strain Quantification. [[PUB](https://doi.org/10.1109/TMI.2015.2483744)]
+- Kernel Bundle Diffeomorphic Image Registration Using Stationary Velocity Fields and Wendland Basis Functions. [[PUB](https://doi.org/10.1109/TMI.2015.2511062)]
+- MIND Demons: Symmetric Diffeomorphic Deformable Registration of MR and CT for Image-Guided Spine Surgery. [[PUB](https://doi.org/10.1109/TMI.2016.2576360)]
+- Motion-Robust Diffusion-Weighted Brain MRI Reconstruction Through Slice-Level Registration-Based Motion Tracking. [[PUB](https://doi.org/10.1109/TMI.2016.2555244)]
+- Multiple Kernel Point Set Registration. [[PUB](https://doi.org/10.1109/TMI.2015.2511063)]
+- Real-Time Automatic Artery Segmentation, Reconstruction and Registration for Ultrasound-Guided Regional Anaesthesia of the Femoral Nerve. [[PUB](https://doi.org/10.1109/TMI.2015.2494160)]
+- Registration-Based Morphometry for Shape Analysis of the Bones of the Human Wrist. [[PUB](https://doi.org/10.1109/TMI.2015.2476817)]
+- Towards Personalized Statistical Deformable Model and Hybrid Point Matching for Robust MR-TRUS Registration. [[PUB](https://doi.org/10.1109/TMI.2015.2485299)]
+- Visualization of Deformable Image Registration Quality Using Local Image Dissimilarity. [[PUB](https://doi.org/10.1109/TMI.2016.2560942)]
+- Non-Parametric Bayesian Registration (NParBR) of Body Tumors in DCE-MRI Data. [[PUB](https://doi.org/10.1109/TMI.2015.2506338)]
+- Consistent Spatial-Temporal Longitudinal Atlas Construction for Developing Infant Brains. [[PUB](https://doi.org/10.1109/TMI.2016.2587628)]
+- Multi-Objective Memetic Search for Robust Motion and Distortion Correction in Diffusion MRI. [[PUB](https://doi.org/10.1109/TMI.2016.2557580)]
+
+### JBHI
+
+- Registration of Pre- and Postresection Ultrasound Volumes With Noncorresponding Regions in Neurosurgery. [[PUB](https://doi.org/10.1109/JBHI.2016.2554122)]
+- Synchronization and Registration of Cine Magnetic Resonance and Dynamic Computed Tomography Images of the Heart. [[PUB](https://doi.org/10.1109/JBHI.2015.2453639)]
+- α-Information-Based Registration of Dynamic Scans for Magnetic Resonance Cystography. [[PUB](https://doi.org/10.1109/JBHI.2015.2441744)]
+- Stitching and Surface Reconstruction From Endoscopic Image Sequences: A Review of Applications and Methods. [[PUB](https://doi.org/10.1109/JBHI.2014.2384134)]
+
 ## 2015
 
 ### IJCAI
@@ -1912,6 +2219,27 @@
 - Skuller: A volumetric shape registration algorithm for modeling skull deformities. [[PUB](https://doi.org/10.1016/j.media.2015.03.005)]
 - Construction of 4D high-definition cortical surface atlases of infants: Methods and applications. [[PUB](https://doi.org/10.1016/j.media.2015.04.005)]
 
+### TMI
+
+- 1D-3D Registration for Intra-Operative Nuclear Imaging in Radio-Guided Surgery. [[PUB](https://doi.org/10.1109/TMI.2014.2363551)]
+- Automatic Deformable MR-Ultrasound Registration for Image-Guided Neurosurgery. [[PUB](https://doi.org/10.1109/TMI.2014.2354352)]
+- Biomechanically Constrained Surface Registration: Application to MR-TRUS Fusion for Prostate Interventions. [[PUB](https://doi.org/10.1109/TMI.2015.2440253)]
+- Fluorescence Lifetime Imaging and Intravascular Ultrasound: Co-Registration Study Using Ex Vivo Human Coronaries. [[PUB](https://doi.org/10.1109/TMI.2014.2350491)]
+- Low-Dimensional Non-Rigid Image Registration Using Statistical Deformation Models From Semi-Supervised Training Data. [[PUB](https://doi.org/10.1109/TMI.2015.2404572)]
+- Simultaneous Registration of Location and Orientation in Intravascular Ultrasound Pullbacks Pairs Via 3D Graph-Based Optimization. [[PUB](https://doi.org/10.1109/TMI.2015.2444815)]
+- Statistical Biomechanical Surface Registration: Application to MR-TRUS Fusion for Prostate Interventions. [[PUB](https://doi.org/10.1109/TMI.2015.2443978)]
+- Three-Dimensional Nonrigid MR-TRUS Registration Using Dual Optimization. [[PUB](https://doi.org/10.1109/TMI.2014.2375207)]
+- Validation of a Nonrigid Registration Error Detection Algorithm Using Clinical MRI Brain Data. [[PUB](https://doi.org/10.1109/TMI.2014.2344911)]
+
+### IPMI
+
+- Finite-Dimensional Lie Algebras for Fast Diffeomorphic Image Registration. [[PUB](https://doi.org/10.1007/978-3-319-19992-4_19)]
+- Joint Segmentation and Registration Through the Duality of Congealing and Maximum Likelihood Estimate. [[PUB](https://doi.org/10.1007/978-3-319-19992-4_27)]
+- Segmenting the Brain Surface from CT Images with Artifacts Using Dictionary Learning for Non-rigid MR-CT Registration. [[PUB](https://doi.org/10.1007/978-3-319-19992-4_52)]
+- Simultaneous Longitudinal Registration with Group-Wise Similarity Prior. [[PUB](https://doi.org/10.1007/978-3-319-19992-4_59)]
+- Construction of An Unbiased Spatio-Temporal Atlas of the Tongue During Speech. [[PUB](https://doi.org/10.1007/978-3-319-19992-4_57)]
+- Self-Aligning Manifolds for Matching Disparate Medical Image Datasets. [[PUB](https://doi.org/10.1007/978-3-319-19992-4_28)]
+
 ## 2014
 
 ### TPAMI
@@ -2011,6 +2339,40 @@
 - Landmark matching based retinal image alignment by enforcing sparsity in correspondence matrix. [[PUB](https://doi.org/10.1016/j.media.2013.09.009)]
 - Statistical atlas construction via weighted functional boxplots. [[PUB](https://doi.org/10.1016/j.media.2014.03.001)]
 - Tumor sensitive matching flow: A variational method to detecting and segmenting perihepatic and perisplenic ovarian cancer metastases on contrast-enhanced abdominal CT. [[PUB](https://doi.org/10.1016/j.media.2014.04.001)]
+
+### TMI
+
+- A Discriminative Structural Similarity Measure and its Application to Video-Volume Registration for Endoscope Three-Dimensional Motion Tracking. [[PUB](https://doi.org/10.1109/TMI.2014.2307052)]
+- A Mathematical Framework for the Registration and Analysis of Multi-Fascicle Models for Population Studies of the Brain Microstructure. [[PUB](https://doi.org/10.1109/TMI.2013.2289381)]
+- A Mechanics-Based Nonrigid Registration Method for Liver Surgery Using Sparse Intraoperative Data. [[PUB](https://doi.org/10.1109/TMI.2013.2283016)]
+- A New Fast Accurate Nonlinear Medical Image Registration Program Including Surface Preserving Regularization. [[PUB](https://doi.org/10.1109/TMI.2014.2332370)]
+- A Nonlinear Biomechanical Model Based Registration Method for Aligning Prone and Supine MR Breast Images. [[PUB](https://doi.org/10.1109/TMI.2013.2294539)]
+- A Unified Approach to Diffusion Direction Sensitive Slice Registration and 3-D DTI Reconstruction From Moving Fetal Brain Anatomy. [[PUB](https://doi.org/10.1109/TMI.2013.2284014)]
+- Accurate High-Resolution Measurements of 3-D Tissue Dynamics With Registration-Enhanced Displacement Encoded MRI. [[PUB](https://doi.org/10.1109/TMI.2014.2311755)]
+- Application of Tolerance Limits to the Characterization of Image Registration Performance. [[PUB](https://doi.org/10.1109/TMI.2014.2317796)]
+- Comparative Evaluation of Registration Algorithms in Different Brain Databases With Varying Difficulty: Results and Insights. [[PUB](https://doi.org/10.1109/TMI.2014.2330355)]
+- Elastic Shape Analysis of Cylindrical Surfaces for 3D/2D Registration in Endometrial Tissue Characterization. [[PUB](https://doi.org/10.1109/TMI.2014.2300935)]
+- Fast Local Trust Region Technique for Diffusion Tensor Registration Using Exact Reorientation and Regularization. [[PUB](https://doi.org/10.1109/TMI.2013.2274051)]
+- Local Metric Learning in 2D/3D Deformable Registration With Application in the Abdomen. [[PUB](https://doi.org/10.1109/TMI.2014.2319193)]
+- Local Phase Tensor Features for 3-D Ultrasound to Statistical Shape+Pose Spine Model Registration. [[PUB](https://doi.org/10.1109/TMI.2014.2332571)]
+- Lung Segmentation in Chest Radiographs Using Anatomical Atlases With Nonrigid Registration. [[PUB](https://doi.org/10.1109/TMI.2013.2290491)]
+- Multimodal Registration and Data Fusion for Cardiac Resynchronization Therapy Optimization. [[PUB](https://doi.org/10.1109/TMI.2014.2311694)]
+- Nonrigid Registration of Ultrasound and MRI Using Contextual Conditioned Mutual Information. [[PUB](https://doi.org/10.1109/TMI.2013.2294630)]
+- Nonrigid Registration of Volumetric Images Using Ranked Order Statistics. [[PUB](https://doi.org/10.1109/TMI.2013.2286192)]
+- Oriented Gaussian Mixture Models for Nonrigid 2D/3D Coronary Artery Registration. [[PUB](https://doi.org/10.1109/TMI.2014.2300117)]
+- PORTR: Pre-Operative and Post-Recurrence Brain Tumor Registration. [[PUB](https://doi.org/10.1109/TMI.2013.2293478)]
+- Registration of Whole-Mount Histology and Volumetric Imaging of the Prostate Using Particle Filtering. [[PUB](https://doi.org/10.1109/TMI.2014.2319231)]
+- Surface-Constrained Nonrigid Registration for Dose Monitoring in Prostate Cancer Radiotherapy. [[PUB](https://doi.org/10.1109/TMI.2014.2314574)]
+- Unsupervised Segmentation, Clustering, and Groupwise Registration of Heterogeneous Populations of Brain MR Images. [[PUB](https://doi.org/10.1109/TMI.2013.2270114)]
+- Fundus Image Mosaicking for Information Augmentation in Computer-Assisted Slit-Lamp Imaging. [[PUB](https://doi.org/10.1109/TMI.2014.2309440)]
+- Maximum Likelihood Doppler Frequency Estimation Under Decorrelation Noise for Quantifying Flow in Optical Coherence Tomography. [[PUB](https://doi.org/10.1109/TMI.2014.2309986)]
+- Retrospective Rigid Motion Correction in k-Space for Segmented Radial MRI. [[PUB](https://doi.org/10.1109/TMI.2013.2268898)]
+
+### JBHI
+
+- A Spatiotemporal-Based Scheme for Efficient Registration-Based Segmentation of Thoracic 4-D MRI. [[PUB](https://doi.org/10.1109/JBHI.2013.2282183)]
+- Efficient Acceleration of Mutual Information Computation for Nonrigid Registration Using CUDA. [[PUB](https://doi.org/10.1109/JBHI.2014.2310745)]
+- Red Blood Cell Tracking Using Optical Flow Methods. [[PUB](https://doi.org/10.1109/JBHI.2013.2281915)]
 
 ### WWW
 
@@ -2138,6 +2500,41 @@
 - Evaluation of a Kalman-based block matching method to assess the bi-dimensional motion of the carotid artery wall in B-mode ultrasound sequences. [[PUB](https://doi.org/10.1016/j.media.2013.03.006)]
 - Left ventricle segmentation in MRI via convex relaxed distribution matching. [[PUB](https://doi.org/10.1016/j.media.2013.05.002)]
 
+### TMI
+
+- 3D-2D Registration of Cerebral Angiograms: A Method and Evaluation on Clinical Images. [[PUB](https://doi.org/10.1109/TMI.2013.2259844)]
+- A Locally Adaptive Regularization Based on Anisotropic Diffusion for Deformable Image Registration of Sliding Organs. [[PUB](https://doi.org/10.1109/TMI.2013.2274777)]
+- A Piecewise Monotone Subgradient Algorithm for Accurate L1-TV Based Registration of Physical Slices With Discontinuities in Microscopy. [[PUB](https://doi.org/10.1109/TMI.2013.2242896)]
+- A Probabilistic Patch-Based Label Fusion Model for Multi-Atlas Segmentation With Registration Refinement: Application to Cardiac MR Images. [[PUB](https://doi.org/10.1109/TMI.2013.2256922)]
+- Deformable Medical Image Registration: A Survey. [[PUB](https://doi.org/10.1109/TMI.2013.2265603)]
+- Elastic Image Registration Versus Speckle Tracking for 2-D Myocardial Motion Estimation: A Direct Comparison In Vivo. [[PUB](https://doi.org/10.1109/TMI.2012.2230114)]
+- Ensemble Learning Incorporating Uncertain Registration. [[PUB](https://doi.org/10.1109/TMI.2012.2236651)]
+- Evaluation of a System for High-Accuracy 3D Image-Based Registration of Endoscopic Video to C-Arm Cone-Beam CT for Image-Guided Skull Base Surgery. [[PUB](https://doi.org/10.1109/TMI.2013.2243464)]
+- Hybrid Feature-Based Diffeomorphic Registration for Tumor Tracking in 2-D Liver Ultrasound Images. [[PUB](https://doi.org/10.1109/tmi.2013.2262055)]
+- Image-based Co-Registration of Angiography and Intravascular Ultrasound Images. [[PUB](https://doi.org/10.1109/TMI.2013.2279754)]
+- Increasing the Automation of a 2D-3D Registration System. [[PUB](https://doi.org/10.1109/TMI.2012.2227337)]
+- Interactive CT-Video Registration for the Continuous Guidance of Bronchoscopy. [[PUB](https://doi.org/10.1109/TMI.2013.2252361)]
+- Intra-Operative 2-D Ultrasound and Dynamic 3-D Aortic Model Registration for Magnetic Navigation of Transcatheter Aortic Valve Implantation. [[PUB](https://doi.org/10.1109/TMI.2013.2275233)]
+- Longitudinal Image Registration With Temporally-Dependent Image Similarity Measure. [[PUB](https://doi.org/10.1109/TMI.2013.2269814)]
+- Model-Based Registration of Ex Vivo and In Vivo MRI of the Prostate Using Elastography. [[PUB](https://doi.org/10.1109/TMI.2013.2251469)]
+- MRF-Based Deformable Registration and Ventilation Estimation of Lung CT. [[PUB](https://doi.org/10.1109/TMI.2013.2246577)]
+- Registration of 3D+t Coronary CTA and Monoplane 2D+t X-Ray Angiography. [[PUB](https://doi.org/10.1109/TMI.2013.2245421)]
+- Registration-Based Reconstruction of Four-Dimensional Cone Beam Computed Tomography. [[PUB](https://doi.org/10.1109/TMI.2013.2272882)]
+- Structure Propagation for Image Registration. [[PUB](https://doi.org/10.1109/tmi.2013.2263151)]
+- Uncertainty Driven Probabilistic Voxel Selection for Image Registration. [[PUB](https://doi.org/10.1109/TMI.2013.2264467)]
+- A Fast and Accurate Feature-Matching Algorithm for Minimally-Invasive Endoscopic Images. [[PUB](https://doi.org/10.1109/TMI.2013.2239306)]
+- List-Mode PET Motion Correction Using Markerless Head Tracking: Proof-of-Concept With Scans of Human Subject. [[PUB](https://doi.org/10.1109/TMI.2012.2219693)]
+- Multiple Atlas Construction From A Heterogeneous Brain MR Image Collection. [[PUB](https://doi.org/10.1109/TMI.2013.2239654)]
+
+### IPMI
+
+- Bayesian Estimation of Regularization and Atlas Building in Diffeomorphic Image Registration. [[PUB](https://doi.org/10.1007/978-3-642-38868-2_4)]
+- Edge- and Detail-Preserving Sparse Image Representations for Deformable Registration of Chest MRI and CT Volumes. [[PUB](https://doi.org/10.1007/978-3-642-38868-2_39)]
+- Hyperbolic Harmonic Brain Surface Registration with Curvature-Based Landmark Matching. [[PUB](https://doi.org/10.1007/978-3-642-38868-2_14)]
+- Joint Co-segmentation and Registration of 3D Ultrasound Images. [[PUB](https://doi.org/10.1007/978-3-642-38868-2_23)]
+- Joint Learning of Appearance and Transformation for Predicting Brain MR Image Registration. [[PUB](https://doi.org/10.1007/978-3-642-38868-2_42)]
+- Multimodal Surface Matching: Fast and Generalisable Cortical Registration Using Discrete Optimisation. [[PUB](https://doi.org/10.1007/978-3-642-38868-2_40)]
+
 ## 2012
 
 ### AISTATS
@@ -2251,6 +2648,32 @@
 - Mitral annulus segmentation from four-dimensional ultrasound using a valve state predictor and constrained optical flow. [[PUB](https://doi.org/10.1016/j.media.2011.11.006)]
 - Reconstruction of fetal brain MRI with intensity matching and complete outlier removal. [[PUB](https://doi.org/10.1016/j.media.2012.07.004)]
 
+### TMI
+
+- A Comprehensive Cardiac Motion Estimation Framework Using Both Untagged and 3-D Tagged MR Images Based on Nonrigid Registration. [[PUB](https://doi.org/10.1109/TMI.2012.2188104)]
+- Automated Brain Structure Segmentation Based on Atlas Registration and Appearance Models. [[PUB](https://doi.org/10.1109/TMI.2011.2168420)]
+- Automatic Construction of Parts+Geometry Models for Initializing Groupwise Registration. [[PUB](https://doi.org/10.1109/TMI.2011.2169077)]
+- Automatic Renal Cortex Segmentation Using Implicit Shape Registration and Novel Multiple Surfaces Graph Search. [[PUB](https://doi.org/10.1109/TMI.2012.2203922)]
+- Constrained Registration for Motion Compensation in Atrial Fibrillation Ablation Procedures. [[PUB](https://doi.org/10.1109/TMI.2011.2181184)]
+- Erratum to &quot;Automatic Renal Cortex Segmentation Using Implicit Shape Registration and Novel Multiple Surfaces Graph Search&quot;. [[PUB](https://doi.org/10.1109/TMI.2012.2229852)]
+- Estimation of Mouse Organ Locations Through Registration of a Statistical Mouse Atlas With Micro-CT Images. [[PUB](https://doi.org/10.1109/TMI.2011.2165294)]
+- Fiducial Optimization for Minimal Target Registration Error in Image-Guided Neurosurgery. [[PUB](https://doi.org/10.1109/TMI.2011.2175939)]
+- GLISTR: Glioma Image Segmentation and Registration. [[PUB](https://doi.org/10.1109/TMI.2012.2210558)]
+- Group-Wise Registration of Point Sets for Statistical Shape Models. [[PUB](https://doi.org/10.1109/TMI.2012.2202913)]
+- Image Similarity and Tissue Overlaps as Surrogates for Image Registration Accuracy: Widely Used but Unreliable. [[PUB](https://doi.org/10.1109/TMI.2011.2163944)]
+- Intraoperative Image-based Multiview 2D/3D Registration for Image-Guided Orthopaedic Surgery: Incorporation of Fiducial-Based C-Arm Tracking and GPU-Acceleration. [[PUB](https://doi.org/10.1109/TMI.2011.2176555)]
+- Motion Correction in Dual Gated Cardiac PET Using Mass-Preserving Image Registration. [[PUB](https://doi.org/10.1109/TMI.2011.2175402)]
+- Multi-Modal Image Registration Based on Gradient Orientations of Minimal Uncertainty. [[PUB](https://doi.org/10.1109/TMI.2012.2218116)]
+- Nonrigid 2D/3D Registration of Coronary Artery Models With Live Fluoroscopy for Guidance of Cardiac Interventions. [[PUB](https://doi.org/10.1109/TMI.2012.2195009)]
+- Registration of 3D Ultrasound Through an Air-Tissue Boundary. [[PUB](https://doi.org/10.1109/TMI.2012.2215049)]
+- Registration of Images With Varying Topology Using Embedded Maps. [[PUB](https://doi.org/10.1109/TMI.2011.2178609)]
+- RERBEE: Robust Efficient Registration via Bifurcations and Elongated Elements Applied to Retinal Fluorescein Angiogram Sequences. [[PUB](https://doi.org/10.1109/TMI.2011.2167517)]
+- Simultaneous Nonrigid Registration, Segmentation, and Tumor Detection in MRI Guided Cervical Cancer Radiation Therapy. [[PUB](https://doi.org/10.1109/TMI.2012.2186976)]
+- Tissue Tracking and Registration for Image-Guided Surgery. [[PUB](https://doi.org/10.1109/TMI.2012.2212718)]
+- Automated Motion Correction for In Vivo Optical Projection Tomography. [[PUB](https://doi.org/10.1109/TMI.2012.2188836)]
+- Fully Automated Attenuation Measurement and Motion Correction in FLIP Image Sequences. [[PUB](https://doi.org/10.1109/TMI.2011.2171497)]
+- Tracking Pylorus in Ultrasonic Image Sequences With Edge-Based Optical Flow. [[PUB](https://doi.org/10.1109/TMI.2012.2183884)]
+
 ### TC
 
 - A Comparison of FPGA and GPU for Real-Time Phase-Based Optical Flow, Stereo, and Local Image Features. [[PUB](https://doi.org/10.1109/TC.2011.120)]
@@ -2361,6 +2784,41 @@
 - Active deformation fields: Dense deformation field estimation for atlas-based segmentation using the active contour framework. [[PUB](https://doi.org/10.1016/j.media.2011.05.008)]
 - Self-encoded marker for optical prospective head motion correction in MRI. [[PUB](https://doi.org/10.1016/j.media.2011.05.018)]
 
+### TMI
+
+- A Four-Dimensional Registration Algorithm With Application to Joint Correction of Motion and Slice Timing in fMRI. [[PUB](https://doi.org/10.1109/TMI.2011.2131152)]
+- A Nonconservative Lagrangian Framework for Statistical Fluid Registration - SAFIRA. [[PUB](https://doi.org/10.1109/TMI.2010.2067451)]
+- A Nonrigid Registration Framework Using Spatially Encoded Mutual Information and Free-Form Deformations. [[PUB](https://doi.org/10.1109/TMI.2011.2150240)]
+- A Supervised Framework for the Registration and Segmentation of White Matter Fiber Tracts. [[PUB](https://doi.org/10.1109/TMI.2010.2067222)]
+- Accelerating Image Registration With the Johnson-Lindenstrauss Lemma: Application to Imaging 3-D Neural Ultrastructure With Electron Microscopy. [[PUB](https://doi.org/10.1109/TMI.2011.2125797)]
+- Automatic Nonrigid Calibration of Image Registration for Real Time MR-Guided HIFU Ablations of Mobile Organs. [[PUB](https://doi.org/10.1109/TMI.2011.2144615)]
+- Deformable Registration of Glioma Images Using EM Algorithm and Diffusion Reaction Modeling. [[PUB](https://doi.org/10.1109/TMI.2010.2078833)]
+- Diffeomorphic Brain Registration Under Exhaustive Sulcal Constraints. [[PUB](https://doi.org/10.1109/TMI.2011.2108665)]
+- Diffeomorphic Image Registration of Diffusion MRI Using Spherical Harmonics. [[PUB](https://doi.org/10.1109/TMI.2010.2095027)]
+- Erratum to &quot;General Approach to First-Order Error Prediction in Rigid Point Registration&quot;. [[PUB](https://doi.org/10.1109/TMI.2011.2173637)]
+- Evaluation of Registration Methods on Thoracic CT: The EMPIRE10 Challenge. [[PUB](https://doi.org/10.1109/TMI.2011.2158349)]
+- General Approach to First-Order Error Prediction in Rigid Point Registration. [[PUB](https://doi.org/10.1109/TMI.2010.2091513)]
+- Multichannel Image Registration by Feature-Based Information Fusion. [[PUB](https://doi.org/10.1109/TMI.2010.2093908)]
+- Point Set Registration Using Havrda-Charvat-Tsallis Entropy Measures. [[PUB](https://doi.org/10.1109/TMI.2010.2086065)]
+- Simultaneous Multi-scale Registration Using Large Deformation Diffeomorphic Metric Mapping. [[PUB](https://doi.org/10.1109/TMI.2011.2146787)]
+- Statistical Modeling of 4D Respiratory Lung Motion Using Diffeomorphic Image Registration. [[PUB](https://doi.org/10.1109/TMI.2010.2076299)]
+- A Meta Method for Image Matching. [[PUB](https://doi.org/10.1109/TMI.2011.2119326)]
+- Bias Field Inconsistency Correction of Motion-Scattered Multislice MRI for Improved 3D Image Reconstruction. [[PUB](https://doi.org/10.1109/TMI.2011.2143724)]
+- Correction to &quot;Spline-Based Cardiac Motion Tracking Using Velocity-Encoded Magnetic Resonance Imaging&quot;. [[PUB](https://doi.org/10.1109/TMI.2010.2102430)]
+- Motion Correction and Attenuation Correction for Respiratory Gated PET Images. [[PUB](https://doi.org/10.1109/TMI.2010.2078514)]
+- Motion-Induced Phase Error Estimation and Correction in 3D Diffusion Tensor Imaging. [[PUB](https://doi.org/10.1109/TMI.2011.2158654)]
+
+### IPMI
+
+- A Novel Longitudinal Atlas Construction Framework by Groupwise Registration of Subject Image Sequences. [[PUB](https://doi.org/10.1007/978-3-642-22092-0_24)]
+- A Unified Framework for Joint Segmentation, Nonrigid Registration and Tumor Detection: Application to MR-Guided Radiotherapy. [[PUB](https://doi.org/10.1007/978-3-642-22092-0_43)]
+- Automatic Part Selection for Groupwise Registration. [[PUB](https://doi.org/10.1007/978-3-642-22092-0_52)]
+- Landmark Matching Based Automatic Retinal Image Registration with Linear Programming and Self-similarities. [[PUB](https://doi.org/10.1007/978-3-642-22092-0_55)]
+- Multimodal Registration via Spatial-Context Mutual Information. [[PUB](https://doi.org/10.1007/978-3-642-22092-0_35)]
+- Reconstruction of 4D-CT from a Single Free-Breathing 3D-CT by Spatial-Temporal Image Registration. [[PUB](https://doi.org/10.1007/978-3-642-22092-0_56)]
+- Temporal Groupwise Registration for Motion Modeling. [[PUB](https://doi.org/10.1007/978-3-642-22092-0_53)]
+- White Matter Bundle Registration and Population Analysis Based on Gaussian Processes. [[PUB](https://doi.org/10.1007/978-3-642-22092-0_27)]
+
 ## 2010
 
 ### TPAMI
@@ -2469,6 +2927,28 @@
 - Location registration and recognition (LRR) for serial analysis of nodules in lung CT scans. [[PUB](https://doi.org/10.1016/j.media.2010.02.006)]
 - Parallax-free intra-operative X-ray image stitching. [[PUB](https://doi.org/10.1016/j.media.2010.05.007)]
 - Respiratory motion correction for image-guided cardiac interventions using 3-D echocardiography. [[PUB](https://doi.org/10.1016/j.media.2009.09.004)]
+
+### TMI
+
+- A Coupled Global Registration and Segmentation Framework With Application to Magnetic Resonance Prostate Imagery. [[PUB](https://doi.org/10.1109/TMI.2010.2052065)]
+- A Registration-Based Propagation Framework for Automatic Whole Heart Segmentation of Cardiac MRI. [[PUB](https://doi.org/10.1109/TMI.2010.2047112)]
+- Automatic Parameter Selection for Multimodal Image Registration. [[PUB](https://doi.org/10.1109/TMI.2010.2041358)]
+- Co-registration of White Matter Tractographies by Adaptive-Mean-Shift and Gaussian Mixture Modeling. [[PUB](https://doi.org/10.1109/TMI.2009.2029097)]
+- elastix: A Toolbox for Intensity-Based Medical Image Registration. [[PUB](https://doi.org/10.1109/TMI.2009.2035616)]
+- Estimation of Optimal Fiducial Target Registration Error in the Presence of Heteroscedastic Noise. [[PUB](https://doi.org/10.1109/TMI.2009.2034296)]
+- F-TIMER: Fast Tensor Image Morphing for Elastic Registration. [[PUB](https://doi.org/10.1109/TMI.2010.2043680)]
+- Feature Based Nonrigid Brain MR Image Registration With Symmetric Alpha Stable Filters. [[PUB](https://doi.org/10.1109/TMI.2009.2028078)]
+- Intensity-Based Image Registration by Minimizing Residual Complexity. [[PUB](https://doi.org/10.1109/TMI.2010.2053043)]
+- Learning Task-Optimal Registration Cost Functions for Localizing Cytoarchitecture and Function in the Cerebral Cortex. [[PUB](https://doi.org/10.1109/TMI.2010.2049497)]
+- Nonrigid Image Registration Using Conditional Mutual Information. [[PUB](https://doi.org/10.1109/TMI.2009.2021843)]
+- Registration of 4D Cardiac CT Sequences Under Trajectory Constraints With Multichannel Diffeomorphic Demons. [[PUB](https://doi.org/10.1109/TMI.2009.2038908)]
+- Spherical Demons: Fast Diffeomorphic Landmark-Free Surface Registration. [[PUB](https://doi.org/10.1109/TMI.2009.2030797)]
+- The Edge-Driven Dual-Bootstrap Iterative Closest Point Algorithm for Registration of Multimodal Fluorescein Angiogram Sequence. [[PUB](https://doi.org/10.1109/TMI.2009.2030324)]
+- Understanding the Effect of Bias in Fiducial Localization Error on Point-Based Rigid-Body Registration. [[PUB](https://doi.org/10.1109/TMI.2010.2051559)]
+- Automatic 3-D Breath-Hold Related Motion Correction of Dynamic Multislice MRI. [[PUB](https://doi.org/10.1109/TMI.2009.2039145)]
+- Exploiting Quasiperiodicity in Motion Correction of Free-Breathing Myocardial Perfusion MRI. [[PUB](https://doi.org/10.1109/TMI.2010.2049270)]
+- Intersection Based Motion Correction of Multislice MRI for 3-D in Utero Fetal Brain Image Formation. [[PUB](https://doi.org/10.1109/TMI.2009.2030679)]
+- Optical-Flow-Based B-Mode Elastography: Application in the Hypertensive Rat Carotid. [[PUB](https://doi.org/10.1109/TMI.2009.2038694)]
 
 ### TPDS
 
@@ -2590,6 +3070,38 @@
 - Selective image similarity measure for bronchoscope tracking based on image registration. [[PUB](https://doi.org/10.1016/j.media.2009.06.001)]
 - Strain measurement in the left ventricle during systole with deformable image registration. [[PUB](https://doi.org/10.1016/j.media.2008.07.004)]
 - A subject-specific technique for respiratory motion correction in image-guided cardiac catheterisation procedures. [[PUB](https://doi.org/10.1016/j.media.2009.01.003)]
+
+### TMI
+
+- A Stochastic Approach to Estimate the UncertaintyInvolved in B-Spline Image Registration. [[PUB](https://doi.org/10.1109/TMI.2009.2021063)]
+- Accelerated Nonrigid Intensity-Based Image Registration Using Importance Sampling. [[PUB](https://doi.org/10.1109/TMI.2009.2013136)]
+- Combined Volumetric and Surface Registration. [[PUB](https://doi.org/10.1109/TMI.2008.2004426)]
+- Constrained Registration of the Wrist Joint. [[PUB](https://doi.org/10.1109/TMI.2009.2021432)]
+- Deformable 2D-3D Registration of Vascular Structures in a One View Scenario. [[PUB](https://doi.org/10.1109/TMI.2008.2011519)]
+- Distribution of Fiducial Registration Error in Rigid-Body Point-Based Registration. [[PUB](https://doi.org/10.1109/TMI.2009.2024208)]
+- Distribution of Target Registration Error for Anisotropic and Inhomogeneous Fiducial Localization Error. [[PUB](https://doi.org/10.1109/TMI.2009.2020751)]
+- DT-REFinD: Diffusion Tensor Registration With Exact Finite-Strain Differential. [[PUB](https://doi.org/10.1109/TMI.2009.2025654)]
+- Dynamic 2D Ultrasound and 3D CT Image Registration of the Beating Heart. [[PUB](https://doi.org/10.1109/TMI.2008.2011557)]
+- Nonrigid Registration of Joint Histograms for Intensity Standardization in Magnetic Resonance Imaging. [[PUB](https://doi.org/10.1109/TMI.2008.2004429)]
+- Rapid Dynamic Image Registration of the Beating Heart for Diagnosis and Surgical Navigation. [[PUB](https://doi.org/10.1109/TMI.2009.2024684)]
+- Real-Time Estimation of FLE Statistics for 3-D Tracking With Point-Based Registration. [[PUB](https://doi.org/10.1109/TMI.2009.2016336)]
+- Registration of Cervical MRI Using Multifeature Mutual Information. [[PUB](https://doi.org/10.1109/TMI.2009.2016560)]
+- Unified Bundling and Registration of Brain White Matter Fibers. [[PUB](https://doi.org/10.1109/TMI.2009.2016337)]
+- K -Space and Image-Space Combination for Motion-Induced Phase-Error Correction in Self-Navigated Multicoil Multishot DWI. [[PUB](https://doi.org/10.1109/TMI.2009.2023212)]
+
+### IPMI
+
+- A Framework for Brain Registration via Simultaneous Surface and Volume Flow. [[PUB](https://doi.org/10.1007/978-3-642-02498-6_48)]
+- A New Information-Theoretic Measure to Control the Robustness-Sensitivity Trade-Off for DMFFD Point-Set Registration. [[PUB](https://doi.org/10.1007/978-3-642-02498-6_18)]
+- A Non-rigid Registration Framework That Accommodates Resection and Retraction. [[PUB](https://doi.org/10.1007/978-3-642-02498-6_37)]
+- Bayesian Registration via Local Image Regions: Information, Selection and Marginalization. [[PUB](https://doi.org/10.1007/978-3-642-02498-6_36)]
+- Dense Registration with Deformation Priors. [[PUB](https://doi.org/10.1007/978-3-642-02498-6_45)]
+- Diffusion MRI Registration Using Orientation Distribution Functions. [[PUB](https://doi.org/10.1007/978-3-642-02498-6_52)]
+- DRAMMS: Deformable Registration via Attribute Matching and Mutual-Saliency Weighting. [[PUB](https://doi.org/10.1007/978-3-642-02498-6_5)]
+- Image-to-Physical Registration for Image-Guided Interventions Using 3-D Ultrasound and an Ultrasound Imaging Model. [[PUB](https://doi.org/10.1007/978-3-642-02498-6_16)]
+- Non-rigid Image Registration with Uniform Spherical Structure Patterns. [[PUB](https://doi.org/10.1007/978-3-642-02498-6_14)]
+- Simultaneous Consideration of Spatial Deformation and Tensor Orientation in Diffusion Tensor Image Registration Using Local Fast Marching Patterns. [[PUB](https://doi.org/10.1007/978-3-642-02498-6_6)]
+- Unifying Encoding of Spatial Information in Mutual Information for Nonrigid Registration. [[PUB](https://doi.org/10.1007/978-3-642-02498-6_41)]
 
 ### WWW
 
@@ -2734,6 +3246,23 @@
 - Registration-based estimates of local lung tissue expansion compared to xenon CT measures of specific ventilation. [[PUB](https://doi.org/10.1016/j.media.2008.03.007)]
 - Symmetric diffeomorphic image registration with cross-correlation: Evaluating automated labeling of elderly and neurodegenerative brain. [[PUB](https://doi.org/10.1016/j.media.2007.06.004)]
 - The Third International Workshop on Biomedical Image Registration - WBIR 2006. [[PUB](https://doi.org/10.1016/j.media.2007.07.006)]
+
+### TMI
+
+- A &quot;Twisting and Bending&quot; Model-Based Nonrigid Image Registration Technique for 3-D Ultrasound Carotid Images. [[PUB](https://doi.org/10.1109/TMI.2008.918326)]
+- A Fast Nonrigid Image Registration With Constraints on the Jacobian Using Large Scale Constrained Optimization. [[PUB](https://doi.org/10.1109/TMI.2007.905820)]
+- A New Method for Registration-Based Medical Image Interpolation. [[PUB](https://doi.org/10.1109/TMI.2007.907324)]
+- A Review of Geometric Transformations for Nonrigid Body Registration. [[PUB](https://doi.org/10.1109/TMI.2007.904691)]
+- A Statistical Model for Point-Based Target Registration Error With Anisotropic Fiducial Localizer Error. [[PUB](https://doi.org/10.1109/TMI.2007.908124)]
+- Fluid Registration of Diffusion Tensor Images Using Information Theory. [[PUB](https://doi.org/10.1109/TMI.2007.907326)]
+- ORBIT: A Multiresolution Framework for Deformable Registration of Brain Tumor Images. [[PUB](https://doi.org/10.1109/TMI.2008.916954)]
+- Robust Gradient-Based 3-D/2-D Registration of CT and MR to X-Ray Images. [[PUB](https://doi.org/10.1109/TMI.2008.923984)]
+- Sparse Registration for Three-Dimensional Stress Echocardiography. [[PUB](https://doi.org/10.1109/TMI.2008.922685)]
+- Three-Dimensional Cardiac Strain Estimation Using Spatio-Temporal Elastic Registration of Ultrasound Images: A Feasibility Study. [[PUB](https://doi.org/10.1109/TMI.2008.2004420)]
+- A Geometry-Driven Optical Flow Warping for Spatial Normalization of Cortical Surfaces. [[PUB](https://doi.org/10.1109/TMI.2008.925080)]
+- Fully Automated Motion Correction in First-Pass Myocardial Perfusion MR Image Sequences. [[PUB](https://doi.org/10.1109/TMI.2008.928918)]
+- Optic Disc Detection From Normalized Digital Fundus Images by Means of a Vessels&apos; Direction Matched Filter. [[PUB](https://doi.org/10.1109/TMI.2007.900326)]
+- Respiratory Motion Correction in 3-D PET Data With Advanced Optical Flow Algorithms. [[PUB](https://doi.org/10.1109/TMI.2008.918321)]
 
 ### SIGIR
 
@@ -2890,6 +3419,41 @@
 - Robust registration procedures for endoscopic imaging. [[PUB](https://doi.org/10.1016/j.media.2007.04.006)]
 - Validation of vessel-based registration for correction of brain shift. [[PUB](https://doi.org/10.1016/j.media.2007.04.002)]
 
+### TMI
+
+- A Deformable Registration Method for Automated Morphometry of MRI Brain Images in Neuropsychiatric Research. [[PUB](https://doi.org/10.1109/TMI.2007.892512)]
+- A New Validation Method for X-ray Mammogram Registration Algorithms Using a Projection Model of Breast X-ray Compression. [[PUB](https://doi.org/10.1109/TMI.2007.903569)]
+- Accounting for Signal Loss Due to Dephasing in the Correction of Distortions in Gradient-Echo EPI Via Nonrigid Registration. [[PUB](https://doi.org/10.1109/TMI.2007.901987)]
+- Automated Finite-Element Analysis for Deformable Registration of Prostate Images. [[PUB](https://doi.org/10.1109/TMI.2007.898810)]
+- Brain Functional Localization: A Survey of Image Registration Techniques. [[PUB](https://doi.org/10.1109/TMI.2007.892508)]
+- Estimating 3-D Respiratory Motion From Orbiting Views by Tomographic Image Registration. [[PUB](https://doi.org/10.1109/TMI.2006.889719)]
+- Explicit Incorporation of Prior Anatomical Information Into a Nonrigid Registration of Thoracic and Abdominal CT and 18-FDG Whole-Body Emission PET Images. [[PUB](https://doi.org/10.1109/TMI.2006.889712)]
+- Fast and Accurate Automatic Registration for MR-Guided Procedures Using Active Microcoils. [[PUB](https://doi.org/10.1109/TMI.2006.889748)]
+- Point-Based Rigid-Body Registration Using an Unscented Kalman Filter. [[PUB](https://doi.org/10.1109/TMI.2007.901984)]
+- Registration of Multiview Real-Time 3-D Echocardiographic Sequences. [[PUB](https://doi.org/10.1109/TMI.2007.903568)]
+- Simultaneous Registration and Parcellation of Bilateral Hippocampal Surface Pairs for Local Asymmetry Quantification. [[PUB](https://doi.org/10.1109/TMI.2007.892502)]
+- Statistical Properties of Jacobian Maps and the Realization of Unbiased Large-Deformation Nonlinear Image Registration. [[PUB](https://doi.org/10.1109/TMI.2007.892646)]
+- Surface-Constrained Volumetric Brain Registration Using Harmonic Mappings. [[PUB](https://doi.org/10.1109/TMI.2007.901432)]
+- Symmetric Data Attachment Terms for Large Deformation Image Registration. [[PUB](https://doi.org/10.1109/TMI.2007.898813)]
+- Motion Correction for Coronary Stent Reconstruction From Rotational X-ray Projection Sequences. [[PUB](https://doi.org/10.1109/TMI.2007.901005)]
+
+### IPMI
+
+- A Hamiltonian Particle Method for Diffeomorphic Image Registration. [[PUB](https://doi.org/10.1007/978-3-540-73273-0_33)]
+- A Marginalized MAP Approach and EM Optimization for Pair-Wise Registration. [[PUB](https://doi.org/10.1007/978-3-540-73273-0_55)]
+- Adaptive Non-rigid Registration of Real Time 3D Ultrasound to Cardiovascular MR Images. [[PUB](https://doi.org/10.1007/978-3-540-73273-0_5)]
+- Atlas-to-Image Non-rigid Registration by Minimization of Conditional Local Entropy. [[PUB](https://doi.org/10.1007/978-3-540-73273-0_27)]
+- Brain Image Registration Using Cortically Constrained Harmonic Mappings. [[PUB](https://doi.org/10.1007/978-3-540-73273-0_30)]
+- Comparing Pairwise and Simultaneous Joint Registrations of Decorrelating Interval Exams Using Entropic Graphs. [[PUB](https://doi.org/10.1007/978-3-540-73273-0_23)]
+- Digital Homeomorphisms in Deformable Registration. [[PUB](https://doi.org/10.1007/978-3-540-73273-0_18)]
+- Fully Automated Registration of First-Pass Myocardial Perfusion MRI Using Independent Component Analysis. [[PUB](https://doi.org/10.1007/978-3-540-73273-0_45)]
+- Geometry Driven Volumetric Registration. [[PUB](https://doi.org/10.1007/978-3-540-73273-0_56)]
+- Insight into Efficient Image Registration Techniques and the Demons Algorithm. [[PUB](https://doi.org/10.1007/978-3-540-73273-0_41)]
+- Inter and Intra-modal Deformable Registration: Continuous Deformations Meet Efficient Optimal Linear Programming. [[PUB](https://doi.org/10.1007/978-3-540-73273-0_34)]
+- Learning Best Features and Deformation Statistics for Hierarchical Registration of MR Brain Images. [[PUB](https://doi.org/10.1007/978-3-540-73273-0_14)]
+- Registration-Derived Estimates of Local Lung Expansion as Surrogates for Regional Ventilation. [[PUB](https://doi.org/10.1007/978-3-540-73273-0_63)]
+- Imaging Brain Activation Streams from Optical Flow Computation on 2-Riemannian Manifolds. [[PUB](https://doi.org/10.1007/978-3-540-73273-0_39)]
+
 ## 2006
 
 ### TPAMI
@@ -2996,7 +3560,24 @@
 - Piecewise affine registration of biological images for volume reconstruction. [[PUB](https://doi.org/10.1016/j.media.2005.03.008)]
 - Retrospective evaluation of a topology preserving non-rigid registration method. [[PUB](https://doi.org/10.1016/j.media.2006.01.001)]
 - Symmetric image registration. [[PUB](https://doi.org/10.1016/j.media.2005.03.003)]
+- Robust mosaicing with correction of motion distortions and tissue deformations for in vivo fibered microscopy. [[PUB](https://doi.org/10.1016/j.media.2006.06.006)]
 - Statistical representation of high-dimensional deformation fields with application to statistically constrained 3D warping. [[PUB](https://doi.org/10.1016/j.media.2006.06.007)]
+
+### TMI
+
+- 3-D/2-D registration by integrating 2-D information in 3-D. [[PUB](https://doi.org/10.1109/TMI.2005.859715)]
+- A Cross Validation Study of Deep Brain Stimulation Targeting: From Experts to Atlas-Based, Segmentation-Based and Automatic Registration Algorithms. [[PUB](https://doi.org/10.1109/TMI.2006.882129)]
+- A protocol for evaluation of similarity measures for rigid registration. [[PUB](https://doi.org/10.1109/TMI.2006.874963)]
+- Biventricular myocardial strains via nonrigid registration of AnFigatomical NURBS models. [[PUB](https://doi.org/10.1109/TMI.2005.861015)]
+- Learning-based deformable registration of MR brain images. [[PUB](https://doi.org/10.1109/TMI.2006.879320)]
+- Mammogram registration: a phantom-based evaluation of compressed Breast Thickness variation effects. [[PUB](https://doi.org/10.1109/TMI.2005.862204)]
+- Nonrigid 2-D/3-D Registration for Patient Specific Bronchoscopy Simulation With Statistical Shape Modeling: Phantom Validation. [[PUB](https://doi.org/10.1109/TMI.2006.883452)]
+- Self-calibrating 3D-ultrasound-based bone registration for minimally invasive orthopedic surgery. [[PUB](https://doi.org/10.1109/TMI.2005.862736)]
+- Super-resolution registration using tissue-classified distance fields. [[PUB](https://doi.org/10.1109/TMI.2005.862151)]
+- Validation of bone segmentation and improved 3-D registration using contour coherency in CT data. [[PUB](https://doi.org/10.1109/TMI.2005.863834)]
+- Deformable segmentation of 3-D ultrasound prostate images using statistical texture matching method. [[PUB](https://doi.org/10.1109/TMI.2005.862744)]
+- Lung motion correction on respiratory gated 3-D PET/CT images. [[PUB](https://doi.org/10.1109/TMI.2006.870892)]
+- Nonlinear motion correction of respiratory-gated lung SPECT images. [[PUB](https://doi.org/10.1109/TMI.2006.871546)]
 
 ## 2005
 
@@ -3102,6 +3683,38 @@
 - Thoracic non-rigid registration combining self-organizing maps and radial basis functions. [[PUB](https://doi.org/10.1016/j.media.2004.09.002)]
 - Towards a model of lung biomechanics: pulmonary kinematics via registration of serial lung images. [[PUB](https://doi.org/10.1016/j.media.2005.04.002)]
 - Erratum to: &quot;Validation of dynamic heart models obtained using non-linear registration for virtual reality training, planning, and guidance of minimally invasive cardiac surgeries&quot; [Medical Image Analysis 8 (2004) 387-401]. [[PUB](https://doi.org/10.1016/j.media.2004.12.001)]
+
+### TMI
+
+- A Comparison of a Similarity-Based and a Feature-Based 2-D-3-D Registration Method for Neurointerventional Use. [[PUB](https://doi.org/10.1109/TMI.2005.852067)]
+- A registration framework for the comparison of mammogram sequences. [[PUB](https://doi.org/10.1109/TMI.2005.848374)]
+- A three-dimensional registration method for automated fusion of micro PET-CT-SPECT whole-body images. [[PUB](https://doi.org/10.1109/TMI.2005.848617)]
+- Fast generation of digitally reconstructed radiographs using attenuation fields with application to 2D-3D image registration. [[PUB](https://doi.org/10.1109/TMI.2005.856749)]
+- Registration-assisted segmentation of real-time 3-D echocardiographic data using deformable models. [[PUB](https://doi.org/10.1109/TMI.2005.852057)]
+- Robust nonrigid registration to capture brain shift from intraoperative MRI. [[PUB](https://doi.org/10.1109/TMI.2005.856734)]
+- Spatio-temporal nonrigid registration for ultrasound cardiac motion estimation. [[PUB](https://doi.org/10.1109/TMI.2005.852050)]
+- Standardized evaluation methodology for 2-D-3-D registration. [[PUB](https://doi.org/10.1109/TMI.2005.853240)]
+- Large deformation diffeomorphic metric mapping of vector fields. [[PUB](https://doi.org/10.1109/TMI.2005.853923)]
+- Model-based segmentation of medical imagery by matching distributions. [[PUB](https://doi.org/10.1109/TMI.2004.841228)]
+- Prospective motion correction of X-ray images for coronary interventions. [[PUB](https://doi.org/10.1109/TMI.2004.839679)]
+
+### IPMI
+
+- A Framework for Registration, Statistical Characterization and Classification of Cortically Constrained Functional Imaging Data. [[PUB](https://doi.org/10.1007/11505730_16)]
+- A Novel Parametric Method for Non-rigid Image Registration. [[PUB](https://doi.org/10.1007/11505730_38)]
+- A Unified Information-Theoretic Approach to Groupwise Non-rigid Registration and Model Building. [[PUB](https://doi.org/10.1007/11505730_1)]
+- Capturing Anatomical Shape Variability Using B-Spline Registration. [[PUB](https://doi.org/10.1007/11505730_48)]
+- Diffeomorphic Nonlinear Transformations: A Local Parametric Approach for Image Registration. [[PUB](https://doi.org/10.1007/11505730_15)]
+- Inverse Consistent Mapping in 3D Deformable Image Registration: Its Construction and Statistical Properties. [[PUB](https://doi.org/10.1007/11505730_41)]
+- Multi-dimensional Mutual Information Based Robust Image Registration Using Maximum Distance-Gradient-Magnitude. [[PUB](https://doi.org/10.1007/11505730_18)]
+- Multimodality Image Registration Using an Extensible Information Metric and High Dimensional Histogramming. [[PUB](https://doi.org/10.1007/11505730_60)]
+- Robust Nonrigid Multimodal Image Registration Using Local Frequency Maps. [[PUB](https://doi.org/10.1007/11505730_42)]
+- Simultaneous Segmentation and Registration of Contrast-Enhanced Breast MRI. [[PUB](https://doi.org/10.1007/11505730_11)]
+- Spherical Navigator Registration Using Harmonic Analysis for Prospective Motion Correction. [[PUB](https://doi.org/10.1007/11505730_61)]
+- The Role of Non-Overlap in Image Registration. [[PUB](https://doi.org/10.1007/11505730_59)]
+- Transitive Inverse-Consistent Manifold Registration. [[PUB](https://doi.org/10.1007/11505730_39)]
+- Construction and Validation of Mean Shape Atlas Templates for Atlas-Based Brain Image Segmentation. [[PUB](https://doi.org/10.1007/11505730_57)]
+- Cortical Surface Alignment Using Geometry Driven Multispectral Optical Flow. [[PUB](https://doi.org/10.1007/11505730_40)]
 
 ### MOBICOM
 
@@ -3210,6 +3823,20 @@
 - Registration of medical images using an interpolated closest point transform: method and validation. [[PUB](https://doi.org/10.1016/j.media.2004.01.002)]
 - Validation of dynamic heart models obtained using non-linear registration for virtual reality training, planning, and guidance of minimally invasive cardiac surgeries. [[PUB](https://doi.org/10.1016/j.media.2004.06.014)]
 
+### TMI
+
+- Analysis of 3-D myocardial motion in tagged MR images using nonrigid image registration. [[PUB](https://doi.org/10.1109/TMI.2004.834607)]
+- Constructing diffeomorphic representations for the groupwise analysis of nonrigid registrations of medical images. [[PUB](https://doi.org/10.1109/TMI.2004.831228)]
+- f-information measures in medical image registration. [[PUB](https://doi.org/10.1109/TMI.2004.836872)]
+- Improvement of depth position in 2-D/3-D registration of knee implants using single-plane fluoroscopy. [[PUB](https://doi.org/10.1109/TMI.2004.826051)]
+- Intensity-based image registration using robust correlation coefficients. [[PUB](https://doi.org/10.1109/TMI.2004.835313)]
+- Multimodal registration of retinal images using self organizing maps. [[PUB](https://doi.org/10.1109/TMI.2004.836547)]
+- Registration of real-time 3-D ultrasound images of the heart for novel 3-D stress echocardiography. [[PUB](https://doi.org/10.1109/TMI.2004.830527)]
+- Registration-based interpolation. [[PUB](https://doi.org/10.1109/TMI.2004.828352)]
+- Spatial transformation of motion and deformation fields using nonrigid registration. [[PUB](https://doi.org/10.1109/TMI.2004.828681)]
+- Long bone panoramas from fluoroscopic X-ray images. [[PUB](https://doi.org/10.1109/TMI.2003.819931)]
+- Predictive cardiac motion modeling and correction with partial least squares regression. [[PUB](https://doi.org/10.1109/TMI.2004.834622)]
+
 ## 2003
 
 ### IJCAI
@@ -3298,6 +3925,56 @@
 - MAP MRF joint segmentation and registration of medical images. [[PUB](https://doi.org/10.1016/S1361-8415(03)00067-7)]
 - Robust registration for computer-integrated orthopedic surgery: Laboratory validation and clinical experience. [[PUB](https://doi.org/10.1016/S1361-8415(02)00133-0)]
 
+### TMI
+
+- 3-D/2-D Registration of CT and MR to X-ray Images. [[PUB](https://doi.org/10.1109/TMI.2003.819277)]
+- A Comparison of Methods for Mammogram Registration. [[PUB](https://doi.org/10.1109/TMI.2003.819273)]
+- A robust method for registration of three-dimensional knee implant models to two-dimensional fluoroscopy images. [[PUB](https://doi.org/10.1109/TMI.2003.820027)]
+- Automatic Construction of 3D Statistical Deformation Models of the Brain using Non-Rigid Registration. [[PUB](https://doi.org/10.1109/TMI.2003.815865)]
+- Correction of &quot;Interpolation Artifacts in Multimodality Image Registration Based on Maximization of Mutual Information&quot;. [[PUB](https://doi.org/10.1109/TMI.2003.817660)]
+- Cortical Surface Registration for Image-Guided Neurosurgery Using Laser-Range Scanning. [[PUB](https://doi.org/10.1109/TMI.2003.815868)]
+- Coupling Dense and Landmark-based Approaches for Non Rigid Registration. [[PUB](https://doi.org/10.1109/TMI.2002.808365)]
+- Elastic Registration in the Presence of Intensity Variations. [[PUB](https://doi.org/10.1109/TMI.2003.815069)]
+- Entropy-Based, Dual-Portal-to-3DCT Registration Incorporating Pixel Correlation. [[PUB](https://doi.org/10.1109/TMI.2002.806430)]
+- Further Analysis of Interpolation Effects in Mutual Information-Based Image Registration. [[PUB](https://doi.org/10.1109/TMI.2003.816957)]
+- Gradient-Based 2D/3D Rigid Registration of Fluoroscopic X-ray to CT. [[PUB](https://doi.org/10.1109/TMI.2003.819288)]
+- Image Registration. [[PUB](https://doi.org/10.1109/TMI.2003.819272)]
+- Incorporating a Measure of Local Scale in Voxel-Based 3D Image Registration. [[PUB](https://doi.org/10.1109/TMI.2002.808358)]
+- Intensity based 2D-3D registration of cerebral angiograms. [[PUB](https://doi.org/10.1109/TMI.2003.819283)]
+- Interpolation Artifacts in Multimodality Image Registration Based on Maximization of Mutual Information. [[PUB](https://doi.org/10.1109/TMI.2003.815077)]
+- Mutual Information Based CT-MR Brain Image Registration Using Generalized Partial Volume Joint Histogram Estimation. [[PUB](https://doi.org/10.1109/TMI.2003.816949)]
+- Mutual Information Based Registration of Medical Images: A Survey. [[PUB](https://doi.org/10.1109/TMI.2003.815867)]
+- PET-CT Image Registration in the Chest Using Free-form Deformations. [[PUB](https://doi.org/10.1109/TMI.2003.809072)]
+- Rapid Registration for Wide Field-of-View Freehand 3D Ultrasound. [[PUB](https://doi.org/10.1109/TMI.2003.819279)]
+- Registration and Fusion of Retinal Images - An Evaluation Study. [[PUB](https://doi.org/10.1109/TMI.2003.812263)]
+- Registration and tracking to integrate x-ray and MR images in an XMR facility. [[PUB](https://doi.org/10.1109/TMI.2003.819275)]
+- Simultaneous Registration and Activation Detection for fMRI. [[PUB](https://doi.org/10.1109/TMI.2003.819294)]
+- Slice to Volume Registration and its Potential Application to Interventional MRI Guided Radiofrequency Thermal Ablation of Prostate Cancer. [[PUB](https://doi.org/10.1109/TMI.2003.809078)]
+- The Adaptive Bases Algorithm for Intensity Based Nonrigid Image Registration. [[PUB](https://doi.org/10.1109/TMI.2003.819299)]
+- The Dual Bootstrap Iterative Closest Point Algorithm with Application to Retinal Image Registration. [[PUB](https://doi.org/10.1109/TMI.2003.819276)]
+- Validation of Non-Rigid Image Registration sing Finite Element Methods: Application to Breast MR Images. [[PUB](https://doi.org/10.1109/TMI.2002.808367)]
+- Volume Registration Using Needle Paths and Point Landmarks for Evaluation of Interventional MRI Treatments. [[PUB](https://doi.org/10.1109/TMI.2003.812246)]
+- Volume-Preserving Non-Rigid Registration of MR Breast Images Using Free-Form Deformation with an Incompressibility Constraint. [[PUB](https://doi.org/10.1109/TMI.2003.814791)]
+- A registration-based approach to quantify Flow-Mediated Dilation (FMD) of the brachial artery in ultrasound image sequences. [[PUB](https://doi.org/10.1109/TMI.2003.819278)]
+- A Penalized-Likelihood Image Reconstruction Method for Emission Tomography, Compared to Post-Smoothed Maximum-Likelihood with Matched Spatial Resolution. [[PUB](https://doi.org/10.1109/TMI.2003.816960)]
+- Construction of an Abdominal Probabilistic Atlas and its Application in Segmentation. [[PUB](https://doi.org/10.1109/TMI.2003.809139)]
+- Practical Aspects of a Data-Driven Motion Correction Approach for Brain SPECT. [[PUB](https://doi.org/10.1109/TMI.2003.814790)]
+
+### IPMI
+
+- A Unified Statistical and Information Theoretic Framework for Multi-modal Image Registration. [[PUB](https://doi.org/10.1007/978-3-540-45087-0_31)]
+- A View-Based Approach to Registration: Theory and Application to Vascular Image Registration. [[PUB](https://doi.org/10.1007/978-3-540-45087-0_40)]
+- Bayesian Multimodality Non-rigid Image Registration via Conditional Density Estimation. [[PUB](https://doi.org/10.1007/978-3-540-45087-0_42)]
+- Constructing Diffeomorphic Representations of Non-rigid Registrations of Medical Images. [[PUB](https://doi.org/10.1007/978-3-540-45087-0_35)]
+- Construction of a Statistical Model for Cardiac Motion Analysis Using Nonrigid Image Registration. [[PUB](https://doi.org/10.1007/978-3-540-45087-0_50)]
+- Gray Scale Registration of Mammograms Using a Model of Image Acquisition. [[PUB](https://doi.org/10.1007/978-3-540-45087-0_34)]
+- Information Theoretic Similarity Measures in Non-rigid Registration. [[PUB](https://doi.org/10.1007/978-3-540-45087-0_32)]
+- Large Deformation Inverse Consistent Elastic Image Registration. [[PUB](https://doi.org/10.1007/978-3-540-45087-0_37)]
+- Non-rigid Image Registration Using a Statistical Spline Deformation Model. [[PUB](https://doi.org/10.1007/978-3-540-45087-0_39)]
+- Improving Appearance Model Matching Using Local Image Structure. [[PUB](https://doi.org/10.1007/978-3-540-45087-0_22)]
+- Topology Preservation and Regularity in Estimated Deformation Fields. [[PUB](https://doi.org/10.1007/978-3-540-45087-0_36)]
+- Velocity Estimation in Ultrasound Images: A Block Matching Approach. [[PUB](https://doi.org/10.1007/978-3-540-45087-0_49)]
+
 ### INFOCOM
 
 - Paging and Registration in Cellular Networks: Jointly Optimal Policies an d an Iterative Algorithm. [[PUB](https://doi.org/10.1109/INFCOM.2003.1208703)]
@@ -3374,6 +4051,24 @@
 - Nonrigid registration of 3D tensor medical data. [[PUB](https://doi.org/10.1016/S1361-8415(02)00055-5)]
 - Serial registration of intraoperative MR images of the brain. [[PUB](https://doi.org/10.1016/S1361-8415(02)00060-9)]
 - Tracking of a bronchoscope using epipolar geometry analysis and intensity-based image registration of real and virtual endoscopic images. [[PUB](https://doi.org/10.1016/S1361-8415(02)00089-0)]
+
+### TMI
+
+- A Review of Cardiac Image Registration Methods. [[PUB](https://doi.org/10.1109/TMI.2002.804441)]
+- Computational Cost of Non-Rigid Registration Algorithms Based on Fluid Dynamics. [[PUB](https://doi.org/10.1109/TMI.2002.803113)]
+- Consistent Landmark and Intensity-based Image Registration. [[PUB](https://doi.org/10.1109/TMI.2002.1009381)]
+- HAMMER: Heirarchical Attribute Matching Mechanism for Elastic Registration.
+- Local Frequency Representations for Robust Multimodal Image Registration. [[PUB](https://doi.org/10.1109/TMI.2002.1009382)]
+- Method for Three Dimensional Data Registration from Disparate Imaging Modalities. [[PUB](https://doi.org/10.1109/TMI.2002.806320)]
+- Model Evaluation and Calibration for Prospective Respiratory Motion Correction in Coronary MR Angiography Based on 3D Image Registration. [[PUB](https://doi.org/10.1109/TMI.2002.804428)]
+- Mutual Information-Based Rigid and Nonrigid Registration of Ultrasound Volumes. [[PUB](https://doi.org/10.1109/42.981230)]
+- Non-rigid registration of 3-D free-hand ultrasound images of the breast. [[PUB](https://doi.org/10.1109/TMI.2002.1000264)]
+- Phase-Based Multidimensional Volume Registration. [[PUB](https://doi.org/10.1109/TMI.2002.806581)]
+- Quantification of Small Cerebral Ventricular Volume Changes in Treated Growth Hormone Patients using Non-Rigid Registration. [[PUB](https://doi.org/10.1109/TMI.2002.806281)]
+- Rapid Elastic Image Registration for 3D Ultrasound. [[PUB](https://doi.org/10.1109/TMI.2002.806424)]
+- Volume Image Registration by Cross-Entropy Optimization. [[PUB](https://doi.org/10.1109/42.993135)]
+- Automatic Fusion of Freehand Endoscopic Brain Images to Three-Dimensional Surfaces: Creating Stereoscopic Panoramas. [[PUB](https://doi.org/10.1109/42.981231)]
+- What is the best similarity measure for motion correction in fMRI time series?. [[PUB](https://doi.org/10.1109/TMI.2002.1009383)]
 
 ### INFOCOM
 
@@ -3477,6 +4172,32 @@
 - Segmentation of brain 3D MR images using level sets and dense registration. [[PUB](https://doi.org/10.1016/S1361-8415(01)00039-1)]
 - Talairach-Tournoux brain atlas registration using a metalforming principle-based finite element method. [[PUB](https://doi.org/10.1016/S1361-8415(01)00045-7)]
 
+### TMI
+
+- 3D Registration and Fusion of Ultrasound and MRI Using Major Vessels as Fiducial Markers. [[PUB](https://doi.org/10.1109/42.921484)]
+- A Bound on Mutual Information for Image Registration. [[PUB](https://doi.org/10.1109/42.938252)]
+- Consistent Image Registration. [[PUB](https://doi.org/10.1109/42.932742)]
+- Elastic Registration of fMRI Data Using Bezier-Spline Transformations. [[PUB](https://doi.org/10.1109/42.918470)]
+- Hierarchical Estimation of a Dense Deformation Field for 3D Robust Registration. [[PUB](https://doi.org/10.1109/42.925292)]
+- Landmark-Based Elastic Registration Using Approximating Thin-Plate Splines. [[PUB](https://doi.org/10.1109/42.929618)]
+- Rigid Registration of 3D Ultrasound with MR Images: A New Approach Combining Intensity and Gradient Information. [[PUB](https://doi.org/10.1109/42.959301)]
+- The Distribution of Target Registration Error in Rigid-body, Point-based Registration. [[PUB](https://doi.org/10.1109/42.952729)]
+- Automated Detection of Pulmonary Nodules in Helical CT Images Based on an Improved Template-matching Technique. [[PUB](https://doi.org/10.1109/42.932744)]
+- Multistage Hybrid Active Appearance Model Matching: Segmentation of Left and Right Ventricles in Cardiac MR Images. [[PUB](https://doi.org/10.1109/42.925294)]
+
+### IPMI
+
+- A Unified Feature Registration Method for Brain Mapping. [[PUB](https://doi.org/10.1007/3-540-45729-1_31)]
+- Automatic 3D ASM Construction via Atlas-Based Landmarking and Volumetric Elastic Registration. [[PUB](https://doi.org/10.1007/3-540-45729-1_7)]
+- Automatic Image Registration for MR and Ultrasound Cardiac Images. [[PUB](https://doi.org/10.1007/3-540-45729-1_13)]
+- Automatic Registration of Mammograms Based on Linear Structures. [[PUB](https://doi.org/10.1007/3-540-45729-1_15)]
+- Landmark and Intensity-Based, Consistent Thin-Plate Spline Image Registration. [[PUB](https://doi.org/10.1007/3-540-45729-1_33)]
+- Robust Multimodal Image Registration Using Local Frequency Representations. [[PUB](https://doi.org/10.1007/3-540-45729-1_17)]
+- Using a Linear Diagnostic Function and Non-rigid Registration to Search for Morphological Differences Between Populations: An Example Involving the Male and Female Corpus Callosum. [[PUB](https://doi.org/10.1007/3-540-45729-1_37)]
+- Validation of Non-rigid Registration Using Finite Element Methods. [[PUB](https://doi.org/10.1007/3-540-45729-1_34)]
+- Estimating Sparse Deformation Fields Using Multiscale Bayesian Priors and 3-D Ultrasound. [[PUB](https://doi.org/10.1007/3-540-45729-1_14)]
+- Motion Correction Algorithms of the Brain Mapping Community Create Spurious Functional Activations. [[PUB](https://doi.org/10.1007/3-540-45729-1_27)]
+
 ## 2000
 
 ### TPAMI
@@ -3540,6 +4261,14 @@
 - Physical model-based non-rigid registration incorporating statistical shape information. [[PUB](https://doi.org/10.1016/S1361-8415(00)00004-9)]
 - Providing visual information to validate 2-D to 3-D registration. [[PUB](https://doi.org/10.1016/S1361-8415(00)00029-3)]
 - Two-dimensional spatial and temporal displacement and deformation field fitting from cardiac magnetic resonance tagging. [[PUB](https://doi.org/10.1016/S1361-8415(00)00018-9)]
+
+### TMI
+
+- Image Registration by Maximization of Combined Mutual Information and Gradient Information. [[PUB](https://doi.org/10.1109/42.876307)]
+- Registration of Physical Space to Laparoscopic Image Space for use in Minimally Invasive Hepatic Surgery. [[PUB](https://doi.org/10.1109/42.887616)]
+- Semiautomatic 3D Image Registration as Applied to Interventional MRI Liver Cancer Treatment. [[PUB](https://doi.org/10.1109/42.845176)]
+- Voxel Similarity Measures for 3D Serial MR Brain Image Registration. [[PUB](https://doi.org/10.1109/42.836369)]
+- Locating Blood Vessels in Retinal Images by Piece-wise Threshold Probing of a Matched Filter Response. [[PUB](https://doi.org/10.1109/42.845178)]
 
 ## 1999
 
@@ -3621,6 +4350,30 @@
 - Registration and difference analysis of corresponding mammogram images. [[PUB](https://doi.org/10.1016/S1361-8415(99)80001-2)]
 - Rigid point feature registration using mutual information. [[PUB](https://doi.org/10.1016/S1361-8415(99)80034-6)]
 
+### TMI
+
+- A Multi-Modal Registration Algorithm of Eye Fundus Images Using Vessels Detection and Hough Transform. [[PUB](https://doi.org/10.1109/42.774169)]
+- Biomedical Modeling of the Human Head for Physically-based, Non-rigid Image Registration. [[PUB](https://doi.org/10.1109/42.811267)]
+- Enhancing the Multivariate Signal of [15O] water PET Studies with a New Non-Linear Neuroanatomical Registration Algorithm. [[PUB](https://doi.org/10.1109/42.768840)]
+- Non-rigid Registration Using Free-form Deformations: Application to Breast MR Images. [[PUB](https://doi.org/10.1109/42.796284)]
+- Nonlinear elastic registration of brain images with tumor pathology using a biomechanical model [MRI]. [[PUB](https://doi.org/10.1109/42.790458)]
+- Registration of Stereo and Temporal Images of the Retina. [[PUB](https://doi.org/10.1109/42.774168)]
+- Retrospective Intermodality Registration Techniques for Images of the Head: Surface-based Versus Volume-based. [[PUB](https://doi.org/10.1109/42.759119)]
+- Segmentation, Registration and Measurement of Shape Variation via Image Object Shape. [[PUB](https://doi.org/10.1109/42.811263)]
+- Retrospective Motion Correction in Digital Subtraction Angiography: A Review&quot;. [[PUB](https://doi.org/10.1109/42.781020)]
+- Retrospective Motion Correction in Digital Subtraction Angiography: A Review. [[PUB](https://doi.org/10.1109/42.750248)]
+- Validation of an Optical Flow Method for Tag Displacement Estimation. [[PUB](https://doi.org/10.1109/42.768845)]
+
+### IPMI
+
+- A Fast Mutual Information Method for Multi-modal Registration. [[PUB](https://doi.org/10.1007/3-540-48714-X_47)]
+- Approximating Thin-Plate Splines for Elastic Registration: Integration of Landmark Errors and Orientation Attributes. [[PUB](https://doi.org/10.1007/3-540-48714-X_19)]
+- Hierarchical Matching of Cortical Features for Deformable Brain Image Registration. [[PUB](https://doi.org/10.1007/3-540-48714-X_14)]
+- Non-linear Registration with the Variable Viscosity Fluid Algorithm. [[PUB](https://doi.org/10.1007/3-540-48714-X_18)]
+- Registration of Cortical Anatomical Structures via Robust 3D Point Matching. [[PUB](https://doi.org/10.1007/3-540-48714-X_13)]
+- The Distribution of Target Registration Error in Rigid-Body, Point-Based Registration. [[PUB](https://doi.org/10.1007/3-540-48714-X_46)]
+- Consistent Linear-Elastic Transformations for Image Matching. [[PUB](https://doi.org/10.1007/3-540-48714-X_17)]
+
 ## 1998
 
 ### TPAMI
@@ -3692,6 +4445,17 @@
 - Image matching as a diffusion process: an analogy with Maxwell&apos;s demons. [[PUB](https://doi.org/10.1016/S1361-8415(98)80022-4)]
 - The detection and significance of subtle changes in mixed-signal brain lesions by serial MRI scan matching and spatial normalization. [[PUB](https://doi.org/10.1016/S1361-8415(98)80021-2)]
 
+### TMI
+
+- A Comparison of Similarity Measures for Use in 2D-3D Medical Image Registration. [[PUB](https://doi.org/10.1109/42.730403)]
+- Anatomy based registration of CT-scan and intraoperative X-ray images for guiding a surgical robot. [[PUB](https://doi.org/10.1109/42.736023)]
+- Predicting error in rigid-body, point-based registration. [[PUB](https://doi.org/10.1109/42.736021)]
+- Registration of head CT images to physical space using a weighted combination of points and surfaces. [[PUB](https://doi.org/10.1109/42.736031)]
+- Registration of real and CT-derived virtual bronchoscopic images to assist transbronchial biopsy. [[PUB](https://doi.org/10.1109/42.736022)]
+- Surface-based registration of CT images to physical space for image-guided surgery of the spine: a sensitivity study. [[PUB](https://doi.org/10.1109/42.736029)]
+- Visual Assessment of the Accuracy of Retrospective Registration of MR and CT Images of the Brain. [[PUB](https://doi.org/10.1109/42.730402)]
+- Segmentation and Tracking in Echocardiographic Sequences: Active Contours Guided by Optical Flow Estimates. [[PUB](https://doi.org/10.1109/42.700739)]
+
 ## 1997
 
 ### TPAMI
@@ -3731,6 +4495,25 @@
 ### MIA
 
 - A robust point-matching algorithm for autoradiograph alignment. [[PUB](https://doi.org/10.1016/S1361-8415(97)85008-6)]
+
+### TMI
+
+- A Rapid and Automatic Image Registration Algorithms with Subpixel Accuracy. [[PUB](https://doi.org/10.1109/42.585765)]
+- Automatic Registration and Alignment on a Template of Cardiac Stress and Rest Reoriented SPECT Images. [[PUB](https://doi.org/10.1109/42.650870)]
+- Multimodality Image Registration by Maximization of Mutual Information. [[PUB](https://doi.org/10.1109/42.563664)]
+- Registration of Head Volume Images Using Implantable Fiducial Markers. [[PUB](https://doi.org/10.1109/42.611354)]
+- Three-Dimensional PET Emission Scan Registration and Transmission Scan Synthesis. [[PUB](https://doi.org/10.1109/42.640744)]
+- Automatic Correction of Motion Artifacts in Magnetic Resonance Images Using an Entropy Focus Criterion. [[PUB](https://doi.org/10.1109/42.650886)]
+- Motion Correction of PET Images Using Multiple Acquisition Forms. [[PUB](https://doi.org/10.1109/42.563659)]
+- Three-Dimensional Surface Reconstruction Using Optical Flow for Medical Imaging. [[PUB](https://doi.org/10.1109/42.640754)]
+
+### IPMI
+
+- A Robust and Efficient Algorithm for Image Registration. [[PUB](https://doi.org/10.1007/3-540-63046-5_44)]
+- Mapping the Cerebral Sulci: Application to Morphological Analysis of the Cortex and to Non-rigid Registration. [[PUB](https://doi.org/10.1007/3-540-63046-5_11)]
+- Registration of 3D Medical Images Using Simple Morphological Tools. [[PUB](https://doi.org/10.1007/3-540-63046-5_16)]
+- Registration of Abdominal CT and SPECT Images Using Compton Scatter Data. [[PUB](https://doi.org/10.1007/3-540-63046-5_18)]
+- An Autofocus Algorithm for the Automatic Correction of Motion Artifacts in MR Images. [[PUB](https://doi.org/10.1007/3-540-63046-5_26)]
 
 ## 1996
 
@@ -3775,6 +4558,13 @@
 - Comparison of edge-based and ridge-based registration of CT and MR brain images. [[PUB](https://doi.org/10.1016/S1361-8415(96)80010-7)]
 - Multi-modal volume registration by maximization of mutual information. [[PUB](https://doi.org/10.1016/S1361-8415(01)80004-9)]
 
+### TMI
+
+- Image registration based on boundary mapping. [[PUB](https://doi.org/10.1109/42.481446)]
+- Registration of 3-D images using weighted geometrical features. [[PUB](https://doi.org/10.1109/42.544501)]
+- Correction of computed tomography motion artifacts using pixel-specific back-projection. [[PUB](https://doi.org/10.1109/42.500142)]
+- Tracking myocardial deformation using phase contrast MR velocity fields: a stochastic approach. [[PUB](https://doi.org/10.1109/42.511749)]
+
 ## 1995
 
 ### AI
@@ -3803,6 +4593,12 @@
 
 - Optical flow estimation and the interaction between measurement errors at adjacent pixel positions. [[PUB](https://doi.org/10.1007/BF01451744)]
 - Optical flow from 1-D correlation: Application to a simple time-to-crash detector. [[PUB](https://doi.org/10.1007/BF01418979)]
+
+### TMI
+
+- Automatic registration of CT and MR brain images using correlation of geometrical features. [[PUB](https://doi.org/10.1109/42.387719)]
+- Simultaneous usage of homologous points, lines, and planes for optimal, 3-D, linear registration of multimodality imaging data. [[PUB](https://doi.org/10.1109/42.370397)]
+- An improved method for MRI artifact correction due to translational motion in the imaging plane. [[PUB](https://doi.org/10.1109/42.414612)]
 
 ## 1994
 
@@ -3847,6 +4643,12 @@
 
 - Iterative point matching for registration of free-form curves and surfaces. [[PUB](https://doi.org/10.1007/BF01427149)]
 
+### TMI
+
+- Computer-assisted registration, segmentation, and 3D reconstruction from images of neuronal tissue sections. [[PUB](https://doi.org/10.1109/42.293928)]
+- Motion estimation of skeletonized angiographic images using elastic registration. [[PUB](https://doi.org/10.1109/42.310876)]
+- Comments about the coincident bit counting (CBC) criterion for image registration. [[PUB](https://doi.org/10.1109/42.310889)]
+
 ## 1993
 
 ### AI
@@ -3878,6 +4680,18 @@
 
 - 3-D interpretation of optical flow by renormalization. [[PUB](https://doi.org/10.1007/BF01469345)]
 - Image matching using the windowed Fourier phase. [[PUB](https://doi.org/10.1007/BF01469343)]
+
+### TMI
+
+- Coincident bit counting-a new criterion for image registration. [[PUB](https://doi.org/10.1109/42.222663)]
+- Registration and three-dimensional reconstruction of autoradiographic images by the disparity analysis method. [[PUB](https://doi.org/10.1109/42.251130)]
+- Registration of 3-D head surfaces using multiple landmarks. [[PUB](https://doi.org/10.1109/42.241879)]
+- Matched filter estimation of serial blood vessel diameters from video images. [[PUB](https://doi.org/10.1109/42.232243)]
+
+### IPMI
+
+- A Strategy for Automated Multimodality Image Registration Incorporating Anatomical Knowledge and Imager Characteristics. [[PUB](https://doi.org/10.1007/BFb0013788)]
+- Image Registration for the Investigation of Atherosclerotic Plaque Movement. [[PUB](https://doi.org/10.1007/BFb0013804)]
 
 ## 1992
 
@@ -3923,6 +4737,13 @@
 
 - Computing optical flow across multiple scales: An adaptive coarse-to-fine strategy. [[PUB](https://doi.org/10.1007/BF00128153)]
 - Determining optical flow for irregular domains by minimizing quadratic functionals of a certain class. [[PUB](https://doi.org/10.1007/BF00127124)]
+
+### IPMI
+
+- An Anatomic-Based 3D Registration System of Multimodality and Atlas Data in Neurosurgery. [[PUB](https://doi.org/10.1007/BFb0033750)]
+- Interactive 3-D Patient-Image Registration. [[PUB](https://doi.org/10.1007/BFb0033748)]
+- Marker Guided Registration of Electromagnetic Dipole Data with Tomographic Images. [[PUB](https://doi.org/10.1007/BFb0033749)]
+- Registration of Brain Image by a Multi Resolution Sequential Method. [[PUB](https://doi.org/10.1007/BFb0033751)]
 
 ## 1990
 
