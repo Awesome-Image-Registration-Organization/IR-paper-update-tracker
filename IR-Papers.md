@@ -63,7 +63,7 @@
 
 ### IJCAI
 
-- GPI-Net: Gestalt-Guided Parallel Interaction Network via Orthogonal Geometric Consistency for Robust Point Cloud Registration. [[PUB](https://doi.org/10.24963/ijcai.2025/118)]
+- GPI-Net: Gestalt-Guided Parallel Interaction Network via Orthogonal Geometric Consistency for Robust Point Cloud Registration. [[PUB](https://doi.org/10.24963/ijcai.2025/118)] [[CODE](https://github.com/XXX/GPI-Net)]
 - Top-I2P: Explore Open-Domain Image-to-Point Cloud Registration Using Topology Relationship. [[PUB](https://doi.org/10.24963/ijcai.2025/76)]
 - Boosting Zero-shot Stereo Matching Using Large-Scale Mixed Images Sources in the Real World. [[PUB](https://doi.org/10.24963/ijcai.2025/226)]
 - Multimodal Image Matching Based on Cross-Modality Completion Pre-training. [[PUB](https://doi.org/10.24963/ijcai.2025/246)]

@@ -12704,6 +12704,7 @@ registra%20streamid%3Ajournals%2Fijcv%3A:
   ee: https://doi.org/10.1007/s11263-026-02747-w
   url: https://dblp.org/rec/journals/ijcv/WangTSHL26
   abstract: ''
+  related_code: ''
 - author: Hao Xu 0018, Guanghui Liu 0001, Bing Zeng 0001, Shuaicheng Liu
   title: Robust Partial-to-Partial Point Cloud Registration with Overlapping Mask
     Learning.
@@ -12716,6 +12717,7 @@ registra%20streamid%3Ajournals%2Fijcv%3A:
   ee: https://doi.org/10.1007/s11263-026-02772-9
   url: https://dblp.org/rec/journals/ijcv/XuLZL26
   abstract: ''
+  related_code: ''
 - author: Yu-Xin Zhang 0004, Jie Gui, Baosheng Yu, Xiaofeng Cong, Xin Gong 0001, Wenbing
     Tao, Dacheng Tao
   title: 'Deep Learning-Based Point Cloud Registration: A Comprehensive Survey and
@@ -12729,6 +12731,7 @@ registra%20streamid%3Ajournals%2Fijcv%3A:
   ee: https://doi.org/10.1007/s11263-025-02723-w
   url: https://dblp.org/rec/journals/ijcv/ZhangGYCGTT26
   abstract: ''
+  related_code: ''
 - author: Amirhossein Amiri-Hezaveh, Shelly Tan, Qing Deng, David M. Umulis, Lauren
     Cunniff, Johannes Weickenmeier, Adrian Buganza Tepole
   title: A Physics-Informed Deep Learning Deformable Medical Image Registration Method
@@ -25005,6 +25008,7 @@ registra%20venue%3AMedical_Image_Anal.%3A:
   ee: https://doi.org/10.1016/j.media.2025.103887
   url: https://dblp.org/rec/journals/mia/ChenWLBHCBD26
   abstract: ''
+  related_code: ''
 - author: Xudong Guo, Peiyu Chen, Haifeng Wang, Zhichao Yan, Qinfen Jiang, Rongjiang
     Wang, Ji Bin
   title: 'UTMorph: A hybrid CNN-transformer network for weakly-supervised multimodal
@@ -31059,6 +31063,7 @@ registra%20venue%3AMedical_Image_Anal.%3A:
   ee: https://doi.org/10.1016/j.media.2026.104084
   url: https://dblp.org/rec/journals/mia/FuYWCMN26
   abstract: ''
+  related_code: ''
 - author: Jia Mi, Caiwen Jiang, Xiaosong Xiong, Yulin Wang, Kaicong Sun, Xiaohuan
     Cao, Dinggang Shen
   title: Learning dual-scale context with overlap awareness for keypoint-driven partial-overlap
@@ -31072,6 +31077,7 @@ registra%20venue%3AMedical_Image_Anal.%3A:
   ee: https://doi.org/10.1016/j.media.2026.104100
   url: https://dblp.org/rec/journals/mia/MiJXWSCS26
   abstract: ''
+  related_code: ''
 - author: Wenyao Xia, Wes Hodges, Muhan Liu, Jonathan C. Lau, Terry M. Peters, Elvis
     C. S. Chen
   title: Calibration-free 3D-2D surface registration for image guided intervention.
@@ -31084,6 +31090,7 @@ registra%20venue%3AMedical_Image_Anal.%3A:
   ee: https://doi.org/10.1016/j.media.2026.104092
   url: https://dblp.org/rec/journals/mia/XiaHLLPC26
   abstract: ''
+  related_code: ''
 image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20match%20venue%3AIJCAI%3A:
 - author: Harry G. Barrow, Jay M. Tenenbaum, Robert C. Bolles, Helen C. Wolf
   title: 'Parametric Correspondence and Chamfer Matching: Two New Techniques for Image
@@ -38942,6 +38949,7 @@ image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20ma
   ee: https://doi.org/10.1016/j.media.2026.104057
   url: https://dblp.org/rec/journals/mia/TuZLCMYXHWXXWWZCCC26
   abstract: ''
+  related_code: ''
 - author: Zehui Lin, Shuo Li 0001, Shanshan Wang, Zhifan Gao, Yue Sun 0001, Chan-Tong
     Lam, Xindi Hu, Xin Yang 0009, Dong Ni 0001, Tao Tan 0002
   title: 'An orchestration learning framework for ultrasound imaging: Prompt-Guided
