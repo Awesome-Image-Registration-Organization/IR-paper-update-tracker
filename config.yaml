@@ -72,5 +72,8 @@ dblp:
     - "streamid:conf/stoc:"
     - "venue:MICCAI:"
     - "venue:Medical_Image_Anal.:"
+    - "streamid:journals/tmi:"
+    - "streamid:conf/ipmi:"
+    - "streamid:journals/titb:"
   mails:
     - "im.young@foxmail.com"

@@ -1,5 +1,5 @@
 # IR-paper-update-tracker
-This project is a part of [Awesome Image Registration](https://github.com/youngfish42/Awesome-FL).  ![Stars](https://img.shields.io/github/stars/Awesome-Image-Registration-Organization/awesome-image-registration.svg?color=orange)
+This project is a part of [Awesome Image Registration](https://github.com/Awesome-Image-Registration-Organization/awesome-image-registration).  ![Stars](https://img.shields.io/github/stars/Awesome-Image-Registration-Organization/awesome-image-registration.svg?color=orange)
 
 
 An automated paper tracking bot for **Image Registration** research. It periodically queries the [DBLP API](https://dblp.org/faq/How+to+use+the+dblp+search+API.html) for new publications across 40+ top-tier conferences and journals, deduplicates entries by their electronic edition (`ee`) field **and by title**, and automatically opens GitHub Issues to notify subscribers.
@@ -44,7 +44,7 @@ No other code changes are required.
 
 **Computer Vision & Multimedia** — CVPR, ICCV, ECCV, ACM MM, IJCV
 
-**Medical Imaging** — MICCAI, Medical Image Analysis (MIA)
+**Medical Imaging** — MICCAI, Medical Image Analysis (MIA), IEEE TMI, IPMI, IEEE JBHI
 
 **Natural Language Processing** — ACL, NAACL-HLT, EMNLP, COLING
 
@@ -122,7 +122,7 @@ dblp:
 
 **计算机视觉与多媒体** — CVPR、ICCV、ECCV、ACM MM、IJCV
 
-**医学图像** — MICCAI、Medical Image Analysis (MIA)
+**医学图像** — MICCAI、Medical Image Analysis (MIA)、IEEE TMI、IPMI、IEEE JBHI
 
 **自然语言处理** — ACL、NAACL-HLT、EMNLP、COLING
 

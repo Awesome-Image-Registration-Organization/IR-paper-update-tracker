@@ -74,6 +74,9 @@ def main():
         "SP Workshops": "S&P",
         # Medical Imaging
         "Medical Image Anal.": "MIA",
+        "IEEE Trans. Medical Imaging": "TMI",
+        "IPMI": "IPMI",
+        "IEEE J. Biomed. Health Informatics": "JBHI",
         "CLIP@MICCAI": "MICCAI",
         "MIDOG/MOOD/Learn2Reg@MICCAI": "MICCAI",
         "ML-CDS@MICCAI": "MICCAI",
@@ -136,6 +139,9 @@ def main():
         "STOC": "Others",
         "MICCAI": "Medical Imaging",
         "MIA": "Medical Imaging",
+        "TMI": "Medical Imaging",
+        "IPMI": "Medical Imaging",
+        "JBHI": "Medical Imaging",
     }
 
     CATEGORY_ORDER = [
@@ -160,7 +166,7 @@ def main():
         "Data Mining": ["KDD", "WSDM"],
         "Secure": ["S&P", "CCS", "USENIX Security", "NDSS"],
         "Computer Vision": ["ICCV", "CVPR", "ECCV", "MM", "IJCV"],
-        "Medical Imaging": ["MICCAI", "MIA"],
+        "Medical Imaging": ["MICCAI", "MIA", "TMI", "IPMI", "JBHI"],
         "Natural Language Processing": ["ACL", "EMNLP", "NAACL", "COLING"],
         "Information Retrieval": ["SIGIR"],
         "Database": ["SIGMOD", "ICDE", "VLDB"],
