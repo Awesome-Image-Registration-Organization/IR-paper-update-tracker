@@ -15,8 +15,8 @@
 6. `scripts/fetch_related_code.py` scans all papers and extracts GitHub repository links from abstracts into the `related_code` field.
 7. `scripts/fetch_tags.py` (or the inline call in `main.py`) detects keyword tags (`medi.`, `nat.`, `rs.`, `pc.`, `data.`, `dep.`, `oth.`) for each paper based on its title and abstract, storing them in the `tags` field.
 8. `scripts/convert_cache_to_md.py` regenerates `IR-Papers.md` from the updated cache.
-8. If new papers exist, the action `JasonEtco/create-an-issue@v2` creates a GitHub Issue using `.github/issue-template.md`.
-9. Both `cached/dblp.yaml` and `IR-Papers.md` are committed back to the repo so that subsequent runs know what has already been reported.
+9. If new papers exist, the action `JasonEtco/create-an-issue@v2` creates a GitHub Issue using `.github/issue-template.md`.
+10. Both `cached/dblp.yaml` and `IR-Papers.md` are committed back to the repo so that subsequent runs know what has already been reported.
 
 ## Tech Stack
 

@@ -252,6 +252,7 @@ TAG_RULES = {
 MEDICAL_VENUES = {
     "MICCAI", "MIA", "TMI", "IPMI", "JBHI",
     "Medical Image Analysis", "IEEE Trans. Medical Imaging",
+    "Medical Image Anal.", "IEEE J. Biomed. Health Informatics",
 }
 
 TAG_ORDER = ["medi.", "nat.", "rs.", "pc.", "data.", "dep.", "oth."]
@@ -471,7 +472,8 @@ def get_msg(items, topic, aggregated=False):
                 if related_code:
                     msg += f"- {item['title']}. [[CODE]({related_code})]{tags_str}\\n"
                 else:
-                    msg += f"- {item['title']}.{tags_str}\\n"
+                    suffix = "" if item["title"].endswith(".") else "."
+                    msg += f"- {item['title']}{suffix}{tags_str}\\n"
         msg += "\\n"
 
     msg = msg.replace("'", "")
