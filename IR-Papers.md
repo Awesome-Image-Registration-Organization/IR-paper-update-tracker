@@ -2390,7 +2390,7 @@
 
 ### TPAMI
 
-- Groupwise Elastic Registration by a New Sparsity-Promoting Metric: Application to the Alignment of Cardiac Magnetic Resonance Perfusion Images. [[PUB](https://doi.org/10.1109/TPAMI.2013.74)]
+- Groupwise Elastic Registration by a New Sparsity-Promoting Metric: Application to the Alignment of Cardiac Magnetic Resonance Perfusion Images. [[PUB](https://doi.org/10.1109/TPAMI.2013.74)] [**`medi.`** ]
 - Locally Orderless Registration. [[PUB](https://doi.org/10.1109/TPAMI.2012.238)]
 - Multiview Face Detection and Registration Requiring Minimal Manual Intervention. [[PUB](https://doi.org/10.1109/TPAMI.2013.37)] [**`medi.`** ]
 - Range Image Registration Using a Photometric Metric under Unknown Lighting. [[PUB](https://doi.org/10.1109/TPAMI.2013.21)] [**`pc.`** ]
@@ -2488,7 +2488,7 @@
 
 - A method of 2D/3D registration of a statistical mouse atlas with a planar X-ray projection and an optical photo. [[PUB](https://doi.org/10.1016/j.media.2013.02.009)] [**`pc.`** ]
 - Automatic carotid artery distensibility measurements from CTA using nonrigid registration. [[PUB](https://doi.org/10.1016/j.media.2013.02.007)]
-- Automatic multimodal 2D/3D breast image registration using biomechanical FEM models and intensity-based optimization. [[PUB](https://doi.org/10.1016/j.media.2012.10.003)]
+- Automatic multimodal 2D/3D breast image registration using biomechanical FEM models and intensity-based optimization. [[PUB](https://doi.org/10.1016/j.media.2012.10.003)] [**`medi.`** ]
 - Bayesian characterization of uncertainty in intra-subject non-rigid registration. [[PUB](https://doi.org/10.1016/j.media.2013.03.002)] [**`medi.`** ]
 - Endoluminal surface registration for CT colonography using haustral fold matching. [[PUB](https://doi.org/10.1016/j.media.2013.04.006)] [**`medi.`** **`pc.`** ]
 - Joint CT/CBCT deformable registration and CBCT enhancement for cancer radiotherapy. [[PUB](https://doi.org/10.1016/j.media.2013.01.005)] [**`medi.`** ]
@@ -3237,7 +3237,7 @@
 - Automatic CT-ultrasound registration for diagnostic imaging and image-guided intervention. [[PUB](https://doi.org/10.1016/j.media.2008.06.006)] [**`medi.`** **`oth.`** ]
 - Dense image registration through MRFs and efficient linear programming. [[PUB](https://doi.org/10.1016/j.media.2008.03.006)]
 - Effects of registration regularization and atlas sharpness on segmentation accuracy. [[PUB](https://doi.org/10.1016/j.media.2008.06.005)]
-- Geometrical regularization of displacement fields for histological image registration. [[PUB](https://doi.org/10.1016/j.media.2007.06.007)] [**`oth.`** ]
+- Geometrical regularization of displacement fields for histological image registration. [[PUB](https://doi.org/10.1016/j.media.2007.06.007)] [**`medi.`** **`oth.`** ]
 - Instantiation and registration of statistical shape models of the femur and pelvis using 3D ultrasound imaging. [[PUB](https://doi.org/10.1016/j.media.2007.12.006)] [**`medi.`** ]
 - Maximum distance-gradient for robust image registration. [[PUB](https://doi.org/10.1016/j.media.2008.01.004)]
 - Multimodal image registration using floating regressors in the joint intensity scatter plot. [[PUB](https://doi.org/10.1016/j.media.2007.12.002)] [**`medi.`** ]
@@ -3675,9 +3675,9 @@
 ### MIA
 
 - A non-rigid registration approach for quantifying myocardial contraction in tagged MRI using generalized information measures. [[PUB](https://doi.org/10.1016/j.media.2005.01.005)] [**`medi.`** ]
-- Efficient multi-modal dense field non-rigid registration: alignment of histological and section images. [[PUB](https://doi.org/10.1016/j.media.2005.04.003)]
+- Efficient multi-modal dense field non-rigid registration: alignment of histological and section images. [[PUB](https://doi.org/10.1016/j.media.2005.04.003)] [**`medi.`** ]
 - Phase mutual information as a similarity measure for registration. [[PUB](https://doi.org/10.1016/j.media.2005.01.002)]
-- Polyrigid and polyaffine transformations: A novel geometrical tool to deal with non-rigid deformations - Application to the registration of histological slices. [[PUB](https://doi.org/10.1016/j.media.2005.04.001)] [**`oth.`** ]
+- Polyrigid and polyaffine transformations: A novel geometrical tool to deal with non-rigid deformations - Application to the registration of histological slices. [[PUB](https://doi.org/10.1016/j.media.2005.04.001)] [**`medi.`** **`oth.`** ]
 - Scale-invariant registration of monocular endoscopic images to CT-scans for sinus surgery. [[PUB](https://doi.org/10.1016/j.media.2005.05.005)] [**`medi.`** ]
 - Spatio-temporal free-form registration of cardiac MR image sequences. [[PUB](https://doi.org/10.1016/j.media.2005.05.004)]
 - Thoracic non-rigid registration combining self-organizing maps and radial basis functions. [[PUB](https://doi.org/10.1016/j.media.2004.09.002)]
@@ -4274,7 +4274,7 @@
 
 ### AI
 
-- A Non-Rigid Registration Algorithm for Dynamic Breast MR Images. [[PUB](https://doi.org/10.1016/S0004-3702(99)00073-9)]
+- A Non-Rigid Registration Algorithm for Dynamic Breast MR Images. [[PUB](https://doi.org/10.1016/S0004-3702(99)00073-9)] [**`medi.`** ]
 
 ### TPAMI
 
