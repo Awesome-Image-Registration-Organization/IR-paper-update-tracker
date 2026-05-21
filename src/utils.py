@@ -184,6 +184,151 @@ def fetch_related_code_for_papers(papers):
     return papers
 
 
+# ── 论文标签检测规则（保守策略，避免误报）──────────────────────────────
+TAG_RULES = {
+    "medi.": [
+        r"medical", r"\bmri\b", r"\bct\b", r"pet scan", r"pet imaging", r"ultrasound",
+        r"clinical", r"tomography", r"tumor", r"lesion", r"\bbrain\b", r"\blung\b",
+        r"\bheart\b", r"\bliver\b", r"\bkidney\b", r"\bspine\b", r"\bskull\b",
+        r"\bvertebra\b", r"deformable registration", r"atlas construction",
+        r"motion correction", r"multi-modal registration", r"multimodal registration",
+        r"learn2reg", r"intra-operative", r"pre-operative", r"post-operative",
+        r"anatomy", r"anatomical", r"biomedical", r"neuroimaging", r"disease",
+        r"therapy", r"surgical", r"surgery", r"intervention", r"patient-specific",
+        r"histopathology", r"mammography", r"microscopy", r"radiology", r"diagnosis",
+        r"\bcell\b", r"\bbreast\b", r"histological", r"contrast-enhanced",
+    ],
+    "nat.": [
+        r"natural image", r"photograph", r"photographic", r"\bdslr\b", r"street view",
+        r"photorealistic", r"real-world image", r"rgb image",
+    ],
+    "rs.": [
+        r"remote sensing", r"satellite", r"aerial image", r"aerial view", r"\buav\b",
+        r"\bdrone\b", r"hyperspectral", r"multispectral", r"\bsar\b", r"insar",
+        r"geospatial", r"earth observation", r"orthorectification", r"photogrammetry",
+        r"geo-registration", r"georeferenced", r"geo-referenced", r"\bgis\b", r"\bgps\b",
+        r"\bgnss\b", r"cartography", r"surveying", r"terrain", r"land cover",
+        r"building extraction", r"change detection", r"topographic",
+    ],
+    "pc.": [
+        r"point cloud", r"pointcloud", r"point set", r"\blidar\b", r"rgb-d", r"depth map",
+        r"depth image", r"range image", r"range scan", r"3d scan", r"3d reconstruction",
+        r"\bslam\b", r"simultaneous localization and mapping", r"iterative closest point",
+        r"\bicp\b", r"3d registration", r"mesh registration", r"surface registration",
+        r"\bteaser\b", r"\bransac\b", r"point-based", r"point feature", r"3d match",
+        r"voxel", r"outlier rejection",
+    ],
+    "data.": [
+        r"\bdataset\b", r"\bbenchmark\b", r"evaluation protocol", r"\bchallenge\b",
+        r"\bcompetition\b", r"\bleaderboard\b", r"\bsurvey\b", r"\btaxonomy\b",
+        r"\breview\b", r"comprehensive study", r"systematic study",
+        r"training set", r"test set", r"validation set",
+    ],
+    "dep.": [
+        r"deep learning", r"neural network", r"convolutional neural network", r"\bcnn\b",
+        r"transformer", r"attention mechanism", r"self-attention", r"end-to-end",
+        r"learning-based", r"\blearned\b", r"network architecture", r"deep neural",
+        r"\bbackbone\b", r"encoder-decoder", r"generative adversarial network", r"\bgan\b",
+        r"diffusion model", r"large language model", r"\bllm\b", r"foundation model",
+        r"pre-trained", r"pretrained", r"fine-tuning", r"fine-tuned", r"supervised learning",
+        r"unsupervised learning", r"self-supervised", r"semi-supervised", r"reinforcement learning",
+        r"graph neural network", r"\bgnn\b", r"multilayer perceptron", r"\bmlp\b",
+        r"\bautoencoder\b", r"variational autoencoder", r"\bvae\b", r"u-net", r"resnet",
+        r"\bvit\b", r"\bbert\b", r"\bgpt\b", r"feature learning", r"representation learning",
+    ],
+    "oth.": [
+        # 保守策略：仅保留与 pc./medi. 不易重叠的明确子任务词汇
+        r"image matching", r"stereo matching", r"graph matching",
+        r"\bhomography\b", r"\bepipolar\b", r"fundamental matrix", r"essential matrix",
+        r"optical flow", r"optical-flow", r"scene flow", r"scene-flow",
+        r"\bstitching\b", r"\bstitch\b", r"\bpanorama\b", r"\bpanoramic\b",
+        r"\bmosaic\b", r"\bmosaicking\b", r"image composition", r"\bblending\b",
+        r"deformation field", r"displacement field", r"flow field",
+        r"spatial transformation", r"coordinate transformation",
+        r"similarity transformation", r"affine transformation", r"projective transformation",
+    ],
+}
+
+MEDICAL_VENUES = {
+    "MICCAI", "MIA", "TMI", "IPMI", "JBHI",
+    "Medical Image Analysis", "IEEE Trans. Medical Imaging",
+}
+
+TAG_ORDER = ["medi.", "nat.", "rs.", "pc.", "data.", "dep.", "oth."]
+
+
+def _compile_tag_rules():
+    """预编译标签正则规则以提高性能。"""
+    compiled = {}
+    for tag, patterns in TAG_RULES.items():
+        compiled[tag] = [re.compile(p, re.IGNORECASE) for p in patterns]
+    return compiled
+
+
+_COMPILED_TAG_RULES = _compile_tag_rules()
+
+
+def detect_paper_tags(paper):
+    """基于论文 title / abstract / venue 自动检测关键词标签。
+
+    返回按 TAG_ORDER 排序的 tag 列表（如 ['pc.', 'dep.']）。
+    """
+    text = f"{paper.get('title', '')} {paper.get('abstract', '')}"
+    text_lower = text.lower()
+    venue = str(paper.get("venue", "")).strip()
+
+    tags = []
+    for tag in TAG_ORDER:
+        matched = False
+        for pattern in _COMPILED_TAG_RULES.get(tag, []):
+            if pattern.search(text_lower):
+                matched = True
+                break
+        # medi. 的 venue 强信号兜底
+        if not matched and tag == "medi.":
+            if venue in MEDICAL_VENUES:
+                matched = True
+        if matched:
+            tags.append(tag)
+    return tags
+
+
+def detect_paper_tags_for_papers(papers, force=False):
+    """为论文列表批量检测并附加 tags 字段。
+
+    Args:
+        papers: 论文 dict 列表。
+        force: 是否强制重新检测，即使已有 tags 字段。
+
+    Returns:
+        传入的 papers 列表（原地修改，为每个 dict 添加/更新 tags 字段）。
+    """
+    changed = 0
+    skipped = 0
+    for paper in papers:
+        existing = paper.get("tags")
+        if existing is not None and not force:
+            skipped += 1
+            continue
+        tags = detect_paper_tags(paper)
+        paper["tags"] = tags
+        changed += 1
+    logger.info(f"Tag detection done. Changed: {changed}, Skipped: {skipped}")
+    return papers
+
+
+def format_paper_tags(tags):
+    """将 tag 列表格式化为 Markdown 字符串。
+
+    格式示例: [**`pc.`** **`data.`** ]
+    若 tags 为空则返回空字符串。
+    """
+    if not tags:
+        return ""
+    parts = [f"**`{tag}`**" for tag in tags]
+    return " [" + " ".join(parts) + " ]"
+
+
 def filter_items_by_secondary_keywords(items, secondary_keywords):
     """根据二次关键词对论文列表进行过滤。
 
@@ -315,17 +460,18 @@ def get_msg(items, topic, aggregated=False):
         for item in items:
             ee = item.get("ee", "")
             related_code = (item.get("related_code") or "").strip()
+            tags_str = format_paper_tags(item.get("tags") or [])
             if ee:
                 if related_code:
-                    msg += f"- {item['title']}. [[PUB]({ee})] [[CODE]({related_code})]\\n"
+                    msg += f"- {item['title']}. [[PUB]({ee})] [[CODE]({related_code})]{tags_str}\\n"
                 else:
                     # 格式：- title. [PUB](ee超链接)
-                    msg += f"- {item['title']}. [[PUB]({ee})]\\n"
+                    msg += f"- {item['title']}. [[PUB]({ee})]{tags_str}\\n"
             else:
                 if related_code:
-                    msg += f"- {item['title']}. [[CODE]({related_code})]\\n"
+                    msg += f"- {item['title']}. [[CODE]({related_code})]{tags_str}\\n"
                 else:
-                    msg += f"- {item['title']}.\\n"
+                    msg += f"- {item['title']}.{tags_str}\\n"
         msg += "\\n"
 
     msg = msg.replace("'", "")

@@ -21,6 +21,11 @@ Quick checklist when switching domains:
 import yaml
 from pathlib import Path
 from collections import defaultdict
+import sys
+
+# 引入 utils 中的标签格式化函数
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
+from utils import format_paper_tags
 
 
 def main():
@@ -261,18 +266,19 @@ def main():
                 title = paper.get("title", "").strip()
                 ee = paper.get("ee", "").strip()
                 related_code = (paper.get("related_code") or "").strip()
+                tags_str = format_paper_tags(paper.get("tags") or [])
                 # Avoid double periods if title already ends with a dot
                 suffix = "" if title.endswith(".") else "."
                 if ee:
                     if related_code:
-                        lines.append(f"- {title}{suffix} [[PUB]({ee})] [[CODE]({related_code})]")
+                        lines.append(f"- {title}{suffix} [[PUB]({ee})] [[CODE]({related_code})]{tags_str}")
                     else:
-                        lines.append(f"- {title}{suffix} [[PUB]({ee})]")
+                        lines.append(f"- {title}{suffix} [[PUB]({ee})]{tags_str}")
                 else:
                     if related_code:
-                        lines.append(f"- {title}{suffix} [[CODE]({related_code})]")
+                        lines.append(f"- {title}{suffix} [[CODE]({related_code})]{tags_str}")
                     else:
-                        lines.append(f"- {title}{suffix}")
+                        lines.append(f"- {title}{suffix}{tags_str}")
             lines.append("")
 
     # Write output
