@@ -8,6 +8,7 @@ from utils import (
     translate_abstracts_for_papers,
     filter_items_by_secondary_keywords,
     fetch_related_code_for_papers,
+    detect_paper_tags_for_papers,
 )
 import yaml
 import datetime
@@ -153,6 +154,10 @@ class Scaffold:
                 api_key = os.getenv("DASHSCOPE_API_KEY", "")
                 translate_abstracts_for_papers(new_items, api_key=api_key, sleep_sec=0.5, max_retries=3)
                 fetch_related_code_for_papers(new_items)
+                detect_paper_tags_for_papers(new_items)
+            elif new_items and all_years:
+                # all_years 模式下也至少做一次标签检测（abstract 可能为空，但 title/venue 仍可提供信号）
+                detect_paper_tags_for_papers(new_items)
 
             # 将新论文追加到缓存中（已保证无 ee/title 重复）
             dblp_cache[topic].extend(new_items)

@@ -13,9 +13,10 @@
 4. New papers (not yet in `cached/dblp.yaml`) are collected, formatted as Markdown, and written to the `GITHUB_ENV` variable `MSG`.
 5. `scripts/fetch_abstracts.py` backfills missing abstracts and Chinese translations for current-year papers.
 6. `scripts/fetch_related_code.py` scans all papers and extracts GitHub repository links from abstracts into the `related_code` field.
-7. `scripts/convert_cache_to_md.py` regenerates `IR-Papers.md` from the updated cache.
-8. If new papers exist, the action `JasonEtco/create-an-issue@v2` creates a GitHub Issue using `.github/issue-template.md`.
-9. Both `cached/dblp.yaml` and `IR-Papers.md` are committed back to the repo so that subsequent runs know what has already been reported.
+7. `scripts/fetch_tags.py` (or the inline call in `main.py`) detects keyword tags (`medi.`, `nat.`, `rs.`, `pc.`, `data.`, `dep.`, `oth.`) for each paper based on its title and abstract, storing them in the `tags` field.
+8. `scripts/convert_cache_to_md.py` regenerates `IR-Papers.md` from the updated cache.
+9. If new papers exist, the action `JasonEtco/create-an-issue@v2` creates a GitHub Issue using `.github/issue-template.md`.
+10. Both `cached/dblp.yaml` and `IR-Papers.md` are committed back to the repo so that subsequent runs know what has already been reported.
 
 ## Tech Stack
 
@@ -43,6 +44,7 @@
 │   ├── fetch_abstracts.py           # Backfill/refresh paper abstracts via external APIs
 │   ├── fetch_dois.py                # Backfill missing DOIs via DBLP / Crossref / Semantic Scholar
 │   ├── fetch_related_code.py        # Extract GitHub repo links from abstracts into related_code
+│   ├── fetch_tags.py                # Detect keyword tags for papers based on title/abstract
 │   ├── dedup_cache_by_title.py      # Deduplicate cache entries by title
 │   └── dedup_cache_global.py        # Global cross-topic deduplication for the cache
 ├── src/
@@ -74,9 +76,10 @@
 
 ### 3. Cache Format (`cached/dblp.yaml`)
 - Top-level keys: URL-encoded DBLP search topics (e.g., `registra%20venue%3ADAC%3A:`).
-- Each key maps to a list of paper dicts with fields: `author`, `title`, `venue`, `year`, `type`, `access`, `key`, `doi`, `ee`, `url`, `abstract`, `abstract_cn`, `related_code`.
+- Each key maps to a list of paper dicts with fields: `author`, `title`, `venue`, `year`, `type`, `access`, `key`, `doi`, `ee`, `url`, `abstract`, `abstract_cn`, `related_code`, `tags`.
   - `abstract`  may be empty for legacy entries; use `scripts/fetch_abstracts.py` to backfill it.
   - `related_code` stores the first GitHub repository URL found in the abstract (empty string if none).
+  - `tags` is a list of keyword labels such as `medi.`, `pc.`, `dep.`, etc. (empty list if none matched).
 - The file is overwritten after every successful run.
 - **Agent Note**: If you add new fields to the paper dict, ensure backward compatibility; old cache entries missing the new field should be handled gracefully.
 
@@ -90,6 +93,10 @@
   If `related_code` is present, a `[[CODE]({related_code})]` link is appended after `[[PUB]({ee})]` with a separating space:
   ```markdown
   - {title}. [[PUB]({ee})] [[CODE]({related_code})]
+  ```
+  If `tags` is non-empty, tag badges are appended after the links (or after the title if no links exist):
+  ```markdown
+  - {title}. [[PUB]({ee})] [[CODE]({related_code})] [**`pc.`** **`data.`** ]
   ```
 - `get_topic_short_name` extracts the venue short name (the segment after the last `/`, or the whole name if no `/`) from a topic URL. Used for the Issue title.
 - `format_title_topics` joins short names with `, ` and truncates to ≤80 characters, appending `等N个` when truncated.
@@ -178,6 +185,30 @@ dblp:
   python scripts/fetch_related_code.py --year 2025
   ```
 - **Automatic related code extraction**: `src/main.py` and `scripts/fetch_abstracts.py` already call `fetch_related_code_for_papers()` for every batch of papers that receive new abstracts, so newly discovered or backfilled papers get their `related_code` filled automatically.
+
+### Backfilling Tags for Existing Papers
+- A standalone script `scripts/fetch_tags.py` is provided to backfill or refresh `tags` fields for papers already in `cached/dblp.yaml`.
+- It scans the `title`, `abstract`, and `venue` fields of each paper using a set of conservative regex rules (`TAG_RULES` in `src/utils.py`) and stores the matched tags as a list of strings. No external API calls are made, so the process is fast.
+- The seven supported tags and their meanings are:
+  - `medi.` — medical image
+  - `nat.` — natural image
+  - `rs.` — remote sensing
+  - `pc.` — point cloud
+  - `data.` — dataset / benchmark / survey
+  - `dep.` — deep learning
+  - `oth.` — other (optical flow, scene flow, stitching, panorama, mosaic, homography, deformation field, etc.)
+- The cache is backed up to `cached/dblp.yaml.bak` before each overwrite; `*.bak` files are ignored by git (see `.gitignore`).
+- Usage:
+  ```bash
+  # Process all papers (default)
+  python scripts/fetch_tags.py
+  # Process only a specific year
+  python scripts/fetch_tags.py --year 2025
+  # Force re-detection even if tags already exist
+  python scripts/fetch_tags.py --force
+  ```
+- **Automatic tag detection**: `src/main.py` already calls `detect_paper_tags_for_papers()` for every batch of new papers after abstract fetching, so newly discovered papers get their `tags` filled automatically.
+- **Agent Note**: The built-in `TAG_RULES` uses a conservative strategy to minimize false positives. If you find certain tags are over- or under-applied, edit `TAG_RULES` in `src/utils.py` and re-run `scripts/fetch_tags.py --force`.
 
 ### Backfilling DOIs for Existing Papers
 - A standalone script `scripts/fetch_dois.py` is provided to backfill missing `doi` fields for papers already in `cached/dblp.yaml`.
