@@ -5,6 +5,7 @@
 Usage:
     python scripts/fetch_tags.py              # 处理全部论文
     python scripts/fetch_tags.py --year 2025  # 仅处理指定年份
+    python scripts/fetch_tags.py --force      # 强制重新检测已有 tags
 """
 
 import argparse
