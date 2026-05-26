@@ -1158,10 +1158,41 @@ def _fetch_dblp_doi(key: str, last_request_time: float, min_interval: float = 1.
     return None, None, last_request_time
 
 
+def _extract_doi_from_ee(ee: str) -> str:
+    """从 ee 字段的超链接中提取 DOI。
+
+    支持的 DOI 链接格式：
+      - https://doi.org/10.xxxx/...
+      - http://doi.org/10.xxxx/...
+      - https://dx.doi.org/10.xxxx/...
+      - http://dx.doi.org/10.xxxx/...
+
+    Args:
+        ee: 论文的 ee 字段值（超链接字符串）。
+
+    Returns:
+        提取到的 DOI 字符串；若 ee 不是 DOI 链接格式，则返回空字符串。
+    """
+    if not ee:
+        return ""
+    patterns = [
+        r"https?://doi\.org/(.+)",
+        r"https?://dx\.doi\.org/(.+)",
+    ]
+    for pattern in patterns:
+        match = re.match(pattern, ee.strip())
+        if match:
+            doi = match.group(1).strip()
+            if doi.startswith("10."):
+                return doi
+    return ""
+
+
 def fetch_doi_for_papers(papers, sleep_sec=2.0, max_retries=4, contact_email="", overwrite=False):
     """为论文列表批量获取 DOI（默认仅补充缺失 DOI 的条目）。
 
     查询优先级：
+      0. 从 ee 字段提取 DOI（零成本，优先尝试）
       1. DBLP API（通过论文 key 重新查询，最权威）
       2. Crossref 搜索 API（通过标题搜索）
       3. Semantic Scholar 搜索 API（通过标题搜索）
@@ -1202,8 +1233,15 @@ def fetch_doi_for_papers(papers, sleep_sec=2.0, max_retries=4, contact_email="",
         logger.info(f"[{i}/{len(papers)}] Fetching DOI: {title[:60]}...")
         doi = None
 
-        # 1. 优先 DBLP API（通过 key 重新查询，最权威）
-        if key:
+        # 0. 优先从 ee 字段提取 DOI（零成本）
+        ee = (paper.get("ee") or "").strip()
+        if ee:
+            doi = _extract_doi_from_ee(ee)
+            if doi:
+                logger.info(f"  -> Extracted DOI from ee: {doi}")
+
+        # 1. DBLP API（通过 key 重新查询，最权威）
+        if not doi and key:
             doi, api_title, last_request_time["dblp"] = _fetch_dblp_doi(
                 key, last_request_time["dblp"], min_interval=sleep_sec, max_retries=max_retries
             )

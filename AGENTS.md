@@ -42,7 +42,7 @@
 ├── scripts/
 │   ├── convert_cache_to_md.py       # Converts cache to structured Markdown (domain-specific maps)
 │   ├── fetch_abstracts.py           # Backfill/refresh paper abstracts via external APIs
-│   ├── fetch_dois.py                # Backfill missing DOIs via DBLP / Crossref / Semantic Scholar
+│   ├── fetch_dois.py                # Backfill missing DOIs via ee field / DBLP / Crossref / Semantic Scholar
 │   ├── fetch_related_code.py        # Extract GitHub repo links from abstracts into related_code
 │   ├── fetch_tags.py                # Detect keyword tags for papers based on title/abstract
 │   ├── dedup_cache_by_title.py      # Deduplicate cache entries by title
@@ -212,10 +212,11 @@ dblp:
 
 ### Backfilling DOIs for Existing Papers
 - A standalone script `scripts/fetch_dois.py` is provided to backfill missing `doi` fields for papers already in `cached/dblp.yaml`.
-- It queries APIs in the following priority order until a non-empty DOI is found:
-  1. **DBLP API** (primary) — re-queries the paper by its `key` (e.g. `conf/dac/ChandrasekaranE22`) to check whether a DOI has been assigned since the initial fetch. This is the most authoritative source.
-  2. **Crossref** (fallback) — searches by title via `api.crossref.org/works?query.title=...`.
-  3. **Semantic Scholar** (final fallback) — searches by title via `api.semanticscholar.org/graph/v1/paper/search`.
+- It obtains DOIs in the following priority order:
+  1. **Extract from `ee` field** (zero-cost) — if the `ee` hyperlink is a DOI URL (e.g. `https://doi.org/10.xxxx/...` or `https://dx.doi.org/10.xxxx/...`), the DOI is extracted directly without any external API call.
+  2. **DBLP API** (primary) — re-queries the paper by its `key` (e.g. `conf/dac/ChandrasekaranE22`) to check whether a DOI has been assigned since the initial fetch. This is the most authoritative source.
+  3. **Crossref** (fallback) — searches by title via `api.crossref.org/works?query.title=...`.
+  4. **Semantic Scholar** (final fallback) — searches by title via `api.semanticscholar.org/graph/v1/paper/search`.
 - All queries use rate limiting, timeout handling (10s + exponential backoff), and title fuzzy-matching verification (`is_title_match`) to avoid assigning an incorrect DOI.
 - The cache is backed up to `cached/dblp.yaml.bak` before each overwrite; `*.bak` files are ignored by git (see `.gitignore`).
 - Usage:
