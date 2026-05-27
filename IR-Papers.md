@@ -61,6 +61,7 @@
 
 ### TMI
 
+- Adaptive Conditional Contrast-Agnostic Deformable Image Registration With Uncertainty Estimation. [[PUB](https://doi.org/10.1109/TMI.2026.3652830)] [[CODE](https://github.com/Yinsong0510/AC-CAR)] [**`medi.`** **`dep.`** **`oth.`** ]
 - CASHNet: Context-Aware Semantics-Driven Hierarchical Network for Hybrid Diffeomorphic CT-CBCT Image Registration. [[PUB](https://doi.org/10.1109/TMI.2025.3607700)] [[CODE](https://github.com/xiaorugao999/CASHNet)] [**`medi.`** **`dep.`** ]
 - Efficient Large-Deformation Medical Image Registration via Recurrent Dynamic Correlation. [[PUB](https://doi.org/10.1109/TMI.2025.3630584)] [**`medi.`** **`pc.`** **`data.`** **`dep.`** **`oth.`** ]
 - MoE-Morph: Lightweight Pyramid Model With Heterogeneous Mixture of Experts for Deformable Medical Image Registration. [[PUB](https://doi.org/10.1109/TMI.2025.3620406)] [[CODE](https://github.com/Darlinglinlinlin/MOE_Morph)] [**`medi.`** **`dep.`** **`oth.`** ]
