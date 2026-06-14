@@ -921,7 +921,20 @@ def _batch_fetch_openreview_abstracts(forum_ids, min_interval: float = 0.5,
                 if resp.status_code == 429:
                     _sleep_for_retry("Rate limited (OpenReview batch)", attempt, response=resp)
                     continue
+                # 5xx：服务端瞬时故障，做退避重试，避免整批 ~100 条静默丢失
+                if 500 <= resp.status_code < 600:
+                    logger.warning(
+                        f"OpenReview batch HTTP {resp.status_code} (chunk {i}), attempt {attempt}"
+                    )
+                    if attempt < max_retries:
+                        _sleep_for_retry("OpenReview batch 5xx", attempt)
+                        continue
+                    break
+                # 非 429 的 4xx：客户端错误（如 400/404），重试无意义，直接放弃该 chunk
                 if resp.status_code != 200:
+                    logger.warning(
+                        f"OpenReview batch HTTP {resp.status_code} (chunk {i}), giving up this chunk"
+                    )
                     break
                 notes = resp.json().get("notes", []) or []
                 for note in notes:
@@ -1012,13 +1025,10 @@ def _prefill_openreview_abstracts(papers, min_interval: float = 0.5, chunk: int 
         if not abs_ or len(abs_) < 5:
             continue
         paper["abstract"] = abs_
-        # 适配 IR 项目：related_code 字段存储字符串（取首个 GitHub 链接）
-        if not (paper.get("related_code") or "").strip():
-            links = extract_github_links(abs_)
-            if links:
-                paper["related_code"] = links[0]
-                logger.info(f"  -> OpenReview prefill OK + code link: {fid}")
         filled += 1
+    # 注：related_code（GitHub 链接）抽取统一交给 fetch_related_code_for_papers
+    # 处理（src/main.py 与 scripts/fetch_abstracts.py 已在 abstract 抓取后调用它）；
+    # OpenReview-only 脚本需在本函数返回后自行调用一次，避免在此重复实现。
     logger.info(f"OpenReview prefill done: filled {filled}/{len(targets)} via api2.openreview.net")
     return filled, len(targets)
 
@@ -1041,11 +1051,24 @@ def fetch_abstract_for_papers(papers, sleep_sec=2.0, max_retries=4, contact_emai
         OpenAlex → arXiv 兜底链。
     """
     # 阶段 0：OpenReview 批量预填（ICLR/NeurIPS 等会议命中率最高）
+    # 主流程显式关闭单条兜底（enable_single_fallback=False）：
+    #   - 批量 v2 已覆盖绝大多数命中；
+    #   - 未命中的 forum 交给下游 Crossref → SS → OpenAlex → arXiv 链路统一处理，
+    #     避免在 OpenReview 端触发额外的单条限速。
+    # 内层 _batch_fetch_openreview_abstracts 已对 429/5xx/超时做退避并打印精确日志，
+    # 此处仅兜底捕获代码级异常（如 NameError/JSON 解析失败），并附带进度信息便于排查。
     try:
-        _prefill_openreview_abstracts(papers, min_interval=0.5, chunk=100, max_retries=3)
+        filled, attempted = _prefill_openreview_abstracts(
+            papers, min_interval=0.5, chunk=100, max_retries=3,
+            enable_single_fallback=False,
+        )
+        if attempted:
+            logger.info(f"OpenReview prefill summary: filled {filled}/{attempted}")
     except Exception as e:
-        # 预填失败不影响后续兜底流程
-        logger.warning(f"OpenReview prefill skipped due to error: {e}")
+        logger.warning(
+            f"OpenReview prefill skipped due to unexpected error: {e}; "
+            f"fallback chain (Crossref/SS/OpenAlex/arXiv) will still run."
+        )
 
     last_request_time = {
         "crossref": 0.0,

@@ -27,6 +27,7 @@ from loguru import logger  # noqa: E402
 
 from utils import (  # noqa: E402
     _prefill_openreview_abstracts,
+    fetch_related_code_for_papers,
     translate_abstracts_for_papers,
 )
 
@@ -99,7 +100,7 @@ def run(year: str = "all", retry_failed: bool = False,
     if cache_path.exists():
         shutil.copy2(cache_path, backup_path)
 
-    # 阶段 1：OpenReview 批量预填 + related_code 抽取（在 _prefill 内已完成）
+    # 阶段 1：OpenReview 批量预填（只填 abstract）
     try:
         filled, attempted = _prefill_openreview_abstracts(
             targets, min_interval=0.5, chunk=100, max_retries=3,
@@ -108,6 +109,12 @@ def run(year: str = "all", retry_failed: bool = False,
         logger.info(f"Prefill result: filled {filled}/{attempted}")
     except Exception as e:
         logger.warning(f"Prefill aborted by exception: {e}")
+
+    # 阶段 1.5：统一抽取 related_code（与 main.py / fetch_abstracts.py 行为一致）
+    try:
+        fetch_related_code_for_papers(targets)
+    except Exception as e:
+        logger.warning(f"related_code extraction aborted by exception: {e}")
 
     # 立即落盘一次（即便后续翻译失败也保住成果）
     save_yaml(cache_path, dblp_cache)
