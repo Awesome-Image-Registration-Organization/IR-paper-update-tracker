@@ -64,10 +64,13 @@
 ### TMI
 
 - Adaptive Conditional Contrast-Agnostic Deformable Image Registration With Uncertainty Estimation. [[PUB](https://doi.org/10.1109/TMI.2026.3652830)] [[CODE](https://github.com/Yinsong0510/AC-CAR)] [**`medi.`** **`dep.`** **`oth.`** ]
+- Biomechanics-Informed Non-Rigid Medical Image Registration With Elasticity Theories. [[PUB](https://doi.org/10.1109/TMI.2026.3665279)] [[CODE](https://github.com/ZheMin-1992/Registration_PINNs)] [**`medi.`** **`pc.`** **`dep.`** **`oth.`** ]
 - CASHNet: Context-Aware Semantics-Driven Hierarchical Network for Hybrid Diffeomorphic CT-CBCT Image Registration. [[PUB](https://doi.org/10.1109/TMI.2025.3607700)] [[CODE](https://github.com/xiaorugao999/CASHNet)] [**`medi.`** **`dep.`** ]
+- Dynamic Registration-Based Photoacoustic Endoscopic Temperature Imaging for Precision Interventional Thermal Therapy and Monitoring. [[PUB](https://doi.org/10.1109/TMI.2026.3668711)] [**`medi.`** ]
 - Efficient Large-Deformation Medical Image Registration via Recurrent Dynamic Correlation. [[PUB](https://doi.org/10.1109/TMI.2025.3630584)] [**`medi.`** **`pc.`** **`data.`** **`dep.`** **`oth.`** ]
 - MoE-Morph: Lightweight Pyramid Model With Heterogeneous Mixture of Experts for Deformable Medical Image Registration. [[PUB](https://doi.org/10.1109/TMI.2025.3620406)] [[CODE](https://github.com/Darlinglinlinlin/MOE_Morph)] [**`medi.`** **`dep.`** **`oth.`** ]
 - Overlap-Aware Online-Adaptive Non-Rigid Registration of Intraoperative Tissue in Minimally Invasive Surgery. [[PUB](https://doi.org/10.1109/TMI.2025.3620746)] [[CODE](https://github.com/AIGCer0807/OANRM)] [**`medi.`** ]
+- Temporal Conditioning for Longitudinal Brain MRI Registration and Aging Analysis. [[PUB](https://doi.org/10.1109/TMI.2026.3674458)] [**`medi.`** **`dep.`** **`oth.`** ]
 - Diff-Def: Diffusion-Generated Deformation Fields for Conditional Atlases. [[PUB](https://doi.org/10.1109/TMI.2025.3595421)] [**`medi.`** **`dep.`** **`oth.`** ]
 
 ### JBHI
