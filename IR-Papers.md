@@ -107,6 +107,14 @@
 - Object-level Geometric Structure Preserving for Natural Image Stitching. [[PUB](https://doi.org/10.1609/aaai.v39i2.32188)] [**`nat.`** **`rs.`** **`data.`** **`oth.`** ]
 - Stitch, Contrast, and Segment: Learning a Human Action Segmentation Model Using Trimmed Skeleton Videos. [[PUB](https://doi.org/10.1609/aaai.v39i7.32792)] [**`data.`** **`dep.`** **`oth.`** ]
 
+### NeurIPS
+
+- Unsupervised Trajectory Optimization for 3D Registration in Serial Section Electron Microscopy using Neural ODEs. [[PUB](http://papers.nips.cc/paper_files/paper/2025/hash/b9ecf4d84999a61783c360c3782e801e-Abstract-Conference.html)] [**`medi.`** **`pc.`** ]
+- Depth-Supervised Fusion Network for Seamless-Free Image Stitching. [[PUB](http://papers.nips.cc/paper_files/paper/2025/hash/bcf5b917751e92c941d03512ae75dd03-Abstract-Conference.html)] [**`oth.`** ]
+- ICPC-Eval: Probing the Frontiers of LLM Reasoning with Competitive Programming Contests. [[PUB](http://papers.nips.cc/paper_files/paper/2025/hash/fbcd803d44439b49fc76b250208d8e1f-Abstract-Datasets_and_Benchmarks_Track.html)] [**`dep.`** ]
+- Implicit-ARAP: Efficient Handle-Guided Neural Field Deformation via Local Patch Meshing. [[PUB](http://papers.nips.cc/paper_files/paper/2025/hash/b4c5bb69e44575cb70c8245b6e816b78-Abstract-Conference.html)]
+- Taming generative video models for zero-shot optical flow extraction. [[PUB](http://papers.nips.cc/paper_files/paper/2025/hash/bcc97a47e54a9bec240cf5e5aadfd8fb-Abstract-Conference.html)] [**`oth.`** ]
+
 ### ICML
 
 - Generative Point Cloud Registration. [[PUB](https://proceedings.mlr.press/v267/jiang25k.html)] [**`pc.`** ]
