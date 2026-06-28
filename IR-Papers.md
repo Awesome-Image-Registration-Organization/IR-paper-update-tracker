@@ -75,6 +75,7 @@
 
 ### JBHI
 
+- Deformable Medical Image Registration With Effective Anatomical Structure Representation and Divide-and-Conquer Network. [[PUB](https://doi.org/10.1109/JBHI.2025.3639819)] [**`medi.`** **`pc.`** **`dep.`** **`oth.`** ]
 - Resolving the Ambiguity of Complete-to-Partial Point Cloud Registration for Image-Guided Liver Surgery With Patches-to-Partial Matching. [[PUB](https://doi.org/10.1109/JBHI.2025.3583875)] [[CODE](https://github.com/zixinyang9109/P2P)] [**`medi.`** **`pc.`** **`data.`** **`dep.`** ]
 - Medical Image Privacy in Federated Learning: Segmentation-Reorganization and Sparsified Gradient Matching Attacks. [[PUB](https://doi.org/10.1109/JBHI.2025.3593631)] [**`medi.`** ]
 
