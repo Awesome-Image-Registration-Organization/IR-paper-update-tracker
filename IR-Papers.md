@@ -41,6 +41,7 @@
 ### MIA
 
 - ARDMR: Adaptive recursive inference and representation disentanglement for multimodal large deformation registration. [[PUB](https://doi.org/10.1016/j.media.2025.103844)] [[CODE](https://github.com/ybby2020/ARDMR_MIA)] [**`medi.`** **`pc.`** **`data.`** **`dep.`** **`oth.`** ]
+- Beyond the LUMIR challenge: The pathway to foundational registration models. [[PUB](https://doi.org/10.1016/j.media.2026.104175)] [**`medi.`** **`data.`** **`dep.`** **`oth.`** ]
 - BIASNet: A bidirectional feature alignment and semantics-guided network for weakly-supervised medical image registration. [[PUB](https://doi.org/10.1016/j.media.2025.103913)] [[CODE](https://github.com/xiehousheng/BIASNet)] [**`medi.`** **`dep.`** **`oth.`** ]
 - BundleWarp: Enhancing white matter tractometry and morphometry with precise neuronal mapping using streamline-based nonlinear registration. [[PUB](https://doi.org/10.1016/j.media.2026.104114)] [**`medi.`** **`pc.`** **`oth.`** ]
 - Calibration-free 3D-2D surface registration for image guided intervention. [[PUB](https://doi.org/10.1016/j.media.2026.104092)] [**`medi.`** **`pc.`** ]
@@ -51,12 +52,15 @@
 - Learning dual-scale context with overlap awareness for keypoint-driven partial-overlap medical image registration. [[PUB](https://doi.org/10.1016/j.media.2026.104100)] [**`medi.`** ]
 - ModeTv2: GPU-accelerated motion decomposition transformer for pairwise optimization in medical image registration. [[PUB](https://doi.org/10.1016/j.media.2025.103862)] [**`medi.`** **`data.`** **`dep.`** **`oth.`** ]
 - NeuralBoneReg: An instance-specific label-free point cloud-based method for multi-modal bone surface registration. [[PUB](https://doi.org/10.1016/j.media.2026.104133)] [**`medi.`** **`pc.`** **`data.`** **`dep.`** ]
+- PIVOTS: Aligning unseen structures using preoperative to intraoperative volume-to-surface registration for liver navigation. [[PUB](https://doi.org/10.1016/j.media.2026.104139)] [**`medi.`** **`pc.`** **`data.`** **`dep.`** ]
 - Robust non-rigid image-to-patient registration for contactless dynamic thoracic tumor localization using recursive deformable diffusion models. [[PUB](https://doi.org/10.1016/j.media.2026.103948)] [**`medi.`** **`pc.`** **`data.`** **`dep.`** **`oth.`** ]
 - Spatio-temporal registration of multi-perspective 3D echocardiography for improved strain estimation. [[PUB](https://doi.org/10.1016/j.media.2025.103791)] [**`medi.`** ]
+- Two-stage robust 3D CTA-2D DSA alignment via vascular-aware rigid and pyramid-based hierarchical non-rigid registration. [[PUB](https://doi.org/10.1016/j.media.2026.104150)] [**`medi.`** **`dep.`** ]
 - Unsupervised learning of spatially varying regularization for diffeomorphic image registration. [[PUB](https://doi.org/10.1016/j.media.2025.103887)] [**`dep.`** ]
 - Unsupervised multimodal surface registration with geometric deep learning. [[PUB](https://doi.org/10.1016/j.media.2025.103821)] [[CODE](https://github.com/mohamedasuliman/GeoMorph)] [**`pc.`** **`dep.`** ]
 - UTMorph: A hybrid CNN-transformer network for weakly-supervised multimodal image registration in biopsy puncture. [[PUB](https://doi.org/10.1016/j.media.2026.103938)] [[CODE](https://github.com/Prps7/UTMorph)] [**`medi.`** **`data.`** **`dep.`** ]
 - Vision foundation model for 3D magnetic resonance imaging segmentation, classification, and registration. [[PUB](https://doi.org/10.1016/j.media.2026.103992)] [**`medi.`** **`data.`** **`dep.`** ]
+- FlowLet: Conditional 3D brain MRI synthesis using wavelet flow matching. [[PUB](https://doi.org/10.1016/j.media.2026.104161)] [**`medi.`** **`dep.`** ]
 - GAGM: Geometry-aware graph matching framework for weakly supervised gyral hinge correspondence. [[PUB](https://doi.org/10.1016/j.media.2025.103820)] [[CODE](https://github.com/ZhibinHe/GAGM)] [**`medi.`** **`oth.`** ]
 - Iterative learning for joint image denoising and motion artifact correction of 3D brain MRI. [[PUB](https://doi.org/10.1016/j.media.2025.103872)] [**`medi.`** **`data.`** **`dep.`** ]
 - OphMatcher: Uncertainty-aware self-training on ophthalmic surgical videos for anatomy-constrained matching and intraoprative navigation. [[PUB](https://doi.org/10.1016/j.media.2026.104057)] [**`medi.`** ]
