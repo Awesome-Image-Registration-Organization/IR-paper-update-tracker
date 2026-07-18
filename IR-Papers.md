@@ -32,6 +32,10 @@
 - Learning Efficient Meshflow and Optical Flow From Event Cameras. [[PUB](https://doi.org/10.1109/TPAMI.2025.3615144)] [**`data.`** **`dep.`** **`oth.`** ]
 - Spike Camera Optical Flow Estimation Based on Continuous Spike Streams. [[PUB](https://doi.org/10.1109/TPAMI.2025.3649050)] [**`oth.`** ]
 
+### S&P
+
+- Scalable Registration-Based Encryption from Lattices. [[PUB](https://doi.org/10.1109/SP63933.2026.00199)]
+
 ### IJCV
 
 - CylindFormer: Image-to-Point Cloud Registration with Cylindrical Transformer. [[PUB](https://doi.org/10.1007/s11263-026-02747-w)] [**`pc.`** **`dep.`** ]
