@@ -93,6 +93,7 @@
 - Deformable Medical Image Registration With Effective Anatomical Structure Representation and Divide-and-Conquer Network. [[PUB](https://doi.org/10.1109/JBHI.2025.3639819)] [**`medi.`** **`pc.`** **`dep.`** **`oth.`** ]
 - Diffusion Tensor Magnetic Resonance Image Registration Based on Parallel Dual-Channel VoxelMorph. [[PUB](https://doi.org/10.1109/JBHI.2025.3644884)] [**`medi.`** **`pc.`** **`dep.`** **`oth.`** ]
 - GuidedMorph: Two-Stage Deformable Registration for Breast MRI. [[PUB](https://doi.org/10.1109/JBHI.2025.3647349)] [**`medi.`** **`pc.`** **`data.`** **`dep.`** ]
+- LADDA: Latent Diffusion-Based Domain-Adaptive Feature Disentangling for Unsupervised Multi-Modal Medical Image Registration. [[PUB](https://doi.org/10.1109/JBHI.2025.3588511)] [**`medi.`** **`dep.`** ]
 - Resolving the Ambiguity of Complete-to-Partial Point Cloud Registration for Image-Guided Liver Surgery With Patches-to-Partial Matching. [[PUB](https://doi.org/10.1109/JBHI.2025.3583875)] [[CODE](https://github.com/zixinyang9109/P2P)] [**`medi.`** **`pc.`** **`data.`** **`dep.`** ]
 - Medical Image Privacy in Federated Learning: Segmentation-Reorganization and Sparsified Gradient Matching Attacks. [[PUB](https://doi.org/10.1109/JBHI.2025.3593631)] [**`medi.`** ]
 

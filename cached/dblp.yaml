@@ -87956,6 +87956,46 @@ registra%20streamid%3Ajournals%2Ftitb%3A:
   - data.
   - dep.
   - oth.
+- author: Peng Yuan, Jianmin Dong 0003, Wei Zhao, Fei Lyu 0004, Cheng Xue 0003, Yudong
+    Zhang 0001, Chunfeng Yang, Zhan Wu, Zhiqiang Gao, Tianling Lyu, Jean-Louis Coatrieux,
+    Yang Chen 0008
+  title: 'LADDA: Latent Diffusion-Based Domain-Adaptive Feature Disentangling for
+    Unsupervised Multi-Modal Medical Image Registration.'
+  venue: IEEE J. Biomed. Health Informatics
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/titb/YuanDZLXZYWGLCC26
+  doi: 10.1109/JBHI.2025.3588511
+  ee: https://doi.org/10.1109/JBHI.2025.3588511
+  url: https://dblp.org/rec/journals/titb/YuanDZLXZYWGLCC26
+  abstract: Deformable image registration (DIR) is critical for accurate clinical
+    diagnosis and effective treatment planning. However, patient movement, significant
+    intensity differences, and large breathing deformations hinder accurate anatomical
+    alignment in multi-modal image registration. These factors exacerbate the entanglement
+    of anatomical and modality-specific style information, thereby severely limiting
+    the performance of multi-modal registration. To address this, we propose a novel
+    LAtent Diffusion-based Domain-Adaptive feature disentangling (LADDA) framework
+    for unsupervised multi-modal medical image registration, which explicitly addresses
+    the representation disentanglement. First, LADDA extracts reliable anatomical
+    priors from the Latent Diffusion Model (LDM), facilitating downstream content–style
+    disentangled learning. A Domain-Adaptive Feature Disentangling (DAFD) module is
+    proposed to promote anatomical structure alignment further. This module disentangles
+    image features into content and style information, boosting the network to focus
+    on cross-modal content information. Next, a Neighborhood-Preserving Hashing (NPH)
+    is constructed to further perceive and integrate hierarchical content information
+    through local neighbourhood encoding, thereby maintaining cross-modal structural
+    consistency. Furthermore, a Unilateral-Query-Frozen Attention (UQFA) module is
+    proposed to enhance the coupling between upstream prior and downstream content
+    information. The feature interaction within intra-domain consistent structures
+    improves the fine recovery of detailed textures. The proposed framework is extensively
+    evaluated on large-scale multi-center datasets, demonstrating superior performance
+    across diverse clinical scenarios and strong generalization on out-of-distribution
+    (OOD) data.
+  related_code: ''
+  tags:
+  - medi.
+  - dep.
 image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20match%20streamid%3Ajournals%2Ftmi%3A:
 - author: Wei Yang 0006, Liming Zhong, Yang Chen 0008, Liyan Lin, Zhentai Lu, Shupeng
     Liu, Yao Wu, Qianjin Feng 0003, Wufan Chen
