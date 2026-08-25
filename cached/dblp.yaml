@@ -41343,6 +41343,123 @@ registra%20venue%3AMedical_Image_Anal.%3A:
   tags:
   - medi.
   - dep.
+- author: Tiago Assis, Colin Galvin, Joshua Pardillo Castillo, Nazim Haouchine, Marta
+    Kersten-Oertel, Zeyu Gao 0001, Mireia Crispin-Ortuzar, Stephen J. Price, Thomas
+    Santarius, Yangming Ou, Sarah F. Frisken, Nuno C. Garcia, Alexandra J. Golby,
+    Reuben Dorent, Inês Prata Machado
+  title: Data-driven registration and modeling of brain deformation for image-guided
+    neurosurgery.
+  venue: Medical Image Anal.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/mia/AssisGCHKGCPSOFGGDM26
+  doi: 10.1016/J.MEDIA.2026.104217
+  ee: https://doi.org/10.1016/j.media.2026.104217
+  url: https://dblp.org/rec/journals/mia/AssisGCHKGCPSOFGGDM26
+  abstract: Accurate compensation of brain deformation is critical for reliable image-guided
+    neurosurgery. Surgical manipulation and tumor resection induce tissue motion,
+    causing preoperative planning images to become misaligned with the intraoperative
+    anatomy. In this review, we examine data-driven methods developed between 2020
+    and 2025 for brain deformation registration and modeling, with a particular focus
+    on learning-based approaches. A comprehensive literature search was conducted
+    in PubMed, IEEE Xplore, Scopus, and Web of Science using predefined inclusion
+    and exclusion criteria for computational methods addressing brain deformation
+    in neurosurgical imaging, resulting in 46 eligible studies. We provide a unified
+    analysis of methodological strategies, including deep learning-based image registration,
+    direct deformation field regression, synthesis-driven multimodal alignment, resection-aware
+    architectures for handling missing correspondences, and hybrid models integrating
+    biomechanical priors. We also examine dataset utilization, evaluation metrics,
+    validation protocols, and the assessment of uncertainty and generalization across
+    studies. While learning-based methods demonstrate promising accuracy and computational
+    efficiency, current approaches remain limited by out-of-distribution robustness,
+    standardized benchmarking, interpretability, and readiness for clinical deployment.
+    Our review highlights these gaps and outlines future directions toward more robust,
+    generalizable, and clinically translatable solutions for neurosurgical guidance.
+    By organizing recent advances and critically assessing evaluation practices, this
+    work provides a comprehensive reference for researchers and clinicians working
+    on data-driven registration and modeling of brain deformation.
+  related_code: ''
+  tags:
+  - medi.
+  - data.
+  - dep.
+  - oth.
+- author: Xia Li, Jihe Li, Weijie Wang, Xiang Liu, Jiquan Yuan, Xixin Cao, Joachim
+    M. Buhmann, Jianqi Sun
+  title: 'Contrastive Discrepancy: A label-free metric for deformable image registration
+    supporting testing-time hyperparameter selection.'
+  venue: Medical Image Anal.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/mia/LiLWLYCBS26
+  doi: 10.1016/J.MEDIA.2026.104210
+  ee: https://doi.org/10.1016/j.media.2026.104210
+  url: https://dblp.org/rec/journals/mia/LiLWLYCBS26
+  abstract: 'Deformable image registration (DIR) proves critical to many medical image
+    analysis tasks, yet its reliable evaluation is fundamentally challenged by the
+    absence of ground-truth deformations. Existing label-based metrics require costly
+    manual annotations, while current label-free alternatives often fail to capture
+    anatomical correspondence. To address this dilemma, we introduce Contrastive Discrepancy
+    (CD), a novel label-free metric for robust evaluation and automatic hyperparameter
+    tuning without requiring manual annotations in DIR. Grounded in bias-variance
+    trade-off theory and group equivariance, CD quantifies model performance by measuring
+    the discrepancy between deformation vector fields (DVFs) produced when registering
+    a fixed image with different observations of the moving image sampled from the
+    same anatomical orbit under a transformation group, such as an affine group. This
+    approach penalizes both underfitting models, which exhibit high bias, and overfitting
+    models, which are sensitive to unstructured perturbations and thus have high variance.
+    Through extensive experiments across three DIR model families and two public datasets,
+    we demonstrate that CD''s performance curve consistently mirrors that of the gold-standard
+    Target Registration Error (TRE) and substantially outperforms existing label-free
+    metrics. Crucially, the validated reliability of CD unlocks its most significant
+    application: fully automatic, testing-time hyperparameter selection. This hyperparameter
+    learning enables DIR models to be dynamically optimized for individual patient
+    data without any labeling cost. By offering a practical pathway to automated model
+    tuning, Contrastive Discrepancy bridges the gap between advanced DIR methodologies
+    and their precise, personalized application in clinical workflows.'
+  related_code: ''
+  tags:
+  - medi.
+- author: Sarah Kaye Mueller, Sven Koehler, Jonathan Kiekenap, Gerald Greil, Tarique
+    Hussain, Samir Sarikouch, Florian André, Norbert Frey, Sandy Engelhardt
+  title: Deformable image registration for self-supervised cardiac phase detection
+    in cardiac magnetic resonance images of patients with various diseases.
+  venue: Medical Image Anal.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/mia/MuellerKKGHSAFE26
+  doi: 10.1016/J.MEDIA.2026.104142
+  ee: https://doi.org/10.1016/j.media.2026.104142
+  url: https://dblp.org/rec/journals/mia/MuellerKKGHSAFE26
+  abstract: 'Cardiovascular magnetic resonance (CMR) is widely used to assess cardiac
+    function, but individual cardiac cycles complicate automatic temporal comparison
+    and sub-phase analysis. Accurate cardiac keyframe detection can eliminate this
+    problem. However, automatic methods solely derive end-systole (ES) and end-diastole
+    (ED) frames from left ventricular volume curves, which do not provide a deeper
+    insight into myocardial motion. We propose a self-supervised deep learning method
+    detecting five keyframes in short-axis (SAX) and four-chamber (4CH) cine CMR.
+    Initially, dense deformable registration fields are derived from CMR to compute
+    a 1D motion descriptor encoding global cardiac contraction and relaxation patterns.
+    Keyframes are derived from these characteristic curves with a set of rules. The
+    method was independently evaluated for both views using four databases encompassing
+    multiple centre, vendor and disease. M&Ms-2 (n=360) was used for training and
+    evaluation; M&Ms (n=345) and ACDC (n=100) for repeatability control. Generalisability
+    to patients with rare congenital heart defects was tested using the German Competence
+    Network (GCN) database. A disease-stratified analysis confirmed stable performance
+    across cardiomyopathies and congenital abnormalities. Our method improved detection
+    accuracy by 49%/59% for SAX and 31%/39% for 4CH in ED/ES over the volume-based
+    approach, with mean cyclic frame difference (cFD) below 1.3 and 1.2 frames for
+    SAX and 4CH respectively. Our framework enables temporally aligned inter- and
+    intra-patient analysis of cardiac dynamics, irrespective of cycle or phase lengths
+    for aligned strain analysis or temporal normalisation. Code and annotations are
+    available at: https://github.com/Cardio-AI/cmr-multi-view-phase-detection.git.'
+  related_code: https://github.com/Cardio-AI/cmr-multi-view-phase-detection.git
+  tags:
+  - medi.
+  - dep.
 image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20match%20venue%3AIJCAI%3A:
 - author: Harry G. Barrow, Jay M. Tenenbaum, Robert C. Bolles, Helen C. Wolf
   title: 'Parametric Correspondence and Chamfer Matching: Two New Techniques for Image
