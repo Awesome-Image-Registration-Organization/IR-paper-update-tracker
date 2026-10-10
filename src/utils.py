@@ -536,7 +536,7 @@ _ANUBIS_META_REFRESH_RE = re.compile(
 # 后续所有 dblp.org 请求复用；cookie 过期后再次遇到挑战页时自动重新求解。
 _DBLP_SESSION = requests.Session()
 _DBLP_SESSION.headers.update({
-    "User-Agent": "IR-paper-update-tracker/1.0 (research bot; mailto:{})",
+    "User-Agent": "IR-paper-update-tracker/1.0 (research bot)",
 })
 _DBLP_CONTACT_EMAIL = ""
 
@@ -1525,7 +1525,7 @@ def _fetch_semantic_scholar_doi(title: str, last_request_time: float, min_interv
     return None, None, last_request_time
 
 
-def _fetch_dblp_doi(key: str, last_request_time: float, min_interval: float = 1.0, max_retries: int = 3):
+def _fetch_dblp_doi(key: str, last_request_time: float, min_interval: float = 1.0, max_retries: int = 3, contact_email: str = ""):
     """通过 DBLP XML API 用论文 key 重新查询 DOI，返回 (doi_or_None, api_title_or_None, last_request_time)。
 
     DBLP 的搜索 API 有时无法按 key 精确命中，因此直接请求单条记录的 XML 端点
@@ -1543,7 +1543,7 @@ def _fetch_dblp_doi(key: str, last_request_time: float, min_interval: float = 1.
             wait = max(0.0, min_interval - (now - last_request_time))
             if wait > 0:
                 time.sleep(wait + random.uniform(0.0, 0.2))
-            resp, _ = _dblp_get(url, timeout=10)
+            resp, _ = _dblp_get(url, timeout=10, contact_email=contact_email)
             last_request_time = time.time()
             if resp.status_code in (404, 403):
                 return None, None, last_request_time
@@ -1551,6 +1551,10 @@ def _fetch_dblp_doi(key: str, last_request_time: float, min_interval: float = 1.
                 _sleep_for_retry("Rate limited (DBLP)", attempt, response=resp)
                 continue
             resp.raise_for_status()
+            if _is_anubis_challenge(resp):
+                # Anubis 挑战求解失败（难度过高等），重试无意义，快速失败
+                logger.warning(f"DBLP returned unsolved Anubis challenge page for key '{key}', giving up")
+                return None, None, last_request_time
             root = ET.fromstring(resp.content)
             # DBLP XML root is <dblp>, first child is the record element
             record = root.find(".")
@@ -1678,7 +1682,8 @@ def fetch_doi_for_papers(papers, sleep_sec=2.0, max_retries=4, contact_email="",
         # 1. DBLP API（通过 key 重新查询，最权威）
         if not doi and key:
             doi, api_title, last_request_time["dblp"] = _fetch_dblp_doi(
-                key, last_request_time["dblp"], min_interval=sleep_sec, max_retries=max_retries
+                key, last_request_time["dblp"], min_interval=sleep_sec, max_retries=max_retries,
+                contact_email=contact_email
             )
             if doi and api_title and not is_title_match(api_title, title):
                 logger.warning(
