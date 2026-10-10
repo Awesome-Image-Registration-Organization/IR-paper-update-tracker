@@ -14,6 +14,7 @@ import yaml
 import datetime
 import urllib.parse
 import os
+import sys
 from pathlib import Path
 
 # 本地开发时从 .env 加载环境变量
@@ -73,6 +74,8 @@ class Scaffold:
         msg = ""
         flag = False
         active_topics = []  # 收集本次有新增论文的 topic 简称
+        consecutive_failures = 0  # 连续请求失败计数，用于熔断
+        MAX_CONSECUTIVE_FAILURES = 5  # 连续失败达到该次数则终止本轮扫描
 
         logger.info(f"keywords: {keywords}, queries: {queries}, primary_only: {primary_only}")
 
@@ -90,15 +93,27 @@ class Scaffold:
 
         def _process_topic(keyword: str, query: str) -> int:
             """处理单个 keyword + query 组合，返回新论文数量。"""
-            nonlocal aggregated_msg, msg, flag
+            nonlocal aggregated_msg, msg, flag, consecutive_failures
             encoded_keyword = urllib.parse.quote(keyword, safe='')
             topic = f"{encoded_keyword}%20{urllib.parse.quote(query, safe='')}"
             # random sleep to avoid being blocked
-            dblp_data = request_data(dblp_url.format(topic))
+            dblp_data = request_data(dblp_url.format(topic), contact_email=contact_email)
 
             if dblp_data is None:
-                logger.error(f"dblp_data is None, topic: {topic}")
+                consecutive_failures += 1
+                logger.error(
+                    f"dblp_data is None, topic: {topic} "
+                    f"(consecutive failures: {consecutive_failures}/{MAX_CONSECUTIVE_FAILURES})"
+                )
+                if consecutive_failures >= MAX_CONSECUTIVE_FAILURES:
+                    logger.critical(
+                        f"DBLP requests failed {consecutive_failures} times in a row; "
+                        "aborting this run early to avoid burning the CI time limit. "
+                        "Check whether the upstream API or anti-bot policy has changed."
+                    )
+                    sys.exit(1)
                 return 0
+            consecutive_failures = 0
 
             # 解析 DBLP 返回的原始数据，提取需要的字段
             items = get_dblp_items(dblp_data)
