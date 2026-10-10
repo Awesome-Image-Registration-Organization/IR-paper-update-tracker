@@ -9,9 +9,14 @@ on:
 
 permissions: write-all
 
+concurrency:
+  group: dblp-watch
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     env:
       TZ: "Asia/Shanghai"
       RUN_ENV: "prod" # within ['prod', 'dev']
