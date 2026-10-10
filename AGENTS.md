@@ -302,9 +302,14 @@ You can inspect `aggregated_msg` and `msg` in the logs to preview the issue cont
 ## Common Pitfalls
 
 1. **Rate Limiting**: DBLP does not publish explicit rate limits. The code uses a conservative base interval (`6 + random(0.5, 2.5)` seconds for search requests) plus stricter exponential backoff with jitter and Retry-After support when requests fail or are rate-limited. Do not weaken this behavior.
-2. **YAML Encoding**: `cached/dblp.yaml` is written with `allow_unicode=True`. Editing it manually with an editor that strips Unicode may corrupt author names.
-3. **Empty `ee` Field**: Some older DBLP entries lack an `ee`. The deduplication logic skips empty `ee` values, so those papers are always retained. This is intentional to avoid data loss.
-4. **Topic String Parsing**: `get_topic_short_name` relies on `split(":")[-2]` followed by `split("/")[-1]`. If DBLP changes its topic URL format, this will break.
+2. **Anubis Anti-Bot Challenge**: DBLP (dblp.org and its mirrors) sits behind [Anubis](https://github.com/TecharoHQ/anubis), which returns an HTTP 200 HTML challenge page ("Making sure you're not a bot!") instead of JSON for clients without a valid auth cookie. All DBLP requests must go through `_dblp_get()` in `src/utils.py`, which auto-solves the challenge (`metarefresh` = timed wait; `fast`/`slow` = SHA-256 PoW with `difficulty` leading-zero hex chars) and stores the resulting auth JWT cookie (~1h validity) in the shared `_DBLP_SESSION`; expired cookies trigger a transparent re-solve. Key conventions:
+   - Keep the polite custom User-Agent (`IR-paper-update-tracker/1.0 (research bot; mailto:...)`); curl-like or browser UAs may be assigned a much harder challenge (e.g. PoW difficulty 16, which is computationally infeasible).
+   - PoW difficulty is capped at `ANUBIS_MAX_POW_DIFFICULTY` (6); higher difficulties abort fast instead of hanging.
+   - A 200 response with non-JSON content-type is treated as a hard failure (no long retry loop).
+   - `src/main.py` aborts the whole run after 5 consecutive failed topics (circuit breaker) so an upstream policy change fails the CI job within minutes instead of hitting the 6-hour GitHub Actions limit.
+3. **YAML Encoding**: `cached/dblp.yaml` is written with `allow_unicode=True`. Editing it manually with an editor that strips Unicode may corrupt author names.
+4. **Empty `ee` Field**: Some older DBLP entries lack an `ee`. The deduplication logic skips empty `ee` values, so those papers are always retained. This is intentional to avoid data loss.
+5. **Topic String Parsing**: `get_topic_short_name` relies on `split(":")[-2]` followed by `split("/")[-1]`. If DBLP changes its topic URL format, this will break.
 
 ## Contact & References
 
