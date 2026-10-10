@@ -9,9 +9,14 @@ on:
 
 permissions: write-all
 
+concurrency:
+  group: dblp-watch
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 180
     env:
       TZ: "Asia/Shanghai"
       RUN_ENV: "prod" # within ['prod', 'dev']
@@ -68,7 +73,7 @@ jobs:
           content="${content//'%'/'%25'}"
           content="${content//$'\n'/'%0A'}"
           content="${content//$'\r'/'%0D'}"
-          echo "::set-output name=content::$content"
+          echo "content=$content" >> "$GITHUB_OUTPUT"
       # ============================================
       # TODO [√] 更新仓库数据
       # ============================================
