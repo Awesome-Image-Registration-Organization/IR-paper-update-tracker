@@ -2308,6 +2308,82 @@ registra%20venue%3AICLR%3A:
   tags:
   - pc.
   - dep.
+- author: S. Mazdak Abulnaga, Andrew Hoopes, Malte Hoffmann, Robin Magnet, Maks Ovsjanikov,
+    Lilla Zöllei, John V. Guttag, Bruce Fischl, Adrian V. Dalca
+  title: Unified Brain Surface and Volume Registration.
+  venue: ICLR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iclr/AbulnagaHHMOZGF26
+  doi: ''
+  ee: https://proceedings.iclr.cc/paper_files/paper/2026/hash/d64740dd69bcc90ba225a182984b81ba-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/iclr/AbulnagaHHMOZGF26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+- author: Rohit Jena, Vedant Zope, Pratik Chaudhari, James C. Gee
+  title: A Scalable Distributed Framework for Multimodal GigaVoxel Image Registration.
+  venue: ICLR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iclr/JenaZCG26
+  doi: ''
+  ee: https://proceedings.iclr.cc/paper_files/paper/2026/hash/c242f2b7f60d8c685b6481939330e241-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/iclr/JenaZCG26
+  abstract: In this work, we propose FFDP, a set of IO-aware non-GEMM fused kernels
+    supplemented with a distributed framework for image registration at unprecedented
+    scales. Image registration is an inverse problem fundamental to biomedical and
+    life sciences, but algorithms have not scaled in tandem with image acquisition
+    capabilities. Our framework complements existing model parallelism techniques
+    proposed for large-scale transformer training by optimizing non-GEMM bottlenecks
+    and enabling convolution-aware tensor sharding. We demonstrate unprecedented capabilities
+    by performing multimodal registration of a 100 micron ex-vivo human brain MRI
+    volume at native resolution - an inverse problem more than 570x larger than a
+    standard clinical datum in about a minute using only 8 A6000 GPUs. FFDP accelerates
+    existing state-of-the-art optimization and deep learning registration pipelines
+    by upto 6 - 7x while reducing peak memory consumption by 20 - 59%. Comparative
+    analysis on a 250 micron dataset shows that FFDP can fit upto 64x larger problems
+    than existing SOTA on a single GPU, and highlights both the performance and efficiency
+    gains of FFDP compared to SOTA image registration methods.
+  related_code: ''
+  tags:
+  - medi.
+  - pc.
+  - data.
+  - dep.
+- author: Siyuan Jiang, Yihan Hu 0006, Wenjie Li, Pengcheng Zeng
+  title: 'DeepFRC: An End-to-End Deep Learning Model for Functional Registration and
+    Classification.'
+  venue: ICLR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iclr/JiangHLZ26
+  doi: ''
+  ee: https://proceedings.iclr.cc/paper_files/paper/2026/hash/204810b414d4971c4bfccf7eb3422ecc-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/iclr/JiangHLZ26
+  abstract: ''
+  related_code: ''
+  tags:
+  - dep.
+- author: Xinjun Li, Wenfei Yang, Zhixin Cheng, Jiacheng Deng 0002, Fei Wang 0032,
+    Chen Qian, Tianzhu Zhang 0001
+  title: 'RayI2P: Learning Rays for Image-to-Point Cloud Registration.'
+  venue: ICLR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iclr/LiYCDWQZ26
+  doi: ''
+  ee: https://proceedings.iclr.cc/paper_files/paper/2026/hash/49f42aafbcce59b2665640cb9f3d794f-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/iclr/LiYCDWQZ26
+  abstract: ''
+  related_code: ''
+  tags:
+  - pc.
 registra%20venue%3ACOLT%3A: []
 registra%20venue%3AUAI%3A: []
 registra%20streamid%3Ajournals%2Fml%3A: []
@@ -5952,6 +6028,45 @@ registra%20streamid%3Ajournals%2Fpami%3A:
   related_code: ''
   tags:
   - rs.
+- author: Juncheng Mu, Siqi Li 0001, Yining Zhao, Yue Gao 0002
+  title: 'ColorPCR++: Unleash the Power of Color for Point Cloud Registration Using
+    Hypergraph Computation.'
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/MuLZG26
+  doi: 10.1109/TPAMI.2026.3694889
+  ee: https://doi.org/10.1109/TPAMI.2026.3694889
+  url: https://dblp.org/rec/journals/pami/MuLZG26
+  abstract: Point cloud registration (PCR) has been an important research subject
+    for many years but remains an open problem, presenting numerous challenges. The
+    stability of existing registration methods is often inadequate, particularly in
+    scenarios with low overlap. This issue primarily arises from the insufficient
+    distinctiveness of extracted point cloud features, leading to ambiguous matches
+    and the proliferation of outliers. To address these bottlenecks in point cloud
+    registration, it is crucial to fully leverage the color information of the point
+    clouds to discern point correspondences effectively. However, excessive reliance
+    on color information during the registration process may impede the recognition
+    of point cloud geometric structures, making it essential to find a balance between
+    the aggressiveness and stability of color integration. To tackle these challenges,
+    we propose ColorPCR++, which unlocks the potential of color information while
+    maintaining stability. Specifically, we design a Curvature-Color Fusion Module
+    (CCF) to initially introduce color, which leverages curvature to enhance geometric
+    features and balance color stability. Additionally, to further incorporate color
+    into scene structure representation, we model the point-wise hue gradient field
+    (HGF) for positional embedding, which proves especially effective in low-overlap
+    scenarios. CCF and HGF fully harness the power of color, enabling the identification
+    of most corresponding point pairs with prominent geometric and color features.
+    However, the reliance on color can also introduce false correspondences, reducing
+    the inlier ratio within the correspondences obtained through feature matching.
+    Therefore, we assess the higher-order compatibility of correspondences using Feature-based
+    Compatibility Hypergraph Convolution (FCH), effectively filtering out outliers
+    and accurately estimating the transformation. Evaluation across multiple datasets
+    has demonstrated the state-of-the-art performance of ColorPCR++.
+  related_code: ''
+  tags:
+  - pc.
 registra%20venue%3AKDD%3A:
 - author: Thomas Daniels 0002, Maarten Bosteels, Pieter Robberechts, Jesse Davis
   title: 'RegCheck: A Real-Time Approach for Flagging Potentially Malicious Domain
@@ -6183,6 +6298,41 @@ registra%20venue%3AKDD%3A:
     formalism, with fast inference via a stochastic variational Bayesian analysis.
   related_code: ''
   tags: []
+- author: Marcel Meyer, Sascha Kaltenpoth, Henrik Albers, Kevin Zalipski, Oliver Müller
+    0001
+  title: TS-Arena - A Live Forecast Pre-Registration Platform.
+  venue: KDD
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/kdd/MeyerKAZM26
+  doi: 10.1145/3770855.3817515
+  ee: https://doi.org/10.1145/3770855.3817515
+  url: https://dblp.org/rec/conf/kdd/MeyerKAZM26
+  abstract: 'Time Series Foundation Models (TSFMs) are transforming the field of forecasting.
+    However, evaluating them on historical data is increasingly difficult due to the
+    risks of train-test sample overlaps and temporal overlaps between correlated train
+    and test time series. To address this, we introduce TS-Arena, a live forecasting
+    platform that shifts evaluation from the known past to the unknown future. Building
+    on the concept of continuous benchmarking, TS-Arena evaluates models on future
+    data. Crucially, we introduce a strict forecasting pre-registration protocol:
+    models must submit predictions before the ground-truth data physically exists.
+    This makes test-set contamination impossible by design. The platform relies on
+    a modular microservice architecture that harmonizes and structures data from different
+    sources and orchestrates containerized model submissions. By enforcing a strict
+    pre-registration protocol on live data streams, TS-Arena prevents information
+    leakage and offers a faster alternative to traditional static, infrequently repeated
+    competitions (e.g., the M-Competitions). First empirical results derived from
+    operating TS-Arena over one year of energy time series demonstrate that established
+    TSFMs accumulate robust longitudinal scores over time, while the continuous nature
+    of the benchmark simultaneously allows newcomers to demonstrate immediate competitiveness.
+    TS-Arena provides the necessary infrastructure to assess the true generalization
+    capabilities of modern forecasting models. The platform and corresponding code
+    are available at https://ts-arena.live/.'
+  related_code: ''
+  tags:
+  - data.
+  - dep.
 registra%20venue%3AWSDM%3A: []
 registra%20streamid%3Aconf%2Fsp%3A:
 - author: Thomas Vissers, Peter Janssen, Wouter Joosen, Lieven Desmet
@@ -12907,6 +13057,488 @@ registra%20venue%3ACVPR%3A:
   related_code: ''
   tags:
   - pc.
+- author: Roy Amoyal, Oren Freifeld, Chaim Baskin
+  title: Cross-Instance Gaussian Splatting Registration via Geometry-Aware Feature-Guided
+    Alignment.
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/AmoyalFB26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Amoyal_Cross-Instance_Gaussian_Splatting_Registration_via_Geometry-Aware_Feature-Guided_Alignment_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/AmoyalFB26
+  abstract: 'We present Gaussian Splatting Alignment (GSA), a novel method for aligning
+    two independent 3D Gaussian Splatting (3DGS) models via a similarity transformation
+    (rotation, translation, and scale), even when they are of different objects in
+    the same category (e.g., different cars). In contrast, existing methods can only
+    align 3DGS models of the same object (e.g., the same car) and often must be given
+    true scale as input, while we estimate it successfully. GSA leverages viewpoint-guided
+    spherical map features to obtain robust correspondences and introduces a two-step
+    optimization framework that aligns 3DGS models while keeping them fixed. First,
+    we apply an iterative feature-guided absolute orientation solver as our coarse
+    registration, which is robust to poor initialization (e.g., 180 degrees misalignment
+    or a 10x scale gap). Next, we use a fine registration step that enforces multi-view
+    feature consistency, inspired by inverse radiance-field formulations. The first
+    step already achieves state-of-the-art performance, and the second further improves
+    results. In the same-object case, GSA outperforms prior works, often by a large
+    margin, even when the other methods are given the true scale. In the harder case
+    of different objects in the same category, GSA vastly surpasses them, providing
+    the first effective solution for category-level 3DGS registration and unlocking
+    new applications. Project webpage: https://bgu-cs-vil.github.io/GSA-project/'
+  related_code: ''
+  tags:
+  - oth.
+- author: Pei An, Junfeng Ding, Jiaqi Yang 0002, Yulong Wang 0002, Jie Ma 0003, Liangliang
+    Nan
+  title: 'Hg-I2P: Bridging Modalities for Generalizable Image-to-Point-Cloud Registration
+    via Heterogeneous Graphs.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/AnDYWMN26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/An_Hg-I2P_Bridging_Modalities_for_Generalizable_Image-to-Point-Cloud_Registration_via_Heterogeneous_Graphs_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/AnDYWMN26
+  abstract: Image-to-point-cloud (I2P) registration aims to align 2D images with 3D
+    point clouds by establishing reliable 2D-3D correspondences. The drastic modality
+    gap between images and point clouds makes it challenging to learn features that
+    are both discriminative and generalizable, leading to severe performance drops
+    in unseen scenarios. We address this challenge by introducing a heterogeneous
+    graph that enables refining both cross-modal features and correspondences within
+    a unified architecture. The proposed graph represents a mapping between segmented
+    2D and 3D regions, which enhances cross-modal feature interaction and thus improves
+    feature discriminability. In addition, modeling the consistency among vertices
+    and edges within the graph enables pruning of unreliable correspondences. Building
+    on these insights, we propose a heterogeneous graph embedded I2P registration
+    method, termed Hg-I2P. It learns a heterogeneous graph by mining multi-path feature
+    relationships, adapts features under the guidance of heterogeneous edges, and
+    prunes correspondences using graph-based projection consistency. Experiments on
+    six indoor and outdoor benchmarks under cross-domain setups demonstrate that Hg-I2P
+    significantly outperforms existing methods in both generalization and accuracy.
+    Code is released on https://github.com/anpei96/hg-i2p-demo.
+  related_code: https://github.com/anpei96/hg-i2p-demo
+  tags:
+  - pc.
+  - data.
+- author: Shaochen Bi, Yuting He, Weiming Wang, Hao Chen 0011
+  title: Dynamic Stream Network for Combinatorial Explosion Problem in Deformable
+    Medical Image Registration.
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/BiHWC26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Bi_Dynamic_Stream_Network_for_Combinatorial_Explosion_Problem_in_Deformable_Medical_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/BiHWC26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+- author: Congcong Bian, Haolong Ma, Hui Li 0037, Zhongwei Shen 0001, Xiaoqing Luo,
+    Xiaoning Song, Xiao-jun Wu 0001
+  title: 'FusionRegister: Every Infrared and Visible Image Fusion Deserves Registration.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/BianMLSLSW26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Bian_FusionRegister_Every_Infrared_and_Visible_Image_Fusion_Deserves_Registration_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/BianMLSLSW26
+  abstract: ''
+  related_code: ''
+  tags: []
+- author: Zhixin Cheng, Bohao Liao, Jiacheng Deng 0002, Xiaotian Yin, Xinjun Li, Yujia
+    Chen, Baoqun Yin, Tianzhu Zhang 0001
+  title: 'Rethinking 2D-3D Registration: A Novel Network for High-Value Zone Selection
+    and Representation Consistency Alignment.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/ChengLDYLCYZ26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Cheng_Rethinking_2D-3D_Registration_A_Novel_Network_for_High-Value_Zone_Selection_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/ChengLDYLCYZ26
+  abstract: ''
+  related_code: ''
+  tags:
+  - pc.
+- author: Xiaoya Cheng, Long Wang, Yan Liu, Xinyi Liu, Hanlin Tan, Yu Liu, Maojun
+    Zhang, Shen Yan 0002
+  title: 'PiLoT: Neural Pixel-to-3D Registration for UAV-based Ego and Target Geo-localization.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/ChengWLLTLZY26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Cheng_PiLoT_Neural_Pixel-to-3D_Registration_for_UAV-based_Ego_and_Target_Geo-localization_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/ChengWLLTLZY26
+  abstract: 'We present PiLoT, a unified framework that tackles UAV-based ego and
+    target geo-localization. Conventional approaches rely on decoupled pipelines that
+    fuse GNSS and Visual-Inertial Odometry (VIO) for ego-pose estimation, and active
+    sensors like laser rangefinders for target localization. However, these methods
+    are susceptible to failure in GNSS-denied environments and incur substantial hardware
+    costs and complexity. PiLoT breaks this paradigm by directly registering live
+    video stream against a geo-referenced 3D map. To achieve robust, accurate, and
+    real-time performance, we introduce three key contributions: 1) a Dual-Thread
+    Engine that decouples map rendering from core localization thread, ensuring both
+    low latency while maintaining drift-free accuracy; 2) a large-scale synthetic
+    dataset with precise geometric annotations (camera pose, depth maps). This dataset
+    enables the training of a lightweight network that generalizes in a zero-shot
+    manner from simulation to real data; and 3) a Joint Neural-Guided Stochastic-Gradient
+    Optimizer (JNGO) that achieves robust convergence even under aggressive motion.
+    Evaluations on a comprehensive set of public and newly collected benchmarks show
+    that PiLoT outperforms state-of-the-art methods while running over 25 FPS on NVIDIA
+    Jetson Orin platform. Our code and dataset is available at: https://github.com/Choyaa/PiLoT.'
+  related_code: https://github.com/Choyaa/PiLoT
+  tags:
+  - rs.
+  - pc.
+  - data.
+- author: Panagiotis Paraskevas Filntisis, George Retsinas, Radek Danecek, Vanessa
+    Sklyarova, Petros Maragos, Timo Bolkart
+  title: Registration-Free Learnable Multi-View Capture of Faces in Dense Semantic
+    Correspondence.
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/FilntisisRDSMB26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Filntisis_Registration-Free_Learnable_Multi-View_Capture_of_Faces_in_Dense_Semantic_Correspondence_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/FilntisisRDSMB26
+  abstract: 'Recent frameworks like ToFu and TEMPEH provide an automated alternative
+    to classical registration pipelines by predicting 3D meshes in dense semantic
+    correspondence directly from calibrated multi-view images. However, these learning-based
+    methods rely on the slow, manual registration pipelines they aim to replace for
+    their training supervision. We overcome this limitation with MOCHI (Multi-view
+    Optimizable Correspondence of Heads from Images), a multi-view 3D face prediction
+    framework trained without requiring registered training data. MOCHI eliminates
+    the registration data dependency by enforcing topological consistency through
+    a pseudo-linear inverse kinematic solver. Semantic alignment is guided by dense
+    keypoints from a 2D landmark predictor trained exclusively on synthetic data.
+    Our analysis further reveals that standard point-to-surface distances induce training
+    instabilities and visual artifacts in registration-free settings. We propose pointmap-
+    and normal-based losses instead, which provide smoother gradients and superior
+    reconstruction fidelity. Finally, we introduce a test-time optimization scheme
+    that refines network weights over a few dozen iterations. This approach bridges
+    the gap between feed-forward efficiency and iterative optimization precision,
+    allowing MOCHI to outperform traditional labor-intensive pipelines in both reconstruction
+    accuracy and visual quality. Code and model are public at: https://filby89.github.io/mochi.'
+  related_code: ''
+  tags:
+  - dep.
+- author: Sheldon Fung, Wei Pan 0010, Ling Cao, Fei Hou 0001, Ling Chen, Shasha Mao,
+    Hongdong Li, Xuequan Lu
+  title: 'SuP: Sub-cloud Driven Point Cloud Registration.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/FungPCHCMLL26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Fung_SuP_Sub-cloud_Driven_Point_Cloud_Registration_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/FungPCHCMLL26
+  abstract: ''
+  related_code: ''
+  tags:
+  - pc.
+- author: Yuval Haitman, Amit Efraim, Joseph M. Francos
+  title: 'C-GenReg: Training-Free 3D Point Cloud Registration by Multi-View-Consistent
+    Geometry-to-Image Generation with Probabilistic Modalities Fusion.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/HaitmanEF26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Haitman_C-GenReg_Training-Free_3D_Point_Cloud_Registration_by_Multi-View-Consistent_Geometry-to-Image_Generation_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/HaitmanEF26
+  abstract: 'We introduce C-GenReg, a training-free framework for 3D point cloud registration
+    that leverages the complementary strengths of world-scale generative priors and
+    registration-oriented Vision Foundation Models (VFMs). Current learning-based
+    3D point cloud registration methods struggle to generalize across sensing modalities,
+    sampling differences, and environments. Hence, C-GenReg augments the geometric
+    point cloud registration branch by transferring the matching problem into an auxiliary
+    image domain, where VFMs excel, using a World Foundation Model to synthesize multi-view-consistent
+    RGB representations from the input geometry. This generative transfer, preserves
+    spatial coherence across source and target views without any fine-tuning. From
+    these generated views, a VFM pretrained for finding dense correspondences extracts
+    matches. The resulting pixel correspondences are lifted back to 3D via the original
+    depth maps. To further enhance robustness, we introduce a "Match-then-Fuse" probabilistic
+    cold-fusion scheme that combines two independent correspondence posteriors, that
+    of the generated-RGB branch with that of the raw geometric branch. This principled
+    fusion preserves each modality inductive bias and provides calibrated confidence
+    without any additional learning. C-GenReg is zero-shot and plug-and-play: all
+    modules are pretrained and operate without fine-tuning. Extensive experiments
+    on indoor (3DMatch, ScanNet) and outdoor (Waymo) benchmarks demonstrate strong
+    zero-shot performance and superior cross-domain generalization. For the first
+    time, we demonstrate a generative registration framework that operates successfully
+    on real outdoor LiDAR data, where no imagery data is available.'
+  related_code: ''
+  tags:
+  - pc.
+  - dep.
+- author: Haobo Jiang, Jin Xie 0001, Jian Yang 0003, Liang Yu 0005, Jianmin Zheng
+  title: 'FUSER: Feed-Forward Multiview 3D Registration Transformer and SE(3)$N$ Diffusion
+    Refinement.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/JiangXYYZ26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_FUSER_Feed-Forward_Multiview_3D_Registration_Transformer_and_SE3N_Diffusion_Refinement_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/JiangXYYZ26
+  abstract: Registration of multiview point clouds conventionally relies on extensive
+    pairwise matching to build a pose graph for global synchronization, which is computationally
+    expensive and inherently ill-posed without holistic geometric constraints. This
+    paper proposes FUSER, the first feed-forward multiview registration transformer
+    that jointly processes all scans in a unified, compact latent space to directly
+    predict global poses without any pairwise estimation. To maintain tractability,
+    FUSER encodes each scan into low-resolution superpoint features via a sparse 3D
+    CNN that preserves absolute translation cues, and performs efficient intra- and
+    inter-scan reasoning through a Geometric Alternating Attention module. Particularly,
+    we transfer 2D attention priors from off-the-shelf foundation models to enhance
+    3D feature interaction and geometric consistency. Building upon FUSER, we further
+    introduce FUSER-DF, an SE(3)$^N$ diffusion refinement framework to correct FUSER's
+    estimates via denoising in the joint SE(3)$^N$ space. FUSER acts as a surrogate
+    multiview registration model to construct the denoiser, and a prior-conditioned
+    SE(3)$^N$ variational lower bound is derived for denoising supervision. Extensive
+    experiments on 3DMatch, ScanNet and ArkitScenes demonstrate that our approach
+    achieves the superior registration accuracy and outstanding computational efficiency.
+  related_code: ''
+  tags:
+  - pc.
+  - dep.
+- author: Haobo Jiang, Liang Yu 0005, Jianmin Zheng
+  title: 'GM-R2: Generative Matching Learning for Unsupervised Geometric Representation
+    and Registration.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/JiangYZ26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_GM-R2_Generative_Matching_Learning_for_Unsupervised_Geometric_Representation_and_Registration_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/JiangYZ26
+  abstract: ''
+  related_code: ''
+  tags: []
+- author: Jiayi Li, Yuxin Yao 0001, Qiuhang Lu, Juyong Zhang
+  title: 'DualReg: Dual-Space Filtering and Reinforcement for Rigid Registration.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/LiYLZ26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Li_DualReg_Dual-Space_Filtering_and_Reinforcement_for_Rigid_Registration_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/LiYLZ26
+  abstract: ''
+  related_code: ''
+  tags: []
+- author: Xuecong Liu, Mengzhu Ding, Zixuan Sun, Zhang Li, Xichao Teng
+  title: 'CRFT: Consistent-Recurrent Feature Flow Transformer for Cross-Modal Image
+    Registration.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/LiuDSLT26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Liu_CRFT_Consistent-Recurrent_Feature_Flow_Transformer_for_Cross-Modal_Image_Registration_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/LiuDSLT26
+  abstract: We present Consistent-Recurrent Feature Flow Transformer (CRFT), a unified
+    coarse-to-fine framework based on feature flow learning for robust cross-modal
+    image registration. CRFT learns a modality-independent feature flow representation
+    within a transformer-based architecture that jointly performs feature alignment
+    and flow estimation. The coarse stage establishes global correspondences through
+    multi-scale feature correlation, while the fine stage refines local details via
+    hierarchical feature fusion and adaptive spatial reasoning. To enhance geometric
+    adaptability, an iterative discrepancy-guided attention mechanism with a Spatial
+    Geometric Transform (SGT) recurrently refines the flow field, progressively capturing
+    subtle spatial inconsistencies and enforcing feature-level consistency. This design
+    enables accurate alignment under large affine and scale variations while maintaining
+    structural coherence across modalities. Extensive experiments on diverse cross-modal
+    datasets demonstrate that CRFT consistently outperforms state-of-the-art registration
+    methods in both accuracy and robustness. Beyond registration, CRFT provides a
+    generalizable paradigm for multimodal spatial correspondence, offering broad applicability
+    to remote sensing, autonomous navigation, and medical imaging. Code and datasets
+    are publicly available at https://github.com/NEU-Liuxuecong/CRFT.
+  related_code: https://github.com/NEU-Liuxuecong/CRFT
+  tags:
+  - medi.
+  - rs.
+  - dep.
+  - oth.
+- author: Mohammadjavad Matinkia, Nilanjan Ray
+  title: Learning Diffeomorphism for Medical Image Registration with Time-Embedded
+    Architectures Using Semigroup Regularization.
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/MatinkiaR26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Matinkia_Learning_Diffeomorphism_for_Medical_Image_Registration_with_Time-Embedded_Architectures_Using_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/MatinkiaR26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+- author: Malte Prinzler, Paulo F. U. Gotardo, Siyu Tang 0001, Timo Bolkart
+  title: Feed-forward Gaussian Registration for Head Avatar Creation and Editing.
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/PrinzlerGTB26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Prinzler_Feed-forward_Gaussian_Registration_for_Head_Avatar_Creation_and_Editing_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/PrinzlerGTB26
+  abstract: We present MATCH (Multi-view Avatars from Topologically Corresponding
+    Heads), a multi-view Gaussian registration method for high-quality head avatar
+    creation and editing. State-of-the-art multi-view head avatar methods require
+    time-consuming head tracking followed by expensive avatar optimization, often
+    resulting in a total creation time of more than one day. MATCH, in contrast, directly
+    predicts Gaussian splat textures in correspondence from calibrated multi-view
+    images in just 0.5 seconds per frame, without requiring data preprocessing. The
+    learned intra-subject correspondence across frames enables fast creation of personalized
+    head avatars, while correspondence across subjects supports applications such
+    as expression transfer, optimization-free tracking, semantic editing, and identity
+    interpolation. We establish these correspondences end-to-end using a transformer-based
+    model that predicts Gaussian splat textures in the fixed UV layout of a template
+    mesh. To achieve this, we introduce a novel registration-guided attention block,
+    where each UV-map token attends exclusively to image tokens depicting its corresponding
+    mesh region. This design improves efficiency and performance compared to dense
+    cross-view attention. MATCH outperforms existing methods in novel-view synthesis,
+    geometry registration, and head avatar generation, while making avatar creation
+    10 times faster than the closest competing baseline. The code and model weights
+    are available on the project website.
+  related_code: ''
+  tags:
+  - dep.
+- author: Yue Wu 0004, Feng Xiao, Yongzhe Yuan, Hao Li 0009, Kaiyuan Feng, Maoguo
+    Gong, Qiguang Miao, Wenping Ma 0001
+  title: 'MHopReg: Efficient Hierarchical Multi-Hop Graph Search for Point Cloud Registration.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/WuXYLFGMM26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Wu_MHopReg_Efficient_Hierarchical_Multi-Hop_Graph_Search_for_Point_Cloud_Registration_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/WuXYLFGMM26
+  abstract: ''
+  related_code: ''
+  tags:
+  - pc.
+- author: Ray Zhang 0005, Marcus Greiff, Thomas Lew, John K. Subosits
+  title: 'Generalized-CVO: Fast and Correspondence-Free Local Point Cloud Registration
+    with Second Order Riemannian Optimization.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/ZhangGLS26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Generalized-CVO_Fast_and_Correspondence-Free_Local_Point_Cloud_Registration_with_Second_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/ZhangGLS26
+  abstract: We propose a fast and correspondence-free local point cloud registration
+    method that leverages geometric surface structure and reproducing kernel Hilbert
+    space (RKHS) embeddings. The method represents point clouds as continuous functions
+    with point-wise anisotropic kernels that encode local geometry. This formulation
+    improves alignment along surface normals while relaxing alignment along tangential
+    directions. To solve the resulting registration problem, we propose a second-order
+    on-manifold optimization scheme with approximate Riemannian Hessians, achieving
+    a speedup of up to 10x over the first-order solvers used in prior correspondence-free
+    RKHS-based methods. We demonstrate improved frame-to-frame LiDAR and RGB-D tracking
+    accuracy across diverse indoor and outdoor datasets. On a LiDAR tracking registration
+    task in the driving domain, we achieve a reduction of $>55\%$ in both translational
+    and rotational drift in challenging feature-sparse environments. On object registration
+    benchmarks, we show improved robustness over ICP-based methods and further gains
+    when refining global initialization, particularly under moderate misalignment.
+  related_code: ''
+  tags:
+  - pc.
+- author: Runxun Zhang, Yizhou Liu, Dongrui Li, Bo Xu, Jingwei Wei
+  title: 'MorphSeek: Fine-grained Latent Representation-Level Policy Optimization
+    for Deformable Image Registration.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/ZhangLLXW26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_MorphSeek_Fine-grained_Latent_Representation-Level_Policy_Optimization_for_Deformable_Image_Registration_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/ZhangLLXW26
+  abstract: Deformable image registration (DIR) remains a fundamental yet challenging
+    problem in medical image analysis, largely due to the prohibitively high-dimensional
+    deformation space of dense displacement fields and the scarcity of voxel-level
+    supervision. Existing reinforcement learning frameworks often project this space
+    into coarse, low-dimensional representations, limiting their ability to capture
+    spatially variant deformations. We propose MorphSeek, a fine-grained representation-level
+    policy optimization paradigm that reformulates DIR as a spatially continuous optimization
+    process in the latent feature space. MorphSeek introduces a stochastic Gaussian
+    policy head atop the encoder to model a distribution over latent features, facilitating
+    efficient exploration and coarse-to-fine refinement. The framework integrates
+    unsupervised warm-up with weakly supervised fine-tuning through Group Relative
+    Policy Optimization, where multi-trajectory sampling stabilizes training and improves
+    label efficiency. Across three 3D registration benchmarks (OASIS brain MRI, LiTS
+    liver CT, and Abdomen MR-CT), MorphSeek achieves consistent Dice improvements
+    over competitive baselines while maintaining high label efficiency with minimal
+    parameter cost and low step-level latency overhead. Beyond optimizer specifics,
+    MorphSeek advances a representation-level policy learning paradigm that achieves
+    spatially coherent and data-efficient deformation optimization, offering a principled,
+    backbone-agnostic, and optimizer-agnostic solution for scalable visual alignment
+    in high-dimensional settings.
+  related_code: ''
+  tags:
+  - medi.
+  - pc.
+  - dep.
+  - oth.
+- author: Chunlei Zhang, Jiahao Xia 0001, Yun Xiao, Bo Jiang, Jian Zhang 0002
+  title: 'Disentangle-then-Align: Non-Iterative Hybrid Multimodal Image Registration
+    via Cross-Scale Feature Disentanglement.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/ZhangXXJZ26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Disentangle-then-Align_Non-Iterative_Hybrid_Multimodal_Image_Registration_via_Cross-Scale_Feature_Disentanglement_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/ZhangXXJZ26
+  abstract: Multimodal image registration is a fundamental task and a prerequisite
+    for downstream cross-modal analysis. Despite recent progress in shared feature
+    extraction and multi-scale architectures, two key limitations remain. First, some
+    methods use disentanglement to learn shared features but mainly regularize the
+    shared part, allowing modality-private cues to leak into the shared space. Second,
+    most multi-scale frameworks support only a single transformation type, limiting
+    their applicability when global misalignment and local deformation coexist. To
+    address these issues, we formulate hybrid multimodal registration as jointly learning
+    a stable shared feature space and a unified hybrid transformation. Based on this
+    view, we propose HRNet, a Hybrid Registration Network that couples representation
+    disentanglement with hybrid parameter prediction. A shared backbone with Modality-Specific
+    Batch Normalization (MSBN) extracts multi-scale features, while a Cross-scale
+    Disentanglement and Adaptive Projection (CDAP) module suppresses modality-private
+    cues and projects shared features into a stable subspace for matching. Built on
+    this shared space, a Hybrid Parameter Prediction Module (HPPM) performs non-iterative
+    coarse-to-fine estimation of global rigid parameters and deformation fields, which
+    are fused into a coherent deformation field. Extensive experiments on four multimodal
+    datasets demonstrate state-of-the-art performance on rigid and non-rigid registration
+    tasks. The code is available at the project website.
+  related_code: ''
+  tags:
+  - medi.
+  - dep.
+  - oth.
 registra%20venue%3AICCV%3A:
 - author: Yu Chen, Gim Hee Lee
   title: 'DReg-NeRF: Deep Registration for Neural Radiance Fields.'
@@ -17735,6 +18367,309 @@ registra%20venue%3AECCV%3A:
   related_code: ''
   tags:
   - medi.
+- author: Pei An, Muyao Peng, Junfeng Ding, Jiaqi Yang 0002, Liangliang Nan
+  title: 'Ex-Sim(3)-Reg: 2D-3D Correspondence Pruning via Extended Sim(3) Registration.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/AnPDYN26
+  doi: 10.1007/978-3-032-37261-1_33
+  ee: https://doi.org/10.1007/978-3-032-37261-1_33
+  url: https://dblp.org/rec/conf/eccv/AnPDYN26
+  abstract: Learning-based image-to-point-cloud (I2P) registration has garnered increasing
+    attention in recent years. Nevertheless, existing methods still struggle with
+    severe outliers under challenging scenarios with unseen, low-inlier, or distorted
+    cases. A fast and robust 2D-3D correspondence pruning method is therefore highly
+    desirable. Recently, a promising scheme lifts 2D-3D correspondences to 3D-3D correspondences
+    using depth priors, casting correspondence pruning as a Sim(3) registration problem.
+    However, depth priors estimated from monocular images are inherently noisy, which
+    undermines the reliability of this scheme. In this paper, to explicitly model
+    non-negligible depth noise, we reformulate correspondence pruning as an extended
+    Sim(3) registration problem and propose a simple yet effective pruning algorithm
+    termed Ex-Sim(3)-Reg. We further provide a theoretical analysis to justify the
+    effectiveness of our method. Extensive experiments on the 7-Scenes, RGBD-V2, ScanNet,
+    and TUM datasets demonstrate that Ex-Sim(3)-Reg achieves up to \textbf{24.7\%
+    improvement} in registration recall over state-of-the-art baseline methods. Code
+    is released at github.com/anpei96/ex-sim3-demo
+  related_code: ''
+  tags:
+  - dep.
+- author: Pei An, Jiaqi Yang 0002, Yulong Wang 0002, Siwen Quan, Liangliang Nan
+  title: 'OCA: ODE-Driven Cross-Attention for Image-to-Point-Cloud Registration.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/AnYWQN26
+  doi: 10.1007/978-3-032-37718-0_16
+  ee: https://doi.org/10.1007/978-3-032-37718-0_16
+  url: https://dblp.org/rec/conf/eccv/AnYWQN26
+  abstract: Cross-attention is a crucial component in learning-based image-to-point-cloud
+    (I2P) registration. Although existing cross-attention mechanisms have achieved
+    promising progress, attention ambiguity remains a fundamental challenge that hinders
+    the learning of discriminative 2D-3D correspondences. To address this problem,
+    we revisit cross-attention and establish ordinary differential equations (ODEs)
+    to model the ideal I2P feature interaction. Based on this formulation, we develop
+    an ODE-driven cross-attention (OCA) module that refines feature representations
+    and attention matrices through ODEs. In practice, OCA can be seamlessly integrated
+    into existing I2P registration frameworks. To validate its effectiveness, we incorporate
+    OCA into five state-of-the-art baselines and evaluate on four public benchmark
+    datasets. Experimental results demonstrate that OCA improves registration recall
+    by up to 5\%, 9\%, and 15\% under the standard, fine-tuning, and zero-shot settings,
+    respectively.
+  related_code: ''
+  tags:
+  - data.
+  - dep.
+- author: Mengjie Guo, Xinxing Cheng, Wenqi Lu 0001, Qingjie Meng, Guanyu Yang, Yang
+    Chen, Ziyun Ding, Alejandro F. Frangi, Jinming Duan 0001
+  title: Foundation-Guided Representation Alignment for Multimodal Medical Image Registration.
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/GuoCLMYCDFD26
+  doi: 10.1007/978-3-032-37435-6_28
+  ee: https://doi.org/10.1007/978-3-032-37435-6_28
+  url: https://dblp.org/rec/conf/eccv/GuoCLMYCDFD26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+- author: Margaret Kostyrko, Yuxuan Xue 0001, Garvita Tiwari, Gerard Pons-Moll
+  title: 'Revisiting Avatar-as-Image: High-Fidelity Registration is All You Need.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/KostyrkoXTP26
+  doi: 10.1007/978-3-032-37627-5_6
+  ee: https://doi.org/10.1007/978-3-032-37627-5_6
+  url: https://dblp.org/rec/conf/eccv/KostyrkoXTP26
+  abstract: 'The representation of 3D clothed humans as standardized 2D UV texture
+    and displacement maps over an underlying body model has long been studied. This
+    compact representation is enticing as it enables pretrained image networks to
+    process, generate, and edit 3D avatars, but is only useful if scans are accurately
+    aligned and brought into correspondence via high-fidelity registration. This prerequisite
+    has never been met, which we argue explains the limited quality of prior UV-based
+    methods for clothed humans. Despite its significance, no public method produces
+    high-fidelity SMPL(-X)+D registrations with UV texture from arbitrary clothed
+    scans. We present AvaImg, a multi-stage optimization pipeline, to close this gap:
+    it enforces body-inside-clothing constraint via signed winding numbers, made viable
+    by a three-level efficiency cascade (~10x runtime reduced, ~95% storage saved),
+    and recovers fine surface detail using coarse-to-fine displacement optimization.
+    AvaImg outperforms all baselines in body fitting, shape estimation, and surface
+    registration across six datasets, yielding textured registrations near-indistinguishable
+    from scans (PSNR=34.48dB). For validation of AvaImg''s Avatar-as-Image representation
+    as imminently compatible with image foundation models, we auto-encode our UV maps
+    via the frozen FLUX VAE. This achieves only 0.76mm added Chamfer error relative
+    to scan and shows that the resulting maps lie within natural-image distributions,
+    supporting the use of 2D generative priors for 3D avatar generation. Code, data,
+    and Singularity containers will be at https://yuxuan-xue.com/avaimg.'
+  related_code: ''
+  tags:
+  - pc.
+  - dep.
+- author: Yingcheng Lai, Xingjian Wang, Li Chai
+  title: 'GraphCPD: Coherent Point Drift for Point Cloud Registration via Graph Signal
+    Processing.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/LaiWC26
+  doi: 10.1007/978-3-032-37602-2_23
+  ee: https://doi.org/10.1007/978-3-032-37602-2_23
+  url: https://dblp.org/rec/conf/eccv/LaiWC26
+  abstract: ''
+  related_code: ''
+  tags:
+  - pc.
+- author: Xinjun Li, Wenfei Yang, Yihan Chen, Zhixin Cheng, Shifeng Zhang, Xu Zhou,
+    Tianzhu Zhang 0001
+  title: 'PGCR: Pose-Geometry Coupled Reasoning for Image-to-Point Cloud Registration.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/LiYCCZZZ26
+  doi: 10.1007/978-3-032-37032-7_36
+  ee: https://doi.org/10.1007/978-3-032-37032-7_36
+  url: https://dblp.org/rec/conf/eccv/LiYCCZZZ26
+  abstract: ''
+  related_code: ''
+  tags:
+  - pc.
+- author: Qingyang Liu, David G. Shatwell, Parth Parag Kulkarni, Mubarak Shah
+  title: Pixel-Wise Geo-Registration of Drone Images.
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/LiuSKS26
+  doi: 10.1007/978-3-032-37422-6_5
+  ee: https://doi.org/10.1007/978-3-032-37422-6_5
+  url: https://dblp.org/rec/conf/eccv/LiuSKS26
+  abstract: Pixel-level cross-view geo-registration aims to align a query image (e.g.,
+    drone) to a geo-referenced satellite map so that every query pixel can be mapped
+    to real-world GPS coordinates. Despite strong progress in cross-view geo-localization,
+    existing benchmarks largely provide only GPS labels, limiting evaluation to a
+    single coordinate per image and leaving dense geodetic alignment underexplored.
+    We introduce SkyReg, a dataset and standardized benchmark for pixel-level drone-to-satellite
+    geo-registration, providing dense per-pixel geo-location supervision across diverse
+    settings (orthographic and perspective), scene types (urban, landmark-centric,
+    suburban/rural), and camera configurations. Using SkyReg, we evaluate a broad
+    set of baselines spanning retrieval, feature matching, homography-based alignment,
+    and feed-forward 3D reconstruction. Finally, cross-view pairs from SkyReg, we
+    train a geometry-aware reconstruction pipeline that achieves state-of-the-art
+    results,improving performance by a significant margin.
+  related_code: ''
+  tags:
+  - rs.
+  - pc.
+  - data.
+  - oth.
+- author: Jiahao Luo, Hao Zhang 0122, Jianqi Chen, Yijie He, Jiaxu Zou, Michael Vasilkovsky,
+    Sergei Korolev, Sergey Tulyakov, Chaoyang Wang 0001, Peter Wonka, James Davis,
+    Jian Wang 0100
+  title: 'RegHead: Non-humanoid Head Blendshapes via Feed-Forward Registration.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/LuoZCHZVKTWWDW26
+  doi: 10.1007/978-3-032-37029-7_13
+  ee: https://doi.org/10.1007/978-3-032-37029-7_13
+  url: https://dblp.org/rec/conf/eccv/LuoZCHZVKTWWDW26
+  abstract: We present RegHead, a framework for constructing semantic blendshape sets
+    for animatable non-humanoid head avatars. With a fixed expression vocabulary,
+    semantic blendshapes provide a low-dimensional and interpretable animation interface
+    and support cross-identity retargeting. Building such blendshape sets remains
+    expensive because (i) expression-consistent supervision is scarce, (ii) generated
+    4D assets typically lack correspondence, and (iii) facial motion is highly localized.
+    We propose (1) a large-scale dataset of non-humanoid identities paired with a
+    shared expression vocabulary, obtained by expanding a small artist-rigged library
+    via fine-tuned image editing; (2) a dense stochastic anchor motion representation
+    tailored to localized facial deformations; and (3) a fast feed-forward registration
+    model that converts unregistered expression meshes into a corresponded blendshape
+    basis by predicting anchor-based deformations from the neutral shape. Experiments
+    show that our approach produces higher-fidelity expression meshes than baselines,
+    while running orders of magnitude faster than optimization. We further demonstrate
+    real-time retargeting from human face tracking signals to non-humanoid characters,
+    capturing both head pose and localized facial motions. Our project page is available
+    at https://snap-research.github.io/RegHead/.
+  related_code: ''
+  tags:
+  - data.
+  - dep.
+- author: Mohammadjavad Matinkia, Nilanjan Ray
+  title: Two-Parameter Flow Map Learning for Continuous-Time Diffeomorphic Image Registration.
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/MatinkiaR26
+  doi: 10.1007/978-3-032-37429-5_13
+  ee: https://doi.org/10.1007/978-3-032-37429-5_13
+  url: https://dblp.org/rec/conf/eccv/MatinkiaR26
+  abstract: ''
+  related_code: ''
+  tags: []
+- author: Yue Pan 0009, Tao Sun 0020, Liyuan Zhu, Lucas Nunes, Iro Armeni, Jens Behley,
+    Cyrill Stachniss
+  title: 'Register Any Point: Scaling 3D Point Cloud Registration by Flow Matching.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/PanSZNABS26
+  doi: 10.1007/978-3-032-37369-4_2
+  ee: https://doi.org/10.1007/978-3-032-37369-4_2
+  url: https://dblp.org/rec/conf/eccv/PanSZNABS26
+  abstract: ''
+  related_code: ''
+  tags:
+  - pc.
+- author: Ivor J. A. Simpson, Neill D. F. Campbell
+  title: 'Structured SIR: Efficient and Expressive Importance-Weighted Inference for
+    High-Dimensional Image Registration.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/SimpsonC26
+  doi: 10.1007/978-3-032-37095-2_18
+  ee: https://doi.org/10.1007/978-3-032-37095-2_18
+  url: https://dblp.org/rec/conf/eccv/SimpsonC26
+  abstract: Image registration is an ill-posed dense vision task, where multiple solutions
+    achieve similar loss values, motivating probabilistic inference. Variational inference
+    has previously been employed to capture these distributions, however restrictive
+    assumptions about the posterior form can lead to poor characterisation, overconfidence
+    and low-quality samples. More flexible posteriors are typically bottlenecked by
+    the complexity of high-dimensional covariance matrices required for dense 3D image
+    registration. In this work, we present a memory and computationally efficient
+    inference method, Structured SIR, that enables expressive, multi-modal, characterisation
+    of uncertainty with high quality samples. We propose the use of a Sampled Importance
+    Resampling (SIR) algorithm with a novel memory-efficient high-dimensional covariance
+    parameterisation as the sum of a low-rank covariance and a sparse, spatially structured
+    Cholesky precision factor. This structure enables capturing complex spatial correlations
+    while remaining computationally tractable. We evaluate the efficacy of this approach
+    in 3D dense image registration of brain MRI data, which is a very high-dimensional
+    problem. We demonstrate that our proposed method produces uncertainty estimates
+    that are significantly better calibrated than those produced by variational methods,
+    achieving equivalent or better accuracy. Crucially, we show that the model yields
+    highly structured multi-modal posterior distributions, enable effective and efficient
+    uncertainty quantification.
+  related_code: ''
+  tags:
+  - medi.
+- author: Shiyan Su, Ruyi Zha, Hongdong Li, Xuelian Cheng, Zongyuan Ge
+  title: 'XPos3R: Cross-Modal Transformer for Intraoperative 2D/3D Registration.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/SuZLCG26
+  doi: 10.1007/978-3-032-37032-7_23
+  ee: https://doi.org/10.1007/978-3-032-37032-7_23
+  url: https://dblp.org/rec/conf/eccv/SuZLCG26
+  abstract: Intraoperative 2D/3D registration, which aligns live X-ray images with
+    preoperative volumes, is essential for image-guided interventions. Previous regression-based
+    methods suffer from limited generalization, thus requiring time-consuming patient-specific
+    retraining. Inspired by recent geometry foundation models such as DUSt3R, we propose
+    XPos3R, a generalizable pose regression method that eliminates preoperative preparation.
+    Unlike existing geometry models designed for homogeneous inputs, XPos3R extends
+    this paradigm to multi-modal inputs, namely 2D X-rays and 3D volumes. Specifically,
+    we introduce an asymmetric encoder-decoder architecture that improves cross-modal
+    feature alignment while maintaining computational efficiency. To scale training
+    under limited medical data, we adopt an anatomy-specific data curation strategy
+    and construct million-scale synthetic datasets. Evaluated on real-world benchmarks,
+    a single pretrained XPos3R surpasses patient-specific methods in both accuracy
+    and robustness. With test-time optimization completed in seconds, it further reduces
+    the 3D error to <4 mm and the reprojection error to <1 mm. The strong generalization,
+    accuracy, and efficiency of XPos3R highlight its clinical potential, while its
+    asymmetric framework may inspire broader cross-modal vision geometry tasks.
+  related_code: ''
+  tags:
+  - medi.
+  - pc.
+  - dep.
+- author: Kezheng Xiong, Shiyun Xu, Sheng Ao, Siqi Shen, Cheng Wang 0003, Chenglu
+    Wen
+  title: Unsupervised Point Cloud Registration via Training-Time Semantic Guidance.
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/XiongXASWW26
+  doi: 10.1007/978-3-032-37464-6_26
+  ee: https://doi.org/10.1007/978-3-032-37464-6_26
+  url: https://dblp.org/rec/conf/eccv/XiongXASWW26
+  abstract: ''
+  related_code: ''
+  tags:
+  - pc.
 registra%20streamid%3Aconf%2Fmm%3A:
 - author: Quangui He, Jiahui Qu, Wenqian Dong, Song Xiao 0001, Qinghao Gao
   title: Cycle-Consistent Mamba-Based Registration-Fusion Joint Network for Unregistered
@@ -19306,6 +20241,20 @@ registra%20streamid%3Ajournals%2Fijcv%3A:
   doi: 10.1007/BF00123161
   ee: https://doi.org/10.1007/BF00123161
   url: https://dblp.org/rec/journals/ijcv/AyacheF87
+  abstract: ''
+  related_code: ''
+  tags: []
+- author: Han Xu 0001, Jiajun Chen, Xunpeng Yi, Peili Li, Jiayi Ma 0001
+  title: 'IterRF: Iterative and Interpretable Mutual Enhancement for Joint Multi-Modal
+    Image Registration and Fusion.'
+  venue: Int. J. Comput. Vis.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/ijcv/XuCYLM26
+  doi: 10.1007/S11263-026-03043-3
+  ee: https://doi.org/10.1007/s11263-026-03043-3
+  url: https://dblp.org/rec/journals/ijcv/XuCYLM26
   abstract: ''
   related_code: ''
   tags: []
@@ -33834,6 +34783,481 @@ registra%20venue%3AMICCAI%3A:
   related_code: ''
   tags:
   - medi.
+- author: Ernest Asimeng, Jun Chen 0030, Godbless Mensah, Jiaqi Zhang, Kai Han 0006,
+    Yang Chen, Zhe Liu 0004
+  title: 'PathoMamba: Piecewise-Diffeomorphic Registration via Stiffness-Modulated
+    State Space Dynamics.'
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/AsimengCMZHCL26
+  doi: 10.1007/978-3-032-38186-6_26
+  ee: https://doi.org/10.1007/978-3-032-38186-6_26
+  url: https://dblp.org/rec/conf/miccai/AsimengCMZHCL26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+- author: Chinmayee Athalye, Winifred Trotman, Lisa Levorse, Eric Teunissen-Bermeo,
+    Noah Capp, Sheina Emrani, Ranjit Ittyerah, Karthik Prabhakaran, John L. Robinson,
+    Edward B. Lee, Daniel T. Ohm, M. Dylan Tisdall, Sandhitsu R. Das, David A. Wolk,
+    David J. Irwin, Paul A. Yushkevich
+  title: Joint Decomposition and Learned Deformation for Part-to-Whole MRI to Histology
+    Registration.
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/AthalyeTLTCEIPRLOTDWIY26
+  doi: 10.1007/978-3-032-38186-6_15
+  ee: https://doi.org/10.1007/978-3-032-38186-6_15
+  url: https://dblp.org/rec/conf/miccai/AthalyeTLTCEIPRLOTDWIY26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+  - dep.
+- author: Hao Bai, Yi Hong
+  title: 'SPEAR: Error-Guided Sparse Refinement for Scalable Deformable Medical Image
+    Registration.'
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/BaiH26
+  doi: 10.1007/978-3-032-38186-6_30
+  ee: https://doi.org/10.1007/978-3-032-38186-6_30
+  url: https://dblp.org/rec/conf/miccai/BaiH26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+- author: Hadrien Bigo-Balland, Tom Boeken, Jean Feydy
+  title: Optimal Steps for Fast Diffeomorphic Shape Registration.
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/BigoBallandBF26
+  doi: 10.1007/978-3-032-38186-6_25
+  ee: https://doi.org/10.1007/978-3-032-38186-6_25
+  url: https://dblp.org/rec/conf/miccai/BigoBallandBF26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+- author: Sue Min Cho, Russell H. Taylor, Mathias Unberath
+  title: Human-AI Collaboration for 2D/3D Registration Quality Assurance.
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/ChoTU26
+  doi: 10.1007/978-3-032-38186-6_11
+  ee: https://doi.org/10.1007/978-3-032-38186-6_11
+  url: https://dblp.org/rec/conf/miccai/ChoTU26
+  abstract: 'Purpose: As surgery increasingly integrates advanced imaging, algorithms,
+    and robotics to automate complex tasks, human judgment of system correctness remains
+    a vital safeguard for patient safety. A critical example is 2D/3D registration,
+    where small registration misalignments can lead to surgical errors. Current visualization
+    strategies alone are insufficient to reliably enable humans to detect these misalignments,
+    highlighting the need for enhanced decision-support tools. Methods: We propose
+    the first artificial intelligence (AI) model tailored to 2D/3D registration quality
+    assessment, augmented with explainable AI (XAI) mechanisms to clarify the model''s
+    predictions. Using both objective measures (e.g., accuracy, sensitivity, precision,
+    specificity) and subjective evaluations (e.g., workload, trust, and understanding),
+    we systematically compare decision-making across four conditions: AI-only, Human-only,
+    Human+AI, and Human+XAI. Results: The AI-only condition achieved the highest accuracy,
+    whereas collaborative paradigms (Human+AI and Human+XAI) improved sensitivity,
+    precision, and specificity compared to standalone approaches. Participants experienced
+    significantly lower workload in collaborative conditions relative to the Human-only
+    condition. Moreover, participants reported a greater understanding of AI predictions
+    in the Human+XAI condition than in Human+AI, although no significant differences
+    were observed between the two collaborative paradigms in perceived trust or workload.
+    Conclusion: Human-AI collaboration can enhance 2D/3D registration quality assurance,
+    with explainability mechanisms improving user understanding. Future work should
+    refine XAI designs to optimize decision-making performance and efficiency. Extending
+    both the algorithmic design and human-XAI collaboration elements holds promise
+    for more robust quality assurance of 2D/3D registration.'
+  related_code: ''
+  tags:
+  - medi.
+  - pc.
+- author: Yuhe Dai, Zhiyong Huang, Xiaohong Wang, Weimin Huang 0002
+  title: 'KGT-Reg: Knowledge-Guided Multimodal Framework for Medical Image Registration.'
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/DaiHWH26
+  doi: 10.1007/978-3-032-38186-6_17
+  ee: https://doi.org/10.1007/978-3-032-38186-6_17
+  url: https://dblp.org/rec/conf/miccai/DaiHWH26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+- author: Jiaming Feng, Xukun Zhang, Shahid Farid, Sharib Ali
+  title: 'Vis2Reg: Visibility-Aware Landmark-Free Geometric 3D-2D Registration for
+    Liver Laparoscopy.'
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/FengZFA26
+  doi: 10.1007/978-3-032-38186-6_37
+  ee: https://doi.org/10.1007/978-3-032-38186-6_37
+  url: https://dblp.org/rec/conf/miccai/FengZFA26
+  abstract: Accurate 3D--2D liver registration, which aligns preoperative 3D models
+    to partial, view-dependent intraoperative surface observations, is critical for
+    AR-guided laparoscopic surgery but remains challenging due to severe occlusion,
+    limited visibility, and the lack of 3D ground-truth supervision. Existing landmark-free
+    approaches perform partial-to-complete geometric alignment, yet robust self-supervision
+    under extreme partial visibility remains difficult. We propose Vis2Reg, a visibility-aware
+    registration framework that explicitly constrains deformation using mask-consistent
+    visible regions. We introduce a visibility-aware self-supervision that derives
+    a visible-domain 3D supervision signal from intraoperative masks, enabled by differentiable
+    point rasterization and mask-guided back-projection. This formulation improves
+    robustness under severe occlusion while maintaining fully self-supervised learning.
+    Vis2Reg combines a robust geometric rigid initialization module with an implicit
+    neural deformation field for stable alignment. Vis2Reg achieves a Dice score of
+    92.6\% and a Chamfer Distance of 1.43 mm on real intraoperative datasets, with
+    111 ms per-frame inference time, demonstrating both accuracy and practical efficiency.
+  related_code: ''
+  tags:
+  - medi.
+  - dep.
+  - oth.
+- author: Haixiao Geng, Jingfan Fan, Danni Ai, Hong Song 0003, Jinying Zhang, Feng
+    Duan 0001, Jian Yang 0009
+  title: Intraoperative X-Ray-Guided Tumor Tracking via Dynamic 3D/2D Registration
+    with Task-Driven 3D Gaussian Priors.
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/GengFASZDY26
+  doi: 10.1007/978-3-032-38186-6_14
+  ee: https://doi.org/10.1007/978-3-032-38186-6_14
+  url: https://dblp.org/rec/conf/miccai/GengFASZDY26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+- author: Rudolf L. M. van Herten, José P. Henriques, R. N. Planken, Joost Daemen,
+    Eline M. J. Hartman, Jolanda J. Wentzel, Johannes C. Paetzold, Ivana Isgum
+  title: 'TG-OT: Topology-Guided CCTA-IVUS Registration via Optimal Transport Matching.'
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/HertenHPDHWPI26
+  doi: 10.1007/978-3-032-38186-6_32
+  ee: https://doi.org/10.1007/978-3-032-38186-6_32
+  url: https://dblp.org/rec/conf/miccai/HertenHPDHWPI26
+  abstract: Registering coronary CT angiography (CCTA) and intravascular ultrasound
+    (IVUS) enables comprehensive coronary analysis that neither modality can provide
+    alone, yet their fusion remains challenging due to differences in imaging geometry,
+    resolution, and artifact profiles. Existing methods depend on pre-computed lumen
+    or vessel wall segmentations that are unreliable under IVUS acoustic shadowing
+    from calcifications, limiting their clinical applicability. We propose TG-OT,
+    a fully automatic CCTA-IVUS registration framework that eliminates this dependency
+    by integrating trained feature detectors directly into the registration pipeline.
+    Lightweight CNNs are trained to predict calcifications, bifurcations, and lumen
+    radii on the topological $(θ, z)$ cylinder, encouraging topologically coherent
+    detections without requiring explicit segmentation. Registration is formulated
+    as an optimization over centerline warping parameters, driven by an unbalanced
+    Sinkhorn optimal transport loss on the cylindrical geometry that provides spatially
+    informative gradients even for spatially disjoint predictions, complemented by
+    a lumen matching term. Evaluated on $N{=}47$ paired CCTA-IVUS cases in a 5-fold
+    cross-validation setup, TG-OT achieves strong longitudinal ($\overline{\text{Dice}}_\text{ctl}{=}0.99$),
+    rotational ($\overline{S}_c{=}0.96$), and lumen alignment ($\overline{\text{Dice}}_\text{L}{=}0.69$)
+    without manual interaction or prior segmentation, marking a meaningful step toward
+    clinical integration of automatic CCTA-IVUS fusion.
+  related_code: ''
+  tags:
+  - medi.
+  - data.
+- author: Hao Kang, Tai Ma, Haoyang Zhang, Tony C. W. Mok, Zi Li, Minfeng Xu, Lianghua
+    He, Ying Wen
+  title: 'FSE-Reg: Enhancing 3D Deformable Registration with Frozen Large-Scale Pre-trained
+    Segmentation Encoders.'
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/KangMZMLXHW26
+  doi: 10.1007/978-3-032-38186-6_9
+  ee: https://doi.org/10.1007/978-3-032-38186-6_9
+  url: https://dblp.org/rec/conf/miccai/KangMZMLXHW26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+  - dep.
+- author: Luoyao Kang, Yuelin Zhang, Jiwei Shan, Haifan Gong, Qingpeng Ding, Shing
+    Shin Cheng
+  title: 'DreamReg: Belief-Driven World Model for 2D-3D Ultrasound Registration.'
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/KangZSGDC26
+  doi: 10.1007/978-3-032-38186-6_4
+  ee: https://doi.org/10.1007/978-3-032-38186-6_4
+  url: https://dblp.org/rec/conf/miccai/KangZSGDC26
+  abstract: 'Ultrasound (US) is widely used for surgical navigation, yet real-time
+    registration between intraoperative 2D slices and preoperative 3D volumes remains
+    challenging due to partial observability, speckle noise, and the action-dependent
+    US acquisition. Existing methods are one-shot or short-horizon, making it hard
+    for them to gather evidence over time or capture how surgeons adjust probe motion
+    based on on-screen feedback. We propose DreamReg, a belief-driven world-model
+    framework that formulates 2D-3D registration as belief updating over rigid transformations.
+    DreamReg maintains a latent belief state that summarizes past observations and
+    poses information, and continuously refines the transformation through learned
+    dynamics as new slices arrive. During training, DreamReg is exposed to probe-motion
+    trajectories that mimic clinical scanning behavior and learns to update its belief
+    by conditioning pose refinement on the current US observation. During inference,
+    DreamReg refines registration via internal imagination: it rolls out the learned
+    world model to simulate candidate probe motions and their predicted observations,
+    and integrates these imagined outcomes to converge to an accurate rigid transformation.
+    Experiments on CAMUS and u-RegPro datasets demonstrate improved robustness and
+    competitive registration accuracy for real-time guidance compared with state-of-the-art
+    methods.'
+  related_code: ''
+  tags:
+  - medi.
+  - pc.
+  - dep.
+- author: Yue Lin, Shenghai Wu, Mingyuan Meng
+  title: Really Need Recursion? Revisiting One-Pass Registration with Multi-Level
+    Multi-Space Contextual Guidance.
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/LinWM26
+  doi: 10.1007/978-3-032-38186-6_27
+  ee: https://doi.org/10.1007/978-3-032-38186-6_27
+  url: https://dblp.org/rec/conf/miccai/LinWM26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+- author: Jia Mi, Caiwen Jiang, Haoyue Yuan, Fan Li, Xiaoye Li, Kaicong Sun, Dinggang
+    Shen
+  title: Learning Hierarchical Anatomy-Grounded Representation for Cross-Modal Registration.
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/MiJYLLSS26
+  doi: 10.1007/978-3-032-38186-6_19
+  ee: https://doi.org/10.1007/978-3-032-38186-6_19
+  url: https://dblp.org/rec/conf/miccai/MiJYLLSS26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+- author: Jeonglok Park, SeungKwan Jo, Jonghoon An, Minyoung Chung
+  title: Keypoint Correspondence Learning for CBCT-IOS Registration.
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/ParkJAC26
+  doi: 10.1007/978-3-032-38186-6_16
+  ee: https://doi.org/10.1007/978-3-032-38186-6_16
+  url: https://dblp.org/rec/conf/miccai/ParkJAC26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+- author: Lorenzo Pettinari, Sidaty El Hadramy, Michael Wehrli, Philippe C. Cattin,
+    Daniel Studer, Carol-Claudius Hasler, Maria Licci
+  title: 'End2Reg: Learning Task-Specific Segmentation for Markerless Registration
+    in Spine Surgery.'
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/PettinariHWCSHL26
+  doi: 10.1007/978-3-032-38186-6_7
+  ee: https://doi.org/10.1007/978-3-032-38186-6_7
+  url: https://dblp.org/rec/conf/miccai/PettinariHWCSHL26
+  abstract: 'Intraoperative navigation in spine surgery demands millimeter-level accuracy.
+    Currently, this is achieved through radiation-intensive intraoperative imaging
+    and bone-anchored markers that are invasive and disrupt surgical workflow. Markerless
+    RGB-D registration methods offer a promising alternative. However, existing approaches
+    rely on weak segmentation labels to isolate relevant anatomical structures, potentially
+    propagating errors through the registration process. We present End2Reg, an end-to-end
+    deep learning framework that jointly optimizes segmentation and registration,
+    eliminating the need for segmentation labels and manual steps. The network learns
+    task-specific segmentation masks optimized for registration, guided solely by
+    the registration objective without explicit segmentation supervision. End2Reg
+    achieves state-of-the-art performance on ex- and in-vivo benchmarks, reducing
+    median Target Registration Error by 32% and mean Root Mean Square Error by 61%,
+    while maintaining robust performance under partial occlusions. Ablation results
+    confirm that end-to-end optimization significantly improves registration accuracy.
+    Overall, End2Reg advances towards fully automatic, markerless intraoperative navigation.
+    Code and interactive visualizations are available at: https://lorenzopettinari.github.io/end-2-reg/.'
+  related_code: ''
+  tags:
+  - medi.
+  - pc.
+  - dep.
+- author: Daan Schouten, Jeroen van der Laak, Diederik Somford, Heidi Küsters-Vandevelde,
+    Nadieh Khalili, Joeran S. Bosma, Anindo Saha, Jasper J. Twilt, Tiago Coelho, Maarten
+    de Rooij, Henkjan Huisman, Jeroen Veltman, Derya Yakar, Geert Litjens 0001
+  title: 'Latent Lessons from Histopathology: A Registration-Free Cross-Modal Supervision
+    Framework for mpMRI-Based ISUP Grading.'
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/SchoutenLSKKBSTCRHVYL26
+  doi: 10.1007/978-3-032-38224-5_23
+  ee: https://doi.org/10.1007/978-3-032-38224-5_23
+  url: https://dblp.org/rec/conf/miccai/SchoutenLSKKBSTCRHVYL26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+- author: Ao Shen, Junfeng Jiang, Xueming Fu, Qiang Zeng, Ye Tang, Zhengming Chen,
+    Luming Nong, Feng Wang, Shaohua Kevin Zhou
+  title: 'FlowReg: Reconstruction-Guided Flow Matching for Universal Spinal CT/X-Ray
+    Registration.'
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/ShenJFZTCNWZ26
+  doi: 10.1007/978-3-032-38186-6_8
+  ee: https://doi.org/10.1007/978-3-032-38186-6_8
+  url: https://dblp.org/rec/conf/miccai/ShenJFZTCNWZ26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+- author: Zhiwen Tang, Minghao Sun, Chenghui Jiang, Xiaomeng Song, Lulu Liu, Han Yu
+  title: 'SwallowReg: SAM-Assisted Deformable Registration with Adaptive Global-Local
+    Features for Cine-MRI Swallowing Function Quantification.'
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/TangSJSLY26
+  doi: 10.1007/978-3-032-38186-6_31
+  ee: https://doi.org/10.1007/978-3-032-38186-6_31
+  url: https://dblp.org/rec/conf/miccai/TangSJSLY26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+- author: Luohong Wu, Elise Cho, Yunke Ao, Lennard Marx, Nicola Alessandro Cavalcanti,
+    Yiru Yang, Matthias Seibold, Philipp Fürnstahl
+  title: 'Shape-Aware Registration Without Pretraining: CT-Ultrasound Bone Surface
+    Alignment via Instance-Level Shape Completion.'
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/WuCAMCYSF26
+  doi: 10.1007/978-3-032-38186-6_29
+  ee: https://doi.org/10.1007/978-3-032-38186-6_29
+  url: https://dblp.org/rec/conf/miccai/WuCAMCYSF26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+- author: Siqi Xiao, Zetian Feng, Quanling Zou, Yi Wang
+  title: Learning Modality-Invariant Structure and Distribution Alignment for Multimodal
+    Medical Image Registration.
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/XiaoFZW26
+  doi: 10.1007/978-3-032-38186-6_20
+  ee: https://doi.org/10.1007/978-3-032-38186-6_20
+  url: https://dblp.org/rec/conf/miccai/XiaoFZW26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+- author: Housheng Xie, Xiaoru Gao, Guoyan Zheng
+  title: 'OPS: One-Shot Point Prompted Semantics-Aware Learning for Medical Image
+    Registration.'
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/XieGZ26
+  doi: 10.1007/978-3-032-38186-6_24
+  ee: https://doi.org/10.1007/978-3-032-38186-6_24
+  url: https://dblp.org/rec/conf/miccai/XieGZ26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+- author: Shurui Zhang, Ning Feng, Wenkang Fan, Hao Fang, Xiongbiao Luo
+  title: Intraoperative Fluoroscopy-Volume Registration Using Virtual-Supervision
+    Skeleton Attention.
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/ZhangFFFL26
+  doi: 10.1007/978-3-032-38186-6_13
+  ee: https://doi.org/10.1007/978-3-032-38186-6_13
+  url: https://dblp.org/rec/conf/miccai/ZhangFFFL26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+- author: Yi Zhang 0120, Yidong Zhao, Tijmen Toxopeus, Masa Bozic-Iven, Sebastian
+    Weingärtner, Qian Tao
+  title: Set-Based Groupwise Registration for Variable-Length, Variable-Contrast Cardiac
+    MRI.
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/ZhangZTBWT26
+  doi: 10.1007/978-3-032-38186-6_28
+  ee: https://doi.org/10.1007/978-3-032-38186-6_28
+  url: https://dblp.org/rec/conf/miccai/ZhangZTBWT26
+  abstract: 'Quantitative cardiac magnetic resonance imaging (MRI) enables non-invasive
+    myocardial tissue characterization but relies on robust motion correction within
+    these variable-length, variable-contrast image sequences. Groupwise registration,
+    which simultaneously aligns all images, has shown greater robustness than pairwise
+    registration for motion correction. However, current deep-learning-based groupwise
+    registration methods cannot generalize across MRI sequences: the architecture
+    typically encodes input data as a fixed-length channel stack, which rigidly couples
+    network design to protocol-specific sequence length, input ordering, and contrast
+    dynamics. At inference time, any change in imaging protocols will render the network
+    unusable. In this work, we introduce \emph{\AnyTwoReg}, a new set-based groupwise
+    registration framework that takes a quantitative MRI sequence as an unordered
+    set. This set formulation fundamentally decouples network design from sequence
+    length and input ordering. By utilizing a shared encoder and correlation-guided
+    feature aggregation, \emph{\AnyTwoReg} constructs a permutation-invariant canonical
+    reference for registration, and learns a permutation-equivariant mapping from
+    images to deformation fields. Additionally, we extract contrast-insensitive image
+    features from an existing foundation model to handle extreme contrast variations.
+    Trained exclusively on a single public $T_1$ mapping dataset (STONE, sequence
+    length $L=11$), \AnyTwoReg generalizes to two unseen quantitative MRI datasets
+    (MOLLI, ASL) with variable lengths ($L \in [11, 60]$) and different contrast dynamics.
+    It achieves strong cross-protocol generalization in a zero-shot manner, and consistently
+    improves downstream quantitative mapping quality. Notably, while designed for
+    quantitative MRI sequences, our framework is directly applicable to Cine MRI sequences
+    for inter-cardiac-phase registration.'
+  related_code: ''
+  tags:
+  - medi.
+  - data.
+  - dep.
+  - oth.
 registra%20venue%3AMedical_Image_Anal.%3A:
 - author: Junyu Chen 0002, Shuwen Wei, Yihao Liu 0003, Zhangxing Bian, Yufan He, Aaron
     Carass, Harrison X. Bai, Yong Du 0002
@@ -43077,6 +44501,110 @@ image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20ma
   related_code: ''
   tags:
   - dep.
+- author: Xingtong Ge, Xin Zhang, Tongda Xu, Yi Zhang, Xinjie Zhang, Yan Wang, Jun
+    Zhang 0004
+  title: 'SenseFlow: Scaling Distribution Matching for Flow-based Text-to-Image Distillation.'
+  venue: ICLR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iclr/GeZXZZWZ26
+  doi: ''
+  ee: https://proceedings.iclr.cc/paper_files/paper/2026/hash/94a98f4338b6e5fba81344f961bac8e5-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/iclr/GeZXZZWZ26
+  abstract: The Distribution Matching Distillation (DMD) has been successfully applied
+    to text-to-image diffusion models such as Stable Diffusion (SD) 1.5. However,
+    vanilla DMD suffers from convergence difficulties on large-scale flow-based text-to-image
+    models, such as SD 3.5 and FLUX. In this paper, we first analyze the issues when
+    applying vanilla DMD on large-scale models. Then, to overcome the scalability
+    challenge, we propose implicit distribution alignment (IDA) to constrain the divergence
+    between the generator and the fake distribution. Furthermore, we propose intra-segment
+    guidance (ISG) to relocate the timestep denoising importance from the teacher
+    model. With IDA alone, DMD converges for SD 3.5; employing both IDA and ISG, DMD
+    converges for SD 3.5 and FLUX.1 dev. Together with a scaled VFM-based discriminator,
+    our final model, dubbed \textbf{SenseFlow}, achieves superior performance in distillation
+    for both diffusion based text-to-image models such as SDXL, and flow-matching
+    models such as SD 3.5 Large and FLUX.1 dev. The source code is available at \href{https://github.com/XingtongGe/SenseFlow}{https://github.com/XingtongGe/SenseFlow}
+  related_code: https://github.com/XingtongGe/SenseFlow
+  tags:
+  - data.
+  - dep.
+- author: Razvan-Andrei Matisan, Vincent Tao Hu, Grigory Bartosh, Björn Ommer, Cees
+    G. M. Snoek, Max Welling, Jan-Willem van de Meent, Mohammad Mahdi Derakhshani,
+    Floor Eijkelboom
+  title: 'Purrception: Variational Flow Matching for Vector-Quantized Image Generation.'
+  venue: ICLR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iclr/MatisanHBOSWMDE26
+  doi: ''
+  ee: https://proceedings.iclr.cc/paper_files/paper/2026/hash/9d8cf1247786d6dfeefeeb53b8b5f6d7-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/iclr/MatisanHBOSWMDE26
+  abstract: We introduce Purrception, a variational flow matching approach for vector-quantized
+    image generation that provides explicit categorical supervision while maintaining
+    continuous transport dynamics. Our method adapts Variational Flow Matching to
+    vector-quantized latents by learning categorical posteriors over codebook indices
+    while computing velocity fields in the continuous embedding space. This combines
+    the geometric awareness of continuous methods with the discrete supervision of
+    categorical approaches, enabling uncertainty quantification over plausible codes
+    and temperature-controlled generation. We evaluate Purrception on ImageNet-1k
+    256x256 generation. Training converges faster than both continuous flow matching
+    and discrete flow matching baselines while achieving competitive FID scores with
+    state-of-the-art models. This demonstrates that Variational Flow Matching can
+    effectively bridge continuous transport and discrete supervision for improved
+    training efficiency in image generation.
+  related_code: ''
+  tags: []
+- author: Hwa Hui Tew, Junn Yong Loo, Fang Yu Leong, Julia Kaiwen Lau, Ding Fan, Hernando
+    Ombao, Raphaël C.-W. Phan, Chee Pin Tan, Chee-Ming Ting
+  title: Functional MRI Time Series Generation via Wavelet-Based Image Transform and
+    Spectral Flow Matching for Brain Disorder Identification.
+  venue: ICLR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iclr/TewLLLFOPTT26
+  doi: ''
+  ee: https://proceedings.iclr.cc/paper_files/paper/2026/hash/ad9804eed175610302917a0c21ab9b52-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/iclr/TewLLLFOPTT26
+  abstract: Functional Magnetic Resonance Imaging (fMRI) provides non-invasive access
+    to dynamic brain activity by measuring blood oxygen level-dependent (BOLD) signals
+    over time. However, the resource-intensive nature of fMRI acquisition limits the
+    availability of high-fidelity samples required for data-driven brain analysis
+    models. While modern generative models can synthesize fMRI data, they often remain
+    challenging in replicating their inherent non-stationarity, intricate spatiotemporal
+    dynamics, and physiological variations of raw BOLD signals. To address these challenges,
+    we propose Dual-Spectral Flow Matching (DSFM), a novel fMRI generative framework
+    that cascades dual frequency representation of BOLD signals with spectral flow
+    matching. Specifically, our framework first converts BOLD signals into a wavelet
+    decomposition map via a discrete wavelet transform (DWT) to capture globalized
+    transient and multi-scale variations, and projects into the discrete cosine transform
+    (DCT) space across brain regions and time to exploit localized energy compaction
+    of low-frequency dominant BOLD coefficients. Subsequently, a spectral flow matching
+    model is trained to generate class-conditioned cosine-frequency representation.
+    The generated samples are reconstructed through inverse DCT and inverse DWT operations
+    to recover physiologically plausible time-domain BOLD signals. This dual-transform
+    approach imposes structured frequency priors and preserves key physiological brain
+    dynamics. Ultimately, we demonstrate the efficacy of our approach through improved
+    downstream fMRI-based brain network classification. The code is available at https://github.com/htew0001/DSFM.git
+    .
+  related_code: https://github.com/htew0001/DSFM.git
+  tags:
+  - medi.
+- author: Laiguo Yin, Yixin Zhang, Yuqing Sun, Lizhen Cui 0001
+  title: Multimodal Aligned Semantic Knowledge for Unpaired Image-text Matching.
+  venue: ICLR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iclr/YinZSC26
+  doi: ''
+  ee: https://proceedings.iclr.cc/paper_files/paper/2026/hash/e48fa1c4f08fd1ae35d5df8352c3106d-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/iclr/YinZSC26
+  abstract: ''
+  related_code: ''
+  tags: []
 image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20match%20venue%3ACOLT%3A: []
 image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20match%20venue%3AUAI%3A: []
 image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20match%20streamid%3Ajournals%2Fml%3A: []
@@ -44492,6 +46020,43 @@ image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20ma
     systems and those which cannot be so analyzed.
   related_code: ''
   tags: []
+- author: Zheng Wang 0044, Xing Xu 0001, Lei Zhu 0002, Jingkuan Song, Yang Yang 0002,
+    Heng Tao Shen
+  title: Distribution-to-Points Matching for Image Text Retrieval.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/WangXZSYS26
+  doi: 10.1109/TPAMI.2026.3664613
+  ee: https://doi.org/10.1109/TPAMI.2026.3664613
+  url: https://dblp.org/rec/journals/pami/WangXZSYS26
+  abstract: Eliminating semantic discrepancy between different modalities is the ultimate
+    goal of image text retrieval. However, most of the existing methods only focus
+    on retrieval of the ground-truth instance while ignoring those semantically similar
+    instances yet unlabeled as positives, which causes the phenomenon of one-to-many
+    correspondence. The mainstream solutions of this research are mainly based on
+    uncertainty learning and the exploration of one-to-many correspondence is still
+    insufficient albeit their significant progress. Therefore, this work develops
+    a novel Distribution-to-Points (termed D2P) matching mechanism for image-text
+    retrieval to capture the one-to-many correspondence between multiple samples and
+    a given query via hypergraph modeling. Specifically, a given query is first mapped
+    as a probabilistic embedding to learn its true semantic distribution based on
+    Mahalanobis distance. Then each candidate instance in a mini-batch is regarded
+    as a hypergraph node with its mean semantics while a Gaussian query is modeled
+    as a hyperedge to capture the semantic correlations beyond the pair between candidate
+    points and the query. Moreover, an energy-based semantic modeling framework is
+    developed to pull all similar candidates (not only the ground truth) close to
+    their query while pushing those dissimilar ones far away. In the end, distribution-to-points
+    matching is learned based on the similarity measurement over the Mahalanobis distance,
+    which considers semantic variance to perform many-to-one correspondence well.
+    Experimental results on several widely used datasets and under various evaluation
+    metrics confirm our superiority and effectiveness in improving the retrieval ability
+    of the baseline including ground-truth matching and semantic multiplicity for
+    image text retrieval.
+  related_code: ''
+  tags:
+  - dep.
 image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20match%20venue%3AKDD%3A:
 - author: Timothy M. Stough, Carla E. Brodley
   title: 'Image Feature Reduction through Spoiling: Its Application to Multiple Matched
@@ -47069,6 +48634,199 @@ image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20ma
     with a potentially high level of efficiency.&gt;
   related_code: ''
   tags: []
+- author: Xin Hu, Ke Qin, Wen Yin, Yuan-Fang Li, Ming Li, Tao He
+  title: 'Can We Build Scene Graphs, Not Classify Them? FlowSG: Progressive Image-Conditioned
+    Scene Graph Generation with Flow Matching.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/HuQYLLH26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Hu_Can_We_Build_Scene_Graphs_Not_Classify_Them_FlowSG_Progressive_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/HuQYLLH26
+  abstract: 'Scene Graph Generation (SGG) unifies object localization and visual relationship
+    reasoning by predicting boxes and subject-predicate-object triples. Yet most pipelines
+    treat SGG as a one-shot, deterministic classification problem rather than a genuinely
+    progressive, generative task. We propose FlowSG, which recasts SGG as continuous-time
+    transport on a hybrid discrete-continuous state: starting from a noised graph,
+    the model progressively grows an image-conditioned scene graph through constraint-aware
+    refinements that jointly synthesize nodes (objects) and edges (predicates). Specifically,
+    we first leverage a VQ-VAE to quantize a scene graph (e.g., continuous visual
+    features) into compact, predictable tokens; a graph Transformer then (i) predicts
+    a conditional velocity field to transport continuous geometry (boxes) and (ii)
+    updates discrete posteriors for categorical tokens (object features and predicate
+    labels), coupling semantics and geometry via flow-conditioned message aggregation.
+    Training combines flow-matching losses for geometry with a discrete-flow objective
+    for tokens, yielding few-step inference and plug-and-play compatibility with standard
+    detectors and segmenters. Extensive experiments on VG and PSG under closed- and
+    open-vocabulary protocols show consistent gains in predicate R/mR and graph-level
+    metrics, validating the mixed discrete-continuous generative formulation over
+    one-shot classification baselines, with an average improvement of about 3 points
+    over the state-of-the-art USG-Par.'
+  related_code: ''
+  tags:
+  - dep.
+- author: Yuqi Chen, Junjie Gao, Yongzhou Pan, Siyuan Song, Zixuan Zhang, Jiaping
+    Xiao, Mir Feroskhan
+  title: 'GeniNav: Generative Model Driven Image-Goal Navigation via Imagination-Guided
+    Consistency Flow Matching.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/ChenGPSZXF26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Chen_GeniNav_Generative_Model_Driven_Image-Goal_Navigation_via_Imagination-Guided_Consistency_Flow_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/ChenGPSZXF26
+  abstract: ''
+  related_code: ''
+  tags: []
+- author: Yufeng Cheng, Wenxu Wu, Shaojin Wu, Mengqi Huang, Fei Ding, Qian He
+  title: Scaling Multi-Identity Consistency for Image Customization via Multi-to-Multi
+    Matching Paradigm.
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/ChengWWHDH26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Cheng_Scaling_Multi-Identity_Consistency_for_Image_Customization_via_Multi-to-Multi_Matching_Paradigm_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/ChengWWHDH26
+  abstract: 'Recent advancements in image customization exhibit a wide range of application
+    prospects due to stronger customization capabilities. However, since we humans
+    are more sensitive to faces, a significant challenge remains in preserving consistent
+    identity while avoiding identity confusion with multi-reference images, limiting
+    the identity scalability of customization models. To address this, we present
+    UMO, a Unified Multi-identity Optimization framework, designed to maintain high-fidelity
+    identity preservation and alleviate identity confusion with scalability. With
+    "multi-to-multi matching" paradigm, UMO reformulates multi-identity generation
+    as a global assignment optimization problem and unleashes multi-identity consistency
+    for existing image customization methods generally through reinforcement learning
+    on diffusion models. To facilitate the training of UMO, we develop a scalable
+    customization dataset with multi-reference images, consisting of both synthesised
+    and real parts. Additionally, we propose a new metric to measure identity confusion.
+    Extensive experiments demonstrate that UMO not only improves identity consistency
+    significantly, but also reduces identity confusion on several image customization
+    methods, setting a new state-of-the-art among open-source methods along the dimension
+    of identity preserving. Code and model: https://github.com/bytedance/UMO'
+  related_code: https://github.com/bytedance/UMO
+  tags:
+  - data.
+  - dep.
+- author: Yasong Dai, Zeeshan Hayder, David Ahmedt-Aristizabal, Hongdong Li
+  title: 'BiFM: Bidirectional Flow Matching for Few-Step Image Editing and Generation.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/DaiHAL26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Dai_BiFM_Bidirectional_Flow_Matching_for_Few-Step_Image_Editing_and_Generation_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/DaiHAL26
+  abstract: Recent diffusion and flow matching models have demonstrated strong capabilities
+    in image generation and editing by progressively removing noise through iterative
+    sampling. While this enables flexible inversion for semantic-preserving edits,
+    few-step sampling regimes suffer from poor forward process approximation, leading
+    to degraded editing quality. Existing few-step inversion methods often rely on
+    pretrained generators and auxiliary modules, limiting scalability and generalization
+    across different architectures. To address these limitations, we propose BiFM
+    (Bidirectional Flow Matching), a unified framework that jointly learns generation
+    and inversion within a single model. BiFM directly estimates average velocity
+    fields in both ``image $\to$ noise" and ``noise $\to$ image" directions, constrained
+    by a shared instantaneous velocity field derived from either predefined schedules
+    or pretrained multi-step diffusion models. Additionally, BiFM introduces a novel
+    training strategy using continuous time-interval supervision, stabilized by a
+    bidirectional consistency objective and a lightweight time-interval embedding.
+    This bidirectional formulation also enables one-step inversion and can integrate
+    seamlessly into popular diffusion and flow matching backbones. Across diverse
+    image editing and generation tasks, BiFM consistently outperforms existing few-step
+    approaches, achieving superior performance and editability.
+  related_code: ''
+  tags:
+  - dep.
+- author: Kate Feingold, Omri Kaduri, Tali Dekel
+  title: 'Match-and-Fuse: Consistent Generation from Unstructured Image Sets.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/FeingoldKD26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Feingold_Match-and-Fuse_Consistent_Generation_from_Unstructured_Image_Sets_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/FeingoldKD26
+  abstract: 'We present Match-and-Fuse - a zero-shot, training-free method for consistent
+    controlled generation of unstructured image sets - collections that share a common
+    visual element, yet differ in viewpoint, time of capture, and surrounding content.
+    Unlike existing methods that operate on individual images or densely sampled videos,
+    our framework performs set-to-set generation: given a source set and user prompts,
+    it produces a new set that preserves cross-image consistency of shared content.
+    Our key idea is to model the task as a graph, where each node corresponds to an
+    image and each edge triggers a joint generation of image pairs. This formulation
+    consolidates all pairwise generations into a unified framework, enforcing local
+    consistency while ensuring global coherence across the entire set. This is achieved
+    by fusing internal features across image pairs, guided by dense input correspondences,
+    without requiring masks or manual supervision, and by leveraging an emergent prior
+    in text-to-image models that encourages coherent generation when multiple views
+    share a single canvas. Match-and-Fuse achieves state-of-the-art consistency and
+    visual quality, and unlocks new capabilities for content creation from image collections.'
+  related_code: ''
+  tags: []
+- author: Bang-Dang Pham, Anh Tran 0001, Cuong Pham 0001, Minh Hoai
+  title: 'BluRef: Unsupervised Image Deblurring with Dense-Matching References.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/PhamTPH26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Pham_BluRef_Unsupervised_Image_Deblurring_with_Dense-Matching_References_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/PhamTPH26
+  abstract: ''
+  related_code: ''
+  tags: []
+- author: Sucheng Ren, Qihang Yu, Ju He, Xiaohui Shen, Liang-Chieh Chen
+  title: Frequency-Aware Flow Matching for High-Quality Image Generation.
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/RenYHSC26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Ren_Frequency-Aware_Flow_Matching_for_High-Quality_Image_Generation_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/RenYHSC26
+  abstract: ''
+  related_code: ''
+  tags: []
+- author: Andranik Sargsyan, Shant Navasardyan
+  title: 'FlowDIS: Language-Guided Dichotomous Image Segmentation with Flow Matching.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/SargsyanN26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Sargsyan_FlowDIS_Language-Guided_Dichotomous_Image_Segmentation_with_Flow_Matching_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/SargsyanN26
+  abstract: 'Accurate image segmentation is essential for modern computer vision applications
+    such as image editing, autonomous driving, and medical image analysis. In recent
+    years, Dichotomous Image Segmentation (DIS) has become a standard task for training
+    and evaluating highly accurate segmentation models. Existing DIS approaches often
+    fail to preserve fine-grained details or fully capture the semantic structure
+    of the foreground. To address these challenges, we present FlowDIS, a novel dichotomous
+    image segmentation method built on the flow matching framework, which learns a
+    time-dependent vector field to transport the image distribution to the corresponding
+    mask distribution, optionally conditioned on a text prompt. Moreover, with our
+    Position-Aware Instance Pairing (PAIP) training strategy, FlowDIS offers strong
+    controllability through text prompts, enabling precise, pixel-level object segmentation.
+    Extensive experiments demonstrate that our method significantly outperforms state-of-the-art
+    approaches both with and without language guidance. Compared with the best prior
+    DIS method, FlowDIS achieves a 5.5% higher $F_β^ω$ measure and 43% lower MAE ($\mathcal{M}$)
+    on the DIS-TE test set. The code is available at: https://github.com/Picsart-AI-Research/FlowDIS'
+  related_code: https://github.com/Picsart-AI-Research/FlowDIS
+  tags:
+  - medi.
+  - data.
 image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20match%20venue%3AICCV%3A:
 - author: Wenzheng Song, Masanori Suganuma, Xing Liu 0010, Noriyuki Shimobayashi,
     Daisuke Maruta, Takayuki Okatani
@@ -49237,6 +50995,242 @@ image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20ma
   related_code: ''
   tags:
   - rs.
+- author: Francesco Taioli, Daniel Coelho, Iaroslav Melekhov, Roberto Alcover-Couso,
+    Jose Miguel Grande Saiz, Virginia Fernandez Arguedas, Artur Bekasov
+  title: 'DiTailed: Ensuring Visual Object Consistency in Text-Image-to-Image Flow
+    Matching Models.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/TaioliCMASAB26
+  doi: 10.1007/978-3-032-37041-9_29
+  ee: https://doi.org/10.1007/978-3-032-37041-9_29
+  url: https://dblp.org/rec/conf/eccv/TaioliCMASAB26
+  abstract: 'Despite remarkable progress in text-guided image editing, generative
+    models frequently fail to preserve visual object consistency, defined as the preservation
+    of a subject’s key attributes throughout the editing process. We address this
+    limitation through three contributions. First, we introduce ABO-Edit, a dataset
+    specifically designed to study object consistency, comprising over $$12\text {,}000$$
+    triplets of source images, editing prompts, and high-quality target images rendered
+    from artist-designed 3D assets, with multi-view coverage and human-verified quality
+    control. Second, we uncover an overlooked property of image-editing rectified
+    flow models: the conditioning embedding space, not directly supervised during
+    training, encodes a prediction of the final generated image even at high noise
+    levels. Third, exploiting this finding, we propose FlowMirror, a parameter-free
+    auxiliary loss that supervises this conditioning embedding space. Without architectural
+    changes, our method improves generation quality across several metrics over baselines.
+    Page: francescotaioli.github.io/DiTailed .'
+  related_code: ''
+  tags:
+  - data.
+- author: Meng Yang 0031, Zizhuo Li, Linfeng Tang, Fan Fan 0001, Jiayi Ma 0001
+  title: 'AnyMatch: Supercharging Universal Multi-modal Image Matching with Large-Scale
+    Single-View Images.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/YangLTFM26
+  doi: 10.1007/978-3-032-37718-0_12
+  ee: https://doi.org/10.1007/978-3-032-37718-0_12
+  url: https://dblp.org/rec/conf/eccv/YangLTFM26
+  abstract: Multi-modal image matching is essential for visual localization and multi-sensor
+    fusion, but it is hindered by the scarcity of large-scale training data with precise
+    geometric annotations. Existing real-world datasets suffer from prohibitive costs,
+    limited scene diversity, and errors in SfM-MVS pipelines, while synthetic methods
+    struggle to maintain 3D geometric consistency or achieve photorealistic appearance.
+    To address this, we propose AnyMatch, a novel framework that leverages abundant,
+    easily accessible single-view images at minimal cost to generate rich multi-modal
+    training data. AnyMatch integrates monocular depth estimation, 3D reprojection,
+    diffusion-based inpainting, and crossmodal image translation to synthesize multi-view,
+    multi-modal image pairs with 3D geometric fidelity. Crucially, our method provides
+    annotations that strictly adhere to 3D geometric consistency through explicit
+    3D reprojection, avoiding SfM-MVS error accumulation. Furthermore, AnyMatch offers
+    strong scalability, enabling controllable scene diversity and annotation difficulty
+    via adjustable input and camera parameters. We construct Any-syn, a large-scale
+    synthetic multi-modal dataset using AnyMatch. Experimental results show that matching
+    networks (e.g., LoFTR, EDM, RoMa) fine-tuned on Any-syn achieve substantial performance
+    gains on multi-modal benchmarks, exhibiting superior generalization and robustness
+    compared to models trained on existing data.
+  related_code: ''
+  tags:
+  - nat.
+  - data.
+  - dep.
+  - oth.
+- author: Junchao Yi, Rui Zhao, Jiahao Tang, Weixian Lei, Linjie Li, Qisheng Su, Zhengyuan
+    Yang, Lijuan Wang, Xiaofeng Zhu, Alex Jinpeng Wang
+  title: 'FlowInOne: Unifying Multimodal Generation as Image-in, Image-Out Flow Matching.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/YiZTLLSYWZW26
+  doi: 10.1007/978-3-032-37592-6_14
+  ee: https://doi.org/10.1007/978-3-032-37592-6_14
+  url: https://dblp.org/rec/conf/eccv/YiZTLLSYWZW26
+  abstract: Multimodal generation has long been dominated by text-driven pipelines
+    where language dictates vision but cannot reason or create within it. We challenge
+    this paradigm by asking whether all modalities, including textual descriptions,
+    spatial layouts, and editing instructions, can be unified into a single visual
+    representation. We present FlowInOne, a framework that reformulates multimodal
+    generation as a purely visual flow, converting all inputs into visual prompts
+    and enabling a clean image-in, image-out pipeline governed by a single flow matching
+    model. This vision-centric formulation naturally eliminates cross-modal alignment
+    bottlenecks, noise scheduling, and task-specific architectural branches, unifying
+    text-to-image generation, layout-guided editing, and visual instruction following
+    under one coherent paradigm. To support this, we introduce VisPrompt-5M, a large-scale
+    dataset of 5 million visual prompt pairs spanning diverse tasks including physics-aware
+    force dynamics and trajectory prediction, alongside VP-Bench, a rigorously curated
+    benchmark assessing instruction faithfulness, spatial precision, visual realism,
+    and content consistency. Extensive experiments demonstrate that FlowInOne achieves
+    state-of-the-art performance among open-source models across all unified generation
+    tasks while remaining competitive with leading commercial systems, thereby establishing
+    a new foundation for fully vision-centric generative modeling, in which perception
+    and creation coexist within a unified continuous visual space. Our code and models
+    are released on https://csu-jpg.github.io/FlowInOne.github.io/
+  related_code: ''
+  tags:
+  - data.
+- author: Purui Bai, Junxian Duan, Pin Wang, Jinhua Hao, Ming Sun 0008, Chao Zhou
+    0003, Huaibo Huang
+  title: 'Tuning Real-World Image Restoration at Inference: A Test-Time Scaling Paradigm
+    for Flow Matching Models.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/BaiDWHSZH26
+  doi: 10.1007/978-3-032-37553-7_10
+  ee: https://doi.org/10.1007/978-3-032-37553-7_10
+  url: https://dblp.org/rec/conf/eccv/BaiDWHSZH26
+  abstract: ''
+  related_code: ''
+  tags:
+  - nat.
+- author: Tianjiao Ding, Ziqing Xu, Benjamin D. Haeffele, Hongkang Li, René Vidal
+  title: Parsimonious Flow Matching for Efficient Image Generation.
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/DingXHLV26
+  doi: 10.1007/978-3-032-37383-0_25
+  ee: https://doi.org/10.1007/978-3-032-37383-0_25
+  url: https://dblp.org/rec/conf/eccv/DingXHLV26
+  abstract: ''
+  related_code: ''
+  tags: []
+- author: Zhenqi He, Ziqi Jiang, Yuanpei Liu, Yanghao Wang, Teng Wang, Long Chen 0016
+  title: 'FlowCIR: Semantic Transport via Flow Matching for Zero-Shot Composed Image
+    Retrieval.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/HeJLWWC26
+  doi: 10.1007/978-3-032-37038-9_10
+  ee: https://doi.org/10.1007/978-3-032-37038-9_10
+  url: https://dblp.org/rec/conf/eccv/HeJLWWC26
+  abstract: Zero-shot composed image retrieval (ZS-CIR) aims to retrieve a target
+    image by editing a reference image with a natural-language instruction, without
+    relying on domain-specific annotated triplets. Most existing ZS-CIR methods rely
+    on textual inversion to translate the reference image into pseudo-text tokens
+    and then compose them with the instruction via simple concatenation in the text
+    space, which can be lossy and brittle for fine-grained semantics. In this work,
+    we propose a new paradigm, namely FlowCIR, that casts ZS-CIR as conditional semantic
+    transport between reference and target embeddings. Leveraging \emph{conditional
+    flow matching}, our model learns a lightweight transport field that maps the instruction
+    representation toward a target-aligned query embedding conditioned on the reference
+    image. Since FlowCIR operates on pre-extracted VLM embeddings and trains only
+    a small transport module without updating the image or text encoder, it offers
+    a computationally efficient training protocol compared with prior textual-inversion-based
+    approaches. The resulting framework is training-efficient, requiring roughly $10\times$
+    fewer training resources than prior textual-inversion-based approaches. We further
+    identify negation and removal as a major failure mode of VLM-based composition.
+    To address this, we propose an inference-only Multi-Negative Steering strategy
+    that steers a negation-containing relative instruction away from its negated semantics,
+    mitigating the limited negation handling of VLMs and improving robustness on negation-heavy
+    queries. Extensive experiments on standard CIR benchmarks demonstrate that FlowCIR
+    achieves strong and competitive performance compared with recent ZS-CIR methods.
+  related_code: ''
+  tags: []
+- author: Sangwoo Jo, Donggeun Ko, Jayeon Kang, Youngsang Kwak, Jaehwa Kwak, Sungjoon
+    Choi
+  title: 'Flow Straight to Reality: Perceptually Consistent Flow Matching for Efficient
+    Image Restoration.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/JoKKKKC26
+  doi: 10.1007/978-3-032-37718-0_14
+  ee: https://doi.org/10.1007/978-3-032-37718-0_14
+  url: https://dblp.org/rec/conf/eccv/JoKKKKC26
+  abstract: 'Image restoration is fundamentally constrained by the tradeoff between
+    distortion and perception: minimizing pixel-wise error yields over-smoothed results,
+    whereas optimizing for perceptual realism often introduces structural deviations.
+    Recent approaches attempt to balance this tradeoff via posterior sampling or multi-stage
+    generative pipelines, yet remain computationally expensive and architecturally
+    complex. To overcome these limitations, we propose PCFlow (Perceptually Consistent
+    Flow Matching), a unified framework that directly parameterizes a continuous transport
+    from degraded observations to clean targets, jointly optimizing distortion and
+    perceptual quality. While its latent consistency flow objective drives stable
+    and efficient few-step inference, a Latent Consistency Perceptual Loss (LCPL)
+    imposes semantic constraints directly on the guiding velocity field, steering
+    the dynamics toward visually sharp data manifolds. Furthermore, recognizing the
+    inherent conflict between structural and perceptual consistencies, we integrate
+    a conflict-free gradient projection strategy to stabilize the multi-objective
+    optimization landscape. Combined with lightweight, convolution-only backbone,
+    PCFlow achieves competitive performance across diverse restoration tasks at a
+    fraction of traditional computational costs.'
+  related_code: ''
+  tags:
+  - dep.
+- author: Shuyi Liang, Yixin Yang 0008, Hanyue Lou, Yuning Cui 0001, Boxin Shi
+  title: 'SLAIR: Structured Latent Flow Matching for All-in-One Image Restoration.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/LiangYLCS26
+  doi: 10.1007/978-3-032-37517-9_3
+  ee: https://doi.org/10.1007/978-3-032-37517-9_3
+  url: https://dblp.org/rec/conf/eccv/LiangYLCS26
+  abstract: ''
+  related_code: ''
+  tags: []
+- author: Jiangang Wang, Shangquan Sun, Aiping Zhang, Yuning Cui 0001, Wenqi Ren
+  title: 'AdaBridge-SR: Adaptive Bridge Matching for Real-World Image Super-Resolution.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/WangSZCR26
+  doi: 10.1007/978-3-032-37461-5_33
+  ee: https://doi.org/10.1007/978-3-032-37461-5_33
+  url: https://dblp.org/rec/conf/eccv/WangSZCR26
+  abstract: ''
+  related_code: ''
+  tags:
+  - nat.
+- author: Chenfeng Wei, Chun Wang, Boyang Zhao, Si Zuo, Shenhong Wang, Chenguang Yang
+    0001
+  title: 'RTE-FM-Dehazer: Radiative Transfer Equation Inspired Flow Matching for Real-World
+    Image Dehazing.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/WeiWZZWY26
+  doi: 10.1007/978-3-032-37026-6_22
+  ee: https://doi.org/10.1007/978-3-032-37026-6_22
+  url: https://dblp.org/rec/conf/eccv/WeiWZZWY26
+  abstract: ''
+  related_code: ''
+  tags:
+  - nat.
 image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20match%20streamid%3Aconf%2Fmm%3A:
 - author: Wenmiao Hu, Yichen Zhang 0002, Yuxuan Liang 0002, Yifang Yin, Andrei Georgescu,
     An Tran, Hannes Kruppa, See-Kiong Ng, Roger Zimmermann
@@ -51795,6 +53789,37 @@ image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20ma
   related_code: ''
   tags:
   - medi.
+- author: Mohamed Salim Ben Omrane, Ségolène Martin, Mounir Kaaniche, Astrid Laurent-Bellue,
+    Wided Souid Miled, Catherine Guettier, Jean-Christophe Pesquet
+  title: Making HE Histopathological Images More Colorful by Conditional Flow Matching.
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/OmraneMKLMGP26
+  doi: 10.1007/978-3-032-38224-5_29
+  ee: https://doi.org/10.1007/978-3-032-38224-5_29
+  url: https://dblp.org/rec/conf/miccai/OmraneMKLMGP26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+- author: Peeyush Kumar Singh, Inam Ul Haq Gulzar, Sneha Singh, Aditya Nigam, Pankaj
+    Gupta
+  title: 'VarDeFlow: Variational Deformation Learning with Flow Matching for Multi-organ
+    Cross-Modality Medical Image Synthesis.'
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/SinghGSNG26
+  doi: 10.1007/978-3-032-38186-6_36
+  ee: https://doi.org/10.1007/978-3-032-38186-6_36
+  url: https://dblp.org/rec/conf/miccai/SinghGSNG26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
 image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20match%20venue%3AMedical_Image_Anal.%3A:
 - author: Alfredo Morales Pinzón, Marcela Hernández Hoyos, Jean-Christophe Richard,
     Leonardo Floréz-Valencia, Maciej Orkisz
@@ -54086,6 +56111,77 @@ optical%20flow%7Cscene%20flow%20venue%3AICLR%3A:
   tags:
   - oth.
   abstract_cn: 针对合成光流数据集的综合性研究试图揭示哪些特性能够促进基于学习的光流估计精度的提升。然而，人工识别并验证那些有助于提高光流估计精度的特性，需要通过迭代地构建整套合成数据集并在其上进行训练来开展大规模的试错实验，这在实践中并不可行。为应对这一挑战，我们提出了一种可微分的光流数据生成流水线及相应的驱动损失函数，称为DFlow。DFlow能够在无需繁琐试错的情况下，高效地为目标域合成出有效的数据集。这一优势得益于我们所提出的高效数据集比较方法：该方法利用神经网络对每个数据集进行近似编码，并通过比较这些代理网络来间接评估数据集之间的差异，而无需以成对方式显式地逐一对比各个数据集。实验结果表明，在预训练阶段，DFlow的表现与现有方法相当；此外，在Sintel公开基准上，采用RAFT模型进行微调时，DFlow的性能优于其他竞争性数据集。
+- author: Victor Oei, Jenny Schmalfuss, Lukas Mehl, Madlen Bartsch, Shashank Agnihotri,
+    Margret Keuper, Andreas Bulling, Andrés Bruhn
+  title: 'RobustSpring: Benchmarking Robustness to Image Corruptions for Optical Flow,
+    Scene Flow and Stereo.'
+  venue: ICLR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iclr/OeiSMBAKBB26
+  doi: ''
+  ee: https://proceedings.iclr.cc/paper_files/paper/2026/hash/5892bfd54d762b9da1d2c513aef3df42-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/iclr/OeiSMBAKBB26
+  abstract: Standard benchmarks for optical flow, scene flow, and stereo vision algorithms
+    generally focus on model accuracy rather than robustness to image corruptions
+    like noise or rain. Hence, the resilience of models to such real-world perturbations
+    is largely unquantified. To address this, we present RobustSpring, a comprehensive
+    dataset and benchmark for evaluating robustness to image corruptions for optical
+    flow, scene flow, and stereo models. RobustSpring applies 20 different image corruptions,
+    including noise, blur, color changes, quality degradations, and weather distortions,
+    in a time-, stereo-, and depth-consistent manner to the high-resolution Spring
+    dataset, creating a suite of 20,000 corrupted images that reflect challenging
+    conditions. RobustSpring enables comparisons of model robustness via a new corruption
+    robustness metric. Integration with the Spring benchmark enables two-axis evaluations
+    of both accuracy and robustness. We benchmark a curated selection of initial models,
+    observing that robustness varies widely by corruption type, and experimentally
+    show that evaluations on RobustSpring indicate real-world robustness. RobustSpring
+    is a new computer vision benchmark to treat robustness as a first-class citizen,
+    fostering models that are accurate and resilient. It is available at https://spring-benchmark.org.
+  related_code: ''
+  tags:
+  - data.
+  - oth.
+- author: Jiuming Liu, Mengmeng Liu, Siting Zhu 0001, Yunpeng Zhang, Jiangtao Li,
+    Michael Ying Yang, Francesco Nex, Hao Cheng 0008, Hesheng Wang 0001
+  title: 'ARFlow: Auto-regressive Optical Flow Estimation for Arbitrary-Length Videos
+    via Progressive Next-Frame Forecasting.'
+  venue: ICLR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iclr/LiuLZZLYNCW26
+  doi: ''
+  ee: https://proceedings.iclr.cc/paper_files/paper/2026/hash/d3408794e41dd23e34634344d662f5e9-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/iclr/LiuLZZLYNCW26
+  abstract: ''
+  related_code: ''
+  tags:
+  - oth.
+- author: Yihan Wang, Jia Deng 0001
+  title: 'WAFT: Warping-Alone Field Transforms for Optical Flow.'
+  venue: ICLR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iclr/WangD26
+  doi: ''
+  ee: https://proceedings.iclr.cc/paper_files/paper/2026/hash/ff2853ed92a6e6983ecccd9c922a42d2-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/iclr/WangD26
+  abstract: We introduce Warping-Alone Field Transforms (WAFT), a simple and effective
+    method for optical flow. WAFT is similar to RAFT but replaces cost volume with
+    high-resolution warping, achieving better accuracy with lower memory cost. This
+    design challenges the conventional wisdom that constructing cost volumes is necessary
+    for strong performance. WAFT is a simple and flexible meta-architecture with minimal
+    inductive biases and reliance on custom designs. Compared with existing methods,
+    WAFT ranks 1st on Spring, Sintel, and KITTI benchmarks, achieves the best zero-shot
+    generalization on KITTI, while being 1.3-4.1x faster than existing methods that
+    have competitive accuracy (e.g., 1.3x than Flowformer++, 4.1x than CCMR+). Code
+    and model weights are available at \href{https://github.com/princeton-vl/WAFT}{https://github.com/princeton-vl/WAFT}.
+  related_code: https://github.com/princeton-vl/WAFT
+  tags:
+  - oth.
 optical%20flow%7Cscene%20flow%20venue%3ACOLT%3A: []
 optical%20flow%7Cscene%20flow%20venue%3AUAI%3A: []
 optical%20flow%7Cscene%20flow%20streamid%3Ajournals%2Fml%3A: []
@@ -59171,6 +61267,190 @@ optical%20flow%7Cscene%20flow%20venue%3ACVPR%3A:
   related_code: ''
   tags:
   - oth.
+- author: Fengyuan Zuo, Haiyan Jin, Yuanlin Zhang, Zhaolin Xiao, Bin Wang, Yuerong
+    Mu
+  title: 'FlowFM: Advancing Dark Optical Flow Estimation with Flow Matching.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/ZuoJZXWM26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Zuo_FlowFM_Advancing_Dark_Optical_Flow_Estimation_with_Flow_Matching_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/ZuoJZXWM26
+  abstract: ''
+  related_code: ''
+  tags:
+  - oth.
+- author: Ao Luo 0001, Xin Li 0079, Fan Yang 0054, Yuezun Li, Zhaoquan Yuan, Shan
+    Zhao, Bing Su, Xiao Wu 0001
+  title: 'Optical Flow Matching: Reframing Optical Flow as Continuous Transport Dynamics.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/LuoLYLYZSW26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Luo_Optical_Flow_Matching_Reframing_Optical_Flow_as_Continuous_Transport_Dynamics_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/LuoLYLYZSW26
+  abstract: ''
+  related_code: ''
+  tags:
+  - oth.
+- author: Yunsong Wang, Gim Hee Lee
+  title: 'Flow4DGS-SLAM: Optical Flow-Guided 4D Gaussian Splatting SLAM.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/WangL26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Flow4DGS-SLAM_Optical_Flow-Guided_4D_Gaussian_Splatting_SLAM_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/WangL26
+  abstract: ''
+  related_code: ''
+  tags:
+  - pc.
+  - oth.
+- author: Yuchen Zou, Huikai Shao, Lihuang Fang, Zhipeng Xiong, Dexing Zhong
+  title: 'FlowPalm: Optical Flow Driven Non-Rigid Deformation for Geometrically Diverse
+    Palmprint Generation.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/ZouSFXZ26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Zou_FlowPalm_Optical_Flow_Driven_Non-Rigid_Deformation_for_Geometrically_Diverse_Palmprint_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/ZouSFXZ26
+  abstract: 'Recently, synthetic palmprints have been increasingly used as substitutes
+    for real data to train recognition models. To be effective, such synthetic data
+    must reflect the diversity of real palmprints, including both style variation
+    and geometric variation. However, existing palmprint generation methods mainly
+    focus on style translation, while geometric variation is either ignored or approximated
+    by simple handcrafted augmentations. In this work, we propose FlowPalm, an optical-flow-driven
+    palmprint generation framework capable of simulating the complex non-rigid deformations
+    observed in real palms. Specifically, FlowPalm estimates optical flows between
+    real palmprint pairs to capture the statistical patterns of geometric deformations.
+    Building on these priors, we design a progressive sampling process that gradually
+    introduces the geometric deformations during diffusion while maintaining identity
+    consistency. Extensive experiments on six benchmark datasets demonstrate that
+    FlowPalm significantly outperforms state-of-the-art palmprint generation approaches
+    in downstream recognition tasks. Project page: https://yuchenzou.github.io/FlowPalm/'
+  related_code: ''
+  tags:
+  - data.
+  - oth.
+- author: Karlis Martins Briedis, Markus Groß 0001, Christopher Schroers
+  title: Efficient All-Pairs Correlation Volume Sampling for Optical Flow Estimation.
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/BriedisGS26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Briedis_Efficient_All-Pairs_Correlation_Volume_Sampling_for_Optical_Flow_Estimation_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/BriedisGS26
+  abstract: Recent optical flow estimation methods often employ local cost sampling
+    from a dense all-pairs correlation volume. This results in quadratic computational
+    and memory complexity in the number of pixels. Although an alternative memory-efficient
+    implementation with on-demand cost computation exists, this is significantly slower
+    in practice and therefore many prior methods process images at downsampled resolutions,
+    missing fine-grained details. To address this, we propose an algorithm for both
+    memory and compute-efficient implementation of the all-pairs correlation volume
+    sampling, still matching the exact mathematical operator as defined by RAFT. Our
+    approach outperforms on-demand sampling by up to 92% while maintaining equally
+    low memory usage, and performs at least on par with the default implementation
+    with up to 99% lower memory usage. As cost sampling makes up a significant portion
+    of the overall runtime, this can translate to up to 63% savings for the total
+    end-to-end model inference on high-resolution inputs. Our evaluation of existing
+    methods includes an 8K ultra-high-resolution dataset and an inference-time extension
+    of the SEA-RAFT method. With this, we achieve state-of-the-art results at high
+    resolutions both in accuracy and runtime.
+  related_code: ''
+  tags:
+  - data.
+  - dep.
+  - oth.
+- author: Xizhou Bu, Jiexi Lyu, Fulei Sun, Ruichen Yang, Zhiqiang Ma, Wei Li
+  title: 'LAOF: Robust Latent Action Learning with Optical Flow Constraints.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/BuLSYML26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Bu_LAOF_Robust_Latent_Action_Learning_with_Optical_Flow_Constraints_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/BuLSYML26
+  abstract: Learning latent actions from large-scale videos is crucial for the pre-training
+    of scalable embodied foundation models, yet existing methods often struggle with
+    action-irrelevant distractors. Although incorporating action supervision can alleviate
+    these distractions, its effectiveness is restricted by the scarcity of available
+    action labels. Optical flow represents pixel-level motion between consecutive
+    frames, naturally suppressing background elements and emphasizing moving objects.
+    Motivated by this, we propose robust Latent Action learning with Optical Flow
+    constraints, called LAOF, a pseudo-supervised framework that leverages the agent's
+    optical flow as an action-driven signal to learn latent action representations
+    robust to distractors. Experimental results show that the latent representations
+    learned by LAOF outperform existing methods on downstream imitation learning and
+    reinforcement learning tasks. This superior performance arises from optical flow
+    constraints, which substantially stabilize training and improve the quality of
+    latent representations under extremely label-scarce conditions, while remaining
+    effective as the proportion of action labels increases to 10 percent. Importantly,
+    even without action supervision, LAOF matches or surpasses action-supervised methods
+    trained with 1 percent of action labels.
+  related_code: ''
+  tags:
+  - dep.
+  - oth.
+- author: Rui Hu, Song Wu, Wen Yang 0008, Jinjian Wu
+  title: 'From Contrast to Consistency: Rethinking Event-based Continuous-Time Optical
+    Flow Estimation.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/HuWYW26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Hu_From_Contrast_to_Consistency_Rethinking_Event-based_Continuous-Time_Optical_Flow_Estimation_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/HuWYW26
+  abstract: Estimating continuous optical flow is a fundamental yet challenging problem
+    in dynamic visual perception. Event-based cameras, with microsecond latency and
+    high dynamic range, capture brightness changes asynchronously, offering a unique
+    opportunity to model motion with fine temporal precision. However, the scarcity
+    of temporally dense ground-truth annotations limits the effectiveness of supervised
+    learning, while contrast maximization (CM) frameworks, focused on sharpening the
+    Image of Warped Events (IWE), often neglect temporal continuity and structural
+    coherence, leading to distorted trajectories under complex motion. To overcome
+    these challenges, we propose a hybrid-supervised framework for continuous-time
+    optical flow estimation, grounded in the principle of Spatio-temporal Structural
+    Consistency (STSC). This paradigm jointly enforces local structural stability
+    and trajectory continuity, ensuring physically coherent motion across time. To
+    further enhance representation and robustness, we design a bidirectionally complementary
+    multi-scale architecture and employ a curriculum-guided hybrid training strategy,
+    enabling a smooth transition from supervised point constraints to self-supervised
+    manifold regularization. Comprehensive experiments across multiple benchmarks
+    show that our method achieves state-of-the-art performance in both continuous-time
+    and standard optical flow estimation, demonstrating the effectiveness of the proposed
+    learning paradigm.
+  related_code: ''
+  tags:
+  - dep.
+  - oth.
+- author: Xunpei Sun, Wenwei Lin, Yi Chang 0002, Gang Chen 0023
+  title: 'U2Flow: Uncertainty-Aware Unsupervised Optical Flow Estimation.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/SunLCC26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Sun_U2Flow_Uncertainty-Aware_Unsupervised_Optical_Flow_Estimation_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/SunLCC26
+  abstract: ''
+  related_code: ''
+  tags:
+  - oth.
 optical%20flow%7Cscene%20flow%20venue%3AICCV%3A:
 - author: Zhexiong Wan, Yuxin Mao, Jing Zhang 0052, Yuchao Dai
   title: 'RPEFlow: Multimodal Fusion of RGB-PointCloud-Event for Joint Optical Flow
@@ -62444,6 +64724,156 @@ optical%20flow%7Cscene%20flow%20venue%3AECCV%3A:
   related_code: ''
   tags:
   - oth.
+- author: Yuang Meng, Chenyang Wu, Xianshun Liu, Chun-Le Guo, Zichen Liang, Lina Lei,
+    Jie Liang 0007, Hui Zeng 0001, Chongyi Li, Lei Zhang 0006
+  title: 'FlowPainter: Inpainting Optical Flow via Confidence-Guided Completion.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/MengWLGLLLZLZ26
+  doi: 10.1007/978-3-032-37324-3_26
+  ee: https://doi.org/10.1007/978-3-032-37324-3_26
+  url: https://dblp.org/rec/conf/eccv/MengWLGLLLZLZ26
+  abstract: ''
+  related_code: ''
+  tags:
+  - oth.
+- author: Vladislav Bargatin, Alexander Yakovenko, Khaled Abud, Dmitriy S. Vatolin
+  title: 'FreeFlow: A Bias-Free Hierarchical Transformer for Optical Flow Estimation.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/BargatinYAV26
+  doi: 10.1007/978-3-032-37132-4_11
+  ee: https://doi.org/10.1007/978-3-032-37132-4_11
+  url: https://dblp.org/rec/conf/eccv/BargatinYAV26
+  abstract: 'Optical flow methods typically rely on task-specific inductive biases,
+    such as correlation volumes, feature warping, and iterative refinement, among
+    others, to reach high accuracy. While effective, such biases constrain the model
+    to predefined heuristics, which can limit its expressivity and lead to more complex
+    pipelines and additional computational cost. We present FreeFlow, a hierarchical
+    transformer built without any flow-specific components, using instead a single
+    feed-forward encoder--decoder. FreeFlow combines three attention variants: window
+    attention for local processing, shifted-window attention for cross-window information
+    exchange, and a global attention operating at a reduced resolution. The resulting
+    architecture scales naturally with model capacity, enabling a consistent accuracy
+    gain from small to large variants. Despite the absence of standard inductive biases,
+    FreeFlow achieves state-of-the-art results on major benchmarks, including Sintel
+    (0.68/1.48 EPE on Clean/Final), KITTI-2015 (3.23 Fl-all), and Spring (3.192 1px),
+    while remaining memory efficient at 1080p inference.'
+  related_code: ''
+  tags:
+  - dep.
+  - oth.
+- author: Petter Reijalt, Sander Gielisse, Rickard Karlsson, Jan van Gemert
+  title: On the Real-World Generalisability of Optical Flow Models.
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/ReijaltGKG26
+  doi: 10.1007/978-3-032-36839-3_20
+  ee: https://doi.org/10.1007/978-3-032-36839-3_20
+  url: https://dblp.org/rec/conf/eccv/ReijaltGKG26
+  abstract: 'Real-world deployment of vision models to broadly benefit society is
+    arguably a main research objective. In optical flow, however, the difficulty to
+    obtain the ground truth has focused research mainly on synthetic data and domain-specific
+    benchmarks. Here, we investigate the severity of this mismatch. We study how well
+    modern optical flow estimation models generalise to real-world video and question
+    if accuracy on synthetic benchmark proxies actually predicts accuracy on real-world
+    optical flow. To address this, we build a real-world evaluation benchmark and
+    evaluate the real-world generalisability of a broad set of recent optical flow
+    models using standard checkpoints. Our benchmark contains 8,204 frame pairs across
+    TAP-Flow, Slow Flow, and our own dataset FlowFactor. FlowFactor is a manually
+    annotated real-world benchmark of 1,000 HD frame pairs organised into four confounding
+    factors: large displacements, repetitive textures, occlusions, and lighting variation.
+    Each setting mainly varies only one factor, enabling diagnostic, confounder-specific
+    analysis. Using FlowFactor, we reveal that performance on varying lighting and
+    large displacements correlates most strongly with real-world accuracy, and that
+    improvements on large-motion regimes can trade off against robustness in small-motion,
+    stationary scenes. Our experiments show that progress on Sintel, KITTI and Spring
+    only weakly predicts accuracy on real-world data, highlighting the need for a
+    broad real-world optical flow benchmark. Interestingly, scaling up the amount
+    of training data does not necessarily resolve the gap, calling for new innovative
+    research instead of simply scaling data and compute.'
+  related_code: ''
+  tags:
+  - data.
+  - oth.
+- author: Thomas Weigel, Simon Kiefhaber 0002, Fabian Portner, Matthias Hollick, Simone
+    Schaub-Meyer
+  title: 'WiFlow: Estimating Optical Flow Using WiFi Channel State Information.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/WeigelKPHS26
+  doi: 10.1007/978-3-032-37350-2_24
+  ee: https://doi.org/10.1007/978-3-032-37350-2_24
+  url: https://dblp.org/rec/conf/eccv/WeigelKPHS26
+  abstract: Knowing where and how fast objects are moving within a scene is important
+    across various domains. Usually, cameras are used to capture the data necessary
+    for this task, but adding cameras often raises privacy concerns, and the quality
+    of captured frames is heavily influenced by lighting conditions. In this work,
+    we explore using WiFi channel state information (CSI) instead of camera frames
+    for optical flow estimation. We propose WiFlow, a CSI based flow estimator, a
+    preprocessor evaluation for CSI, and three model architectures that offer different
+    trade-offs between accuracy and complexity. Further, we create the first dataset
+    for training and evaluating CSI-based optical flow estimators, and our experiments
+    provide insights into key design elements for this task. Code and data are available
+    at https://visinf.github.io/wiflow.
+  related_code: ''
+  tags:
+  - data.
+  - oth.
+- author: Yi Xiao, Carlos Rodriguez Coronel, Jing Zhan, Haniyeh Ehsani Oskouie, Alex
+    Wong 0001, Dong Lao
+  title: Triangular Consistency as a Universal Constraint for Learning Optical Flow.
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/XiaoCZOWL26
+  doi: 10.1007/978-3-032-37261-1_8
+  ee: https://doi.org/10.1007/978-3-032-37261-1_8
+  url: https://dblp.org/rec/conf/eccv/XiaoCZOWL26
+  abstract: ''
+  related_code: ''
+  tags:
+  - oth.
+- author: Dingxi Zhang, Fangjinhua Wang, Marc Pollefeys, Haofei Xu
+  title: 'MegaFlow: Zero-Shot Large Displacement Optical Flow.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/ZhangWPX26
+  doi: 10.1007/978-3-032-37321-2_19
+  ee: https://doi.org/10.1007/978-3-032-37321-2_19
+  url: https://dblp.org/rec/conf/eccv/ZhangWPX26
+  abstract: 'Accurate estimation of large displacement optical flow remains a critical
+    challenge. Existing methods typically rely on iterative local search or/and domain-specific
+    fine-tuning, which severely limits their performance in large displacement and
+    zero-shot generalization scenarios. To overcome this, we introduce MegaFlow, a
+    simple yet powerful model for zero-shot large displacement optical flow. Rather
+    than relying on highly complex, task-specific architectural designs, MegaFlow
+    adapts powerful pre-trained vision priors to produce temporally consistent motion
+    fields. In particular, we formulate flow estimation as a global matching problem
+    by leveraging pre-trained global Vision Transformer features, which naturally
+    capture large displacements. This is followed by a few lightweight iterative refinements
+    to further improve the sub-pixel accuracy. Extensive experiments demonstrate that
+    MegaFlow achieves state-of-the-art zero-shot performance across multiple optical
+    flow benchmarks. Moreover, our model also delivers highly competitive zero-shot
+    performance on long-range point tracking benchmarks, demonstrating its robust
+    transferability and suggesting a unified paradigm for generalizable motion estimation.
+    Our project page is at: https://kristen-z.github.io/projects/megaflow.'
+  related_code: ''
+  tags:
+  - data.
+  - dep.
+  - oth.
 optical%20flow%7Cscene%20flow%20streamid%3Aconf%2Fmm%3A:
 - author: Jun Yu 0001, Yaohui Zhang, Gongpeng Zhao, Peng He 0004, Zerui Zhang, Zhongpeng
     Cai, Qingsong Liu, Jianqing Sun, Jiaen Liang
@@ -63539,6 +65969,39 @@ optical%20flow%7Cscene%20flow%20streamid%3Ajournals%2Fijcv%3A:
   related_code: ''
   tags:
   - oth.
+- author: Hongzhi You, Yijun Cao, Wei Yuan, Fanjun Wang, Ning Qiao, Yongjie Li
+  title: Vector-Symbolic Architecture for Event-Based Optical Flow.
+  venue: Int. J. Comput. Vis.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/ijcv/YouCYWQL26
+  doi: 10.1007/S11263-026-02951-8
+  ee: https://doi.org/10.1007/s11263-026-02951-8
+  url: https://dblp.org/rec/journals/ijcv/YouCYWQL26
+  abstract: From a perspective of feature matching, optical flow estimation for event
+    cameras involves identifying event correspondences by comparing feature similarity
+    between two consecutive event slices. In this work, we introduce an effective
+    and robust high-dimensional feature descriptor for event slices, utilizing Vector
+    Symbolic Architectures (VSA). The topological similarity among neighboring variables
+    within VSA contributes to the enhanced representation similarity of feature descriptors
+    for flow-matching points, while its structured symbolic representation capacity
+    facilitates feature fusion from both event polarities and multiple spatial scales.
+    Based on this high-dimensional feature descriptor, we propose a novel feature
+    matching framework for event-based optical flow, encompassing both model-based
+    (VSA-Flow) and self-supervised learning (VSA-SM) methods. In VSA-Flow, accurate
+    optical flow estimation validates the effectiveness of feature descriptors. In
+    VSA-SM, a novel similarity maximization method based on the feature descriptor
+    is proposed to learn optical flow in a self-supervised way from events alone,
+    eliminating the need for auxiliary grayscale images. Evaluation results demonstrate
+    that our VSA-based method is highly effective compared to both model-based and
+    self-supervised learning methods on the DSEC and MVSEC benchmarks. This contribution
+    marks a significant advancement in event-based optical flow within the feature
+    matching methodology. Our code will be available at https://github.com/youhongzhi/VSA_For_EventOpticalFlow.
+  related_code: https://github.com/youhongzhi/VSA_For_EventOpticalFlow
+  tags:
+  - dep.
+  - oth.
 optical%20flow%7Cscene%20flow%20venue%3AACL%3A: []
 optical%20flow%7Cscene%20flow%20venue%3ANAACL-HLT%3A: []
 optical%20flow%7Cscene%20flow%20venue%3AEMNLP%3A: []
@@ -64382,6 +66845,21 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AICLR%3A:
   - data.
   - dep.
   - oth.
+- author: Hyojun Go, Dominik Narnhofer, Goutam Bhat, Prune Truong, Federico Tombari,
+    Konrad Schindler
+  title: Text-to-3D by Stitching a Multi-view Reconstruction Network to a Video Generator.
+  venue: ICLR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iclr/GoNBTTS26
+  doi: ''
+  ee: https://proceedings.iclr.cc/paper_files/paper/2026/hash/40121c4f72e384c6d1d2c1366c39b57e-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/iclr/GoNBTTS26
+  abstract: ''
+  related_code: ''
+  tags:
+  - oth.
 stitch%7Cpanorama%7Cmosaic%20venue%3ACOLT%3A: []
 stitch%7Cpanorama%7Cmosaic%20venue%3AUAI%3A: []
 stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Fml%3A: []
@@ -64642,6 +67120,43 @@ stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Fpami%3A:
   related_code: ''
   tags:
   - oth.
+- author: Renwei Dian, Nan Wang, Anjing Guo, Shutao Li 0001
+  title: Equivariant Bayesian Hyperspectral Imaging via Mosaiced and PAN Image Fusion.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/DianWGL26
+  doi: 10.1109/TPAMI.2026.3682543
+  ee: https://doi.org/10.1109/TPAMI.2026.3682543
+  url: https://dblp.org/rec/journals/pami/DianWGL26
+  abstract: A high-resolution (HR) hyperspectral imaging at video rates can be achieved
+    by fusing a multi-band low-resolution (LR) mosaiced image and a single-band HR
+    panchromatic (PAN) image in a single shot within a short time. However, the current
+    fusion methods always suffer from a spatial or spectral distortion. To alleviate
+    this, we propose an equivariant Bayesian variational inference framework. Specifically,
+    we decompose an HR hyperspectral image (HSI) into the principal component and
+    sparsity residual, which are modeled as latent variables with Gaussian priors.
+    Each component is estimated via a shared deep neural network (DNN) under a variational
+    inference framework, leveraging the shared spatial structures to enhance parameter
+    efficiency and reconstruction accuracy. Additionally, to tackle the challenge
+    of unavailable ground truth in real-world scenarios, we integrate the equivariant
+    imaging (EI) prior with the Bayesian framework. By enforcing the consistency between
+    the transformed fusion result and the re-inference output, this strategy enables
+    the network to learn beyond the range space. Furthermore, we propose to utilize
+    the learnable degradation functions derived from the physical imaging model to
+    enable the proposed framework, which ensures an enhanced performance by posing
+    plausible constraints on parameters of the degradation functions. Specifically,
+    we explicitly model the point spread function (PSF) and spectral response function
+    (SRF) with learnable parameters and impose non-negativity and sum-to-one constraints.
+    Extensive experiments conducted on both simulated and real-world datasets demonstrate
+    the effectiveness of the proposed framework, paving the way for HSI computational
+    imaging.
+  related_code: ''
+  tags:
+  - rs.
+  - data.
+  - dep.
 stitch%7Cpanorama%7Cmosaic%20venue%3AKDD%3A: []
 stitch%7Cpanorama%7Cmosaic%20venue%3AWSDM%3A: []
 stitch%7Cpanorama%7Cmosaic%20streamid%3Aconf%2Fsp%3A: []
@@ -65967,6 +68482,69 @@ stitch%7Cpanorama%7Cmosaic%20venue%3ACVPR%3A:
   related_code: ''
   tags:
   - oth.
+- author: Miaoge Li, Dongsheng Wang, Zening Sun, Jinsen Zhang, Wenhan Luo, Jingcai
+    Guo
+  title: 'STiTch: Semantic Transition and Transportation in Collaboration for Training-Free
+    Zero-Shot Composed Image Retrieval.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/LiWSZLG26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Li_STiTch_Semantic_Transition_and_Transportation_in_Collaboration_for_Training-Free_Zero-Shot_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/LiWSZLG26
+  abstract: Training-free zero-shot composed image retrieval models are recently gaining
+    increasing research interest due to their generalizability and flexibility in
+    unseen multimodal retrieval. Recent LLM-based advances focus on generating the
+    expected target caption by exploring the compositional ability behind the LLMs.
+    Although efficient, we find that 1) the generated captions tend to introduce unexpected
+    features from the reference image due to the semantic gap between the input image
+    and text modification, where the image contains much more details than the text;
+    2) the point-to-point alignment during the retrieval stage fails to capture diverse
+    compositions. To address these challenges, we introduce a novel Semantic Transition
+    and Transportation in collaboration framework for training-free zero-shot CIR
+    tasks. Specifically, given the composed caption inferred by an LLM, we aim to
+    refine it through a transition vector in the embedding space and make it closer
+    to the target image. Combining LLMs with user instruction, the refined caption
+    concentrates more on the core modification intent and thus filters out unnecessary
+    noise. Moreover, to explore diverse alignment during the retrieval stage, we model
+    the caption and image as discrete distributions and reformulate the retrieval
+    task as a set-to-set alignment task. Finally, a bidirectional transportation distance
+    is developed to consider fine-grained alignments across modalities and calculate
+    the retrieval score. Extensive experiments demonstrate that our method can be
+    general, effective, and beneficial for many CIR tasks.
+  related_code: ''
+  tags:
+  - dep.
+  - oth.
+- author: Chi Hsuan Wu, Kumar Ashutosh, Kristen Grauman
+  title: 'Stitch-a-Demo: Creating Video Demonstrations from Multistep Descriptions.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/WuAG26a
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Wu_Stitch-a-Demo_Creating_Video_Demonstrations_from_Multistep_Descriptions_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/WuAG26a
+  abstract: When obtaining visual illustrations from text descriptions, today's methods
+    take a description with a single text context - a caption, or an action description
+    - and retrieve or generate the matching visual context. However, prior work does
+    not permit visual illustration of multistep descriptions, e.g. a cooking recipe
+    or a gardening instruction manual, and simply handling each step description in
+    isolation would result in an incoherent demonstration. We propose Stitch-a-Demo,
+    a novel retrieval-based method to assemble a video demonstration from a multistep
+    description. The resulting video contains clips, possibly from different sources,
+    that accurately reflect all the step descriptions, while being visually coherent.
+    We formulate a training pipeline that creates large-scale weakly supervised data
+    containing diverse procedures and injects hard negatives that promote both correctness
+    and coherence. Validated on in-the-wild instructional videos, Stitch-a-Demo achieves
+    state-of-the-art performance, with gains up to 29% as well as dramatic wins in
+    a human preference study.
+  related_code: ''
+  tags:
+  - oth.
 stitch%7Cpanorama%7Cmosaic%20venue%3AICCV%3A:
 - author: Hengzhe Jin, Lang Nie, Chunyu Lin, Xiaomei Feng, Yao Zhao 0001
   title: 'PixelStitch: Structure-Preserving Pixel-Wise Bidirectional Warps for Unsupervised
@@ -66638,6 +69216,80 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AECCV%3A:
   doi: 10.1007/BFB0054736
   ee: https://doi.org/10.1007/BFb0054736
   url: https://dblp.org/rec/conf/eccv/SawhneyHK98
+  abstract: ''
+  related_code: ''
+  tags: []
+- author: Yuzhou Ji, Xiaotian Yang, Zhipeng Zhang
+  title: 'CasaMaestro: Multi-view Panoramas for House-Scale 3D Reconstruction.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/JiYZ26
+  doi: 10.1007/978-3-032-37252-9_12
+  ee: https://doi.org/10.1007/978-3-032-37252-9_12
+  url: https://dblp.org/rec/conf/eccv/JiYZ26
+  abstract: The rise of home-deployed embodied AI systems is driving a growing need
+    for fast, metric 3D reconstruction of residential spaces to support navigation,
+    interaction, and long-horizon task execution. However, the commonly used pinhole-camera
+    3D reconstruction pipelines struggle to model large indoor residences efficiently
+    due to their limited field of view, to which achieving full coverage across multiple
+    rooms often requires thousands of images and incurs drift from long chains of
+    incremental alignment. In this work, we present CasaMaestro (Spanish words meaning
+    ``house'' and ``master''), a feedforward model that can take only twenty to fifty
+    sparse multi-view indoor panoramas as input and directly predicts metric depth
+    along with camera poses, allowing fast point-cloud reconstruction of the entire
+    house with full coverage. CasaMaestro is the first model that supports house-scale
+    reconstruction with multi-view panoramas. Experiments show that CasaMaestro can
+    robustly provide high quality results in both real-world and synthetic scenes,
+    which can serve as a strong foundation for acquiring house-scale 3D indoor assets
+    to be applied in close-loop simulation.
+  related_code: ''
+  tags:
+  - pc.
+- author: Yuan Mei 0001, Lang Nie, Kang Liao, Yunqiu Xu, Chunyu Lin, Bin Xiao 0002
+  title: 'UniStitch: Unifying Semantic and Geometric Features for Image Stitching.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/MeiNLXLX26
+  doi: 10.1007/978-3-032-37010-5_25
+  ee: https://doi.org/10.1007/978-3-032-37010-5_25
+  url: https://dblp.org/rec/conf/eccv/MeiNLXLX26
+  abstract: Traditional image stitching methods estimate warps from hand-crafted geometric
+    features, whereas recent learning-based solutions leverage semantic features from
+    neural networks instead. These two lines of research have largely diverged along
+    separate evolution, with virtually no meaningful convergence to date. In this
+    paper, we take a pioneering step to bridge this gap by unifying semantic and geometric
+    features with UniStitch, a unified image stitching framework from multimodal features.
+    To align discrete geometric features (i.e., keypoint) with continuous semantic
+    feature maps, we present a Neural Point Transformer (NPT) module, which transforms
+    unordered, sparse 1D geometric keypoints into ordered, dense 2D semantic maps.
+    Then, to integrate the advantages of both representations, an Adaptive Mixture
+    of Experts (AMoE) module is designed to fuse geometric and semantic representations.
+    It dynamically shifts focus toward more reliable features during the fusion process,
+    allowing the model to handle complex scenes, especially when either modality might
+    be compromised. The fused representation can be adopted into common deep stitching
+    pipelines, delivering significant performance gains over any single feature. Experiments
+    show that UniStitch outperforms existing state-of-the-art methods with a large
+    margin, paving the way for a unified paradigm between traditional and learning-based
+    image stitching.
+  related_code: ''
+  tags:
+  - dep.
+  - oth.
+- author: Andrea Sanchietti, Riccardo Marin, Bharat Lal Bhatnagar, Yuanlu Xu, Gerard
+    Pons-Moll
+  title: 'Stitched Embeddings: A Unified Latent Space for 3D Garments and 2D Patterns.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/SanchiettiMBXP26
+  doi: 10.1007/978-3-032-37041-9_13
+  ee: https://doi.org/10.1007/978-3-032-37041-9_13
+  url: https://dblp.org/rec/conf/eccv/SanchiettiMBXP26
   abstract: ''
   related_code: ''
   tags: []
@@ -67610,6 +70262,22 @@ stitch%7Cpanorama%7Cmosaic%20venue%3AMICCAI%3A:
   related_code: ''
   tags:
   - medi.
+- author: Xiaoshi Hu, Huahui Zhang, Xiang Deng, Xiaoyue Liu, Peng Wang, Xuesong Ye
+  title: 'Angio-Stitch: An Unsupervised Coarse-to-Fine Framework for Sequential Stitching
+    of Confocal Laser Endomicroscopy Images.'
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/HuZDLWY26
+  doi: 10.1007/978-3-032-38470-6_36
+  ee: https://doi.org/10.1007/978-3-032-38470-6_36
+  url: https://dblp.org/rec/conf/miccai/HuZDLWY26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+  - oth.
 stitch%7Cpanorama%7Cmosaic%20venue%3AMedical_Image_Anal.%3A:
 - author: Tae Jun Jang, Hye Sun Yun, Chang Min Hyun, Jong-Eun Kim, Sang-Hwy Lee, Jin
     Keun Seo
@@ -67790,7 +70458,31 @@ ICP%20venue%3ANeurIPS%3A:
   tags:
   - dep.
 ICP%20venue%3AICML%3A: []
-ICP%20venue%3AICLR%3A: []
+ICP%20venue%3AICLR%3A:
+- author: Lingfeng Zhou, Junhao Shi, Jin Gao, Dequan Wang
+  title: 'Credit-Budgeted ICPC-Style Coding: When Agents Must Pay for Every Decision.'
+  venue: ICLR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iclr/ZhouSGW26
+  doi: ''
+  ee: https://proceedings.iclr.cc/paper_files/paper/2026/hash/8bd5148caced2d73cea7b6961a874a49-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/iclr/ZhouSGW26
+  abstract: Current evaluations of autonomous coding agents assume an unrealistic,
+    infinite-resource environment. However, real-world software engineering is a resource-bound
+    competition. As we scale toward large agent swarms, ignoring compute and time
+    costs risks catastrophic budget exhaustion. To shift the focus from isolated accuracy
+    to cost-aware problem-solving, we introduce USACOArena, an interactive ACM-ICPC-style
+    arena driven by a strict "credit" economy. Every generated token, local test,
+    and elapsed second depletes a fixed budget, forcing agents to make strategic trade-offs.
+    Our comprehensive profiling reveals that frontier single agents and swarms currently
+    fail to optimally balance accuracy with these constraints, exhibiting divergent,
+    path-dependent behaviors. Ultimately, USACOArena provides an essential dynamic
+    training ground for developing highly efficient, resource-aware agent architectures.
+  related_code: ''
+  tags:
+  - data.
 ICP%20venue%3ACOLT%3A: []
 ICP%20venue%3AUAI%3A: []
 ICP%20streamid%3Ajournals%2Fml%3A: []
@@ -68044,6 +70736,21 @@ ICP%20streamid%3Ajournals%2Fijcv%3A:
   related_code: ''
   tags:
   - pc.
+- author: Ajian Liu 0001, Xun Lin, Hui Ma 0018, Xinxing Yu, Jiabao Guo, Zitong Yu,
+    Jun Wan 0001, Zhanchuan Cai, Zhen Lei 0001, Yanyan Liang 0001
+  title: 'ICPE-FAS: Instance and Category Prompts Engineering for Generalizable Face
+    Anti-Spoofing.'
+  venue: Int. J. Comput. Vis.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/ijcv/LiuLMYGYWCLL26
+  doi: 10.1007/S11263-026-02888-Y
+  ee: https://doi.org/10.1007/s11263-026-02888-y
+  url: https://dblp.org/rec/journals/ijcv/LiuLMYGYWCLL26
+  abstract: ''
+  related_code: ''
+  tags: []
 ICP%20venue%3AACL%3A: []
 ICP%20venue%3ANAACL-HLT%3A: []
 ICP%20venue%3AEMNLP%3A: []
@@ -69096,6 +71803,34 @@ motion%20correction%20venue%3AICLR%3A:
   tags:
   - medi.
   - dep.
+- author: Kun Wang, Tobit Klug, Stefan Ruschke, Jan Kirschke, Reinhard Heckel
+  title: 'Reliable Evaluation of MRI Motion Correction: Dataset and Insights.'
+  venue: ICLR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iclr/WangKRKH26
+  doi: ''
+  ee: https://proceedings.iclr.cc/paper_files/paper/2026/hash/090298ec38fee9b8ced6dad1e1c3a7d8-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/iclr/WangKRKH26
+  abstract: 'Correcting motion artifacts in MRI is important, as they can hinder accurate
+    diagnosis. However, evaluating deep learning-based and classical motion correction
+    methods remains fundamentally difficult due to the lack of accessible ground-truth
+    target data. To address this challenge, we study three evaluation approaches:
+    real-world evaluation based on reference scans, simulated motion, and reference-free
+    evaluation, each with its merits and shortcomings. To enable evaluation with real-world
+    motion artifacts, we release PMoC3D, a dataset consisting of unprocessed Paired
+    Motion-Corrupted 3D brain MRI data. To advance evaluation quality, we introduce
+    MoMRISim, a feature-space metric trained for evaluating motion reconstructions.
+    We assess each evaluation approach and find real-world evaluation together with
+    MoMRISim, while not perfect, to be most reliable. Evaluation based on simulated
+    motion systematically exaggerates algorithm performance, and reference-free evaluation
+    overrates oversmoothed deep learning outputs.'
+  related_code: ''
+  tags:
+  - medi.
+  - data.
+  - dep.
 motion%20correction%20venue%3ACOLT%3A: []
 motion%20correction%20venue%3AUAI%3A: []
 motion%20correction%20streamid%3Ajournals%2Fml%3A: []
@@ -69285,6 +72020,37 @@ motion%20correction%20venue%3ACVPR%3A:
   tags:
   - data.
   - dep.
+- author: Yanzhe Liang, Ruijie Zhu 0002, Hanzhi Chang, Zhuoyuan Li, Jiahao Lu 0001,
+    Tianzhu Zhang 0001
+  title: 'ReFlow: Self-correction Motion Learning for Dynamic Scene Reconstruction.'
+  venue: CVPR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/LiangZCLLZ26
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2026/html/Liang_ReFlow_Self-correction_Motion_Learning_for_Dynamic_Scene_Reconstruction_CVPR_2026_paper.html
+  url: https://dblp.org/rec/conf/cvpr/LiangZCLLZ26
+  abstract: We present ReFlow, a unified framework for monocular dynamic scene reconstruction
+    that learns 3D motion in a novel self-correction manner from raw video. Existing
+    methods often suffer from incomplete scene initialization for dynamic regions,
+    leading to unstable reconstruction and motion estimation, which often resorts
+    to external dense motion guidance such as pre-computed optical flow to further
+    stabilize and constrain the reconstruction of dynamic components. However, this
+    introduces additional complexity and potential error propagation. To address these
+    issues, ReFlow integrates a Complete Canonical Space Construction module for enhanced
+    initialization of both static and dynamic regions, and a Separation-Based Dynamic
+    Scene Modeling module that decouples static and dynamic components for targeted
+    motion supervision. The core of ReFlow is a novel self-correction flow matching
+    mechanism, consisting of Full Flow Matching to align 3D scene flow with time-varying
+    2D observations, and Camera Flow Matching to enforce multi-view consistency for
+    static objects. Together, these modules enable robust and accurate dynamic scene
+    reconstruction. Extensive experiments across diverse scenarios demonstrate that
+    ReFlow achieves superior reconstruction quality and robustness, establishing a
+    novel self-correction paradigm for monocular 4D reconstruction.
+  related_code: ''
+  tags:
+  - oth.
 motion%20correction%20venue%3AICCV%3A:
 - author: Delin Qu, Yizhen Lao, Zhigang Wang 0002, Dong Wang 0028, Bin Zhao 0001,
     Xuelong Li 0001
