@@ -6067,6 +6067,44 @@ registra%20streamid%3Ajournals%2Fpami%3A:
   related_code: ''
   tags:
   - pc.
+- author: Hyungtae Lim, Minkyun Seo, Luca Carlone, Jaesik Park
+  title: Toward Zero-Shot Point Cloud Registration Across Diverse Scales, Scenes,
+    and Sensor Setups.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/LimSCP26
+  doi: 10.1109/TPAMI.2026.3722524
+  ee: https://doi.org/10.1109/TPAMI.2026.3722524
+  url: https://dblp.org/rec/journals/pami/LimSCP26
+  abstract: 'Some deep learning-based point cloud registration methods struggle with
+    zero-shot generalization, often requiring target-domain retraining, fine-tuning,
+    or dataset-specific metric parameter tuning for new environments. We identify
+    three critical limitations: (a) fixed user-defined parameters (e.g., voxel size,
+    search radius) that fail to generalize across varying scales, (b) learned keypoint
+    detectors exhibit poor cross-domain transferability, and (c) absolute coordinates
+    amplify scale mismatches between datasets. To address these three issues, we present
+    BUFFER-X, a registration framework whose descriptor model is trained once and
+    then applied without parameter tuning or target-domain retraining, which achieves
+    zero-shot generalization through: (a) geometric bootstrapping for automatic hyperparameter
+    estimation, (b) distribution-aware farthest point sampling to replace learned
+    detectors, and (c) patch-level coordinate normalization to ensure scale consistency.
+    Our approach employs hierarchical multi-scale matching to extract correspondences
+    across local, middle, and global receptive fields, enabling robust registration
+    in diverse environments. For efficiency-critical applications, we present BUFFER-X-Lite
+    from a holistic system perspective, integrating the BUFFER-X front-end and adaptive
+    early exit with the fast and robust pose solver to reduce total computation time
+    by 43% relative to BUFFER-Xwhile preserving comparable accuracy. We evaluate on
+    a comprehensive benchmark comprising 12 datasets spanning object-scale, indoor,
+    and outdoor scenes, including cross-sensor registration between heterogeneous
+    LiDAR configurations. Results demonstrate that our approach generalizes effectively
+    across diverse scales, scenes, and sensor setups.'
+  related_code: ''
+  tags:
+  - pc.
+  - data.
+  - dep.
 registra%20venue%3AKDD%3A:
 - author: Thomas Daniels 0002, Maarten Bosteels, Pieter Robberechts, Jesse Davis
   title: 'RegCheck: A Real-Time Approach for Flagging Potentially Malicious Domain
@@ -57933,6 +57971,41 @@ optical%20flow%7Cscene%20flow%20streamid%3Ajournals%2Fpami%3A:
   related_code: ''
   tags:
   - oth.
+- author: Changlin Li, Yeqiang Qian, Chunxiang Wang 0001, Ming Yang 0002
+  title: Digging Into Monocular Texture-Scale Feature Fusion for Optical Flow and
+    Optical Expansion Estimation.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/LiQWY26
+  doi: 10.1109/TPAMI.2026.3725402
+  ee: https://doi.org/10.1109/TPAMI.2026.3725402
+  url: https://dblp.org/rec/journals/pami/LiQWY26
+  abstract: Visual perception in dynamic scenes is a crucial task in the fields of
+    computer vision and autonomous driving. In this paper, we focus on monocular optical
+    flow and expansion estimation. Optical flow describes the positional changes of
+    pixels between two frames, while optical expansion describes local image-scale
+    changes around pixels and their neighbourhoods. Monocular optical flow estimation
+    has a well-established research foundation, with most existing methods achieving
+    high-precision optical flow through image texture feature extraction and matching.
+    However, research on optical expansion is limited. Existing optical expansion
+    estimation methods all rely on optical flow results or model structures and do
+    not accurately model the expansion task itself. In fact, object motion in dynamic
+    scenes generates rich local scale information in images, which is an ideal characteristic
+    for solving the optical expansion task. In this paper, we propose and explore
+    methods for extracting and interacting image texture-scale features and apply
+    them to achieve high-quality monocular optical flow-expansion estimation. We propose
+    a novel pipeline, MonoFusion, which independently extracts texture and scale features,
+    improving the performance of optical flow and expansion through feature fusion
+    and updating. Additionally, we introduce MonoFusion-R, which further enriches
+    the iteration process of texture-scale feature fusion with a specially designed
+    recurrent framework. Our method achieves state-of-the-art (SOTA) monocular performance
+    on four KITTI tasks, including optical flow, optical expansion, time-to-collision,
+    and scene flow, and also shows strong optical-flow generalization on FlyingThings3D.
+  related_code: ''
+  tags:
+  - oth.
 optical%20flow%7Cscene%20flow%20venue%3AKDD%3A:
 - author: Thomas J. Vandal, Kate Duffy, Will McCarty, Akira Sewnath, Ramakrishna R.
     Nemani
@@ -67173,6 +67246,41 @@ stitch%7Cpanorama%7Cmosaic%20streamid%3Ajournals%2Fpami%3A:
   - rs.
   - data.
   - dep.
+- author: Zhiying Jiang, Zengxi Zhang, Jinyuan Liu 0001, Xin Fan 0001, Risheng Liu
+  title: 'Stitching Misaligned Multi-Spectral Images by Versatile Transformation:
+    A Streamlined Solution and Applications.'
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/JiangZLFL26
+  doi: 10.1109/TPAMI.2026.3719795
+  ee: https://doi.org/10.1109/TPAMI.2026.3719795
+  url: https://dblp.org/rec/journals/pami/JiangZLFL26
+  abstract: Multi-spectral image stitching reconstructs the informative and broader
+    scene by aligning the image pairs captured from different viewpoints. This task
+    is significantly limited by the registered sources. Stitching accuracy deteriorates
+    notably with misaligned multi-modality images. To address the challenges imposed
+    by the registration requirement, we propose robust multi-spectral image stitching
+    for misaligned infrared-visible pairs, in which the intrinsic attributes of multi-modality
+    registration and multi-view alignment are employed concurrently, rather than independent
+    processing. Specifically, the proposed method develops a hierarchical versatile
+    transformation to conduct the correspondence matching progressively, where the
+    sparse foundational homography is utilized for global adjustment and point-flexible
+    splines are applied for local fine-tuning. In the registration of infrared and
+    visible images, a dual consistency-driven modality transfer is introduced to alleviate
+    feature variance and facilitate registration within the shared information matching.
+    During cross-view alignment, multi-spectral image pairs are encoded into a latent
+    domain to exploit the complementary information adaptively, and the planar deformation
+    is conducted through correspondence matching processes identical to those in the
+    registration procedure. In this way, by leveraging the consistency between multi-modality
+    and multi-view matching, we achieve a robust reconstruction of the multi-spectral
+    panorama. Extensive experiments in registration and stitching demonstrate the
+    superiority of our method.
+  related_code: ''
+  tags:
+  - dep.
+  - oth.
 stitch%7Cpanorama%7Cmosaic%20venue%3AKDD%3A: []
 stitch%7Cpanorama%7Cmosaic%20venue%3AWSDM%3A: []
 stitch%7Cpanorama%7Cmosaic%20streamid%3Aconf%2Fsp%3A: []

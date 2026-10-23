@@ -45,12 +45,15 @@
 - OIF-PCR++: Point Cloud Registration via Progressive Distillation of Conditional Positional Encoding. [[PUB](https://doi.org/10.1109/TPAMI.2026.3652316)] [**`pc.`** **`dep.`** ]
 - PAVM: Progressive and Adaptive Variance Minimization Algorithm for Robust Registration. [[PUB](https://doi.org/10.1109/TPAMI.2025.3625992)] [**`pc.`** ]
 - Single Voter Spreading for Efficient Correspondence Grouping and 3D Registration. [[PUB](https://doi.org/10.1109/TPAMI.2025.3609474)] [**`pc.`** **`data.`** ]
+- Toward Zero-Shot Point Cloud Registration Across Diverse Scales, Scenes, and Sensor Setups. [[PUB](https://doi.org/10.1109/TPAMI.2026.3722524)] [**`pc.`** **`data.`** **`dep.`** ]
 - Iterative Differential Entropy Minimization (IDEM) Method for Fine Rigid Pairwise 3D Point Cloud Registration: A Focus on the Metric. [[PUB](https://doi.org/10.1109/TPAMI.2025.3647835)] [**`pc.`** ]
+- Digging Into Monocular Texture-Scale Feature Fusion for Optical Flow and Optical Expansion Estimation. [[PUB](https://doi.org/10.1109/TPAMI.2026.3725402)] [**`oth.`** ]
 - Distribution-to-Points Matching for Image Text Retrieval. [[PUB](https://doi.org/10.1109/TPAMI.2026.3664613)] [**`dep.`** ]
 - Equivariant Bayesian Hyperspectral Imaging via Mosaiced and PAN Image Fusion. [[PUB](https://doi.org/10.1109/TPAMI.2026.3682543)] [**`rs.`** **`data.`** **`dep.`** ]
 - Joint Sparse Optical Flow Estimation and Keypoint Detection via Dual-task Imperative Learning. [[PUB](https://doi.org/10.1109/TPAMI.2025.3627192)] [**`dep.`** **`oth.`** ]
 - Learning Efficient Meshflow and Optical Flow From Event Cameras. [[PUB](https://doi.org/10.1109/TPAMI.2025.3615144)] [**`data.`** **`dep.`** **`oth.`** ]
 - Spike Camera Optical Flow Estimation Based on Continuous Spike Streams. [[PUB](https://doi.org/10.1109/TPAMI.2025.3649050)] [**`oth.`** ]
+- Stitching Misaligned Multi-Spectral Images by Versatile Transformation: A Streamlined Solution and Applications. [[PUB](https://doi.org/10.1109/TPAMI.2026.3719795)] [**`dep.`** **`oth.`** ]
 
 ### KDD
 
