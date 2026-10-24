@@ -151,6 +151,7 @@
 ### MICCAI
 
 - DreamReg: Belief-Driven World Model for 2D-3D Ultrasound Registration. [[PUB](https://doi.org/10.1007/978-3-032-38186-6_4)] [**`medi.`** **`pc.`** **`dep.`** ]
+- Dual-Registration Reciprocal Super-Resolution for Prior-Guided Real-Time 4D-MRI. [[PUB](https://doi.org/10.1007/978-3-032-38179-8_13)] [**`medi.`** ]
 - End2Reg: Learning Task-Specific Segmentation for Markerless Registration in Spine Surgery. [[PUB](https://doi.org/10.1007/978-3-032-38186-6_7)] [**`medi.`** **`pc.`** **`dep.`** ]
 - FlowReg: Reconstruction-Guided Flow Matching for Universal Spinal CT/X-Ray Registration. [[PUB](https://doi.org/10.1007/978-3-032-38186-6_8)] [**`medi.`** ]
 - FSE-Reg: Enhancing 3D Deformable Registration with Frozen Large-Scale Pre-trained Segmentation Encoders. [[PUB](https://doi.org/10.1007/978-3-032-38186-6_9)] [**`medi.`** **`dep.`** ]
@@ -174,7 +175,10 @@
 - TG-OT: Topology-Guided CCTA-IVUS Registration via Optimal Transport Matching. [[PUB](https://doi.org/10.1007/978-3-032-38186-6_32)] [**`medi.`** **`data.`** ]
 - Vis2Reg: Visibility-Aware Landmark-Free Geometric 3D-2D Registration for Liver Laparoscopy. [[PUB](https://doi.org/10.1007/978-3-032-38186-6_37)] [**`medi.`** **`dep.`** **`oth.`** ]
 - Angio-Stitch: An Unsupervised Coarse-to-Fine Framework for Sequential Stitching of Confocal Laser Endomicroscopy Images. [[PUB](https://doi.org/10.1007/978-3-032-38470-6_36)] [**`medi.`** **`oth.`** ]
+- KiMoCo-Net: Dual-Domain Learning for MRI Motion Artifact Correction. [[PUB](https://doi.org/10.1007/978-3-032-38179-8_23)] [**`medi.`** ]
 - Making HE Histopathological Images More Colorful by Conditional Flow Matching. [[PUB](https://doi.org/10.1007/978-3-032-38224-5_29)] [**`medi.`** ]
+- SAMoCo: A Learning-Initialized and Physics-Refined Framework for Sampling-Agnostic Motion Correction in MRI. [[PUB](https://doi.org/10.1007/978-3-032-38179-8_47)] [**`medi.`** ]
+- Test-Time Adaptation in Optical Coherence Tomography Using Trajectory-Aligned Time-Independent Flow. [[PUB](https://doi.org/10.1007/978-3-032-38072-2_52)] [[CODE](https://github.com/Veit21/tta-flow)] [**`medi.`** ]
 - VarDeFlow: Variational Deformation Learning with Flow Matching for Multi-organ Cross-Modality Medical Image Synthesis. [[PUB](https://doi.org/10.1007/978-3-032-38186-6_36)] [**`medi.`** ]
 
 ### MIA

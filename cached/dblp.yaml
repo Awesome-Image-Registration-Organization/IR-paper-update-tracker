@@ -35312,6 +35312,21 @@ registra%20venue%3AMICCAI%3A:
   - data.
   - dep.
   - oth.
+- author: Yinghui Wang, Mingyuan Meng, Lu Wang, Jing Cai
+  title: Dual-Registration Reciprocal Super-Resolution for Prior-Guided Real-Time
+    4D-MRI.
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/WangMWC26
+  doi: 10.1007/978-3-032-38179-8_13
+  ee: https://doi.org/10.1007/978-3-032-38179-8_13
+  url: https://dblp.org/rec/conf/miccai/WangMWC26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
 registra%20venue%3AMedical_Image_Anal.%3A:
 - author: Junyu Chen 0002, Shuwen Wei, Yihao Liu 0003, Zhangxing Bian, Yufan He, Aaron
     Carass, Harrison X. Bai, Yong Du 0002
@@ -66443,6 +66458,32 @@ optical%20flow%7Cscene%20flow%20venue%3AMICCAI%3A:
   tags:
   - medi.
   - oth.
+- author: Veit Hucke, Thomas Pinetz, Gregor S. Reiter, Ursula Schmidt-Erfurth, Hrvoje
+    Bogunovic
+  title: Test-Time Adaptation in Optical Coherence Tomography Using Trajectory-Aligned
+    Time-Independent Flow.
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/HuckePRSB26
+  doi: 10.1007/978-3-032-38072-2_52
+  ee: https://doi.org/10.1007/978-3-032-38072-2_52
+  url: https://dblp.org/rec/conf/miccai/HuckePRSB26
+  abstract: 'Optical coherence tomography (OCT) is essential in ophthalmology, but
+    inconsistent image quality especially in low-cost devices hinders automated analysis.
+    To address this, we introduce a flow-matching-based test-time adaptation method
+    that generates high-quality surrogate images from noisy inputs. Typically, domain
+    gaps between test and training data cause pixel distribution mismatches during
+    the denoising process. We overcome this by matching the test image''s histogram
+    to synthetic reference trajectories, successfully aligning the input with expected
+    distributions. Additionally, we remove the network''s time conditioning to account
+    for slight deviations in real-world noise distributions. Our approach achieves
+    state-of-the-art performance in segmenting critical biomarkers for two stages
+    of Age-related Macular Degeneration (AMD). Code is available: https://github.com/Veit21/tta-flow.'
+  related_code: https://github.com/Veit21/tta-flow
+  tags:
+  - medi.
 optical%20flow%7Cscene%20flow%20venue%3AMedical_Image_Anal.%3A:
 - author: Chengqian Zhao, Dengwang Li, Cheng Feng, Shuo Li 0001
   title: 'OF-UMRN: Uncertainty-guided multitask regression network aided by optical
@@ -73295,6 +73336,37 @@ motion%20correction%20venue%3AMICCAI%3A:
   doi: 10.1007/BFB0056244
   ee: https://doi.org/10.1007/BFb0056244
   url: https://dblp.org/rec/conf/miccai/MeijeringZV98
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+- author: Marina Maher Fekry, Mohamed A. El-Beltagy, Meena M. Makary, Mohammed A.
+    Al-masni
+  title: 'KiMoCo-Net: Dual-Domain Learning for MRI Motion Artifact Correction.'
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/FekryEMA26
+  doi: 10.1007/978-3-032-38179-8_23
+  ee: https://doi.org/10.1007/978-3-032-38179-8_23
+  url: https://dblp.org/rec/conf/miccai/FekryEMA26
+  abstract: ''
+  related_code: ''
+  tags:
+  - medi.
+- author: Weijia Liu, Runyu Tang, Ye Yao, Yao Li, Hongming Shan, Hongjiang Wei, Dengrong
+    Jiang
+  title: 'SAMoCo: A Learning-Initialized and Physics-Refined Framework for Sampling-Agnostic
+    Motion Correction in MRI.'
+  venue: MICCAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/miccai/LiuTYLSWJ26
+  doi: 10.1007/978-3-032-38179-8_47
+  ee: https://doi.org/10.1007/978-3-032-38179-8_47
+  url: https://dblp.org/rec/conf/miccai/LiuTYLSWJ26
   abstract: ''
   related_code: ''
   tags:
