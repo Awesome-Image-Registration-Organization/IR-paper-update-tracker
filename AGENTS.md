@@ -10,7 +10,7 @@
 1. GitHub Actions runs the tracker once per day (cron: `0 0 * * *`) and on every push to `main`. A separate manually-triggered workflow (`.github/workflows/fetch-all-years.yml`) is also available to collect papers from **all years** without the default 3-year window.
 2. `src/main.py` reads `config.yaml` → takes `dblp.keywords` (a list of search keyword groups) and `dblp.queries` (plain venue restrictions), assembles fully URL-encoded DBLP search topics, and queries the DBLP search API. In **automatic runs** (`schedule` / `push`), the `--primary_only` flag is active: only the first keyword (`registra`) is used to scan all venues; venues where `registra` discovers **new papers** are then re-scanned with the remaining keywords. This reduces API calls. **Manual runs** (`workflow_dispatch`) use all keywords for all venues.
 3. Extracted paper metadata is **filtered by year** (last 3 years + next 1 year), optionally **filtered by secondary keywords** (see `config.yaml`), **deduplicated by both `ee` and `title`**, and **globally deduplicated across topics** via seen `ee`/`title` sets.
-4. New papers (not yet in `cached/dblp.yaml`) are collected by topic, formatted as a summary plus detailed Markdown lists, automatically reduced to fit GitHub's Issue body limit, and written to `GITHUB_ENV` (`MSG`, `ISSUE_NOTICE`, `IR_PAPERS_URL`, and `ISSUE_TITLE_TOPICS`).
+4. New papers (not yet in `cached/dblp.yaml`) are collected by topic, formatted as a summary plus detailed Markdown lists, automatically reduced to fit GitHub's Issue body limit, and written to `GITHUB_ENV` (`MSG`, `ISSUE_NOTICE`, `CACHE_URL`, `IR_PAPERS_URL`, and `ISSUE_TITLE_TOPICS`).
 5. `scripts/fetch_abstracts.py` backfills missing abstracts and Chinese translations for current-year papers.
 6. `scripts/fetch_related_code.py` scans all papers and extracts GitHub repository links from abstracts into the `related_code` field.
 7. `scripts/fetch_tags.py` (or the inline call in `main.py`) detects keyword tags (`medi.`, `nat.`, `rs.`, `pc.`, `data.`, `dep.`, `oth.`) for each paper based on its title and abstract, storing them in the `tags` field.
@@ -98,7 +98,7 @@
   ```markdown
   - {title}. [[PUB]({ee})] [[CODE]({related_code})] [**`pc.`** **`data.`** ]
   ```
-- `build_issue_message` creates an overall summary table followed by topic details. It measures the actual rendered template against GitHub's 65,536-character Issue body limit (with a 1,024-character safety margin). Oversized bodies are reduced at whole-paper boundaries using a balanced per-topic limit; if details still do not fit, only the summary is retained. `ISSUE_NOTICE` reports the omission, while the cache and `IR-Papers.md` always retain all papers.
+- `build_issue_message` creates an overall summary table followed by topic details. It measures the actual rendered template against GitHub's 65,536-character Issue body limit (with a 1,024-character safety margin). Oversized bodies are reduced at whole-paper boundaries using a balanced per-topic limit. If no balanced limit fits, a greedy fallback retains individual entries that fit; only entries that cannot fit are omitted. If no details fit, only the summary is retained. `ISSUE_NOTICE` reports the omission. The lossless fallback link points to `cached/dblp.yaml`; `IR-Papers.md` is a categorized view and may skip unmapped venues.
 - `write_github_env` writes multiline values using GitHub Actions heredoc syntax. Do not reintroduce percent-encoding or shell `$'...'` quoting.
 - `get_topic_short_name` extracts the venue short name (the segment after the last `/`, or the whole name if no `/`) from a topic URL. Used for the Issue title.
 - `format_title_topics` joins short names with `, ` and truncates to ≤80 characters, appending `等N个` when truncated.
@@ -106,7 +106,7 @@
 ### 5. Issue Title Construction
 - Template: `.github/issue-template.md`
 - Title: `Paper Update [{{ env.ISSUE_TITLE_TOPICS }}] @ {{ date | date('YYYY-MM-DD') }}`
-- The environment variables `ISSUE_TITLE_TOPICS`, `MSG`, `ISSUE_NOTICE`, and `IR_PAPERS_URL` are populated in `src/main.py` and passed through both workflow `env` blocks.
+- The environment variables `ISSUE_TITLE_TOPICS`, `MSG`, `ISSUE_NOTICE`, `CACHE_URL`, and `IR_PAPERS_URL` are populated in `src/main.py` and passed through both workflow `env` blocks.
 
 ### 6. Configuration (`config.yaml`)
 ```yaml
@@ -262,6 +262,7 @@ No changes to `src/main.py` or the GitHub Actions workflow are required.
   - `{{ date }}`
   - `{{ env.MSG }}`
   - `{{ env.ISSUE_NOTICE }}`
+  - `{{ env.CACHE_URL }}`
   - `{{ env.IR_PAPERS_URL }}`
   - `{{ env.ISSUE_TITLE_TOPICS }}`
 - If you introduce a new `env` variable, update both `.github/workflows/watch.yml` and `.github/workflows/fetch-all-years.yml` to pass it through. Also account for its rendered length in `build_issue_message`.

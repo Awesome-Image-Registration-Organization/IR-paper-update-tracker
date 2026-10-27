@@ -127,9 +127,9 @@ The issue body contains:
   - `[PUB]` hyperlink pointing to the DBLP `ee` field
   - `[CODE]` hyperlink (if a GitHub repo URL was found in the abstract)
   - Tag badges such as **`medi.`** **`pc.`** (if automatic tag detection matched any keywords)
-- A link to the complete `IR-Papers.md` archive.
+- Links to the lossless `cached/dblp.yaml` data and the categorized `IR-Papers.md` view. The categorized view may skip papers with unmapped venues, so the cache is the complete-data fallback.
 
-GitHub limits an Issue body to 65,536 characters. The generator measures the rendered template with a safety margin. If necessary, it reduces whole paper entries with a balanced per-topic limit and reports how many papers were omitted; it never cuts through a title, URL, or Markdown link. If details still cannot fit, it falls back to the summary only. The cache and `IR-Papers.md` always retain all papers.
+GitHub limits an Issue body to 65,536 characters. The generator measures the rendered template with a safety margin. If necessary, it reduces whole paper entries with a balanced per-topic limit and reports how many papers were omitted; it never cuts through a title, URL, or Markdown link. If no balanced limit fits, a greedy fallback retains individual entries that fit. If no details fit, it falls back to the summary only. The cache always retains all papers.
 
 ---
 

@@ -218,8 +218,9 @@ class Scaffold:
             )
             github_server = os.getenv("GITHUB_SERVER_URL", "https://github.com")
             ir_papers_url = f"{github_server}/{repository}/blob/main/IR-Papers.md"
+            cache_url = f"{github_server}/{repository}/blob/main/cached/dblp.yaml"
             msg, issue_notice = build_issue_message(
-                new_papers_by_topic, template, ir_papers_url
+                new_papers_by_topic, template, ir_papers_url, cache_url
             )
             logger.info(
                 f"Issue message generated: {len(msg)} chars; "
@@ -231,6 +232,7 @@ class Scaffold:
                 write_github_env(os.getenv("GITHUB_ENV"), {
                     "MSG": msg,
                     "ISSUE_NOTICE": issue_notice,
+                    "CACHE_URL": cache_url,
                     "IR_PAPERS_URL": ir_papers_url,
                     "ISSUE_TITLE_TOPICS": title_topics,
                 })

@@ -501,11 +501,11 @@ def _get_issue_summary(topic_items):
     return "\n".join(lines) + "\n"
 
 
-def _get_issue_details(topic_items, limits):
+def _get_issue_details(topic_items, shown_topic_items):
     blocks = []
-    for (topic, items), limit in zip(topic_items, limits):
-        if limit > 0:
-            blocks.append(get_msg(items[:limit], topic, total_count=len(items)).rstrip())
+    for (topic, items), shown_items in zip(topic_items, shown_topic_items):
+        if shown_items:
+            blocks.append(get_msg(shown_items, topic, total_count=len(items)).rstrip())
     if not blocks:
         return ""
     return "## New papers\n\n" + "\n\n".join(blocks) + "\n"
@@ -517,16 +517,16 @@ def _get_issue_notice(shown_papers, total_papers, details_omitted=False):
     if details_omitted:
         return (
             "> **Content shortened:** Paper details were omitted because the full update "
-            "exceeds GitHub's Issue body limit. The complete update is available in `IR-Papers.md`."
+            "exceeds GitHub's Issue body limit. The complete update is available in `cached/dblp.yaml`."
         )
     return (
         f"> **Content shortened:** Showing **{shown_papers}** of **{total_papers}** new papers "
         f"({total_papers - shown_papers} omitted) to stay within GitHub's Issue body limit. "
-        "See the complete list below."
+        "See the complete data below."
     )
 
 
-def _render_issue_body(template, msg, notice, ir_papers_url):
+def _render_issue_body(template, msg, notice, ir_papers_url, cache_url):
     template_body = re.sub(
         r"\A---\r?\n.*?\r?\n---\r?\n?", "", template, count=1, flags=re.DOTALL
     )
@@ -534,10 +534,11 @@ def _render_issue_body(template, msg, notice, ir_papers_url):
         template_body.replace("{{ env.MSG }}", msg)
         .replace("{{ env.ISSUE_NOTICE }}", notice)
         .replace("{{ env.IR_PAPERS_URL }}", ir_papers_url)
+        .replace("{{ env.CACHE_URL }}", cache_url)
     )
 
 
-def build_issue_message(topic_items, template, ir_papers_url, max_chars=ISSUE_BODY_MAX_CHARS):
+def build_issue_message(topic_items, template, ir_papers_url, cache_url, max_chars=ISSUE_BODY_MAX_CHARS):
     """生成适配 GitHub 长度限制的 Issue 内容，返回 (正文消息, 省略提示)。"""
     if not topic_items:
         return "", ""
@@ -545,17 +546,23 @@ def build_issue_message(topic_items, template, ir_papers_url, max_chars=ISSUE_BO
     total_papers = sum(len(items) for _, items in topic_items)
     summary = _get_issue_summary(topic_items)
 
-    def build_candidate(limits):
-        details = _get_issue_details(topic_items, limits)
+    def build_selected_candidate(shown_topic_items):
+        details = _get_issue_details(topic_items, shown_topic_items)
         msg = summary.rstrip() + "\n"
         if details:
             msg += "\n" + details
-        shown_papers = sum(limits)
+        shown_papers = sum(len(items) for items in shown_topic_items)
         notice = _get_issue_notice(shown_papers, total_papers)
         return msg, notice
 
+    def build_candidate(limits):
+        shown_topic_items = [
+            items[:limit] for (_, items), limit in zip(topic_items, limits)
+        ]
+        return build_selected_candidate(shown_topic_items)
+
     def fits(candidate):
-        return len(_render_issue_body(template, *candidate, ir_papers_url)) <= max_chars
+        return len(_render_issue_body(template, *candidate, ir_papers_url, cache_url)) <= max_chars
 
     full_limits = [len(items) for _, items in topic_items]
     full_candidate = build_candidate(full_limits)
@@ -575,6 +582,19 @@ def build_issue_message(topic_items, template, ir_papers_url, max_chars=ISSUE_BO
 
     if best_candidate is not None:
         return best_candidate
+
+    greedy_items = [[] for _ in topic_items]
+    greedy_candidate = None
+    for topic_index, (_, items) in enumerate(topic_items):
+        for item in items:
+            greedy_items[topic_index].append(item)
+            candidate = build_selected_candidate(greedy_items)
+            if fits(candidate):
+                greedy_candidate = candidate
+            else:
+                greedy_items[topic_index].pop()
+    if greedy_candidate is not None:
+        return greedy_candidate
 
     summary_candidate = (
         summary,

@@ -87,6 +87,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MSG: ${{ env.MSG }}
           ISSUE_NOTICE: ${{ env.ISSUE_NOTICE }}
+          CACHE_URL: ${{ env.CACHE_URL }}
           IR_PAPERS_URL: ${{ env.IR_PAPERS_URL }}
           ISSUE_TITLE_TOPICS: ${{ env.ISSUE_TITLE_TOPICS }}
         with:
