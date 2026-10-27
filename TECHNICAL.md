@@ -40,7 +40,7 @@ In `dev` mode the script will:
 - Print logs to stdout
 - **Not** write to `GITHUB_ENV`
 
-You can inspect `aggregated_msg` and `msg` in the logs to preview the issue content.
+The logs report the generated Issue message length and whether it was shortened. To preview the full body without a DBLP run, call `build_issue_message` with sample topic items and the real template.
 
 ---
 
@@ -110,9 +110,8 @@ This repository uses [GitHub Actions](.github/workflows/watch.yml) to run the tr
    - **Translate to Chinese** – Calls Qwen-MT-plus to translate abstracts into `abstract_cn` (skipped if `DASHSCOPE_API_KEY` is missing).
 6. **Save Cache** – Writes updated papers to `cached/dblp.yaml`.
 7. **Update IR-Papers.md** – Runs `scripts/convert_cache_to_md.py` to regenerate the categorized Markdown paper list from the updated cache.
-8. **Setup Var** – Escapes the generated Markdown message for GitHub Actions.
-9. **Push Done Work** – Commits `cached/dblp.yaml` and `IR-Papers.md` back to the `main` branch.
-10. **Create Issue** – If new papers were found, opens a GitHub Issue using `.github/issue-template.md`.
+8. **Push Done Work** – Commits `cached/dblp.yaml` and `IR-Papers.md` back to the `main` branch.
+9. **Create Issue** – If new papers were found, opens a GitHub Issue using `.github/issue-template.md`. Multiline values are passed directly without percent-encoding.
 
 ### Issue Format
 
@@ -123,11 +122,14 @@ Paper Update [Venue1, Venue2, ...] @ YYYY-MM-DD
 ```
 
 The issue body contains:
-- A summary header for each venue with new papers (`[+N]` count)
-- An unordered list of paper titles with:
+- Overall paper/search-topic counts and a summary table with each topic's `[+N]` count.
+- An unordered list of paper titles grouped by search topic, with:
   - `[PUB]` hyperlink pointing to the DBLP `ee` field
   - `[CODE]` hyperlink (if a GitHub repo URL was found in the abstract)
   - Tag badges such as **`medi.`** **`pc.`** (if automatic tag detection matched any keywords)
+- A link to the complete `IR-Papers.md` archive.
+
+GitHub limits an Issue body to 65,536 characters. The generator measures the rendered template with a safety margin. If necessary, it reduces whole paper entries with a balanced per-topic limit and reports how many papers were omitted; it never cuts through a title, URL, or Markdown link. If details still cannot fit, it falls back to the summary only. The cache and `IR-Papers.md` always retain all papers.
 
 ---
 
