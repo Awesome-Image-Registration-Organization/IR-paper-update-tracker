@@ -66,14 +66,6 @@ jobs:
         run: |
           python scripts/convert_cache_to_md.py
 
-      - name: Setup var
-        id: vars
-        run: |
-          content=${{ env.MSG }}
-          content="${content//'%'/'%25'}"
-          content="${content//$'\n'/'%0A'}"
-          content="${content//$'\r'/'%0D'}"
-          echo "content=$content" >> "$GITHUB_OUTPUT"
       # ============================================
       # TODO [√] 更新仓库数据
       # ============================================
@@ -93,7 +85,10 @@ jobs:
         uses: JasonEtco/create-an-issue@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MSG: ${{ steps.vars.outputs.content }}
+          MSG: ${{ env.MSG }}
+          ISSUE_NOTICE: ${{ env.ISSUE_NOTICE }}
+          CACHE_URL: ${{ env.CACHE_URL }}
+          IR_PAPERS_URL: ${{ env.IR_PAPERS_URL }}
           ISSUE_TITLE_TOPICS: ${{ env.ISSUE_TITLE_TOPICS }}
         with:
           filename: .github/issue-template.md

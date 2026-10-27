@@ -1,7 +1,7 @@
 from loguru import logger
 from fire import Fire
 from utils import (
-    get_msg, init, get_dblp_items, request_data,
+    init, get_dblp_items, request_data,
     deduplicate_items_by_ee, deduplicate_items_by_title,
     filter_items_by_year, get_topic_short_name,
     format_title_topics, fetch_abstract_for_papers,
@@ -9,6 +9,7 @@ from utils import (
     filter_items_by_secondary_keywords,
     fetch_related_code_for_papers,
     detect_paper_tags_for_papers,
+    build_issue_message, write_github_env,
 )
 import yaml
 import datetime
@@ -70,9 +71,8 @@ class Scaffold:
             )
             secondary_keywords_map = {}
 
-        aggregated_msg = ""
-        msg = ""
         flag = False
+        new_papers_by_topic = []
         active_topics = []  # 收集本次有新增论文的 topic 简称
         consecutive_failures = 0  # 连续请求失败计数，用于熔断
         MAX_CONSECUTIVE_FAILURES = 5  # 连续失败达到该次数则终止本轮扫描
@@ -93,7 +93,7 @@ class Scaffold:
 
         def _process_topic(keyword: str, query: str) -> int:
             """处理单个 keyword + query 组合，返回新论文数量。"""
-            nonlocal aggregated_msg, msg, flag, consecutive_failures
+            nonlocal flag, consecutive_failures
             encoded_keyword = urllib.parse.quote(keyword, safe='')
             topic = f"{encoded_keyword}%20{urllib.parse.quote(query, safe='')}"
             # random sleep to avoid being blocked
@@ -179,20 +179,13 @@ class Scaffold:
 
             logger.info(f"new_items: {new_items}")
 
-            # if there is any new items, we set flag to create a new issue
-            if len(new_items) > 0:
+            if new_items:
                 flag = True
-
-            # only when new items >0 in this topic we creat the msg
-            if len(new_items) > 0:
-                aggregated_msg += get_msg(new_items, topic, aggregated=True)
-                msg += get_msg(new_items, topic)
+                new_papers_by_topic.append((topic, new_items))
                 # 收集该 topic 的简称，用于后续 Issue 标题
                 short_name = get_topic_short_name(topic)
                 if short_name not in active_topics:
                     active_topics.append(short_name)
-            logger.info(f"aggregated_msg: {aggregated_msg}")
-            logger.info(f"msg: {msg}")
 
             return len(new_items)
 
@@ -217,19 +210,32 @@ class Scaffold:
         # save cache
         yaml.safe_dump(dblp_cache, open(cache_path, "w", encoding="utf-8"), sort_keys=False, indent=2, allow_unicode=True)
 
-        if env == "prod":
-            env_file = os.getenv("GITHUB_ENV")
+        if flag:
+            project_root = Path(__file__).resolve().parent.parent
+            template = (project_root / ".github" / "issue-template.md").read_text(encoding="utf-8")
+            repository = os.getenv(
+                "GITHUB_REPOSITORY", "Awesome-Image-Registration-Organization/IR-paper-update-tracker"
+            )
+            github_server = os.getenv("GITHUB_SERVER_URL", "https://github.com")
+            ir_papers_url = f"{github_server}/{repository}/blob/main/IR-Papers.md"
+            cache_url = f"{github_server}/{repository}/blob/main/cached/dblp.yaml"
+            msg, issue_notice = build_issue_message(
+                new_papers_by_topic, template, ir_papers_url, cache_url
+            )
+            logger.info(
+                f"Issue message generated: {len(msg)} chars; "
+                f"shortened: {bool(issue_notice)}"
+            )
 
-            # check if msg is too long
-            if len(msg) > 4096:
-                msg = msg[:4096] + "..."
-
-            if flag:
-                # 生成 Issue 标题中的 topic 片段，控制长度不超过 80 字符
+            if env == "prod":
                 title_topics = format_title_topics(active_topics)
-                with open(env_file, "a") as f:
-                    f.write("MSG=$'" + aggregated_msg + msg + "'\n")
-                    f.write(f"ISSUE_TITLE_TOPICS={title_topics}\n")
+                write_github_env(os.getenv("GITHUB_ENV"), {
+                    "MSG": msg,
+                    "ISSUE_NOTICE": issue_notice,
+                    "CACHE_URL": cache_url,
+                    "IR_PAPERS_URL": ir_papers_url,
+                    "ISSUE_TITLE_TOPICS": title_topics,
+                })
 
 
 if __name__ == "__main__":
