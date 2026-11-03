@@ -40,7 +40,7 @@ In `dev` mode the script will:
 - Print logs to stdout
 - **Not** write to `GITHUB_ENV`
 
-The logs report the generated Issue message length and whether it was shortened. To preview the full body without a DBLP run, call `build_issue_message` with sample topic items and the real template.
+The logs report the generated Issue message length. To preview the full body without a DBLP run, call `build_issue_message` with sample topic items and the real template.
 
 ---
 
@@ -122,14 +122,11 @@ Paper Update [Venue1, Venue2, ...] @ YYYY-MM-DD
 ```
 
 The issue body contains:
-- Overall paper/search-topic counts and a summary table with each topic's `[+N]` count.
-- An unordered list of paper titles grouped by search topic, with:
-  - `[PUB]` hyperlink pointing to the DBLP `ee` field
-  - `[CODE]` hyperlink (if a GitHub repo URL was found in the abstract)
-  - Tag badges such as **`medi.`** **`pc.`** (if automatic tag detection matched any keywords)
+- Overall paper/search-topic counts and a summary table with each topic's new-paper count.
+- A venue link for each topic pointing to the corresponding `IR-Papers.md` section. Individual paper titles, publication links, code links, and tags are not listed in the Issue. Repeated venue headings intentionally use the same anchor, which opens the first occurrence in the document.
 - Links to the lossless `cached/dblp.yaml` data and the categorized `IR-Papers.md` view. The categorized view may skip papers with unmapped venues, so the cache is the complete-data fallback.
 
-GitHub limits an Issue body to 65,536 characters. The generator measures the rendered template with a safety margin. If necessary, it reduces whole paper entries with a balanced per-topic limit and reports how many papers were omitted; it never cuts through a title, URL, or Markdown link. If no balanced limit fits, a greedy fallback retains individual entries that fit. If no details fit, it falls back to the summary only. The cache always retains all papers.
+GitHub limits an Issue body to 65,536 characters. The generator measures the rendered template with a safety margin and falls back to overall counts without the table if necessary. The cache always retains all papers.
 
 ---
 
@@ -165,7 +162,7 @@ GitHub limits an Issue body to 65,536 characters. The generator measures the ren
 ### Key Modules
 
 - **`src/main.py`** – Loads cache, iterates over topics, queries DBLP, filters by year and secondary keywords, performs three-stage deduplication (`ee` → `title` → global cross-topic), compares against cache, enriches new papers (abstracts, related code, tags, Chinese translation), and writes new papers to `GITHUB_ENV`.
-- **`src/utils.py`** – Contains `get_dblp_items` (JSON parsing), `deduplicate_items_by_ee` / `deduplicate_items_by_title` / global dedup logic, `filter_items_by_year` (year window filter), `get_msg` (Markdown formatting with `related_code` and `tags` support), `TAG_RULES` (automatic tag detection), and helpers for topic short-name extraction.
+- **`src/utils.py`** – Contains `get_dblp_items` (JSON parsing), `deduplicate_items_by_ee` / `deduplicate_items_by_title` / global dedup logic, `filter_items_by_year` (year window filter), `build_issue_message` (summary tables with `IR-Papers.md` section links), `TAG_RULES` (automatic tag detection), and helpers for topic short-name extraction.
 - **`cached/dblp.yaml`** – YAML mapping of topic → list of paper dicts with fields: `author`, `title`, `venue`, `year`, `type`, `access`, `key`, `doi`, `ee`, `url`, `abstract`, `abstract_cn`, `related_code`, `tags`. Serves as the source of truth for what has already been reported.
 
 ---
@@ -193,9 +190,7 @@ schedule:
 
 ### Change the Message Format
 
-Edit `src/utils.py` → `get_msg`. Keep the `aggregated` parameter behavior intact:
-- `aggregated=True` → returns only the venue heading with `[+N]` count.
-- `aggregated=False` → returns the heading plus the unordered paper list.
+Edit `src/utils.py` → `_get_issue_summary` and `build_issue_message`. Keep paper titles out of the Issue and preserve each topic's link to its `IR-Papers.md` venue section.
 
 ### Change the Year Window
 

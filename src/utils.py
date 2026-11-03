@@ -453,30 +453,44 @@ def format_title_topics(topics, max_len=80):
     return f"{topics[0]} 等{len(topics) - 1}个"
 
 
-def get_msg(items, topic, aggregated=False, total_count=None):
-    # 将 URL 编码的 topic 转回可读字符串
-    string_topic = urllib.parse.unquote(topic)
-    # 提取 topic 名称（取倒数第二个冒号分隔的部分）
-    name_topic = string_topic.split(":")[-2]
+IR_PAPERS_TOPIC_VENUE_MAP = {
+    "alt": "ALT",
+    "ai": "AI",
+    "ml": "Machine Learning",
+    "jmlr": "JMLR",
+    "pami": "TPAMI",
+    "sp": "S&P",
+    "uss": "USENIX Security",
+    "mm": "MM",
+    "ijcv": "IJCV",
+    "naacl-hlt": "NAACL",
+    "sigmod": "SIGMOD",
+    "pvldb": "VLDB",
+    "mobicom": "MOBICOM",
+    "eurosys": "EuroSys",
+    "tpds": "TPDS",
+    "tocs": "TOCS",
+    "tos": "TOS",
+    "tcad": "TCAD",
+    "tc": "TC",
+    "icse": "ICSE",
+    "focs": "FOCS",
+    "stoc": "STOC",
+    "medical_image_anal.": "MIA",
+    "tmi": "TMI",
+    "ipmi": "IPMI",
+    "titb": "JBHI",
+}
 
-    count = len(items) if total_count is None else total_count
-    msg = f"### [{name_topic}](https://dblp.org/search?q={topic}) [+{count}]\n\n"
 
-    if not aggregated:
-        for item in items:
-            title = item["title"]
-            suffix = "" if title.endswith(".") else "."
-            msg += f"- {title}{suffix}"
-            ee = item.get("ee", "")
-            related_code = (item.get("related_code") or "").strip()
-            if ee:
-                msg += f" [[PUB]({ee})]"
-            if related_code:
-                msg += f" [[CODE]({related_code})]"
-            msg += f"{format_paper_tags(item.get('tags') or [])}\n"
-        msg += "\n"
+def get_ir_papers_venue_name(topic):
+    short_name = get_topic_short_name(topic)
+    return IR_PAPERS_TOPIC_VENUE_MAP.get(short_name.lower(), short_name)
 
-    return msg
+
+def get_github_heading_anchor(heading):
+    normalized = heading.strip().lower()
+    return re.sub(r"[^\w\- ]", "", normalized).replace(" ", "-")
 
 
 GITHUB_ISSUE_BODY_LIMIT = 65536
@@ -484,7 +498,7 @@ ISSUE_BODY_SAFETY_MARGIN = 1024
 ISSUE_BODY_MAX_CHARS = GITHUB_ISSUE_BODY_LIMIT - ISSUE_BODY_SAFETY_MARGIN
 
 
-def _get_issue_summary(topic_items):
+def _get_issue_summary(topic_items, ir_papers_url):
     total_papers = sum(len(items) for _, items in topic_items)
     lines = [
         "## Summary",
@@ -495,35 +509,11 @@ def _get_issue_summary(topic_items):
         "| --- | ---: |",
     ]
     for topic, items in topic_items:
-        name_topic = urllib.parse.unquote(topic).split(":")[-2]
-        name_topic = name_topic.replace("|", "\\|").replace("\n", " ")
-        lines.append(f"| {name_topic} | {len(items)} |")
+        venue_name = get_ir_papers_venue_name(topic)
+        display_name = venue_name.replace("|", "\\|").replace("\n", " ")
+        anchor = get_github_heading_anchor(venue_name)
+        lines.append(f"| [{display_name}]({ir_papers_url}#{anchor}) | {len(items)} |")
     return "\n".join(lines) + "\n"
-
-
-def _get_issue_details(topic_items, shown_topic_items):
-    blocks = []
-    for (topic, items), shown_items in zip(topic_items, shown_topic_items):
-        if shown_items:
-            blocks.append(get_msg(shown_items, topic, total_count=len(items)).rstrip())
-    if not blocks:
-        return ""
-    return "## New papers\n\n" + "\n\n".join(blocks) + "\n"
-
-
-def _get_issue_notice(shown_papers, total_papers, details_omitted=False):
-    if shown_papers == total_papers and not details_omitted:
-        return ""
-    if details_omitted:
-        return (
-            "> **Content shortened:** Paper details were omitted because the full update "
-            "exceeds GitHub's Issue body limit. The complete update is available in `cached/dblp.yaml`."
-        )
-    return (
-        f"> **Content shortened:** Showing **{shown_papers}** of **{total_papers}** new papers "
-        f"({total_papers - shown_papers} omitted) to stay within GitHub's Issue body limit. "
-        "See the complete data below."
-    )
 
 
 def _render_issue_body(template, msg, notice, ir_papers_url, cache_url):
@@ -539,79 +529,23 @@ def _render_issue_body(template, msg, notice, ir_papers_url, cache_url):
 
 
 def build_issue_message(topic_items, template, ir_papers_url, cache_url, max_chars=ISSUE_BODY_MAX_CHARS):
-    """生成适配 GitHub 长度限制的 Issue 内容，返回 (正文消息, 省略提示)。"""
+    """生成包含 IR-Papers.md 章节链接的 Issue 摘要，返回 (正文消息, 空提示)。"""
     if not topic_items:
         return "", ""
 
     total_papers = sum(len(items) for _, items in topic_items)
-    summary = _get_issue_summary(topic_items)
-
-    def build_selected_candidate(shown_topic_items):
-        details = _get_issue_details(topic_items, shown_topic_items)
-        msg = summary.rstrip() + "\n"
-        if details:
-            msg += "\n" + details
-        shown_papers = sum(len(items) for items in shown_topic_items)
-        notice = _get_issue_notice(shown_papers, total_papers)
-        return msg, notice
-
-    def build_candidate(limits):
-        shown_topic_items = [
-            items[:limit] for (_, items), limit in zip(topic_items, limits)
-        ]
-        return build_selected_candidate(shown_topic_items)
-
-    def fits(candidate):
-        return len(_render_issue_body(template, *candidate, ir_papers_url, cache_url)) <= max_chars
-
-    full_limits = [len(items) for _, items in topic_items]
-    full_candidate = build_candidate(full_limits)
-    if fits(full_candidate):
-        return full_candidate
-
-    best_candidate = None
-    low, high = 1, max(full_limits) - 1
-    while low <= high:
-        limit = (low + high) // 2
-        candidate = build_candidate([min(limit, len(items)) for _, items in topic_items])
-        if fits(candidate):
-            best_candidate = candidate
-            low = limit + 1
-        else:
-            high = limit - 1
-
-    if best_candidate is not None:
-        return best_candidate
-
-    greedy_items = [[] for _ in topic_items]
-    greedy_candidate = None
-    for topic_index, (_, items) in enumerate(topic_items):
-        for item in items:
-            greedy_items[topic_index].append(item)
-            candidate = build_selected_candidate(greedy_items)
-            if fits(candidate):
-                greedy_candidate = candidate
-            else:
-                greedy_items[topic_index].pop()
-    if greedy_candidate is not None:
-        return greedy_candidate
-
-    summary_candidate = (
-        summary,
-        _get_issue_notice(0, total_papers, details_omitted=True),
-    )
-    if fits(summary_candidate):
-        return summary_candidate
+    candidate = (_get_issue_summary(topic_items, ir_papers_url), "")
+    rendered = _render_issue_body(template, *candidate, ir_papers_url, cache_url)
+    if len(rendered) <= max_chars:
+        return candidate
 
     compact_summary = (
         f"## Summary\n\n**{total_papers}** new papers across "
         f"**{len(topic_items)}** search topics.\n"
     )
-    compact_candidate = (
-        compact_summary,
-        _get_issue_notice(0, total_papers, details_omitted=True),
-    )
-    if not fits(compact_candidate):
+    compact_candidate = (compact_summary, "")
+    rendered = _render_issue_body(template, *compact_candidate, ir_papers_url, cache_url)
+    if len(rendered) > max_chars:
         raise ValueError("Issue template exceeds the configured body length limit")
     return compact_candidate
 

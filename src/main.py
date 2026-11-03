@@ -222,10 +222,7 @@ class Scaffold:
             msg, issue_notice = build_issue_message(
                 new_papers_by_topic, template, ir_papers_url, cache_url
             )
-            logger.info(
-                f"Issue message generated: {len(msg)} chars; "
-                f"shortened: {bool(issue_notice)}"
-            )
+            logger.info(f"Issue message generated: {len(msg)} chars")
 
             if env == "prod":
                 title_topics = format_title_topics(active_topics)
