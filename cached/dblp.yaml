@@ -18611,7 +18611,23 @@ registra%20venue%3AECCV%3A:
   doi: 10.1007/978-3-032-37429-5_13
   ee: https://doi.org/10.1007/978-3-032-37429-5_13
   url: https://dblp.org/rec/conf/eccv/MatinkiaR26
-  abstract: ''
+  abstract: Diffeomorphic image registration is central to medical image analysis,
+    enabling anatomically consistent alignment across subjects. Most learning-based
+    diffeomorphic methods model autonomous ODEs(ordinary differential equations) by
+    parameterizing a stationary velocity field and recovering deformations via scaling-and-squaring.
+    While non-autonomous ODEs with time-dependent velocities increase expressiveness,
+    existing approaches rely on numerical integration to implicitly enforce flow structure
+    that entangles model expressiveness with discretization accuracy. We propose a
+    framework to directly learn the continuous-time solution of a non-autonomous ODE
+    formulated as a two-parameterflow map. By enforcing cocycle consistency, a fundamental
+    structural property of time-varying flows, we learn the flow maps without time
+    discretization and velocity integration during training. The framework recovers
+    diffeomorphic mappings at inference using a small number of compositions. Our
+    proposed framework seamlessly incorporates standard registration backbones and
+    improves alignment accuracy consistently across nine datasets while preserving
+    diffeomorphic structure. Notably, the proposed method achieves an average Dice
+    improvement of 2.1% on brain MRI benchmarks, a 12% TRE reduction on lung CT, and
+    a 2.6% Dice gain on cardiac MRI and ultrasound datasets.
   related_code: ''
   tags: []
 - author: Yue Pan 0009, Tao Sun 0020, Liyuan Zhu, Lucas Nunes, Iro Armeni, Jens Behley,
