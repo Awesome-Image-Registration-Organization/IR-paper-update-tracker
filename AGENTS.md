@@ -10,7 +10,7 @@
 1. GitHub Actions runs the tracker once per day (cron: `0 0 * * *`) and on every push to `main`. A separate manually-triggered workflow (`.github/workflows/fetch-all-years.yml`) is also available to collect papers from **all years** without the default 3-year window.
 2. `src/main.py` reads `config.yaml` → takes `dblp.keywords` (a list of search keyword groups) and `dblp.queries` (plain venue restrictions), assembles fully URL-encoded DBLP search topics, and queries the DBLP search API. In **automatic runs** (`schedule` / `push`), the `--primary_only` flag is active: only the first keyword (`registra`) is used to scan all venues; venues where `registra` discovers **new papers** are then re-scanned with the remaining keywords. This reduces API calls. **Manual runs** (`workflow_dispatch`) use all keywords for all venues.
 3. Extracted paper metadata is **filtered by year** (last 3 years + next 1 year), optionally **filtered by secondary keywords** (see `config.yaml`), **deduplicated by both `ee` and `title`**, and **globally deduplicated across topics** via seen `ee`/`title` sets.
-4. New papers (not yet in `cached/dblp.yaml`) are collected by topic, formatted as a summary plus detailed Markdown lists, automatically reduced to fit GitHub's Issue body limit, and written to `GITHUB_ENV` (`MSG`, `ISSUE_NOTICE`, `CACHE_URL`, `IR_PAPERS_URL`, and `ISSUE_TITLE_TOPICS`).
+4. New papers (not yet in `cached/dblp.yaml`) are collected by topic and formatted as a summary table whose venue names link to the corresponding sections in `IR-Papers.md`; individual paper titles are not listed in the Issue. The rendered body is checked against GitHub's Issue body limit before the message is written to `GITHUB_ENV` (`MSG`, `ISSUE_NOTICE`, `CACHE_URL`, `IR_PAPERS_URL`, and `ISSUE_TITLE_TOPICS`).
 5. `scripts/fetch_abstracts.py` backfills missing abstracts and Chinese translations for current-year papers.
 6. `scripts/fetch_related_code.py` scans all papers and extracts GitHub repository links from abstracts into the `related_code` field.
 7. `scripts/fetch_tags.py` (or the inline call in `main.py`) detects keyword tags (`medi.`, `nat.`, `rs.`, `pc.`, `data.`, `dep.`, `oth.`) for each paper based on its title and abstract, storing them in the `tags` field.
@@ -83,22 +83,11 @@
 - The file is overwritten after every successful run.
 - **Agent Note**: If you add new fields to the paper dict, ensure backward compatibility; old cache entries missing the new field should be handled gracefully.
 
-### 4. Message Formatting (`get_msg`)
+### 4. Message Formatting
 - Location: `src/utils.py`
-- `aggregated=True`: Returns only the topic heading with a `[+N]` count.
-- `aggregated=False`: Returns the topic heading **plus** an unordered list of papers in the form:
-  ```markdown
-  - {title}. [[PUB]({ee})]
-  ```
-  If `related_code` is present, a `[[CODE]({related_code})]` link is appended after `[[PUB]({ee})]` with a separating space:
-  ```markdown
-  - {title}. [[PUB]({ee})] [[CODE]({related_code})]
-  ```
-  If `tags` is non-empty, tag badges are appended after the links (or after the title if no links exist):
-  ```markdown
-  - {title}. [[PUB]({ee})] [[CODE]({related_code})] [**`pc.`** **`data.`** ]
-  ```
-- `build_issue_message` creates an overall summary table followed by topic details. It measures the actual rendered template against GitHub's 65,536-character Issue body limit (with a 1,024-character safety margin). Oversized bodies are reduced at whole-paper boundaries using a balanced per-topic limit. If no balanced limit fits, a greedy fallback retains individual entries that fit; only entries that cannot fit are omitted. If no details fit, only the summary is retained. `ISSUE_NOTICE` reports the omission. The lossless fallback link points to `cached/dblp.yaml`; `IR-Papers.md` is a categorized view and may skip unmapped venues.
+- `build_issue_message` creates an overall summary table with each topic's new-paper count. Venue names link to the corresponding `IR-Papers.md` heading; individual paper titles, publication links, code links, and tags are not included in the Issue.
+- `get_ir_papers_venue_name` maps DBLP topic short names to the display headings used by `IR-Papers.md`. `get_github_heading_anchor` generates the GitHub heading fragment. Repeated venue headings intentionally use the same fragment and therefore open the first occurrence in the document.
+- The actual rendered template is measured against GitHub's 65,536-character Issue body limit (with a 1,024-character safety margin). If the linked table is too large, the body falls back to overall counts only. `ISSUE_NOTICE` remains available to the template but is empty. The lossless fallback link points to `cached/dblp.yaml`; `IR-Papers.md` is a categorized view and may skip unmapped venues.
 - `write_github_env` writes multiline values using GitHub Actions heredoc syntax. Do not reintroduce percent-encoding or shell `$'...'` quoting.
 - `get_topic_short_name` extracts the venue short name (the segment after the last `/`, or the whole name if no `/`) from a topic URL. Used for the Issue title.
 - `format_title_topics` joins short names with `, ` and truncates to ≤80 characters, appending `等N个` when truncated.
@@ -150,8 +139,9 @@ dblp:
 1. Find the DBLP venue code (e.g., `venue:ICML` or `streamid:journals/pami`).
 2. Append the **plain** query string to `config.yaml` under `dblp.queries` (e.g., `venue:ICML:`). The runner handles URL encoding automatically.
 3. Update `scripts/convert_cache_to_md.py` if you want the new venue mapped to a specific category in `IR-Papers.md`.
-4. Update `README.md` (both EN and CN sections) to list the new venue.
-5. Update this `AGENTS.md` if the change affects architecture or conventions.
+4. If the topic short name differs from the `IR-Papers.md` heading, add it to `IR_PAPERS_TOPIC_VENUE_MAP` in `src/utils.py` so the Issue links to the correct section.
+5. Update `README.md` (both EN and CN sections) to list the new venue.
+6. Update this `AGENTS.md` if the change affects architecture or conventions.
 
 ### Backfilling Abstracts for Existing Papers
 - A standalone script `scripts/fetch_abstracts.py` is provided to backfill `abstract` fields for papers already in `cached/dblp.yaml`.
@@ -252,9 +242,9 @@ The tracker is domain-agnostic. To pivot from Image Registration to any other fi
 No changes to `src/main.py` or the GitHub Actions workflow are required.
 
 ### Changing Message Format
-- Edit `src/utils.py` → `get_msg`.
+- Edit `src/utils.py` → `_get_issue_summary` and `build_issue_message`.
 - If you modify the Markdown structure, verify that the issue template renders correctly in GitHub.
-- Keep the `aggregated` parameter behavior: `True` = heading only, `False` = heading + list.
+- Keep paper titles out of the Issue and preserve links to the corresponding `IR-Papers.md` venue sections.
 
 ### Changing Issue Template
 - Edit `.github/issue-template.md`.
@@ -302,7 +292,7 @@ In `dev` mode the script will:
 - Print logs to stdout
 - **Not** write to `GITHUB_ENV`
 
-The logs report the generated Issue message length and whether it was shortened. To preview the full body without a DBLP run, call `build_issue_message` with sample topic items and the real template.
+The logs report the generated Issue message length. To preview the full body without a DBLP run, call `build_issue_message` with sample topic items and the real template.
 
 ## Common Pitfalls
 

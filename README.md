@@ -13,9 +13,9 @@ An automated paper tracking bot for **Image Registration** research. It periodic
   3. Globally deduplicates across topics using a shared `seen_ee` / `seen_title` set, preventing the same paper from being reported under multiple venue queries.
 - **Year-Based Filtering**: Only tracks papers published within the last 3 years and the next 1 year (e.g., 2023–2027 when running in 2026).
 - **Secondary Keyword Filtering**: For broad keyword groups (e.g., `stitch|panorama|mosaic`), papers whose title + abstract do not contain at least one secondary keyword are discarded, reducing noise from unrelated domains.
-- **Auto-Notification**: Creates nicely formatted GitHub Issues daily via GitHub Actions.
+- **Auto-Notification**: Creates daily GitHub Issues via GitHub Actions, with per-venue counts and links to the corresponding sections in `IR-Papers.md` instead of listing paper titles.
 - **Automatic Abstract Fetching**: Newly discovered papers automatically retrieve abstracts from Crossref, Semantic Scholar, OpenAlex, and arXiv (in that order) to enrich the cache.
-- **Automatic Related Code Extraction**: Automatically scans abstracts for GitHub repository URLs and appends `[[CODE](url)]` links in issues.
+- **Automatic Related Code Extraction**: Automatically scans abstracts for GitHub repository URLs, stores them in `related_code`, and adds `[[CODE](url)]` links in `IR-Papers.md`.
 - **Automatic Tag Detection**: Automatically assigns keyword tags (`medi.`, `nat.`, `rs.`, `pc.`, `data.`, `dep.`, `oth.`) based on title and abstract content.
 - **Automatic Chinese Translation**: Successfully retrieved abstracts are automatically translated into Chinese via Qwen-MT-plus and stored as `abstract_cn`.
 
@@ -98,9 +98,9 @@ This repository is based on [dblp-watcher](https://github.com/beiyuouo/dblp-watc
   3. 跨主题全局去重：通过共享的 `seen_ee` / `seen_title` 集合避免同一篇论文在不同会议查询下被重复报告。
 - **年份过滤**：仅追踪近三年及未来一年内发表的论文（例如 2026 年运行时，保留 2023–2027 年的论文）。
 - **二次关键词过滤**：针对宽泛的关键词组（如 `stitch|panorama|mosaic`），若论文的标题与摘要中均不含任何二次关键词，则自动丢弃，减少无关领域噪声。
-- **自动通知**：通过 GitHub Actions 每日自动生成格式化的 GitHub Issue。
+- **自动通知**：通过 GitHub Actions 每日自动生成 GitHub Issue，按 venue 展示新增数量并链接到 `IR-Papers.md` 的对应章节，不再列出具体论文标题。
 - **自动获取摘要**：新发现的论文会自动从 Crossref、Semantic Scholar、OpenAlex 和 arXiv 依次查询并补充摘要，以丰富缓存数据。
-- **自动提取相关代码**：自动扫描摘要中的 GitHub 仓库链接，并在 Issue 中追加 `[[CODE](url)]` 链接。
+- **自动提取相关代码**：自动扫描摘要中的 GitHub 仓库链接，保存到 `related_code` 字段，并在 `IR-Papers.md` 中追加 `[[CODE](url)]` 链接。
 - **自动标签检测**：根据标题与摘要内容自动标注关键词标签（`medi.` 医学图像、`nat.` 自然图像、`rs.` 遥感、`pc.` 点云、`data.` 数据集/基准/综述、`dep.` 深度学习、`oth.` 其他）。
 - **自动中文翻译**：成功获取的英文摘要会自动通过 Qwen-MT-plus 翻译为中文，存储为 `abstract_cn` 字段。
 
