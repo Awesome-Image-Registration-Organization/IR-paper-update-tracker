@@ -18720,7 +18720,26 @@ registra%20venue%3AECCV%3A:
   doi: 10.1007/978-3-032-37464-6_26
   ee: https://doi.org/10.1007/978-3-032-37464-6_26
   url: https://dblp.org/rec/conf/eccv/XiongXASWW26
-  abstract: ''
+  abstract: 'Unsupervised registration of large-scale LiDAR point clouds remains challenging
+    due to the geometric ambiguity inherent in outdoor scenes, which degrades pseudo-label
+    quality and leads to suboptimal convergence, particularly for sparse, low-resolution
+    scans such as those from nuScenes. We reveal that registration models intrinsically
+    encode semantic awareness that strongly correlates with registration accuracy,
+    albeit without explicit semantic supervision. However, this native awareness is
+    fragile: noisy supervision arising from geometric ambiguity in unsupervised settings
+    rapidly erodes the learned semantic structure, causing performance collapse. To
+    this end, we propose CAESAR, a teacher-student framework guided by an off-the-shelf
+    3D segmentation model exclusively during training. We observe that potential inlier
+    matches are often buried just beneath a few spurious neighbors in the noisy feature
+    space, motivating Dual-Cue Guided Re-Matching to recover them through reselection
+    rather than simply rejecting. Building on this, a train-only Semantic-Geometric
+    Label Mining performs lightweight, batch-specific teacher refinement and mines
+    reliable pseudo-labels under semantic guidance. We further introduce Semantic
+    Predictive Distillation to consolidate the student''s semantic awareness in the
+    feature space. Extensive experiments on KITTI and nuScenes demonstrate state-of-the-art
+    performance, with pronounced gains on the challenging nuScenes benchmark. Crucially,
+    CAESAR incurs zero inference overhead and requires no semantic annotations on
+    the registration data. Code will be released.'
   related_code: ''
   tags:
   - pc.
