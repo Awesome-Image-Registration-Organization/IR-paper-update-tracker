@@ -42988,6 +42988,123 @@ registra%20venue%3AMedical_Image_Anal.%3A:
   tags:
   - medi.
   - dep.
+- author: Junfeng Jiang, Ao Shen, Zhan Wang, Xueming Fu, Zhengming Chen, Luming Nong,
+    Feng Wang, Shaohua Kevin Zhou
+  title: 'RadGS-Reg+: Teacher-student radiative Gaussian reconstruction and 3D/3D
+    registration for lumbar CT/X-ray registration.'
+  venue: Medical Image Anal.
+  year: '2027'
+  type: Journal Articles
+  access: closed
+  key: journals/mia/JiangSWFCNWZ27
+  doi: 10.1016/J.MEDIA.2026.104319
+  ee: https://doi.org/10.1016/j.media.2026.104319
+  url: https://dblp.org/rec/journals/mia/JiangSWFCNWZ27
+  abstract: 'Accurate registration between preoperative CT and intraoperative X-ray
+    is essential for image-guided lumbar spine surgery, yet remains challenging because
+    conventional 2D/3D registration methods operate in projection space and suffer
+    from spatial information loss, domain discrepancy, and limited robustness under
+    noisy sparse-view imaging. In this work, we propose RadGS-Reg+, a reconstruction-first
+    framework that reformulates lumbar CT/X-ray registration as a 3D/3D alignment
+    problem. Instead of directly matching digitally reconstructed radiographs to intraoperative
+    X-rays, RadGS-Reg+ first reconstructs an X-ray-conditioned registration-oriented
+    vertebral representation from biplanar X-rays and then aligns it with the preoperative
+    CT through 3D/3D pose regression. The framework integrates a CT-based teacher
+    network for vertebral anatomical prior learning, a student reconstruction network
+    trained by semi-supervised cross-modal distillation, adaptive feature fusion for
+    biplanar view integration, counterfactual regularization for suppressing spurious
+    responses caused by overlapping anatomy, and a discrepancy-aware fusion module
+    for robust 3D/3D registration. Experiments on a real intraoperative lumbar dataset
+    with five-fold cross-validation show that the proposed method achieves 90.93%
+    SSIM and 29.27 dB PSNR in reconstruction, and 1.57 mm mTRE, 90.22% success rate,
+    and 0.86 s runtime in registration. The code is available at: github.com/shenao1995/RadGS_Reg.'
+  related_code: ''
+  tags:
+  - medi.
+  - pc.
+  - data.
+  - dep.
+- author: Aya Ghoul, Kerstin Hammernik, Andreas Lingg, Patrick Krumm, Daniel Rueckert,
+    Sergios Gatidis, Thomas Küstner
+  title: Learning efficient non-rigid registration in k-space for accelerated Magnetic
+    Resonance Imaging.
+  venue: Medical Image Anal.
+  year: '2027'
+  type: Journal Articles
+  access: closed
+  key: journals/mia/GhoulHLKRGK27
+  doi: 10.1016/J.MEDIA.2026.104296
+  ee: https://doi.org/10.1016/j.media.2026.104296
+  url: https://dblp.org/rec/journals/mia/GhoulHLKRGK27
+  abstract: Non-rigid motion estimation at high temporal resolution is essential for
+    dynamic and real-time Magnetic Resonance Imaging (MRI), yet remains challenging
+    due to the spatio-temporal sampling limitations of accelerated acquisitions. Conventional
+    motion estimation pipelines typically reconstruct images before performing registration.
+    However, the high undersampling required to achieve high temporal resolution degrades
+    image quality and introduces artifacts that corrupt the spatial structures needed
+    for reliable feature matching. Direct k-space-based registration approaches bypass
+    image reconstruction, but often require auxiliary prior information or rely on
+    localized processing, limiting their ability to capture global contextual representations
+    while increasing workflow and computational complexity. In this work, we propose
+    the Local-All Pass Attention Network (LAPANet), an image registration framework
+    for direct non-rigid motion estimation from accelerated multi-coil k-space data.
+    LAPANet learns a global, multi-scale decomposition of the spectral phase structure,
+    where non-rigid motion is modeled as spatially varying phase variations in k-space.
+    Evaluated on cardiac MRI, the proposed method accurately recovers motion from
+    as few as 2 lines/frame in a Cartesian trajectory and 3 spokes/frame in a non-Cartesian
+    radial trajectory. Under these high acceleration settings, existing image-based
+    and k-space-based registration methods fail to maintain anatomically plausible
+    motion estimates. LAPANet enables reconstruction-free non-rigid motion estimation
+    at sub-5 ms temporal resolution with inference times suitable for online deployment,
+    supporting real-time tracking, motion-robust reconstruction, and interventional
+    MRI.
+  related_code: ''
+  tags:
+  - medi.
+- author: Rencheng Zheng, Hang Yu, Xinran Wu, Xueqin Xia, Ruokun Li, Qidong Wang,
+    Caizhong Chen, Chengyan Wang, He Wang 0016
+  title: Distribution matching based personalized federated learning for multi-center,
+    cross-modal liver image registration.
+  venue: Medical Image Anal.
+  year: '2027'
+  type: Journal Articles
+  access: closed
+  key: journals/mia/ZhengYWXLWCWW27
+  doi: 10.1016/J.MEDIA.2026.104365
+  ee: https://doi.org/10.1016/j.media.2026.104365
+  url: https://dblp.org/rec/journals/mia/ZhengYWXLWCWW27
+  abstract: In clinical liver MRI, diffusion-weighted imaging (DWI) and dynamic contrast-enhanced
+    (DCE) imaging are commonly used and complementary sequences, particularly for
+    liver tumor diagnosis and assessment. Accurate registration between the two modalities
+    facilitates subsequent quantitative analysis and multi-modal image-based evaluation.
+    Although deep learning has achieved remarkable progress in image registration,
+    considerable challenges remain in multi-parametric liver imaging, mainly due to
+    substantial contrast differences, pronounced respiratory motion, limited single-center
+    training data, and inter-center heterogeneity. This study proposes a cross-modal
+    registration framework for liver DWI and DCE across multi-center datasets. First,
+    a multi-task synthesis-registration network (SynReg) is introduced, which integrates
+    image synthesis and registration within a unified architecture to reduce cross-modal
+    appearance discrepancy and facilitate deformable registration. To further improve
+    personalized learning under cross-center heterogeneity, we propose a personalized
+    decentralized distribution matching (PDDM) framework with SynReg as the backbone.
+    PDDM performs compatibility-aware selective collaboration by identifying compatible
+    external training cases and constructing client-specific collaboration relationships.
+    Signal-to-noise ratio (SNR) distributions are used as a lightweight compatibility
+    descriptor, while the synthesis components remain local and the registration network
+    is selectively aggregated among compatible clients. The framework was evaluated
+    on six datasets collected from five medical centers and acquired on MRI systems
+    from three vendors under both low- and high-b-value settings. PDDM consistently
+    achieved more favorable registration performance than single-center training and
+    representative personalized federated learning methods, while remaining closely
+    competitive with centralized pooled-data training. In comparisons with alternative
+    matching strategies, PDDM showed the most consistently favorable overall performance
+    across centers, b-value settings, and registration metrics. These findings support
+    compatibility-aware selective collaboration as an effective strategy for personalized
+    multi-center liver image registration. Code will be available at https://github.com/ZIC-skyzrc/PDDM-SynReg.
+  related_code: https://github.com/ZIC-skyzrc/PDDM-SynReg
+  tags:
+  - medi.
+  - dep.
 image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20match%20venue%3AIJCAI%3A:
 - author: Harry G. Barrow, Jay M. Tenenbaum, Robert C. Bolles, Helen C. Wolf
   title: 'Parametric Correspondence and Chamfer Matching: Two New Techniques for Image
@@ -73963,6 +74080,39 @@ motion%20correction%20venue%3AMedical_Image_Anal.%3A:
   url: https://dblp.org/rec/journals/mia/VercauterenPMPA06
   abstract: ''
   related_code: ''
+  tags:
+  - medi.
+- author: Haoyuan Le, Qing Wu 0001, Bowen Li, Yuyao Zhang 0005, Hongjiang Wei
+  title: Unsupervised high-resolution 3D MRI motion correction via physics-informed
+    implicit neural representations.
+  venue: Medical Image Anal.
+  year: '2027'
+  type: Journal Articles
+  access: closed
+  key: journals/mia/LeWLZW27
+  doi: 10.1016/J.MEDIA.2026.104335
+  ee: https://doi.org/10.1016/j.media.2026.104335
+  url: https://dblp.org/rec/journals/mia/LeWLZW27
+  abstract: 'Motion-corrupted inverse problems remain a central bottleneck in magnetic
+    resonance imaging (MRI), especially for high-resolution 3D acquisitions where
+    long readouts couple rigid-body displacement with non-Cartesian k-space sampling.
+    We present a physics-informed implicit neural representation (INR) that recasts
+    3D motion correction as continuous neural field estimation. The method embeds
+    a differentiable rigid-body motion operator into the INR forward model, enabling
+    joint, zero-shot optimization of the motion trajectory and motion-free volume
+    directly from raw k-space, without external navigators or paired supervision.
+    By enforcing strict data consistency in a coordinate-based representation, the
+    framework yields globally coherent reconstructions and mitigates hallucination
+    risks under severe motion. Across simulated perturbations and real in-vivo high-resolution
+    radial scans, our approach consistently improves motion estimation accuracy, structural
+    preservation, downstream segmentation, and generalizes across subjects and protocols.
+    Remarkably, for kooshball acquisitions with motion severity up to 10°/20mm, our
+    method outperforms the navigator-based method by approximately 2 dB in peak signal-to-noise
+    ratio. These results establish a unified paradigm for unsupervised, physics-consistent
+    artificial intelligence solving of motion-corrupted MRI inverse problems, with
+    broad applicability beyond a single sequence or anatomy. The source code is available
+    at: https://github.com/AMRI-Lab/MoCo-3DRadial.'
+  related_code: https://github.com/AMRI-Lab/MoCo-3DRadial
   tags:
   - medi.
 deformation%20field%20venue%3AIJCAI%3A: []

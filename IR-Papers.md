@@ -1,5 +1,14 @@
 # IR Papers
 
+## 2027
+
+### MIA
+
+- Distribution matching based personalized federated learning for multi-center, cross-modal liver image registration. [[PUB](https://doi.org/10.1016/j.media.2026.104365)] [[CODE](https://github.com/ZIC-skyzrc/PDDM-SynReg)] [**`medi.`** **`dep.`** ]
+- Learning efficient non-rigid registration in k-space for accelerated Magnetic Resonance Imaging. [[PUB](https://doi.org/10.1016/j.media.2026.104296)] [**`medi.`** ]
+- RadGS-Reg+: Teacher-student radiative Gaussian reconstruction and 3D/3D registration for lumbar CT/X-ray registration. [[PUB](https://doi.org/10.1016/j.media.2026.104319)] [**`medi.`** **`pc.`** **`data.`** **`dep.`** ]
+- Unsupervised high-resolution 3D MRI motion correction via physics-informed implicit neural representations. [[PUB](https://doi.org/10.1016/j.media.2026.104335)] [[CODE](https://github.com/AMRI-Lab/MoCo-3DRadial)] [**`medi.`** ]
+
 ## 2026
 
 ### AAAI
