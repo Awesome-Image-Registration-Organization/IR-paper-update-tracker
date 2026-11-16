@@ -18743,6 +18743,89 @@ registra%20venue%3AECCV%3A:
   related_code: ''
   tags:
   - pc.
+- author: Mengzhu Ding, Xin Song, Xiaoke Ding, Hongwei Ding 0002, Xuecong Liu
+  title: 'RBE-Flow: Recurrent Bayesian Estimation on Feature Manifolds for Cross-Modal
+    Registration.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/DingSDDL26
+  doi: 10.1007/978-3-032-37242-0_18
+  ee: https://doi.org/10.1007/978-3-032-37242-0_18
+  url: https://dblp.org/rec/conf/eccv/DingSDDL26
+  abstract: 'Cross-modal image registration is essential for multi-sensor perception
+    but remains fundamentally challenging due to severe non-linear radiometric discrepancies
+    and geometric distortions. Existing deterministic matching methods lack uncertainty
+    awareness, struggling to navigate the resulting highly non-convex optimization
+    landscape and frequently accumulating errors in ambiguous regions. In this paper,
+    we propose RBE-Flow, a novel framework that reformulates dense cross-modal flow
+    estimation as a closed-loop recurrent Bayesian estimation problem on learned feature
+    manifolds. Diverging from standard feed-forward regression, RBE-Flow establishes
+    a robust self-correcting mechanism by deeply coupling feature-metric non-linear
+    optimization with probabilistic state updates. Specifically, a Recurrent Manifold
+    Optimization (RMO) block iteratively generates flow observations and their associated
+    uncertainties, which are then optimally assimilated into the prior state via an
+    Uncertainty-Adaptive Probabilistic Update (UAPU) using deterministic sigma-point
+    projection. Crucially, the resulting calibrated posterior covariance is fed back
+    to adaptively regularize the damping of subsequent optimization steps, allowing
+    the system to modulate its convergence based on predictive confidence. To ensure
+    stable probabilistic training, we introduce a hybrid supervision scheme featuring
+    a geometry-aware rectified NLL loss that structurally prevents variance collapse.
+    Extensive experiments on challenging OSdataset, WHU-OPT-SAR, and RoadScene benchmarks
+    demonstrate that RBE-Flow consistently achieves state-of-the-art performance,
+    outperforming existing methods by a significant margin, particularly under strict
+    sub-pixel criteria. Project page: https://github.com/NEU-Liuxuecong/RBE-Flow'
+  related_code: https://github.com/NEU-Liuxuecong/RBE-Flow
+  tags:
+  - rs.
+  - dep.
+- author: Jaewon Lee, Mangyu Kong, Euntai Kim
+  title: 'Graph-GSReg: Leveraging 3D Scene Graphs for Gaussian Splatting Registration.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/LeeKK26
+  doi: 10.1007/978-3-032-37135-5_26
+  ee: https://doi.org/10.1007/978-3-032-37135-5_26
+  url: https://dblp.org/rec/conf/eccv/LeeKK26
+  abstract: ''
+  related_code: ''
+  tags: []
+- author: Chongjian Wang, Junjie Gao 0002
+  title: 'SHReg: Strictly Rotation-Equivariant Point Cloud Registration via Spherical
+    Harmonics.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/WangG26
+  doi: 10.1007/978-3-032-37138-6_19
+  ee: https://doi.org/10.1007/978-3-032-37138-6_19
+  url: https://dblp.org/rec/conf/eccv/WangG26
+  abstract: Point cloud registration critically depends on local features that are
+    both distinctive and robust to arbitrary 3D rotations. Existing learning-based
+    methods typically approximate rotation invariance via fragile local reference
+    frames or extensive data augmentation, providing only empirical invariance and
+    often degrading under unseen rotational transformations. In this paper, we propose
+    SHReg, a strictly rotation-equivariant point cloud registration framework grounded
+    in the representation theory of $SO(3)$. By representing local geometric features
+    as irreducible representations of $SO(3)$, SHReg guarantees exact equivariance
+    under arbitrary rotations without relying on local reference frames. Built upon
+    a spherical-harmonics-based equivariant backbone, SHReg jointly learns rotation-invariant
+    descriptors for robust correspondence matching and rotation-equivariant features
+    that preserve fine-grained orientation information. The preserved equivariant
+    structure enables each correspondence to directly hypothesize a rigid transformation,
+    reducing reliance on large-scale hypothesis sampling in conventional RANSAC-based
+    pipelines and leading to improved robustness under challenging rotational variations.
+    Extensive experiments on 3DMatch, 3DLoMatch, and KITTI demonstrate that SHReg
+    consistently outperforms state-of-the-art methods in registration accuracy, particularly
+    under large rotational perturbations.
+  related_code: ''
+  tags:
+  - pc.
+  - dep.
 registra%20streamid%3Aconf%2Fmm%3A:
 - author: Quangui He, Jiahui Qu, Wenqian Dong, Song Xiao 0001, Qinghao Gao
   title: Cycle-Consistent Mamba-Based Registration-Fusion Joint Network for Unregistered
@@ -51452,6 +51535,21 @@ image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20ma
   related_code: ''
   tags:
   - nat.
+- author: Vincent Leroy 0002, Philippe Weinzaepfel, Lojze Zust, Yohann Cabon, Jérôme
+    Revaud
+  title: 'BLASt3R : Bundle Adjustment of Any Image Set with Multi-view Matching and
+    Monocular priors.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/LeroyWZCR26
+  doi: 10.1007/978-3-032-37086-0_34
+  ee: https://doi.org/10.1007/978-3-032-37086-0_34
+  url: https://dblp.org/rec/conf/eccv/LeroyWZCR26
+  abstract: ''
+  related_code: ''
+  tags: []
 image%20match%7Cfeature%20match%7Ckeypoint%20match%7Cgraph%20match%7Cstereo%20match%20streamid%3Aconf%2Fmm%3A:
 - author: Wenmiao Hu, Yichen Zhang 0002, Yuxuan Liang 0002, Yifang Yin, Andrei Georgescu,
     An Tran, Hannes Kruppa, See-Kiong Ng, Roger Zimmermann
