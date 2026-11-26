@@ -20414,6 +20414,22 @@ registra%20streamid%3Ajournals%2Fijcv%3A:
   abstract: ''
   related_code: ''
   tags: []
+- author: Zongyi Xu, Zhongpeng Lang, Yilong Chen, Shanshan Zhao 0001, Xiaoshui Huang,
+    Sean Bin Yang, Yan Zhang, Qianni Zhang, Xinbo Gao 0001
+  title: 'Cross3DReg: A Real-world Cross-source Point Cloud Registration Benchmark.'
+  venue: Int. J. Comput. Vis.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/ijcv/XuLCZHYZZG26
+  doi: 10.1007/S11263-026-03095-5
+  ee: https://doi.org/10.1007/s11263-026-03095-5
+  url: https://dblp.org/rec/journals/ijcv/XuLCZHYZZG26
+  abstract: ''
+  related_code: ''
+  tags:
+  - pc.
+  - data.
 registra%20venue%3AACL%3A: []
 registra%20venue%3ANAACL-HLT%3A: []
 registra%20venue%3AEMNLP%3A:

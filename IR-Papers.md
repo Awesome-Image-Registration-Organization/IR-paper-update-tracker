@@ -154,6 +154,7 @@
 
 ### IJCV
 
+- Cross3DReg: A Real-world Cross-source Point Cloud Registration Benchmark. [[PUB](https://doi.org/10.1007/s11263-026-03095-5)] [**`pc.`** **`data.`** ]
 - CylindFormer: Image-to-Point Cloud Registration with Cylindrical Transformer. [[PUB](https://doi.org/10.1007/s11263-026-02747-w)] [**`pc.`** **`dep.`** ]
 - Deep Learning-Based Point Cloud Registration: A Comprehensive Survey and Taxonomy. [[PUB](https://doi.org/10.1007/s11263-025-02723-w)] [**`pc.`** **`data.`** **`dep.`** ]
 - IterRF: Iterative and Interpretable Mutual Enhancement for Joint Multi-Modal Image Registration and Fusion. [[PUB](https://doi.org/10.1007/s11263-026-03043-3)]
